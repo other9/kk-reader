@@ -10,9 +10,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:00.296174+00:00",
+      "last_fetch": "2026-05-06T03:04:35.007726+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 404"
     },
     {
@@ -25,8 +25,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:00.296610+00:00",
-      "last_success": "2026-05-06T02:11:01.297372+00:00",
+      "last_fetch": "2026-05-06T03:04:35.008071+00:00",
+      "last_success": "2026-05-06T03:04:36.042929+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -40,8 +40,8 @@
       "active": true,
       "etag": "\"a88965db375c15824098230713488605\"",
       "last_modified": "Wed, 18 Sep 2024 03:26:14 GMT",
-      "last_fetch": "2026-05-06T02:11:00.296936+00:00",
-      "last_success": "2026-05-06T02:11:00.976881+00:00",
+      "last_fetch": "2026-05-06T03:04:35.008528+00:00",
+      "last_success": "2026-05-06T03:04:36.023709+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -55,8 +55,8 @@
       "active": true,
       "etag": null,
       "last_modified": "Wed, 6 May 2026 01:54:30 GMT",
-      "last_fetch": "2026-05-06T02:11:00.297456+00:00",
-      "last_success": "2026-05-06T02:11:00.587505+00:00",
+      "last_fetch": "2026-05-06T03:04:35.008821+00:00",
+      "last_success": "2026-05-06T03:04:35.447917+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -70,8 +70,8 @@
       "active": true,
       "etag": "W/\"671afaa09a92650684b6b9e1dfd13480\"",
       "last_modified": "Sat, 20 Aug 2022 00:47:37 GMT",
-      "last_fetch": "2026-05-06T02:11:00.297735+00:00",
-      "last_success": "2026-05-06T02:11:02.931148+00:00",
+      "last_fetch": "2026-05-06T03:04:35.009341+00:00",
+      "last_success": "2026-05-06T03:04:36.205317+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -85,8 +85,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:00.302668+00:00",
-      "last_success": "2026-05-06T02:11:00.688008+00:00",
+      "last_fetch": "2026-05-06T03:04:35.011816+00:00",
+      "last_success": "2026-05-06T03:04:35.450612+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -100,8 +100,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:00.303947+00:00",
-      "last_success": "2026-05-06T02:11:01.049251+00:00",
+      "last_fetch": "2026-05-06T03:04:35.015335+00:00",
+      "last_success": "2026-05-06T03:04:35.776537+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -115,9 +115,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:00.306197+00:00",
+      "last_fetch": "2026-05-06T03:04:35.018760+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 404"
     },
     {
@@ -130,9 +130,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:00.307426+00:00",
+      "last_fetch": "2026-05-06T03:04:35.019889+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "接続エラー: ConnectionError: HTTPSConnectionPool(host='aripy.net', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='aripy.net', port=443): Failed to resolve 'aripy.net' ([Errn"
     },
     {
@@ -145,8 +145,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:00.308426+00:00",
-      "last_success": "2026-05-06T02:11:01.662142+00:00",
+      "last_fetch": "2026-05-06T03:04:35.021357+00:00",
+      "last_success": "2026-05-06T03:04:35.590401+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -160,8 +160,8 @@
       "active": true,
       "etag": "W/\"dde08af965d02c536c1ffd87c5f70206ffb180892ec91f4e5c322d98aafd4f0d\"",
       "last_modified": "Thu, 19 Dec 2024 03:31:54 GMT",
-      "last_fetch": "2026-05-06T02:11:00.309491+00:00",
-      "last_success": "2026-05-06T02:11:00.492357+00:00",
+      "last_fetch": "2026-05-06T03:04:35.022333+00:00",
+      "last_success": "2026-05-06T03:04:35.533014+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -175,8 +175,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:00.310553+00:00",
-      "last_success": "2026-05-06T02:11:02.416223+00:00",
+      "last_fetch": "2026-05-06T03:04:35.023660+00:00",
+      "last_success": "2026-05-06T03:04:36.715640+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -190,8 +190,8 @@
       "active": true,
       "etag": null,
       "last_modified": "Wed, 01 Oct 2025 03:00:58 GMT",
-      "last_fetch": "2026-05-06T02:11:00.358431+00:00",
-      "last_success": "2026-05-06T02:11:02.241453+00:00",
+      "last_fetch": "2026-05-06T03:04:35.063215+00:00",
+      "last_success": "2026-05-06T03:04:36.575890+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -205,8 +205,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:00.492869+00:00",
-      "last_success": "2026-05-06T02:11:02.260429+00:00",
+      "last_fetch": "2026-05-06T03:04:35.448626+00:00",
+      "last_success": "2026-05-06T03:04:37.223508+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -220,8 +220,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:00.587792+00:00",
-      "last_success": "2026-05-06T02:11:01.660081+00:00",
+      "last_fetch": "2026-05-06T03:04:35.450684+00:00",
+      "last_success": "2026-05-06T03:04:35.803753+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -235,9 +235,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:00.688092+00:00",
+      "last_fetch": "2026-05-06T03:04:35.533985+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "接続エラー: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
@@ -250,8 +250,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:00.802799+00:00",
-      "last_success": "2026-05-06T02:11:01.842144+00:00",
+      "last_fetch": "2026-05-06T03:04:35.547104+00:00",
+      "last_success": "2026-05-06T03:04:36.484103+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -265,8 +265,8 @@
       "active": true,
       "etag": null,
       "last_modified": "Thu, 11 Sep 2025 16:18:43 GMT",
-      "last_fetch": "2026-05-06T02:11:00.898280+00:00",
-      "last_success": "2026-05-06T02:11:01.056659+00:00",
+      "last_fetch": "2026-05-06T03:04:35.591256+00:00",
+      "last_success": "2026-05-06T03:04:35.859053+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -280,9 +280,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:00.982094+00:00",
+      "last_fetch": "2026-05-06T03:04:35.672659+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 503"
     },
     {
@@ -295,8 +295,8 @@
       "active": true,
       "etag": "W/\"7731fb734cb1d896f0c158bfa0d17c30\"",
       "last_modified": "Thu, 30 Apr 2026 10:16:11 GMT",
-      "last_fetch": "2026-05-06T02:11:01.050370+00:00",
-      "last_success": "2026-05-06T02:11:02.280498+00:00",
+      "last_fetch": "2026-05-06T03:04:35.777506+00:00",
+      "last_success": "2026-05-06T03:04:36.894995+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -310,8 +310,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:01.052935+00:00",
-      "last_success": "2026-05-06T02:11:01.764617+00:00",
+      "last_fetch": "2026-05-06T03:04:35.784402+00:00",
+      "last_success": "2026-05-06T03:04:36.452673+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -325,8 +325,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:01.057214+00:00",
-      "last_success": "2026-05-06T02:11:03.128868+00:00",
+      "last_fetch": "2026-05-06T03:04:35.804704+00:00",
+      "last_success": "2026-05-06T03:04:38.103393+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -340,8 +340,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:01.298692+00:00",
-      "last_success": "2026-05-06T02:11:02.543439+00:00",
+      "last_fetch": "2026-05-06T03:04:35.859930+00:00",
+      "last_success": "2026-05-06T03:04:36.896808+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -355,9 +355,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:01.668876+00:00",
+      "last_fetch": "2026-05-06T03:04:36.028925+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "パースエラー: <unknown>:79:2: mismatched tag"
     },
     {
@@ -370,10 +370,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:01.670255+00:00",
+      "last_fetch": "2026-05-06T03:04:36.045845+00:00",
       "last_success": null,
-      "error_count": 3,
-      "last_error": "接続エラー: ReadTimeout: HTTPConnectionPool(host='urbansprawl.net', port=80): Read timed out. (read timeout=15)"
+      "error_count": 4,
+      "last_error": "HTTP 404"
     },
     {
       "id": "caa211e459c0",
@@ -385,8 +385,8 @@
       "active": true,
       "etag": "\"67dc63e9faf7249bd4f86b9106862efc\"",
       "last_modified": "Thu, 28 Nov 2024 22:31:44 GMT",
-      "last_fetch": "2026-05-06T02:11:01.776574+00:00",
-      "last_success": "2026-05-06T02:11:02.432581+00:00",
+      "last_fetch": "2026-05-06T03:04:36.205503+00:00",
+      "last_success": "2026-05-06T03:04:36.964756+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -400,9 +400,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:01.843924+00:00",
+      "last_fetch": "2026-05-06T03:04:36.464171+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 404"
     },
     {
@@ -415,8 +415,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:02.246815+00:00",
-      "last_success": "2026-05-06T02:11:02.768872+00:00",
+      "last_fetch": "2026-05-06T03:04:36.485722+00:00",
+      "last_success": "2026-05-06T03:04:36.860982+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -430,8 +430,8 @@
       "active": true,
       "etag": "\"31861f4be7d137a4d41d613a5d952fac\"",
       "last_modified": "Sun, 05 Oct 2025 06:06:25 GMT",
-      "last_fetch": "2026-05-06T02:11:02.261999+00:00",
-      "last_success": "2026-05-06T02:11:04.195159+00:00",
+      "last_fetch": "2026-05-06T03:04:36.542177+00:00",
+      "last_success": "2026-05-06T03:04:37.688533+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -445,8 +445,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:02.286328+00:00",
-      "last_success": "2026-05-06T02:11:04.258173+00:00",
+      "last_fetch": "2026-05-06T03:04:36.576030+00:00",
+      "last_success": "2026-05-06T03:04:37.786798+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -460,9 +460,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:02.367363+00:00",
+      "last_fetch": "2026-05-06T03:04:36.717107+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='blogs.yahoo.co.jp', port=80): Max retries exceeded with url: /sfscottiedog/rss.xml (Caused by NameResolutionError(\"HTTPConnection(host='blogs.yahoo.co.jp', port=80): Failed to"
     },
     {
@@ -475,8 +475,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:02.433333+00:00",
-      "last_success": "2026-05-06T02:11:02.596655+00:00",
+      "last_fetch": "2026-05-06T03:04:36.858005+00:00",
+      "last_success": "2026-05-06T03:04:37.025158+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -490,8 +490,8 @@
       "active": true,
       "etag": "W/\"a6c9ac78c7dbcfa962fc4317aa660996\"",
       "last_modified": "Mon, 04 May 2026 00:35:07 GMT",
-      "last_fetch": "2026-05-06T02:11:02.435074+00:00",
-      "last_success": "2026-05-06T02:11:05.155471+00:00",
+      "last_fetch": "2026-05-06T03:04:36.872384+00:00",
+      "last_success": "2026-05-06T03:04:37.780099+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -505,8 +505,8 @@
       "active": true,
       "etag": "\"554657410030d6c4d49dd7ef3e57aafd-gzip\"",
       "last_modified": "Mon, 13 Apr 2026 12:00:17 GMT",
-      "last_fetch": "2026-05-06T02:11:02.503397+00:00",
-      "last_success": "2026-05-06T02:11:05.145640+00:00",
+      "last_fetch": "2026-05-06T03:04:36.897491+00:00",
+      "last_success": "2026-05-06T03:04:39.738380+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -520,8 +520,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:02.544827+00:00",
-      "last_success": "2026-05-06T02:11:02.789941+00:00",
+      "last_fetch": "2026-05-06T03:04:36.899730+00:00",
+      "last_success": "2026-05-06T03:04:37.169068+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -535,9 +535,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:02.596842+00:00",
+      "last_fetch": "2026-05-06T03:04:36.965361+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='mituikenta.blog.so-net.ne.jp', port=80): Max retries exceeded with url: /index.rdf (Caused by NameResolutionError(\"HTTPConnection(host='mituikenta.blog.so-net.ne.jp', port=80)"
     },
     {
@@ -550,8 +550,8 @@
       "active": true,
       "etag": "W/\"01bfce696b49d0cb31e42cfcc370ae99eef04f7038e826e67b70887458e1a4e6\"",
       "last_modified": "Thu, 29 Aug 2024 02:08:53 GMT",
-      "last_fetch": "2026-05-06T02:11:02.769870+00:00",
-      "last_success": "2026-05-06T02:11:02.965905+00:00",
+      "last_fetch": "2026-05-06T03:04:37.035696+00:00",
+      "last_success": "2026-05-06T03:04:37.486059+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -565,8 +565,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:02.790194+00:00",
-      "last_success": "2026-05-06T02:11:03.790277+00:00",
+      "last_fetch": "2026-05-06T03:04:37.176380+00:00",
+      "last_success": "2026-05-06T03:04:38.175906+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -580,9 +580,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:02.931271+00:00",
+      "last_fetch": "2026-05-06T03:04:37.224520+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='www.mh3.co.jp', port=80): Max retries exceeded with url: /?feed=rss2 (Caused by NameResolutionError(\"HTTPConnection(host='www.mh3.co.jp', port=80): Failed to resolve 'www.mh3."
     },
     {
@@ -595,8 +595,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:02.966476+00:00",
-      "last_success": "2026-05-06T02:11:03.468354+00:00",
+      "last_fetch": "2026-05-06T03:04:37.345790+00:00",
+      "last_success": "2026-05-06T03:04:37.711094+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -610,8 +610,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:03.054058+00:00",
-      "last_success": "2026-05-06T02:11:03.471891+00:00",
+      "last_fetch": "2026-05-06T03:04:37.486850+00:00",
+      "last_success": "2026-05-06T03:04:37.967859+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -625,9 +625,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:03.130109+00:00",
+      "last_fetch": "2026-05-06T03:04:37.609350+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "接続エラー: SSLError: HTTPSConnectionPool(host='diary.urbansprawl.net', port=443): Max retries exceeded with url: /index.rdf (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate ver"
     },
     {
@@ -640,8 +640,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:03.472213+00:00",
-      "last_success": "2026-05-06T02:11:04.602384+00:00",
+      "last_fetch": "2026-05-06T03:04:37.689643+00:00",
+      "last_success": "2026-05-06T03:04:38.810289+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -655,8 +655,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:03.474707+00:00",
-      "last_success": "2026-05-06T02:11:03.605407+00:00",
+      "last_fetch": "2026-05-06T03:04:37.711286+00:00",
+      "last_success": "2026-05-06T03:04:37.859404+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -670,8 +670,8 @@
       "active": true,
       "etag": "\"644edb96-937a\"",
       "last_modified": "Sun, 30 Apr 2023 21:20:22 GMT",
-      "last_fetch": "2026-05-06T02:11:03.605625+00:00",
-      "last_success": "2026-05-06T02:11:04.082016+00:00",
+      "last_fetch": "2026-05-06T03:04:37.781284+00:00",
+      "last_success": "2026-05-06T03:04:38.599173+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -685,9 +685,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:03.606793+00:00",
+      "last_fetch": "2026-05-06T03:04:37.786980+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 403"
     },
     {
@@ -700,8 +700,8 @@
       "active": true,
       "etag": "\"bf7417e25aefa370fcf91d14501ad506\"",
       "last_modified": "Tue, 08 Feb 2022 01:01:58 GMT",
-      "last_fetch": "2026-05-06T02:11:03.791959+00:00",
-      "last_success": "2026-05-06T02:11:04.915729+00:00",
+      "last_fetch": "2026-05-06T03:04:37.859702+00:00",
+      "last_success": "2026-05-06T03:04:38.873964+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -715,8 +715,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:03.821198+00:00",
-      "last_success": "2026-05-06T02:11:04.552913+00:00",
+      "last_fetch": "2026-05-06T03:04:37.968887+00:00",
+      "last_success": "2026-05-06T03:04:38.462636+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -730,8 +730,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:03.960489+00:00",
-      "last_success": "2026-05-06T02:11:04.426382+00:00",
+      "last_fetch": "2026-05-06T03:04:37.989236+00:00",
+      "last_success": "2026-05-06T03:04:38.484774+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -745,8 +745,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:04.082216+00:00",
-      "last_success": "2026-05-06T02:11:04.233689+00:00",
+      "last_fetch": "2026-05-06T03:04:38.045015+00:00",
+      "last_success": "2026-05-06T03:04:38.203273+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -760,9 +760,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:04.195939+00:00",
+      "last_fetch": "2026-05-06T03:04:38.114952+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 403"
     },
     {
@@ -775,8 +775,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:04.233879+00:00",
-      "last_success": "2026-05-06T02:11:04.381097+00:00",
+      "last_fetch": "2026-05-06T03:04:38.153684+00:00",
+      "last_success": "2026-05-06T03:04:38.270806+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -789,9 +789,9 @@
       "source_type": "rss",
       "active": true,
       "etag": null,
-      "last_modified": "Sun, 26 Apr 2026 07:10:04 GMT",
-      "last_fetch": "2026-05-06T02:11:04.258364+00:00",
-      "last_success": "2026-05-06T02:11:04.890821+00:00",
+      "last_modified": "Wed, 6 May 2026 02:31:26 GMT",
+      "last_fetch": "2026-05-06T03:04:38.177236+00:00",
+      "last_success": "2026-05-06T03:04:38.615041+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -805,9 +805,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:04.381494+00:00",
+      "last_fetch": "2026-05-06T03:04:38.203471+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='blog.goo.ne.jp', port=80): Max retries exceeded with url: /mit_sloan/rss2.xml (Caused by NameResolutionError(\"HTTPConnection(host='blog.goo.ne.jp', port=80): Failed to resolve"
     },
     {
@@ -820,8 +820,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:04.383779+00:00",
-      "last_success": "2026-05-06T02:11:05.531287+00:00",
+      "last_fetch": "2026-05-06T03:04:38.271607+00:00",
+      "last_success": "2026-05-06T03:04:39.448045+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -835,8 +835,8 @@
       "active": true,
       "etag": null,
       "last_modified": "Tue, 5 May 2026 12:56:47 GMT",
-      "last_fetch": "2026-05-06T02:11:04.426886+00:00",
-      "last_success": "2026-05-06T02:11:04.642370+00:00",
+      "last_fetch": "2026-05-06T03:04:38.310500+00:00",
+      "last_success": "2026-05-06T03:04:38.517652+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -850,8 +850,8 @@
       "active": true,
       "etag": "W/\"f424e609c8494165852f232e2620504cfe247f61e7077016bc01c4f84ef5b17e\"",
       "last_modified": "Wed, 29 Apr 2026 07:38:48 GMT",
-      "last_fetch": "2026-05-06T02:11:04.527377+00:00",
-      "last_success": "2026-05-06T02:11:04.847865+00:00",
+      "last_fetch": "2026-05-06T03:04:38.348946+00:00",
+      "last_success": "2026-05-06T03:04:38.708746+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -865,8 +865,8 @@
       "active": true,
       "etag": "W/\"b295de9a5d37ad89eb7dd996711bfe9f2345d21031e2f20433a9b677dd0deb3a\"",
       "last_modified": "Mon, 02 Sep 2024 10:04:46 GMT",
-      "last_fetch": "2026-05-06T02:11:04.564257+00:00",
-      "last_success": "2026-05-06T02:11:04.670067+00:00",
+      "last_fetch": "2026-05-06T03:04:38.463651+00:00",
+      "last_success": "2026-05-06T03:04:38.608892+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -880,8 +880,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:04.603576+00:00",
-      "last_success": "2026-05-06T02:11:05.184726+00:00",
+      "last_fetch": "2026-05-06T03:04:38.485535+00:00",
+      "last_success": "2026-05-06T03:04:39.131135+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -895,9 +895,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:04.642903+00:00",
+      "last_fetch": "2026-05-06T03:04:38.518289+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 404"
     },
     {
@@ -910,8 +910,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:04.670143+00:00",
-      "last_success": "2026-05-06T02:11:05.215425+00:00",
+      "last_fetch": "2026-05-06T03:04:38.599292+00:00",
+      "last_success": "2026-05-06T03:04:39.097797+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -925,8 +925,8 @@
       "active": true,
       "etag": "W/\"dfe849d4ddc397e2f66506365931969280a336be651122296f37929d93b1ebfe\"",
       "last_modified": "Mon, 07 Oct 2024 03:27:58 GMT",
-      "last_fetch": "2026-05-06T02:11:04.758917+00:00",
-      "last_success": "2026-05-06T02:11:04.946289+00:00",
+      "last_fetch": "2026-05-06T03:04:38.615168+00:00",
+      "last_success": "2026-05-06T03:04:38.742954+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -940,8 +940,8 @@
       "active": true,
       "etag": "W/\"eda1f7d8347deed54c30c65127a44fa5b26aada5625c79bb5b39390fbebf67d8\"",
       "last_modified": "Mon, 02 Sep 2024 00:01:35 GMT",
-      "last_fetch": "2026-05-06T02:11:04.853075+00:00",
-      "last_success": "2026-05-06T02:11:05.061973+00:00",
+      "last_fetch": "2026-05-06T03:04:38.616770+00:00",
+      "last_success": "2026-05-06T03:04:38.755497+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -955,8 +955,8 @@
       "active": true,
       "etag": "W/\"04c7ea259ce30754b5617e8132684a5a3a541dcfef4ce84e38629eb01cfb938a\"",
       "last_modified": "Thu, 29 Aug 2024 20:47:20 GMT",
-      "last_fetch": "2026-05-06T02:11:04.891325+00:00",
-      "last_success": "2026-05-06T02:11:05.073522+00:00",
+      "last_fetch": "2026-05-06T03:04:38.678845+00:00",
+      "last_success": "2026-05-06T03:04:38.851333+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -970,9 +970,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:04.916713+00:00",
+      "last_fetch": "2026-05-06T03:04:38.708867+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 404"
     },
     {
@@ -985,9 +985,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:04.951473+00:00",
+      "last_fetch": "2026-05-06T03:04:38.743060+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 404"
     },
     {
@@ -1000,8 +1000,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:05.073624+00:00",
-      "last_success": "2026-05-06T02:11:05.918902+00:00",
+      "last_fetch": "2026-05-06T03:04:38.755642+00:00",
+      "last_success": "2026-05-06T03:04:39.282301+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1015,8 +1015,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:05.089147+00:00",
-      "last_success": "2026-05-06T02:11:06.383983+00:00",
+      "last_fetch": "2026-05-06T03:04:38.811390+00:00",
+      "last_success": "2026-05-06T03:04:40.135635+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1030,8 +1030,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:05.155844+00:00",
-      "last_success": "2026-05-06T02:11:06.185405+00:00",
+      "last_fetch": "2026-05-06T03:04:38.851484+00:00",
+      "last_success": "2026-05-06T03:04:39.906881+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1045,9 +1045,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:05.157965+00:00",
+      "last_fetch": "2026-05-06T03:04:38.874758+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 404"
     },
     {
@@ -1060,9 +1060,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:05.184981+00:00",
+      "last_fetch": "2026-05-06T03:04:39.005278+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 404"
     },
     {
@@ -1075,9 +1075,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:05.215658+00:00",
+      "last_fetch": "2026-05-06T03:04:39.067518+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='blog.goo.ne.jp', port=80): Max retries exceeded with url: /dongyingwenren/rss2.xml (Caused by NameResolutionError(\"HTTPConnection(host='blog.goo.ne.jp', port=80): Failed to re"
     },
     {
@@ -1090,9 +1090,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:05.242504+00:00",
+      "last_fetch": "2026-05-06T03:04:39.098106+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 404"
     },
     {
@@ -1105,8 +1105,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:05.311818+00:00",
-      "last_success": "2026-05-06T02:11:06.465896+00:00",
+      "last_fetch": "2026-05-06T03:04:39.117080+00:00",
+      "last_success": "2026-05-06T03:04:40.474237+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1120,8 +1120,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:05.483365+00:00",
-      "last_success": "2026-05-06T02:11:06.137382+00:00",
+      "last_fetch": "2026-05-06T03:04:39.131467+00:00",
+      "last_success": "2026-05-06T03:04:39.765511+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1135,8 +1135,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:05.532479+00:00",
-      "last_success": "2026-05-06T02:11:06.755809+00:00",
+      "last_fetch": "2026-05-06T03:04:39.246209+00:00",
+      "last_success": "2026-05-06T03:04:40.569397+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1150,9 +1150,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:05.865221+00:00",
+      "last_fetch": "2026-05-06T03:04:39.282602+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 404"
     },
     {
@@ -1165,8 +1165,8 @@
       "active": true,
       "etag": "W/\"4383895e7b83f094f25c5ee9798542d4\"",
       "last_modified": "Fri, 24 Apr 2026 01:48:45 GMT",
-      "last_fetch": "2026-05-06T02:11:05.919176+00:00",
-      "last_success": "2026-05-06T02:11:07.297586+00:00",
+      "last_fetch": "2026-05-06T03:04:39.449353+00:00",
+      "last_success": "2026-05-06T03:04:40.880852+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1180,8 +1180,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:06.005208+00:00",
-      "last_success": "2026-05-06T02:11:06.912889+00:00",
+      "last_fetch": "2026-05-06T03:04:39.643857+00:00",
+      "last_success": "2026-05-06T03:04:40.255606+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1195,8 +1195,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:06.137780+00:00",
-      "last_success": "2026-05-06T02:11:06.818331+00:00",
+      "last_fetch": "2026-05-06T03:04:39.739422+00:00",
+      "last_success": "2026-05-06T03:04:40.372828+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1210,8 +1210,8 @@
       "active": true,
       "etag": null,
       "last_modified": "Mon, 4 May 2026 14:31:10 GMT",
-      "last_fetch": "2026-05-06T02:11:06.186793+00:00",
-      "last_success": "2026-05-06T02:11:06.372592+00:00",
+      "last_fetch": "2026-05-06T03:04:39.766130+00:00",
+      "last_success": "2026-05-06T03:04:39.964907+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1225,8 +1225,8 @@
       "active": true,
       "etag": null,
       "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
-      "last_fetch": "2026-05-06T02:11:06.372904+00:00",
-      "last_success": "2026-05-06T02:11:06.969555+00:00",
+      "last_fetch": "2026-05-06T03:04:39.908290+00:00",
+      "last_success": "2026-05-06T03:04:40.620834+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1240,8 +1240,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:06.385589+00:00",
-      "last_success": "2026-05-06T02:11:06.905663+00:00",
+      "last_fetch": "2026-05-06T03:04:39.910307+00:00",
+      "last_success": "2026-05-06T03:04:40.460385+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1255,8 +1255,8 @@
       "active": true,
       "etag": "W/\"dd013585e493a209d2043d95a214d64e\"",
       "last_modified": "Mon, 28 Jan 2019 14:26:28 GMT",
-      "last_fetch": "2026-05-06T02:11:06.388036+00:00",
-      "last_success": "2026-05-06T02:11:10.964876+00:00",
+      "last_fetch": "2026-05-06T03:04:39.966734+00:00",
+      "last_success": "2026-05-06T03:04:40.657582+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1270,9 +1270,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:06.467042+00:00",
+      "last_fetch": "2026-05-06T03:04:40.020541+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='feeds.fc2.com', port=80): Max retries exceeded with url: /fc2/xml?host=wofwof.blog60 (Caused by NameResolutionError(\"HTTPConnection(host='feeds.fc2.com', port=80): Failed to r"
     },
     {
@@ -1285,8 +1285,8 @@
       "active": true,
       "etag": "W/\"04ee2d29007b2d7f6bc7291d8cf3a84d930766f3749c05b64a21174a91cda7e3\"",
       "last_modified": "Sat, 07 Feb 2026 13:13:05 GMT",
-      "last_fetch": "2026-05-06T02:11:06.493623+00:00",
-      "last_success": "2026-05-06T02:11:06.640625+00:00",
+      "last_fetch": "2026-05-06T03:04:40.044252+00:00",
+      "last_success": "2026-05-06T03:04:40.157340+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1300,9 +1300,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:06.640880+00:00",
+      "last_fetch": "2026-05-06T03:04:40.136751+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 403"
     },
     {
@@ -1315,8 +1315,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:06.755952+00:00",
-      "last_success": "2026-05-06T02:11:07.346817+00:00",
+      "last_fetch": "2026-05-06T03:04:40.157471+00:00",
+      "last_success": "2026-05-06T03:04:40.814831+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1330,9 +1330,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:06.810964+00:00",
+      "last_fetch": "2026-05-06T03:04:40.235869+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='takahato.net', port=80): Max retries exceeded with url: /?feed=atom (Caused by NameResolutionError(\"HTTPConnection(host='takahato.net', port=80): Failed to resolve 'takahato.n"
     },
     {
@@ -1345,9 +1345,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:06.825169+00:00",
+      "last_fetch": "2026-05-06T03:04:40.256415+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 404"
     },
     {
@@ -1360,8 +1360,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:06.836916+00:00",
-      "last_success": "2026-05-06T02:11:08.090921+00:00",
+      "last_fetch": "2026-05-06T03:04:40.258811+00:00",
+      "last_success": "2026-05-06T03:04:41.471839+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1375,9 +1375,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:06.863295+00:00",
+      "last_fetch": "2026-05-06T03:04:40.374084+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 404"
     },
     {
@@ -1390,8 +1390,8 @@
       "active": true,
       "etag": "W/\"df91b4ad349281004e90c2bd8d314eb045bc6033fc6c0b62bd56f8a7b51cb4e1\"",
       "last_modified": "Mon, 16 Sep 2024 04:59:20 GMT",
-      "last_fetch": "2026-05-06T02:11:06.919022+00:00",
-      "last_success": "2026-05-06T02:11:07.058713+00:00",
+      "last_fetch": "2026-05-06T03:04:40.480422+00:00",
+      "last_success": "2026-05-06T03:04:40.660200+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1405,8 +1405,8 @@
       "active": true,
       "etag": "W/\"18de14bec04737b0990539fa8b3bb962\"",
       "last_modified": "Tue, 05 May 2026 07:06:34 GMT",
-      "last_fetch": "2026-05-06T02:11:06.935274+00:00",
-      "last_success": "2026-05-06T02:11:07.762913+00:00",
+      "last_fetch": "2026-05-06T03:04:40.481955+00:00",
+      "last_success": "2026-05-06T03:04:41.080079+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1420,8 +1420,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:06.970214+00:00",
-      "last_success": "2026-05-06T02:11:07.504363+00:00",
+      "last_fetch": "2026-05-06T03:04:40.576443+00:00",
+      "last_success": "2026-05-06T03:04:41.141246+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1435,9 +1435,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:07.058808+00:00",
+      "last_fetch": "2026-05-06T03:04:40.621860+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 403"
     },
     {
@@ -1450,8 +1450,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:07.157590+00:00",
-      "last_success": "2026-05-06T02:11:08.318421+00:00",
+      "last_fetch": "2026-05-06T03:04:40.655696+00:00",
+      "last_success": "2026-05-06T03:04:41.823471+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1465,9 +1465,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:07.280281+00:00",
+      "last_fetch": "2026-05-06T03:04:40.657834+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='alphalifehacker.jp', port=80): Max retries exceeded with url: /?xml (Caused by NameResolutionError(\"HTTPConnection(host='alphalifehacker.jp', port=80): Failed to resolve 'alph"
     },
     {
@@ -1480,8 +1480,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:07.298522+00:00",
-      "last_success": "2026-05-06T02:11:07.531289+00:00",
+      "last_fetch": "2026-05-06T03:04:40.660294+00:00",
+      "last_success": "2026-05-06T03:04:41.120585+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1495,8 +1495,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:07.347239+00:00",
-      "last_success": "2026-05-06T02:11:07.886238+00:00",
+      "last_fetch": "2026-05-06T03:04:40.682746+00:00",
+      "last_success": "2026-05-06T03:04:41.200468+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1510,8 +1510,8 @@
       "active": true,
       "etag": null,
       "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
-      "last_fetch": "2026-05-06T02:11:07.396106+00:00",
-      "last_success": "2026-05-06T02:11:07.517354+00:00",
+      "last_fetch": "2026-05-06T03:04:40.774466+00:00",
+      "last_success": "2026-05-06T03:04:40.900788+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1525,8 +1525,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:07.504620+00:00",
-      "last_success": "2026-05-06T02:11:08.740733+00:00",
+      "last_fetch": "2026-05-06T03:04:40.815179+00:00",
+      "last_success": "2026-05-06T03:04:42.112465+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1540,8 +1540,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:07.517474+00:00",
-      "last_success": "2026-05-06T02:11:08.204898+00:00",
+      "last_fetch": "2026-05-06T03:04:40.881662+00:00",
+      "last_success": "2026-05-06T03:04:41.598406+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1555,9 +1555,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:07.531995+00:00",
+      "last_fetch": "2026-05-06T03:04:40.900919+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "HTTP 404"
     },
     {
@@ -1570,9 +1570,9 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:07.763737+00:00",
+      "last_fetch": "2026-05-06T03:04:41.080875+00:00",
       "last_success": null,
-      "error_count": 3,
+      "error_count": 4,
       "last_error": "接続エラー: ConnectionError: HTTPSConnectionPool(host='tanoshimulife.com', port=443): Max retries exceeded with url: /feed (Caused by NameResolutionError(\"HTTPSConnection(host='tanoshimulife.com', port=443): Failed to resolve 'ta"
     },
     {
@@ -1585,8 +1585,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:07.787920+00:00",
-      "last_success": "2026-05-06T02:11:09.322026+00:00",
+      "last_fetch": "2026-05-06T03:04:41.126670+00:00",
+      "last_success": "2026-05-06T03:04:42.530493+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1600,8 +1600,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:07.887302+00:00",
-      "last_success": "2026-05-06T02:11:08.569753+00:00",
+      "last_fetch": "2026-05-06T03:04:41.139241+00:00",
+      "last_success": "2026-05-06T03:04:41.863462+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1615,8 +1615,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:08.052761+00:00",
-      "last_success": "2026-05-06T02:11:09.130917+00:00",
+      "last_fetch": "2026-05-06T03:04:41.141775+00:00",
+      "last_success": "2026-05-06T03:04:42.152036+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1630,8 +1630,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:08.092444+00:00",
-      "last_success": "2026-05-06T02:11:08.797438+00:00",
+      "last_fetch": "2026-05-06T03:04:41.200643+00:00",
+      "last_success": "2026-05-06T03:04:42.103825+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1645,8 +1645,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-05-06T02:11:08.205195+00:00",
-      "last_success": "2026-05-06T02:11:08.653144+00:00",
+      "last_fetch": "2026-05-06T03:04:41.308612+00:00",
+      "last_success": "2026-05-06T03:04:42.118948+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1660,8 +1660,8 @@
       "active": true,
       "etag": "W/\"518cc98b0b3be584efa8dd289f2375d5\"",
       "last_modified": "Tue, 05 May 2026 05:17:45 GMT",
-      "last_fetch": "2026-05-06T02:11:08.304477+00:00",
-      "last_success": "2026-05-06T02:11:09.769717+00:00",
+      "last_fetch": "2026-05-06T03:04:41.473088+00:00",
+      "last_success": "2026-05-06T03:04:42.489809+00:00",
       "error_count": 0,
       "last_error": null
     }

@@ -10,10 +10,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:44.178286+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 404"
     },
     {
       "id": "a9309cc59cb1",
@@ -25,8 +25,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:44.178826+00:00",
+      "last_success": "2026-05-06T01:38:45.436056+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -38,10 +38,10 @@
       "category": "ブログ",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "\"a88965db375c15824098230713488605\"",
+      "last_modified": "Wed, 18 Sep 2024 03:26:14 GMT",
+      "last_fetch": "2026-05-06T01:38:44.179094+00:00",
+      "last_success": "2026-05-06T01:38:45.131757+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -54,9 +54,9 @@
       "source_type": "rss",
       "active": true,
       "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_modified": "Sat, 25 Apr 2026 20:04:32 GMT",
+      "last_fetch": "2026-05-06T01:38:44.179598+00:00",
+      "last_success": "2026-05-06T01:38:44.569870+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -68,10 +68,10 @@
       "category": "ブログ",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"671afaa09a92650684b6b9e1dfd13480\"",
+      "last_modified": "Sat, 20 Aug 2022 00:47:37 GMT",
+      "last_fetch": "2026-05-06T01:38:44.181174+00:00",
+      "last_success": "2026-05-06T01:38:46.374937+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -85,8 +85,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:44.184828+00:00",
+      "last_success": "2026-05-06T01:38:44.713036+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -100,8 +100,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:44.186875+00:00",
+      "last_success": "2026-05-06T01:38:45.230290+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -115,10 +115,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:44.188096+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 404"
     },
     {
       "id": "a5a21cc615dd",
@@ -130,10 +130,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:44.189308+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectionError: HTTPSConnectionPool(host='aripy.net', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPSConnection(host='aripy.net', port=443): Failed to resolve 'aripy.net' ([Errn"
     },
     {
       "id": "77e317ee60f2",
@@ -145,8 +145,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:44.190298+00:00",
+      "last_success": "2026-05-06T01:38:45.022495+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -158,10 +158,10 @@
       "category": "ブログ",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"dde08af965d02c536c1ffd87c5f70206ffb180892ec91f4e5c322d98aafd4f0d\"",
+      "last_modified": "Thu, 19 Dec 2024 03:31:54 GMT",
+      "last_fetch": "2026-05-06T01:38:44.191391+00:00",
+      "last_success": "2026-05-06T01:38:44.704874+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -175,8 +175,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:44.192357+00:00",
+      "last_success": "2026-05-06T01:38:46.091734+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -189,9 +189,9 @@
       "source_type": "rss",
       "active": true,
       "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_modified": "Wed, 01 Oct 2025 03:00:58 GMT",
+      "last_fetch": "2026-05-06T01:38:44.244963+00:00",
+      "last_success": "2026-05-06T01:38:46.212062+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -205,8 +205,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:44.570220+00:00",
+      "last_success": "2026-05-06T01:38:46.813868+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -220,8 +220,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:44.706235+00:00",
+      "last_success": "2026-05-06T01:38:45.646395+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -235,10 +235,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:44.709234+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
       "id": "e79a16656517",
@@ -250,8 +250,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:44.713110+00:00",
+      "last_success": "2026-05-06T01:38:45.807688+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -264,9 +264,9 @@
       "source_type": "rss",
       "active": true,
       "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_modified": "Wed, 01 Apr 2026 20:31:55 GMT",
+      "last_fetch": "2026-05-06T01:38:44.828834+00:00",
+      "last_success": "2026-05-06T01:38:45.094806+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -280,10 +280,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:44.922222+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectTimeout: HTTPSConnectionPool(host='mywarstory.tokyo', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='mywarstory.tokyo', port=443) at 0x7f35b0430e90>, 'Co"
     },
     {
       "id": "d431a4899037",
@@ -293,10 +293,10 @@
       "category": "ブログ",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"7731fb734cb1d896f0c158bfa0d17c30\"",
+      "last_modified": "Thu, 30 Apr 2026 10:16:11 GMT",
+      "last_fetch": "2026-05-06T01:38:45.024144+00:00",
+      "last_success": "2026-05-06T01:38:46.890263+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -310,8 +310,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:45.095787+00:00",
+      "last_success": "2026-05-06T01:38:45.877338+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -325,8 +325,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:45.132037+00:00",
+      "last_success": "2026-05-06T01:38:47.730909+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -340,8 +340,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:45.231660+00:00",
+      "last_success": "2026-05-06T01:38:46.550123+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -355,10 +355,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:45.437504+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "パースエラー: <unknown>:79:2: mismatched tag"
     },
     {
       "id": "d47b46be666b",
@@ -370,10 +370,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:45.647501+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 404"
     },
     {
       "id": "caa211e459c0",
@@ -383,10 +383,10 @@
       "category": "不動産",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "\"67dc63e9faf7249bd4f86b9106862efc\"",
+      "last_modified": "Thu, 28 Nov 2024 22:31:44 GMT",
+      "last_fetch": "2026-05-06T01:38:45.809118+00:00",
+      "last_success": "2026-05-06T01:38:47.189073+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -400,10 +400,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:45.878736+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 404"
     },
     {
       "id": "d976d70a8e8a",
@@ -415,8 +415,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:46.093365+00:00",
+      "last_success": "2026-05-06T01:38:46.493947+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -430,10 +430,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:46.212409+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectTimeout: HTTPConnectionPool(host='asoburo.info', port=80): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPConnection(host='asoburo.info', port=80) at 0x7f35b03d5ed0>, 'Connection to "
     },
     {
       "id": "3ec6277335cd",
@@ -445,8 +445,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:46.378591+00:00",
+      "last_success": "2026-05-06T01:38:47.729383+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -460,10 +460,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:46.505444+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='blogs.yahoo.co.jp', port=80): Max retries exceeded with url: /sfscottiedog/rss.xml (Caused by NameResolutionError(\"HTTPConnection(host='blogs.yahoo.co.jp', port=80): Failed to"
     },
     {
       "id": "27fc9061e756",
@@ -475,10 +475,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:46.551651+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectTimeout: HTTPConnectionPool(host='fudousantoushi22.blog.fc2.com', port=80): Max retries exceeded with url: /?xml (Caused by ConnectTimeoutError(<HTTPConnection(host='fudousantoushi22.blog.fc2.com', port=80) at"
     },
     {
       "id": "416ab9ec27e5",
@@ -488,10 +488,10 @@
       "category": "不動産",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"a6c9ac78c7dbcfa962fc4317aa660996\"",
+      "last_modified": "Mon, 04 May 2026 00:35:07 GMT",
+      "last_fetch": "2026-05-06T01:38:46.672271+00:00",
+      "last_success": "2026-05-06T01:38:47.763253+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -505,10 +505,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:46.815121+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectTimeout: HTTPConnectionPool(host='x1mansion.com', port=80): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPConnection(host='x1mansion.com', port=80) at 0x7f35b4587010>, 'Connection to"
     },
     {
       "id": "2ec7ee82ecf8",
@@ -520,10 +520,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:46.891326+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectTimeout: HTTPConnectionPool(host='mansion-madori.com', port=80): Max retries exceeded with url: /?xml (Caused by ConnectTimeoutError(<HTTPConnection(host='mansion-madori.com', port=80) at 0x7f35b025db90>, 'Con"
     },
     {
       "id": "dd3a8a5b5dc8",
@@ -535,10 +535,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:47.190105+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='mituikenta.blog.so-net.ne.jp', port=80): Max retries exceeded with url: /index.rdf (Caused by NameResolutionError(\"HTTPConnection(host='mituikenta.blog.so-net.ne.jp', port=80)"
     },
     {
       "id": "c23dafa6402e",
@@ -548,10 +548,10 @@
       "category": "不動産",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"01bfce696b49d0cb31e42cfcc370ae99eef04f7038e826e67b70887458e1a4e6\"",
+      "last_modified": "Thu, 29 Aug 2024 02:08:53 GMT",
+      "last_fetch": "2026-05-06T01:38:47.304751+00:00",
+      "last_success": "2026-05-06T01:38:47.701980+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -565,8 +565,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:47.475728+00:00",
+      "last_success": "2026-05-06T01:38:48.596560+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -580,10 +580,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:47.708146+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='www.mh3.co.jp', port=80): Max retries exceeded with url: /?feed=rss2 (Caused by NameResolutionError(\"HTTPConnection(host='www.mh3.co.jp', port=80): Failed to resolve 'www.mh3."
     },
     {
       "id": "628522670f33",
@@ -595,8 +595,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:47.729599+00:00",
+      "last_success": "2026-05-06T01:38:48.174672+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -610,8 +610,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:47.732394+00:00",
+      "last_success": "2026-05-06T01:38:48.903721+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -625,10 +625,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:47.764401+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: SSLError: HTTPSConnectionPool(host='diary.urbansprawl.net', port=443): Max retries exceeded with url: /index.rdf (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate ver"
     },
     {
       "id": "733deed1b4d1",
@@ -640,8 +640,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:47.800509+00:00",
+      "last_success": "2026-05-06T01:38:49.142610+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -655,10 +655,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:48.174936+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectTimeout: HTTPConnectionPool(host='siokaraiookami.blog.fc2.com', port=80): Max retries exceeded with url: /?xml (Caused by ConnectTimeoutError(<HTTPConnection(host='siokaraiookami.blog.fc2.com', port=80) at 0x7"
     },
     {
       "id": "10db5297d0b1",
@@ -668,10 +668,10 @@
       "category": "不動産",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "\"644edb96-937a\"",
+      "last_modified": "Sun, 30 Apr 2023 21:20:22 GMT",
+      "last_fetch": "2026-05-06T01:38:48.368091+00:00",
+      "last_success": "2026-05-06T01:38:49.303713+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -685,10 +685,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:48.597913+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 403"
     },
     {
       "id": "b28e1ca08b8b",
@@ -700,10 +700,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:48.640695+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectTimeout: HTTPConnectionPool(host='toshin.club', port=80): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPConnection(host='toshin.club', port=80) at 0x7f35b04258d0>, 'Connection to tos"
     },
     {
       "id": "287619d00195",
@@ -715,8 +715,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:48.904965+00:00",
+      "last_success": "2026-05-06T01:38:49.999780+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -730,8 +730,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:48.941410+00:00",
+      "last_success": "2026-05-06T01:38:50.225652+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -745,10 +745,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:49.143940+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectTimeout: HTTPConnectionPool(host='activeindex.blog101.fc2.com', port=80): Max retries exceeded with url: /?xml (Caused by ConnectTimeoutError(<HTTPConnection(host='activeindex.blog101.fc2.com', port=80) at 0x7"
     },
     {
       "id": "bbae8955bc3a",
@@ -760,10 +760,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:49.304333+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 403"
     },
     {
       "id": "230955e26df7",
@@ -775,10 +775,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:49.534573+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectTimeout: HTTPConnectionPool(host='fkaleidoscope.blog11.fc2.com', port=80): Max retries exceeded with url: /?xml (Caused by ConnectTimeoutError(<HTTPConnection(host='fkaleidoscope.blog11.fc2.com', port=80) at 0"
     },
     {
       "id": "a60be3fa4db5",
@@ -789,9 +789,9 @@
       "source_type": "rss",
       "active": true,
       "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_modified": "Sun, 26 Apr 2026 07:10:04 GMT",
+      "last_fetch": "2026-05-06T01:38:50.000923+00:00",
+      "last_success": "2026-05-06T01:38:50.467501+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -805,10 +805,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:50.225951+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='blog.goo.ne.jp', port=80): Max retries exceeded with url: /mit_sloan/rss2.xml (Caused by NameResolutionError(\"HTTPConnection(host='blog.goo.ne.jp', port=80): Failed to resolve"
     },
     {
       "id": "5bcfe5b1361c",
@@ -820,8 +820,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:50.317665+00:00",
+      "last_success": "2026-05-06T01:38:51.767840+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -834,9 +834,9 @@
       "source_type": "rss",
       "active": true,
       "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_modified": "Tue, 5 May 2026 12:56:47 GMT",
+      "last_fetch": "2026-05-06T01:38:50.468012+00:00",
+      "last_success": "2026-05-06T01:38:50.665249+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -848,10 +848,10 @@
       "category": "未分類",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"f424e609c8494165852f232e2620504cfe247f61e7077016bc01c4f84ef5b17e\"",
+      "last_modified": "Wed, 29 Apr 2026 07:38:48 GMT",
+      "last_fetch": "2026-05-06T01:38:50.665762+00:00",
+      "last_success": "2026-05-06T01:38:51.048687+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -863,10 +863,10 @@
       "category": "未分類",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"b295de9a5d37ad89eb7dd996711bfe9f2345d21031e2f20433a9b677dd0deb3a\"",
+      "last_modified": "Mon, 02 Sep 2024 10:04:46 GMT",
+      "last_fetch": "2026-05-06T01:38:51.049227+00:00",
+      "last_success": "2026-05-06T01:38:51.445046+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -880,8 +880,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:51.445369+00:00",
+      "last_success": "2026-05-06T01:38:52.236474+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -895,10 +895,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:51.769326+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 404"
     },
     {
       "id": "3aca3e15f5ce",
@@ -910,8 +910,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:52.080268+00:00",
+      "last_success": "2026-05-06T01:38:52.668898+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -923,10 +923,10 @@
       "category": "未分類",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"dfe849d4ddc397e2f66506365931969280a336be651122296f37929d93b1ebfe\"",
+      "last_modified": "Mon, 07 Oct 2024 03:27:58 GMT",
+      "last_fetch": "2026-05-06T01:38:52.236788+00:00",
+      "last_success": "2026-05-06T01:38:52.641313+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -938,10 +938,10 @@
       "category": "未分類",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"eda1f7d8347deed54c30c65127a44fa5b26aada5625c79bb5b39390fbebf67d8\"",
+      "last_modified": "Mon, 02 Sep 2024 00:01:35 GMT",
+      "last_fetch": "2026-05-06T01:38:52.646988+00:00",
+      "last_success": "2026-05-06T01:38:52.901103+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -953,10 +953,10 @@
       "category": "未分類",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"04c7ea259ce30754b5617e8132684a5a3a541dcfef4ce84e38629eb01cfb938a\"",
+      "last_modified": "Thu, 29 Aug 2024 20:47:20 GMT",
+      "last_fetch": "2026-05-06T01:38:52.669204+00:00",
+      "last_success": "2026-05-06T01:38:53.005415+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -970,10 +970,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:52.901265+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 404"
     },
     {
       "id": "4a4003d78c9f",
@@ -985,10 +985,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:53.005934+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 404"
     },
     {
       "id": "01e638a39c9a",
@@ -1000,8 +1000,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:53.354546+00:00",
+      "last_success": "2026-05-06T01:38:54.078672+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1015,8 +1015,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:53.883914+00:00",
+      "last_success": "2026-05-06T01:38:55.167251+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1030,8 +1030,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:54.078959+00:00",
+      "last_success": "2026-05-06T01:38:55.429293+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1045,10 +1045,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:55.168447+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 404"
     },
     {
       "id": "73fa0b5e991c",
@@ -1060,10 +1060,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:55.430690+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 404"
     },
     {
       "id": "e451b5915cfc",
@@ -1075,10 +1075,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:55.751459+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='blog.goo.ne.jp', port=80): Max retries exceeded with url: /dongyingwenren/rss2.xml (Caused by NameResolutionError(\"HTTPConnection(host='blog.goo.ne.jp', port=80): Failed to re"
     },
     {
       "id": "398655f3b587",
@@ -1090,10 +1090,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:55.842411+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 404"
     },
     {
       "id": "17298ace892b",
@@ -1105,8 +1105,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:56.506495+00:00",
+      "last_success": "2026-05-06T01:38:58.003883+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1120,8 +1120,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:56.621334+00:00",
+      "last_success": "2026-05-06T01:38:57.210025+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1135,8 +1135,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:57.210479+00:00",
+      "last_success": "2026-05-06T01:38:58.955786+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1150,10 +1150,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:38:57.225307+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 404"
     },
     {
       "id": "b62eb8145c56",
@@ -1163,10 +1163,10 @@
       "category": "未分類",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"4383895e7b83f094f25c5ee9798542d4\"",
+      "last_modified": "Fri, 24 Apr 2026 01:48:45 GMT",
+      "last_fetch": "2026-05-06T01:38:58.005125+00:00",
+      "last_success": "2026-05-06T01:38:59.494408+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1180,8 +1180,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:58.504086+00:00",
+      "last_success": "2026-05-06T01:38:59.461527+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1195,8 +1195,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:58.957431+00:00",
+      "last_success": "2026-05-06T01:39:00.104641+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1209,9 +1209,9 @@
       "source_type": "rss",
       "active": true,
       "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_modified": "Mon, 4 May 2026 14:31:10 GMT",
+      "last_fetch": "2026-05-06T01:38:59.462573+00:00",
+      "last_success": "2026-05-06T01:38:59.679210+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1224,9 +1224,9 @@
       "source_type": "rss",
       "active": true,
       "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
+      "last_fetch": "2026-05-06T01:38:59.495572+00:00",
+      "last_success": "2026-05-06T01:38:59.924293+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1240,8 +1240,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:38:59.679599+00:00",
+      "last_success": "2026-05-06T01:39:00.827383+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1253,10 +1253,10 @@
       "category": "未分類",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"dd013585e493a209d2043d95a214d64e\"",
+      "last_modified": "Mon, 28 Jan 2019 14:26:28 GMT",
+      "last_fetch": "2026-05-06T01:38:59.924903+00:00",
+      "last_success": "2026-05-06T01:39:00.701368+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1270,10 +1270,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:39:00.106168+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='feeds.fc2.com', port=80): Max retries exceeded with url: /fc2/xml?host=wofwof.blog60 (Caused by NameResolutionError(\"HTTPConnection(host='feeds.fc2.com', port=80): Failed to r"
     },
     {
       "id": "5322bb5a78b9",
@@ -1283,10 +1283,10 @@
       "category": "未分類",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"04ee2d29007b2d7f6bc7291d8cf3a84d930766f3749c05b64a21174a91cda7e3\"",
+      "last_modified": "Sat, 07 Feb 2026 13:13:05 GMT",
+      "last_fetch": "2026-05-06T01:39:00.158517+00:00",
+      "last_success": "2026-05-06T01:39:00.811224+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1300,10 +1300,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:39:00.692828+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 403"
     },
     {
       "id": "5a5d5f129d78",
@@ -1315,8 +1315,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:39:00.708442+00:00",
+      "last_success": "2026-05-06T01:39:01.272473+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1330,10 +1330,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:39:00.811918+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='takahato.net', port=80): Max retries exceeded with url: /?feed=atom (Caused by NameResolutionError(\"HTTPConnection(host='takahato.net', port=80): Failed to resolve 'takahato.n"
     },
     {
       "id": "f42e43f859c2",
@@ -1345,10 +1345,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:39:00.828516+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 404"
     },
     {
       "id": "3b3f0ae1c2ca",
@@ -1360,8 +1360,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:39:00.857819+00:00",
+      "last_success": "2026-05-06T01:39:02.430423+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1375,10 +1375,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:39:00.859980+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectTimeout: HTTPConnectionPool(host='takahato.blog112.fc2.com', port=80): Max retries exceeded with url: /?xml (Caused by ConnectTimeoutError(<HTTPConnection(host='takahato.blog112.fc2.com', port=80) at 0x7f35b04"
     },
     {
       "id": "380e5e4df439",
@@ -1388,10 +1388,10 @@
       "category": "金融・経済・投資",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"df91b4ad349281004e90c2bd8d314eb045bc6033fc6c0b62bd56f8a7b51cb4e1\"",
+      "last_modified": "Mon, 16 Sep 2024 04:59:20 GMT",
+      "last_fetch": "2026-05-06T01:39:01.272881+00:00",
+      "last_success": "2026-05-06T01:39:01.582411+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1403,10 +1403,10 @@
       "category": "金融・経済・投資",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"18de14bec04737b0990539fa8b3bb962\"",
+      "last_modified": "Tue, 05 May 2026 07:06:34 GMT",
+      "last_fetch": "2026-05-06T01:39:01.292332+00:00",
+      "last_success": "2026-05-06T01:39:06.511430+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1420,8 +1420,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:39:01.582947+00:00",
+      "last_success": "2026-05-06T01:39:02.153873+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1435,10 +1435,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:39:01.703539+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 403"
     },
     {
       "id": "f8c882c05df3",
@@ -1450,8 +1450,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:39:01.919497+00:00",
+      "last_success": "2026-05-06T01:39:03.330552+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1465,10 +1465,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:39:02.013474+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectionError: HTTPConnectionPool(host='alphalifehacker.jp', port=80): Max retries exceeded with url: /?xml (Caused by NameResolutionError(\"HTTPConnection(host='alphalifehacker.jp', port=80): Failed to resolve 'alph"
     },
     {
       "id": "dc14dfad0fc8",
@@ -1480,8 +1480,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:39:02.082458+00:00",
+      "last_success": "2026-05-06T01:39:02.718547+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1495,8 +1495,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:39:02.089344+00:00",
+      "last_success": "2026-05-06T01:39:02.683494+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1509,9 +1509,9 @@
       "source_type": "rss",
       "active": true,
       "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
+      "last_fetch": "2026-05-06T01:39:02.154202+00:00",
+      "last_success": "2026-05-06T01:39:02.399855+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1525,8 +1525,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:39:02.405061+00:00",
+      "last_success": "2026-05-06T01:39:03.667771+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1540,8 +1540,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:39:02.431789+00:00",
+      "last_success": "2026-05-06T01:39:03.203214+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1555,10 +1555,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:39:02.683670+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 404"
     },
     {
       "id": "825615b2a597",
@@ -1570,10 +1570,10 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
+      "last_fetch": "2026-05-06T01:39:02.719579+00:00",
       "last_success": null,
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "接続エラー: ConnectionError: HTTPSConnectionPool(host='tanoshimulife.com', port=443): Max retries exceeded with url: /feed (Caused by NameResolutionError(\"HTTPSConnection(host='tanoshimulife.com', port=443): Failed to resolve 'ta"
     },
     {
       "id": "0aefcd0a0021",
@@ -1585,8 +1585,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:39:02.769698+00:00",
+      "last_success": "2026-05-06T01:39:04.123785+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1600,8 +1600,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:39:02.782506+00:00",
+      "last_success": "2026-05-06T01:39:03.544709+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1615,8 +1615,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:39:03.203551+00:00",
+      "last_success": "2026-05-06T01:39:04.381468+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1630,8 +1630,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:39:03.315914+00:00",
+      "last_success": "2026-05-06T01:39:04.099433+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1645,8 +1645,8 @@
       "active": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "last_fetch": "2026-05-06T01:39:03.331973+00:00",
+      "last_success": "2026-05-06T01:39:03.807405+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1658,10 +1658,10 @@
       "category": "金融・経済・投資",
       "source_type": "rss",
       "active": true,
-      "etag": null,
-      "last_modified": null,
-      "last_fetch": null,
-      "last_success": null,
+      "etag": "W/\"518cc98b0b3be584efa8dd289f2375d5\"",
+      "last_modified": "Tue, 05 May 2026 05:17:45 GMT",
+      "last_fetch": "2026-05-06T01:39:03.475239+00:00",
+      "last_success": "2026-05-06T01:39:04.205560+00:00",
       "error_count": 0,
       "last_error": null
     }

@@ -2,53 +2,59 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#f5f1e8">
 <title>kk reader</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body data-theme="auto">
+<body data-theme="auto" data-mobile-view="list">
 
 <header class="topbar">
-  <div class="topbar-left">
-    <button class="icon-btn" id="toggle-sidebar" title="サイドバー">≡</button>
-    <h1 class="brand">kk <span class="brand-dim">reader</span></h1>
+  <div class="topbar-row topbar-main">
+    <div class="topbar-left">
+      <button class="icon-btn icon-only" id="toggle-sidebar" title="サイドバー" aria-label="サイドバー">≡</button>
+      <h1 class="brand">kk <span class="brand-dim">reader</span></h1>
+    </div>
+    <div class="topbar-right">
+      <button class="filter-pill" id="filter-unread" data-active="true" title="未読のみ (u)">未読</button>
+      <button class="filter-pill icon-only" id="filter-fav" title="お気に入りのみ (s)" aria-label="お気に入り">★</button>
+      <button class="icon-btn" id="mark-all-read" title="表示中をすべて既読 (Shift+M)">既読化</button>
+      <button class="icon-btn icon-only" id="theme-toggle" title="テーマ切替" aria-label="テーマ">◐</button>
+      <span class="status" id="status"></span>
+    </div>
   </div>
-  <div class="topbar-center">
+  <div class="topbar-row topbar-search">
     <input type="search" id="search" placeholder="検索（タイトル・ソース・カテゴリ）" autocomplete="off">
   </div>
-  <div class="topbar-right">
-    <button class="filter-pill" id="filter-unread" data-active="true" title="未読のみ (u)">未読のみ</button>
-    <button class="filter-pill" id="filter-fav" title="お気に入りのみ (s)">★</button>
-    <button class="icon-btn" id="mark-all-read" title="表示中をすべて既読 (Shift+M)">既読化</button>
-    <button class="icon-btn" id="theme-toggle" title="テーマ切替">◐</button>
-    <span class="status" id="status"></span>
-  </div>
 </header>
+
+<div class="sidebar-backdrop" id="sidebar-backdrop"></div>
 
 <main class="layout">
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-head">概要</div>
-      <button class="cat-row" data-cat="__all" data-active="true">
+      <button class="cat-row top-row" data-cat="__all" data-active="true">
         <span class="cat-name">すべて</span>
         <span class="cat-count" id="count-all">0</span>
       </button>
-      <button class="cat-row" data-cat="__fav">
+      <button class="cat-row top-row" data-cat="__fav">
         <span class="cat-name">★ お気に入り</span>
         <span class="cat-count" id="count-fav">0</span>
       </button>
     </div>
     <div class="sidebar-section">
-      <div class="sidebar-head">カテゴリ</div>
+      <div class="sidebar-head">カテゴリ・ソース</div>
       <div id="category-list"></div>
     </div>
     <div class="sidebar-section sidebar-foot">
       <div class="sidebar-head">ステータス</div>
       <div id="fetch-status" class="fetch-status">未取得</div>
-      <div class="hint">取得は GitHub Actions が2時間ごとに実行</div>
+      <div class="hint">2時間ごとに自動取得</div>
     </div>
   </aside>
 
@@ -57,7 +63,13 @@
   </section>
 
   <section class="article-detail" id="article-detail">
-    <div class="detail-empty">記事を選択してください</div>
+    <div class="detail-mobile-header">
+      <button class="icon-btn" id="back-to-list" title="一覧に戻る" aria-label="戻る">←</button>
+      <span class="detail-mobile-title" id="detail-mobile-title"></span>
+    </div>
+    <div class="detail-content" id="detail-content">
+      <div class="detail-empty">記事を選択してください</div>
+    </div>
   </section>
 </main>
 
@@ -71,21 +83,29 @@
     <h3 class="row-title"></h3>
     <p class="row-summary"></p>
     <div class="row-actions">
-      <button class="row-fav" title="お気に入り (f)">☆</button>
-      <button class="row-read" title="既読/未読切替 (m)">●</button>
+      <button class="row-fav" title="お気に入り (f)" aria-label="お気に入り">☆</button>
+      <button class="row-read" title="既読/未読切替 (m)" aria-label="既読切替">●</button>
     </div>
   </article>
 </template>
 
 <template id="tpl-cat-row">
   <button class="cat-row">
+    <span class="cat-caret"></span>
     <span class="cat-name"></span>
     <span class="cat-count"></span>
   </button>
 </template>
 
+<template id="tpl-feed-row">
+  <button class="feed-row">
+    <span class="feed-name"></span>
+    <span class="feed-count"></span>
+  </button>
+</template>
+
 <div class="shortcuts-hint" id="shortcuts-hint">
-  <kbd>j</kbd>/<kbd>k</kbd> 移動 · <kbd>m</kbd> 既読切替 · <kbd>f</kbd> お気に入り · <kbd>o</kbd> 元記事 · <kbd>u</kbd> 未読のみ · <kbd>?</kbd> ヘルプ
+  <kbd>j</kbd>/<kbd>k</kbd> 移動 · <kbd>m</kbd> 既読切替 · <kbd>f</kbd> お気に入り · <kbd>o</kbd> 元記事 · <kbd>u</kbd> 未読のみ
 </div>
 
 <script src="app.js"></script>

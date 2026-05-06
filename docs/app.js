@@ -1,11 +1,13 @@
 /* ========================================
    kk reader — frontend logic
+   2026-05-06: ソース別フィルタ + モバイル対応
    ======================================== */
 
 const STORAGE = {
   read: "kkreader.read",
   favs: "kkreader.favs",
   settings: "kkreader.settings",
+  expanded: "kkreader.expandedCategories",
 };
 
 const PAGE_SIZE = 100;
@@ -14,32 +16,36 @@ const PAGE_SIZE = 100;
 const state = {
   feeds: [],
   feedsById: {},
+  feedsByCategory: {},
   categories: [],
   articles: [],
   read: new Set(),
   favs: new Set(),
+  expandedCategories: new Set(),
   filters: {
     unreadOnly: true,
     favOnly: false,
-    category: "__all", // __all, __fav, or category name
+    category: "__all",   // "__all", "__fav", or category name
+    feedId: null,        // 特定フィードのみ
     search: "",
   },
-  visible: [],     // filtered articles (full)
-  rendered: 0,     // number currently shown
+  visible: [],
+  rendered: 0,
   selectedId: null,
-  meta: {},        // articles.json meta
+  meta: {},
 };
 
 // ---- Persistence ----
 function loadFromStorage() {
   try {
-    const r = JSON.parse(localStorage.getItem(STORAGE.read) || "[]");
-    state.read = new Set(r);
+    state.read = new Set(JSON.parse(localStorage.getItem(STORAGE.read) || "[]"));
   } catch { state.read = new Set(); }
   try {
-    const f = JSON.parse(localStorage.getItem(STORAGE.favs) || "[]");
-    state.favs = new Set(f);
+    state.favs = new Set(JSON.parse(localStorage.getItem(STORAGE.favs) || "[]"));
   } catch { state.favs = new Set(); }
+  try {
+    state.expandedCategories = new Set(JSON.parse(localStorage.getItem(STORAGE.expanded) || "[]"));
+  } catch { state.expandedCategories = new Set(); }
   try {
     const s = JSON.parse(localStorage.getItem(STORAGE.settings) || "{}");
     if (typeof s.unreadOnly === "boolean") state.filters.unreadOnly = s.unreadOnly;
@@ -48,19 +54,17 @@ function loadFromStorage() {
   } catch {}
 }
 
-function saveRead() {
-  localStorage.setItem(STORAGE.read, JSON.stringify([...state.read]));
-}
-function saveFavs() {
-  localStorage.setItem(STORAGE.favs, JSON.stringify([...state.favs]));
+function saveRead() { localStorage.setItem(STORAGE.read, JSON.stringify([...state.read])); }
+function saveFavs() { localStorage.setItem(STORAGE.favs, JSON.stringify([...state.favs])); }
+function saveExpanded() {
+  localStorage.setItem(STORAGE.expanded, JSON.stringify([...state.expandedCategories]));
 }
 function saveSettings() {
-  const s = {
+  localStorage.setItem(STORAGE.settings, JSON.stringify({
     unreadOnly: state.filters.unreadOnly,
     favOnly: state.filters.favOnly,
     theme: document.body.dataset.theme,
-  };
-  localStorage.setItem(STORAGE.settings, JSON.stringify(s));
+  }));
 }
 
 // ---- Data loading ----
@@ -77,6 +81,11 @@ async function loadData() {
     const articlesData = await articlesRes.json();
     state.feeds = feedsData.feeds || [];
     state.feedsById = Object.fromEntries(state.feeds.map(f => [f.id, f]));
+    state.feedsByCategory = {};
+    for (const f of state.feeds) {
+      const c = f.category || "未分類";
+      (state.feedsByCategory[c] ||= []).push(f);
+    }
     state.categories = feedsData.categories || [];
     state.articles = articlesData.articles || [];
     state.meta = {
@@ -87,7 +96,7 @@ async function loadData() {
     renderFetchStatus();
     return true;
   } catch (e) {
-    status.textContent = "読み込みエラー";
+    status.textContent = "読込エラー";
     document.getElementById("list-empty").textContent =
       "データの読み込みに失敗しました。GitHub Actions が一度実行されているか確認してください。";
     console.error(e);
@@ -97,18 +106,33 @@ async function loadData() {
 
 // ---- Filtering ----
 function applyFilters() {
-  const { unreadOnly, favOnly, category, search } = state.filters;
+  const { unreadOnly, favOnly, category, feedId, search } = state.filters;
   const q = search.trim().toLowerCase();
+  const isFavView = favOnly || category === "__fav";
 
   state.visible = state.articles.filter(a => {
+    // 未読フィルタ
     if (unreadOnly && state.read.has(a.id)) return false;
-    if (favOnly && !state.favs.has(a.id)) return false;
-    if (category === "__fav" && !state.favs.has(a.id)) return false;
-    if (category && category !== "__all" && category !== "__fav" && a.category !== category) return false;
+
+    // フィードレベル(優先)
+    if (feedId) {
+      if (a.feed_id !== feedId) return false;
+    } else {
+      // カテゴリレベル
+      if (category && category !== "__all" && category !== "__fav") {
+        if (a.category !== category) return false;
+      }
+    }
+
+    // お気に入り(全レベルに重ねがけ)
+    if (isFavView && !state.favs.has(a.id)) return false;
+
+    // 検索
     if (q) {
       const hay = `${a.title} ${a.feed_title} ${a.category}`.toLowerCase();
       if (!hay.includes(q)) return false;
     }
+
     return true;
   });
   state.rendered = 0;
@@ -119,8 +143,7 @@ function fmtDate(iso) {
   if (!iso) return "—";
   try {
     const d = new Date(iso);
-    const now = new Date();
-    const diffMs = now - d;
+    const diffMs = new Date() - d;
     const diffH = diffMs / 36e5;
     if (diffH < 1) return Math.max(1, Math.round(diffMs / 60000)) + "分前";
     if (diffH < 24) return Math.round(diffH) + "時間前";
@@ -132,29 +155,27 @@ function fmtDate(iso) {
 function renderCategoryList() {
   const list = document.getElementById("category-list");
   list.innerHTML = "";
-  const tpl = document.getElementById("tpl-cat-row");
+  const catTpl = document.getElementById("tpl-cat-row");
+  const feedTpl = document.getElementById("tpl-feed-row");
 
-  // Count unread per category
+  // 未読数集計(カテゴリ別、フィード別)
   const unreadByCat = {};
+  const unreadByFeed = {};
   let totalUnread = 0;
-  let favUnread = 0;
   for (const a of state.articles) {
     if (state.read.has(a.id)) continue;
     totalUnread++;
     unreadByCat[a.category] = (unreadByCat[a.category] || 0) + 1;
-    if (state.favs.has(a.id)) favUnread++;
+    unreadByFeed[a.feed_id] = (unreadByFeed[a.feed_id] || 0) + 1;
   }
-
   document.getElementById("count-all").textContent = totalUnread;
-  // For favorites, show total favs count (read or unread)
   document.getElementById("count-fav").textContent = state.favs.size;
 
-  // Sort: defined categories first (in OPML order), then others by count desc
-  const orderHint = ["不動産", "金融・経済・投資", "ブログ", "Fx", "未分類"];
+  // カテゴリ並び順
+  const orderHint = ["金融・経済・投資", "不動産", "ブログ", "Fx", "未分類"];
   const allCats = state.categories.length ? state.categories : Object.keys(unreadByCat);
   const sorted = [...allCats].sort((a, b) => {
-    const ai = orderHint.indexOf(a);
-    const bi = orderHint.indexOf(b);
+    const ai = orderHint.indexOf(a), bi = orderHint.indexOf(b);
     if (ai !== -1 && bi !== -1) return ai - bi;
     if (ai !== -1) return -1;
     if (bi !== -1) return 1;
@@ -162,23 +183,74 @@ function renderCategoryList() {
   });
 
   for (const cat of sorted) {
-    const node = tpl.content.cloneNode(true);
+    // カテゴリ行
+    const node = catTpl.content.cloneNode(true);
     const btn = node.querySelector(".cat-row");
     btn.dataset.cat = cat;
+    const isExpanded = state.expandedCategories.has(cat);
+    btn.dataset.expanded = isExpanded ? "true" : "false";
+
+    btn.querySelector(".cat-caret").textContent = "▶";
     btn.querySelector(".cat-name").textContent = cat;
     btn.querySelector(".cat-count").textContent = unreadByCat[cat] || 0;
-    if (state.filters.category === cat) btn.dataset.active = "true";
-    btn.addEventListener("click", () => selectCategory(cat));
+
+    if (state.filters.category === cat && !state.filters.feedId) {
+      btn.dataset.active = "true";
+    }
+
+    btn.addEventListener("click", (e) => {
+      // 展開トグル + カテゴリフィルタ適用
+      const wasExpanded = state.expandedCategories.has(cat);
+      const isCurrentCat = state.filters.category === cat && !state.filters.feedId;
+
+      if (isCurrentCat && wasExpanded) {
+        // 既に選択済みかつ展開済み → 折り畳む(フィルタは維持)
+        state.expandedCategories.delete(cat);
+      } else {
+        // それ以外 → 展開して選択
+        state.expandedCategories.add(cat);
+        selectCategory(cat);
+      }
+      saveExpanded();
+      renderCategoryList();
+    });
+
     list.appendChild(node);
+
+    // 展開されている場合、フィード一覧を出す
+    if (isExpanded) {
+      const feedListWrap = document.createElement("div");
+      feedListWrap.className = "feed-list";
+
+      const feeds = (state.feedsByCategory[cat] || []).slice().sort((a, b) =>
+        (unreadByFeed[b.id] || 0) - (unreadByFeed[a.id] || 0) ||
+        a.title.localeCompare(b.title, "ja")
+      );
+
+      for (const f of feeds) {
+        const fnode = feedTpl.content.cloneNode(true);
+        const fbtn = fnode.querySelector(".feed-row");
+        fbtn.dataset.feedId = f.id;
+        if (state.filters.feedId === f.id) {
+          fbtn.dataset.active = "true";
+        }
+        if (!f.active) {
+          fbtn.dataset.inactive = "true";
+          fbtn.title = "無効化されたフィード(取得対象外)";
+        }
+        fbtn.querySelector(".feed-name").textContent = f.title;
+        fbtn.querySelector(".feed-count").textContent = unreadByFeed[f.id] || 0;
+        fbtn.addEventListener("click", () => selectFeed(f.id));
+        feedListWrap.appendChild(fnode);
+      }
+      list.appendChild(feedListWrap);
+    }
   }
 
-  // Update top-level rows
-  document.querySelectorAll('.sidebar-section .cat-row').forEach(el => {
-    if (el.dataset.cat === state.filters.category) {
-      el.dataset.active = "true";
-    } else {
-      el.dataset.active = "false";
-    }
+  // top rows のアクティブ状態
+  document.querySelectorAll('.top-row').forEach(el => {
+    el.dataset.active = (el.dataset.cat === state.filters.category && !state.filters.feedId)
+      ? "true" : "false";
   });
 }
 
@@ -195,7 +267,6 @@ function renderArticleList() {
     list.appendChild(empty);
     return;
   }
-
   appendArticleRows();
 }
 
@@ -205,7 +276,6 @@ function appendArticleRows() {
   const start = state.rendered;
   const end = Math.min(state.visible.length, start + PAGE_SIZE);
 
-  // Remove existing load-more if present
   const existingMore = list.querySelector(".load-more-wrap");
   if (existingMore) existingMore.remove();
 
@@ -256,13 +326,18 @@ function appendArticleRows() {
 
 function renderArticleDetail(id) {
   const detail = document.getElementById("article-detail");
+  const content = document.getElementById("detail-content");
+  const mobileTitle = document.getElementById("detail-mobile-title");
   detail.classList.add("show");
 
   const a = state.articles.find(x => x.id === id);
   if (!a) {
-    detail.innerHTML = '<div class="detail-empty">記事が見つかりません</div>';
+    content.innerHTML = '<div class="detail-empty">記事が見つかりません</div>';
+    if (mobileTitle) mobileTitle.textContent = "";
     return;
   }
+
+  if (mobileTitle) mobileTitle.textContent = a.feed_title;
 
   const isFav = state.favs.has(id);
   const isRead = state.read.has(id);
@@ -270,7 +345,7 @@ function renderArticleDetail(id) {
     ? new Date(a.published).toLocaleString("ja-JP")
     : "公開日不明";
 
-  detail.innerHTML = `
+  content.innerHTML = `
     <div class="detail-meta">
       <span class="accent">${escapeHtml(a.feed_title)}</span> · ${escapeHtml(a.category)} · ${dateStr}
     </div>
@@ -290,7 +365,6 @@ function renderArticleDetail(id) {
   const body = document.getElementById("detail-body");
   if (a.content_html) {
     body.innerHTML = a.content_html;
-    // Force external links
     body.querySelectorAll("a").forEach(link => {
       link.target = "_blank";
       link.rel = "noopener noreferrer";
@@ -311,6 +385,9 @@ function renderArticleDetail(id) {
   document.getElementById("btn-open").addEventListener("click", () => {
     window.open(a.url, "_blank", "noopener,noreferrer");
   });
+
+  // モバイルでは詳細表示時に詳細スクロール位置を上に戻す
+  content.scrollTop = 0;
 }
 
 function escapeHtml(s) {
@@ -339,26 +416,35 @@ function renderFetchStatus() {
 // ---- Actions ----
 function selectCategory(cat) {
   state.filters.category = cat;
+  state.filters.feedId = null;
   applyFilters();
   renderCategoryList();
   renderArticleList();
-  // Mobile: close sidebar after selection
-  document.getElementById("sidebar").classList.remove("show");
+  closeSidebarOnMobile();
+}
+
+function selectFeed(feedId) {
+  state.filters.feedId = feedId;
+  // カテゴリも同期(視覚的にフィードが属するカテゴリを選択状態にする)
+  const feed = state.feedsById[feedId];
+  if (feed) {
+    state.filters.category = feed.category;
+  }
+  applyFilters();
+  renderCategoryList();
+  renderArticleList();
+  closeSidebarOnMobile();
 }
 
 function selectArticle(id) {
   state.selectedId = id;
-  // Mark read on view
   if (!state.read.has(id)) {
     state.read.add(id);
     saveRead();
   }
-  // Update DOM
   document.querySelectorAll(".row").forEach(row => {
     row.dataset.selected = row.dataset.id === id ? "true" : "false";
-    if (row.dataset.id === id) {
-      row.dataset.read = "true";
-    }
+    if (row.dataset.id === id) row.dataset.read = "true";
   });
   renderArticleDetail(id);
   updateAllCounts();
@@ -368,11 +454,9 @@ function toggleRead(id) {
   if (state.read.has(id)) state.read.delete(id);
   else state.read.add(id);
   saveRead();
-  // Update row
   const row = document.querySelector(`.row[data-id="${id}"]`);
   if (row) row.dataset.read = state.read.has(id) ? "true" : "false";
   updateAllCounts();
-  // If unreadOnly is on and we just marked read, it should disappear from list — but we keep it visible until next filter pass
 }
 
 function toggleFav(id) {
@@ -398,8 +482,34 @@ function markAllReadInView() {
 }
 
 function updateAllCounts() {
-  // Recompute and re-render category list (cheap; <50 categories)
   renderCategoryList();
+}
+
+function closeSidebarOnMobile() {
+  if (window.innerWidth <= 720) {
+    document.getElementById("sidebar").classList.remove("show");
+    document.getElementById("sidebar-backdrop").classList.remove("show");
+  }
+}
+
+function openSidebar() {
+  document.getElementById("sidebar").classList.add("show");
+  document.getElementById("sidebar-backdrop").classList.add("show");
+}
+
+function closeSidebar() {
+  document.getElementById("sidebar").classList.remove("show");
+  document.getElementById("sidebar-backdrop").classList.remove("show");
+}
+
+function toggleSidebar() {
+  const sb = document.getElementById("sidebar");
+  if (sb.classList.contains("show")) closeSidebar();
+  else openSidebar();
+}
+
+function backToList() {
+  document.getElementById("article-detail").classList.remove("show");
 }
 
 // ---- Keyboard ----
@@ -409,7 +519,6 @@ function moveSelection(delta) {
   if (next < 0) next = 0;
   if (next >= state.visible.length) next = state.visible.length - 1;
   if (next === idx || next < 0) return;
-  // Ensure rendered up to next
   while (state.rendered <= next && state.rendered < state.visible.length) {
     appendArticleRows();
   }
@@ -422,7 +531,6 @@ function moveSelection(delta) {
 }
 
 function handleKeydown(e) {
-  // Ignore when typing in input
   if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") {
     if (e.key === "Escape") e.target.blur();
     return;
@@ -448,16 +556,11 @@ function handleKeydown(e) {
         if (a) window.open(a.url, "_blank", "noopener,noreferrer");
       }
       break;
-    case "u":
-      e.preventDefault();
-      toggleUnreadFilter();
-      break;
-    case "/":
-      e.preventDefault();
-      document.getElementById("search").focus();
-      break;
+    case "u": e.preventDefault(); toggleUnreadFilter(); break;
+    case "/": e.preventDefault(); document.getElementById("search").focus(); break;
     case "Escape":
-      document.getElementById("article-detail").classList.remove("show");
+      backToList();
+      closeSidebar();
       break;
   }
 }
@@ -496,9 +599,11 @@ async function init() {
   document.getElementById("filter-fav").addEventListener("click", toggleFavFilter);
   document.getElementById("mark-all-read").addEventListener("click", markAllReadInView);
   document.getElementById("theme-toggle").addEventListener("click", toggleTheme);
-  document.getElementById("toggle-sidebar").addEventListener("click", () => {
-    document.getElementById("sidebar").classList.toggle("show");
-  });
+  document.getElementById("toggle-sidebar").addEventListener("click", toggleSidebar);
+  document.getElementById("sidebar-backdrop").addEventListener("click", closeSidebar);
+
+  const backBtn = document.getElementById("back-to-list");
+  if (backBtn) backBtn.addEventListener("click", backToList);
 
   document.getElementById("search").addEventListener("input", (e) => {
     state.filters.search = e.target.value;
@@ -506,15 +611,16 @@ async function init() {
     renderArticleList();
   });
 
-  // Top-level "all" and "fav" rows
-  document.querySelectorAll('.sidebar-section .cat-row[data-cat="__all"]').forEach(el => {
-    el.addEventListener("click", () => selectCategory("__all"));
-  });
-  document.querySelectorAll('.sidebar-section .cat-row[data-cat="__fav"]').forEach(el => {
-    el.addEventListener("click", () => selectCategory("__fav"));
+  document.querySelectorAll('.top-row').forEach(el => {
+    el.addEventListener("click", () => selectCategory(el.dataset.cat));
   });
 
   document.addEventListener("keydown", handleKeydown);
+
+  // モバイル: ウィンドウリサイズ時にサイドバーをリセット
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 720) closeSidebar();
+  });
 
   const ok = await loadData();
   if (!ok) return;

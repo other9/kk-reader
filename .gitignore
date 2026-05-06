@@ -9,3 +9,8 @@ __pycache__/
 # Generated snapshots (uploaded to Claude, not committed to repo)
 kk-reader-snapshot-*.zip
 STATE.json
+
+# Update/snapshot artifacts (never commit)
+UPDATE.md
+kk-reader-update-*.zip
+kk-reader-snapshot-*.zip

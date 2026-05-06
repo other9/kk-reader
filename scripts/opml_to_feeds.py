@@ -2,7 +2,7 @@
 """
 OPMLファイルを feeds.json に変換する一回限りのスクリプト。
 新しい購読を追加した OPML をエクスポートしたら再実行する。
-既存の feeds.json があれば、メタデータ(last_fetch等)を保持してマージする。
+既存の feeds.json があれば、メタデータ(last_fetch, active, verify_ssl等)を保持してマージする。
 """
 import json
 import hashlib
@@ -37,6 +37,7 @@ def parse_opml(path: Path) -> list[dict]:
                     "category": category,
                     "source_type": "rss",
                     "active": True,
+                    "verify_ssl": True,
                     "etag": None,
                     "last_modified": None,
                     "last_fetch": None,
@@ -45,7 +46,6 @@ def parse_opml(path: Path) -> list[dict]:
                     "last_error": None,
                 })
             else:
-                # Folder: recurse, using folder title as category
                 folder_name = child.get("title") or child.get("text") or "未分類"
                 walk(child, folder_name)
 
@@ -57,7 +57,6 @@ def main():
     feeds = parse_opml(OPML_PATH)
     print(f"OPMLから {len(feeds)} 件のフィードを読み込みました")
 
-    # Merge with existing feeds.json if present (preserve metadata)
     if FEEDS_JSON_PATH.exists():
         with open(FEEDS_JSON_PATH, encoding="utf-8") as f:
             existing = json.load(f)
@@ -72,12 +71,10 @@ def main():
                 feed["error_count"] = old.get("error_count", 0)
                 feed["last_error"] = old.get("last_error")
                 feed["active"] = old.get("active", True)
+                feed["verify_ssl"] = old.get("verify_ssl", True)
         print(f"既存の {len(existing_by_id)} 件とメタデータをマージしました")
 
-    # Categories list
     categories = sorted({f["category"] for f in feeds})
-
-    # Sort feeds: by category, then title
     feeds.sort(key=lambda f: (f["category"], f["title"]))
 
     output = {

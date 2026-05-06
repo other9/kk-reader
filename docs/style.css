@@ -1128,3 +1128,87 @@ input, textarea, select {
   .detail-title { font-size: 22px; }
   .detail-body { font-size: 16px; }
 }
+
+/* ============================================================
+   Lazy article body fetching (update-007)
+   Worker から本文を on-demand 取得する際の表示
+   ============================================================ */
+
+.lazy-summary {
+  color: var(--ink-mid);
+  font-style: italic;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--rule);
+}
+
+.lazy-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  color: var(--ink-mid);
+  gap: 16px;
+}
+
+.lazy-loading p {
+  margin: 0;
+  font-size: 14px;
+  font-family: var(--mono);
+}
+
+.spinner {
+  width: 28px;
+  height: 28px;
+  border: 3px solid var(--rule);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: kk-spin 0.8s linear infinite;
+}
+
+@keyframes kk-spin {
+  to { transform: rotate(360deg); }
+}
+
+.lazy-error,
+.lazy-fallback {
+  padding: 20px;
+  background: var(--bg-sunken);
+  border-left: 3px solid var(--rule-strong);
+  border-radius: 2px;
+  margin: 1em 0;
+}
+
+.lazy-error {
+  border-left-color: #c0392b;
+}
+
+.lazy-error p,
+.lazy-fallback p {
+  margin: 0.5em 0;
+  font-size: 14px;
+  color: var(--ink-mid);
+}
+
+.lazy-error-detail {
+  font-family: var(--mono);
+  font-size: 12px !important;
+  color: var(--ink-dim) !important;
+  word-break: break-word;
+}
+
+.lazy-error .icon-btn {
+  margin-top: 12px;
+  padding: 8px 16px;
+}
+
+.lazy-fetched-note {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid var(--rule);
+  font-size: 11px;
+  color: var(--ink-dim);
+  font-family: var(--mono);
+  text-align: right;
+}

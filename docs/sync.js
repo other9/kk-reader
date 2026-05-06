@@ -108,6 +108,33 @@ class SyncClient {
     }
   }
 
+  // ---- 記事本文の on-demand 取得 ----
+
+  async fetchArticle(articleUrl) {
+    if (!this.enabled) {
+      return { ok: false, error: "同期が無効です。設定画面でtokenを設定してください。" };
+    }
+    try {
+      const u = new URL(`${this.url}/article`);
+      u.searchParams.set("url", articleUrl);
+      const resp = await fetch(u.toString(), {
+        headers: { Authorization: `Bearer ${this.token}` },
+      });
+      if (!resp.ok) {
+        let msg = `HTTP ${resp.status}`;
+        try {
+          const j = await resp.json();
+          if (j.error) msg = j.error;
+        } catch {}
+        return { ok: false, error: msg };
+      }
+      const data = await resp.json();
+      return { ok: true, data };
+    } catch (e) {
+      return { ok: false, error: `接続エラー: ${e.message}` };
+    }
+  }
+
   // ---- 差分キュー ----
 
   queueDiff(type, entry) {

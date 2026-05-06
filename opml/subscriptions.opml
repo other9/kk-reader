@@ -32,6 +32,10 @@
             <outline type="rss" text="サラリーマンと不動産投資" title="サラリーマンと不動産投資" xmlUrl="https://investment-finance.net/feed/" htmlUrl="https://investment-finance.net"/>
             <outline type="rss" text="百年後のヴィンテージマンション" title="百年後のヴィンテージマンション" xmlUrl="http://sanoji1416.jugem.jp/?mode=rss" htmlUrl="http://sanoji1416.jugem.jp/"/>
             <outline type="rss" text="不動産ブログ「マンション・チラシの定点観測」" title="不動産ブログ「マンション・チラシの定点観測」" xmlUrl="http://d.hatena.ne.jp/flats/rss" htmlUrl="https://1manken.hatenablog.com/"/>
+            <outline type="scrape_kenbiya" text="健美家 コラム&amp;ニュース" title="健美家 コラム&amp;ニュース" xmlUrl="https://www.kenbiya.com/ar/" htmlUrl="https://www.kenbiya.com/"/>
+            <outline type="scrape_rakumachi" text="楽待新聞 編集部記事" title="楽待新聞 編集部記事" xmlUrl="https://www.rakumachi.jp/news/column" htmlUrl="https://www.rakumachi.jp/news/"/>
+            <outline type="scrape_rakumachi" text="楽待新聞 連載コラム" title="楽待新聞 連載コラム" xmlUrl="https://www.rakumachi.jp/news/series" htmlUrl="https://www.rakumachi.jp/news/series"/>
+            <outline type="scrape_rakumachi" text="楽待 実践大家コラム" title="楽待 実践大家コラム" xmlUrl="https://www.rakumachi.jp/news/practical" htmlUrl="https://www.rakumachi.jp/news/practical"/>
         </outline>
         <outline text="金融・経済・投資" title="金融・経済・投資">
             <outline type="rss" text="金融の未来を考えるブログ" title="金融の未来を考えるブログ" xmlUrl="http://feedblog.ameba.jp/rss/ameblo/cva358/rss20.xml" htmlUrl="https://ameblo.jp/cva358/"/>

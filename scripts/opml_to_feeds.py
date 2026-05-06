@@ -25,7 +25,9 @@ def parse_opml(path: Path) -> list[dict]:
 
     def walk(node, category):
         for child in node.findall("outline"):
-            if child.get("type") == "rss":
+            outline_type = child.get("type") or ""
+            # rss と scrape_* (健美家・楽待等のスクレイピング系) を扱う
+            if outline_type == "rss" or outline_type.startswith("scrape_"):
                 xml_url = child.get("xmlUrl") or ""
                 if not xml_url:
                     continue
@@ -35,7 +37,7 @@ def parse_opml(path: Path) -> list[dict]:
                     "url": xml_url,
                     "html_url": child.get("htmlUrl") or "",
                     "category": category,
-                    "source_type": "rss",
+                    "source_type": outline_type or "rss",
                     "active": True,
                     "verify_ssl": True,
                     "etag": None,

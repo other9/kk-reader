@@ -406,8 +406,8 @@ function renderArticleDetail(id) {
       link.rel = "noopener noreferrer";
     });
   } else {
-    body.innerHTML = `<p>${escapeHtml(a.summary || "本文プレビューがありません。")}</p>
-      <p style="color:var(--ink-dim);font-style:italic;">完全な記事内容は元記事でご覧ください。</p>`;
+    // 本文未取得 → Worker経由で動的に取得を試みる
+    renderArticleBodyLazy(a, body);
   }
 
   document.getElementById("btn-fav").addEventListener("click", () => {
@@ -425,6 +425,78 @@ function renderArticleDetail(id) {
   // モバイルでは詳細表示時に詳細スクロール位置を上に戻す
   content.scrollTop = 0;
 }
+
+// 本文がない記事をWorker経由で取得して描画する
+async function renderArticleBodyLazy(article, bodyEl) {
+  const sc = window.kkSync && window.kkSync.client;
+  const summaryHtml = article.summary
+    ? `<p class="lazy-summary">${escapeHtml(article.summary)}</p>`
+    : "";
+
+  if (!sc || !sc.enabled) {
+    // 同期未設定のときは要約とリンクだけ表示
+    bodyEl.innerHTML = `${summaryHtml}
+      <div class="lazy-fallback">
+        <p>記事本文の取得には同期機能(設定画面のtoken)が必要です。</p>
+        <p>未設定の場合は元記事リンクから読んでください。</p>
+      </div>`;
+    return;
+  }
+
+  // ローディング表示
+  bodyEl.innerHTML = `${summaryHtml}
+    <div class="lazy-loading">
+      <div class="spinner"></div>
+      <p>本文を取得中…</p>
+    </div>`;
+
+  const result = await sc.fetchArticle(article.url);
+
+  // 取得中に別の記事に遷移していたら何もしない(stale避け)
+  if (state.selectedId !== article.id) return;
+
+  if (!result.ok) {
+    bodyEl.innerHTML = `${summaryHtml}
+      <div class="lazy-error">
+        <p><strong>本文の取得に失敗しました</strong></p>
+        <p class="lazy-error-detail">${escapeHtml(result.error || "不明なエラー")}</p>
+        <p>元記事リンクから読んでください。</p>
+        <button class="icon-btn" onclick="retryArticleFetch('${escapeAttr(article.id)}')">再試行</button>
+      </div>`;
+    return;
+  }
+
+  const html = result.data.content_html || "";
+  if (!html.trim()) {
+    bodyEl.innerHTML = `${summaryHtml}
+      <div class="lazy-error">
+        <p>本文の自動抽出に失敗しました。元記事リンクからお読みください。</p>
+      </div>`;
+    return;
+  }
+
+  bodyEl.innerHTML = html;
+  bodyEl.querySelectorAll("a").forEach(link => {
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+  });
+
+  // キャッシュヒット情報を末尾に小さく表示(デバッグ・透明性のため)
+  if (result.data.cache_hit === false) {
+    const note = document.createElement("p");
+    note.className = "lazy-fetched-note";
+    note.textContent = `本文取得: ${new Date(result.data.fetched_at).toLocaleString("ja-JP")}`;
+    bodyEl.appendChild(note);
+  }
+}
+
+// 再試行ボタン用(グローバル経由でアクセスされる)
+window.retryArticleFetch = function(articleId) {
+  const a = state.articles.find(x => x.id === articleId);
+  if (!a) return;
+  const body = document.getElementById("detail-body");
+  if (body) renderArticleBodyLazy(a, body);
+};
 
 function escapeHtml(s) {
   return String(s ?? "").replace(/[&<>"']/g, c => ({

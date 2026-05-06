@@ -2353,11 +2353,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-06T04:02:41.714834+00:00",
+  "last_updated": "2026-05-06T04:15:12.105446+00:00",
   "stats": {
     "total": 168,
-    "fetched_just_now": 736,
-    "feeds_success": 79,
-    "feeds_failed": 32
+    "fetched_just_now": 735,
+    "feeds_success": 77,
+    "feeds_failed": 11
   }
 }

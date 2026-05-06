@@ -5,3 +5,7 @@ __pycache__/
 .idea/
 .vscode/
 *.swp
+
+# Generated snapshots (uploaded to Claude, not committed to repo)
+kk-reader-snapshot-*.zip
+STATE.json

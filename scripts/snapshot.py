@@ -44,7 +44,7 @@ INCLUDE_PATHS = [
 ]
 
 # パスに含まれていたら除外するパターン
-EXCLUDE_TOKENS = ["__pycache__", ".pyc", ".DS_Store", ".pytest_cache"]
+EXCLUDE_TOKENS = ["__pycache__", ".pyc", ".DS_Store", ".pytest_cache", ".wrangler"]
 
 
 def run_git(args: list[str]) -> str:

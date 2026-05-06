@@ -1026,3 +1026,105 @@ input, textarea, select {
   font-family: var(--mono);
   word-break: break-word;
 }
+
+/* ============================================================
+   Mobile typography (2026-05-06)
+   モバイル時の文字を全体的に大きくして可読性を改善する。
+   このセクションは末尾に置き、既存の値を上書きする。
+   ============================================================ */
+
+@media (max-width: 720px) {
+  body { font-size: 16px; }
+
+  /* Topbar — 5ボタン全部を1段に収めるための最小寸法 */
+  .brand { font-size: 19px; }
+  .icon-btn, .filter-pill { font-size: 13px; padding: 6px 8px; min-height: 34px; }
+  .icon-btn.icon-only, .filter-pill.icon-only { width: 32px; padding: 6px; }
+  .topbar-right { gap: 3px; }
+  .topbar-left { gap: 8px; }
+  .topbar-row { padding: 8px 12px; gap: 6px; }
+  .status { font-size: 11px; }
+
+  /* Search input(iOS zoom 防止のため 16px は維持) */
+  #search { font-size: 16px; padding: 8px 12px; }
+
+  /* Article list rows */
+  .row { padding: 16px 18px 16px 22px; }
+  .row-title {
+    font-size: 18px;
+    line-height: 1.45;
+    margin-bottom: 8px;
+  }
+  .row-summary {
+    font-size: 14.5px;
+    line-height: 1.65;
+    -webkit-line-clamp: 3;  /* 2行→3行に拡大して内容を多く見せる */
+  }
+  .row-meta {
+    font-size: 12px;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+  .row-cat {
+    font-size: 11.5px;
+    padding: 2px 7px;
+  }
+
+  /* Sidebar(タップしやすい高さ + 読みやすいフォント) */
+  .sidebar-head { font-size: 11px; }
+  .cat-row {
+    font-size: 15px;
+    padding: 11px 18px;
+    min-height: var(--touch-min);
+  }
+  .cat-name { font-size: 15px; }
+  .cat-count { font-size: 12px; }
+  .feed-row {
+    font-size: 14px;
+    padding: 10px 18px 10px 38px;
+    min-height: 40px;
+  }
+  .feed-name { font-size: 14px; }
+
+  /* Article detail */
+  .detail-meta { font-size: 12px; }
+  .detail-title {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .detail-source { font-size: 14px; }
+  .detail-toolbar button { font-size: 14px; }
+  .detail-body {
+    font-size: 17px;
+    line-height: 1.9;
+  }
+  .detail-body blockquote {
+    padding-left: 14px;
+    margin: 1.2em 0;
+  }
+  .detail-mobile-title { font-size: 14px; }
+
+  /* Status / hints */
+  .fetch-status { font-size: 12px; }
+  .hint { font-size: 12px; }
+
+  /* Settings modal */
+  .settings-head h2 { font-size: 20px; }
+  .settings-intro { font-size: 14px; }
+  .settings-field label { font-size: 12px; }
+  .settings-field input { font-size: 16px; padding: 10px 12px; }
+  .field-hint { font-size: 12px; }
+  .settings-actions .icon-btn { font-size: 14px; padding: 10px 16px; }
+  .settings-message { font-size: 13px; }
+  #sync-status-display { font-size: 13px; }
+}
+
+/* さらに小さい画面(iPhone SE 等)向け微調整 */
+@media (max-width: 380px) {
+  .row { padding: 14px 14px 14px 18px; }
+  .row-title { font-size: 17px; }
+  .row-summary { font-size: 14px; }
+  .detail-content { padding: 18px 14px; }
+  .detail-title { font-size: 22px; }
+  .detail-body { font-size: 16px; }
+}

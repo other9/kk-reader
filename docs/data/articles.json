@@ -2479,11 +2479,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-06T19:47:07.766393+00:00",
+  "last_updated": "2026-05-06T21:11:25.897423+00:00",
   "stats": {
     "total": 177,
-    "fetched_just_now": 691,
-    "feeds_success": 70,
-    "feeds_failed": 11
+    "fetched_just_now": 736,
+    "feeds_success": 78,
+    "feeds_failed": 3
   }
 }

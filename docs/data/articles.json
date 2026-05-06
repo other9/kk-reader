@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "f8fff053f8380340",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "中間投入財価格と労働分配率",
+      "url": "https://himaginary.hatenablog.com/entry/20260506/Intermediate_Input_Prices_and_the_Labor_Share",
+      "published": "2026-05-06T14:11:35+00:00",
+      "fetched": "2026-05-06T14:12:13.177191+00:00",
+      "summary": "というNBER論文が 上がっている （ ungated版 ）。原題は「Intermediate Input Prices and the Labor Share」で、著者はJuanma Castro-Vincenzi（シカゴ大）、Benny Kleinman（スタンフォード大）。 以下はその要旨。 We argue that the relative price of materials is an important determinant of the labor share of income. When materials and primary…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35114\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://bfi.uchicago.edu/working-papers/intermediate-input-prices-and-the-labor-share/\">ungated&#x7248;</a>）。原題は「Intermediate Input Prices and the Labor Share」で、著者はJuanma Castro-Vincenzi（シカゴ大）、Benny Kleinman（スタンフォード大）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>We argue that the relative price of materials is an important determinant of the labor share of income. When materials and primary inputs are complements and the profit share is positive, a higher price of materials lowers the labor share and raises the profit share of value added, without requiring markups or returns to scale to change. We show that materials-price fluctuations align with U.S. labor-share trends, provide causal evidence on this mechanism across industries and commuting zones, and quantify its importance in a dynamic quantitative model. Finally, we use our mechanism to rationalize differential labor-share trends across countries.<br />\n（拙訳）<br />\n原材料の相対価格は所得の労働分配率の重要な決定要因である、と我々は論じる。原材料と主要な投入財が補完財で、利潤分配率がプラスの時、原材料価格が高くなると労働分配率は下がって付加価値の利潤分配率は上がる。その際、マークアップや規模に関する収穫が変化することは要求されない。我々は、原材料価格の変動が米国の労働分配率のトレンドと一致していること示し、このメカニズムの因果関係の証拠を各産業および通勤圏について提供し、動学定量モデルでその重要性を数量化する。最後に我々は、このメカニズムを用いて各国の労働分配率のトレンドの違いを理論的に説明する。</p>\n\n    </blockquote>\n<p>論文では日本も分析対象としている。企業が労働者に十分報いていない、というのは河野龍太郎氏<a href=\"#f-40b4047b\" id=\"fn-40b4047b\" name=\"fn-40b4047b\" title=\"cf. [https://www.camri.or.jp/files/libs/982/201711081720166664.pdf:title=これ]、[https://www.mof.go.jp/pri/research/conference/fy2025/bunpai202602_2.pdf:title=これ]\">*1</a>や脇田成氏<a href=\"#f-6854cfa8\" id=\"fn-6854cfa8\" name=\"fn-6854cfa8\" title=\"cf. [https://note.com/kenichirou146/n/n16f578a5ff32:title]、[https://note.com/dkarakama/n/nf9e20362e521:title]。\">*2</a>がこのところ唱えているところであるが、実は原材料価格の推移で決まるところが大きかった、ということになると、求められる政府や企業の対応について話が違ってくることになるのかもしれない。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-40b4047b\" id=\"f-40b4047b\" name=\"f-40b4047b\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">cf. <a href=\"https://www.camri.or.jp/files/libs/982/201711081720166664.pdf\">&#x3053;&#x308c;</a>、<a href=\"https://www.mof.go.jp/pri/research/conference/fy2025/bunpai202602_2.pdf\">&#x3053;&#x308c;</a></span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-6854cfa8\" id=\"f-6854cfa8\" name=\"f-6854cfa8\">*2</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">cf. <a href=\"https://note.com/kenichirou146/n/n16f578a5ff32\">&#x8aad;&#x66f8;&#x8a18;&#x9332;&#xff13;&#xff16; &#x300c;&#x3044;&#x307e;&#x3069;&#x3046;&#x3059;&#x308b;&#x304b;&#x65e5;&#x672c;&#x7d4c;&#x6e08;&#x300d;&#x8107;&#x7530;&#x6210;&#xff5c;kenichirou</a>、<a href=\"https://note.com/dkarakama/n/nf9e20362e521\">&#x66f8;&#x8a55;&#x300c;&#x3044;&#x307e;&#x3069;&#x3046;&#x3059;&#x308b;&#x304b;&#x65e5;&#x672c;&#x7d4c;&#x6e08; (&#x3061;&#x304f;&#x307e;&#x65b0;&#x66f8;)&#x300d;&#xff08;&#x8457;&#xff1a;&#x8107;&#x7530;&#x6210;&#xff09;&#xff5c;&#x5510;&#x938c;&#x5927;&#x8f14;(&#x307f;&#x305a;&#x307b;&#x9280;&#x884c; &#x30c1;&#x30fc;&#x30d5;&#x30de;&#x30fc;&#x30b1;&#x30c3;&#x30c8;&#x30fb;&#x30a8;&#x30b3;&#x30ce;&#x30df;&#x30b9;&#x30c8;)</a>。</span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "ffaa0705849c943b",
       "feed_id": "d976d70a8e8a",
       "feed_title": "【不動産投資】訳あり物件再生の方法が面白いほどよくわかるブログ",
@@ -2479,11 +2493,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-06T13:57:08.247466+00:00",
+  "last_updated": "2026-05-06T14:12:15.587212+00:00",
   "stats": {
-    "total": 177,
-    "fetched_just_now": 736,
+    "total": 178,
+    "fetched_just_now": 737,
     "feeds_success": 78,
-    "feeds_failed": 5
+    "feeds_failed": 3
   }
 }

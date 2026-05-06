@@ -32,6 +32,8 @@ INCLUDE_PATHS = [
     "docs/index.html",
     "docs/app.js",
     "docs/style.css",
+    "docs/sync.js",
+    "worker",
     "docs/data/feeds.json",
     "opml/subscriptions.opml",
     "scripts",

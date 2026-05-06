@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>kk reader</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="auto">
+
+<header class="topbar">
+  <div class="topbar-left">
+    <button class="icon-btn" id="toggle-sidebar" title="サイドバー">≡</button>
+    <h1 class="brand">kk <span class="brand-dim">reader</span></h1>
+  </div>
+  <div class="topbar-center">
+    <input type="search" id="search" placeholder="検索（タイトル・ソース・カテゴリ）" autocomplete="off">
+  </div>
+  <div class="topbar-right">
+    <button class="filter-pill" id="filter-unread" data-active="true" title="未読のみ (u)">未読のみ</button>
+    <button class="filter-pill" id="filter-fav" title="お気に入りのみ (s)">★</button>
+    <button class="icon-btn" id="mark-all-read" title="表示中をすべて既読 (Shift+M)">既読化</button>
+    <button class="icon-btn" id="theme-toggle" title="テーマ切替">◐</button>
+    <span class="status" id="status"></span>
+  </div>
+</header>
+
+<main class="layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-head">概要</div>
+      <button class="cat-row" data-cat="__all" data-active="true">
+        <span class="cat-name">すべて</span>
+        <span class="cat-count" id="count-all">0</span>
+      </button>
+      <button class="cat-row" data-cat="__fav">
+        <span class="cat-name">★ お気に入り</span>
+        <span class="cat-count" id="count-fav">0</span>
+      </button>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-head">カテゴリ</div>
+      <div id="category-list"></div>
+    </div>
+    <div class="sidebar-section sidebar-foot">
+      <div class="sidebar-head">ステータス</div>
+      <div id="fetch-status" class="fetch-status">未取得</div>
+      <div class="hint">取得は GitHub Actions が2時間ごとに実行</div>
+    </div>
+  </aside>
+
+  <section class="article-list" id="article-list">
+    <div class="list-empty" id="list-empty">読み込み中…</div>
+  </section>
+
+  <section class="article-detail" id="article-detail">
+    <div class="detail-empty">記事を選択してください</div>
+  </section>
+</main>
+
+<template id="tpl-article-row">
+  <article class="row" tabindex="0">
+    <div class="row-meta">
+      <span class="row-source"></span>
+      <span class="row-cat"></span>
+      <span class="row-date"></span>
+    </div>
+    <h3 class="row-title"></h3>
+    <p class="row-summary"></p>
+    <div class="row-actions">
+      <button class="row-fav" title="お気に入り (f)">☆</button>
+      <button class="row-read" title="既読/未読切替 (m)">●</button>
+    </div>
+  </article>
+</template>
+
+<template id="tpl-cat-row">
+  <button class="cat-row">
+    <span class="cat-name"></span>
+    <span class="cat-count"></span>
+  </button>
+</template>
+
+<div class="shortcuts-hint" id="shortcuts-hint">
+  <kbd>j</kbd>/<kbd>k</kbd> 移動 · <kbd>m</kbd> 既読切替 · <kbd>f</kbd> お気に入り · <kbd>o</kbd> 元記事 · <kbd>u</kbd> 未読のみ · <kbd>?</kbd> ヘルプ
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

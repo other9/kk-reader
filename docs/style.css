@@ -820,3 +820,209 @@ input, textarea, select {
   .detail-content { padding: 20px 16px; }
   .detail-title { font-size: 22px; }
 }
+
+/* ============== Settings Modal & Sync Badge ============== */
+
+#sync-badge {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  line-height: 1;
+}
+#sync-badge::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--ink-dim);
+  border: 1px solid var(--bg-elev);
+}
+#sync-badge[data-state="on"]::after { background: var(--accent); }
+#sync-badge[data-state="error"]::after { background: #c0392b; }
+#sync-badge[data-state="off"]::after { background: var(--ink-dim); }
+
+.settings-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+}
+.settings-modal.show { display: block; }
+
+.settings-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.settings-panel {
+  position: relative;
+  margin: 5vh auto 0;
+  max-width: 540px;
+  background: var(--bg-elev);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 720px) {
+  .settings-panel {
+    margin: 0;
+    max-width: none;
+    height: 100vh;
+    height: 100dvh;
+    max-height: none;
+    border: none;
+    border-radius: 0;
+  }
+}
+
+.settings-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--rule);
+  flex-shrink: 0;
+}
+.settings-head h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+}
+.settings-head .icon-btn {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.settings-body {
+  padding: 20px 24px 24px;
+  overflow-y: auto;
+}
+
+.settings-intro {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--ink-mid);
+  margin: 0 0 20px;
+  padding: 12px 14px;
+  background: var(--bg-sunken);
+  border-left: 3px solid var(--accent);
+  border-radius: 2px;
+}
+
+.settings-field {
+  margin-bottom: 16px;
+}
+.settings-field label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--ink-mid);
+  margin-bottom: 6px;
+  font-family: var(--mono);
+  text-transform: uppercase;
+}
+.settings-field input {
+  width: 100%;
+  padding: 8px 12px;
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--ink);
+}
+.settings-field input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.field-hint {
+  margin-top: 6px;
+  font-size: 11px;
+  color: var(--ink-dim);
+  font-style: italic;
+  font-family: var(--serif);
+}
+.field-hint code {
+  font-family: var(--mono);
+  background: var(--bg-sunken);
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-style: normal;
+}
+
+.settings-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule);
+}
+.settings-actions .icon-btn {
+  padding: 8px 16px;
+  font-size: 13px;
+  min-height: var(--touch-min);
+}
+.settings-actions .icon-btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.settings-actions .icon-btn.primary:hover {
+  filter: brightness(1.1);
+  color: #fff;
+}
+.settings-actions .icon-btn.danger {
+  margin-left: auto;
+  color: #c0392b;
+  border-color: #c0392b40;
+}
+.settings-actions .icon-btn.danger:hover {
+  border-color: #c0392b;
+  color: #c0392b;
+}
+
+.settings-message {
+  margin-top: 16px;
+  font-size: 13px;
+  min-height: 20px;
+  font-family: var(--mono);
+}
+
+.settings-status {
+  margin-top: 20px;
+  padding: 12px 14px;
+  background: var(--bg-sunken);
+  border-radius: 2px;
+  border-left: 3px solid var(--rule-strong);
+}
+.settings-status-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  font-family: var(--mono);
+  margin-bottom: 4px;
+}
+#sync-status-display {
+  font-size: 13px;
+  color: var(--ink-mid);
+  font-family: var(--mono);
+  word-break: break-word;
+}

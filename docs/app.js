@@ -1,6 +1,6 @@
 /* ========================================
    kk reader — frontend logic
-   2026-05-06: ソース別フィルタ + モバイル対応
+   2026-05-06: ソース別フィルタ + モバイル対応 + 同期(LWW)
    ======================================== */
 
 const STORAGE = {
@@ -13,20 +13,23 @@ const STORAGE = {
 const PAGE_SIZE = 100;
 
 // ---- State ----
+// read/favs は Map<articleId, {state: 0|1, ts: number}>
+//   state: 1 = 既読/お気に入り, 0 = 明示的に解除した(同期で重要)
+//   登録なし = 一度も触っていない(=未読/未お気に入り扱い)
 const state = {
   feeds: [],
   feedsById: {},
   feedsByCategory: {},
   categories: [],
   articles: [],
-  read: new Set(),
-  favs: new Set(),
+  read: new Map(),
+  favs: new Map(),
   expandedCategories: new Set(),
   filters: {
     unreadOnly: true,
     favOnly: false,
-    category: "__all",   // "__all", "__fav", or category name
-    feedId: null,        // 特定フィードのみ
+    category: "__all",
+    feedId: null,
     search: "",
   },
   visible: [],
@@ -35,14 +38,14 @@ const state = {
   meta: {},
 };
 
+// 「既読/お気に入りである」かを判定するヘルパ
+function isRead(id) { return state.read.get(id)?.state === 1; }
+function isFav(id) { return state.favs.get(id)?.state === 1; }
+
 // ---- Persistence ----
 function loadFromStorage() {
-  try {
-    state.read = new Set(JSON.parse(localStorage.getItem(STORAGE.read) || "[]"));
-  } catch { state.read = new Set(); }
-  try {
-    state.favs = new Set(JSON.parse(localStorage.getItem(STORAGE.favs) || "[]"));
-  } catch { state.favs = new Set(); }
+  state.read = parseStateMap(localStorage.getItem(STORAGE.read));
+  state.favs = parseStateMap(localStorage.getItem(STORAGE.favs));
   try {
     state.expandedCategories = new Set(JSON.parse(localStorage.getItem(STORAGE.expanded) || "[]"));
   } catch { state.expandedCategories = new Set(); }
@@ -54,8 +57,37 @@ function loadFromStorage() {
   } catch {}
 }
 
-function saveRead() { localStorage.setItem(STORAGE.read, JSON.stringify([...state.read])); }
-function saveFavs() { localStorage.setItem(STORAGE.favs, JSON.stringify([...state.favs])); }
+// Set/Map両形式をパースする(レガシーデータからの移行)
+function parseStateMap(raw) {
+  if (!raw) return new Map();
+  let parsed;
+  try { parsed = JSON.parse(raw); } catch { return new Map(); }
+
+  if (Array.isArray(parsed)) {
+    // レガシー: ID の配列のみ → state=1, ts=1日前 として移行
+    const ts = Date.now() - 86400000;
+    return new Map(parsed.map(id => [id, { state: 1, ts }]));
+  }
+  if (parsed && typeof parsed === "object") {
+    const m = new Map();
+    for (const [id, v] of Object.entries(parsed)) {
+      if (v && (v.state === 0 || v.state === 1) && typeof v.ts === "number") {
+        m.set(id, { state: v.state, ts: v.ts });
+      }
+    }
+    return m;
+  }
+  return new Map();
+}
+
+function serializeStateMap(map) {
+  const obj = {};
+  for (const [k, v] of map) obj[k] = v;
+  return JSON.stringify(obj);
+}
+
+function saveRead() { localStorage.setItem(STORAGE.read, serializeStateMap(state.read)); }
+function saveFavs() { localStorage.setItem(STORAGE.favs, serializeStateMap(state.favs)); }
 function saveExpanded() {
   localStorage.setItem(STORAGE.expanded, JSON.stringify([...state.expandedCategories]));
 }
@@ -112,7 +144,7 @@ function applyFilters() {
 
   state.visible = state.articles.filter(a => {
     // 未読フィルタ
-    if (unreadOnly && state.read.has(a.id)) return false;
+    if (unreadOnly && isRead(a.id)) return false;
 
     // フィードレベル(優先)
     if (feedId) {
@@ -125,7 +157,7 @@ function applyFilters() {
     }
 
     // お気に入り(全レベルに重ねがけ)
-    if (isFavView && !state.favs.has(a.id)) return false;
+    if (isFavView && !isFav(a.id)) return false;
 
     // 検索
     if (q) {
@@ -163,13 +195,17 @@ function renderCategoryList() {
   const unreadByFeed = {};
   let totalUnread = 0;
   for (const a of state.articles) {
-    if (state.read.has(a.id)) continue;
+    if (isRead(a.id)) continue;
     totalUnread++;
     unreadByCat[a.category] = (unreadByCat[a.category] || 0) + 1;
     unreadByFeed[a.feed_id] = (unreadByFeed[a.feed_id] || 0) + 1;
   }
   document.getElementById("count-all").textContent = totalUnread;
-  document.getElementById("count-fav").textContent = state.favs.size;
+
+  // お気に入り数: state=1 のエントリだけカウント
+  let favCount = 0;
+  for (const v of state.favs.values()) if (v.state === 1) favCount++;
+  document.getElementById("count-fav").textContent = favCount;
 
   // カテゴリ並び順
   const orderHint = ["金融・経済・投資", "不動産", "ブログ", "Fx", "未分類"];
@@ -284,8 +320,8 @@ function appendArticleRows() {
     const node = tpl.content.cloneNode(true);
     const row = node.querySelector(".row");
     row.dataset.id = a.id;
-    row.dataset.read = state.read.has(a.id) ? "true" : "false";
-    row.dataset.fav = state.favs.has(a.id) ? "true" : "false";
+    row.dataset.read = isRead(a.id) ? "true" : "false";
+    row.dataset.fav = isFav(a.id) ? "true" : "false";
     row.dataset.selected = state.selectedId === a.id ? "true" : "false";
 
     row.querySelector(".row-source").textContent = a.feed_title;
@@ -293,7 +329,7 @@ function appendArticleRows() {
     row.querySelector(".row-date").textContent = fmtDate(a.published || a.fetched);
     row.querySelector(".row-title").textContent = a.title;
     row.querySelector(".row-summary").textContent = a.summary || "";
-    row.querySelector(".row-fav").textContent = state.favs.has(a.id) ? "★" : "☆";
+    row.querySelector(".row-fav").textContent = isFav(a.id) ? "★" : "☆";
 
     row.addEventListener("click", (e) => {
       if (e.target.classList.contains("row-fav")) {
@@ -339,8 +375,8 @@ function renderArticleDetail(id) {
 
   if (mobileTitle) mobileTitle.textContent = a.feed_title;
 
-  const isFav = state.favs.has(id);
-  const isRead = state.read.has(id);
+  const fav = isFav(id);
+  const read = isRead(id);
   const dateStr = a.published
     ? new Date(a.published).toLocaleString("ja-JP")
     : "公開日不明";
@@ -355,8 +391,8 @@ function renderArticleDetail(id) {
       ${a.author ? ` · ${escapeHtml(a.author)}` : ""}
     </div>
     <div class="detail-toolbar">
-      <button id="btn-fav" data-active="${isFav}">${isFav ? "★ お気に入り" : "☆ お気に入り"}</button>
-      <button id="btn-read">${isRead ? "未読に戻す" : "既読にする"}</button>
+      <button id="btn-fav" data-active="${fav}">${fav ? "★ お気に入り" : "☆ お気に入り"}</button>
+      <button id="btn-read">${read ? "未読に戻す" : "既読にする"}</button>
       <button id="btn-open">元記事を開く</button>
     </div>
     <div class="detail-body" id="detail-body"></div>
@@ -438,9 +474,8 @@ function selectFeed(feedId) {
 
 function selectArticle(id) {
   state.selectedId = id;
-  if (!state.read.has(id)) {
-    state.read.add(id);
-    saveRead();
+  if (!isRead(id)) {
+    setReadState(id, 1);
   }
   document.querySelectorAll(".row").forEach(row => {
     row.dataset.selected = row.dataset.id === id ? "true" : "false";
@@ -450,31 +485,54 @@ function selectArticle(id) {
   updateAllCounts();
 }
 
-function toggleRead(id) {
-  if (state.read.has(id)) state.read.delete(id);
-  else state.read.add(id);
+// 既読/未読の状態を設定し、localStorage と同期キューに反映する共通処理
+function setReadState(id, newState) {
+  const ts = Date.now();
+  state.read.set(id, { state: newState, ts });
   saveRead();
+  syncQueue("read", { id, state: newState, ts });
+}
+
+function setFavState(id, newState) {
+  const ts = Date.now();
+  state.favs.set(id, { state: newState, ts });
+  saveFavs();
+  syncQueue("fav", { id, state: newState, ts });
+}
+
+function syncQueue(type, entry) {
+  if (window.kkSync && window.kkSync.client) {
+    window.kkSync.client.queueDiff(type, entry);
+  }
+}
+
+function toggleRead(id) {
+  setReadState(id, isRead(id) ? 0 : 1);
   const row = document.querySelector(`.row[data-id="${id}"]`);
-  if (row) row.dataset.read = state.read.has(id) ? "true" : "false";
+  if (row) row.dataset.read = isRead(id) ? "true" : "false";
   updateAllCounts();
 }
 
 function toggleFav(id) {
-  if (state.favs.has(id)) state.favs.delete(id);
-  else state.favs.add(id);
-  saveFavs();
+  setFavState(id, isFav(id) ? 0 : 1);
   const row = document.querySelector(`.row[data-id="${id}"]`);
   if (row) {
-    row.dataset.fav = state.favs.has(id) ? "true" : "false";
+    row.dataset.fav = isFav(id) ? "true" : "false";
     const btn = row.querySelector(".row-fav");
-    if (btn) btn.textContent = state.favs.has(id) ? "★" : "☆";
+    if (btn) btn.textContent = isFav(id) ? "★" : "☆";
   }
   updateAllCounts();
 }
 
 function markAllReadInView() {
   if (!confirm(`表示中の ${state.visible.length} 件をすべて既読にしますか？`)) return;
-  for (const a of state.visible) state.read.add(a.id);
+  const ts = Date.now();
+  for (const a of state.visible) {
+    if (!isRead(a.id)) {
+      state.read.set(a.id, { state: 1, ts });
+      syncQueue("read", { id: a.id, state: 1, ts });
+    }
+  }
   saveRead();
   applyFilters();
   renderCategoryList();
@@ -592,6 +650,9 @@ function toggleTheme() {
 async function init() {
   loadFromStorage();
 
+  // 同期クライアント初期化(URLからtoken取込→localStorageから読み込み)
+  if (window.kkSync) window.kkSync.init();
+
   document.getElementById("filter-unread").dataset.active = state.filters.unreadOnly;
   document.getElementById("filter-fav").dataset.active = state.filters.favOnly;
 
@@ -601,6 +662,21 @@ async function init() {
   document.getElementById("theme-toggle").addEventListener("click", toggleTheme);
   document.getElementById("toggle-sidebar").addEventListener("click", toggleSidebar);
   document.getElementById("sidebar-backdrop").addEventListener("click", closeSidebar);
+
+  // 設定モーダルの開閉
+  const openSettingsBtn = document.getElementById("open-settings");
+  if (openSettingsBtn) openSettingsBtn.addEventListener("click", openSettingsModal);
+  const closeSettingsBtn = document.getElementById("close-settings");
+  if (closeSettingsBtn) closeSettingsBtn.addEventListener("click", closeSettingsModal);
+  const settingsBackdrop = document.getElementById("settings-backdrop");
+  if (settingsBackdrop) settingsBackdrop.addEventListener("click", closeSettingsModal);
+
+  const saveSyncBtn = document.getElementById("sync-save");
+  if (saveSyncBtn) saveSyncBtn.addEventListener("click", saveSyncSettings);
+  const testSyncBtn = document.getElementById("sync-test");
+  if (testSyncBtn) testSyncBtn.addEventListener("click", testSyncConnection);
+  const clearSyncBtn = document.getElementById("sync-clear");
+  if (clearSyncBtn) clearSyncBtn.addEventListener("click", clearSyncToken);
 
   const backBtn = document.getElementById("back-to-list");
   if (backBtn) backBtn.addEventListener("click", backToList);
@@ -622,11 +698,176 @@ async function init() {
     if (window.innerWidth > 720) closeSidebar();
   });
 
+  // 同期: ステータス変更時にUIへ反映
+  if (window.kkSync && window.kkSync.client) {
+    window.kkSync.client.onStatus(updateSyncBadge);
+    updateSyncBadge();
+  }
+
+  // 同期: タブが可視になったときにサーバ状態を pull
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") {
+      performSync(false);
+    }
+  });
+
   const ok = await loadData();
   if (!ok) return;
   applyFilters();
   renderCategoryList();
   renderArticleList();
+
+  // 起動時に1度サーバ状態を取得してマージ
+  performSync(true);
+}
+
+// ---- Sync 統合 ----
+
+async function performSync(isInitialSync) {
+  const sc = window.kkSync && window.kkSync.client;
+  if (!sc || !sc.enabled) return;
+
+  // pendingDiff があれば先に flush
+  if (sc.pending) {
+    await sc.flush();
+  }
+
+  const serverState = await sc.pull();
+  if (!serverState) return;
+
+  let changed = false;
+  for (const type of ["read", "fav"]) {
+    const localMap = type === "read" ? state.read : state.favs;
+    const serverEntries = serverState[type] || {};
+    for (const [id, srvEntry] of Object.entries(serverEntries)) {
+      if (!srvEntry || (srvEntry.state !== 0 && srvEntry.state !== 1)) continue;
+      const local = localMap.get(id);
+      if (!local || srvEntry.ts > local.ts) {
+        localMap.set(id, { state: srvEntry.state, ts: srvEntry.ts });
+        changed = true;
+      }
+    }
+  }
+
+  if (changed) {
+    saveRead();
+    saveFavs();
+    applyFilters();
+    renderCategoryList();
+    renderArticleList();
+  }
+
+  // 初回同期: ローカル状態を全件サーバにpushしておく(他端末への伝播のため)
+  if (isInitialSync && (state.read.size > 0 || state.favs.size > 0)) {
+    const fullPayload = {
+      read: [...state.read.entries()].map(([id, v]) => ({ id, state: v.state, ts: v.ts })),
+      fav: [...state.favs.entries()].map(([id, v]) => ({ id, state: v.state, ts: v.ts })),
+    };
+    sc.pushDiff(fullPayload);
+  }
+}
+
+// ---- Settings UI ----
+
+function openSettingsModal() {
+  const sc = window.kkSync && window.kkSync.client;
+  if (!sc) return;
+  const modal = document.getElementById("settings-modal");
+  if (!modal) return;
+  document.getElementById("sync-token-input").value = sc.token || "";
+  document.getElementById("sync-url-input").value = sc.url || "";
+  document.getElementById("sync-status-display").textContent = formatSyncStatus(sc);
+  document.getElementById("sync-message").textContent = "";
+  modal.classList.add("show");
+}
+
+function closeSettingsModal() {
+  const modal = document.getElementById("settings-modal");
+  if (modal) modal.classList.remove("show");
+}
+
+function saveSyncSettings() {
+  const sc = window.kkSync && window.kkSync.client;
+  if (!sc) return;
+  const token = document.getElementById("sync-token-input").value.trim();
+  const url = document.getElementById("sync-url-input").value.trim();
+  sc.setToken(token);
+  sc.setUrl(url);
+  document.getElementById("sync-message").textContent = "保存しました。テストボタンで接続確認してください。";
+  document.getElementById("sync-status-display").textContent = formatSyncStatus(sc);
+  updateSyncBadge();
+  if (token) {
+    // 保存直後に1度 pull/push を試行
+    setTimeout(() => performSync(true), 100);
+  }
+}
+
+async function testSyncConnection() {
+  const sc = window.kkSync && window.kkSync.client;
+  if (!sc) return;
+  const msgEl = document.getElementById("sync-message");
+  msgEl.textContent = "テスト中…";
+  // 入力欄の最新値で一時的にテスト
+  const token = document.getElementById("sync-token-input").value.trim();
+  const url = document.getElementById("sync-url-input").value.trim();
+  sc.setToken(token);
+  sc.setUrl(url);
+  const result = await sc.testConnection();
+  if (result.ok) {
+    msgEl.textContent = "✓ 接続成功";
+    msgEl.style.color = "var(--accent)";
+  } else {
+    msgEl.textContent = "✗ " + result.error;
+    msgEl.style.color = "#c0392b";
+  }
+  document.getElementById("sync-status-display").textContent = formatSyncStatus(sc);
+  updateSyncBadge();
+}
+
+function clearSyncToken() {
+  if (!confirm("同期を無効化しますか?(ローカルの既読・お気に入りは残ります)")) return;
+  const sc = window.kkSync && window.kkSync.client;
+  if (!sc) return;
+  sc.setToken("");
+  document.getElementById("sync-token-input").value = "";
+  document.getElementById("sync-message").textContent = "同期を無効化しました";
+  document.getElementById("sync-status-display").textContent = formatSyncStatus(sc);
+  updateSyncBadge();
+}
+
+function formatSyncStatus(sc) {
+  if (!sc.enabled) return "無効(token未設定)";
+  const parts = ["有効"];
+  if (sc.lastSync) {
+    const d = new Date(sc.lastSync);
+    parts.push("最終同期: " + d.toLocaleString("ja-JP"));
+  } else {
+    parts.push("未同期");
+  }
+  if (sc.lastError) parts.push("最後のエラー: " + sc.lastError);
+  if (sc.pending && (sc.pending.read?.length || sc.pending.fav?.length)) {
+    const c = (sc.pending.read?.length || 0) + (sc.pending.fav?.length || 0);
+    parts.push(`未送信: ${c}件`);
+  }
+  return parts.join(" / ");
+}
+
+function updateSyncBadge() {
+  const badge = document.getElementById("sync-badge");
+  if (!badge) return;
+  const sc = window.kkSync && window.kkSync.client;
+  if (!sc || !sc.enabled) {
+    badge.dataset.state = "off";
+    badge.title = "同期: 無効";
+    return;
+  }
+  if (sc.lastError) {
+    badge.dataset.state = "error";
+    badge.title = "同期エラー: " + sc.lastError;
+    return;
+  }
+  badge.dataset.state = "on";
+  badge.title = "同期: 有効" + (sc.lastSync ? ` (${new Date(sc.lastSync).toLocaleTimeString("ja-JP")})` : "");
 }
 
 init();

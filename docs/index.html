@@ -24,6 +24,9 @@
       <button class="filter-pill icon-only" id="filter-fav" title="お気に入りのみ (s)" aria-label="お気に入り">★</button>
       <button class="icon-btn" id="mark-all-read" title="表示中をすべて既読 (Shift+M)">既読化</button>
       <button class="icon-btn icon-only" id="theme-toggle" title="テーマ切替" aria-label="テーマ">◐</button>
+      <button class="icon-btn icon-only" id="open-settings" title="同期設定" aria-label="設定">
+        <span id="sync-badge" data-state="off">⚙</span>
+      </button>
       <span class="status" id="status"></span>
     </div>
   </div>
@@ -108,6 +111,49 @@
   <kbd>j</kbd>/<kbd>k</kbd> 移動 · <kbd>m</kbd> 既読切替 · <kbd>f</kbd> お気に入り · <kbd>o</kbd> 元記事 · <kbd>u</kbd> 未読のみ
 </div>
 
+<!-- ================ 設定モーダル ================ -->
+<div class="settings-modal" id="settings-modal">
+  <div class="settings-backdrop" id="settings-backdrop"></div>
+  <div class="settings-panel">
+    <div class="settings-head">
+      <h2>同期設定</h2>
+      <button class="icon-btn icon-only" id="close-settings" aria-label="閉じる">×</button>
+    </div>
+    <div class="settings-body">
+      <p class="settings-intro">
+        Cloudflare Worker 経由で複数端末間の既読・お気に入り状態を同期します。
+        最初に PC で生成した token を3端末すべてで同じ値に設定してください。
+      </p>
+
+      <div class="settings-field">
+        <label for="sync-url-input">Worker URL</label>
+        <input type="text" id="sync-url-input" placeholder="https://kk-sync.other9.workers.dev" autocomplete="off">
+        <div class="field-hint">通常は変更不要(デフォルトのまま)</div>
+      </div>
+
+      <div class="settings-field">
+        <label for="sync-token-input">Sync Token</label>
+        <input type="password" id="sync-token-input" placeholder="32文字以上のランダム文字列" autocomplete="off" spellcheck="false">
+        <div class="field-hint">PCで <code>openssl rand -hex 32</code> 等で生成した値を貼り付け</div>
+      </div>
+
+      <div class="settings-actions">
+        <button class="icon-btn" id="sync-test">接続テスト</button>
+        <button class="icon-btn primary" id="sync-save">保存して同期</button>
+        <button class="icon-btn danger" id="sync-clear">同期を解除</button>
+      </div>
+
+      <div class="settings-message" id="sync-message"></div>
+
+      <div class="settings-status">
+        <div class="settings-status-label">現在の状態</div>
+        <div id="sync-status-display">未設定</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="sync.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

@@ -2451,11 +2451,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-06T11:47:55.974454+00:00",
+  "last_updated": "2026-05-06T12:10:45.162290+00:00",
   "stats": {
     "total": 175,
-    "fetched_just_now": 754,
+    "fetched_just_now": 735,
     "feeds_success": 77,
-    "feeds_failed": 11
+    "feeds_failed": 2
   }
 }

@@ -14,3 +14,6 @@ STATE.json
 UPDATE.md
 kk-reader-update-*.zip
 kk-reader-snapshot-*.zip
+
+# Cloudflare diagnostics bundles (may contain account info)
+kk-sync-diagnostics-*.zip

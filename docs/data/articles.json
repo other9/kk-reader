@@ -2605,11 +2605,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-07T17:48:21.145013+00:00",
+  "last_updated": "2026-05-07T19:43:45.683354+00:00",
   "stats": {
     "total": 186,
-    "fetched_just_now": 735,
-    "feeds_success": 78,
-    "feeds_failed": 3
+    "fetched_just_now": 721,
+    "feeds_success": 77,
+    "feeds_failed": 4
   }
 }

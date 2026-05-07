@@ -2603,26 +2603,12 @@
       "content_html": "神奈川県は、年2～4回、6地点で1週間から2週間の騒音測定を実施し、県のホームページで公開している。",
       "author": "flats",
       "source_type": "rss"
-    },
-    {
-      "id": "15a589e6a904a095",
-      "feed_id": "f8c882c05df3",
-      "feed_title": "himaginary’s diary",
-      "category": "金融・経済・投資",
-      "title": "技術と経済発展",
-      "url": "https://himaginary.hatenablog.com/entry/20260407/Technology_and_Economic_Development",
-      "published": "2026-04-07T14:59:00+00:00",
-      "fetched": "2026-05-06T01:39:03.330298+00:00",
-      "summary": "というNBER論文をアセモグルとサイモン・ジョンソンらが1月に 上げている （ ungated版 ）。原題は「Technology and Economic Development」で、著者はDaron Acemoglu（MIT）、Ufuk Akcigit（シカゴ大）、Simon Johnson（MIT）。 以下はその要旨。 This chapter presents a tractable framework for the study of technology adoption and diffusion in the context of eco…",
-      "content_html": "<p>というNBER論文をアセモグルとサイモン・ジョンソンらが1月に<a href=\"https://www.nber.org/papers/w34730\">&#x4e0a;&#x3052;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://economics.mit.edu/sites/default/files/2026-01/Technology%20and%20Economic%20Development.pdf\">ungated&#x7248;</a>）。原題は「Technology and Economic Development」で、著者はDaron Acemoglu（MIT）、Ufuk Akcigit（シカゴ大）、Simon Johnson（MIT）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>This chapter presents a tractable framework for the study of technology adoption and diffusion in the context of economic development. Firms in countries behind the world technology frontier can rapidly adopt new techniques from the world frontier. Lower absorptive capacity (because of weak education systems, poor management practices, or barriers to technology adoption), institutional distortions, mismatch between frontier technologies and the needs of firms in the country (i.e., “inappropriate technology”), and credit market frictions slow down technology adoption and cause the economy in question to have a greater distance to the frontier and thus lower income per capita—although the long-run growth rate of the country still remains equal to that of the frontier. This framework is extended to study the choice between innovation and imitation, as well as the role of selection for higher-productivity and higher-absorptive capacity firms during the process of economic development. We illustrate the main comparative statics of our framework with a number of correlations based on cross-country and firm-level data. The tractability of the framework makes it amenable to a range of additional extensions.<br />\n（拙訳）<br />\n本章は、経済発展という文脈における技術の導入と波及を研究するための取り扱いやすい枠組みを提示する。世界の技術フロンティアに後れを取っている国の企業は、世界のフロンティアから新技術を急速に導入することができる。（不十分な教育システム、劣悪な経営慣行、もしくは技術導入への障壁による）吸収力の低さ、制度的な歪み、フロンティア技術とその国の企業のニーズとのミスマッチ（即ち、「不適切な技術」）、および信用市場の摩擦は、技術導入を鈍化させ、問題の国のフロンティアからの距離を拡大させ、それにより、長期的な国の成長率がまだフロンティアと同率を維持しているにもかかわらず、一人当たり所得を低める。この枠組みを拡張して、技術革新と模倣との間の選択のほか、高い生産性のための選択の役割、経済発展過程における企業の高い吸収力を研究することができる。我々は、国同士および企業レベルのデータに基づく数多くの相関で我々の枠組みの主な比較静学を説明する。我々の枠組みは、その取り扱いやすさにより、各種の追加的な拡張を行うことができる。</p>\n\n    </blockquote>\n<p>以下は論文の位相図。<br />\n<span><img class=\"hatena-fotolife\" height=\"614\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/h/himaginary/20260408/20260408062002.png\" title=\"\" width=\"705\" /></span></p><p>qドット＝０の軌跡（橙線）は、技術革新が速くて世界のフロンティアを上回るペースで進む領域と、経済が世界のフロンティアに後れを取る領域を分けている。cドット＝０の軌跡（青線）は、生産と消費の成長率が等しい(q, c)の組み合わせである（正規化された消費は一定となる）。その交点(q*, c*)はユニークな均衡成長経路となる。赤線の鞍点経路は(q*, c*)に収束する。<br />\n初期条件の消費が鞍点より低いと、資源が過度に技術革新に振り向けられ、qがq*を突破し、最終的には消費も低下して横断条件（家計の非ポンジー・ゲーム条件）が破られる。逆に初期の消費が高過ぎると、技術革新がフロンティアに劣後し、qが低下して経済はさらにフロンティアに劣後する。この場合、正規化された消費は高まり続け、最終的には実現可能ではなくなる。</p><p>消費が低くて資源が過度に技術革新に振り向けられ、qがq*を突破するというのは今の中国を想起させる。また、制度的要因などでフロンティアに徐々に劣後するというのは日本の状況を想起させる。ただ、論文で示している各種の相関図は、世界全体での法の支配や教育や経営と技術との相関を提示するのに留まっており、そうした個別の興味深いと思われる適用事例を深掘りするには至っていない。また、枠組みの拡張事例も概略説明に留まっている。</p>",
-      "author": "himaginary",
-      "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-07T14:09:36.007135+00:00",
+  "last_updated": "2026-05-07T17:48:21.145013+00:00",
   "stats": {
-    "total": 187,
-    "fetched_just_now": 739,
+    "total": 186,
+    "fetched_just_now": 735,
     "feeds_success": 78,
     "feeds_failed": 3
   }

@@ -2729,41 +2729,13 @@
       "content_html": "<p>　曇り。</p>\n<p>　第三次湾岸戦争は依然として長期的にエネルギー市場に影響を与えそうだ。</p>\n<p>　<a href=\"https://www.economist.com/finance-and-economics/2026/04/08/the-third-gulf-war-will-scar-energy-markets-for-a-long-time-yet\" target=\"_blank\">https://www.economist.com/finance-and-economics/2026/04/08/the-third-gulf-war-will-scar-energy-markets-for-a-long-time-yet</a></p>\n<p>　中東の停戦はイスラエルがレバノンを攻撃することで、崩壊の危機にさらされている。</p>\n<p>　イスラエルによる空爆は、イランに対し、ホルムズ海峡をオイルタンカーが通過する誘因を妨げている。</p>\n<p>　<a href=\"https://www.ft.com/content/d43ae1d7-4df4-465c-afe1-418b168e3ae8?syn-25a6b1a6=1\" target=\"_blank\">https://www.ft.com/content/d43ae1d7-4df4-465c-afe1-418b168e3ae8?syn-25a6b1a6=1</a></p>",
       "author": "tennis575",
       "source_type": "rss"
-    },
-    {
-      "id": "dafdb23645c10e8d",
-      "feed_id": "2e7efdb141f2",
-      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
-      "category": "不動産",
-      "title": "放置自転車は減ったのにコストは増えた──都内ワースト駅と対策の実態",
-      "url": "https://1manken.hatenablog.com/entry/2021/04/08/illegally_parked_bicycle",
-      "published": "2026-04-08T22:00:00+00:00",
-      "fetched": "2026-05-06T01:38:48.596424+00:00",
-      "summary": "都内の駅前放置自転車の実態を可視化。ワースト駅の推移と対策費から構造を読み解く分析記事。",
-      "content_html": "都内の駅前放置自転車の実態を可視化。ワースト駅の推移と対策費から構造を読み解く分析記事。",
-      "author": "flats",
-      "source_type": "rss"
-    },
-    {
-      "id": "0100c7247e1cd111",
-      "feed_id": "73f801c263f8",
-      "feed_title": "経済を良くするって、どうすれば",
-      "category": "金融・経済・投資",
-      "title": "4/9の日経",
-      "url": "https://keizai-dousureba.hatenablog.jp/entry/2026/04/09/070000",
-      "published": "2026-04-08T22:00:00+00:00",
-      "fetched": "2026-05-06T01:39:03.543522+00:00",
-      "summary": "2月のCTIマクロは、名目が前月比+0.1、実質が0.0だった。もう少し欲しい気もするし、物価の落ち着きからすれば、これで良いとも思える。むろん、これはイラン戦争前の基調を示すもので、戦争を織り込んだ3月の景気ウォッチャーは、現状が前月比-6.7、先行きが-11.3と急落し、水準まで-3.8と引きずられた。そして、昨日の停戦合意で、4月は大きく戻すかもしれない。基調は変わらずで推移してもらいたいものである。 (図) (今日までの日経) 米イラン、薄氷の即時停戦。",
-      "content_html": "<p>　2月のCTIマクロは、名目が前月比+0.1、実質が0.0だった。もう少し欲しい気もするし、物価の落ち着きからすれば、これで良いとも思える。むろん、これはイラン戦争前の基調を示すもので、戦争を織り込んだ3月の景気ウォッチャーは、現状が前月比-6.7、先行きが-11.3と急落し、水準まで-3.8と引きずられた。そして、昨日の停戦合意で、4月は大きく戻すかもしれない。基調は変わらずで推移してもらいたいものである。</p>\n<p>(図)</p>\n<p><img class=\"hatena-fotolife\" height=\"345\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/k/keizai-dousureba/20260409/20260409061147.png\" title=\"\" width=\"822\" /></p>\n<p>(今日までの日経)<br />　米イラン、薄氷の即時停戦。</p>",
-      "author": "keizai-dousureba",
-      "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-08T21:01:02.786156+00:00",
+  "last_updated": "2026-05-08T22:55:27.275866+00:00",
   "stats": {
-    "total": 197,
-    "fetched_just_now": 721,
-    "feeds_success": 77,
-    "feeds_failed": 1
+    "total": 195,
+    "fetched_just_now": 737,
+    "feeds_success": 78,
+    "feeds_failed": 0
   }
 }

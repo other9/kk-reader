@@ -71,6 +71,20 @@
       "source_type": "scrape_kenbiya"
     },
     {
+      "id": "a5b5df6316d6212f",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "ついに漏水箇所を特定！キッチンの床下、どこを開口するか!?【漏水事故の実例その3】",
+      "url": "https://www.kenbiya.com/ar/cl/asizawa/129.html",
+      "published": "2026-05-09T00:00:00+09:00",
+      "fetched": "2026-05-09T07:42:24.294844+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "asizawa",
+      "source_type": "scrape_kenbiya"
+    },
+    {
       "id": "16e9c39b076582ba",
       "feed_id": "6c30fc2654fb",
       "feed_title": "元官庁エコノミストのブログ",
@@ -3473,11 +3487,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-09T06:16:15.781857+00:00",
+  "last_updated": "2026-05-09T07:42:27.245859+00:00",
   "stats": {
-    "total": 248,
-    "fetched_just_now": 679,
-    "feeds_success": 69,
-    "feeds_failed": 12
+    "total": 249,
+    "fetched_just_now": 724,
+    "feeds_success": 77,
+    "feeds_failed": 4
   }
 }

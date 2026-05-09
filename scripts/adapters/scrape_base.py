@@ -15,6 +15,17 @@
       → 健美家 articles 0 件のサイレント失敗の修正。
     - 末尾の "yyyy/mm/dd New" バッジ等を除去する `clean_listing_title()` /
       `extract_date_from_title()` を追加。
+- 2026-05-09 (update-012):
+    - `extract_listing_links()` のテキスト抽出を「anchor の get_text 全部連結」
+      から「最長子要素テキスト」に変更。
+      → 楽待 /news/practical(実践大家コラム)で title 先頭にランキング数字
+        ("5築より立地…", "42027年問題…")が貼り付いていた問題の修正。
+        anchor 内に <span>5</span><div>築より立地…</div> のように複数子要素が
+        並ぶ DOM を、最長要素 = title として正しく識別する。
+      → 健美家・楽待 column / series は anchor 内のテキスト構造が単純(または
+        title 子要素が圧倒的に長い)ため、振る舞いは事実上同一。
+      → 日付は anchor 直下から消える可能性があるため、各 adapter の
+        find_parent 経由のフォールバック(既存)で拾う。
 """
 import os
 import re
@@ -109,6 +120,40 @@ def clean_listing_title(text: str) -> str:
         return text
     cleaned = _TRAILING_DATE_BADGE_RE.sub("", text).strip()
     return cleaned if cleaned else text.strip()
+
+
+def _anchor_title_text(a_tag) -> str:
+    """anchor から「title らしき」テキストを取り出す。
+
+    update-012: 楽待 /news/practical のような DOM では anchor 内に
+    <span>5</span><div>築より立地…</div><span>2026/05/09</span> のように
+    ランキング数字・タイトル・日付が並列で並ぶ。`a.get_text(strip=True)`
+    でこれを連結すると "5築より立地…2026/05/09" のように先頭に数字が
+    張り付いた title になってしまう。
+
+    そこで、anchor の strict descendant 要素のうち最も長いテキストを
+    持つ要素のテキストを返す。子要素が無い(直下テキストのみ)場合は
+    anchor の get_text() にフォールバックするので、健美家・楽待の他
+    セクションのような単純な DOM では振る舞いが事実上変わらない。
+
+    Returns:
+        str: 抽出された title 候補テキスト(空文字なら anchor 内が完全に空)
+    """
+    if a_tag is None:
+        return ""
+
+    longest = ""
+    for descendant in a_tag.find_all(True):
+        # find_all(True) は a_tag 自身を含まず strict descendant のみ返す
+        text = descendant.get_text(strip=True)
+        if len(text) > len(longest):
+            longest = text
+
+    if longest:
+        return longest
+
+    # 子要素が無い、または全部空 → anchor 直下の text のみ
+    return (a_tag.get_text(strip=True) or "").strip()
 
 
 def extract_date_from_title(text: str) -> Optional[str]:
@@ -281,6 +326,13 @@ class ScrapeAdapterBase(SourceAdapter):
         捨ててしまう。本ヘルパーは「URL → 最も長いリンクテキストを持つ <a>」を
         返すので、この問題が起きない。
 
+        update-012:
+            anchor 内のテキスト抽出は `_anchor_title_text()` に委譲する。
+            anchor 内に <span>5</span><div>築より立地…</div> のような複数の
+            子要素が並ぶ場合、`a.get_text(strip=True)` だと "5築より立地…"
+            のように連結してしまうため、最長子要素のテキストを title として
+            採用する戦略に変更。
+
         Returns:
             dict: {absolute_url: (longest_text, anchor_tag)}
         """
@@ -291,7 +343,7 @@ class ScrapeAdapterBase(SourceAdapter):
                 absolute = normalize_url(absolute)
             if not article_pattern.match(absolute):
                 continue
-            text = (a.get_text(strip=True) or "").strip()
+            text = _anchor_title_text(a)
             existing = url_to_link.get(absolute)
             if existing is None or len(text) > len(existing[0]):
                 url_to_link[absolute] = (text, a)

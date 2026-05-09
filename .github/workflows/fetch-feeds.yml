@@ -2,8 +2,12 @@ name: Fetch RSS feeds
 
 on:
   schedule:
-    # 2時間ごとに実行(UTC)
-    - cron: "0 */2 * * *"
+    # 2時間ごとに実行(UTC)。
+    # update-012: HH:00 は全世界の cron が殺到する混雑帯のため
+    # 実測でしばしばスキップ・大幅遅延が発生していた。HH:07 にずらす
+    # ことでキューイング遅延を緩和する(GitHub Actions コミュニティの
+    # 既知 mitigation: minute 0/15/30/45 を避ける)。
+    - cron: "7 */2 * * *"
   workflow_dispatch: # 手動実行を許可
   push:
     paths:

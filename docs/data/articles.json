@@ -3459,10 +3459,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-09T04:40:10.349142+00:00",
+  "last_updated": "2026-05-09T04:56:44.923286+00:00",
   "stats": {
     "total": 247,
-    "fetched_just_now": 775,
+    "fetched_just_now": 724,
     "feeds_success": 77,
     "feeds_failed": 4
   }

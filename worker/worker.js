@@ -190,11 +190,13 @@ async function extractContent(html, url) {
             if (alt) attrs += ` alt="${escapeAttr(alt)}"`;
           }
           buf += `<${tag}${attrs}>`;
-          el.onEndTag(() => {
-            if (!["br", "img", "hr"].includes(tag)) {
+          // HTMLRewriter throws if onEndTag() is called on a void element,
+          // so gate registration by tag name. (update-010)
+          if (!VOID_ELEMENTS.has(tag)) {
+            el.onEndTag(() => {
               buf += `</${tag}>`;
-            }
-          });
+            });
+          }
         },
         text(t) {
           if (inside) buf += escapeText(t.text);
@@ -220,6 +222,14 @@ async function extractContent(html, url) {
     content_html: collected,
   };
 }
+
+// HTML void elements (no end tag, self-closing). Used for tag-emission logic
+// during HTMLRewriter content extraction. Calling onEndTag() on these throws
+// in Cloudflare Workers HTMLRewriter, so we MUST gate registration by tag name.
+const VOID_ELEMENTS = new Set([
+  "area", "base", "br", "col", "embed", "hr", "img",
+  "input", "link", "meta", "param", "source", "track", "wbr",
+]);
 
 function matchesSimpleSelector(el, selector) {
   if (selector.startsWith(".")) {

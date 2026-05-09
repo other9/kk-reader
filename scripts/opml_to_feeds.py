@@ -2,7 +2,13 @@
 """
 OPMLファイルを feeds.json に変換する一回限りのスクリプト。
 新しい購読を追加した OPML をエクスポートしたら再実行する。
-既存の feeds.json があれば、メタデータ(last_fetch, active, verify_ssl等)を保持してマージする。
+既存の feeds.json があれば、メタデータ(last_fetch, active, via_worker等)を保持してマージする。
+
+更新履歴:
+- 2026-05-09 (update-009.1): merge ロジックを「OPML 由来でない全フィールドを保持」方式に変更。
+  以前は明示的な allowlist だったため、migrate スクリプトが追加した `via_worker` 等の
+  config field が Actions の checkout 後に rebuild された際に消える事故が発生していた。
+  これに伴い `last_items_count` 等の状態 field も自動で保持されるようになる。
 """
 import json
 import hashlib
@@ -12,6 +18,10 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent.parent
 OPML_PATH = PROJECT_ROOT / "opml" / "subscriptions.opml"
 FEEDS_JSON_PATH = PROJECT_ROOT / "docs" / "data" / "feeds.json"
+
+# OPML が source of truth として持つ field。これらは rebuild 時に OPML から
+# 上書きされる。これら以外は既存の feeds.json から保持する。
+OPML_OWNED_FIELDS = {"id", "title", "url", "html_url", "category", "source_type"}
 
 
 def feed_id(url: str) -> str:
@@ -66,14 +76,10 @@ def main():
         for feed in feeds:
             if feed["id"] in existing_by_id:
                 old = existing_by_id[feed["id"]]
-                feed["etag"] = old.get("etag")
-                feed["last_modified"] = old.get("last_modified")
-                feed["last_fetch"] = old.get("last_fetch")
-                feed["last_success"] = old.get("last_success")
-                feed["error_count"] = old.get("error_count", 0)
-                feed["last_error"] = old.get("last_error")
-                feed["active"] = old.get("active", True)
-                feed["verify_ssl"] = old.get("verify_ssl", True)
+                # OPML 由来でない全フィールドを保持(via_worker 等の config / 状態 field 含む)
+                for k, v in old.items():
+                    if k not in OPML_OWNED_FIELDS:
+                        feed[k] = v
         print(f"既存の {len(existing_by_id)} 件とメタデータをマージしました")
 
     categories = sorted({f["category"] for f in feeds})

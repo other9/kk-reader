@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "1c9e16dc5cf9f3f6",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】これだけはやりたくなかった技。必殺ご近所さんの技この技だけはやりたくなかった・・・家族を伴って雨の中行きました……",
+      "url": "https://www.rakumachi.jp/news/practical/398471",
+      "published": "2026-05-10T00:00:00+09:00",
+      "fetched": "2026-05-09T15:06:19.805706+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "ストレージ大家ひら",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "3d474956e8406bf2",
       "feed_id": "2ec7ee82ecf8",
       "feed_title": "マンションの間取りや価格を言いたい放題!",
@@ -1293,7 +1307,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "「ありがたい入居者」か「悩みの種」か…結末を分ける高齢者の孤独死・契約トラブルへの3つの備え弁護士が解説、契約前からリスクヘッジは始まっている",
+      "title": "「ありがたい入居者」か「悩みの種」か…結末を分ける高齢者の孤独死・契約トラブルへの3つの備え",
       "url": "https://www.rakumachi.jp/news/column/397797",
       "published": "2026-05-07T00:00:00+09:00",
       "fetched": "2026-05-09T07:50:17.748008+00:00",
@@ -1755,7 +1769,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "6物件・ローン完済で法人化、元大学教授が選んだ「資本金500万円・家族4人で分割」のワケ法人化は「節税」だけが目的にあらず、20年先を見据えた戦略とは",
+      "title": "6物件・ローン完済で法人化、元大学教授が選んだ「資本金500万円・家族4人で分割」のワケ",
       "url": "https://www.rakumachi.jp/news/column/397518",
       "published": "2026-05-05T00:00:00+09:00",
       "fetched": "2026-05-09T07:50:17.748016+00:00",
@@ -1951,7 +1965,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "プロが次に向かうエリアはここだ、「J-REIT」が東京の物件を「売り始めている」ワケ地価公示から見る「J-REIT」のトレンド",
+      "title": "プロが次に向かうエリアはここだ、「J-REIT」が東京の物件を「売り始めている」ワケ",
       "url": "https://www.rakumachi.jp/news/column/397145",
       "published": "2026-05-04T00:00:00+09:00",
       "fetched": "2026-05-09T07:50:17.748020+00:00",
@@ -4773,23 +4787,9 @@
       "content_html": "羽田新ルート運用開始以降の東京都騒音モニタリングデータを時系列で整理。最大騒音レベルと騒音発生回数の推移を定点観測で可視化する。",
       "author": "flats",
       "source_type": "rss"
-    },
-    {
-      "id": "2673c0d7621b8ddf",
-      "feed_id": "f8c882c05df3",
-      "feed_title": "himaginary’s diary",
-      "category": "金融・経済・投資",
-      "title": "AI、人間の認知、および知識崩壊",
-      "url": "https://himaginary.hatenablog.com/entry/20260409/AI_Human_Cognition_and_Knowledge_Collapse",
-      "published": "2026-04-09T14:59:00+00:00",
-      "fetched": "2026-05-06T01:39:03.329918+00:00",
-      "summary": "というNBER論文をアセモグルらが2月に 上げている （ ungated版 ）。原題は「AI, Human Cognition and Knowledge Collapse」で、著者はDaron Acemoglu、Dingwen Kong、Asuman Ozdaglar（いずれもMIT）。 以下はその要旨。 We study how generative AI, and in particular agentic AI, shapes human learning incentives and the long-run evolution of soci…",
-      "content_html": "<p>というNBER論文をアセモグルらが2月に<a href=\"https://www.nber.org/papers/w34910\">&#x4e0a;&#x3052;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://economics.mit.edu/sites/default/files/2026-02/AI%2C%20Human%20Cognition%20and%20Knowledge%20Collapse%2002-20-26.pdf\">ungated&#x7248;</a>）。原題は「AI, Human Cognition and Knowledge Collapse」で、著者はDaron Acemoglu、Dingwen Kong、Asuman Ozdaglar（いずれもMIT）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>We study how generative AI, and in particular agentic AI, shapes human learning incentives and the long-run evolution of society’s information ecosystem. We build a dynamic model of learning and decision-making in which successful decisions require combining shared, community-level general knowledge with individual-level, context-specific knowledge; these two inputs are complements. Learning exhibits economies of scope: costly human effort jointly produces a private signal about their own context and a “thin” public signal that accumulates into the community’s stock of general knowledge, generating a learning externality. Agentic AI delivers context-specific recommendations that substitute for human effort. By contrast, a richer stock of general knowledge complements human effort by raising its marginal return. The model highlights a sharp dynamic tension: while agentic AI can improve contemporaneous decision quality, it can also erode learning incentives that sustain long-run collective knowledge. When human effort is sufficiently elastic and agentic recommendations exceed an accuracy threshold, the economy can tip into a knowledge-collapse steady state in which general knowledge vanishes ultimately, despite high-quality personalized advice. Welfare is generally non-monotone in agentic accuracy, implying an interior, welfare-maximizing level of agentic precision and motivating information-design regulations. In contrast, greater aggregation capacity for general knowledge—meaning more effective sharing and pooling of human-generated general knowledge—unambiguously raises welfare and increases resilience to knowledge collapse.<br />\n（拙訳）<br />\n我々は、生成AI、特にエージェント型AIが、人間の学習インセンティブと、長期的な社会の情報エコシステムの発展をどのように形成するかを調べた。我々は学習と意思決定の動学モデルを構築した。そのモデルでは、決定が上手く行くためには、共有された共同体レベルの一般知識と、個人レベルの状況に応じた知識の組み合わせを必要とする。両インプットは補完財なのである。学習は範囲の経済性を示す。コストの掛かる人間の取り組みは、自身の状況に関する私的シグナルを生み出すとともに、「薄い」公的シグナルも生み出すが、後者は共同体の一般知識のストックに蓄積され、学習の外部性をもたらす。エージェント型のAIは、人間の取り組みを代替するような、状況に応じた推奨を提示する。対照的に、一般知識の豊富なストックは、人間の取り組みの限界収益を高めることによってそうした取り組みを補完する。モデルは、動学的な鋭い緊張関係を浮き彫りにする。エージェント型AIは同時期の決定の質を改善する一方で、長期的な集団知識を維持する学習インセンティブを損なう可能性がある。人間の取り組みが十分に弾力的で、エージェントの推奨が一定の正確性の閾値を超える場合、経済は知識崩壊の定常状態に陥りかねない。そこでは、高品質の個人向け助言にもかかわらず、一般知識は最終的に消失する。厚生は一般にエージェントの正確性について非単調であるが、そのことは、厚生を最大化するエージェントの正確性の内的な水準があることを意味し、情報設計規制を動機付ける。一方、一般知識の全体的な容量が大きいと――それは人間が生み出した一般知識のより効果的な共有と蓄積を意味するが――厚生は明確に上昇し、知識崩壊からの回復力を高める。</p>\n\n    </blockquote>\n<p>スターウォーズの世界では技術停滞が起きているように見える、という話が昔からあり、<a href=\"https://www.reddit.com/r/MawInstallation/comments/1kkauz0/comment/mrtnkia/?tl=ja\">&#x3053;&#x3061;&#x3089;&#x306e;reddit&#x6295;&#x7a3f;</a>ではその理由について</p>\n\n    <blockquote>\n        <p>Whateversbetter<br />\n•<br />\n1 年前<br />\nおそらくドロイドです。何かが簡単な時、人々はあまり考えません。スター・ウォーズのほとんどのメンタルな問題は、誰かが少し考えて「ドロイドにやらせろ」と言います。そんなに詳しく知る必要はなく、それは本当に悪いことではありません。「ねえ、ドロイド、このエンジンをどう直すの？」ドロイドが教えてくれて、あなたはそれをやります。さあ、エンジンは直りました。そこに入ってエンジンがもっと良くなる方法を見つけたわけではありません。それが直っていて、すごく良いエンジンなら、銀河の片側からもう片側まで一週間で何の問題？ドロイドは消えないので、人々が銀河の知識を「忘れる」危険性はありません。しかし、すべてのドロイドで以前に試みられたことの巨大なデータベースがある中で、新しい解決策を考えているわけではありません。</p>\n\n    </blockquote>\n<p>という説が唱えられているが、この論文はそれをモデル化したもの、と言えそうである。</p>",
-      "author": "himaginary",
-      "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-09T13:46:56.097974+00:00",
+  "last_updated": "2026-05-09T15:06:23.524065+00:00",
   "stats": {
     "total": 342,
     "fetched_just_now": 1127,

@@ -686,8 +686,9 @@
       "last_modified": null,
       "last_fetch": "2026-05-09T04:40:05.545041+00:00",
       "last_success": null,
-      "error_count": 1,
-      "last_error": "HTTP 403"
+      "error_count": 0,
+      "last_error": null,
+      "via_worker": true
     },
     {
       "id": "c4e832423738",
@@ -702,8 +703,9 @@
       "last_modified": null,
       "last_fetch": "2026-05-09T04:40:05.603459+00:00",
       "last_success": null,
-      "error_count": 1,
-      "last_error": "HTTP 403"
+      "error_count": 0,
+      "last_error": null,
+      "via_worker": true
     },
     {
       "id": "bb0037f0a045",
@@ -718,8 +720,9 @@
       "last_modified": null,
       "last_fetch": "2026-05-09T04:40:05.668667+00:00",
       "last_success": null,
-      "error_count": 1,
-      "last_error": "HTTP 403"
+      "error_count": 0,
+      "last_error": null,
+      "via_worker": true
     },
     {
       "id": "e6a7967e965d",

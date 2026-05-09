@@ -33,6 +33,17 @@
       混在) の DOM で rank 側の "5" を返してしまう逆バグがあった。
       直下子を NavigableString も含めて走査することで、上記混在パターンでも
       正しく長い方(タイトル)を選ぶ。
+- 2026-05-09 (update-014):
+    - `_anchor_title_text()` をさらに修正。update-013 適用後の実観測で、
+      anchor 内が <a><div class="wrap"><span>4</span>築より立地…</div></a>
+      のように rank が 1 階層深くネストしている DOM の場合、直下子 = <div>
+      の get_text() = "4築より立地…" を返してしまうことが判明。
+      対処: anchor 配下の NavigableString descendant を全部集めて、
+      「ピュア数字 ≤3 文字」のノードはランキング数字とみなして除外し、
+      残りを連結する戦略に変更。これでネスト深さに依存せず rank prefix を
+      分離できる。
+      ピュア数字 4 桁(年など)や日本語混じり数字(築30年、第10回 等)は
+      除外しないため、合法的な数字を含むタイトルは保護される。
 """
 import os
 import re
@@ -132,68 +143,69 @@ def clean_listing_title(text: str) -> str:
 def _anchor_title_text(a_tag) -> str:
     """anchor から「title らしき」テキストを取り出す。
 
-    update-012: 楽待 /news/practical のような DOM では anchor 内に
-    <span>5</span><div>築より立地…</div><span>2026/05/09</span> のように
-    複数子要素が並ぶ。`a.get_text(strip=True)` で連結すると
-    "5築より立地…2026/05/09" となり rank prefix が混入する。
+    update-014 の実装:
+        anchor 配下の NavigableString descendant を全て集め、
+        「ピュア数字 ≤3 文字」のノードはランキング・カウンタなどのノイズと
+        みなして除外、残りを連結して返す。
 
-    update-013: 直下子(direct children)の中で最長テキストを返す方式に変更。
-    直下子は次のいずれか:
-      - NavigableString(直下のテキストノード)
-      - Tag(直下の要素 — その子孫を再帰 get_text)
-    両方を候補に入れて最長を 1 つ拾う。
-
-    update-012 初版は `find_all(True)` で strict descendant 要素のみ走査して
-    いたため、`<a><span>5</span>築より立地…</a>`(rank が span、title が
-    NavigableString)というパターンで rank 側の "5" を返してしまう逆バグが
-    あった。本実装は直下子を NavigableString も含めて走査するので解消。
+    背景:
+        update-012 (strict descendant 最長) → case 1 で逆バグ。
+        update-013 (直下子最長) → 1 階層しか見ないため、rank がさらに深い
+        ネストにある DOM (<a><div><span>4</span>title</div></a>) で
+        直下子 = <div> の get_text() がそのまま broken text を返してしまう。
+        update-014 はネスト深さに非依存。
 
     例:
-      <a><span>5</span>築より立地…</a>
-        → children = [<span>5</span>, "築より立地…"]
-        → candidates = ["5", "築より立地…"]
-        → longest = "築より立地…" ✓
+      <a><div><span>4</span>築より立地…</div></a>
+        → NavString descendants = ["4", "築より立地…"]
+        → "4" はピュア数字 1 文字 → 除外
+        → 結果: "築より立地…" ✓
 
-      <a><span>5</span><div>築より立地…</div><span>2026/05/09</span></a>
-        → children = [<span>5</span>, <div>築より立地…</div>, <span>...</span>]
-        → candidates = ["5", "築より立地…", "2026/05/09"]
-        → longest = "築より立地…" ✓
+      <a><span>5</span>築より立地…</a> (case 1)
+        → ["5", "築より立地…"] → 結果: "築より立地…" ✓
 
-      <a>大阪市淀川区...どう変わるか2026/05/09New</a>
-        → children = ["大阪市淀川区...どう変わるか2026/05/09New"]
-        → candidates = [full text]
-        → longest = full text(date suffix は clean_listing_title が処理) ✓
+      <a><span>4</span><div>2027年問題…</div></a> (rank + 年プレフィクス title)
+        → ["4", "2027年問題…"] → 結果: "2027年問題…" ✓
+        (年「2027」は 4 桁なので除外されない、つまり title 内の数字は保護される)
 
-      <a><img/><span>記事タイトル全文</span></a>
-        → children = [<img/>, <span>記事タイトル全文</span>]
-        → candidates = ["記事タイトル全文"](img は空テキストなのでスキップ)
-        → longest = "記事タイトル全文" ✓
+      <a>大阪市淀川区...どう変わるか2026/05/09New</a> (case 5: 単一ノード)
+        → ["大阪市淀川区...どう変わるか2026/05/09New"]
+        → 結果: 同じ(date は clean_listing_title が処理) ✓
 
-    検出できないケース:
-      <a>5築より立地…</a>(rank と title が同一テキストノード内で連結)
-        → candidates = [単一の連結文字列]
-        → longest = "5築より立地…"のまま — rank prefix を構造的に分離できない
+      <a><span class="title">前半は<strong>強調</strong>後半まで含めた長文</span></a>
+        → ["前半は", "強調", "後半まで含めた長文"]
+        → どれもピュア数字でない → 連結: "前半は強調後半まで含めた長文" ✓
 
-    Returns:
-        str: 抽出された title 候補テキスト(空文字なら anchor 内が完全に空)
+      <a>5築より立地。</a> (case 2: rank と title が同一テキストノード内)
+        → ["5築より立地。"] (純数字でないため除外されない)
+        → 結果: "5築より立地。" ⚠ 構造的に分離不可能 (既知の限界)
+
+    フォールバック:
+        descendants が全てノイズ判定された場合(つまり NavString が "1" や "5"
+        だけだった場合)は anchor の get_text() に fallback する。これは
+        ありえないケースだが念のため。
     """
     if a_tag is None:
         return ""
 
-    candidates = []
-    for child in a_tag.children:
-        # bs4 の Tag は .get_text() を持つ; NavigableString は str() で取れる
-        if hasattr(child, "get_text"):
-            text = child.get_text(strip=True)
-        else:
-            text = str(child).strip()
-        if text:
-            candidates.append(text)
+    from bs4 import NavigableString
 
-    if candidates:
-        return max(candidates, key=len)
+    parts = []
+    for desc in a_tag.descendants:
+        if not isinstance(desc, NavigableString):
+            continue
+        text = str(desc).strip()
+        if not text:
+            continue
+        # ピュア数字 ≤3 文字: ランキング(1〜100)・コメント数等のノイズとみなす
+        if len(text) <= 3 and text.isdigit():
+            continue
+        parts.append(text)
 
-    # 完全に空の anchor — 元の get_text にフォールバック(空文字になる)
+    if parts:
+        return "".join(parts)
+
+    # 全てノイズ判定だったら anchor の生テキストに退避
     return (a_tag.get_text(strip=True) or "").strip()
 
 

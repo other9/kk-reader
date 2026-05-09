@@ -45,6 +45,12 @@ jobs:
           fi
 
       - name: Fetch all feeds
+        # update-009: feeds.json で `via_worker: true` のフィードは
+        # Cloudflare Worker /fetch 経由で取得する。WORKER_TOKEN は
+        # Repository Secret として設定する(初期値は SYNC_SECRET と同値)。
+        env:
+          WORKER_BASE_URL: "https://kk-sync.other9.workers.dev"
+          WORKER_TOKEN: ${{ secrets.WORKER_TOKEN }}
         run: python scripts/fetch_feeds.py
 
       - name: Commit updated data

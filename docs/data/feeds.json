@@ -679,14 +679,15 @@
       "html_url": "https://www.rakumachi.jp/news/practical",
       "category": "不動産",
       "source_type": "scrape_rakumachi",
-      "active": false,
+      "active": true,
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
       "last_fetch": "2026-05-07T19:43:30.398575+00:00",
       "last_success": null,
-      "error_count": 10,
-      "last_error": "HTTP 403"
+      "error_count": 0,
+      "last_error": null,
+      "via_worker": true
     },
     {
       "id": "c4e832423738",
@@ -695,14 +696,15 @@
       "html_url": "https://www.rakumachi.jp/news/",
       "category": "不動産",
       "source_type": "scrape_rakumachi",
-      "active": false,
+      "active": true,
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
       "last_fetch": "2026-05-07T19:43:30.441726+00:00",
       "last_success": null,
-      "error_count": 10,
-      "last_error": "HTTP 403"
+      "error_count": 0,
+      "last_error": null,
+      "via_worker": true
     },
     {
       "id": "bb0037f0a045",
@@ -711,14 +713,15 @@
       "html_url": "https://www.rakumachi.jp/news/series",
       "category": "不動産",
       "source_type": "scrape_rakumachi",
-      "active": false,
+      "active": true,
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
       "last_fetch": "2026-05-07T19:43:30.495617+00:00",
       "last_success": null,
-      "error_count": 10,
-      "last_error": "HTTP 403"
+      "error_count": 0,
+      "last_error": null,
+      "via_worker": true
     },
     {
       "id": "e6a7967e965d",

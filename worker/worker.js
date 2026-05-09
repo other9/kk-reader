@@ -3,19 +3,22 @@
  *
  * 機能:
  *   1. 既読/お気に入り状態の同期 (旧)
- *   2. 記事本文のon-demand取得+キャッシュ (新 — update-007)
+ *   2. 記事本文のon-demand取得+キャッシュ (update-007)
+ *   3. 任意 URL の HTML プロキシ取得 (update-009)
  *
  * エンドポイント:
- *   GET  /state          - 全状態を返す
- *   POST /state/diff     - 差分を Last-Writer-Wins でマージ
- *   GET  /article?url=X  - 指定URLの記事を取得し、本文を抽出してキャッシュ
- *   GET  /ping           - ヘルスチェック
+ *   GET  /state           - 全状態を返す
+ *   POST /state/diff      - 差分を Last-Writer-Wins でマージ
+ *   GET  /article?url=X   - 指定URLの記事を取得し、本文を抽出してキャッシュ
+ *   GET  /fetch?url=X     - 指定URLの生HTMLを取得して JSON で返す(キャッシュなし)
+ *   GET  /ping            - ヘルスチェック
  *
  * 認証: Authorization: Bearer <SYNC_SECRET>
  *
- * 記事キャッシュ形式 (KV):
- *   article:<sha256(url)>     → {url, content_html, title, fetched_at}
- *   将来: article:<hash>:ja → 翻訳済みHTML
+ * /article と /fetch の違い:
+ *   /article は本文抽出 + KV キャッシュ。フロントエンドの詳細表示用。
+ *   /fetch   は生HTMLをそのまま返すプロキシ。Python adapter の listing 取得用。
+ *           Actions IP が WAF で弾かれるサイト(楽待等)対策。
  */
 
 const ALLOWED_ORIGINS = [
@@ -52,6 +55,24 @@ const ARTICLE_CACHE_TTL_SECONDS = 30 * 24 * 3600;
 // HTMLフェッチ時の偽装UA(サイトのbot検出回避)
 const FETCH_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36";
 
+// /fetch で送信するブラウザ完全偽装ヘッダ(WAF 回避)
+const PROXY_FETCH_HEADERS = {
+  "User-Agent": FETCH_UA,
+  "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+  "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
+  "Accept-Encoding": "gzip, deflate, br",
+  "Sec-Ch-Ua": '"Not_A Brand";v="8", "Chromium";v="121", "Google Chrome";v="121"',
+  "Sec-Ch-Ua-Mobile": "?0",
+  "Sec-Ch-Ua-Platform": '"Linux"',
+  "Sec-Fetch-Dest": "document",
+  "Sec-Fetch-Mode": "navigate",
+  "Sec-Fetch-Site": "none",
+  "Sec-Fetch-User": "?1",
+  "Upgrade-Insecure-Requests": "1",
+  "Cache-Control": "no-cache",
+  "Pragma": "no-cache",
+};
+
 // =====================================================================
 // 認証
 // =====================================================================
@@ -76,19 +97,14 @@ async function urlHash(url) {
 }
 
 // =====================================================================
-// HTML抽出: サイト別本文セレクタ
+// HTML抽出: サイト別本文セレクタ (/article 用)
 // =====================================================================
 
-/**
- * URL のドメインに応じて、本文として抽出すべき DOM セレクタを返す。
- * 不明サイトは `null` を返し、汎用フォールバックを使う。
- */
 function extractorFor(url) {
   const u = new URL(url);
   const host = u.hostname.replace(/^www\./, "");
 
   if (host === "kenbiya.com") {
-    // 健美家: 記事ページの本文は <div id="contents"> または <article> 内
     return {
       contentSelectors: ["div#contents", "div.article-body", "article", "div.entry-content"],
       removeSelectors: ["script", "style", "nav", "header", "footer", "aside",
@@ -97,7 +113,6 @@ function extractorFor(url) {
   }
 
   if (host === "rakumachi.jp") {
-    // 楽待: 記事本文は <div class="article-body"> または <article>
     return {
       contentSelectors: ["article.news-detail", "div.article-body", "article", "main", "div#main"],
       removeSelectors: ["script", "style", "nav", "header", "footer", "aside",
@@ -105,7 +120,6 @@ function extractorFor(url) {
     };
   }
 
-  // 汎用: <article> や <main> を試す
   return {
     contentSelectors: ["article", "main", "div[role='main']", "div.entry-content", "div.post"],
     removeSelectors: ["script", "style", "nav", "header", "footer", "aside",
@@ -113,17 +127,11 @@ function extractorFor(url) {
   };
 }
 
-/**
- * HTMLRewriterで本文を抽出する。
- * セレクタが複数指定されているので、最初に見つかった要素の中身を採用する。
- */
 async function extractContent(html, url) {
   const config = extractorFor(url);
   let title = "";
   let collected = "";
-  let collecting = false;
   let foundContainer = false;
-  let depth = 0;
 
   // タイトル抽出
   let titleCollecting = false;
@@ -141,30 +149,25 @@ async function extractContent(html, url) {
       }
     });
 
-  // タイトル取得用に先にtransform
   const responseForTitle = new Response(html);
   await rewriterTitle.transform(responseForTitle).text();
   titleCollecting = false;
 
-  // 本文抽出: 最初に見つかったセレクタの内容を全て取り込む
   for (const selector of config.contentSelectors) {
     let buf = "";
     let inside = false;
-    let nestedDepth = 0;
 
     const rewriter = new HTMLRewriter()
       .on(selector, {
-        element(el) {
+        element() {
           if (!inside) {
             inside = true;
-            nestedDepth = 0;
           }
         }
       })
       .on(`${selector} *`, {
         element(el) {
           if (!inside) return;
-          // 不要要素は除去
           for (const rm of config.removeSelectors) {
             if (matchesSimpleSelector(el, rm)) {
               el.remove();
@@ -172,12 +175,10 @@ async function extractContent(html, url) {
             }
           }
           const tag = el.tagName.toLowerCase();
-          // インラインタグ・ブロックタグの保持(セキュリティのためscript系は除く)
           if (["script", "style", "iframe", "noscript", "form", "input", "button"].includes(tag)) {
             el.remove();
             return;
           }
-          // タグを保持
           let attrs = "";
           if (tag === "a") {
             const href = el.getAttribute("href");
@@ -210,7 +211,6 @@ async function extractContent(html, url) {
     }
   }
 
-  // 本文が見つからなければ <body> の主要部分を取る
   if (!foundContainer) {
     collected = "<p>本文の自動抽出に失敗しました。元記事リンクから読んでください。</p>";
   }
@@ -242,7 +242,7 @@ function escapeText(s) {
 }
 
 // =====================================================================
-// 記事フェッチ + キャッシュ
+// /article: 記事フェッチ + 本文抽出 + KV キャッシュ
 // =====================================================================
 
 async function handleArticle(request, env, origin) {
@@ -252,7 +252,6 @@ async function handleArticle(request, env, origin) {
     return jsonResponse({ error: "url parameter required" }, 400, origin);
   }
 
-  // セキュリティ: スキーム検証(http/httpsのみ)
   let parsed;
   try {
     parsed = new URL(target);
@@ -265,7 +264,6 @@ async function handleArticle(request, env, origin) {
 
   const cacheKey = `article:${await urlHash(target)}`;
 
-  // KVからキャッシュ確認
   const cached = await env.STATE.get(cacheKey, "json");
   if (cached && cached.content_html) {
     return jsonResponse({
@@ -274,7 +272,6 @@ async function handleArticle(request, env, origin) {
     }, 200, origin);
   }
 
-  // origin から取得
   let html;
   try {
     const r = await fetch(target, {
@@ -293,7 +290,6 @@ async function handleArticle(request, env, origin) {
     return jsonResponse({ error: `fetch error: ${e.message}` }, 502, origin);
   }
 
-  // 抽出
   let extracted;
   try {
     extracted = await extractContent(html, target);
@@ -309,12 +305,95 @@ async function handleArticle(request, env, origin) {
     cache_hit: false,
   };
 
-  // キャッシュ保存(失敗してもメインフローには影響させない)
   try {
     await env.STATE.put(cacheKey, JSON.stringify(result), {
       expirationTtl: ARTICLE_CACHE_TTL_SECONDS,
     });
   } catch {}
+
+  return jsonResponse(result, 200, origin);
+}
+
+// =====================================================================
+// /fetch: 任意 URL の生 HTML プロキシ取得 (update-009)
+// =====================================================================
+
+/**
+ * 任意 URL を Cloudflare 網経由で取得し、生 HTML を JSON で返す。
+ * 用途: Python adapter が Actions 環境から WAF で弾かれるサイト
+ * (楽待 rakumachi.jp 等)を取得するためのプロキシ。
+ *
+ * 認証: SYNC_SECRET(共通の Bearer)
+ *
+ * レスポンス形式:
+ *   成功: 200 { url, status, html, content_type, fetched_at }
+ *   origin が 4xx/5xx: 200 { url, status, error, body_snippet, fetched_at }
+ *     ↑ Worker 自体は成功している(payload で upstream の失敗を伝える)
+ *   Worker から origin に到達不可: 502 { url, error, fetched_at }
+ *
+ * ノート:
+ *   - キャッシュは付けない(listing は更新頻度が高く、cache stale を避ける)
+ *   - body サイズの上限はかけない(現状)。将来必要なら調整。
+ */
+async function handleFetch(request, env, origin) {
+  const url = new URL(request.url);
+  const target = url.searchParams.get("url");
+  if (!target) {
+    return jsonResponse({ error: "url parameter required" }, 400, origin);
+  }
+
+  let parsed;
+  try {
+    parsed = new URL(target);
+  } catch {
+    return jsonResponse({ error: "invalid url" }, 400, origin);
+  }
+  if (parsed.protocol !== "http:" && parsed.protocol !== "https:") {
+    return jsonResponse({ error: "invalid scheme" }, 400, origin);
+  }
+
+  const fetchedAt = new Date().toISOString();
+  let r;
+  try {
+    r = await fetch(target, {
+      headers: PROXY_FETCH_HEADERS,
+      redirect: "follow",
+    });
+  } catch (e) {
+    return jsonResponse({
+      url: target,
+      error: `fetch error: ${e.message}`,
+      fetched_at: fetchedAt,
+    }, 502, origin);
+  }
+
+  let body;
+  try {
+    body = await r.text();
+  } catch (e) {
+    return jsonResponse({
+      url: target,
+      status: r.status,
+      error: `read error: ${e.message}`,
+      fetched_at: fetchedAt,
+    }, 502, origin);
+  }
+
+  const result = {
+    url: target,
+    status: r.status,
+    content_type: r.headers.get("content-type") || "",
+    fetched_at: fetchedAt,
+  };
+
+  if (r.status >= 200 && r.status < 400) {
+    result.html = body;
+  } else {
+    // upstream が 4xx/5xx の場合: Worker は健全なので 200 を返し、
+    // payload の status / error で client 側に判断材料を与える
+    result.error = `upstream HTTP ${r.status}`;
+    result.body_snippet = body.slice(0, 500);
+  }
 
   return jsonResponse(result, 200, origin);
 }
@@ -378,6 +457,10 @@ export default {
 
     if (request.method === "GET" && url.pathname === "/article") {
       return handleArticle(request, env, origin);
+    }
+
+    if (request.method === "GET" && url.pathname === "/fetch") {
+      return handleFetch(request, env, origin);
     }
 
     if (request.method === "GET" && url.pathname === "/ping") {

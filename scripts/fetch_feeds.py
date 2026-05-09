@@ -2,6 +2,11 @@
 """
 全フィードを取得して articles.json を更新するスクリプト。
 GitHub Actions から定期実行される。
+
+更新履歴(merge ロジックに関係する分のみ):
+- 2026-05-09 (update-013): 既存記事のメタデータ in-place 更新を追加。
+  従来は ID(URL ハッシュ)で dedup して既存があれば新パース結果を捨てて
+  いたため、adapter の改善が反映されないままだった。
 """
 import json
 import sys
@@ -74,10 +79,15 @@ def main():
     # 既存記事を読み込み
     existing = load_existing_articles()
     existing_articles = existing["articles"]
-    existing_ids = {a["id"] for a in existing_articles}
+    # update-013: 既存記事を id でインデックス化することで、再フェッチ時に
+    # title/published/summary/author を最新値で上書き可能にする。
+    # 従来は existing_ids に入っているだけで「既存ならスキップ」だったため、
+    # adapter 側のパース修正があっても古い broken レコードが残り続けていた。
+    existing_by_id = {a["id"]: a for a in existing_articles}
 
     # 並列取得
     new_count = 0
+    refreshed_count = 0
     success_count = 0
     fail_count = 0
     feed_id_to_meta: dict[str, dict] = {}
@@ -97,12 +107,29 @@ def main():
                 success_count += 1
 
             for art in articles:
-                if art["id"] not in existing_ids:
+                aid = art["id"]
+                if aid not in existing_by_id:
+                    # 新規記事
                     new_articles_buffer.append(art)
-                    existing_ids.add(art["id"])
+                    existing_by_id[aid] = art
                     new_count += 1
+                else:
+                    # update-013: 既存記事のメタデータを in-place 更新する。
+                    # title / published / summary / author は source 側で
+                    # 訂正・補完されたら反映したい。`fetched`(初出時刻)と
+                    # `content_html`(別経路で fetch される / RSS は重複書込
+                    # 回避のため)は触らない。空値での上書きはしない。
+                    rec = existing_by_id[aid]
+                    changed = False
+                    for field in ("title", "published", "summary", "author"):
+                        v = art.get(field)
+                        if v is not None and v != "" and rec.get(field) != v:
+                            rec[field] = v
+                            changed = True
+                    if changed:
+                        refreshed_count += 1
 
-    print(f"成功: {success_count}件 / 失敗: {fail_count}件 / 新規記事: {new_count}件")
+    print(f"成功: {success_count}件 / 失敗: {fail_count}件 / 新規: {new_count}件 / 更新: {refreshed_count}件")
 
     # フィードメタデータを更新
     for feed in feeds:

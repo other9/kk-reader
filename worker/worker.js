@@ -182,11 +182,17 @@ async function extractContent(html, url) {
           let attrs = "";
           if (tag === "a") {
             const href = el.getAttribute("href");
-            if (href) attrs += ` href="${escapeAttr(href)}"`;
+            if (href) attrs += ` href="${escapeAttr(resolveUrl(href, url))}"`;
           } else if (tag === "img") {
-            const src = el.getAttribute("src");
+            // 遅延読み込み属性を fallback として優先(空 src の場合)。
+            // 一般的な lazy-load 属性: data-src, data-original, data-lazy-src.
+            // (update-011)
+            const src = el.getAttribute("src")
+                     || el.getAttribute("data-src")
+                     || el.getAttribute("data-original")
+                     || el.getAttribute("data-lazy-src");
             const alt = el.getAttribute("alt");
-            if (src) attrs += ` src="${escapeAttr(src)}"`;
+            if (src) attrs += ` src="${escapeAttr(resolveUrl(src, url))}"`;
             if (alt) attrs += ` alt="${escapeAttr(alt)}"`;
           }
           buf += `<${tag}${attrs}>`;
@@ -247,6 +253,21 @@ function escapeAttr(s) {
   return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
 }
 
+// Resolve a possibly-relative URL against the article's base URL so that
+// images/links work when displayed cross-origin. Empty / data: / mailto: /
+// javascript: 等のスキームはそのまま返す。失敗時も入力をそのまま返す。
+// (update-011)
+function resolveUrl(value, baseUrl) {
+  if (!value) return value;
+  // Keep non-resolvable schemes as-is (data:, javascript:, mailto:, tel:, blob:, #fragment)
+  if (/^(?:data:|javascript:|mailto:|tel:|blob:|#)/i.test(value)) return value;
+  try {
+    return new URL(value, baseUrl).toString();
+  } catch {
+    return value;
+  }
+}
+
 function escapeText(s) {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
@@ -272,7 +293,9 @@ async function handleArticle(request, env, origin) {
     return jsonResponse({ error: "invalid scheme" }, 400, origin);
   }
 
-  const cacheKey = `article:${await urlHash(target)}`;
+  // update-011: cache key version を v2 に bump して update-010 以前の
+  // 相対 URL が含まれた壊れた cache を無効化(古いキーは TTL で自動消滅)
+  const cacheKey = `article:v2:${await urlHash(target)}`;
 
   const cached = await env.STATE.get(cacheKey, "json");
   if (cached && cached.content_html) {

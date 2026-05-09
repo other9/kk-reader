@@ -4803,11 +4803,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-09T10:58:22.092580+00:00",
+  "last_updated": "2026-05-09T11:07:18.561613+00:00",
   "stats": {
     "total": 343,
-    "fetched_just_now": 1114,
-    "feeds_success": 71,
-    "feeds_failed": 10
+    "fetched_just_now": 1126,
+    "feeds_success": 80,
+    "feeds_failed": 1
   }
 }

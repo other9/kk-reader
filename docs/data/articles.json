@@ -15,6 +15,62 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "2aed46b54ef54425",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "あらゆる建物に可能性あり 家賃以外でも稼ぐ！儲かる「ロケ地ビジネス」に必須の新常識、意外にニーズの高い場所とは？",
+      "url": "https://www.kenbiya.com/ar/ns/for_rent/katsuyo/10119.html",
+      "published": "2026-05-11T00:00:00+09:00",
+      "fetched": "2026-05-10T21:01:15.400181+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "bd7b19363af744b6",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】少額訴訟の進め方　はじめてでもできた実体験原状回復トラブルに対応するためのシンプルな手続きと3つのポイント",
+      "url": "https://www.rakumachi.jp/news/practical/398252",
+      "published": "2026-05-11T00:00:00+09:00",
+      "fetched": "2026-05-10T21:01:15.652004+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "日曜大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "6ccc047a097634c4",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】DIYの価値が上がってきているできることからやるのも良い",
+      "url": "https://www.rakumachi.jp/news/practical/398388",
+      "published": "2026-05-11T00:00:00+09:00",
+      "fetched": "2026-05-10T21:01:15.652015+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "かぶ大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "655dc0ea6d14e09a",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】安い見積もりにはワケがある私が“フィーリングで業者を選ぶ”理由",
+      "url": "https://www.rakumachi.jp/news/practical/395924",
+      "published": "2026-05-11T00:00:00+09:00",
+      "fetched": "2026-05-10T21:01:15.652019+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "戸田匠",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "8e541d398607995a",
       "feed_id": "2ec7ee82ecf8",
       "feed_title": "マンションの間取りや価格を言いたい放題!",
@@ -901,7 +957,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "1棟目はフルローンで1億円超、28歳商社マンが8カ月で6棟55室まで買い進めた手順",
+      "title": "1棟目はフルローンで1億円超、28歳商社マンが8カ月で6棟55室まで買い進めた手順アパートローンを最大限活用で、次に見据える戦略は",
       "url": "https://www.rakumachi.jp/news/column/398249",
       "published": "2026-05-09T00:00:00+09:00",
       "fetched": "2026-05-09T09:19:48.986232+00:00",
@@ -2147,7 +2203,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "6物件・ローン完済で法人化、元大学教授が選んだ「資本金500万円・家族4人で分割」のワケ",
+      "title": "6物件・ローン完済で法人化、元大学教授が選んだ「資本金500万円・家族4人で分割」のワケ法人化は「節税」だけが目的にあらず、20年先を見据えた戦略とは",
       "url": "https://www.rakumachi.jp/news/column/397518",
       "published": "2026-05-05T00:00:00+09:00",
       "fetched": "2026-05-09T07:50:17.748016+00:00",
@@ -2343,7 +2399,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "プロが次に向かうエリアはここだ、「J-REIT」が東京の物件を「売り始めている」ワケ",
+      "title": "プロが次に向かうエリアはここだ、「J-REIT」が東京の物件を「売り始めている」ワケ地価公示から見る「J-REIT」のトレンド",
       "url": "https://www.rakumachi.jp/news/column/397145",
       "published": "2026-05-04T00:00:00+09:00",
       "fetched": "2026-05-09T07:50:17.748020+00:00",
@@ -5041,10 +5097,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-10T19:19:29.688675+00:00",
+  "last_updated": "2026-05-10T21:01:19.868007+00:00",
   "stats": {
-    "total": 360,
-    "fetched_just_now": 1131,
+    "total": 364,
+    "fetched_just_now": 1135,
     "feeds_success": 80,
     "feeds_failed": 0
   }

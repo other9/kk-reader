@@ -71,6 +71,62 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "ad3f80bc6b12e907",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "戸建の原状回復に400万円！？個性的な物件を所有するメリットとデメリット",
+      "url": "https://www.kenbiya.com/ar/cl/168/32.html",
+      "published": "2026-05-11T00:00:00+09:00",
+      "fetched": "2026-05-10T23:02:12.147409+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "168",
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "3db8c101ce3f1e55",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】ＦＩＲＥな日々１１４：完璧を追い求め、不完全を愛す男イチロー",
+      "url": "https://www.rakumachi.jp/news/practical/398474",
+      "published": "2026-05-11T00:00:00+09:00",
+      "fetched": "2026-05-10T23:02:13.122195+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "テリー隊長",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "d83d8e8adf021feb",
+      "feed_id": "05346fda1ff2",
+      "feed_title": "英字紙ウォッチング",
+      "category": "金融・経済・投資",
+      "title": "米国民にとっての食料品価格ショック",
+      "url": "https://tennis575.hatenablog.com/entry/2026/05/11/065657",
+      "published": "2026-05-10T21:56:57+00:00",
+      "fetched": "2026-05-10T23:02:16.596072+00:00",
+      "summary": "晴れ。 米国民はオイルショックとは別の価格ショックに見舞われている。それは食料品価格ショックである。エネルギー価格が高騰し、フードサプライチェーンに悪影響をもたらしている。 https://www.economist.com/business/2026/05/10/america-faces-another-grocery-price-shock",
+      "content_html": "<p>　晴れ。</p>\n<p>　米国民はオイルショックとは別の価格ショックに見舞われている。それは食料品価格ショックである。エネルギー価格が高騰し、フードサプライチェーンに悪影響をもたらしている。</p>\n<p>　<a href=\"https://www.economist.com/business/2026/05/10/america-faces-another-grocery-price-shock\" target=\"_blank\">https://www.economist.com/business/2026/05/10/america-faces-another-grocery-price-shock</a></p>",
+      "author": "tennis575",
+      "source_type": "rss"
+    },
+    {
+      "id": "c4686ffcb051e3a2",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "誰が誰と結婚するのか？ 人種と階級の分離が果たす役割",
+      "url": "https://himaginary.hatenablog.com/entry/20260510/Who_Marries_Whom",
+      "published": "2026-05-10T14:59:00+00:00",
+      "fetched": "2026-05-10T23:02:16.535801+00:00",
+      "summary": "という NBER論文 をタイラー・コーエンが 紹介している （ ungated版 ）。原題は「Who Marries Whom? The Role of Segregation by Race and Class」で、著者はBenjamin Goldman（コーネル大）、Jamie Gracie（ハーバード大）、Sonya Porter（センサス局）。 以下はその要旨。 Americans rarely marry outside their race or class group, a pattern with well-documented impl…",
+      "content_html": "<p>という<a href=\"https://www.nber.org/papers/w35140\">NBER&#x8ad6;&#x6587;</a>をタイラー・コーエンが<a href=\"https://marginalrevolution.com/marginalrevolution/2026/05/sentences-to-ponder-138.html\">&#x7d39;&#x4ecb;&#x3057;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://benjamindgoldman.s3.us-east-2.amazonaws.com/papers/marriage_homophily/marriage_homophily.pdf\">ungated&#x7248;</a>）。原題は「Who Marries Whom? The Role of Segregation by Race and Class」で、著者はBenjamin Goldman（コーネル大）、Jamie Gracie（ハーバード大）、Sonya Porter（センサス局）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>Americans rarely marry outside their race or class group, a pattern with well-documented implications for inequality and intergenerational mobility. Limited exposure—or interactions with members of other groups—may partly explain these low intergroup marriage rates. We instrument for exposure using variation in childhood neighborhoods based on whether other race and class groups had more opposite-sex children of similar age. Exposure increases interclass (high- and low-parent-income) marriage but has no detectable effect on interracial (White and Black) marriage. A spatial marriage market model predicts that residential segregation—one of many forms of exposure—accounts for more than one third of marital sorting by class but less than 5% by race.<br />\n（拙訳）<br />\n米国人が自分の人種や階級の集団を超えて結婚することは稀であり、このパターンが格差と世代間の移動性にとって持つ意味合いは詳細に研究されている。エクスポージャー、ないし他の集団のメンバーとの相互交流が限られていることが、集団を超えた結婚率がこのように低いことを部分的に説明する可能性がある。我々は、他の人種と階級の似たような年齢の子供において異性の方が多かったか、に基づき、子供時代の近所のバラツキをエクスポージャーの操作変数に用いた<a href=\"#f-34ff8032\" id=\"fn-34ff8032\" name=\"fn-34ff8032\" title=\"本文では「We define the instrument based on childhood neighborhoods to avoid relying on variation in neighborhood composition that arises endogenously from individuals’ choices about where to live as adults. The intuition behind this instrument can be illustrated with a simple hypothetical: suppose a male child is born in a place where, by chance, nearby high-income families have more female than male children in the years around his birth. Because people often live near where they grew up, as an adult he will likely enter a marriage market with a higher proportion of females from high-income families. Hence, random variation in whether certain groups had more male or female children in a given year can generate lasting shocks to marriage market composition.」と説明している。\">*1</a>。エクスポージャーは階級間（両親が高所得と低所得）の結婚を増やすが、人種間（白人と黒人）の結婚には検知可能な影響を与えなかった。空間結婚市場モデルの予測によれば、多々あるエクスポージャーの形態の一つである居住の分離は階級の同類婚の1/3以上を説明するが、人種の同類婚は5%以下しか説明しない。</p>\n\n    </blockquote>\n<p>ちなみに<a href=\"https://himaginary.hatenablog.com/entry/20260309/The_Vietnam_War_and_Racial_Integration\">&#x30d9;&#x30c8;&#x30ca;&#x30e0;&#x6226;&#x4e89;&#x3068;&#x4eba;&#x7a2e;&#x7d71;&#x5408; - himaginary&rsquo;s diary</a>で紹介した論文では、ベトナム戦争での兵役が人種を超えた結婚のきっかけになった、という結果を示していた。階級間の結婚と格差との関係については<a href=\"https://himaginary.hatenablog.com/entry/20140224/Kevin_Drum_on_assortative_mating\">&#x3044;&#x3044;&#x3084;&#x3001;&#x30b7;&#x30f3;&#x30c7;&#x30ec;&#x30e9;&#x5a5a;&#x306e;&#x6e1b;&#x5c11;&#x306f;&#x6240;&#x5f97;&#x683c;&#x5dee;&#x62e1;&#x5927;&#x306b;&#x304a;&#x305d;&#x3089;&#x304f;&#x5927;&#x3057;&#x3066;&#x5bc4;&#x4e0e;&#x3057;&#x3066;&#x3044;&#x306a;&#x3044; - himaginary&rsquo;s diary</a>で紹介した研究も参照。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-34ff8032\" id=\"f-34ff8032\" name=\"f-34ff8032\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">本文では「We define the instrument based on childhood neighborhoods to avoid relying on variation in neighborhood composition that arises endogenously from individuals’ choices about where to live as adults. The intuition behind this instrument can be illustrated with a simple hypothetical: suppose a male child is born in a place where, by chance, nearby high-income families have more female than male children in the years around his birth. Because people often live near where they grew up, as an adult he will likely enter a marriage market with a higher proportion of females from high-income families. Hence, random variation in whether certain groups had more male or female children in a given year can generate lasting shocks to marriage market composition.」と説明している。</span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "8e541d398607995a",
       "feed_id": "2ec7ee82ecf8",
       "feed_title": "マンションの間取りや価格を言いたい放題!",
@@ -110,6 +166,20 @@
       "summary": "Switch2が1万値上げしたとて それなりに売れると思うけど Switchの時の一家に複数台はかなり厳しいと思うな — guroma「ホラーを○○します。【解説・考察・実況】」 (@guroma0704) May 8, 2026 https://www.youtube.com/ ※ 任天堂、インフレに耐えきれず初代Switch、Switch2、Switch Onlineまとめて大幅値上げを敢行（2026/05/08） 仕方ないとはいえ家庭用ゲーム機が平気で6万超えになるのが確定したのでゲームというのが誰でも手に取れるようなものじゃ無くなっていくのは悲し…",
       "content_html": "<div><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">Switch2が1万値上げしたとて<br />それなりに売れると思うけど<br />Switchの時の一家に複数台はかなり厳しいと思うな</p>— guroma「ホラーを○○します。【解説・考察・実況】」 (@guroma0704) <a href=\"https://twitter.com/guroma0704/status/2052689725534994718?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/5/2/5273e393.png\" target=\"_blank\" title=\"a03\"><img alt=\"a03\" border=\"0\" class=\"pict\" height=\"269\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/5/2/5273e393-s.png\" width=\"480\" /></a><br /><span style=\"font-size: 81.25%;\"><a href=\"https://www.youtube.com/watch?v=Q4MzjZ860LQ\" target=\"_blank\" title=\"\">https://www.youtube.com/</a></span><br /><b>※<a href=\"https://kabumatome.doorblog.jp/archives/66031345.html\" target=\"_blank\" title=\"\">任天堂、インフレに耐えきれず初代Switch、Switch2、Switch Onlineまとめて大幅値上げを敢行（2026/05/08）</a></b></blockquote></div><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">仕方ないとはいえ家庭用ゲーム機が平気で6万超えになるのが確定したのでゲームというのが誰でも手に取れるようなものじゃ無くなっていくのは悲しいね</p>— フジノ (@Fujino_0701) <a href=\"https://twitter.com/Fujino_0701/status/2052708887447679311?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">任天堂の決算、メモリ高騰で値上げしても1000億円の利益押し下げ。今期の販売台数で割っても1台当たり6000円弱はマイナスだし、1万円の値上げでは足りないってのが本音に見える。</p>— もぐりん (@TerGremon) <a href=\"https://twitter.com/TerGremon/status/2052701667670508003?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ゲーム機のメモリ高騰影響もSaaSの死と同じ文脈だと思うけどね、この意味が分からないとこの相場では勝てない感じはする</p>— Rob (@txjmdagjmwtjm) <a href=\"https://twitter.com/txjmdagjmwtjm/status/2052596650544333019?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><br /></div><div><div><div><div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">任天堂ADRは6643円（マイナス1000円）。<br />これ、死人が出るのでは。 <a href=\"https://t.co/lLe42hMVHg\">pic.twitter.com/lLe42hMVHg</a></p>— インヴェスドクター (@Invesdoctor) <a href=\"https://twitter.com/Invesdoctor/status/2053031633826230646?ref_src=twsrc%5Etfw\">May 9, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/8/1/8156c187.jpg\" target=\"_blank\" title=\"a04\"><img alt=\"a04\" border=\"0\" class=\"pict\" height=\"254\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/8/1/8156c187-s.jpg\" width=\"480\" /></a><br /><a href=\"https://nikkei225jp.com/adr/adr.php?a=7974\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://nikkei225jp.com/</span></a><br /></blockquote></div><div><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">「死人が出るのでは」の表現、マイナス1000円の衝撃がリアルに伝わってきますw</p>— なな (@nana_tanaka0730) <a href=\"https://twitter.com/nana_tanaka0730/status/2053093254753841208?ref_src=twsrc%5Etfw\">May 9, 2026</a></blockquote><br /></div></div></div></div><div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">任天堂、ADRでヨッシーポップコーンライン割れてるやんけ！</p>— かぶけろ・おもちみかん（だんごむし） (@Invisible_Q) <a href=\"https://twitter.com/Invisible_Q/status/2052899004971880553?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><br /></div></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ヨッシーのポップコーンバケツ<br />6,800円もするのに完売するんか<br />国民は物価高で苦しんでいるんじゃないのかよ</p>— サビ子 (@HkmzngnX) <a href=\"https://twitter.com/HkmzngnX/status/2047557635462050041?ref_src=twsrc%5Etfw\">April 24, 2026</a></blockquote><blockquote><a href=\"https://x.com/zukaiiiii/status/2050894522348191987\" target=\"_blank\" title=\"a02\"><img alt=\"a02\" border=\"0\" class=\"pict\" height=\"448\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/7/f7237b5d-s.jpg\" width=\"480\" /></a><br /></blockquote></div><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">任天堂株じゃなくて、値上げ発表前のSwitch2を買っておけば良かったんか<br />クッソwww</p>— 急樂 (@0110110w) <a href=\"https://twitter.com/0110110w/status/2052663968972652898?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">岐阜さんが任天堂の株買ったら<br />株価がピークから約半分まで下落して<br />ニンテンドースイッチ２が１万円も値上げになったけど<br />そんなの、たまたまに決まってるだろ！！！</p>— オレ的ゲーム速報JIN@FX・株投資部 (@oreteki_douga) <a href=\"https://twitter.com/oreteki_douga/status/2052648090151309456?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">もう四季報のリスク欄に「岐阜さんが買う可能性」って書いといてほしい。</p>— とめいと (@jon_manjirou12) <a href=\"https://twitter.com/jon_manjirou12/status/2052649646552760599?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">岐阜の魂ポジ任天堂<br />1,500株（建値10,024円） <a href=\"https://t.co/cg6Xc3zAey\">pic.twitter.com/cg6Xc3zAey</a></p>— susan＠主要先進国経済指標速報 (@susan_tei) <a href=\"https://twitter.com/susan_tei/status/2053122783501251025?ref_src=twsrc%5Etfw\">May 9, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/9/a/9a4ae8cc.png\" target=\"_blank\" title=\"a05\"><img alt=\"a05\" border=\"0\" class=\"pict\" height=\"317\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/9/a/9a4ae8cc-s.png\" width=\"480\" /></a><br /></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">魂削られてて草</p>— Gachiko（ローゼンブルグ暴威） (@Gachiko1) <a href=\"https://twitter.com/Gachiko1/status/2053232203300274604?ref_src=twsrc%5Etfw\">May 9, 2026</a></blockquote><br /><div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ドルコスト平均損切り法…！？</p>— chanco (@chanco09751990) <a href=\"https://twitter.com/chanco09751990/status/2052878208836792554?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><blockquote><a href=\"https://x.com/gihuboy/status/2052775832037560586\" target=\"_blank\" title=\"a00\"><img alt=\"a00\" border=\"0\" class=\"pict\" height=\"668\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/4/4/449202e0-s.png\" width=\"480\" /></a><br /></blockquote><br /></div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">ドルコスト平均じゃなくて、ただの戻り待ちの売りで草</p>— M4T (@Ikuyakat2891) <a href=\"https://twitter.com/Ikuyakat2891/status/2052897282086027486?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">負け前提の投資法で草</p>— 父。 (@zenryoku_tochan) <a href=\"https://twitter.com/zenryoku_tochan/status/2052883288382128455?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote></div><br /></div><blockquote><div><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/5/2/529e0860.png\" target=\"_blank\" title=\"a06\"><img alt=\"a06\" border=\"0\" class=\"pict\" height=\"304\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/5/2/529e0860-s.png\" width=\"480\" /></a></div><div><a href=\"https://kabutan.jp/stock/chart?code=7974\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://kabutan.jp/stock/chart?code=7974</span></a></div></blockquote><br /></div>",
       "author": "masorira",
+      "source_type": "rss"
+    },
+    {
+      "id": "c5c0b062cd2dcfa9",
+      "feed_id": "416ab9ec27e5",
+      "feed_title": "サラリーマンと不動産投資",
+      "category": "不動産",
+      "title": "労働者として採用されたら労働者に徹すること",
+      "url": "https://investment-finance.net/%e5%8a%b4%e5%83%8d%e8%80%85%e3%81%a8%e3%81%97%e3%81%a6%e6%8e%a1%e7%94%a8%e3%81%95%e3%82%8c%e3%81%9f%e3%82%89%e5%8a%b4%e5%83%8d%e8%80%85%e3%81%ab%e5%be%b9%e3%81%99%e3%82%8b%e3%81%93%e3%81%a8/",
+      "published": "2026-05-10T06:11:55+00:00",
+      "fetched": "2026-05-10T23:02:12.794717+00:00",
+      "summary": "総合商社でもない限り、労働者は微妙である まあ、あれですよ。 銀行の支店長って仕事があるじゃないですか？ 有力な支店の支店長クラスになると、 支店長車ってのがあるらしい。 どんどん統廃合されていて、 営業マンの外回り車と兼用になっているケースもあるらしい。 そういう特殊なメリットは減り続けているのだと思う。 ただよ？ まあ銀行で言えば支店長。 大企業で言えば次長か部長クラスになるまで出世するというのは 本当にいい生き方なのだろうか？ 島耕作が課長になったのは３４歳だったか？ 部長になったのは４０代だったと思う。 彼はマンガのキャラであり、棚ぼたでSEXし…",
+      "content_html": "<h2 class=\"wp-block-heading has-large-font-size\">総合商社でもない限り、労働者は微妙である</h2>\n\n\n\n<p class=\"has-medium-font-size\">まあ、あれですよ。<br />銀行の支店長って仕事があるじゃないですか？<br />有力な支店の支店長クラスになると、<br />支店長車ってのがあるらしい。<br /><br />どんどん統廃合されていて、<br />営業マンの外回り車と兼用になっているケースもあるらしい。<br />そういう特殊なメリットは減り続けているのだと思う。<br /><br />ただよ？<br />まあ銀行で言えば支店長。<br />大企業で言えば次長か部長クラスになるまで出世するというのは<br />本当にいい生き方なのだろうか？<br />島耕作が課長になったのは３４歳だったか？<br />部長になったのは４０代だったと思う。<br /><br />彼はマンガのキャラであり、棚ぼたでSEXしまくったり<br />大株主の愛人の子とデキたりはしないので安心して欲しい。<br />現実は厳しい。<br />弘兼先輩などにビジネスについて質問するのはアホらしいから辞めて欲しいぞ、<br />ビジネス誌。<br />まあ、それ以前にビジネス誌は全部読むに値しないか。<br /><br />さて、勤め人としての人生には大きく２つの方向性がある。<br /><br />１つは出世する<br />１つは出世しない<br /><br />どちらかを選ぶ必要もない。<br />出世（昇進）する、しないは、労働者の自由意思では決められない。<br />会社が決めることである。<br />会社に自分を選んでもらえるように振舞うか否か。<br />労働者が選ぶことができるのは実は<br /><br />１つ、出世「させてもらえるように」ふるまう。<br />１つ、上記のような行動を一切しない。<br /><br />これだけである。<br />まあ、面白いことに、出世させてもらえるように振舞ったら、<br />逆に出世に興味がない同僚が先にスルスル出世していくという話も聞いたことがある。<br /><br />要するに自分の人生を他者の判断にゆだねる生き方である。<br />普通に「お勧めしない。」</p>\n\n\n\n<h2 class=\"wp-block-heading has-large-font-size\">昇進した場合のデメリット</h2>\n\n\n\n<p class=\"has-medium-font-size\">最大のデメリットは、<br />中間管理職になってしまうこと。<br />である。<br /><br />管理職だから管理する側かと思うだろう？<br />いや、それは違う。<br />管理職もまた、役員に管理されている。<br />さらに、役員でさえ、株主に管理されているのだ。<br /><br />株式会社の所有者は株主である。<br />（個人的には社員、社会、世間まで広がると思うが）<br /><br />結局、株主と末端平社員の間のどこかの中間に置かれるのだ。<br />そう、管理職は全員中間管理職である。<br /><br />そもそも、株主＝社長で、社長の一人会社と言う状態を想像してみればわかる。<br />まあ、私の法人もまさにそういう法人なのだが、<br />株主、オーナーとしての私と業務執行する私が同一人物なのだから当たり前だ。<br />本来であれば、この状態は個人事業と大差がないのだが、<br />別法人にすることで、所得分散効果が効いて、節税になるから、<br />私は法人化をしたのである。<br /><br />この株主と業務遂行する人が分かれ始めるのが、<br />社員を雇った時であったり、<br />株式を他人に譲渡した時である。<br />それまでは一人で法人として成果も損失も社長が一心に引き受ける。<br />ただ、それが分化していくのが、事業の拡大、経営の深化である。<br /><br />昇進すると、労働者と株主の間のどこかの意思決定機関の下に置かれる。<br />つまり、上と、下。<br />そもそも人間に上下はないのだが、<br />労働者の中にはある。<br />上と下がある。<br />私は正社員の平社員（部下ゼロ）が究極の理想だと思っている。<br /><br />日本の伝統的企業、公務員程度であれば<br />平社員と部長の給与格差はせいぜい２倍か３倍程度ではなかろうか？<br />しかしその責任の重さや配慮すべき事項の範囲に関しては、<br />給料では表しきれない差である。<br /><br />そもそも、累進課税だから、給与額面は２倍３倍あっても、<br />手取り額はなかなか２倍ということにはならない。<br />実は昇進は極めて割に合わない報酬なのである。<br />饅頭をもらったと思って食ったら、細菌入りだったようなものだ。<br />褒美だと思ったら、昇給以上にキツくなるのが常である。<br /><br />労働がキツくなり、その割に昇給が少ない。<br />デメリットはこれに尽きる。<br /><br />まあ、それと表裏一体なのだが、<br />労働収入＝給与を受け取るという人生を送っていると、<br />自分で稼ぐという感覚を失う。<br />長く奴隷を続けていると、明日も奴隷頑張るぞ！<br />ちゅー気持ちになってしまうわけですな。<br />それは避けねばなりますまい。<br /><br />1日も早く家賃でも何でも構わないから、非労働収入を得ることだ。<br /><br />をはり</p>\n\n\n\n<p></p><p>The post <a href=\"https://investment-finance.net/%e5%8a%b4%e5%83%8d%e8%80%85%e3%81%a8%e3%81%97%e3%81%a6%e6%8e%a1%e7%94%a8%e3%81%95%e3%82%8c%e3%81%9f%e3%82%89%e5%8a%b4%e5%83%8d%e8%80%85%e3%81%ab%e5%be%b9%e3%81%99%e3%82%8b%e3%81%93%e3%81%a8/\">労働者として採用されたら労働者に徹すること</a> first appeared on <a href=\"https://investment-finance.net\">サラリーマンと不動産投資</a>.</p>",
+      "author": "SAT",
       "source_type": "rss"
     },
     {
@@ -743,6 +813,20 @@
       "source_type": "rss"
     },
     {
+      "id": "5608203237ffbf6c",
+      "feed_id": "416ab9ec27e5",
+      "feed_title": "サラリーマンと不動産投資",
+      "category": "不動産",
+      "title": "公庫250万円、3年、完済也",
+      "url": "https://investment-finance.net/%e5%85%ac%e5%ba%ab250%e4%b8%87%e5%86%86%e3%80%813%e5%b9%b4%e3%80%81%e5%ae%8c%e6%b8%88%e4%b9%9f/",
+      "published": "2026-05-09T00:09:24+00:00",
+      "fetched": "2026-05-08T02:54:55.128479+00:00",
+      "summary": "資金使途：外壁塗装、屋根吹替 2023年6月に借りた250万円今月で完済だ。 コロナ融資（200万3年）に引き続き、2件目の完済実績となる。 公庫はとにかく実績重視だ。 返済実績重視。 決算書を出せとも言わないいい金融機関（政府）だ。 民業圧迫！という民間銀行の嫌がらせに負けずに、 日本の中小企業の発展のため、しっかりとやって欲しい。 大企業は所詮外資の持ち物だから、 利益は海外に流れる。 しかし日本の中小企業は売上、支払、100％とは言わないまでも、 殆どが日本国内で回るカネである。 中小企業が弱い経済は中長期的には滅びる。 民間銀行は大したリスクも取…",
+      "content_html": "<h2 class=\"wp-block-heading has-large-font-size\">資金使途：外壁塗装、屋根吹替</h2>\n\n\n\n<figure class=\"wp-block-image size-full\"><img alt=\"\" class=\"wp-image-11534\" height=\"330\" src=\"https://investment-finance.net/wp-content/uploads/2026/05/image-8.png\" width=\"661\" /></figure>\n\n\n\n<p class=\"has-medium-font-size\">2023年6月に借りた250万円今月で完済だ。<br />コロナ融資（200万3年）に引き続き、2件目の完済実績となる。<br /><br />公庫はとにかく実績重視だ。<br />返済実績重視。<br />決算書を出せとも言わないいい金融機関（政府）だ。<br /><br />民業圧迫！という民間銀行の嫌がらせに負けずに、<br />日本の中小企業の発展のため、しっかりとやって欲しい。<br />大企業は所詮外資の持ち物だから、<br />利益は海外に流れる。<br />しかし日本の中小企業は売上、支払、100％とは言わないまでも、<br />殆どが日本国内で回るカネである。<br /><br />中小企業が弱い経済は中長期的には滅びる。<br />民間銀行は大したリスクも取らないので、<br />やはり、公庫、保証協会には頑張って欲しい。<br /><br />まあ経済政策とかそういうのはさておき。<br /><br />俺の法人。<br />簡易キャッシュフロー（償却費＋純利益）は700万ってところ。<br />それでもって、金融債務は7400万。<br />キャッシュ9百万は控除して、6500万。<br />借りられるのはあと500万ってのが、ざっとした審査である。<br />簡易キャッシュフローの10年分。<br />ここまでは正常先として貸してくれると思う。<br /><br />そう考えると追加で借りられる余地は少ない…。<br /><br />次の融資は7号リフォーム600万円だ。<br />これが通ると残高は再び1,000万に回復する。<br />公庫は再建築不可が融資できないから、<br />資金使途が明白な融資（リフォーム、納税等）として<br />申し込める場合には、「全部」借りるつもりで依頼した方がいい。<br /><br />収入印紙も不要で、電子契約である。<br />メール、Webのやり取りで口座にポンっとカネが入る。<br />こんなありたがい金融機関はない。</p>\n\n\n\n<h2 class=\"wp-block-heading has-large-font-size\">金利上昇リスク？くだらん。</h2>\n\n\n\n<p class=\"has-medium-font-size\">金利が上がるから物件が買えないというのはおかしな話だ。<br /><br />そもそも借金をしないと買えないようなブツは買わんでいい。<br />私であれば主戦場は1,000万円以下の戸建なのだが、<br />大体、大口SAT債ホルダーの資金支援で一括で買ってしまうが、<br />資金的には自己資金2割～3割、長期借入7～8割で組み立てられている。<br /><br />そもそも金利が上昇したら、当然、ショボイ物件から価格が下がるだろう。<br />そうしたら必要な借入額が減るのだから、<br />当然に金利負担も下がるじゃないか？<br /><br />なぜ金利上昇と物件価格の上昇が両立するのか？<br />私には疑問だ。<br />仮にそれが続くのだとしたら、<br />それは実態のないバブルのような価格だということだ。<br />破裂するまで高みの見物をしたらいい。<br /><br />晴海フラッグとかいう安普請の駅から遠いマンションも、<br />ガタガタと値下がりしていた。<br />投機筋が作った相場など、ちゃんと不動産を本業にしている人から見れば<br />すぐに分かるのだ。<br /><br />まあそんな訳で、金利だけが単独でグイグイ上がることはアリエンわけで、<br />俺に起きていることは他人にも起きているのだから、<br />他の人も買えなくなるわな。<br />そしたら売りたい売主はちっとも売れないから、<br />売出価格を下げてくるだろう。<br /><br />そしたら借りる総額が減る。<br />1,000万の3％は30万円だが、<br />800万の5％は40万円。<br />しかし、返済総額は200万円低い。<br />10年ローンだとしたら<br />30万×10年＋1000万。合計1300万の元利返済。<br />40万×10年＋800万。合計1200万の元利返済。<br /><br />どうだろうか。<br />金利上昇を自分の負担としか考えられない人は、<br />あまりビジネスに向いていない。<br />自分に起きることは他の人にも起きる。<br />そうなると、ビジネスの相手にも〇〇な影響が出る。<br /><br />せめて2手先くらいは読もうぜ。<br />まあ、煽るマスコミも大概頭が悪い。<br />あえてやっているのか、メディア自体も頭が悪いのか謎ではある。<br /><br />金利で全てが決まるほど、ビジネスは甘くないんだぜ！<br /><br />をしまい</p><p>The post <a href=\"https://investment-finance.net/%e5%85%ac%e5%ba%ab250%e4%b8%87%e5%86%86%e3%80%813%e5%b9%b4%e3%80%81%e5%ae%8c%e6%b8%88%e4%b9%9f/\">公庫250万円、3年、完済也</a> first appeared on <a href=\"https://investment-finance.net\">サラリーマンと不動産投資</a>.</p>",
+      "author": "SAT",
+      "source_type": "rss"
+    },
+    {
       "id": "990981596d06fff4",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -957,7 +1041,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "1棟目はフルローンで1億円超、28歳商社マンが8カ月で6棟55室まで買い進めた手順アパートローンを最大限活用で、次に見据える戦略は",
+      "title": "1棟目はフルローンで1億円超、28歳商社マンが8カ月で6棟55室まで買い進めた手順",
       "url": "https://www.rakumachi.jp/news/column/398249",
       "published": "2026-05-09T00:00:00+09:00",
       "fetched": "2026-05-09T09:19:48.986232+00:00",
@@ -1160,20 +1244,6 @@
       "summary": "ピアース石神井公園。 所在地：東京都練馬区石神井町3-927-2他（地番） 交通：石神井公園駅徒歩6分 用途地域：第一種中高層住居専用地域 階建、総戸数：5階建、42戸（募集対象外住戸2戸含む） 昨年から分譲中の クレヴィア石神井公園 ほどの駅近ポジションでこそないものの、和田堀緑道だけでなく和田堀緑地にも面した特徴豊かな駅徒歩6分ですね。 石神井公園駅は、南口西地区の再開発タワマンが近づいているだけでなく、石神井池を南に望む貴重なフロントポジションにグランドメゾンザ・石神井公園、そしてこちらよりも駅に近いクリオ石神井公園ザ・グラン＆イノバス石神井公園い…",
       "content_html": "ピアース石神井公園。<br /><br />所在地：東京都練馬区石神井町3-927-2他（地番）<br />交通：石神井公園駅徒歩6分<br />用途地域：第一種中高層住居専用地域<br />階建、総戸数：5階建、42戸（募集対象外住戸2戸含む）<br /><br />昨年から分譲中の<a href=\"https://mansion-madori.com/?q=%E3%82%AF%E3%83%AC%E3%83%B4%E3%82%A3%E3%82%A2%E7%9F%B3%E7%A5%9E%E4%BA%95%E5%85%AC%E5%9C%92\" title=\"クレヴィア石神井公園\">クレヴィア石神井公園</a>ほどの駅近ポジションでこそないものの、和田堀緑道だけでなく和田堀緑地にも面した特徴豊かな駅徒歩6分ですね。<br /><br />石神井公園駅は、南口西地区の再開発タワマンが近づいているだけでなく、石神井池を南に望む貴重なフロントポジションにグランドメゾンザ・石神井公園、そしてこちらよりも駅に近いクリオ石神井公園ザ・グラン＆イノバス石神井公園いった感じで、かつてないほど特徴ある物件の供給が連続する状況となっています。<br /><br />こちらはスケール的には小ぶりな上、そういった物件との兼ね合いを意識した結果なのかもしれませんが、30〜60㎡台のみの「ピアース（モリモトは<a href=\"https://mansion-madori.com/?q=%E3%83%87%E3%82%A3%E3%82%A2%E3%83%8A%E3%82%B3%E3%83%BC%E3%83%88%E7%9F%B3%E7%A5%9E%E4%BA%95%E5%85%AC%E5%9C%92\" title=\"ディナアコート石神井公園\">ディナアコート石神井公園</a>を2017年に分譲済ということも影響しているのかもしれませんが…）」というのがちょっと不思議に感じてしまうぐらい環境的な魅力が高いグリーンフロントだと思いますね。<br />石神井川や石神井池も至近となる落ち着いた第一種中高層住居でもあります。<br /><br />買物便は、スーパーで言うと徒歩6分にクイーンズ伊勢丹、徒歩7分にヨークフーズとフードプラザマルゴ、徒歩9分にライフとサミットストアがあり、西友がなくなっても選択肢が豊富です。<br /><br />また、通学区は光和小学校で、徒歩10分の距離になるでしょう。<br /><br /><a href=\"https://www.morimoto-real.co.jp/shinchiku/pa-shakujiikoen/index.html\" target=\"_blank\" title=\"公式ホームページ\">公式ホームページ</a><br /><a href=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-5-5_8-35-35_No-00.png\" target=\"_blank\"><img alt=\"SnapCrab_NoName_2026-5-5_8-35-35_No-00.png\" border=\"0\" height=\"984\" src=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-5-5_8-35-35_No-00.png\" width=\"982\" /></a><br />お部屋は64㎡の3LDK、南西角住戸です。敷地南西コーナー部に位置したお部屋で、南が和田堀緑道、西が和田堀緑地という両面グリーンフロントとなります。<br />当物件自体が低層のため眺望という感じでこそないものの、その先も2〜3階建の低層住宅街というなかなかに魅力的なポジションですね。<br /><br />間取りはそのような環境面の魅力を考慮し3LDKになっているとはいえ、65㎡にすら満たないかなり面積を絞ったものになります。<br />これでも物件内では最も大きく、この恵まれた立地条件でのこのプランニングは疑問というか勿体無い印象すらありますね。<br /><br />角住戸なりに廊下は長くなっており、LD単体では10畳に満たない大きさしかないありません。<br />面積的には仕方のないところとはいえ、収納も少なめ、洗面室にも手狭感があるでしょうね。<br /><br />また、モリモト物件らしいダイレクトサッシが魅力となる反面、柱の食い込みも生じています。<br />柱は細いため影響は大きくないものの、上部の梁の影響で引き戸の方立てがかなり出っ張ってしまっているのは気になる点でしょうか。<br /><br />坪単価は651万円（今年2月末の1期3次のものです）。こちらは両面にグリーンを望む日照×視界良好な上層階角住戸ということで物件内の最高水準となっています。<br />一方で、低層階などには500万円台前半もあることから平均は580～590万円程度になるでしょうか。<br /><br />近年の石神井公園駅の供給事例としては、<a href=\"https://mansion-madori.com/?q=%E3%83%96%E3%83%AA%E3%82%B7%E3%82%A2%E7%9F%B3%E7%A5%9E%E4%BA%95%E5%85%AC%E5%9C%92%E2%85%A2\" title=\"ブリシア石神井公園Ⅲ\">ブリシア石神井公園Ⅲ</a>（2023年分譲/駅徒歩10分/約400万円）、<a href=\"https://mansion-madori.com/?q=%E3%82%AF%E3%83%AC%E3%83%B4%E3%82%A3%E3%82%A2%E7%9F%B3%E7%A5%9E%E4%BA%95%E5%85%AC%E5%9C%92\" title=\"クレヴィア石神井公園\">クレヴィア石神井公園</a>（2025年分譲/駅徒歩3分/約605万円）があるのみとなります。<br /><br />先行する駅前のクレヴィアとは大きくは変わらない水準ですが、こちらのポジションは先述のように\"駅距離以上のもの\"がありますので、違和感はないでしょう。<br /><br />昨今の相場高騰でこのエリアもかなりの価格帯になってきており、当物件はモリモト（ピアース）のわりにはデザイン的なインパクトが控えめに（おとなしく）感じてしまうところもなくはないのですが…。",
       "author": "モモレジ",
-      "source_type": "rss"
-    },
-    {
-      "id": "5608203237ffbf6c",
-      "feed_id": "416ab9ec27e5",
-      "feed_title": "サラリーマンと不動産投資",
-      "category": "不動産",
-      "title": "公庫250万円、3年、完済也",
-      "url": "https://investment-finance.net/%e5%85%ac%e5%ba%ab250%e4%b8%87%e5%86%86%e3%80%813%e5%b9%b4%e3%80%81%e5%ae%8c%e6%b8%88%e4%b9%9f/",
-      "published": "2026-05-08T00:09:24+00:00",
-      "fetched": "2026-05-08T02:54:55.128479+00:00",
-      "summary": "資金使途：外壁塗装、屋根吹替 2023年6月に借りた250万円今月で完済だ。 コロナ融資（200万3年）に引き続き、2件目の完済実績となる。 公庫はとにかく実績重視だ。 返済実績重視。 決算書を出せとも言わないいい金融機関（政府）だ。 民業圧迫！という民間銀行の嫌がらせに負けずに、 日本の中小企業の発展のため、しっかりとやって欲しい。 大企業は所詮外資の持ち物だから、 利益は海外に流れる。 しかし日本の中小企業は売上、支払、100％とは言わないまでも、 殆どが日本国内で回るカネである。 中小企業が弱い経済は中長期的には滅びる。 民間銀行は大したリスクも取…",
-      "content_html": "<h2 class=\"wp-block-heading has-large-font-size\">資金使途：外壁塗装、屋根吹替</h2>\n\n\n\n<figure class=\"wp-block-image size-full\"><img alt=\"\" class=\"wp-image-11534\" height=\"330\" src=\"https://investment-finance.net/wp-content/uploads/2026/05/image-8.png\" width=\"661\" /></figure>\n\n\n\n<p class=\"has-medium-font-size\">2023年6月に借りた250万円今月で完済だ。<br />コロナ融資（200万3年）に引き続き、2件目の完済実績となる。<br /><br />公庫はとにかく実績重視だ。<br />返済実績重視。<br />決算書を出せとも言わないいい金融機関（政府）だ。<br /><br />民業圧迫！という民間銀行の嫌がらせに負けずに、<br />日本の中小企業の発展のため、しっかりとやって欲しい。<br />大企業は所詮外資の持ち物だから、<br />利益は海外に流れる。<br />しかし日本の中小企業は売上、支払、100％とは言わないまでも、<br />殆どが日本国内で回るカネである。<br /><br />中小企業が弱い経済は中長期的には滅びる。<br />民間銀行は大したリスクも取らないので、<br />やはり、公庫、保証協会には頑張って欲しい。<br /><br />まあ経済政策とかそういうのはさておき。<br /><br />俺の法人。<br />簡易キャッシュフロー（償却費＋純利益）は700万ってところ。<br />それでもって、金融債務は7400万。<br />キャッシュ9百万は控除して、6500万。<br />借りられるのはあと500万ってのが、ざっとした審査である。<br />簡易キャッシュフローの10年分。<br />ここまでは正常先として貸してくれると思う。<br /><br />そう考えると追加で借りられる余地は少ない…。<br /><br />次の融資は7号リフォーム600万円だ。<br />これが通ると残高は再び1,000万に回復する。<br />公庫は再建築不可が融資できないから、<br />資金使途が明白な融資（リフォーム、納税等）として<br />申し込める場合には、「全部」借りるつもりで依頼した方がいい。<br /><br />収入印紙も不要で、電子契約である。<br />メール、Webのやり取りで口座にポンっとカネが入る。<br />こんなありたがい金融機関はない。</p>\n\n\n\n<h2 class=\"wp-block-heading has-large-font-size\">金利上昇リスク？くだらん。</h2>\n\n\n\n<p class=\"has-medium-font-size\">金利が上がるから物件が買えないというのはおかしな話だ。<br /><br />そもそも借金をしないと買えないようなブツは買わんでいい。<br />私であれば主戦場は1,000万円以下の戸建なのだが、<br />大体、大口SAT債ホルダーの資金支援で一括で買ってしまうが、<br />資金的には自己資金2割～3割、長期借入7～8割で組み立てられている。<br /><br />そもそも金利が上昇したら、当然、ショボイ物件から価格が下がるだろう。<br />そうしたら必要な借入額が減るのだから、<br />当然に金利負担も下がるじゃないか？<br /><br />なぜ金利上昇と物件価格の上昇が両立するのか？<br />私には疑問だ。<br />仮にそれが続くのだとしたら、<br />それは実態のないバブルのような価格だということだ。<br />破裂するまで高みの見物をしたらいい。<br /><br />晴海フラッグとかいう安普請の駅から遠いマンションも、<br />ガタガタと値下がりしていた。<br />投機筋が作った相場など、ちゃんと不動産を本業にしている人から見れば<br />すぐに分かるのだ。<br /><br />まあそんな訳で、金利だけが単独でグイグイ上がることはアリエンわけで、<br />俺に起きていることは他人にも起きているのだから、<br />他の人も買えなくなるわな。<br />そしたら売りたい売主はちっとも売れないから、<br />売出価格を下げてくるだろう。<br /><br />そしたら借りる総額が減る。<br />1,000万の3％は30万円だが、<br />800万の5％は40万円。<br />しかし、返済総額は200万円低い。<br />10年ローンだとしたら<br />30万×10年＋1000万。合計1300万の元利返済。<br />40万×10年＋800万。合計1200万の元利返済。<br /><br />どうだろうか。<br />金利上昇を自分の負担としか考えられない人は、<br />あまりビジネスに向いていない。<br />自分に起きることは他の人にも起きる。<br />そうなると、ビジネスの相手にも〇〇な影響が出る。<br /><br />せめて2手先くらいは読もうぜ。<br />まあ、煽るマスコミも大概頭が悪い。<br />あえてやっているのか、メディア自体も頭が悪いのか謎ではある。<br /><br />金利で全てが決まるほど、ビジネスは甘くないんだぜ！<br /><br />をしまい</p><p>The post <a href=\"https://investment-finance.net/%e5%85%ac%e5%ba%ab250%e4%b8%87%e5%86%86%e3%80%813%e5%b9%b4%e3%80%81%e5%ae%8c%e6%b8%88%e4%b9%9f/\">公庫250万円、3年、完済也</a> first appeared on <a href=\"https://investment-finance.net\">サラリーマンと不動産投資</a>.</p>",
-      "author": "SAT",
       "source_type": "rss"
     },
     {
@@ -2203,7 +2273,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "6物件・ローン完済で法人化、元大学教授が選んだ「資本金500万円・家族4人で分割」のワケ法人化は「節税」だけが目的にあらず、20年先を見据えた戦略とは",
+      "title": "6物件・ローン完済で法人化、元大学教授が選んだ「資本金500万円・家族4人で分割」のワケ",
       "url": "https://www.rakumachi.jp/news/column/397518",
       "published": "2026-05-05T00:00:00+09:00",
       "fetched": "2026-05-09T07:50:17.748016+00:00",
@@ -2399,7 +2469,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "プロが次に向かうエリアはここだ、「J-REIT」が東京の物件を「売り始めている」ワケ地価公示から見る「J-REIT」のトレンド",
+      "title": "プロが次に向かうエリアはここだ、「J-REIT」が東京の物件を「売り始めている」ワケ",
       "url": "https://www.rakumachi.jp/news/column/397145",
       "published": "2026-05-04T00:00:00+09:00",
       "fetched": "2026-05-09T07:50:17.748020+00:00",
@@ -5081,26 +5151,12 @@
       "content_html": null,
       "author": "楽待編集部",
       "source_type": "scrape_rakumachi"
-    },
-    {
-      "id": "797281864d4c2325",
-      "feed_id": "2e7efdb141f2",
-      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
-      "category": "不動産",
-      "title": "国交省は「定期」と言うけれど──。データで見る「羽田空港飛行コースHP」メンテ状況の記録",
-      "url": "https://1manken.hatenablog.com/entry/2024/08/17/Ntrack",
-      "published": "2026-04-10T22:00:00+00:00",
-      "fetched": "2026-05-06T01:38:48.596328+00:00",
-      "summary": "羽田飛行コースHPのメンテ実態を長期蓄積データで検証。当局の「定期」という説明に対し、深夜の作業実態や年度別の変動を客観的な数値で整理・可視化した。",
-      "content_html": "羽田飛行コースHPのメンテ実態を長期蓄積データで検証。当局の「定期」という説明に対し、深夜の作業実態や年度別の変動を客観的な数値で整理・可視化した。",
-      "author": "flats",
-      "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-10T21:01:19.868007+00:00",
+  "last_updated": "2026-05-10T23:02:16.600625+00:00",
   "stats": {
-    "total": 364,
-    "fetched_just_now": 1135,
+    "total": 368,
+    "fetched_just_now": 1133,
     "feeds_success": 80,
     "feeds_failed": 0
   }

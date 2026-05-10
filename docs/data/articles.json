@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "8befa423fb6b01e3",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】他人には意味がなくとも自分だけは意味のある物件。そして決着へ不動産業界は本当にビルダー含めろくでもないところが99%です。",
+      "url": "https://www.rakumachi.jp/news/practical/398473",
+      "published": "2026-05-11T00:00:00+09:00",
+      "fetched": "2026-05-10T15:06:39.102979+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "ストレージ大家ひら",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "8e541d398607995a",
       "feed_id": "2ec7ee82ecf8",
       "feed_title": "マンションの間取りや価格を言いたい放題!",
@@ -5025,27 +5039,13 @@
       "content_html": "羽田飛行コースHPのメンテ実態を長期蓄積データで検証。当局の「定期」という説明に対し、深夜の作業実態や年度別の変動を客観的な数値で整理・可視化した。",
       "author": "flats",
       "source_type": "rss"
-    },
-    {
-      "id": "5e2b207308739af6",
-      "feed_id": "f8c882c05df3",
-      "feed_title": "himaginary’s diary",
-      "category": "金融・経済・投資",
-      "title": "複数次元のシグナリングと文化的政治の台頭",
-      "url": "https://himaginary.hatenablog.com/entry/20260410/Multidimensional_Signaling_and_the_Rise_of_Cultural_Politics",
-      "published": "2026-04-10T14:59:00+00:00",
-      "fetched": "2026-05-06T01:39:03.329776+00:00",
-      "summary": "というNBER論文をアセモグルらが 上げている （ ungated版 ）。原題は「Multidimensional Signaling and the Rise of Cultural Politics」で、著者はDaron Acemoglu（MIT）、Georgy Egorov（ノースウエスタン大）、Konstantin Sonin（シカゴ大）。 以下はその要旨。 In turbulent times, political labels become increasingly uninformative about politicians’ true…",
-      "content_html": "<p>というNBER論文をアセモグルらが<a href=\"https://www.nber.org/papers/w34909\">&#x4e0a;&#x3052;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://economics.mit.edu/sites/default/files/2026-02/Multidimensional%20Signaling%20and%20the%20Rise%20of%20Cultural%20Politics_02_20_26.pdf\">ungated&#x7248;</a>）。原題は「Multidimensional Signaling and the Rise of Cultural Politics」で、著者はDaron Acemoglu（MIT）、Georgy Egorov（ノースウエスタン大）、Konstantin Sonin（シカゴ大）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>In turbulent times, political labels become increasingly uninformative about politicians’ true policy preferences or their ability to withstand the influence of special interest groups. We offer a model in which politicians use campaign rhetoric to signal their political preferences in multiple dimensions. In equilibrium, the less popular types try to pool with the more popular ones, whereas the more popular types seek to separate themselves. The ability of voters to process information shapes politicians’ campaign rhetoric. If the signals on the cultural dimension are more precise, politicians signal more there, even if the economy is more important to voters. The unpopular type benefits from increased conformity, which bridges the candidates’ rhetoric and makes it more difficult for voters to make an informed decision.<br />\n（拙訳）<br />\n波乱の時代においては、政治的なレッテルは、政治家の真の政策嗜好や、特定の利益団体の影響力に立ち向かう能力に関する情報をますます持たなくなる。政治家が自分の政治的嗜好を複数の次元においてシグナリングするために選挙運動の言辞を用いるモデルを我々は提示する。均衡では、人気のない政治家は人気のある政治家にあやかろうするが、人気のある政治家は他と距離を置こうとする。有権者が情報を処理する能力が、政治家の選挙運動の言辞を形成する。文化的次元におけるシグナルがより正確であるならば、たとえ経済が有権者にとってより重要な場合でも、政治家はその次元のシグナルを増やす。不人気な政治家は画一性が増すことによって便益を受ける。そうした画一性は、政治家同士の言辞を橋渡しし、有権者が情報に基づく決定をすることをより難しくする。</p>\n\n    </blockquote>\n<p>以下は結論部の一節。</p>\n\n    <blockquote>\n        <p>Consider our canonical application with two-dimensional policies, one corresponding to economic policy and the other one to cultural policy. Suppose that economics is what voters care about. However, reflecting the complexities associated with policy-making in a world where the nature of economic relations and risks are changing rapidly in the face of globalization and new digital technologies, it is difficult for voters to parse whether a given economic campaign rhetoric is in line with their preferences. Put differently, the precision of the signals sent by economic campaign rhetoric is low. In contrast, cultural signals are easy to understand—for example, there can be clear signals that are anti-immigrant, nationalist, anti-cosmopolitan, etc. As a result, politicians gravitate towards cultural issues for signaling, even though it is still economics that voters care about most.<br />\n（拙訳）<br />\n我々の標準的な応用例である、一つの次元が経済政策、もう一つの次元が文化政策、という2次元政策を考えてみよう。経済が有権者の関心事だとしよう。しかしながら、グローバル化と新たなデジタル技術によって経済的な関係とリスクの性格が急速に変化しつつある世界での政策決定における複雑性を反映して、経済に関する提示された選挙運動の言辞が自分の嗜好に合うものかどうかを有権者が解析するのは困難である。言い換えれば、経済的な選挙運動の言辞が送るシグナルの正確性は低い。対照的に、文化的なシグナルは理解するのが容易である。例えば、反移民、国家主義、反コスモポリタンなどのシグナルは明確なものとなり得る。その結果、有権者の最大の関心事がやはり経済だとしても、政治家はシグナリングのために文化的な問題に引き寄せられる。</p>\n\n    </blockquote>",
-      "author": "himaginary",
-      "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-10T13:50:57.801060+00:00",
+  "last_updated": "2026-05-10T15:06:54.197268+00:00",
   "stats": {
     "total": 360,
-    "fetched_just_now": 1131,
-    "feeds_success": 80,
-    "feeds_failed": 0
+    "fetched_just_now": 1121,
+    "feeds_success": 77,
+    "feeds_failed": 3
   }
 }

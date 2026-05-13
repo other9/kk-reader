@@ -1,6 +1,62 @@
 {
   "articles": [
     {
+      "id": "cf8ef36d86425177",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "全世界的な諸物価高騰を、メリットに転換する方法とは？ コモディティインデックスファンドも選択肢の一つ",
+      "url": "https://www.kenbiya.com/ar/ns/jiji/diversion/10131.html",
+      "published": "2026-05-14T00:00:00+09:00",
+      "fetched": "2026-05-13T21:43:49.352763+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "03703a18acf95b1c",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】「負動産」をビジネスチャンスに変える人たち毎日３分！不動産投資メモ録 #366",
+      "url": "https://www.rakumachi.jp/news/practical/398907",
+      "published": "2026-05-14T00:00:00+09:00",
+      "fetched": "2026-05-13T21:43:49.693234+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "不動産投資家ななころ",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "1140e3b74fb102c7",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】地方低利回りプロジェクト｜東京を諦めたわけじゃない──地方高利回りには興味なし",
+      "url": "https://www.rakumachi.jp/news/practical/398849",
+      "published": "2026-05-14T00:00:00+09:00",
+      "fetched": "2026-05-13T21:43:49.693248+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "アール｜パチンカス大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "9064e736348fc2f1",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】立地が良くても失敗する土地の正体見落とされがちな風の通り道と騒音経路",
+      "url": "https://www.rakumachi.jp/news/practical/396687",
+      "published": "2026-05-14T00:00:00+09:00",
+      "fetched": "2026-05-13T21:43:49.693252+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "戸田匠",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "416d4bbc1dd432ad",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -6091,10 +6147,10 @@
       "source_type": "scrape_rakumachi"
     }
   ],
-  "last_updated": "2026-05-13T20:07:00.111547+00:00",
+  "last_updated": "2026-05-13T21:44:07.243627+00:00",
   "stats": {
-    "total": 435,
-    "fetched_just_now": 1129,
+    "total": 439,
+    "fetched_just_now": 1132,
     "feeds_success": 80,
     "feeds_failed": 0
   }

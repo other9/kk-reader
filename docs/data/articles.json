@@ -57,6 +57,34 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "a2de86767fcd0e6c",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "福岡市はほんとうに強いのか？現在とこれからを数字で検証！",
+      "url": "https://www.kenbiya.com/ar/cl/kikori/35.html",
+      "published": "2026-05-14T00:00:00+09:00",
+      "fetched": "2026-05-13T23:17:05.062334+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "kikori",
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "004f2b423304964d",
+      "feed_id": "2e7efdb141f2",
+      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
+      "category": "不動産",
+      "title": "首都圏中古マンション市場動向（2026年4月）｜在庫反転で見え始めた需給変化",
+      "url": "https://1manken.hatenablog.com/entry/2026/05/14/chuuko-mansion-shijou-monthly-report_1",
+      "published": "2026-05-13T22:27:02+00:00",
+      "fetched": "2026-05-13T23:17:05.016459+00:00",
+      "summary": "2026年4月の首都圏中古マンション市場を分析。在庫増加が始まった都心3区で、需給変化の兆候が見え始めた。",
+      "content_html": "2026年4月の首都圏中古マンション市場を分析。在庫増加が始まった都心3区で、需給変化の兆候が見え始めた。",
+      "author": "flats",
+      "source_type": "rss"
+    },
+    {
       "id": "416d4bbc1dd432ad",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -6147,10 +6175,10 @@
       "source_type": "scrape_rakumachi"
     }
   ],
-  "last_updated": "2026-05-13T21:44:07.243627+00:00",
+  "last_updated": "2026-05-13T23:17:09.687497+00:00",
   "stats": {
-    "total": 439,
-    "fetched_just_now": 1132,
+    "total": 441,
+    "fetched_just_now": 1129,
     "feeds_success": 80,
     "feeds_failed": 0
   }

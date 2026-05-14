@@ -57,6 +57,20 @@
       "source_type": "rss"
     },
     {
+      "id": "0c81de75257b4215",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "人的資本の移動性における米国の台頭",
+      "url": "https://himaginary.hatenablog.com/entry/20260514/americas-rise-in-human-capital-mobility",
+      "published": "2026-05-14T14:59:00+00:00",
+      "fetched": "2026-05-14T20:00:37.844494+00:00",
+      "summary": "という ミネアポリス連銀論文 をMostly Economicsが 紹介している 。原題は「America’s Rise in Human Capital Mobility」で、著者はLukas Althoff（スタンフォード大）、Harriet Brookes Gray（イェール大）、Hugo Reichardt（CREI）。 以下はその要旨。 How did the US become a land of opportunity? We show that the country’s pioneering role in mass education…",
+      "content_html": "<p>という<a href=\"https://www.minneapolisfed.org/research/institute-working-papers/americas-rise-in-human-capital-mobility\">&#x30df;&#x30cd;&#x30a2;&#x30dd;&#x30ea;&#x30b9;&#x9023;&#x9280;&#x8ad6;&#x6587;</a>をMostly Economicsが<a href=\"https://mostlyeconomics.wordpress.com/2026/05/13/how-did-the-us-become-a-land-of-opportunity-pioneering-role-of-mass-education/\">&#x7d39;&#x4ecb;&#x3057;&#x3066;&#x3044;&#x308b;</a>。原題は「America’s Rise in Human Capital Mobility」で、著者はLukas Althoff（スタンフォード大）、Harriet Brookes Gray（イェール大）、Hugo Reichardt（CREI）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>How did the US become a land of opportunity? We show that the country’s pioneering role in mass education was key. Unlike previous research, which has focused on father-son income correlations, we incorporate both parents in a new measure of intergenerational mobility that considers multiple inputs, including mothers’ and fathers’ human capital. To estimate mobility despite limitations in historical data, we introduce a latent variable method and construct a representative linked panel that includes women. Our findings reveal that human capital mobility rose sharply from 1850 to 1950, driven by a declining reliance on maternal human capital, which had been most predictive of child outcomes before widespread schooling. Broadening schooling weakened this reliance on mothers, raising mobility in both human capital and income over time.<br />\n（拙訳）<br />\n米国はどのように機会の国になったのか？　同国の大衆教育における先駆者的な役割が鍵であったということを我々は示す。父子の所得の相関に焦点を当てた従来の研究と異なり、世代間の移動性の新たな指標に我々は両親を織り込み、母と父の人的資本を含む複数の投入を考慮した。過去データの制約の下で移動性を推計するために我々は、潜在変数手法を導入し、女性を含む代表的な紐付けパネルを構築した。人的資本の移動性が1850年から1950年に掛けて急速に上昇したことを我々の発見は明らかにした。これは、学校教育が普及する前に子供の結果を最も良く予測する要因であった母親の人的資本への依存が低下したことが理由になっていた。幅広い学校教育は母親への依存を弱め、時間とともに人的資本と所得の両方の移動性を高めた。</p>\n\n    </blockquote>\n<p>論文は昨年2/18付けだが、ミネアポリス連銀の11月のWPとして掲載されている。今年4/1には解説記事も<a href=\"https://www.minneapolisfed.org/article/2026/how-education-transformed-opportunity-in-america\">&#x66f8;&#x304b;&#x308c;&#x3066;&#x3044;&#x308b;</a>。なお、論文の12/19付けの<a href=\"https://lukasalthoff.com/pdf/igm_mothers.pdf\">&#x6700;&#x65b0;&#x7248;</a>は「Mothers, Schools, and the Making of American Human Capital Mobility（母親、学校、および米国の人的資本の移動性の形成）」と改題されている。</p>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "70232d83184b67f2",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -831,7 +845,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼",
+      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼「年100万儲かる」想定も赤字続き、訴訟・損切りに至ったトラブルのいきさつ",
       "url": "https://www.rakumachi.jp/news/column/398711",
       "published": "2026-05-13T00:00:00+09:00",
       "fetched": "2026-05-13T09:17:24.205128+00:00",
@@ -1671,7 +1685,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "中国の住宅販売－18.5％…「底なし沼」の中で、元・不動産王が沈黙破った真意は",
+      "title": "中国の住宅販売－18.5％…「底なし沼」の中で、元・不動産王が沈黙破った真意は続く中国の不動産不況、「Z世代が家を買わない時代」に未来はあるのか",
       "url": "https://www.rakumachi.jp/news/column/398283",
       "published": "2026-05-11T00:00:00+09:00",
       "fetched": "2026-05-11T09:58:22.350404+00:00",
@@ -2651,7 +2665,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "1棟目はフルローンで1億円超、28歳商社マンが8カ月で6棟55室まで買い進めた手順",
+      "title": "1棟目はフルローンで1億円超、28歳商社マンが8カ月で6棟55室まで買い進めた手順アパートローンを最大限活用で、次に見据える戦略は",
       "url": "https://www.rakumachi.jp/news/column/398249",
       "published": "2026-05-09T00:00:00+09:00",
       "fetched": "2026-05-09T09:19:48.986232+00:00",
@@ -3421,7 +3435,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "「ありがたい入居者」か「悩みの種」か…結末を分ける高齢者の孤独死・契約トラブルへの3つの備え",
+      "title": "「ありがたい入居者」か「悩みの種」か…結末を分ける高齢者の孤独死・契約トラブルへの3つの備え弁護士が解説、契約前からリスクヘッジは始まっている",
       "url": "https://www.rakumachi.jp/news/column/397797",
       "published": "2026-05-07T00:00:00+09:00",
       "fetched": "2026-05-09T07:50:17.748008+00:00",
@@ -6441,10 +6455,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-14T18:05:36.842011+00:00",
+  "last_updated": "2026-05-14T20:00:38.688518+00:00",
   "stats": {
-    "total": 460,
-    "fetched_just_now": 1129,
+    "total": 461,
+    "fetched_just_now": 1126,
     "feeds_success": 80,
     "feeds_failed": 0
   }

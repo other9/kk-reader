@@ -1,6 +1,48 @@
 {
   "articles": [
     {
+      "id": "c0bb9a13093a9563",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "FP4人のオフ会に潜入。ファイナンシャルプランと不動産投資を「お金のリテラシー」が繋ぐ",
+      "url": "https://www.kenbiya.com/ar/ns/jiji/investor/10132.html",
+      "published": "2026-05-16T00:00:00+09:00",
+      "fetched": "2026-05-15T21:16:36.981383+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "b9b6b2408d21e7db",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】築古物件は“利益を食う老朽化マシン”にもなる。見えない修繕コストが利回りを削る",
+      "url": "https://www.rakumachi.jp/news/practical/396689",
+      "published": "2026-05-16T00:00:00+09:00",
+      "fetched": "2026-05-15T21:16:37.713071+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "戸田匠",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "b8154712f8f1df19",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】冬の空室で給湯器破損…しかし補助金に救われました！①",
+      "url": "https://www.rakumachi.jp/news/practical/395289",
+      "published": "2026-05-16T00:00:00+09:00",
+      "fetched": "2026-05-15T21:16:37.713082+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "パテント大家ATSUSHI",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "92d3de19706104c4",
       "feed_id": "d976d70a8e8a",
       "feed_title": "【不動産投資】訳あり物件再生の方法が面白いほどよくわかるブログ",
@@ -6847,10 +6889,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-15T19:51:14.258291+00:00",
+  "last_updated": "2026-05-15T21:16:41.760039+00:00",
   "stats": {
-    "total": 489,
-    "fetched_just_now": 1127,
+    "total": 492,
+    "fetched_just_now": 1128,
     "feeds_success": 80,
     "feeds_failed": 0
   }

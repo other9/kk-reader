@@ -43,6 +43,34 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "78e4fa4cd90f1963",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "大ピンチ！深夜の怒号と奇声で退去が続出。トラブルを起こす入居者に退去してもらうまで",
+      "url": "https://www.kenbiya.com/ar/cl/niino/95.html",
+      "published": "2026-05-16T00:00:00+09:00",
+      "fetched": "2026-05-15T23:07:50.932834+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "niino",
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "3986e686ddecaab2",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】自宅マンションの購入計画へメインバンクから恐怖の忠告が…そんなのあり！？！？",
+      "url": "https://www.rakumachi.jp/news/practical/398920",
+      "published": "2026-05-16T00:00:00+09:00",
+      "fetched": "2026-05-15T23:07:51.526343+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "ハピくま@リーマン大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "92d3de19706104c4",
       "feed_id": "d976d70a8e8a",
       "feed_title": "【不動産投資】訳あり物件再生の方法が面白いほどよくわかるブログ",
@@ -6873,27 +6901,13 @@
       "content_html": null,
       "author": "楽待編集部",
       "source_type": "scrape_rakumachi"
-    },
-    {
-      "id": "4c6746d859e416d9",
-      "feed_id": "73f801c263f8",
-      "feed_title": "経済を良くするって、どうすれば",
-      "category": "金融・経済・投資",
-      "title": "4/16の日経",
-      "url": "https://keizai-dousureba.hatenablog.jp/entry/2026/04/16/070000",
-      "published": "2026-04-15T22:00:00+00:00",
-      "fetched": "2026-05-06T01:39:03.543456+00:00",
-      "summary": "2月の機械受注は、製造業(除く船電)が前月比+13.6%、非製造業が+0.9%だった。原発や造船の大型案件が重なったこともあってか、内閣府は基調判断を据え置いたが、この数か月の動向からすると、鉱工業生産の見通しの高さも踏まえ、景気加速としておかしくない結果だった。工作機械を含む汎用生産用機械は順調で、外需は高水準だ。あとになって、AIや軍需が景気を押し上げていたという評価になるかもしれない。政策的には、経済安保の投資促進が奏功し、利上げの局面という位置づけになろうか。 (図) (今日までの日経) 原油高の波、消費者に迫る。AI小説、星新一賞を席巻。10年…",
-      "content_html": "<p>　2月の機械受注は、製造業(除く船電)が前月比+13.6%、非製造業が+0.9%だった。原発や造船の大型案件が重なったこともあってか、内閣府は基調判断を据え置いたが、この数か月の動向からすると、鉱工業生産の見通しの高さも踏まえ、景気加速としておかしくない結果だった。工作機械を含む汎用生産用機械は順調で、外需は高水準だ。あとになって、AIや軍需が景気を押し上げていたという評価になるかもしれない。政策的には、経済安保の投資促進が奏功し、利上げの局面という位置づけになろうか。</p>\n<p>(図)</p>\n<p><img class=\"hatena-fotolife\" height=\"306\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/k/keizai-dousureba/20260416/20260416054228.png\" title=\"\" width=\"733\" /></p>\n<p><br />(今日までの日経)<br />　原油高の波、消費者に迫る。AI小説、星新一賞を席巻。10年債一時2.49%。国内造船受注、倍増遠く。年金3号の縮小「国民的議論が必要」。積極財政巡り検証機能を提言。給付付き税額控除、経団連「2年待たず早期に」。高市自民党の新ビジョン「大衆迎合と対峙」。円安阻止介入、意外な自由度。</p>",
-      "author": "keizai-dousureba",
-      "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-15T21:16:41.760039+00:00",
+  "last_updated": "2026-05-15T23:08:06.576160+00:00",
   "stats": {
-    "total": 492,
-    "fetched_just_now": 1128,
-    "feeds_success": 80,
-    "feeds_failed": 0
+    "total": 493,
+    "fetched_just_now": 1083,
+    "feeds_success": 73,
+    "feeds_failed": 7
   }
 }

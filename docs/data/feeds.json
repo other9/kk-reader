@@ -1574,7 +1574,8 @@
       "last_success": "2026-05-16T02:06:42.337070+00:00",
       "error_count": 0,
       "last_error": null,
-      "last_items_count": 194
+      "last_items_count": 194,
+      "via_worker": true
     },
     {
       "id": "679eabc4b350",

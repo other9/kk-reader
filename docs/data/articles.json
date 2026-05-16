@@ -7897,11 +7897,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-16T02:28:59.856898+00:00",
+  "last_updated": "2026-05-16T02:31:06.470883+00:00",
   "stats": {
     "total": 564,
-    "fetched_just_now": 1243,
-    "feeds_success": 76,
-    "feeds_failed": 5
+    "fetched_just_now": 1253,
+    "feeds_success": 81,
+    "feeds_failed": 0
   }
 }

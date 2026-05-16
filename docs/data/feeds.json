@@ -1560,6 +1560,22 @@
       "last_error": null
     },
     {
+      "id": "aa19268c3622",
+      "title": "CFA Society Japan ブログ",
+      "url": "https://www.cfasociety.org/japan/society-news-resources/blog",
+      "html_url": "https://www.cfasociety.org/japan/society-news-resources/blog",
+      "category": "金融・経済・投資",
+      "source_type": "scrape_cfajapan",
+      "active": true,
+      "verify_ssl": true,
+      "etag": null,
+      "last_modified": null,
+      "last_fetch": null,
+      "last_success": null,
+      "error_count": 0,
+      "last_error": null
+    },
+    {
       "id": "679eabc4b350",
       "title": "CFA学習方法Tips (米国証券アナリスト) » フィード",
       "url": "https://triumphmind.com/cfa/feed/",
@@ -1854,5 +1870,5 @@
     "未分類",
     "金融・経済・投資"
   ],
-  "total": 115
+  "total": 116
 }

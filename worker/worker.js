@@ -120,6 +120,17 @@ function extractorFor(url) {
     };
   }
 
+  if (host === "cfasociety.org") {
+    // Higher Logic 製。本文は #MPContentArea コンテナ内に納まる。
+    // ナビ・サイドバー・フッターはコンテナ外なので除去セレクタは少なめ。
+    return {
+      contentSelectors: ["div#MPContentArea", "div.MainPaneContent", "main", "article"],
+      removeSelectors: ["script", "style", "nav", "header", "footer", "aside",
+                       ".sns-share", ".related", ".breadcrumb",
+                       "#LeftPane", "#RightPane", ".LeftPane", ".RightPane"],
+    };
+  }
+
   return {
     contentSelectors: ["article", "main", "div[role='main']", "div.entry-content", "div.post"],
     removeSelectors: ["script", "style", "nav", "header", "footer", "aside",

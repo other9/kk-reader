@@ -7,12 +7,14 @@ from .base import SourceAdapter, Article, make_article_id
 from .rss_adapter import RSSAdapter
 from .kenbiya_scraper import KenbiyaColumnsAdapter
 from .rakumachi_scraper import RakumachiNewsAdapter
+from .cfajapan_scraper import CFAJapanAdapter
 
 # source_type → アダプターインスタンスのマッピング
 ADAPTERS: dict[str, SourceAdapter] = {
     "rss": RSSAdapter(),
     "scrape_kenbiya": KenbiyaColumnsAdapter(),
     "scrape_rakumachi": RakumachiNewsAdapter(),
+    "scrape_cfajapan": CFAJapanAdapter(),
 }
 
 __all__ = [
@@ -22,5 +24,6 @@ __all__ = [
     "RSSAdapter",
     "KenbiyaColumnsAdapter",
     "RakumachiNewsAdapter",
+    "CFAJapanAdapter",
     "ADAPTERS",
 ]

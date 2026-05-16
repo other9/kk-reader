@@ -38,6 +38,7 @@
             <outline type="scrape_rakumachi" text="楽待 実践大家コラム" title="楽待 実践大家コラム" xmlUrl="https://www.rakumachi.jp/news/practical" htmlUrl="https://www.rakumachi.jp/news/practical"/>
         </outline>
         <outline text="金融・経済・投資" title="金融・経済・投資">
+            <outline type="scrape_cfajapan" text="CFA Society Japan ブログ" title="CFA Society Japan ブログ" xmlUrl="https://www.cfasociety.org/japan/society-news-resources/blog" htmlUrl="https://www.cfasociety.org/japan/society-news-resources/blog"/>
             <outline type="rss" text="金融の未来を考えるブログ" title="金融の未来を考えるブログ" xmlUrl="http://feedblog.ameba.jp/rss/ameblo/cva358/rss20.xml" htmlUrl="https://ameblo.jp/cva358/"/>
             <outline type="rss" text="市況かぶ全力２階建" title="市況かぶ全力２階建" xmlUrl="http://kabumatome.doorblog.jp/index.rdf" htmlUrl="https://kabumatome.doorblog.jp/"/>
             <outline type="rss" text="とある投資家のαライフハック" title="とある投資家のαライフハック" xmlUrl="http://alphalifehacker.jp/?xml" htmlUrl="http://www.alphalifehacker.jp/"/>

@@ -8079,11 +8079,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-16T15:10:33.510456+00:00",
+  "last_updated": "2026-05-16T17:11:55.538321+00:00",
   "stats": {
     "total": 577,
-    "fetched_just_now": 1255,
-    "feeds_success": 81,
-    "feeds_failed": 0
+    "fetched_just_now": 1219,
+    "feeds_success": 76,
+    "feeds_failed": 5
   }
 }

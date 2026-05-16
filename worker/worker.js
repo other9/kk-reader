@@ -268,8 +268,24 @@ function resolveUrl(value, baseUrl) {
   }
 }
 
+// HTMLRewriter の text chunk は HTML エンティティをデコードせず生のまま渡してくる
+// (ソース `&nbsp;` が text chunk t.text に "&nbsp;" という 6 文字の文字列として届く)。
+// 単純に `& → &amp;` 置換すると `&amp;nbsp;` に二重エンコードされ、ブラウザ上で
+// "&nbsp;" が文字列として可視化される。
+//
+// 修正方針: 既存の有効なエンティティ参照(`&nbsp;`, `&gt;`, `&#NNN;`, `&#xHH;`)は
+// そのまま保持し、エンティティを構成しない bare な `&` のみを `&amp;` に置換。
+// `<` と `>` は通常 text chunk には現れない(HTML parser が markup として処理済)
+// が、防御的にエスケープを残す。(update-015)
+//
+// 既知の caveat: HTMLRewriter が稀にエンティティを chunk 境界で分割する可能性
+// (例 `&nbs` + `p;`)。実測ではまず観測されないが、もし顕在化したら chunk を
+// element 単位で buffer して一括処理する版にリファクタする(update-016 候補)。
 function escapeText(s) {
-  return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  return String(s)
+    .replace(/&(?!(?:#\d+|#x[0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]*);)/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
 }
 
 // =====================================================================
@@ -293,9 +309,9 @@ async function handleArticle(request, env, origin) {
     return jsonResponse({ error: "invalid scheme" }, 400, origin);
   }
 
-  // update-011: cache key version を v2 に bump して update-010 以前の
-  // 相対 URL が含まれた壊れた cache を無効化(古いキーは TTL で自動消滅)
-  const cacheKey = `article:v2:${await urlHash(target)}`;
+  // update-015: cache key version を v3 に bump して update-014 以前の
+  // エンティティ二重エンコード入り cache を無効化(古いキーは TTL で自動消滅)
+  const cacheKey = `article:v3:${await urlHash(target)}`;
 
   const cached = await env.STATE.get(cacheKey, "json");
   if (cached && cached.content_html) {

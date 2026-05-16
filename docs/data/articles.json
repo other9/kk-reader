@@ -6903,10 +6903,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-16T02:06:44.043495+00:00",
+  "last_updated": "2026-05-16T02:10:00.064609+00:00",
   "stats": {
     "total": 493,
-    "fetched_just_now": 1324,
+    "fetched_just_now": 1323,
     "feeds_success": 81,
     "feeds_failed": 0
   }

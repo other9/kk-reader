@@ -99,6 +99,20 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "510027b740ddd2de",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "東京メトロが注力する路線・エリアは？2026年度の設備投資計画から読み解く、不動産投資のチャンスがある沿線とは？",
+      "url": "https://www.kenbiya.com/ar/ns/region/tokyo/10129.html",
+      "published": "2026-05-16T00:00:00+09:00",
+      "fetched": "2026-05-16T03:56:20.217609+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
       "id": "f2ff7b3823e91fdc",
       "feed_id": "6c30fc2654fb",
       "feed_title": "元官庁エコノミストのブログ",
@@ -453,7 +467,7 @@
       "feed_id": "bb0037f0a045",
       "feed_title": "楽待新聞 連載コラム",
       "category": "不動産",
-      "title": "【動画】今から不動産投資を始めるなら #25NEW20代会社員が今から不動産投資を始めるなら？「割安一棟」と「戸建て転売」の2軸で動け楽待編集部2026.5.15この連載の一覧を見る(25記事)",
+      "title": "【動画】今から不動産投資を始めるなら #2520代会社員が今から不動産投資を始めるなら？「割安一棟」と「戸建て転売」の2軸で動け楽待編集部2026.5.15この連載の一覧を見る(25記事)",
       "url": "https://www.rakumachi.jp/news/video/398801",
       "published": "2026-05-15T00:00:00+09:00",
       "fetched": "2026-05-15T04:14:00.748883+00:00",
@@ -7897,10 +7911,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-16T02:31:06.470883+00:00",
+  "last_updated": "2026-05-16T03:56:24.824927+00:00",
   "stats": {
-    "total": 564,
-    "fetched_just_now": 1253,
+    "total": 565,
+    "fetched_just_now": 1063,
     "feeds_success": 81,
     "feeds_failed": 0
   }

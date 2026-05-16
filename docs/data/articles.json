@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "0773fb1912058d53",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】＃７２６　公庫の融資条件と面談翌朝の着信の件～高金利時代の融資条件は？～",
+      "url": "https://www.rakumachi.jp/news/practical/399009",
+      "published": "2026-05-17T00:00:00+09:00",
+      "fetched": "2026-05-16T15:10:28.810535+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "ジュニア",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "f43a414d3675c2bd",
       "feed_id": "2ec7ee82ecf8",
       "feed_title": "マンションの間取りや価格を言いたい放題!",
@@ -278,6 +292,20 @@
       "summary": "",
       "content_html": null,
       "author": "元地方銀行員大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "038e41acd3665922",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】地雷回収班⑭ポンプ、20年で300回超しか動いてませんでした20年間ほぼ動いていなかったポンプの謎",
+      "url": "https://www.rakumachi.jp/news/practical/398965",
+      "published": "2026-05-16T00:00:00+09:00",
+      "fetched": "2026-05-16T15:10:28.810546+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "じゅんじゅん",
       "source_type": "scrape_rakumachi"
     },
     {
@@ -8051,10 +8079,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-16T13:55:05.759542+00:00",
+  "last_updated": "2026-05-16T15:10:33.510456+00:00",
   "stats": {
-    "total": 575,
-    "fetched_just_now": 1254,
+    "total": 577,
+    "fetched_just_now": 1255,
     "feeds_success": 81,
     "feeds_failed": 0
   }

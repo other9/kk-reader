@@ -267,6 +267,20 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "2d222cbd36c1b9bf",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】金利上昇・物価高、繰上返済はどう考える？「利息カット」か「手元資金」か。",
+      "url": "https://www.rakumachi.jp/news/practical/399006",
+      "published": "2026-05-16T00:00:00+09:00",
+      "fetched": "2026-05-16T13:55:01.992249+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "元地方銀行員大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "f2ff7b3823e91fdc",
       "feed_id": "6c30fc2654fb",
       "feed_title": "元官庁エコノミストのブログ",
@@ -8037,10 +8051,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-16T11:13:54.165076+00:00",
+  "last_updated": "2026-05-16T13:55:05.759542+00:00",
   "stats": {
-    "total": 574,
-    "fetched_just_now": 1255,
+    "total": 575,
+    "fetched_just_now": 1254,
     "feeds_success": 81,
     "feeds_failed": 0
   }

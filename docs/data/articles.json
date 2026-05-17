@@ -15,6 +15,34 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "8bafbcf1c662c6b1",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "フローリングも多様化の時代へ。新しい間取り、建材に会いにstudyroom#2に行ってきた",
+      "url": "https://www.kenbiya.com/ar/ns/for_rent/renovation/10140.html",
+      "published": "2026-05-18T00:00:00+09:00",
+      "fetched": "2026-05-17T21:05:23.419238+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "7a260a846c42d8d7",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】面倒くさがりはオナチェン一択？不動産投資って大変だなぁ...",
+      "url": "https://www.rakumachi.jp/news/practical/398562",
+      "published": "2026-05-18T00:00:00+09:00",
+      "fetched": "2026-05-17T21:05:24.087833+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "かぶ大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "3c84382fd1b9e0d6",
       "feed_id": "f8c882c05df3",
       "feed_title": "himaginary’s diary",
@@ -2007,7 +2035,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼「年100万儲かる」想定も赤字続き、訴訟・損切りに至ったトラブルのいきさつ",
+      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼",
       "url": "https://www.rakumachi.jp/news/column/398711",
       "published": "2026-05-13T00:00:00+09:00",
       "fetched": "2026-05-13T09:17:24.205128+00:00",
@@ -2847,7 +2875,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "中国の住宅販売－18.5％…「底なし沼」の中で、元・不動産王が沈黙破った真意は続く中国の不動産不況、「Z世代が家を買わない時代」に未来はあるのか",
+      "title": "中国の住宅販売－18.5％…「底なし沼」の中で、元・不動産王が沈黙破った真意は",
       "url": "https://www.rakumachi.jp/news/column/398283",
       "published": "2026-05-11T00:00:00+09:00",
       "fetched": "2026-05-11T09:58:22.350404+00:00",
@@ -8415,10 +8443,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-17T19:23:27.019800+00:00",
+  "last_updated": "2026-05-17T21:05:28.266046+00:00",
   "stats": {
-    "total": 601,
-    "fetched_just_now": 1255,
+    "total": 603,
+    "fetched_just_now": 1256,
     "feeds_success": 81,
     "feeds_failed": 0
   }

@@ -149,7 +149,7 @@
     <div class="row">
       <div class="stat" id="token-stat">読み込み中…</div>
       <div class="row-h">
-        <input id="token-input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="paste kk-sync-token here (e.g. 64 hex chars)">
+        <input id="token-input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="paste SYNC_SECRET here (e.g. 64 hex chars)">
       </div>
       <div class="row-h">
         <button class="primary" id="btn-set">Set token</button>
@@ -181,7 +181,7 @@
   <script>
     (function () {
       const WORKER = "https://kk-sync.other9.workers.dev";
-      const KEY = "kk-sync-token";
+      const KEY = "kkreader.syncToken";
       const $ = (id) => document.getElementById(id);
       const setHTML = (el, html) => { el.innerHTML = html; };
       const safe = (s) => String(s).replace(/[<>&]/g, (c) =>

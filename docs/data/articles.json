@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "b2b33ff0ba2ea2da",
+      "feed_id": "3ec6277335cd",
+      "feed_title": "のらえもんブログ",
+      "category": "不動産",
+      "title": "有明の広大な空き地に何がくるのか、東京都の公募要領から真剣に考えてみた",
+      "url": "https://wangantower.com/?p=21855&utm_source=rss&utm_medium=rss&utm_campaign=%25e6%259c%2589%25e6%2598%258e%25e3%2581%25ae%25e5%25ba%2583%25e5%25a4%25a7%25e3%2581%25aa%25e7%25a9%25ba%25e3%2581%258d%25e5%259c%25b0%25e3%2581%25ab%25e4%25bd%2595%25e3%2581%258c%25e3%2581%258f%25e3%2582%258b%25e3%2581%25ae%25e3%2581%258b%25e3%2580%2581%25e6%259d%25b1%25e4%25ba%25ac%25e9%2583%25bd%25e3%2581%25ae%25e5%2585%25ac",
+      "published": "2026-05-17T11:11:43+00:00",
+      "fetched": "2026-05-17T11:21:45.923029+00:00",
+      "summary": "有明テニスの森駅を降りると、目の前に広がる巨大な空き地。有明アリーナの向かい側、ブリリアマーレ有明やブリリア有明スカイタワーの北西側正面となる、あの更地です。「ここに何が来るんだろう？」と気になっている有明住民の方は多い […] The post 有明の広大な空き地に何がくるのか、東京都の公募要領から真剣に考えてみた first appeared on のらえもんブログ .",
+      "content_html": "<p>有明テニスの森駅を降りると、目の前に広がる巨大な空き地。有明アリーナの向かい側、ブリリアマーレ有明やブリリア有明スカイタワーの北西側正面となる、あの更地です。「ここに何が来るんだろう？」と気になっている有明住民の方は多い [&#8230;]</p>\nThe post <a href=\"https://wangantower.com/?p=21855\">有明の広大な空き地に何がくるのか、東京都の公募要領から真剣に考えてみた</a> first appeared on <a href=\"https://wangantower.com\">のらえもんブログ</a>.",
+      "author": "のらえもん",
+      "source_type": "rss"
+    },
+    {
       "id": "57ab9234fffd6447",
       "feed_id": "bc446ef2651b",
       "feed_title": "異邦人になってみた～～上海生活写真ブログ",
@@ -229,13 +243,55 @@
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
       "category": "不動産",
-      "title": "【実践大家コラム】一撃で1000万円の利益を叩き出した超ラッキー取引を語ります買主のラッキーは、売主のアンラッキー",
+      "title": "【実践大家コラム】再建築不可の物件を買ったら、思っていたのと違った件買主のラッキーは、売主のアンラッキー",
       "url": "https://www.rakumachi.jp/news/practical/398994",
       "published": "2026-05-17T00:00:00+09:00",
       "fetched": "2026-05-17T08:31:44.310885+00:00",
       "summary": "",
       "content_html": null,
       "author": "億トレ大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "91cc447c463eeb11",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】簿価1円、デッドクロス突入、皆さんならどうしますか！？簿価1円の木造アパートで始まったホンキの“税務",
+      "url": "https://www.rakumachi.jp/news/practical/399045",
+      "published": "2026-05-17T00:00:00+09:00",
+      "fetched": "2026-05-17T11:21:46.860064+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "北国の大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "0ffdde70b1a6f105",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】アパートローンがあると住宅ローンは組めない？金融機関でガラリと変わる審査ルール",
+      "url": "https://www.rakumachi.jp/news/practical/399031",
+      "published": "2026-05-17T00:00:00+09:00",
+      "fetched": "2026-05-17T11:21:46.860075+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "元地方銀行員大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "da0aa28298b4193d",
+      "feed_id": "c4e832423738",
+      "feed_title": "楽待新聞 編集部記事",
+      "category": "不動産",
+      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走「お客様の利益にならない」と退職を決意、今後はトラブル増？",
+      "url": "https://www.rakumachi.jp/news/column/398760",
+      "published": "2026-05-17T00:00:00+09:00",
+      "fetched": "2026-05-17T11:21:47.531440+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "楽待編集部",
       "source_type": "scrape_rakumachi"
     },
     {
@@ -523,7 +579,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "サラリーマン、大家になる #6NEW「もっと家賃を上げたい」が大失敗のもと、初心者が入居付けで陥る「致命的なズレ」【ついに最終回】楽待編集部2026.5.16この連載の一覧を見る(6記事)",
+      "title": "サラリーマン、大家になる #6「もっと家賃を上げたい」が大失敗のもと、初心者が入居付けで陥る「致命的なズレ」【ついに最終回】楽待編集部2026.5.16この連載の一覧を見る(6記事)",
       "url": "https://www.rakumachi.jp/news/column/397649",
       "published": "2026-05-16T00:00:00+09:00",
       "fetched": "2026-05-16T09:49:46.498369+00:00",
@@ -4227,6 +4283,20 @@
       "content_html": null,
       "author": "楽待編集部",
       "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "1a33efb88d1b31d8",
+      "feed_id": "aa19268c3622",
+      "feed_title": "CFA Society Japan ブログ",
+      "category": "金融・経済・投資",
+      "title": "資産の保全は富の基盤である　～顧客との対話における新たな出発点～",
+      "url": "https://www.cfasociety.org/japan/society-news-resources/blog/762",
+      "published": "2026-05-08T00:00:00+09:00",
+      "fetched": "2026-05-17T11:21:55.048569+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_cfajapan"
     },
     {
       "id": "d04dd5f822e25a27",
@@ -8303,11 +8373,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-17T08:31:48.495116+00:00",
+  "last_updated": "2026-05-17T11:22:02.770781+00:00",
   "stats": {
-    "total": 593,
-    "fetched_just_now": 1263,
-    "feeds_success": 81,
-    "feeds_failed": 0
+    "total": 598,
+    "fetched_just_now": 1215,
+    "feeds_success": 73,
+    "feeds_failed": 8
   }
 }

@@ -23,11 +23,20 @@
 
 const ALLOWED_ORIGINS = [
   "https://other9.github.io",
+  "https://kk-reader.pages.dev",
   "http://localhost:8765",
 ];
-
+const ALLOWED_ORIGIN_PATTERNS = [
+  // Cloudflare Pages preview deployments (e.g. abc1234.kk-reader.pages.dev)
+  /^https:\/\/[a-z0-9-]+\.kk-reader\.pages\.dev$/,
+];
+function isAllowedOrigin(origin) {
+  if (!origin) return false;
+  if (ALLOWED_ORIGINS.includes(origin)) return true;
+  return ALLOWED_ORIGIN_PATTERNS.some((re) => re.test(origin));
+}
 function corsHeaders(origin) {
-  const allowedOrigin = ALLOWED_ORIGINS.includes(origin) ? origin : ALLOWED_ORIGINS[0];
+  const allowedOrigin = isAllowedOrigin(origin) ? origin : ALLOWED_ORIGINS[0];
   return {
     "Access-Control-Allow-Origin": allowedOrigin,
     "Access-Control-Allow-Methods": "GET, POST, OPTIONS",

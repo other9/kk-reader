@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "42b528d2aed3e961",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】副業の不動産投資、生活を豊かにした具体的な手法サラリーマンが不動産投資をするメリット（リーマンまさゆきの実践例）",
+      "url": "https://www.rakumachi.jp/news/practical/396922",
+      "published": "2026-05-18T00:00:00+09:00",
+      "fetched": "2026-05-17T15:11:30.540680+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "リーマンまさゆき",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "b2b33ff0ba2ea2da",
       "feed_id": "3ec6277335cd",
       "feed_title": "のらえもんブログ",
@@ -1979,7 +1993,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼「年100万儲かる」想定も赤字続き、訴訟・損切りに至ったトラブルのいきさつ",
+      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼",
       "url": "https://www.rakumachi.jp/news/column/398711",
       "published": "2026-05-13T00:00:00+09:00",
       "fetched": "2026-05-13T09:17:24.205128+00:00",
@@ -2819,7 +2833,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "中国の住宅販売－18.5％…「底なし沼」の中で、元・不動産王が沈黙破った真意は続く中国の不動産不況、「Z世代が家を買わない時代」に未来はあるのか",
+      "title": "中国の住宅販売－18.5％…「底なし沼」の中で、元・不動産王が沈黙破った真意は",
       "url": "https://www.rakumachi.jp/news/column/398283",
       "published": "2026-05-11T00:00:00+09:00",
       "fetched": "2026-05-11T09:58:22.350404+00:00",
@@ -3799,7 +3813,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "1棟目はフルローンで1億円超、28歳商社マンが8カ月で6棟55室まで買い進めた手順アパートローンを最大限活用で、次に見据える戦略は",
+      "title": "1棟目はフルローンで1億円超、28歳商社マンが8カ月で6棟55室まで買い進めた手順",
       "url": "https://www.rakumachi.jp/news/column/398249",
       "published": "2026-05-09T00:00:00+09:00",
       "fetched": "2026-05-09T09:19:48.986232+00:00",
@@ -8387,11 +8401,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-17T13:53:44.141946+00:00",
+  "last_updated": "2026-05-17T15:11:46.132507+00:00",
   "stats": {
-    "total": 599,
-    "fetched_just_now": 1256,
-    "feeds_success": 81,
-    "feeds_failed": 0
+    "total": 600,
+    "fetched_just_now": 1221,
+    "feeds_success": 75,
+    "feeds_failed": 6
   }
 }

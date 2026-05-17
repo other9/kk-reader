@@ -43,6 +43,48 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "50eafb5fa462a8d4",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "億万長者じゃなくても幸せ。会社員から専業大家になったハリーさんとANMAさんの現在【第1回】",
+      "url": "https://www.kenbiya.com/ar/cl/taidan/tc-372/372.html",
+      "published": "2026-05-18T00:00:00+09:00",
+      "fetched": "2026-05-17T23:05:36.213844+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "taidan",
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "73044bd4da2dfc2f",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】訴訟の落とし穴　決定した裁判ができないと言われた被告が裁判所の郵便を拒否　書記官から裏技を伝授してもらう",
+      "url": "https://www.rakumachi.jp/news/practical/398604",
+      "published": "2026-05-18T00:00:00+09:00",
+      "fetched": "2026-05-17T23:05:36.669280+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "日曜大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "bffe5c79c92bb90e",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】工事単価は全国共通じゃありません地域差を知らないと利益は静かに削られます",
+      "url": "https://www.rakumachi.jp/news/practical/396694",
+      "published": "2026-05-18T00:00:00+09:00",
+      "fetched": "2026-05-17T23:05:36.669293+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "戸田匠",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "3c84382fd1b9e0d6",
       "feed_id": "f8c882c05df3",
       "feed_title": "himaginary’s diary",
@@ -2035,7 +2077,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼",
+      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼「年100万儲かる」想定も赤字続き、訴訟・損切りに至ったトラブルのいきさつ",
       "url": "https://www.rakumachi.jp/news/column/398711",
       "published": "2026-05-13T00:00:00+09:00",
       "fetched": "2026-05-13T09:17:24.205128+00:00",
@@ -2875,7 +2917,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "中国の住宅販売－18.5％…「底なし沼」の中で、元・不動産王が沈黙破った真意は",
+      "title": "中国の住宅販売－18.5％…「底なし沼」の中で、元・不動産王が沈黙破った真意は続く中国の不動産不況、「Z世代が家を買わない時代」に未来はあるのか",
       "url": "https://www.rakumachi.jp/news/column/398283",
       "published": "2026-05-11T00:00:00+09:00",
       "fetched": "2026-05-11T09:58:22.350404+00:00",
@@ -8443,10 +8485,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-17T21:05:28.266046+00:00",
+  "last_updated": "2026-05-17T23:05:40.922170+00:00",
   "stats": {
-    "total": 603,
-    "fetched_just_now": 1256,
+    "total": 606,
+    "fetched_just_now": 1258,
     "feeds_success": 81,
     "feeds_failed": 0
   }

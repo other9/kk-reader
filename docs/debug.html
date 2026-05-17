@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>kk-reader debug</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --bg-sunken: #f8f9f8;
+      --ink: #14181a;
+      --ink-mid: #4a5258;
+      --ink-dim: #7c858b;
+      --accent: #166534;
+      --gold: #9a7e3a;
+      --err: #c0392b;
+      --rule: #e5e8e6;
+      --rule-strong: #c8d0cc;
+      --mono: "SF Mono", "Menlo", "Consolas", "Liberation Mono", monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d100e;
+        --bg-sunken: #161a17;
+        --ink: #e5e8e6;
+        --ink-mid: #aab2af;
+        --ink-dim: #6f7874;
+        --accent: #4ade80;
+        --gold: #c2a35b;
+        --err: #f08080;
+        --rule: #2a2f2c;
+        --rule-strong: #3a413d;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    body { padding: 16px; max-width: 720px; margin: 0 auto; }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+    .lede {
+      color: var(--ink-mid);
+      margin: 0 0 20px;
+      font-size: 13px;
+    }
+    .lede a { color: var(--accent); }
+    section {
+      border: 1px solid var(--rule);
+      border-radius: 6px;
+      padding: 14px 14px 12px;
+      margin: 0 0 14px;
+      background: var(--bg-sunken);
+    }
+    section h2 {
+      margin: 0 0 10px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink-mid);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .row { display: flex; flex-direction: column; gap: 8px; }
+    .row-h { display: flex; gap: 8px; flex-wrap: wrap; }
+    .stat { font-family: var(--mono); font-size: 12px; }
+    .stat .label { color: var(--ink-mid); }
+    .stat .val { color: var(--ink); }
+    .badge {
+      display: inline-block;
+      font-family: var(--mono);
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 3px;
+      letter-spacing: 0.04em;
+    }
+    .badge.ok { background: var(--accent); color: var(--bg); }
+    .badge.err { background: var(--err); color: #fff; }
+    .badge.idle { background: var(--rule-strong); color: var(--ink-mid); }
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid var(--rule-strong);
+      border-radius: 4px;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--mono);
+      font-size: 12px;
+    }
+    button {
+      padding: 8px 14px;
+      border: 1px solid var(--rule-strong);
+      border-radius: 4px;
+      background: var(--bg);
+      color: var(--ink);
+      font-size: 13px;
+      cursor: pointer;
+      min-height: 36px;
+    }
+    button.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: var(--bg);
+      font-weight: 500;
+    }
+    button.danger { color: var(--err); border-color: var(--err); }
+    button:active { transform: translateY(1px); }
+    pre {
+      margin: 8px 0 0;
+      padding: 10px;
+      background: var(--bg);
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      font-family: var(--mono);
+      font-size: 11px;
+      line-height: 1.4;
+      max-height: 280px;
+      overflow: auto;
+      white-space: pre-wrap;
+      word-break: break-all;
+      color: var(--ink-mid);
+    }
+    pre.empty { color: var(--ink-dim); }
+    footer {
+      margin-top: 16px;
+      padding-top: 12px;
+      border-top: 1px solid var(--rule);
+      font-size: 12px;
+      color: var(--ink-dim);
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>kk-reader debug</h1>
+  <p class="lede">端末追加・同期障害切り分け用。本ページの内容は <code>localStorage</code> と Worker への HTTP 呼び出しのみで、サーバには何も書き込まない(<a href="/">kk-reader に戻る</a>)。</p>
+
+  <section>
+    <h2>Token</h2>
+    <div class="row">
+      <div class="stat" id="token-stat">読み込み中…</div>
+      <div class="row-h">
+        <input id="token-input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="paste kk-sync-token here (e.g. 64 hex chars)">
+      </div>
+      <div class="row-h">
+        <button class="primary" id="btn-set">Set token</button>
+        <button class="danger" id="btn-clear">Clear</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Worker connectivity</h2>
+    <div class="row">
+      <div class="row-h">
+        <button id="btn-ping">Test /ping</button>
+        <button id="btn-state">Test /state</button>
+      </div>
+      <pre id="result" class="empty">(まだテストしていません)</pre>
+    </div>
+  </section>
+
+  <section>
+    <h2>Environment</h2>
+    <div class="stat" id="env"></div>
+  </section>
+
+  <footer>
+    <a href="/">← kk-reader へ</a>
+  </footer>
+
+  <script>
+    (function () {
+      const WORKER = "https://kk-sync.other9.workers.dev";
+      const KEY = "kk-sync-token";
+      const $ = (id) => document.getElementById(id);
+      const setHTML = (el, html) => { el.innerHTML = html; };
+      const safe = (s) => String(s).replace(/[<>&]/g, (c) =>
+        ({ "<": "&lt;", ">": "&gt;", "&": "&amp;" }[c]));
+
+      function renderTokenStat() {
+        const t = localStorage.getItem(KEY);
+        if (!t) {
+          setHTML($("token-stat"),
+            '<span class="badge err">UNSET</span> ' +
+            '<span class="label">no token in localStorage</span>');
+          return;
+        }
+        const len = t.length;
+        const ascii = [...t].every((c) => c.charCodeAt(0) < 128);
+        const okLen = len >= 16;
+        const badge = okLen && ascii ? "ok" : "err";
+        setHTML($("token-stat"),
+          '<span class="badge ' + badge + '">SET</span>' +
+          ' <span class="label">length=</span><span class="val">' + len + '</span>' +
+          ' <span class="label">ascii=</span><span class="val">' + ascii + '</span>' +
+          ' <span class="label">prefix=</span><span class="val">' +
+            safe(JSON.stringify(t.slice(0, 6))) + '</span>' +
+          ' <span class="label">suffix=</span><span class="val">' +
+            safe(JSON.stringify(t.slice(-6))) + '</span>');
+      }
+
+      function renderEnv() {
+        setHTML($("env"),
+          '<div><span class="label">location.origin =</span> <span class="val">' +
+            safe(location.origin) + '</span></div>' +
+          '<div><span class="label">userAgent       =</span> <span class="val">' +
+            safe(navigator.userAgent) + '</span></div>' +
+          '<div><span class="label">cookie enabled  =</span> <span class="val">' +
+            navigator.cookieEnabled + '</span></div>'
+        );
+      }
+
+      function logResult(label, status, text, extra) {
+        const out = $("result");
+        out.classList.remove("empty");
+        const tag = status >= 200 && status < 300 ? "ok" : "err";
+        out.textContent =
+          "[" + new Date().toLocaleTimeString() + "] " + label +
+          "\nstatus = " + status +
+          "\nlen    = " + (text == null ? "-" : text.length) +
+          (extra ? "\n" + extra : "") +
+          (text != null
+            ? "\n\n--- body (first 800 chars) ---\n" + text.slice(0, 800)
+            : "");
+      }
+
+      async function testPing() {
+        const t = localStorage.getItem(KEY);
+        if (!t) {
+          logResult("/ping", 0, null, "ABORT: no token in localStorage");
+          return;
+        }
+        try {
+          const r = await fetch(WORKER + "/ping", {
+            headers: { Authorization: "Bearer " + t }
+          });
+          const body = await r.text();
+          logResult("/ping", r.status, body);
+        } catch (e) {
+          logResult("/ping", 0, null, "FETCH ERROR: " + e.message);
+        }
+      }
+
+      async function testState() {
+        const t = localStorage.getItem(KEY);
+        if (!t) {
+          logResult("/state", 0, null, "ABORT: no token in localStorage");
+          return;
+        }
+        try {
+          const r = await fetch(WORKER + "/state", {
+            headers: { Authorization: "Bearer " + t }
+          });
+          const body = await r.text();
+          let extra = "";
+          try {
+            const d = JSON.parse(body);
+            const readN = Object.keys(d.read || {}).length;
+            const favN  = Object.keys(d.fav  || {}).length;
+            extra = "read keys = " + readN + "\nfav keys  = " + favN;
+          } catch {
+            extra = "(response is not JSON)";
+          }
+          logResult("/state", r.status, body, extra);
+        } catch (e) {
+          logResult("/state", 0, null, "FETCH ERROR: " + e.message);
+        }
+      }
+
+      $("btn-set").addEventListener("click", () => {
+        const v = $("token-input").value.trim();
+        if (!v) return;
+        localStorage.setItem(KEY, v);
+        $("token-input").value = "";
+        renderTokenStat();
+      });
+
+      $("btn-clear").addEventListener("click", () => {
+        if (!confirm("Clear kk-sync-token from localStorage?")) return;
+        localStorage.removeItem(KEY);
+        renderTokenStat();
+      });
+
+      $("btn-ping").addEventListener("click", testPing);
+      $("btn-state").addEventListener("click", testState);
+
+      renderTokenStat();
+      renderEnv();
+    })();
+  </script>
+</body>
+</html>

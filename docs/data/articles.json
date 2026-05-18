@@ -1,6 +1,48 @@
 {
   "articles": [
     {
+      "id": "ad017178e48c6418",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】＃７２７　今は買い場だ、と思う理由の件～価格上昇局面の投資戦略～",
+      "url": "https://www.rakumachi.jp/news/practical/399033",
+      "published": "2026-05-19T00:00:00+09:00",
+      "fetched": "2026-05-18T15:54:23.660239+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "ジュニア",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "7935b9f7d1d4ae90",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】ついに、落ちているお金を拾わない日がきた",
+      "url": "https://www.rakumachi.jp/news/practical/399091",
+      "published": "2026-05-19T00:00:00+09:00",
+      "fetched": "2026-05-18T15:54:23.660250+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "ストレージ大家ひら",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "5dcd9b77d013c3bf",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "財政のニュースが家計の予想と支出に与える効果：因果関係の新たな実証結果",
+      "url": "https://himaginary.hatenablog.com/entry/20260518/Effects_of_Fiscal_News_on_Household_Expectations_and_Spending",
+      "published": "2026-05-18T14:46:00+00:00",
+      "fetched": "2026-05-18T15:54:26.757026+00:00",
+      "summary": "というNBER論文をGorodnichenko＝Coibionらが 上げている （ ungated版へのリンクがある著者の一人のページ ）。原題は「The Effects of Fiscal News on Household Expectations and Spending: New Causal Evidence」で、著者はMyungkyu Shim（延世大）、Kwang Hwan Kim（同）、Myunghwan Andrew Lee（NYU）、Sangyup Choi（延世大）、Siye Bae（ノースウエスタン大）、Olivier Coibi…",
+      "content_html": "<p>というNBER論文をGorodnichenko＝Coibionらが<a href=\"https://www.nber.org/papers/w35009\">&#x4e0a;&#x3052;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://myungkyushim.weebly.com/working-papers.html\">ungated&#x7248;&#x3078;&#x306e;&#x30ea;&#x30f3;&#x30af;&#x304c;&#x3042;&#x308b;&#x8457;&#x8005;&#x306e;&#x4e00;&#x4eba;&#x306e;&#x30da;&#x30fc;&#x30b8;</a>）。原題は「The Effects of Fiscal News on Household Expectations and Spending: New Causal Evidence」で、著者はMyungkyu Shim（延世大）、Kwang Hwan Kim（同）、Myunghwan Andrew Lee（NYU）、Sangyup Choi（延世大）、Siye Bae（ノースウエスタン大）、Olivier Coibion（テキサス大オースティン校）、Yuriy Gorodnichenko（UCバークレー）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>We provide experimental evidence on how fiscal news shapes households’ expectations and spending behavior. Using a new survey of ~11,000 Korean individuals linked to automatically collected high-frequency spending data, we elicit respondents’ fiscal and macroeconomic beliefs and randomly provide them with one of five pieces of information about current public debt levels, fiscal deficits, and the government’s plans for deficit reduction. Exogenous increases in expected future public debt raise expected inflation and increase consumer spending. On the other hand, exogenous increases in expected fiscal balance raise expected output growth and have no significant effect on consumer spending.<br />\n（拙訳）<br />\n財政のニュースが家計の予想と支出行動をどのように形作るかについての実験的な実証結果を我々は提供する。自動的に収集された高頻度の支出データと紐付けされたおよそ11,000の韓国の個人の新たなサーベイデータを用いて我々は、回答者の財政とマクロ経済に関する考えを聞き出すとともに、現在の公的債務水準、財政赤字、および財政削減のための政府の計画に関する5つの情報の一つをランダムに提供した。将来の予想公的債務が外生的に増加すると予想インフレは上昇し、消費支出は増える<a href=\"#f-4d2897e6\" id=\"fn-4d2897e6\" name=\"fn-4d2897e6\" title=\"本文では「We also find that an exogenous one percentage point increase in expected public debt raises consumer spending by about 0.4 percentage points for roughly five months.」と説明している。\">*1</a>。一方、予想財政収支が外生的に増加すると生産の予想成長率は上昇し、消費支出には有意な影響は見られなかった<a href=\"#f-48c72753\" id=\"fn-48c72753\" name=\"fn-48c72753\" title=\"本文では「Exogenous increases in expected debt are accompanied by higher expected inflation and interest rates, with virtually no effect on expected output growth, government spending or revenues. In contrast, larger expected fiscal deficits are associated with lower expected output and government spending but no change in expected inflation, interest rates or government revenue. ...an exogenous increase in the expected fiscal balance (i.e., a larger fiscal surplus or a smaller fiscal deficit) does not have a statistically significant impact on consumer spending.」と説明している。\">*2</a>。</p>\n\n    </blockquote>\n<p>オンライン調査の参加者はEmbrain Panel Big Data<a href=\"#f-c70b0f3c\" id=\"fn-c70b0f3c\" name=\"fn-c70b0f3c\" title=\"cf. [https://www.embrain.com/eng/dataService/panelBigdata:title]、[https://himaginary.hatenablog.com/entry/20250226/how-costly-are-business-cycle-volatility-and-inflation-a-vox-populi-approach#fn-5d315b89:title]。\">*3</a>の参加者20万人からランダムに選んだとの由。</p><br />\n<p>公的債務が消費に与える効果に関する理論について論文では、次のようにまとめている。リカードの中立性では今日の債務は単に明日の税なので、合理的な家計は、財政赤字で賄われた減税で得られた所得を支出せずに貯蓄する<a href=\"#f-7170ab0b\" id=\"fn-7170ab0b\" name=\"fn-7170ab0b\" title=\"このリカードの中立性の解釈はクルーグマンやRoweからは誤解釈と言われそうである。cf. [https://himaginary.hatenablog.com/entry/20160902/Sims_Jackson_Hole_paper_2016_3:title]。\">*4</a>。一方、モジリアニの世代重複モデルでは政府債務の増加は現在の世代の富の追加と見做され、将来世代の資本蓄積を対価として現在の消費を刺激する。HANKなどの最近のモデルではより微妙な構図となるが、全般的に債務で賄われた財政刺激は消費とインフレを引き上げ、公的債務の増加はインフレを引き上げる。<br />\nそれに対し、今回の実証結果は主流派モデルでは完全に説明できないので、理論と実証の両面でさらなる研究が必要、とのことである。ちなみに予想公的債務と財政収支の外生的な増加に対する消費支出の増加は、統計的検出力は弱いものの、高齢の家計ほど大きい傾向が見られたとの由。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-4d2897e6\" id=\"f-4d2897e6\" name=\"f-4d2897e6\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">本文では「We also find that an exogenous one percentage point increase in expected public debt raises consumer spending by about 0.4 percentage points for roughly five months.」と説明している。</span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-48c72753\" id=\"f-48c72753\" name=\"f-48c72753\">*2</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">本文では「Exogenous increases in expected debt are accompanied by higher expected inflation and interest rates, with virtually no effect on expected output growth, government spending or revenues. In contrast, larger expected fiscal deficits are associated with lower expected output and government spending but no change in expected inflation, interest rates or government revenue. ...an exogenous increase in the expected fiscal balance (i.e., a larger fiscal surplus or a smaller fiscal deficit) does not have a statistically significant impact on consumer spending.」と説明している。</span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-c70b0f3c\" id=\"f-c70b0f3c\" name=\"f-c70b0f3c\">*3</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">cf. <a href=\"https://www.embrain.com/eng/dataService/panelBigdata\">Panel Deep Data | Data Services | Embrain</a>、<a href=\"https://himaginary.hatenablog.com/entry/20250226/how-costly-are-business-cycle-volatility-and-inflation-a-vox-populi-approach#fn-5d315b89\">&#x666f;&#x6c17;&#x5faa;&#x74b0;&#x5909;&#x52d5;&#x3068;&#x30a4;&#x30f3;&#x30d5;&#x30ec;&#x306f;&#x3069;&#x306e;&#x7a0b;&#x5ea6;&#x306e;&#x72a0;&#x7272;&#x3092;&#x4f34;&#x3046;&#x306e;&#x304b;&#xff1f; &#x4e16;&#x8ad6;&#x8abf;&#x67fb;&#x624b;&#x6cd5; - himaginary&rsquo;s diary</a>。</span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-7170ab0b\" id=\"f-7170ab0b\" name=\"f-7170ab0b\">*4</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">このリカードの中立性の解釈はクルーグマンやRoweからは誤解釈と言われそうである。cf. <a href=\"https://himaginary.hatenablog.com/entry/20160902/Sims_Jackson_Hole_paper_2016_3\">&#x30ea;&#x30ab;&#x30fc;&#x30c7;&#x30a3;&#x30a2;&#x30f3;&#x3068;&#x30ea;&#x30ab;&#x30fc;&#x30c7;&#x30a3;&#x30a2;&#x30f3;&#x3082;&#x3069;&#x304d;&#x3068;FTPL - himaginary&rsquo;s diary</a>。</span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "661bf2ee1c9830a5",
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
@@ -663,7 +705,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走「お客様の利益にならない」と退職を決意、今後はトラブル増？",
+      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走",
       "url": "https://www.rakumachi.jp/news/column/398760",
       "published": "2026-05-17T00:00:00+09:00",
       "fetched": "2026-05-17T11:21:47.531440+00:00",
@@ -2343,7 +2385,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼「年100万儲かる」想定も赤字続き、訴訟・損切りに至ったトラブルのいきさつ",
+      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼",
       "url": "https://www.rakumachi.jp/news/column/398711",
       "published": "2026-05-13T00:00:00+09:00",
       "fetched": "2026-05-13T09:17:24.205128+00:00",
@@ -3183,7 +3225,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "中国の住宅販売－18.5％…「底なし沼」の中で、元・不動産王が沈黙破った真意は続く中国の不動産不況、「Z世代が家を買わない時代」に未来はあるのか",
+      "title": "中国の住宅販売－18.5％…「底なし沼」の中で、元・不動産王が沈黙破った真意は",
       "url": "https://www.rakumachi.jp/news/column/398283",
       "published": "2026-05-11T00:00:00+09:00",
       "fetched": "2026-05-11T09:58:22.350404+00:00",
@@ -8751,11 +8793,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-18T13:42:34.915820+00:00",
+  "last_updated": "2026-05-18T15:54:27.513923+00:00",
   "stats": {
-    "total": 625,
-    "fetched_just_now": 1209,
-    "feeds_success": 73,
-    "feeds_failed": 8
+    "total": 628,
+    "fetched_just_now": 1257,
+    "feeds_success": 81,
+    "feeds_failed": 0
   }
 }

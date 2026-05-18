@@ -80,7 +80,7 @@ jobs:
             echo "変更なし"
             exit 0
           fi
-          git commit -m "chore: update feeds [skip ci]"
+          git commit -m "chore: update feeds"
 
           for attempt in 1 2 3; do
             if git push; then
@@ -106,7 +106,7 @@ jobs:
               echo "remote と同一内容、push 不要"
               exit 0
             fi
-            git commit -m "chore: update feeds [skip ci]"
+            git commit -m "chore: update feeds"
           done
           echo "3 回試行しても push できず、諦める(次の cron で再試行されます)"
           exit 1

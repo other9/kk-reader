@@ -493,9 +493,8 @@ def main() -> int:
 
     print("  worker deployments ...", end=" ", flush=True)
     raw["worker_deployments"] = cf_get(
-        f"/accounts/{ACCOUNT_ID}/workers/deployments",
+        f"/accounts/{ACCOUNT_ID}/workers/scripts/{WORKER_NAME}/deployments",
         token,
-        {"script": WORKER_NAME},
     )
     print("ok" if "_error" not in (raw["worker_deployments"] if isinstance(raw["worker_deployments"], dict) else {}) else "err")
 

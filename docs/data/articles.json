@@ -47,7 +47,7 @@
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
       "category": "不動産",
-      "title": "【実践大家コラム】不動産投資で一番怖いのは、物件ではなく人間。一番重要なのも人間。",
+      "title": "【実践大家コラム】不動産投資で一番怖いのは、物件ではなく人間。入居者も、仲介も、売主も──結局は人間",
       "url": "https://www.rakumachi.jp/news/practical/396504",
       "published": "2026-05-19T00:00:00+09:00",
       "fetched": "2026-05-18T21:22:24.250541+00:00",
@@ -82,6 +82,34 @@
       "summary": "",
       "content_html": null,
       "author": "テリー隊長",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "c3711fc31935dc39",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "機会損失額は1,000万円以上（涙）。悲劇！建築確認が降りない！",
+      "url": "https://www.kenbiya.com/ar/cl/nao/3.html",
+      "published": "2026-05-19T00:00:00+09:00",
+      "fetched": "2026-05-18T23:16:17.296372+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "nao",
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "9fb99ef2a164c401",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】所有物件を自己使用したい！その注意点とは！？通勤辛すぎるけど、、、仕方がないか、、、",
+      "url": "https://www.rakumachi.jp/news/practical/398924",
+      "published": "2026-05-19T00:00:00+09:00",
+      "fetched": "2026-05-18T23:16:17.600907+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "ハピくま@リーマン大家",
       "source_type": "scrape_rakumachi"
     },
     {
@@ -8849,11 +8877,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-18T21:22:28.323777+00:00",
+  "last_updated": "2026-05-18T23:16:22.191985+00:00",
   "stats": {
-    "total": 632,
-    "fetched_just_now": 1257,
-    "feeds_success": 81,
-    "feeds_failed": 0
+    "total": 634,
+    "fetched_just_now": 1255,
+    "feeds_success": 80,
+    "feeds_failed": 1
   }
 }

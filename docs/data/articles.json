@@ -1,6 +1,62 @@
 {
   "articles": [
     {
+      "id": "c990a90dd10fce85",
+      "feed_id": "3ff7774bb7bf",
+      "feed_title": "梶ピエールのブログ",
+      "category": "ブログ",
+      "title": "いただきもの",
+      "url": "https://kaikaji.hatenablog.com/entry/2026/05/18/130056",
+      "published": "2026-05-18T04:00:56+00:00",
+      "fetched": "2026-05-18T04:37:21.108603+00:00",
+      "summary": "www.msz.co.jp 監訳者の石井剛さんよりご恵投いただきました。中国の「帝国性」に世界的な関心が集まる中、待望の訳書といえるでしょう。",
+      "content_html": "<p><cite class=\"hatena-citation\"><a href=\"https://www.msz.co.jp/book/detail/09813/\">www.msz.co.jp</a></cite></p><p>　監訳者の石井剛さんよりご恵投いただきました。中国の「帝国性」に世界的な関心が集まる中、待望の訳書といえるでしょう。</p>",
+      "author": "kaikaji",
+      "source_type": "rss"
+    },
+    {
+      "id": "5e31c04517bb8a1e",
+      "feed_id": "6c30fc2654fb",
+      "feed_title": "元官庁エコノミストのブログ",
+      "category": "金融・経済・投資",
+      "title": "明日公表予定の1-3月期GDP統計1次QE予想は2四半期連続のプラス成長か",
+      "url": "http://economist.cocolog-nifty.com/blog/2026/05/post-d80de4.html",
+      "published": "2026-05-18T04:00:00+00:00",
+      "fetched": "2026-05-18T04:37:26.616448+00:00",
+      "summary": "先月末の鉱工業生産指数(IIP)や先週の家計調査などの必要な統計がほぼ出そろって、明日5月19日に、1～3月期GDP統計速報1次QEが内閣府より公表される予定となっています。すでに、シンクタンクなどによる 1次QE予想 が出そろっています。ということで、いつもの通り、顧客向けのニューズレターなどのクローズな形で届くものは別にして、web 上でオープンに公開されているリポートに限って取りまとめると下のテーブルの通りです。ヘッドラインの欄は私の趣味でリポートから特徴的な文言を選択しています。可能な範囲で、GDP統計の期間である1～3月期ではなく、足元の4～6…",
+      "content_html": "<p>先月末の鉱工業生産指数(IIP)や先週の家計調査などの必要な統計がほぼ出そろって、明日5月19日に、1～3月期GDP統計速報1次QEが内閣府より公表される予定となっています。すでに、シンクタンクなどによる<span class=\"red\">1次QE予想</span>が出そろっています。ということで、いつもの通り、顧客向けのニューズレターなどのクローズな形で届くものは別にして、web 上でオープンに公開されているリポートに限って取りまとめると下のテーブルの通りです。ヘッドラインの欄は私の趣味でリポートから特徴的な文言を選択しています。可能な範囲で、GDP統計の期間である1～3月期ではなく、足元の4～6月期から先行きの景気動向を重視して拾おうとしています。先行き経済について言及しているシンクタンクはみずほリサーチ&amp;テクノロジーズと第一生命経済研究所などいくつかあり、特にこの2機関は長々と引用してあります。いずれにせよ、1次情報にご興味ある向きは一番左の列の機関名にリンクを張ってありますから、リンクが切れていなければ、pdf 形式のリポートが別タブで開いたり、ダウンロード出来たりすると思います。ただし、最後の行の東京財団だけは、いわゆるナウキャスティングですので、足元の4～6月期の予想となっています。なお、\"pdf\" が何のことか分からない人は諦めるしかないんですが、もしも、このブログの管理人を信頼しているんであれば、あくまで<span class=\"bare\">自己責任</span>でクリックしてみましょう。本人が知らないうちに<a href=\"https://get.adobe.com/reader/?loc=jp\" target=\"_blank\" title=\"Adobe Acrobat Reader ダウンロード\">Acrobat Reader</a> がインストールしてあってリポートが読めるかもしれません。</p><table style=\"border: 1px solid; width: 500px; text-align: left; border-collapse: collapse; margin: 20px auto 20px 50px; line-height: 2;\" title=\"QE予想\"><tr><td style=\"border: 1px solid; width: 25%; padding: 3px; font-weight: bold; text-align: center;\">機関名</td><td style=\"border: 1px solid; width: 20%; padding: 3px; font-weight: bold; text-align: center;\">実質GDP成長率<br />(前期比年率)</td><td style=\"border: 1px solid; width: 55%; padding: 3px; font-weight: bold; text-align: center;\">ヘッドライン</td></tr><tr><td style=\"border: 1px solid; padding: 3px;\"><a href=\"https://www.jri.co.jp/file/report/research/pdf/16671.pdf\" target=\"_blank\" title=\"日本総研\">日本総研</a></td><td style=\"border: 1px solid; padding: 3px; text-align: center;\">+0.3%<br />(+1.2%)</td><td style=\"border: 1px solid; padding: 3px;\">4～6月期の実質GDP成長率もプラス圏で推移すると予想。中長期的な課題解決に向けた企業の投資需要は根強いほか、政府がガソリン価格の上昇を抑えることで、資源高による家計への影響は限定的となる見込み。もっとも、物流の混乱や海外景気の減速を受けて、輸出や生産が弱含むことで、成長率は鈍化する公算。原油輸入は減少が見込まれるものの、減少分を在庫で賄うことで在庫投資も減少し、GDPへの影響は限定的となる見通し。</tr><tr><td style=\"border: 1px solid; padding: 3px; text-align: left;\"><a href=\"https://www.dir.co.jp/report/research/economics/japan/20260513_025754.pdf\" target=\"_blank\" title=\"大和総研\">大和総研</a></td><td style=\"border: 1px solid; padding: 3px; text-align: center;\">+0.7%<br />(+2.9%)</td><td style=\"border: 1px solid; padding: 3px;\">26年1-3月期の実質GDPは、個人消費や輸出等によって押し上げられることが見込まれ、全体としては力強い結果になるとの見方に変わりはない。4-6月期についてもプラス成長を続けるとみているが、中東情勢が国内外の経済活動に及ぼす影響には警戒が必要だ。</td></tr><tr><td style=\"border: 1px solid; padding: 3px; text-align: left;\"><a href=\"https://www.mizuhobank.co.jp/corporate/mhri/research/report/pdf/qe-summary260430.pdf\" target=\"_blank\" title=\"みずほ銀行\">みずほ銀行</a></td><td style=\"border: 1px solid; padding: 3px; text-align: center;\">+0.1%<br />(+0.4%)</td><td style=\"border: 1px solid; padding: 3px;\">1～3月期のGDPには中東情勢緊迫化の影響がまだ本格的に表れていないと考えられる。4～6月期は、サプライチェーンの混乱やマインドの悪化を通じた悪影響が強まり、景気の下押し要因になろう。</td></tr><tr><td style=\"border: 1px solid; padding: 3px; text-align: left;\"><a href=\"https://www.nli-research.co.jp/files/topics/85466_ext_18_0.pdf\" target=\"_blank\" title=\"ニッセイ基礎研\">ニッセイ基礎研</a></td><td style=\"border: 1px solid; padding: 3px; text-align: center;\">+0.5%<br />(+1.8%)</td><td style=\"border: 1px solid; padding: 3px;\">3月以降の中東情勢の緊迫化を受けて、景気の先行き不透明感は高まっている。現時点では、2026年4-6月期の実質GDPは、原油価格上昇や供給制約の影響で、前期比年率0%台前半まで減速すると予想している。</td></tr><tr><td style=\"border: 1px solid; padding: 3px; text-align: left;\"><a href=\"https://www.dlri.co.jp/files/macro/606993.pdf\" target=\"_blank\" title=\"第一ライフ資産運用経済研\">第一ライフ資産運用経済研</a></td><td style=\"border: 1px solid; padding: 3px; text-align: center;\">+0.4%<br />(+1.7%)</td><td>先行きはイラン情勢悪化の悪影響が顕在化することが予想される。消費者マインドが足元で大きく悪化していることが次第に消費の伸びを抑える可能性があることに加え、調達難による生産活動の下押しも生じるとみられる。一部の品目では調達難による受注制限や納期の遅れ、価格上昇や減産といった動きが生じており、生産活動を中心に景気を下押しするだろう。現時点では4-6月期の成長率はゼロ近傍の低成長にとどまるとみているが、今後の展開次第ではマイナス成長も視野に入る。当面、下振れリスクが大きい状況が続くだろう。</tr><tr><td style=\"border: 1px solid; padding: 3px; text-align: left;\"><a href=\"https://www.murc.jp/wp-content/uploads/2026/04/news_release_260430_01.pdf\" target=\"_blank\" title=\"三菱UFJリサーチ&amp;コンサルティング\">三菱UFJリサーチ&amp;コンサルティング</a></td><td style=\"border: 1px solid; padding: 3px; text-align: center;\">+0.3%<br />(+1.0%)</td><td style=\"border: 1px solid; padding: 3px;\">総じて見れば、2026年入り後も緩やかな景気回復が続いたことを確認できる結果になるとみられる。ただし、先行きについては、イラン情勢緊迫化による原油高や供給制約などの悪影響が表面化することで、景気の下押し圧力が強まる可能性に警戒が必要となる。</td></tr><tr><td style=\"border: 1px solid; padding: 3px; text-align: left;\"><a href=\"https://www.itochu-research.com/ja/uploads/ec20260430_2026-036_J_QE1st_2026Q1E.pdf\" target=\"_blank\" title=\"伊藤忠総研\">伊藤忠総研</a></td><td style=\"border: 1px solid; padding: 3px; text-align: center;\">+0.4%<br />(+1.6%)</td><td style=\"border: 1px solid; padding: 3px;\">4～6月期は、中東情勢緊迫化による影響から実質GDP成長率は減速する可能性があろう。先行き不透明感によるマインドの落ち込みが個人消費や設備投資の抑制要因となりうる。また、政府のガソリン補助金などの対策でよって個人消費の大幅な落ち込みは回避される見込みであるが、輸入の減少を国内在庫で賄う動きから在庫投資が減少し、GDPの押し下げにつながる可能性がある。</td></tr><tr><td style=\"border: 1px solid; padding: 3px; text-align: left;\"><a href=\"https://www.myri.co.jp/viewpdf.php?id=a4ff7dfa9b5c74cdf5cbefdd732b93a21d806edefd247ab2b47e937dcfc4f210f6a629f981537fc5ac8ab4d3752183eb4a9327c3bc3235a8eb7087769691e84ae4ea34a097496ac5aeccea87717a98f54ed360d5fc7770b6b526c62bc1c9a611a5ab7ef5980c26dbe79de8c77e729bf510906dd8fc7f6064058f1db1481b5892741fb72079a7a6762b1a0d6da69b30f61dd363dffb1a736129bea45e13474fcf2f3035b39e5c67ceea\" target=\"_blank\" title=\"明治安田総研\">明治安田総研</a></td><td style=\"border: 1px solid; padding: 3px; text-align: center;\">+0.4%<br />(+1.8%)</td><td style=\"border: 1px solid; padding: 3px;\">4－6月期については、ホルムズ海峡封鎖に伴う物流停滞が生産の足枷となるほか、米国の関税が引き続き自動車を中心に下押し圧力となることで、財輸出は力強さを欠くと見込まれる。燃料価格上昇による航空運賃の値上がりもインバウンド需要の抑制要因となろう。設備投資については、省力化投資の需要が安定的に見込まれることが下支えするとみるが、建築資材の供給制約が進捗の遅れにつながることなどが懸念される。一方、ガソリン代補助の効果でエネルギー価格の上昇が抑制されていることなどから、個人消費の落ち込みは回避できるとみており、全体では小幅なプラスになると予想する。</td></tr><tr><td style=\"border: 1px solid; padding: 3px; text-align: left;\"><a href=\"https://www.nochuri.co.jp/weekly/pdf/flash20260430.pdf\" target=\"_blank\" title=\"農中総研\">農中総研</a></td><td style=\"border: 1px solid; padding: 3px; text-align: center;\">+0.5%<br />(+2.1%)</td><td style=\"border: 1px solid; padding: 3px;\">1～3 月期のGDPについて、実質成長率は前期比 0.5%(同年率換算2.0%)と、2期連続のプラスと予想する。</td></tr><tr><td style=\"border: 1px solid; padding: 3px; text-align: left;\"><a href=\"https://www.tkfd.or.jp/research/detail.php?id=3852\" target=\"_blank\" title=\"東京財団\">東京財団</a></td><td style=\"border: 1px solid; padding: 3px; text-align: center;\">+0.28%<br />(+1.13%)</td><td style=\"border: 1px solid; padding: 3px;\">モデルは、2026年1-3月期のGDP(実質、季節調整系列前期比)を、0.37%と予測。※年率換算: 1.47%</td></tr></table><p>上のテーブルを見れば明らかな通り、1～3月期のGDP成長率は昨年2025年10～12月期から2四半期連続してプラス成長と見込まれています。大和総研の予想だけがやや突飛に高成長となっているのですが、私は大雑把に年率で+1%を少し超えるくらいであり、潜在成長率を大きく上回ることはない、と考えています。加えて、足元の<span class=\"blue\">4～6月期も成長率が鈍化を見せるものの3四半期連続でプラス成長の予想</span>が多くなっています。ただ、米国とイスラエルによるイラン攻撃から始まった中東情勢が何とも不透明であり、マイナス成長の可能性も否定できない、というのが実際のところではないかと私は考えています。<br />最後に、下のグラフは、<a href=\"https://www.jri.co.jp/file/report/research/pdf/16671.pdf\" target=\"_blank\" title=\"2026年1-3月期GDP予測\">日本総研のリポート</a>から、実質GDP成長率(前期比年率)のグラフを引用しています。</p><div style=\"text-align: center;\"><a href=\"https://www.jri.co.jp/file/report/research/pdf/16671.pdf\" target=\"_blank\"><img alt=\"photo\" src=\"http://economist.cocolog-nifty.com/dummy.gif\" style=\"border: none; width: 490px; height: 505px; margin: 20px auto 10px;\" title=\"実質GDP成長率(前期比年率)\" /></a></div>",
+      "author": "元官庁エコノミスト",
+      "source_type": "rss"
+    },
+    {
+      "id": "d1b7461fc715d796",
+      "feed_id": "9505d30bcfe3",
+      "feed_title": "市況かぶ全力２階建",
+      "category": "金融・経済・投資",
+      "title": "世界の相場操縦でインサイダー取引し放題のトランプ大統領、くら寿司USAの株を大量保有していることが判明",
+      "url": "https://kabumatome.doorblog.jp/archives/66031444.html",
+      "published": "2026-05-18T03:48:30+00:00",
+      "fetched": "2026-05-18T04:37:27.374956+00:00",
+      "summary": "最初に選ぶ三匹のポケモンすぎる pic.twitter.com/QFk83tXlbd — 兵務局 (@Truppenamt) May 3, 2026 キリスト教【ほのお】 イスラム教【くさ】 ユダヤ教【みず】 キリスト教はイスラム教に強い(十字軍、湾岸戦争)がユダヤ教に弱い(イスラエルロビー、クリスチャンシオニズム)。また、イスラム教はユダヤ教に強い(人頭税、岩のドーム)ってコト？ — かやばっちょ (@kayavaggio) May 3, 2026 トランプって、負けそうになると撃たれそうになるね — 🦋mana🦋 (@lovemana0505) Ap…",
+      "content_html": "<div><div><div><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">最初に選ぶ三匹のポケモンすぎる <a href=\"https://t.co/QFk83tXlbd\">pic.twitter.com/QFk83tXlbd</a></p>— 兵務局 (@Truppenamt) <a href=\"https://twitter.com/Truppenamt/status/2050768963735638452?ref_src=twsrc%5Etfw\">May 3, 2026</a></blockquote> <div class=\"amazon MediumImage\"><blockquote><div class=\"pictBox\"><a href=\"https://www.amazon.co.jp/dp/B0GRHB3D2L?psc=1&amp;tag=aaajn000-22+&amp;th=1&amp;linkCode=osi\" target=\"_blank\"><img alt=\"ニューズウィーク日本版　2026年5月5日・12日合併号 特集：世界宗教入門[雑誌]\" border=\"0\" class=\"pict\" hspace=\"5\" src=\"https://m.media-amazon.com/images/I/51tJ0CFQAvL._SL160_.jpg\" /></a><br /></div></blockquote><br /></div><div class=\"amazon MediumImage\"><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">キリスト教【ほのお】<br />イスラム教【くさ】<br />ユダヤ教【みず】<br /><br />キリスト教はイスラム教に強い(十字軍、湾岸戦争)がユダヤ教に弱い(イスラエルロビー、クリスチャンシオニズム)。また、イスラム教はユダヤ教に強い(人頭税、岩のドーム)ってコト？</p>— かやばっちょ (@kayavaggio) <a href=\"https://twitter.com/kayavaggio/status/2050772366830252245?ref_src=twsrc%5Etfw\">May 3, 2026</a></blockquote><br /></div></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">トランプって、負けそうになると撃たれそうになるね</p>— 🦋mana🦋 (@lovemana0505) <a href=\"https://twitter.com/lovemana0505/status/2048282309670170993?ref_src=twsrc%5Etfw\">April 26, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">プロレス脳で見てみると、アングルというやつですね。</p>— 啓吾郎 (@kei56) <a href=\"https://twitter.com/kei56/status/2048318310014734359?ref_src=twsrc%5Etfw\">April 26, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">現代で複数回暗殺されそうな経験しちゃうと意思決定おかしくなりそう。</p>— gorin (@gorin_strategy) <a href=\"https://twitter.com/gorin_strategy/status/2048213765783802222?ref_src=twsrc%5Etfw\">April 26, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">トランプを支持してるラストベルトの貧乏な人たちはトランプがインサイダーで大儲けしてても支持するのかな。</p>— ぱりてきさす (@paristexas2009) <a href=\"https://twitter.com/paristexas2009/status/2055461685566353838?ref_src=twsrc%5Etfw\">May 16, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/e/e/ee7ec780.png\" target=\"_blank\" title=\"a01\"><img alt=\"a01\" border=\"0\" class=\"pict\" height=\"113\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/e/e/ee7ec780-s.png\" width=\"480\" /></a><br /><a href=\"https://newsdig.tbs.co.jp/articles/withbloomberg/2666170?display=1\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://newsdig.tbs.co.jp/</span></a></blockquote></div><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">現職のアメリカ合衆国大統領が執務中に1日40回以上株取引することはインサイダー取引禁止関連法制度の斜め下すぎて対応できないっていう話、なんというか、500年後くらいに童話として語られそうなだな。。。</p>— たられば (@tarareba722) <a href=\"https://twitter.com/tarareba722/status/2055603598311244157?ref_src=twsrc%5Etfw\">May 16, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">「想定されてなさすぎて法律が追いつかない」系の話として後世に残りそうよな<br /><br />しかも1日40回以上って専業トレーダーでも多い回数を執務中にやってるの、現実感がなさすぎて童話が正しい表現かもしれない</p>— Snow Ball (@InspireMeSnow) <a href=\"https://twitter.com/InspireMeSnow/status/2055682880060248107?ref_src=twsrc%5Etfw\">May 16, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">土日市場が閉まっている事を考えると一日60回近く取り引きしてます。しかもこれは株式だけですよね。イラクに戦争を仕掛けたのだから、当然原油の取り引きも別に行っていると思われます。まさに金の亡者です。</p>— 悶絶うさちゃん (@brighthare) <a href=\"https://twitter.com/brighthare/status/2055830135136489546?ref_src=twsrc%5Etfw\">May 17, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">トランプのセルフ戦争インサイダー取引、罰する方法ないのかな。国連みたいな国際機関で刑事罰を与える事ができるようにしないとあかんのでは。経済活動はグローバル化してるのに、不法行為の処罰は各国任せというのはおかしくない？</p>— soundmarble (@soundmarble_) <a href=\"https://twitter.com/soundmarble_/status/2056204531797840167?ref_src=twsrc%5Etfw\">May 18, 2026</a></blockquote><br /></div><div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">インサイダー取引が許せないのではなく、俺が加われていないことが許せない。</p>— うでパスタ (@UDPasta) <a href=\"https://twitter.com/UDPasta/status/2052372556657930473?ref_src=twsrc%5Etfw\">May 7, 2026</a></blockquote><br /></div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">【速報】🇺🇸 トランプ大統領、くら寿司USA <a href=\"https://twitter.com/search?q=%24KRUS&amp;src=ctag&amp;ref_src=twsrc%5Etfw\">$KRUS</a> を約1.6億-8億円分購入していたと明らかに<br /><br />- 先日開示されたトランプ大統領名義の取引履歴にくら寿司USA <a href=\"https://twitter.com/search?q=%24KRUS&amp;src=ctag&amp;ref_src=twsrc%5Etfw\">$KRUS</a> が登場<br />- 2月2日に、回転寿司チェーンKura Sushi USAを100万-500万ドル分購入していた<br />- アメリカ大統領が回転寿司チェーンを買う時代😁 <a href=\"https://t.co/XT2j64sbMt\">pic.twitter.com/XT2j64sbMt</a></p>— SOU⚡️投資ニュース / 仮想通貨・米国株・AI (@SOU_BTC) <a href=\"https://twitter.com/SOU_BTC/status/2056151743432708424?ref_src=twsrc%5Etfw\">May 17, 2026</a></blockquote><blockquote> <a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/3/b/3b6fa772.jpg\" target=\"_blank\" title=\"a04\"><img alt=\"a04\" border=\"0\" class=\"pict\" height=\"342\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/3/b/3b6fa772-s.jpg\" width=\"480\" /></a></blockquote></div><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">トランプ大統領はくら寿司USA（$KRUS、時価総額約6億ドル）の株を大量保有しているらしい。アメリカ横断巨大回転寿司プロジェクトとかすごい計画が裏で進められているかもしれないぞ！要チェックだ！</p>— 飯島モトハ (@mochiunagi) <a href=\"https://twitter.com/mochiunagi/status/2056157826410791070?ref_src=twsrc%5Etfw\">May 17, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">くら寿司と大統領が握ってたなんて…</p>— すれ☆おん✌( 'ω' )✌ (@acvd_sureon) <a href=\"https://twitter.com/acvd_sureon/status/2056142594997182883?ref_src=twsrc%5Etfw\">May 17, 2026</a><br /></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">くら寿司にこの後インサイダー的な爆益が訪れる？！バタフライエフェクトというか何したらそうなるのか全く予想もできないのだが</p>— ほっけﾀｿ (@HokkeTaso) <a href=\"https://twitter.com/HokkeTaso/status/2056208598607491300?ref_src=twsrc%5Etfw\">May 18, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/4/e/4e2a1b40.png\" target=\"_blank\" title=\"a00\"><img alt=\"a00\" border=\"0\" class=\"pict\" height=\"396\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/4/e/4e2a1b40-s.png\" width=\"480\" /></a><div><a href=\"https://stockcharts.com/sc3/ui/?s=KRUS\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://stockcharts.com/</span></a></div><div><b>※トランプ大統領の保有株は含み損中</b></div></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">トランプ、スシローじゃなくてくら寿司買っているのは見る目ないかもしれん（）</p>— あさぎトレード (@asagitrade_) <a href=\"https://twitter.com/asagitrade_/status/2056160974416290020?ref_src=twsrc%5Etfw\">May 17, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">本当にそう。ホンモノは「魚べい」</p>— イセタンちゃん (@anal_city) <a href=\"https://twitter.com/anal_city/status/2056161634146832573?ref_src=twsrc%5Etfw\">May 17, 2026</a></blockquote><br /></div><div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">くら寿司もスシローみたいに回転レーン廃止すれば良いのにと思ってたらこれ流れてきて笑った<br />もう意地なんだ <a href=\"https://t.co/NDzYcRcLA5\">pic.twitter.com/NDzYcRcLA5</a></p>— クラムボン (@qw_ude) <a href=\"https://twitter.com/qw_ude/status/2038219339569229850?ref_src=twsrc%5Etfw\">March 29, 2026</a></blockquote><blockquote> <a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/c/c/cc700a8d.jpg\" target=\"_blank\" title=\"a02\"><img alt=\"a02\" border=\"0\" class=\"pict\" height=\"360\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/c/c/cc700a8d-s.jpg\" width=\"480\" /></a><br /></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">背景地球なの壮大すぎて笑う</p>— ただの暇人 (@mrxpnwmg76) <a href=\"https://twitter.com/mrxpnwmg76/status/2038272779930530177?ref_src=twsrc%5Etfw\">March 29, 2026</a></blockquote><br /></div></div></div></div>",
+      "author": "masorira",
+      "source_type": "rss"
+    },
+    {
+      "id": "959448e67fb9fecb",
+      "feed_id": "2ec7ee82ecf8",
+      "feed_title": "マンションの間取りや価格を言いたい放題!",
+      "category": "不動産",
+      "title": "ベルジュール杉並井荻パークサイド【パークフロント×三方角地の低層住宅街】60㎡7,998万円（坪単価440万円）",
+      "url": "https://mansion-madori.com/blog-entry-11691.html",
+      "published": "2026-05-18T01:55:18+00:00",
+      "fetched": "2026-05-18T04:37:22.202484+00:00",
+      "summary": "ベルジュール杉並井荻パークサイド。 所在地：東京都杉並区井草4-10他（地番） 交通：井荻駅徒歩5分 用途地域：第一種低層住居専用地域、第一種中高層住居専用地域 階建、総戸数：5階建、33戸 井荻駅と上井草駅の中間付近に位置し、「パークサイド」の名の通り矢頭公園に隣接するポジションになります。 ベルジュールらしい小ぶりな物件にはなりますが、敷地は南と西（八丁通り）が道路、そして、東は矢頭公園、北は井草川遊歩道というなかなかにレアで開放的なポジションに誕生する物件ですね。 線路は少々近いものの、井草森公園も徒歩3分と近い第一種低層住居専用地域・第一種中高層…",
+      "content_html": "ベルジュール杉並井荻パークサイド。<br /><br />所在地：東京都杉並区井草4-10他（地番）<br />交通：井荻駅徒歩5分<br />用途地域：第一種低層住居専用地域、第一種中高層住居専用地域<br />階建、総戸数：5階建、33戸<br /><br />井荻駅と上井草駅の中間付近に位置し、「パークサイド」の名の通り矢頭公園に隣接するポジションになります。<br />ベルジュールらしい小ぶりな物件にはなりますが、敷地は南と西（八丁通り）が道路、そして、東は矢頭公園、北は井草川遊歩道というなかなかにレアで開放的なポジションに誕生する物件ですね。<br /><br />線路は少々近いものの、井草森公園も徒歩3分と近い第一種低層住居専用地域・第一種中高層住居専用地域で環境面での魅力もかなりのものですね。<br />近隣は戸建が多い低層住宅街で、分譲マンションがほとんど見られないエリアでもあります。<br /><br />買物便は、スーパーで言うと、徒歩4分にまいばす、徒歩5分にサミットストアと肉のハナマサプラス、徒歩7分にピーコックストア、徒歩8分にヨークフーズとマルエツがあり、距離・選択肢共に申し分ありません。<br />また、南口側のため踏切などを越える必要がありますが（連続立体交差事業が完成すればスムーズになるでしょう）、100店超が軒を並べる西武井荻商店街（ポンテイオギ）が徒歩4分というあたりも魅力ですね。<br /><br />なお、通学区は、四宮小学校で徒歩6分の距離になります。<br /><br /><a href=\"https://xn--yck5crbwc5hp20wnzae04nm64c.com/\" target=\"_blank\" title=\"公式ホームページ\">公式ホームページ</a><br /><a href=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-5-15_11-56-52_No-00.png\" target=\"_blank\"><img alt=\"SnapCrab_NoName_2026-5-15_11-56-52_No-00.png\" border=\"0\" height=\"691\" src=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-5-15_11-56-52_No-00.png\" width=\"452\" /></a><br />お部屋は60㎡の3LDK、南東角住戸です。南は道路の向かいに4階建、東は矢頭公園のパークフロントという良好なポジションです。<br />こちらの低層階でも日照は得られますね。<br />ただ、線路がほど近いポジションで、その連続立体交差事業より線路が高架化すると音の影響が変わってくる可能性もあるでしょう。<br /><br />間取りはこのシリーズではオーソドックスな60㎡で、3LDKとしてはかなり面積を絞ったタイプになります。<br /><br />LDKは扉をかなり玄関寄りに設計したことによる\"水増し\"があり、表示上は12.3畳ながら実際はかなり小さくなるでしょう。<br /><br />ただその一方で、低層建ゆえの壁式構造のため居室形状はきれいで、洋室2・3の引戸の開け閉めによる柔軟性は魅力ですね。<br /><br />坪単価は440万円。最上階住戸（パーソナルルーフテラス付）には500万円超まである一方で、こういった低層階は400万円台前半のため平均は460〜470万円程度になるでしょうか。<br /><br />近年の井荻駅での供給事例としては、<a href=\"https://mansion-madori.com/?q=%E3%83%AA%E3%83%BC%E3%83%95%E3%82%A3%E3%82%A2%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9%E6%9D%89%E4%B8%A6%E4%BA%95%E8%8D%89%E6%A3%AE%E5%85%AC%E5%9C%92\" title=\"リーフィアレジデンス杉並井草森公園\">リーフィアレジデンス杉並井草森公園</a>（2021年分譲/駅徒歩7分/約335万円）、<a href=\"https://mansion-madori.com/?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B7%E3%82%A2%E4%BA%95%E8%8D%BB%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%89\" title=\"オープンレジデンシア井荻ステーションサイド\">オープンレジデンシア井荻ステーションサイド</a>（2023年分譲/駅徒歩2分/約365万円）があるのみで、やはり3年も経過すると値上がり感は小さくありません。<br /><br />ただ、練馬区ながらもお隣の上石神井駅では近年、<a href=\"https://mansion-madori.com/?q=%E3%83%AB%E3%83%8D%E3%82%B0%E3%83%A9%E3%83%B3%E4%B8%8A%E7%9F%B3%E7%A5%9E%E4%BA%95\" title=\"ルネグラン上石神井\">ルネグラン上石神井</a>（2025年分譲/駅徒歩5分/約440万円）、<a href=\"https://mansion-madori.com/?q=%E3%83%95%E3%82%A1%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%AF%E3%82%A7%E3%82%A2%E4%B8%8A%E7%9F%B3%E7%A5%9E%E4%BA%95\" title=\"ファインスクェア上石神井\">ファインスクェア上石神井</a>（2026年分譲/駅徒歩5分/推定430万円程度）、また、中野区では鷺ノ宮駅最寄りで<a href=\"https://mansion-madori.com/?q=%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%AB%E4%B8%AD%E9%87%8E%E9%B7%BA%E5%AE%AE\" title=\"レジデンシャル中野鷺宮\">レジデンシャル中野鷺宮</a>（2025年分譲/駅徒歩6分/約455万円）といったものがあり、ブランドやスケールに欠けるとはいえ、「杉並区×駅徒歩5分×パークフロント」という点からするとまずまずの水準と言えそうですね。<br /><br />やはりこの単価帯らしからぬ簡素な設備仕様面には目をつぶる必要がありますが…。",
+      "author": "モモレジ",
+      "source_type": "rss"
+    },
+    {
       "id": "42b528d2aed3e961",
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
@@ -83,6 +139,62 @@
       "content_html": null,
       "author": "戸田匠",
       "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "e4c287035f50aa40",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "東武線はどの路線・エリアが開発されていくのか？東武鉄道の2026年設備投資計画発表！不動産投資のチャンスは？",
+      "url": "https://www.kenbiya.com/ar/ns/region/shutoken/10130.html",
+      "published": "2026-05-18T00:00:00+09:00",
+      "fetched": "2026-05-18T04:37:23.038775+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "22c6abb16257a31a",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】寝耳に水-４退去日の通知あり（残置物撤去日）",
+      "url": "https://www.rakumachi.jp/news/practical/399065",
+      "published": "2026-05-18T00:00:00+09:00",
+      "fetched": "2026-05-18T04:37:23.539352+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "定年大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "f4c9aa8db82352f1",
+      "feed_id": "416ab9ec27e5",
+      "feed_title": "サラリーマンと不動産投資",
+      "category": "不動産",
+      "title": "2026年5月18日（月）",
+      "url": "https://investment-finance.net/2026%e5%b9%b45%e6%9c%8818%e6%97%a5%ef%bc%88%e6%9c%88%ef%bc%89/",
+      "published": "2026-05-17T23:38:41+00:00",
+      "fetched": "2026-05-18T04:37:23.855494+00:00",
+      "summary": "あの熱い日々が帰ってきたぞ。 2017年春。 私が聖丁ラジオと出会った瞬間である。 あの日からもう10年近く経とうとしている…。 光陰矢の如し 聖丁は勤め人を卒業。 私もまだ30代の勤め人だった。 このブログも聖丁の影響で始めたのだが、 聖丁はブログをほとんど運用していないし、 私の当初の目標（収益化）とは異なった目的で運用をしている。 それでも、ブログと言う形式は勤め人には都合がいいものだ。 音声、映像での発信ができないからである。 さて、 Voicyで聖丁が発信しなくなって久しい。 Noteの商品も買ったり買わなかったりしていたが、 メルマガの音声を…",
+      "content_html": "<p class=\"has-medium-font-size\"><br />あの熱い日々が帰ってきたぞ。<br />2017年春。<br />私が聖丁ラジオと出会った瞬間である。<br />あの日からもう10年近く経とうとしている…。<br /><br />光陰矢の如し<br /><br />聖丁は勤め人を卒業。<br />私もまだ30代の勤め人だった。<br />このブログも聖丁の影響で始めたのだが、<br />聖丁はブログをほとんど運用していないし、<br />私の当初の目標（収益化）とは異なった目的で運用をしている。<br /><br />それでも、ブログと言う形式は勤め人には都合がいいものだ。<br />音声、映像での発信ができないからである。<br />さて、<br />Voicyで聖丁が発信しなくなって久しい。<br />Noteの商品も買ったり買わなかったりしていたが、<br />メルマガの音声を久々に聞いてみた。<br />案外ボリュームがあって非常にいい。<br /><br />まとめて聞いたが、<br />やはり面白い考察がいくつもあった。<br /><br />中でも、<br />〇何故LGBTと言った繁殖能力が欠落した個体が産まれるのか？<br />（なぜ淘汰されないのか？）<br />〇ミハイ・チクセントミハイのフロー状態について<br />〇聖丁の変化（勤め人から経営者への思考の変化）<br />〇叱って育てる必要性<br />〇ナンパ師は何を求めてナンパを続けているのか問題。<br /><br />などなど。<br />久しぶりに脳が喜んだぞ！<br /><br />中でも、唸ったのが、<br />私と似たような境遇にある、勤め人大家の人の質問だ。<br />まったく同じような質問を私も10年前に聖丁にしたし、<br />今も全く同じような状態の私に刺さる内容だった。<br /><br />その質問と言うのが<br />大家を始めて5年、家賃は100万円／月に到達した。<br />まだ、返済が8年残っていて、月の手取りは15万。<br />まだ34歳くらいで、返済が終われば勤め人卒業という状態まで作り込んだ。<br />奥さんもJTC共働き、子供二人、自分はリモートワークで育児も協力している。<br /><br />この状態で次に何かしなければと思ってはいるものの、<br />何もできずにいる自分がもどかしい。<br />という質問だった。<br /><br />思わず首がモゲるかと思った。<br />私の34歳はまだ勤め人の給料が跳ね上がって、節税もフルスロットルだったし、<br />まあ、何というか楽しかった。<br />ちょうど38歳くらいの状態。<br />ちょうど聖丁ラジオに出会ったあたりの私の状態に近かかった。<br /><br />聖丁の回答は、<br />別に何もしなくていいのでは？<br />奥さんが3人目イラナイというなら、他に女を作って産ませたらどうか？<br />という秀逸な回答だった。<br /><br />まさにこの回答である。<br />思わず膝を打った。<br /><br />実際、私が2017年から2026年の現在までやったことはと言えば。<br />何もしないことだった。<br />2023年頃デカめのトラブルがあったが、<br />結果的には、良い方向で解決した。<br />災い転じて福となす的な解決をした。<br /><br />2017、2018は不動産を拡大しつつ、勤め人も頑張った。<br />ブログなど色々手を出したが、2019年に上司が退職。<br />2022年まではコロナで何もできず、<br />2023年には勤め先の体制が私を排除する方向で動いた。<br />普通なら退職する場面だが、社長に慰留されたので、まだ勤め人をやっている。<br /><br />ここで社長も私を排除する方向で動いたら、<br />労働契約法で争いつつ、SNSで誹謗中傷を開始しただろう。<br />危なかった。社長が人格者で良かった。<br />バカ（私）が少しカネを持つと、危ない。<br />カネがなければ転職活動に勤しむのだが、小銭があるとクダラナイことに使ってしまうものだ。<br /><br />結局2023年に妻の実家不動産が完全に妻名義で確定した。<br />これによって世帯年収が3,000万から5,000万まで増加。<br />勤め先での私の栄達の道も完全に断たれたことを悟ったこともあり、<br />私の勤め人に対するやる気は地に落ちたのである。<br /><br />ただ、私が焦って2018年に独立起業していたら大変な状態だっただろう。<br />まず2020年の税務調査である。<br />ここで私は1500万の追徴納付を行った。<br />勤め人卒業していたら払えなかった可能性が高い。<br />その後、勤め人をしながら、3年で納税のための借入を返済したが、<br />これも終わっていなかっただろう。<br /><br />本当にヤバかった。<br />やっと財務が回復して、2024、2025年と立て続けに4件の投資を行った。<br />世帯年収も5500万に伸びた。<br />納税はしっかりやっているので、当然キャッシュの積み上がりも遅いが、<br />2026年には現預金も1,000万近くまで増えた。<br /><br />あれから、10年、結果的に勤め人を卒業するでもなく、<br />新規事業を始めるでもなく、<br />じっとしていた。37歳から46歳まで、ただただ、時間を潰した。<br />ハデな散財もしたが、如何せん、給料が高い。<br />全て吸収できた。<br />その間、不動産は自力で増加していく。<br /><br />何の動きをする必要もなく、勝手に人生最大のピンチをクリアして、<br />妻の相続によって、財務も盤石となった。<br /><br />聖丁の相談者を評して曰く、動かずにはいられない性分。<br />まさに私もそうだ。<br />もっと拡大しなければ、早くしなければ、勤め人を卒業しなければ。<br />と、焦る。<br />しかし、これ、という動きも思いつかない。ますます焦る。<br />稼がねば、稼がねばと、気持ちばかりが焦っている状態。<br /><br />今もそういうところがあったのだが、<br />あの質問者に自分を重ねてみて、<br />今やるべきことが分かった。<br /><br />それは「余計なことはするな」である。<br />勤め人の高給。ホワイトな労働環境。<br />そして片手間で運営できるビジネス。<br />これを自然体で回していけばいいのである。<br />既に、私は、資本主義に勝利した。<br /><br />秀吉で言えば、私は既に、天下を取った。<br />その上、領土が足りんと、明を征服するために朝鮮出兵を考えるタイプ。<br />まさに秀吉タイプの陥りやすい罠だ。<br />そして資本主義の原罪。拡大主義である。<br /><br />結果は決まっている。<br />朝鮮を併合したら、朝鮮を守るために、満州に権益が必要になる。<br />満州を併合したら中国全土とコトを構えることになる。<br />そうなるとアメリカとも衝突する。<br />拡大の果てにあるのは最後、いつも破滅なのだ。<br /><br />水に落ちた犬を棒で叩くようなものである。<br />「その辺にしておけ」と言うヤツだ。<br /><br />私が2017年に聖丁に質問した時の回答はこうだった。<br />何が問題なのだ？最高の状態ではないか？？？<br />貴殿は、何を欲して焦っているのか？<br />と言われているようだった。<br />我、既に勝てり。<br />あとの人生はこの勝利を味わい尽くすことであり、<br />この勝利を次世代にいかに渡すかということだ。<br /><br />既に関ケ原は終わった。<br />次は征夷大将軍の宣下を受ける。<br />これを秀忠に譲り、将軍家は世襲であると世に示す。<br />とは言え、男子承継は側室がいても難しい。<br />御三家を作る。紀伊水戸尾張だ。<br />その上で、秀忠の子、家光、忠長の争いも見捨ててはおけぬ。<br />どれ、1つ手本を見せるか。<br />さて、そろそろ豊臣を大阪城から追い出さないとな。<br /><br />とまあ、大御所様もやることは尽きないものである。<br /><br />さて、徳川家康公49歳の時、<br />北条征伐が終わり、関東の地へ送られたのが、この時。<br />私もあと数年で勤め人からは足を洗う時が来る。<br />家康公が慣れ親しんだ、東海地方、甲信地方の領土を追い出され、<br />荒れた湿地である関東に入った歳だ。<br /><br />家康公はここから還暦を迎えるまで、<br />臥薪嘗胆する。<br />荒れた関東平野を開墾。<br />子作りに励むのである。<br />恐らくこの間に独自の健康管理法も熟練させたであろう。<br />秀吉が色と欲に溺れている間、<br />知らぬ間に、長寿戦を仕掛けていたのである。<br />家康も同じように振舞っていたら同じ時期に死んでいたかもしれない。<br /><br />私も見えている、50歳前後でおそらく勤め先をたたき出される。<br />そこから10年、臥薪嘗胆する覚悟が必要だ。<br />今すべきは新規事業に非ず。<br />大家業の拡大にも非ず。<br />エネルギーを貯める時期なのだ。<br />具体的には、節制、節約、健康増進、生活を質素にまとめる。<br />並行して現金の蓄積である。<br />今後10年以内で必ず大きな経済危機がある。<br />その時、出陣するべく、兵を養うのだ。<br /><br />実は、過去のショック（リーマン、震災、アベノミクス、コロナ、ナフサ）<br />いずれも十分なカネを以て臨んたことがない。<br />マトモな兵力（カネ）で戦場に立ったことがないのである（笑）。<br />一度はやってみたい場面ではある。<br /><br />をはり</p><p>The post <a href=\"https://investment-finance.net/2026%e5%b9%b45%e6%9c%8818%e6%97%a5%ef%bc%88%e6%9c%88%ef%bc%89/\">2026年5月18日（月）</a> first appeared on <a href=\"https://investment-finance.net\">サラリーマンと不動産投資</a>.</p>",
+      "author": "SAT",
+      "source_type": "rss"
+    },
+    {
+      "id": "fe4f1f7c857f3e48",
+      "feed_id": "05346fda1ff2",
+      "feed_title": "英字紙ウォッチング",
+      "category": "金融・経済・投資",
+      "title": "新段階入りしたイランエネルギー危機",
+      "url": "https://tennis575.hatenablog.com/entry/2026/05/18/083452",
+      "published": "2026-05-17T23:34:52+00:00",
+      "fetched": "2026-05-18T04:37:27.499395+00:00",
+      "summary": "快晴。 イランのエネルギー危機は新たな段階に入った。夏のエネルギー需要ピークが近づいている。 https://www.ft.com/content/f636f726-b185-4f6a-91d2-75ea3d1b9beb?syn-25a6b1a6=1",
+      "content_html": "<p>　快晴。</p>\n<p>　イランのエネルギー危機は新たな段階に入った。夏のエネルギー需要ピークが近づいている。</p>\n<p>　<a href=\"https://www.ft.com/content/f636f726-b185-4f6a-91d2-75ea3d1b9beb?syn-25a6b1a6=1\" target=\"_blank\">https://www.ft.com/content/f636f726-b185-4f6a-91d2-75ea3d1b9beb?syn-25a6b1a6=1</a></p>",
+      "author": "tennis575",
+      "source_type": "rss"
     },
     {
       "id": "3c84382fd1b9e0d6",
@@ -691,7 +803,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "サラリーマン、大家になる #6「もっと家賃を上げたい」が大失敗のもと、初心者が入居付けで陥る「致命的なズレ」【ついに最終回】楽待編集部2026.5.16この連載の一覧を見る(6記事)",
+      "title": "サラリーマン、大家になる #6漫画でわかる不動産投資、いよいよ最終回！ 大家になったサラリーマンが直面した「現実」楽待編集部2026.5.16この連載の一覧を見る(6記事)",
       "url": "https://www.rakumachi.jp/news/column/397649",
       "published": "2026-05-16T00:00:00+09:00",
       "fetched": "2026-05-16T09:49:46.498369+00:00",
@@ -8485,10 +8597,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-17T23:05:40.922170+00:00",
+  "last_updated": "2026-05-18T04:37:27.662068+00:00",
   "stats": {
-    "total": 606,
-    "fetched_just_now": 1258,
+    "total": 614,
+    "fetched_just_now": 1262,
     "feeds_success": 81,
     "feeds_failed": 0
   }

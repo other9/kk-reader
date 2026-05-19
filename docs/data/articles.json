@@ -57,6 +57,62 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "1501d6ddcc9389e5",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "世界で弱くなる円を実感。長期での安定を目指す不動産投資のロードマップ",
+      "url": "https://www.kenbiya.com/ar/cl/sencho/217.html",
+      "published": "2026-05-20T00:00:00+09:00",
+      "fetched": "2026-05-19T23:17:17.141565+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "sencho",
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "584907bce58ddd62",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "5/23開催「賃貸経営+相続対策 大家さんフェスタ in 梅田」にte出展・セミナー登壇が決定！",
+      "url": "https://www.kenbiya.com/ar/ns/release/p_event/10173.html",
+      "published": "2026-05-20T00:00:00+09:00",
+      "fetched": "2026-05-19T23:17:17.141576+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "95ae77fe00fe2f76",
+      "feed_id": "2e7efdb141f2",
+      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
+      "category": "不動産",
+      "title": "晴海フラッグ転売市場に何が起きているのか｜最新データで読む需給の変化",
+      "url": "https://1manken.hatenablog.com/entry/2023/07/25/harumi-flag-tenbai",
+      "published": "2026-05-19T22:00:00+00:00",
+      "fetched": "2026-05-06T01:38:48.596250+00:00",
+      "summary": "晴海フラッグの転売市場を定点観測。掲載件数・価格水準・需給バランスの変化を継続的に可視化し、市場の現在地を検証する。",
+      "content_html": "晴海フラッグの転売市場を定点観測。掲載件数・価格水準・需給バランスの変化を継続的に可視化し、市場の現在地を検証する。",
+      "author": "flats",
+      "source_type": "rss"
+    },
+    {
+      "id": "cf19242a17aacecf",
+      "feed_id": "73f801c263f8",
+      "feed_title": "経済を良くするって、どうすれば",
+      "category": "金融・経済・投資",
+      "title": "5/20の日経",
+      "url": "https://keizai-dousureba.hatenablog.jp/entry/2026/05/20/070000",
+      "published": "2026-05-19T22:00:00+00:00",
+      "fetched": "2026-05-19T23:17:23.895982+00:00",
+      "summary": "1-3月期GDP1次は実質年率+2.1%だった。名目の消費は前期比+0.6%と順調で、サービスの寄与度は+0.4であり、財の+0.2より大きい。2025年度は、こうした傾向が続いた。同日公表の第3次産業活動指数は、1-3月期の前期比が+0.9%だった。こちらも順調である。景気の下地は良いと言って良い。心配は、イラン戦争後の動向で、物価高についていけるかだが、高めの賃上げがあって、状況は悪くない。あとは、供給制約がどのくらい響くかになる。 (図) (今日までの日経) 所得流出3.6兆円増か 企業・家計の購買力低下。次世代太陽電池、自衛隊基地で実証導入。長期…",
+      "content_html": "<p>　1-3月期GDP1次は実質年率+2.1%だった。名目の消費は前期比+0.6%と順調で、サービスの寄与度は+0.4であり、財の+0.2より大きい。2025年度は、こうした傾向が続いた。同日公表の第3次産業活動指数は、1-3月期の前期比が+0.9%だった。こちらも順調である。景気の下地は良いと言って良い。心配は、イラン戦争後の動向で、物価高についていけるかだが、高めの賃上げがあって、状況は悪くない。あとは、供給制約がどのくらい響くかになる。<br />(図)</p>\n<p><img class=\"hatena-fotolife\" height=\"340\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/k/keizai-dousureba/20260520/20260520063927.png\" title=\"\" width=\"812\" /></p>\n<p>(今日までの日経)<br />　所得流出3.6兆円増か 企業・家計の購買力低下。次世代太陽電池、自衛隊基地で実証導入。長期金利、29年ぶり2.8%。「原油確保」も悲鳴2600件。低所得勤労層に支援が必要・翁百合</p>",
+      "author": "keizai-dousureba",
+      "source_type": "rss"
+    },
+    {
       "id": "cf5236c2214d0225",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -68,6 +124,20 @@
       "summary": "コサカスの生みの親が怒られてる！！！ https://t.co/elxWul93gr — まいる (@flagcrashers) May 19, 2026 「代表取締役は、甲助言者の自己取引を認識していたにもかかわらず、取引内容の確認及び上記社内規程に基づく申請をするよう指示していないほか、当該事実の隠蔽を図っており、法令等遵守意識が欠如」 「当社においては、当社代表取締役の法令等遵守意識が欠如しており、役職員の自己取引に係る利益相反取引を防止するためのけん制機能が全く発揮されていない」 「広告の作成等を行う当社代表取締役自身の法令等遵守意識が欠如してお…",
       "content_html": "<br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">コサカスの生みの親が怒られてる！！！<a href=\"https://t.co/elxWul93gr\">https://t.co/elxWul93gr</a></p>— まいる (@flagcrashers) <a href=\"https://twitter.com/flagcrashers/status/2056651702271643832?ref_src=twsrc%5Etfw\">May 19, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/0/d/0df1baba.png\" target=\"_blank\" title=\"a13\"><img alt=\"a13\" border=\"0\" class=\"pict\" height=\"245\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/0/d/0df1baba-s.png\" width=\"480\" /></a><br /><b>「代表取締役は、甲助言者の自己取引を認識していたにもかかわらず、取引内容の確認及び上記社内規程に基づく申請をするよう指示していないほか、当該事実の隠蔽を図っており、法令等遵守意識が欠如」</b><br /><b>「当社においては、当社代表取締役の法令等遵守意識が欠如しており、役職員の自己取引に係る利益相反取引を防止するためのけん制機能が全く発揮されていない」</b><br /><b>「広告の作成等を行う当社代表取締役自身の法令等遵守意識が欠如しており、当社代表取締役が広告審査態勢を十分に整備しておらず、法令等諸規則を遵守する観点から、自社ウェブサイト等の広告について審査を行っていない」</b></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">アカウント見に行ったら本人も謝罪ポストしてた</p>— わいけー (@counter_stock13) <a href=\"https://twitter.com/counter_stock13/status/2056653593395311070?ref_src=twsrc%5Etfw\">May 19, 2026</a></blockquote><blockquote><a href=\"https://x.com/kk25269507/status/2056647900487090333\" target=\"_blank\" title=\"a17\"><img alt=\"a17\" border=\"0\" class=\"pict\" height=\"435\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/c/5/c51c4075-s.png\" width=\"480\" /></a><br /></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">古参のカスってイキってた時代が懐かしい</p>— わいけー (@counter_stock13) <a href=\"https://twitter.com/counter_stock13/status/2056655312032338300?ref_src=twsrc%5Etfw\">May 19, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">コサカスとは(補足・語源)👿 <a href=\"https://t.co/TAyRLCRDBn\">pic.twitter.com/TAyRLCRDBn</a></p>— ろんぐて〜る (@rongtail) <a href=\"https://twitter.com/rongtail/status/1831826813158617319?ref_src=twsrc%5Etfw\">September 5, 2024</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/d/0/d0c18528.jpg\" target=\"_blank\" title=\"a18\"><img alt=\"a18\" border=\"0\" class=\"pict\" height=\"225\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/d/0/d0c18528-s.jpg\" width=\"480\" /></a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">コサカスとは(補足・歴史背景) <a href=\"https://t.co/VDcAATOzF8\">pic.twitter.com/VDcAATOzF8</a></p>— ろんぐて〜る (@rongtail) <a href=\"https://twitter.com/rongtail/status/1831823185089851793?ref_src=twsrc%5Etfw\">September 5, 2024</a></blockquote><blockquote><img alt=\"a19\" border=\"0\" class=\"pict\" height=\"716\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/1/f11176ec.jpg\" width=\"425\" /><br /></blockquote><br /></div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">みんなクロサイの名前の由来覚えてるか？<br />ちなみにおれはK先生とYくん以外忘れた</p>— 着衣カップ当て親方 (@hibakarioyakata) <a href=\"https://twitter.com/hibakarioyakata/status/2056653381062770794?ref_src=twsrc%5Etfw\">May 19, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"qme\"> <a href=\"https://t.co/IXwMWhkgg6\">pic.twitter.com/IXwMWhkgg6</a></p>— たかぴー (@stock_unknown) <a href=\"https://twitter.com/stock_unknown/status/2056715559727927802?ref_src=twsrc%5Etfw\">May 19, 2026</a></blockquote><blockquote> <a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/e/e/ee12df78.jpg\" target=\"_blank\" title=\"a15\"><img alt=\"a15\" border=\"0\" class=\"pict\" height=\"94\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/e/e/ee12df78-s.jpg\" width=\"480\" /></a><br /></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">1年掛けて違法なフロントランニングまでやって得た利益がトータル2万円…<br /><br />\"なお、上記取引による利益は、上記31件のうち22件で計約100万円（損失は９件で計約98万円）となっている。\" <a href=\"https://t.co/9xIlIj3Ckf\">pic.twitter.com/9xIlIj3Ckf</a></p>— 矢🍥 (@Ya86xx) <a href=\"https://twitter.com/Ya86xx/status/2056677630951456872?ref_src=twsrc%5Etfw\">May 19, 2026</a></blockquote><blockquote> <a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/6/b/6b6abd29.png\" target=\"_blank\" title=\"a16\"><img alt=\"a16\" border=\"0\" class=\"pict\" height=\"338\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/6/b/6b6abd29-s.png\" width=\"480\" /></a><br /></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">しかし事前に買ってサロン生に推奨して買わせてそれに売りぶつけて29銘柄で2万の利益ってどうなったらそこまでパフォーマンス落とせるんや</p>— 急騰🐣 (@kgbukabu) <a href=\"https://twitter.com/kgbukabu/status/2056695697731412262?ref_src=twsrc%5Etfw\">May 19, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">（何故バレた…？）</p>— あろれの抜け殻 (@alorest_b) <a href=\"https://twitter.com/alorest_b/status/2056657757189935346?ref_src=twsrc%5Etfw\">May 19, 2026</a></blockquote><br /></div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">こんな軽微な取引を見逃さないほどなのにウ●フとかが逮捕されねえのはやっぱ取引実態ねえんじゃねえかと</p>— もちベーコン (@qxqxqxaquas) <a href=\"https://twitter.com/qxqxqxaquas/status/2056688770951659919?ref_src=twsrc%5Etfw\">May 19, 2026</a></blockquote><br />",
       "author": "masorira",
+      "source_type": "rss"
+    },
+    {
+      "id": "b5d1a1f5133181f2",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "リスク選好と危険地への移住の意思：戦時中のウクライナでの実証結果",
+      "url": "https://himaginary.hatenablog.com/entry/20260519/Risk_Preferences_and_the_Willingness_to_Relocate_to_Danger",
+      "published": "2026-05-19T14:59:00+00:00",
+      "fetched": "2026-05-19T23:17:23.417115+00:00",
+      "summary": "というNBER論文をGorodnichenkoらが 上げている （ ungated版 ）。原題は「Risk Preferences and the Willingness to Relocate to Danger: Evidence from Wartime Ukraine」で、著者はYuriy Gorodnichenko（UCバークレー）、Marianna Kudlyak（サンフランシスコ連銀）、Sophia Lobozynska（リヴィウ国立大）、Iryna Skomorovych（同）、Ulyana Vladychyn（同）、Andriy Kov…",
+      "content_html": "<p>というNBER論文をGorodnichenkoらが<a href=\"https://www.nber.org/papers/w35072\">&#x4e0a;&#x3052;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://www.hoover.org/sites/default/files/research/docs/26109Kudlyak%20et%20al.pdf\">ungated&#x7248;</a>）。原題は「Risk Preferences and the Willingness to Relocate to Danger: Evidence from Wartime Ukraine」で、著者はYuriy Gorodnichenko（UCバークレー）、Marianna Kudlyak（サンフランシスコ連銀）、Sophia Lobozynska（リヴィウ国立大）、Iryna Skomorovych（同）、Ulyana Vladychyn（同）、Andriy Kovalyuk（同）、Iryna Snovydovych（同）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>We elicit reservation wage premia for relocating to two Ukrainian cities, using a household survey conducted in mid-April to mid-July 2024 during the Russian invasion of Ukraine: high-risk Kharkiv (near the frontline) and moderate-risk Kyiv. Risk tolerance is a strong predictor of willingness to move to Kharkiv—the most risk-averse have roughly half the odds of the most risk-tolerant—but matters much less for Kyiv. This asymmetry is difficult to reconcile with the hypothesis that risk tolerance merely proxies for general mobility preferences. Separately estimating the elasticity of intertemporal substitution (EIS≈0.04), we find that including it renders risk tolerance insignificant for Kyiv but not for Kharkiv—a pattern illuminated by the Epstein-Zin separation of risk aversion and the EIS: risk aversion adds predictive power only when danger is high, while the EIS operates equally for both cities as a common relocation-cost channel. The very low EIS implies that relocation incentives structured as future benefits may be ineffective; front-loaded subsidies are more likely to influence behavior.<br />\n（拙訳）<br />\n我々は、2024年4月半ばから7月半ばに掛けて実施した家計調査を用い、ロシアのウクライナ侵攻中に、2つのウクライナの都市に移住することの留保賃金プレミアムを導出した。2つの都市は、（前線に近い）高リスクのハルキウと、中程度のリスクのキーウである。リスク許容度はハルキウ移住の意思の強い予測因子であった――最もリスク回避的な人は、最もリスク許容的な人の半分の確率であった――が、キーウについては予測因子としての重要性はもっと低かった。この非対称性は、リスク許容度が全般的な移動の選好の単なる代理変数であるという仮説と整合させるのが困難である。異時点間の代替の弾力性（EIS≈0.04）を別途推計して我々は、それを織り込むと、リスク許容度がキーウについて非有意になるが、ハルキウについてはならないことを見い出した。これは、リスク回避とEISのエプスタイン＝ジン分離で解明できるパターンである。即ち、リスク回避度が予測力を高めるのは危険が大きい時だけである半面、EISは両都市について共通の移住コスト経路として同様に働く。EISの値が非常に小さいことは、将来の便益として構築された移住インセンティブが有効ではないであろうことを含意している。前倒しの補助金の方が行動に影響する可能性が高い。</p>\n\n    </blockquote>\n<p><br />\n本文では調査の設計について以下のように説明している。</p>\n\n    <blockquote>\n        <p>We designed a structured survey titled “Managing Financial Risks during the Russian-Ukrainian War.” The survey was administered online and conducted in Ukraine in mid-April to mid-July 2024. It was advertised as a university research survey by Ivan Franko L’viv National University. The estimated time to complete the questionnaire was 15-20 minutes. The full questionnaire is reproduced in Appendix A.<br />\nParticipation in the survey was voluntary. <br />\n（拙訳）<br />\n我々は「ロシア＝ウクライナ戦争中の金融リスクの管理」と題した調査を設計した。調査はオンラインで実施され、ウクライナで2024年4月半ばから7月半ばに掛けて行われた。調査は、イヴァン・フランコ記念リヴィウ国立大学による大学の研究調査として宣伝された。質問表の記入完了時間は推定15-20分であった。完全な質問票は付録Aに掲載している。<br />\n調査への参加は自主的なものであった。</p>\n\n    </blockquote>\n<p>また、調査実施時のウクライナならびに両都市の状況について以下のように説明している。</p>\n\n    <blockquote>\n        <p>At the time of the survey, Ukraine remained under systematic missile and drone attacks targeting major cities, including Kyiv and Kharkiv. Frequent air-raid alerts, the threat of massive strikes, and the destruction of critical infrastructure created an atmosphere of persistent anxiety among the population. The invasion had triggered massive population displacement: as of early 2025, over 4.6 million internally displaced persons were officially registered, and over 6.8 million Ukrainian citizens were abroad, substantially transforming the demographic structure and the labor market.<br />\nThe initial economic shock of the invasion was severe. In 2022, Ukraine’s GDP contracted sharply: fixed capital decreased by an estimated 20% due to destruction, occupation, and a deficit of investment, and the labor force contracted by 27% due to migration, mobilization, and loss of control over territories.3 The economy partially recovered, growing by 5.5% in 2023, but the pace of recovery slowed to 2.9% in 2024. Inflation reached 12% in 2023, eroding the purchasing power of the population; by 2024, inflationary pressures eased to approximately 6.5%. At the time of the survey, the average wage was 21,473 UAH (approximately $535), and poverty remained elevated.<br />\nThe labor market reflected these strains. According to the National Bank of Ukraine’s quarterly business surveys, over 40% of enterprises reported labor shortages in 2024, up from 26% in 2023, constraining economic growth potential. Despite the difficult conditions, the banking system showed signs of stability: household deposits exceeded 1.23 trillion UAH, and lending grew by 7.41%. International assistance played an important role in maintaining macrofinancial equilibrium—$42 billion in 2024—along with strategic partnership programs, including the ERA initiative of $50 billion for 2024-2027.<br />\nCrucially for our research design, Kharkiv and Kyiv differed sharply in the level of security risk during the survey period. Kharkiv, located approximately 30 km from the Russian border, was under near-continuous threat. On May 10, 2024—at the very start of our survey—Russia launched a ground offensive into northern Kharkiv oblast, its largest territorial push in 18 months, triggering the evacuation of over 10,500 civilians from border areas. In addition to the ground combat, Kharkiv was subject to daily shelling, missile strikes, and drone attacks. Kyiv, while also targeted by periodic missile and drone strikes, experienced far fewer and shorter alerts and no ground combat.<br />\n（拙訳）<br />\n調査実施時点のウクライナでは、キーウとハルキウを含む主要都市への組織的なミサイルとドローンの攻撃が続いていた。頻繁な空襲警報、大規模攻撃の脅威、および重要インフラの破壊は、人々の間に絶え間ない不安の空気を生み出していた。侵攻は人々の大量移住をもたらした。2025年初時点で、460万人以上の国内移住が政府により記録され、680万人以上のウクライナ市民が海外に逃れ、人口動態構造と労働市場の転換をもたらした。<br />\n・・・<br />\n我々の調査設計にとって重要なことに、ハルキウとキーウは調査期間中の安全リスク水準が大きく違っていた。ハルキウは、ロシア国境からおよそ30キロの場所に位置し、ほぼ絶え間ない脅威の下にあった。2024年5月10日――我々の調査の開始から間もない時点――、ロシアがハルキウ州北部での地上攻勢を開始し、18か月で最大の領域拡大を行ったことで、国境地域から10,500人以上の市民が避難した。地上戦に加えて、ハルキウは日常的な爆撃、ミサイル攻撃、ドローン攻撃に曝されていた。キーウは、やはり定期的なミサイルとドローンの攻撃の標的になっていたが、警報は大幅に短くかつ少なく、地上戦は無かった。</p>\n\n    </blockquote>",
+      "author": "himaginary",
       "source_type": "rss"
     },
     {
@@ -187,7 +257,7 @@
       "feed_id": "416ab9ec27e5",
       "feed_title": "サラリーマンと不動産投資",
       "category": "不動産",
-      "title": "2026年5月18日（火）",
+      "title": "2026年5月19日（火）",
       "url": "https://investment-finance.net/2026%e5%b9%b45%e6%9c%8818%e6%97%a5%ef%bc%88%e7%81%ab%ef%bc%89/",
       "published": "2026-05-19T03:21:21+00:00",
       "fetched": "2026-05-19T04:21:24.732806+00:00",
@@ -1153,7 +1223,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走",
+      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走「お客様の利益にならない」と退職を決意、今後はトラブル増？",
       "url": "https://www.rakumachi.jp/news/column/398760",
       "published": "2026-05-17T00:00:00+09:00",
       "fetched": "2026-05-17T11:21:47.531440+00:00",
@@ -2833,7 +2903,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼",
+      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼「年100万儲かる」想定も赤字続き、訴訟・損切りに至ったトラブルのいきさつ",
       "url": "https://www.rakumachi.jp/news/column/398711",
       "published": "2026-05-13T00:00:00+09:00",
       "fetched": "2026-05-13T09:17:24.205128+00:00",
@@ -7869,20 +7939,6 @@
       "source_type": "scrape_rakumachi"
     },
     {
-      "id": "95ae77fe00fe2f76",
-      "feed_id": "2e7efdb141f2",
-      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
-      "category": "不動産",
-      "title": "晴海フラッグ転売市場に何が起きているのか｜最新データで読む需給の変化",
-      "url": "https://1manken.hatenablog.com/entry/2023/07/25/harumi-flag-tenbai",
-      "published": "2026-04-23T22:00:00+00:00",
-      "fetched": "2026-05-06T01:38:48.596250+00:00",
-      "summary": "晴海フラッグの転売市場を定点観測。掲載件数・価格水準・需給バランスの変化を継続的に可視化し、市場の現在地を検証する。",
-      "content_html": "晴海フラッグの転売市場を定点観測。掲載件数・価格水準・需給バランスの変化を継続的に可視化し、市場の現在地を検証する。",
-      "author": "flats",
-      "source_type": "rss"
-    },
-    {
       "id": "102884daf9854428",
       "feed_id": "f8c882c05df3",
       "feed_title": "himaginary’s diary",
@@ -9227,10 +9283,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-19T21:43:28.807597+00:00",
+  "last_updated": "2026-05-19T23:17:32.882117+00:00",
   "stats": {
-    "total": 659,
-    "fetched_just_now": 1223,
+    "total": 663,
+    "fetched_just_now": 1222,
     "feeds_success": 76,
     "feeds_failed": 5
   }

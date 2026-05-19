@@ -1,6 +1,62 @@
 {
   "articles": [
     {
+      "id": "7ec6d94b9896f89f",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "2027年エアコン価格が改定？ ナフサショックで新築の工期遅れ？  収益物件オーナーが、今、考える「日頃の付き合い」",
+      "url": "https://www.kenbiya.com/ar/ns/for_rent/differentiation/10154.html",
+      "published": "2026-05-20T00:00:00+09:00",
+      "fetched": "2026-05-19T21:43:13.131907+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "00a5b0ae8ba46814",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】高利回りで飛び付く物件・見送る物件毎日３分！不動産投資メモ録 #368",
+      "url": "https://www.rakumachi.jp/news/practical/399074",
+      "published": "2026-05-20T00:00:00+09:00",
+      "fetched": "2026-05-19T21:43:13.971057+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "不動産投資家ななころ",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "180faed2012e9150",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】規模拡大というラットレース不労所得を増やしつつ、比較的楽な方向へ",
+      "url": "https://www.rakumachi.jp/news/practical/398645",
+      "published": "2026-05-20T00:00:00+09:00",
+      "fetched": "2026-05-19T21:43:13.971071+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "かぶ大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "a0bb0e27a1588eb3",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】ことわざコラム「早起きは三文の徳」早起き投資家はなぜ勝つ？三文どころか数百万円の差になることも・・・。",
+      "url": "https://www.rakumachi.jp/news/practical/396267",
+      "published": "2026-05-20T00:00:00+09:00",
+      "fetched": "2026-05-19T21:43:13.971075+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "戸田匠",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "cf5236c2214d0225",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -229,7 +285,7 @@
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
       "category": "不動産",
-      "title": "マンション管理のこれから～令和8年4⽉の改正区分所有法施⾏がもたらすものは-「建築知識の不動産投資ニュース066」",
+      "title": "令和8年4⽉の改正区分所有法施⾏がもたらすものはマンション管理のこれから～「建築知識の不動産投資ニュース066」",
       "url": "https://www.kenbiya.com/ar/ns/jiji/architectural_k/10152.html",
       "published": "2026-05-19T00:00:00+09:00",
       "fetched": "2026-05-18T21:22:23.785646+00:00",
@@ -915,7 +971,7 @@
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
       "category": "不動産",
-      "title": "「値上げ不可避?!マンション修繕費が30年で約2.5倍に」の時代、修繕費の何をチェックする？",
+      "title": "マンション修繕費が30年で約2.5倍に! 値上げ不可避？この時代、修繕費の何をチェックする？",
       "url": "https://www.kenbiya.com/ar/ns/buy_sell/property_choose/10139.html",
       "published": "2026-05-17T00:00:00+09:00",
       "fetched": "2026-05-16T21:00:52.821130+00:00",
@@ -1097,7 +1153,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走「お客様の利益にならない」と退職を決意、今後はトラブル増？",
+      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走",
       "url": "https://www.rakumachi.jp/news/column/398760",
       "published": "2026-05-17T00:00:00+09:00",
       "fetched": "2026-05-17T11:21:47.531440+00:00",
@@ -2777,7 +2833,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼「年100万儲かる」想定も赤字続き、訴訟・損切りに至ったトラブルのいきさつ",
+      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼",
       "url": "https://www.rakumachi.jp/news/column/398711",
       "published": "2026-05-13T00:00:00+09:00",
       "fetched": "2026-05-13T09:17:24.205128+00:00",
@@ -9171,11 +9227,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-19T20:06:07.236551+00:00",
+  "last_updated": "2026-05-19T21:43:28.807597+00:00",
   "stats": {
-    "total": 655,
-    "fetched_just_now": 1253,
-    "feeds_success": 81,
-    "feeds_failed": 0
+    "total": 659,
+    "fetched_just_now": 1223,
+    "feeds_success": 76,
+    "feeds_failed": 5
   }
 }

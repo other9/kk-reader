@@ -1,6 +1,62 @@
 {
   "articles": [
     {
+      "id": "c78c80a3eb31969b",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】やはり不動産投資が最強である理由これが不動産投資を推す一番の理由だね",
+      "url": "https://www.rakumachi.jp/news/practical/396924",
+      "published": "2026-05-21T00:00:00+09:00",
+      "fetched": "2026-05-20T17:21:45.061125+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "リーマンまさゆき",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "aef5310f86668c74",
+      "feed_id": "c4e832423738",
+      "feed_title": "楽待新聞 編集部記事",
+      "category": "不動産",
+      "title": "直近半年で13棟購入、年収400万会社員から始める「地方爆速ハイレバ投資」戦略",
+      "url": "https://www.rakumachi.jp/news/video/396881",
+      "published": null,
+      "fetched": "2026-05-20T17:21:45.316000+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "b7aad1d3dfe0c3a3",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "預金者逃避の解剖：2023年春の銀行破綻の分析",
+      "url": "https://himaginary.hatenablog.com/entry/20260520/Dissecting_Depositor_Flight",
+      "published": "2026-05-20T13:36:33+00:00",
+      "fetched": "2026-05-20T17:21:49.849987+00:00",
+      "summary": "という FDICのスタッフレポート をMostly Economicsが 紹介している 。原題は「Dissecting Depositor Flight: An Analysis of the Spring 2023 Bank Failures」で、著者はKaryen Chu、Nick Frazier、Christopher Martin、Neil T. Agarwal、Jocelyn Kuo、Joyce Northwood、Terrance Oey、Christina Reed、Alex Rodrigue、Alexis Starr。 以下はその要旨。…",
+      "content_html": "<p>という<a href=\"https://www.fdic.gov/center-financial-research/staff-studies-may-2026.pdf\">FDIC&#x306e;&#x30b9;&#x30bf;&#x30c3;&#x30d5;&#x30ec;&#x30dd;&#x30fc;&#x30c8;</a>をMostly Economicsが<a href=\"https://mostlyeconomics.wordpress.com/2026/05/18/dissecting-depositor-flight-an-analysis-of-the-spring-2023-bank-failures/\">&#x7d39;&#x4ecb;&#x3057;&#x3066;&#x3044;&#x308b;</a>。原題は「Dissecting Depositor Flight: An Analysis of the Spring 2023 Bank Failures」で、著者はKaryen Chu、Nick Frazier、Christopher Martin、Neil T. Agarwal、Jocelyn Kuo、Joyce Northwood、Terrance Oey、Christina Reed、Alex Rodrigue、Alexis Starr。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>In the spring of 2023, Silicon Valley Bank, Signature Bank, and First Republic Bank all failed following broad-based deposit runs. We use granular data from the banks’ core systems to study the types of deposits and depositors at each bank, the run rates of depositors, and the outflow rates of different types of deposits. Immediately preceding the runs, deposit composition varied meaningfully among the banks, likely reflecting their different business models. However, all three banks exhibited a concentration of deposits among a small number of large depositors. Consistent with public reports, we find that the runs were unprecedented in their size and speed. Most funds ran via wire transfer in the first few days. Our analysis shows that deposit insurance stabilized deposits and reduced depositors’ propensity to run. Retail depositors that were fully insured generally did not run and, at certain times during the runs, had net inflows of deposits. Our findings also suggest that considerations other than deposit insurance coverage were also important: Top depositors were more likely to run, even after taking into consideration their insurance coverage and deposit types. In fact, many business depositors drew down balances in business operations accounts that were likely to be insured, such as residential mortgage servicing escrow accounts. This analysis provides unprecedented detail and insight into the largest and most severe bank runs that led to the second-, third-, and fourth-largest bank failures in U.S. history. <br />\n（拙訳）<br />\n2023年春、シリコンバレー銀行、シグネチャー銀行、ファーストリパブリック銀行は、広範な預金取り付け騒ぎの後にいずれも破綻した。我々は銀行の中核システムからの詳細データを用いて、各銀行の預金と預金者の種類、預金者の取り付け比率、各種の預金の流出率を調べた。取り付け騒ぎの直前、預金構成は銀行によって有意に違っていたが、これは相異なるビジネスモデルを反映していた可能性が高い。だが、3銀行ともに少数の大手預金者に預金が集中していた。公けの報告書と整合的に、取り付け騒ぎが規模とスピードで前例のないものだったことを我々は見い出した。大半のファンドは最初の数日で電信送金により取り付けた。我々の分析では、預金保険が預金を安定化させ、預金者の取り付け傾向を減じたことが示された。保険で完全にカバーされていた個人預金者は概して取り付けず、取り付け騒ぎの最中のある時点では預金の純流入があった。我々の見い出したところでは、預金保険のカバレッジ以外の材料も重要であった。上位の預金者は、彼らの預金保険のカバレッジと預金の種類を考慮した後でも、取り付ける傾向が強かった。実際、企業の預金者の多くは、住宅ローンサービス第三者預託口座のように保険が適用される可能性が高い企業活動口座からも残高を引き出した。本分析は、米国の歴史上で2番目、3番目、4番目に大きな銀行破綻につながった最大かつ最も深刻な銀行取り付け騒ぎについて、これまでにない詳細と洞察を提供する。</p>\n\n    </blockquote>\n<p>シリコンバレー銀行などの破綻についての研究や考察は本ブログでも何度か取り上げており、その中には<a href=\"https://himaginary.hatenablog.com/entry/20230328/monetary-tightening-and-u-s-bank-fragility-in-2023\">2023&#x5e74;&#x306e;&#x91d1;&#x878d;&#x5f15;&#x304d;&#x7de0;&#x3081;&#x3068;&#x7c73;&#x56fd;&#x306e;&#x9280;&#x884c;&#x306e;&#x8106;&#x5f31;&#x6027;&#xff1a;&#x6642;&#x4fa1;&#x640d;&#x5931;&#x3068;&#x4fdd;&#x967a;&#x306e;&#x306a;&#x3044;&#x9810;&#x91d1;&#x8005;&#x306e;&#x53d6;&#x308a;&#x4ed8;&#x3051;&#xff1f; - himaginary&rsquo;s diary</a>で紹介した論文のように預金保険の対象外の預金者の行動に焦点を当てたものや、<a href=\"https://himaginary.hatenablog.com/entry/20230318/five-observations-on-svb\">&#x30de;&#x30f3;&#x30ad;&#x30e5;&#x30fc;&#x306e;&#x898b;&#x305f;&#x30b7;&#x30ea;&#x30b3;&#x30f3;&#x30d0;&#x30ec;&#x30fc;&#x9280;&#x7834;&#x7dbb; - himaginary&rsquo;s diary</a>で紹介したマンキューのように預金保険の拡大について肯定的に考察したもの、あるいは<a href=\"https://himaginary.hatenablog.com/entry/20240227/the-failure-of-silicon-valley-bank-and-the-panic-of-2023\">&#x30b7;&#x30ea;&#x30b3;&#x30f3;&#x30d0;&#x30ec;&#x30fc;&#x9280;&#x884c;&#x306e;&#x7834;&#x7dbb;&#x3068;2023&#x5e74;&#x306e;&#x30d1;&#x30cb;&#x30c3;&#x30af; - himaginary&rsquo;s diary</a>で紹介した論文のように預金保険の拡大に取りあえずは肯定的だが実務上の難点を指摘するものなどがあった。今回、当の連邦預金保険公社の研究者の論文で、預金保険の取り付け防止効果はあるが完全ではないかも（＝上位の預金者の取り付けは完全に防げないかもしれない）、という結果が示されたのは興味深いと言えば興味深い。</p>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
+      "id": "85b5a1424e24b47d",
+      "feed_id": "6c30fc2654fb",
+      "feed_title": "元官庁エコノミストのブログ",
+      "category": "金融・経済・投資",
+      "title": "ルーズベルトゲームで中日に逆転勝ち",
+      "url": "http://economist.cocolog-nifty.com/blog/2026/05/post-9d6f70.html",
+      "published": "2026-05-20T13:30:00+00:00",
+      "fetched": "2026-05-20T17:21:49.416254+00:00",
+      "summary": "一 二 三 四 五 六 七 八 九 R H E 中 日 1 3 0 0 0 2 1 0 0 7 13 0 阪 神 0 0 0 0 0 0 4 3 1x 8 13 1 【中】 マラー、藤嶋、齋藤、清水、吉田、牧野 - 加藤 【神】 茨木、椎葉、畠、石黒、桐敷、ドリス - 伏見、坂本 8-7のルーズベルトゲームで終盤に大逆転し、 中日に連勝 でした。 先発茨木投手が早々に打ち込まれて2回で4失点、さらに6回にはマラー投手に2ランを浴び、7回表で7-0になった時点で諦めて、私は長風呂に入ります。お風呂から上がると、試合は終わっていて、8-7だったようです。 森…",
+      "content_html": "<p><a href=\"https://hanshintigers.jp/game/score/table/table20260520.html\" style=\"font-style: normal;\" target=\"_blank\"><table class=\"s-b\" title=\"スコアボード\"><tr class=\"sb1\"><td class=\"sb1\"> </td><td class=\"sb2\">一</td><td class=\"sb2\">二</td><td class=\"sb2\">三</td><td class=\"sb2\">四</td><td class=\"sb2\">五</td><td class=\"sb2\">六</td><td class=\"sb2\">七</td><td class=\"sb2\">八</td><td class=\"sb2\">九</td><td class=\"sb3\"> </td><td class=\"sb4\">R</td><td class=\"sb4\">H</td><td class=\"sb2\">E</td></tr><tr class=\"sb2\"><td>中　　日</td><td>1</td><td>3</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>0</td><td class=\"sb3\"> </td><td>7</td><td>13</td><td>0</td></tr><tr class=\"sb2\"><td>阪　　神</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>3</td><td>1x</td><td class=\"sb3\"> </td><td>8</td><td>13</td><td>1</td></tr></table></a><br />【中】 マラー、藤嶋、齋藤、清水、吉田、牧野 - 加藤<br />【神】 茨木、椎葉、畠、石黒、桐敷、ドリス - 伏見、坂本</p><p>8-7のルーズベルトゲームで終盤に大逆転し、<span class=\"red\">中日に連勝</span>でした。<br />先発茨木投手が早々に打ち込まれて2回で4失点、さらに6回にはマラー投手に2ランを浴び、7回表で7-0になった時点で諦めて、私は長風呂に入ります。お風呂から上がると、試合は終わっていて、8-7だったようです。<span class=\"blue\">森下選手のサヨナラホームラン</span>だったようです。失礼しました。見逃しました。</p><p>明日も、<br /><span class=\"tigers\">がんばれタイガース!</span></p>",
+      "author": "元官庁エコノミスト",
+      "source_type": "rss"
+    },
+    {
       "id": "f8963775a83e03a3",
       "feed_id": "2ec7ee82ecf8",
       "feed_title": "マンションの間取りや価格を言いたい放題!",
@@ -292,6 +348,20 @@
       "summary": "",
       "content_html": null,
       "author": "元地方銀行員大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "6f263578a8485e80",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】地方銀行への金融庁の指摘について地方銀行のみへの指摘",
+      "url": "https://www.rakumachi.jp/news/practical/399257",
+      "published": "2026-05-20T00:00:00+09:00",
+      "fetched": "2026-05-20T17:21:45.061136+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "サラリーマン大家のTAKA",
       "source_type": "scrape_rakumachi"
     },
     {
@@ -1461,7 +1531,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走",
+      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走「お客様の利益にならない」と退職を決意、今後はトラブル増？",
       "url": "https://www.rakumachi.jp/news/column/398760",
       "published": "2026-05-17T00:00:00+09:00",
       "fetched": "2026-05-17T11:21:47.531440+00:00",
@@ -2651,7 +2721,7 @@
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
       "category": "不動産",
-      "title": "【実践大家コラム】募集元の不動産屋を知り、売主の背景を考える流れと、関係と、欲望？",
+      "title": "募集元の不動産屋を知り、売主の背景を考える",
       "url": "https://www.rakumachi.jp/news/practical/398944",
       "published": "2026-05-14T00:00:00+09:00",
       "fetched": "2026-05-14T08:49:10.921508+00:00",
@@ -3141,7 +3211,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼",
+      "title": "いったい何の代金？ 民泊代行に払った「譲渡金300万円」で投資家がハマった泥沼「年100万儲かる」想定も赤字続き、訴訟・損切りに至ったトラブルのいきさつ",
       "url": "https://www.rakumachi.jp/news/column/398711",
       "published": "2026-05-13T00:00:00+09:00",
       "fetched": "2026-05-13T09:17:24.205128+00:00",
@@ -9507,11 +9577,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-20T12:35:22.565672+00:00",
+  "last_updated": "2026-05-20T17:22:00.095330+00:00",
   "stats": {
-    "total": 679,
-    "fetched_just_now": 1256,
-    "feeds_success": 81,
-    "feeds_failed": 0
+    "total": 684,
+    "fetched_just_now": 1223,
+    "feeds_success": 76,
+    "feeds_failed": 5
   }
 }

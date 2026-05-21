@@ -9941,11 +9941,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-21T16:45:44.479857+00:00",
+  "last_updated": "2026-05-21T20:07:06.013581+00:00",
   "stats": {
     "total": 710,
-    "fetched_just_now": 1256,
-    "feeds_success": 81,
-    "feeds_failed": 0
+    "fetched_just_now": 1253,
+    "feeds_success": 79,
+    "feeds_failed": 2
   }
 }

@@ -1,6 +1,34 @@
 {
   "articles": [
     {
+      "id": "c980ca72ecff38d4",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】超鉄板の前職がまさか社会的転落！世の中何が起きるかわからない",
+      "url": "https://www.rakumachi.jp/news/practical/399363",
+      "published": "2026-05-22T00:00:00+09:00",
+      "fetched": "2026-05-21T16:45:39.196499+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "ストレージ大家ひら",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "59173039da95a2aa",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "予想された減価の因果効果",
+      "url": "https://himaginary.hatenablog.com/entry/20260521/Causal_Effects_of_Expected_Depreciations",
+      "published": "2026-05-21T14:52:06+00:00",
+      "fetched": "2026-05-21T16:45:42.936320+00:00",
+      "summary": "というNBER論文が 上がっている （2024年10月時点の WP 、 スライド資料 ）。原題は「The Causal Effects of Expected Depreciations」で、著者はMartha Elena Delgado Rojas（IADB）、Juan Herreño（UCサンディエゴ）、Marc Hofstetter（ロス・アンデス大）、Mathieu Pedemonte（IADB）。 以下はその要旨。 We construct a novel measure of one-year-ahead exchange rate fore…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35175\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（2024年10月時点の<a href=\"https://publications.iadb.org/en/causal-effects-expected-depreciations\">WP</a>、<a href=\"https://thedocs.worldbank.org/en/doc/d6d52041ef6c30d86bbc49c2d9447922-0050062024/related/6-1-Mathieu-Pedemonte-DHHP-WAIFS.pdf\">&#x30b9;&#x30e9;&#x30a4;&#x30c9;&#x8cc7;&#x6599;</a>）。原題は「The Causal Effects of Expected Depreciations」で、著者はMartha Elena Delgado Rojas（IADB）、Juan Herreño（UCサンディエゴ）、Marc Hofstetter（ロス・アンデス大）、Mathieu Pedemonte（IADB）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>We construct a novel measure of one-year-ahead exchange rate forecasts and nowcasts for non-financial firms. We then study a randomized information intervention that provides a subset of firms with a publicly available exchange rate forecast. This information treatment persistently shifts exchange rate expectations and perceptions, with stronger effects for non-exporting firms. We link survey responses with administrative customs data and estimate a positive intertemporal elasticity of import demand to exogenous changes in expected future exchange rates. Our findings highlight the role of intertemporal substitution after anticipated changes in trade costs.<br />\n（拙訳）<br />\n我々は、非金融企業について為替の1年先の予測とナウキャストの新たな指標を構築した。次いで我々は、企業の部分集合に公けに利用可能な為替予測を提供するというランダム化された情報介入について調べた。この情報処置は為替の予想と認識を持続的に変化させ、その効果は非輸出企業について強かった。我々は調査回答を行政の通関データと結び付け、予想された将来の為替相場の外生的な変化に対する輸入需要の正の異時点間の弾力性を推計した。我々の発見は、貿易費用の予期された変化の後の異時点間の代替の役割を浮き彫りにする。</p>\n\n    </blockquote>\n<p>1年半前のWPによると、調査対象はコロンビアの企業で、情報処置は専門家の為替予測とのこと。結論部では、今回の結果が明らかにしたように、コロンビアのように国際貿易がほぼドル建ての国における比較的大きく洗練された企業の経営者レベルでさえ完全情報から乖離した状況にあるということは、代表的な価格に関するコミュニケーションに中銀が注力することで企業決定に影響する余地があるということ、と述べている。この考察は、ナフサをはじめとする石油製品の需給について完全情報とは程遠い状況にある現在の日本企業にとっても示唆的であるが、ただ、政府も企業と同程度（もしくはそれ以下）の情報しか有していない場合には有用な情報処置ができそうもない気もする。</p>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "455a839f0ce7e23f",
       "feed_id": "2ec7ee82ecf8",
       "feed_title": "マンションの間取りや価格を言いたい放題!",
@@ -348,6 +376,20 @@
       "summary": "",
       "content_html": null,
       "author": "kazu21599",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "124aac1fdfea530d",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】500コラム書いても、まだ自分が何者かわからない逃げない人達に支えられて、500回",
+      "url": "https://www.rakumachi.jp/news/practical/399365",
+      "published": "2026-05-21T00:00:00+09:00",
+      "fetched": "2026-05-21T16:45:39.196511+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "じゅんじゅん",
       "source_type": "scrape_rakumachi"
     },
     {
@@ -9899,11 +9941,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-21T12:55:35.264560+00:00",
+  "last_updated": "2026-05-21T16:45:44.479857+00:00",
   "stats": {
-    "total": 707,
-    "fetched_just_now": 1257,
-    "feeds_success": 80,
-    "feeds_failed": 1
+    "total": 710,
+    "fetched_just_now": 1256,
+    "feeds_success": 81,
+    "feeds_failed": 0
   }
 }

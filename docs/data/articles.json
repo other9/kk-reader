@@ -15,6 +15,62 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "0136ea99139d0986",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "不動産投資家の余剰資金運用法 (7) ～ 国内債券（国債、社債）",
+      "url": "https://www.kenbiya.com/ar/ns/jiji/diversion/10137.html",
+      "published": "2026-05-22T00:00:00+09:00",
+      "fetched": "2026-05-21T21:47:07.477406+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "d07467ffe2c816d3",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】指値交渉を成功させるためのコツ（２）高額編毎日３分！不動産投資メモ録 #370",
+      "url": "https://www.rakumachi.jp/news/practical/399269",
+      "published": "2026-05-22T00:00:00+09:00",
+      "fetched": "2026-05-21T21:47:08.264786+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "不動産投資家ななころ",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "ecb1a5d581ff41a8",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】引き渡し前に問題発生？！新たな管理会社はポンコツ？！",
+      "url": "https://www.rakumachi.jp/news/practical/399366",
+      "published": "2026-05-22T00:00:00+09:00",
+      "fetched": "2026-05-21T21:47:08.264797+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "パテント大家ATSUSHI",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "e04fb59e24532cec",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】良い“インカム型物件”の見分け方安定収益は“買う前の目”で決まる",
+      "url": "https://www.rakumachi.jp/news/practical/397160",
+      "published": "2026-05-22T00:00:00+09:00",
+      "fetched": "2026-05-21T21:47:08.264803+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "戸田匠",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "59173039da95a2aa",
       "feed_id": "f8c882c05df3",
       "feed_title": "himaginary’s diary",
@@ -1251,7 +1307,7 @@
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
       "category": "不動産",
-      "title": "【実践大家コラム】地雷回収班⑭１０００万級の地雷爆発か？水道局交渉水道局に電話するオンボロマンションオーナー、たらい回しにされる",
+      "title": "地雷回収班⑭１０００万級の地雷爆発か？水道局交渉",
       "url": "https://www.rakumachi.jp/news/practical/399044",
       "published": "2026-05-19T00:00:00+09:00",
       "fetched": "2026-05-19T16:55:07.124030+00:00",
@@ -9941,11 +9997,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-21T20:07:06.013581+00:00",
+  "last_updated": "2026-05-21T21:47:12.846673+00:00",
   "stats": {
-    "total": 710,
-    "fetched_just_now": 1253,
-    "feeds_success": 79,
-    "feeds_failed": 2
+    "total": 714,
+    "fetched_just_now": 1258,
+    "feeds_success": 81,
+    "feeds_failed": 0
   }
 }

@@ -71,6 +71,20 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "77d066ebebb79c10",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "氷河期世代の逆襲！「会社は副業」を公言！新時代の『FREE』な働き方",
+      "url": "https://www.kenbiya.com/ar/cl/sorim/59.html",
+      "published": "2026-05-22T00:00:00+09:00",
+      "fetched": "2026-05-21T23:14:36.863735+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "sorim",
+      "source_type": "scrape_kenbiya"
+    },
+    {
       "id": "59173039da95a2aa",
       "feed_id": "f8c882c05df3",
       "feed_title": "himaginary’s diary",
@@ -967,20 +981,6 @@
       "source_type": "rss"
     },
     {
-      "id": "688479ac732c8dc2",
-      "feed_id": "9d6a8f89fa83",
-      "feed_title": "健美家 コラム&ニュース",
-      "category": "不動産",
-      "title": "会社員を辞めるために必要だった考え方。レスポンスが早いこ...大家対談 ANMAさん×ハリー（張...",
-      "url": "https://www.kenbiya.com/ar/cl/taidan/tc-372/373.html",
-      "published": null,
-      "fetched": "2026-05-19T10:03:05.210971+00:00",
-      "summary": "",
-      "content_html": null,
-      "author": "taidan",
-      "source_type": "scrape_kenbiya"
-    },
-    {
       "id": "e11f62427ad636cb",
       "feed_id": "d976d70a8e8a",
       "feed_title": "【不動産投資】訳あり物件再生の方法が面白いほどよくわかるブログ",
@@ -1091,6 +1091,20 @@
       "content_html": "<p>　晴れ。</p>\n<p>　エコノミストより。白川方明さんの寄稿。人口減少のコストを最小化する方法について。</p>\n<p>　人口減少が経済に与えるインパクトが深刻な問題として日本で議論になったのは、</p>\n<p>わずかここ数年のことだ。日本の人口は2008年にピークを迎えたが、人口減少のフロントランナーだった。しかし、国連によると、63か国の人口は減少しつつある。この中には中国やドイツ、ロシアや韓国も含まれる。</p>\n<p>　人口減少が懸念すべきことなのかが、ここでいう中心的な問いである。</p>\n<p>　フィナンシャル・タイムズのマーチン・ウルフ氏は実は人口減少を恐れる、強い理由はないと論じている。むしろ、出生率が1を切ることこそが、本当に問題なのだと彼は書いている。こうした議論は共通のことだ。</p>\n<p>　このやや楽観的な見方を評価するにあたり、2つの根本的な問いに向き合う必要がある。</p>\n<p>　一つは、生産性の成長率が加速するか、少なくとも横ばいであると期待するのは理由のあることなのかどうか。もう一つは、出生率は今後もすべての国において、安定的な水準であり続けるのか。</p>\n<p>　最初の問いは、労働力人口の減少のインパクトが、その分テクノロジーの発展、たとえばAIやロボティクスで補えるのかどうかだ。これは1980年代、私が若きエコノミストだったとき以来、ずっと日本で議論されてきた問題だ。</p>\n<p>　私のますます大きくなっている疑問は、人口減少が加速する中で、生産性の成長がフィージブルなのかどうかだ。私が疑問を抱く理由の一つは、高齢者民主主義の影響だ。高齢者有権者は、投票において、基礎研究や高等教育よりも社会保障給付を選好する。</p>\n<p>　<a href=\"https://www.economist.com/by-invitation/2026/05/18/how-to-minimise-the-cost-of-a-falling-population\" target=\"_blank\">https://www.economist.com/by-invitation/2026/05/18/how-to-minimise-the-cost-of-a-falling-population</a></p>\n<p>　</p>",
       "author": "tennis575",
       "source_type": "rss"
+    },
+    {
+      "id": "688479ac732c8dc2",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "会社員を辞めるために必要だった考え方。レスポンスが早いことの効用【第2回】",
+      "url": "https://www.kenbiya.com/ar/cl/taidan/tc-372/373.html",
+      "published": "2026-05-19T00:00:00+09:00",
+      "fetched": "2026-05-19T10:03:05.210971+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "taidan",
+      "source_type": "scrape_kenbiya"
     },
     {
       "id": "ad017178e48c6418",
@@ -9997,10 +10011,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-21T21:47:12.846673+00:00",
+  "last_updated": "2026-05-21T23:14:40.827673+00:00",
   "stats": {
-    "total": 714,
-    "fetched_just_now": 1258,
+    "total": 715,
+    "fetched_just_now": 1255,
     "feeds_success": 81,
     "feeds_failed": 0
   }

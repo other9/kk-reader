@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "7cb8a60dd349701c",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】今回購入の物件…経産省が認める範囲でガス切り替えの謝礼出る？以前と同じ金額にはならなくとも、謝礼で給湯器やエアコンが調達可能？",
+      "url": "https://www.rakumachi.jp/news/practical/399385",
+      "published": "2026-05-23T00:00:00+09:00",
+      "fetched": "2026-05-22T16:33:58.643618+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "ゆたちゃん",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "e875366c6963d615",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -418,6 +432,34 @@
       "summary": "",
       "content_html": null,
       "author": "定年大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "e68a144ce4f5b1b3",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】不動産投資の目的は「給料から住宅ローンを払わない」こと住居費ゼロを実現した賃貸併用住宅のリアル",
+      "url": "https://www.rakumachi.jp/news/practical/399480",
+      "published": "2026-05-22T00:00:00+09:00",
+      "fetched": "2026-05-22T16:33:58.643629+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "北国の大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "80696929aff27fff",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】「在庫がない」は本当？現場で感じるナフサショックの裏事情買い占めと出し惜ろし？パニックの裏で起きている業者格差",
+      "url": "https://www.rakumachi.jp/news/practical/399479",
+      "published": "2026-05-22T00:00:00+09:00",
+      "fetched": "2026-05-22T16:33:58.643634+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "元地方銀行員大家",
       "source_type": "scrape_rakumachi"
     },
     {
@@ -10333,9 +10375,9 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-22T13:54:32.517844+00:00",
+  "last_updated": "2026-05-22T16:34:08.998616+00:00",
   "stats": {
-    "total": 738,
+    "total": 741,
     "fetched_just_now": 1257,
     "feeds_success": 81,
     "feeds_failed": 0

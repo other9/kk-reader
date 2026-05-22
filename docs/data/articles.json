@@ -43,6 +43,20 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "8d12607f162129a8",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "引越し半額。即日開通Wi-Fi。逆利回り２％の貸家で幸運。",
+      "url": "https://www.kenbiya.com/ar/cl/cashflow101/418.html",
+      "published": "2026-05-23T00:00:00+09:00",
+      "fetched": "2026-05-22T23:15:34.893515+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "cashflow101",
+      "source_type": "scrape_kenbiya"
+    },
+    {
       "id": "e875366c6963d615",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -10403,11 +10417,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-22T21:21:26.238298+00:00",
+  "last_updated": "2026-05-22T23:15:49.585853+00:00",
   "stats": {
-    "total": 743,
-    "fetched_just_now": 1255,
-    "feeds_success": 81,
-    "feeds_failed": 0
+    "total": 744,
+    "fetched_just_now": 1244,
+    "feeds_success": 78,
+    "feeds_failed": 3
   }
 }

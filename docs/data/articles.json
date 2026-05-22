@@ -2385,7 +2385,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走「お客様の利益にならない」と退職を決意、今後はトラブル増？",
+      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走",
       "url": "https://www.rakumachi.jp/news/column/398760",
       "published": "2026-05-17T00:00:00+09:00",
       "fetched": "2026-05-17T11:21:47.531440+00:00",
@@ -10375,11 +10375,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-22T16:34:08.998616+00:00",
+  "last_updated": "2026-05-22T20:03:33.040450+00:00",
   "stats": {
     "total": 741,
-    "fetched_just_now": 1257,
-    "feeds_success": 81,
-    "feeds_failed": 0
+    "fetched_just_now": 1243,
+    "feeds_success": 79,
+    "feeds_failed": 2
   }
 }

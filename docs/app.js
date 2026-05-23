@@ -12,6 +12,25 @@ const STORAGE = {
 
 const PAGE_SIZE = 100;
 
+// Category color palette — hash-assigned per category name for stable coloring
+const CAT_PALETTE = [
+  "#1A73E8", // blue
+  "#E91E63", // pink
+  "#009688", // teal
+  "#FF6D00", // deep orange
+  "#7B1FA2", // purple
+  "#00897B", // green-teal
+  "#0288D1", // light blue
+  "#F4511E", // red-orange
+];
+
+function getCatColor(cat) {
+  if (!cat || cat === "__all" || cat === "__fav") return null;
+  let h = 0;
+  for (let i = 0; i < cat.length; i++) h = (h * 31 + cat.charCodeAt(i)) >>> 0;
+  return CAT_PALETTE[h % CAT_PALETTE.length];
+}
+
 // ---- State ----
 // read/favs は Map<articleId, {state: 0|1, ts: number}>
 //   state: 1 = 既読/お気に入り, 0 = 明示的に解除した(同期で重要)
@@ -184,6 +203,76 @@ function fmtDate(iso) {
   } catch { return "—"; }
 }
 
+function renderToC(unreadByCat, totalUnread) {
+  const bar = document.getElementById("toc-bar");
+  if (!bar) return;
+
+  if (unreadByCat === undefined) {
+    unreadByCat = {};
+    totalUnread = 0;
+    for (const a of state.articles) {
+      if (isRead(a.id)) continue;
+      totalUnread++;
+      unreadByCat[a.category] = (unreadByCat[a.category] || 0) + 1;
+    }
+  }
+
+  bar.innerHTML = "";
+
+  // "All" pill
+  const allPill = makeTocPill("__all", "すべて", null, totalUnread,
+    state.filters.category === "__all" && !state.filters.feedId);
+  allPill.addEventListener("click", () => selectCategory("__all"));
+  bar.appendChild(allPill);
+
+  // Category pills in sidebar order
+  const orderHint = ["金融・経済・投資", "不動産", "ブログ", "Fx", "未分類"];
+  const allCats = state.categories.length ? state.categories : Object.keys(state.feedsByCategory);
+  const sorted = [...allCats].sort((a, b) => {
+    const ai = orderHint.indexOf(a), bi = orderHint.indexOf(b);
+    if (ai !== -1 && bi !== -1) return ai - bi;
+    if (ai !== -1) return -1;
+    if (bi !== -1) return 1;
+    return (unreadByCat[b] || 0) - (unreadByCat[a] || 0);
+  });
+
+  for (const cat of sorted) {
+    const count = unreadByCat[cat] || 0;
+    const isActive = state.filters.category === cat && !state.filters.feedId;
+    const pill = makeTocPill(cat, cat, getCatColor(cat), count, isActive);
+    pill.addEventListener("click", () => selectCategory(cat));
+    bar.appendChild(pill);
+  }
+}
+
+function makeTocPill(catKey, label, color, count, isActive) {
+  const btn = document.createElement("button");
+  btn.className = "toc-pill";
+  btn.dataset.cat = catKey;
+  if (isActive) btn.dataset.active = "true";
+  if (color) btn.style.setProperty("--cat-color", color);
+
+  if (color) {
+    const dot = document.createElement("span");
+    dot.className = "toc-dot";
+    btn.appendChild(dot);
+  }
+
+  const name = document.createElement("span");
+  name.className = "toc-name";
+  name.textContent = label;
+  btn.appendChild(name);
+
+  if (count > 0) {
+    const badge = document.createElement("span");
+    badge.className = "toc-count";
+    badge.textContent = count;
+    btn.appendChild(badge);
+  }
+
+  return btn;
+}
+
 function renderCategoryList() {
   const list = document.getElementById("category-list");
   list.innerHTML = "";
@@ -229,6 +318,8 @@ function renderCategoryList() {
     btn.querySelector(".cat-caret").textContent = "▶";
     btn.querySelector(".cat-name").textContent = cat;
     btn.querySelector(".cat-count").textContent = unreadByCat[cat] || 0;
+    const catColor = getCatColor(cat);
+    if (catColor) btn.style.setProperty("--cat-color", catColor);
 
     if (state.filters.category === cat && !state.filters.feedId) {
       btn.dataset.active = "true";
@@ -276,6 +367,8 @@ function renderCategoryList() {
         }
         fbtn.querySelector(".feed-name").textContent = f.title;
         fbtn.querySelector(".feed-count").textContent = unreadByFeed[f.id] || 0;
+        const feedColor = getCatColor(cat);
+        if (feedColor) fbtn.style.setProperty("--cat-color", feedColor);
         fbtn.addEventListener("click", () => selectFeed(f.id));
         feedListWrap.appendChild(fnode);
       }
@@ -288,11 +381,16 @@ function renderCategoryList() {
     el.dataset.active = (el.dataset.cat === state.filters.category && !state.filters.feedId)
       ? "true" : "false";
   });
+
+  renderToC(unreadByCat, totalUnread);
 }
 
 function renderArticleList() {
   const list = document.getElementById("article-list");
-  list.innerHTML = "";
+  // Preserve .toc-bar, remove everything else
+  Array.from(list.children).forEach(el => {
+    if (!el.classList.contains("toc-bar")) el.remove();
+  });
 
   if (state.visible.length === 0) {
     const empty = document.createElement("div");
@@ -325,7 +423,10 @@ function appendArticleRows() {
     row.dataset.selected = state.selectedId === a.id ? "true" : "false";
 
     row.querySelector(".row-source").textContent = a.feed_title;
-    row.querySelector(".row-cat").textContent = a.category;
+    const rowCatEl = row.querySelector(".row-cat");
+    rowCatEl.textContent = a.category;
+    const rowCatColor = getCatColor(a.category);
+    if (rowCatColor) rowCatEl.style.setProperty("--cat-color", rowCatColor);
     row.querySelector(".row-date").textContent = fmtDate(a.published || a.fetched);
     row.querySelector(".row-title").textContent = a.title;
     row.querySelector(".row-summary").textContent = a.summary || "";

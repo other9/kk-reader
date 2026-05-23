@@ -1,112 +1,188 @@
-# kk-reader
+# CLAUDE.md — kk-reader
 
-個人専用 RSS リーダー。Cloudflare Pages + Workers + KV + GitHub Actions による
-4 層構成。本ファイルは Claude Code(repo ベースのアシスタント)が最初に読む
-エントリポイント。詳細は `knowledge/` 配下のドキュメントを参照すること。
+Claude Code がこのリポジトリを開いたときに自動で読み込む設定ファイル。
 
-## ドキュメントの読み順
+---
 
-| ファイル | 内容 |
+## プロジェクト概要
+
+Feedly の代替として作った個人用 RSS リーダー。サーバー不要・無料枠で完結。
+
+- **更新**: GitHub Actions（2時間ごと、`:07` に実行）
+- **配信**: GitHub Pages（`other9.github.io/kk-reader`）
+- **同期**: Cloudflare Worker `kk-sync`（既読/お気に入り・記事取得・プロキシ）
+
+---
+
+## アーキテクチャ
+
+```
+GitHub Actions (2時間ごと cron: "7 */2 * * *")
+  scripts/fetch_feeds.py
+    ├── opml/subscriptions.opml → feeds.json
+    └── 各フィード取得
+        ├── 通常フィード: 直接HTTP
+        └── via_worker: true のフィード: kk-sync /fetch 経由（WAF回避）
+  → docs/data/feeds.json, articles.json をコミット
+  → GitHub Pages が自動配信
+
+ブラウザ (SPA)
+  docs/index.html + app.js + style.css
+  docs/sync.js → kk-sync Worker と通信
+    - 既読/お気に入り: localStorage ↔ Worker /state/diff (LWW merge)
+    - 記事本文: Worker /article（KVキャッシュ30日）
+```
+
+---
+
+## ディレクトリ構成
+
+```
+docs/                    # GitHub Pages 公開ディレクトリ
+  index.html
+  app.js
+  style.css
+  sync.js                # SyncClient（Worker通信・マジックリンク認証）
+  data/
+    feeds.json           # フィード一覧（Actions自動更新）
+    articles.json        # 記事キャッシュ（Actions自動更新）
+scripts/
+  fetch_feeds.py         # フィード取得メイン
+  opml_to_feeds.py       # OPML → feeds.json 変換
+  adapters/
+    base.py              # SourceAdapter 基底クラス
+    rss_adapter.py       # RSS取得
+opml/
+  subscriptions.opml     # 購読リスト（手動編集）
+worker/
+  worker.js              # kk-sync Cloudflare Worker
+  wrangler.toml          # Worker設定（KV: STATE）
+```
+
+---
+
+## kk-sync Worker エンドポイント
+
+ホスト: `https://kk-sync.other9.workers.dev`
+認証: `Authorization: Bearer <SYNC_SECRET>`
+
+| エンドポイント | メソッド | 用途 |
+|---|---|---|
+| `/ping` | GET | ヘルスチェック |
+| `/state` | GET | 既読/お気に入り全取得 |
+| `/state/diff` | POST | 差分を LWW マージ |
+| `/article?url=X` | GET | 記事本文抽出+KVキャッシュ（30日） |
+| `/fetch?url=X` | GET | 生HTMLプロキシ（WAF回避、キャッシュなし） |
+
+### CORS 許可オリジン
+- `https://other9.github.io`
+- `https://kk-reader.pages.dev`
+- `https://*.kk-reader.pages.dev`（preview）
+- `http://localhost:8765`
+
+---
+
+## 認証設計
+
+**Worker認証**: Bearer トークン（SYNC_SECRET）のみ。個人用途として適切。
+
+**フロントエンド認証**:
+- localStorage に `kkreader.syncToken` として保存
+- マジックリンク: `?token=xxx` → localStorage に保存 → URL から即削除（history.replaceState）
+- トークン未設定時は同期機能が無効（読み取り専用で動作）
+
+**GitHub Actions**: `WORKER_TOKEN`（SYNC_SECRET と同値）で `/fetch` を利用。
+
+---
+
+## GitHub Secrets（必須）
+
+| Secret名 | 用途 |
 |---|---|
-| `knowledge/00_README.md` | プロジェクト概要、現状サマリ、ユーザーについて |
-| `knowledge/10_ARCHITECTURE.md` | 4 層構成、データフロー、技術スタック |
-| `knowledge/20_OPERATIONS.md` | 運用フロー、ZIP 配信、適用手順 |
-| `knowledge/30_DESIGN_TOKENS.md` | UI 設計トークン(カラー、フォント、breakpoint) |
-| `knowledge/40_KNOWN_ISSUES.md` | 既知の問題と過去解決済み課題 |
-| `knowledge/50_ROADMAP.md` | 計画中の機能と購読候補 |
-| `knowledge/60_MIGRATION_RUNBOOK.md` | Cloudflare Pages 移行記録(Phase 0〜4 完了) |
+| `WORKER_TOKEN` | kk-sync Worker 認証（SYNC_SECRETと同値） |
 
-最新の進行状況は `00_README.md` の "現在の状況" 節に集約されている。
+---
 
-## このリポジトリで一番大事な約束事
+## fetch_feeds.py 設定値
 
-### 1. localStorage の sync token key
+```python
+RETENTION_DAYS = 30      # 記事保持日数
+MAX_WORKERS = 12         # 並列取得スレッド数
+DISABLE_AFTER_FAILURES = 10  # 連続失敗で自動無効化
+```
 
-`docs/sync.js` の `SYNC_STORAGE.token` の値、すなわち
-**`kkreader.syncToken`** が正。過去のドキュメントには `kk-sync-token` という
-誤記が残っていた時期があったため、新しい patch を書く前は実コードを `cat
-docs/sync.js` で確認すること。
+---
 
-### 2. commit message に `[skip ci]` の文字列を含めない
+## Cloudflare KV
 
-Cloudflare Pages は commit message に対して **substring match で `[skip ci]`
-を検出して build を skip する**(意図的な仕様)。「`[skip ci]` を解除する」
-旨の commit を書いてもその commit 自身が skip されるという罠がある。説明的に
-言い換えること(例: `chore: enable Cloudflare Pages auto-rebuild on cron commits`)。
+- Namespace: `STATE`（ID: `bcc0dd025aa34897b44a83f13ce88973`）
+- 用途: 既読/お気に入り状態、記事本文キャッシュ
+- キャッシュキー形式: `article:v3:<url_sha256_32char>`（v3: update-015でbump）
 
-### 3. Worker 変更時の smoke test は必須
+---
 
-`worker/worker.js` を変更したら `wrangler deploy` 直後に必ず以下の 4 点を
-curl で確認:
-- `/ping`(疎通)
-- `/article`(健美家既知 URL での本文抽出)
-- `/fetch`(楽待プロキシ取得)
-- CORS preflight(`https://kk-reader.pages.dev` Origin で OPTIONS)
+## GitHub Actions ワークフロー設計
 
-具体コマンドは `knowledge/20_OPERATIONS.md` の「Worker 変更時の smoke test」節。
-TOKEN が ASCII 範囲外文字 or placeholder のままにならないよう
-事前チェックも同節に記載されている。
+```yaml
+cron: "7 */2 * * *"   # :00/:15/:30/:45 を避けてキュー遅延を緩和
+concurrency:
+  group: fetch-feeds
+  cancel-in-progress: false  # 実行中のものは止めない
+timeout-minutes: 15
+```
 
-### 4. スクレイピング系を弄る前に実 HTML を見る
+### push リトライ（update-018）
+non-fast-forward reject 時の戦略:
+1. 通常 push を試行
+2. reject → データファイルを退避 → reset --hard origin/main → 復元 → 再 commit
+3. 最大3回。bot生成データを常に「現時点の真」として採用
 
-adapter (`scripts/adapters/*.py`) や Worker `/article` の selector を修正する
-時は、推測ベースの heuristic を書く前に Worker `/fetch` で実 HTML を取り
-寄せて DOM 構造を確認すること。これを省くと複数ターン修正を繰り返す。
-手順は `knowledge/20_OPERATIONS.md` の「スクレイピング系修正時は実 HTML を
-見てから」節。
+---
 
-### 5. feeds.json の構造
+## やってはいけないこと
 
-`docs/data/feeds.json` の top-level は **`{"feeds": [...]}` の dict 構造**
-で、直接 list ではない。migration script を書く前に必ず実物を確認すること
-(過去 update-016.1 で AttributeError 事故あり)。
+- worker.js の void elements（`img`, `br`, `input` 等）に `onEndTag()` を登録しない（Cloudflare Workers HTMLRewriter がエラーを投げる）
+- キャッシュキーのバージョン（`article:v3:`）を理由なく変更しない（古いキャッシュが無効化される）
+- CORS の `ALLOWED_ORIGINS` に `*` を追加しない
+- `escapeText()` で既存のHTMLエンティティ（`&nbsp;` 等）を二重エンコードしない（update-015で修正済み）
+- GitHub Actions の cron を `:00` や `:15` に設定しない（混雑帯）
 
-### 6. ZIP 配信の規約
+---
 
-更新は `kk-reader-update-{NNN}-{slug}.zip` 形式。`UPDATE.md` を同梱して
-適用手順を明記する。ZIP 内はリポジトリルートを起点とした相対パス。
-適用後は `UPDATE.md` を削除する(`.gitignore` 済)。詳細は
-`knowledge/20_OPERATIONS.md` の「ZIP 配信パターン」節。
+## よく使うコマンド
 
-## 機密情報
+```bash
+# フィード取得を手動トリガー
+gh api repos/other9/kk-reader/actions/workflows/<ID>/dispatches -X POST -f ref=main
 
-リポジトリには絶対に置かない:
+# 最新コミット確認
+gh api repos/other9/kk-reader/commits?per_page=5 --jq '.[] | {sha: .sha[0:7], message: .commit.message, date: .commit.author.date}'
 
-- `SYNC_SECRET` — Cloudflare 側、`wrangler secret put` 経由で管理
-- `WORKER_TOKEN` — GitHub Actions Repository Secrets、`SYNC_SECRET` と同値で運用
-- `CLOUDFLARE_API_TOKEN` — GitHub Codespaces Secrets で管理
-- メールアドレス全般、Cloudflare account ID 以外の identifier
+# Worker ローカル開発
+cd worker && wrangler dev
 
-過去事故: `worker/.wrangler/cache/wrangler-account.json` がメアド込みで
-public リポジトリに混入し、`git filter-repo` で 23 commit から履歴削除する
-事態になった(2026-05-06)。`.gitignore` と `scripts/snapshot.py` の
-`EXCLUDE_TOKENS` で再発防止済み。
+# Worker デプロイ
+cd worker && wrangler deploy
 
-## このリポジトリの移管経緯
+# KV 状態確認
+wrangler kv key list --namespace-id bcc0dd025aa34897b44a83f13ce88973
+```
 
-このリポジトリの運用ドキュメントは元々 Claude.ai 上の Project Knowledge 機能
-で管理されていた。Claude Code はその Knowledge を参照できないため、
-2026-05-22 に全コンテンツを `knowledge/` 配下に取り込んだ(update-025)。
+---
 
-以降、`knowledge/` 配下が source of truth。更新はこのリポジトリへの commit を
-通じて行う。Claude.ai の Project Knowledge 側は不要となったため削除して構わない。
+## joto-property-report との連携
 
-snapshot ZIP(`scripts/snapshot.py`)に `knowledge/` と `CLAUDE.md` を含める
-には、`INCLUDE_PATHS` への追加が必要。詳細は本 update の `UPDATE.md` 参照。
+`kk-sync` Worker の `/fetch` エンドポイントは kk-reader 専用ではなく、
+`joto-property-report` の scraper.py も kenbiya スクレイピングに利用している。
 
-## ユーザーについて
+`SYNC_SECRET` = kk-reader の `WORKER_TOKEN` = joto-property-report の `WORKER_TOKEN`（同値）
 
-- 東京中央区在住、3 端末利用(PC / iPhone / Android)
-- 城東エリア中心の不動産投資、地政学・経済分析志向
-- 不動産投資の自動分析システムを自前で運用、wrangler/GitHub Actions 等への
-  基本理解あり
-- **ZIP 配信スタイルを好む**(コマンド列挙よりまとめて適用できるパッケージ形式)
-- 文書は構造的、歴史的・理論的に厚いものを好む
+---
 
-## 着手規律
+## 今後の改善候補
 
-`00_README.md` 末尾の self-check 節を必ず確認すること。「あったら便利」「ついで」
-で機能追加を始めると過剰化する。
-
-> 「frozen 化(機能追加停止、現状維持のみ)」もいつでも取れる正当な選択肢。
-> kk-reader はあくまで道具で、目的ではない。
+- [ ] articles.json 肥大化対策（ページネーション or 分割）
+- [ ] `/fetch` ボディサイズ上限の設定
+- [ ] HTMLRewriter チャンク分割問題の根本対処（update-016候補）
+- [ ] 複数デバイス間同期の動作確認（SyncClient の pull/push フロー）
+- [ ] 非RSSソース対応（メール、スクレイピング等のアダプター追加）

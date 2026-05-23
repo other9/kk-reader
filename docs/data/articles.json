@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "04db40bd3163b4cf",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】初心者が不動産投資で最初に知るべき３つの現実サラリーマン大家（初心者）向けに、よくある勘違いを指摘してみた",
+      "url": "https://www.rakumachi.jp/news/practical/397334",
+      "published": "2026-05-24T00:00:00+09:00",
+      "fetched": "2026-05-23T15:14:03.208063+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "リーマンまさゆき",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "8973c85b7b007fb9",
       "feed_id": "5acee72b6150",
       "feed_title": "金融の未来を考えるブログ",
@@ -10725,11 +10739,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-23T13:59:20.392823+00:00",
+  "last_updated": "2026-05-23T15:14:08.154140+00:00",
   "stats": {
-    "total": 766,
+    "total": 767,
     "fetched_just_now": 1254,
-    "feeds_success": 80,
-    "feeds_failed": 1
+    "feeds_success": 81,
+    "feeds_failed": 0
   }
 }

@@ -9605,11 +9605,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-24T07:38:45.280550+00:00",
+  "last_updated": "2026-05-24T08:10:48.358897+00:00",
   "stats": {
     "total": 686,
-    "fetched_just_now": 1315,
-    "feeds_success": 81,
-    "feeds_failed": 0
+    "fetched_just_now": 717,
+    "feeds_success": 77,
+    "feeds_failed": 4
   }
 }

@@ -141,6 +141,34 @@
       "source_type": "scrape_kenbiya"
     },
     {
+      "id": "788487a478edce51",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】地雷回収班⑯　Vカットしたら、部屋に貫通した窓を潰した代償",
+      "url": "https://www.rakumachi.jp/news/practical/399491",
+      "published": "2026-05-24T00:00:00+09:00",
+      "fetched": "2026-05-24T07:12:20.011523+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "じゅんじゅん",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "540dad6d00676750",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】転売業者にイラッとした話このモヤモヤとした感情は何だろうか？",
+      "url": "https://www.rakumachi.jp/news/practical/399517",
+      "published": "2026-05-24T00:00:00+09:00",
+      "fetched": "2026-05-24T07:12:20.011535+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "億トレ大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "52a221fe9113ea30",
       "feed_id": "05346fda1ff2",
       "feed_title": "英字紙ウォッチング",
@@ -2245,7 +2273,7 @@
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
       "category": "不動産",
-      "title": "地雷回収班⑭１０００万級の地雷爆発か？水道局交渉",
+      "title": "地雷回収班⑮１０００万級の地雷爆発か？水道局交渉",
       "url": "https://www.rakumachi.jp/news/practical/399044",
       "published": "2026-05-19T00:00:00+09:00",
       "fetched": "2026-05-19T16:55:07.124030+00:00",
@@ -2889,7 +2917,7 @@
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
       "category": "不動産",
-      "title": "【実践大家コラム】再建築不可の物件を買ったら、再建築できた件買主のラッキーは、売主のアンラッキー",
+      "title": "再建築不可の物件を買ったら、再建築できた件",
       "url": "https://www.rakumachi.jp/news/practical/398994",
       "published": "2026-05-17T00:00:00+09:00",
       "fetched": "2026-05-17T08:31:44.310885+00:00",
@@ -9577,11 +9605,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-24T07:11:58.018747+00:00",
+  "last_updated": "2026-05-24T07:12:23.841329+00:00",
   "stats": {
-    "total": 684,
-    "fetched_just_now": 1256,
-    "feeds_success": 79,
-    "feeds_failed": 2
+    "total": 686,
+    "fetched_just_now": 1317,
+    "feeds_success": 81,
+    "feeds_failed": 0
   }
 }

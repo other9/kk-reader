@@ -2,6 +2,8 @@
 
 Claude Code がこのリポジトリを開いたときに自動で読み込む設定ファイル。
 
+最終更新: 2026-05-24
+
 ---
 
 ## プロジェクト概要
@@ -52,11 +54,14 @@ scripts/
   adapters/
     base.py              # SourceAdapter 基底クラス
     rss_adapter.py       # RSS取得
+tests/
+  test_adapters.py       # アダプター単体テスト（3件）
 opml/
   subscriptions.opml     # 購読リスト（手動編集）
 worker/
   worker.js              # kk-sync Cloudflare Worker
   wrangler.toml          # Worker設定（KV: STATE）
+pyproject.toml           # Ruff + pytest 設定
 ```
 
 ---
@@ -72,7 +77,7 @@ worker/
 | `/state` | GET | 既読/お気に入り全取得 |
 | `/state/diff` | POST | 差分を LWW マージ |
 | `/article?url=X` | GET | 記事本文抽出+KVキャッシュ（30日） |
-| `/fetch?url=X` | GET | 生HTMLプロキシ（WAF回避、キャッシュなし） |
+| `/fetch?url=X` | GET | 生HTMLプロキシ（WAF回避、5MBボディ上限） |
 
 ### CORS 許可オリジン
 - `https://other9.github.io`
@@ -123,6 +128,7 @@ DISABLE_AFTER_FAILURES = 10  # 連続失敗で自動無効化
 
 ## GitHub Actions ワークフロー設計
 
+### fetch-feeds.yml（メイン）
 ```yaml
 cron: "7 */2 * * *"   # :00/:15/:30/:45 を避けてキュー遅延を緩和
 concurrency:
@@ -131,11 +137,29 @@ concurrency:
 timeout-minutes: 15
 ```
 
-### push リトライ（update-018）
-non-fast-forward reject 時の戦略:
-1. 通常 push を試行
-2. reject → データファイルを退避 → reset --hard origin/main → 復元 → 再 commit
-3. 最大3回。bot生成データを常に「現時点の真」として採用
+push リトライ（update-018）: non-fast-forward reject 時、データを退避して reset --hard origin/main → 復元 → 再 commit。最大3回。
+
+### ci.yml（品質チェック）
+push のたびに自動実行（`docs/data/**` と `*.md` は除外）。
+
+---
+
+## 品質チェック（2026-05-24 追加）
+
+| ツール | 設定 | 対象 |
+|---|---|---|
+| Ruff | select = ["F", "E9"]、ユーティリティスクリプト除外 | scripts/fetch_feeds.py, adapters/ 等 |
+| pytest | testpaths = ["tests"]、pythonpath = ["scripts"] | tests/test_adapters.py（3件） |
+
+テスト内容:
+- `make_article_id()` の一貫性・GUID優先ロジック
+- `Article.to_dict()` フィールド検証
+
+```bash
+pip install -r requirements.txt
+ruff check .
+pytest tests/ --tb=short
+```
 
 ---
 
@@ -146,6 +170,7 @@ non-fast-forward reject 時の戦略:
 - CORS の `ALLOWED_ORIGINS` に `*` を追加しない
 - `escapeText()` で既存のHTMLエンティティ（`&nbsp;` 等）を二重エンコードしない（update-015で修正済み）
 - GitHub Actions の cron を `:00` や `:15` に設定しない（混雑帯）
+- `pyproject.toml` の exclude リストを削除しない（ユーティリティスクリプトがlintエラーになる）
 
 ---
 
@@ -153,7 +178,7 @@ non-fast-forward reject 時の戦略:
 
 ```bash
 # フィード取得を手動トリガー
-gh api repos/other9/kk-reader/actions/workflows/<ID>/dispatches -X POST -f ref=main
+gh workflow run fetch-feeds.yml --repo other9/kk-reader
 
 # 最新コミット確認
 gh api repos/other9/kk-reader/commits?per_page=5 --jq '.[] | {sha: .sha[0:7], message: .commit.message, date: .commit.author.date}'
@@ -166,6 +191,9 @@ cd worker && wrangler deploy
 
 # KV 状態確認
 wrangler kv key list --namespace-id bcc0dd025aa34897b44a83f13ce88973
+
+# lint + テスト
+ruff check . && pytest tests/ --tb=short
 ```
 
 ---
@@ -182,7 +210,7 @@ wrangler kv key list --namespace-id bcc0dd025aa34897b44a83f13ce88973
 ## 今後の改善候補
 
 - [ ] articles.json 肥大化対策（ページネーション or 分割）
-- [ ] `/fetch` ボディサイズ上限の設定
 - [ ] HTMLRewriter チャンク分割問題の根本対処（update-016候補）
 - [ ] 複数デバイス間同期の動作確認（SyncClient の pull/push フロー）
 - [ ] 非RSSソース対応（メール、スクレイピング等のアダプター追加）
+- [ ] pytest カバレッジ向上（現在 adapters/base.py のみ）

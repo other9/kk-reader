@@ -281,6 +281,20 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "296a40b0ed64e2e8",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】＃７２９　変わる環境と変える戦略の件～〇〇大家さんへ～",
+      "url": "https://www.rakumachi.jp/news/practical/399490",
+      "published": "2026-05-24T00:00:00+09:00",
+      "fetched": "2026-05-24T13:55:40.070310+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "ジュニア",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "52a221fe9113ea30",
       "feed_id": "05346fda1ff2",
       "feed_title": "英字紙ウォッチング",
@@ -1083,7 +1097,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "広大な私道なのに地積はわずか「470平米」…別荘地に潜む「地図混乱地域」のカラクリ法改正がない限り解消は無理？",
+      "title": "広大な私道なのに地積はわずか「470平米」…別荘地に潜む「地図混乱地域」のカラクリ",
       "url": "https://www.rakumachi.jp/news/column/399270",
       "published": "2026-05-22T00:00:00+09:00",
       "fetched": "2026-05-22T09:47:15.772804+00:00",
@@ -1475,7 +1489,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "「ついにマンション価格急落？」エコノミスト大家のコロナ買い場予想→空振りの全顛末マンション価格の8割は「4変数」で読める、空振りを経て磨いた精度80%の分析モデルとは",
+      "title": "「ついにマンション価格急落？」エコノミスト大家のコロナ買い場予想→空振りの全顛末",
       "url": "https://www.rakumachi.jp/news/column/398477",
       "published": "2026-05-21T00:00:00+09:00",
       "fetched": "2026-05-21T10:00:21.803185+00:00",
@@ -3071,7 +3085,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走「お客様の利益にならない」と退職を決意、今後はトラブル増？",
+      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走",
       "url": "https://www.rakumachi.jp/news/column/398760",
       "published": "2026-05-17T00:00:00+09:00",
       "fetched": "2026-05-17T11:21:47.531440+00:00",
@@ -9717,10 +9731,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-24T13:38:26.069914+00:00",
+  "last_updated": "2026-05-24T13:55:43.831742+00:00",
   "stats": {
-    "total": 694,
-    "fetched_just_now": 1319,
+    "total": 695,
+    "fetched_just_now": 1317,
     "feeds_success": 81,
     "feeds_failed": 0
   }

@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "4a9a9a19cbd3b17e",
+      "feed_id": "6c30fc2654fb",
+      "feed_title": "元官庁エコノミストのブログ",
+      "category": "金融・経済・投資",
+      "title": "立石選手の初ホームランが飛び出してジャイアンツを3タテ",
+      "url": "http://economist.cocolog-nifty.com/blog/2026/05/post-ca7e57.html",
+      "published": "2026-05-24T08:00:00+00:00",
+      "fetched": "2026-05-24T08:43:21.824786+00:00",
+      "summary": "一 二 三 四 五 六 七 八 九 R H E 阪 神 0 0 0 0 3 1 2 0 0 6 12 0 読 売 0 0 0 0 0 1 2 0 0 3 6 0 【神】 才木、及川、ドリス、岩崎 - 梅野 【読】 竹丸、田和、赤星、堀田 - 大城 投打がかみ合って、 ジャイアンツを3タテ でした。 先発才木投手は7回途中まで3失点と試合をまとめ、リリーフ陣の及川投手、ドリス投手、岩崎投手が完璧に抑えきりました。打線では梅野捕手の久しぶりのホームランで先制した後、 ドラ1ルーキー立石選手が初ホームラン をかっ飛ばし、その後も、ドラ1トリオが並んだクリンナッ…",
+      "content_html": "<p><a href=\"https://hanshintigers.jp/game/score/table/table20260524.html\" style=\"font-style: normal;\" target=\"_blank\"><table class=\"s-b\" title=\"スコアボード\"><tr class=\"sb1\"><td class=\"sb1\"> </td><td class=\"sb2\">一</td><td class=\"sb2\">二</td><td class=\"sb2\">三</td><td class=\"sb2\">四</td><td class=\"sb2\">五</td><td class=\"sb2\">六</td><td class=\"sb2\">七</td><td class=\"sb2\">八</td><td class=\"sb2\">九</td><td class=\"sb3\"> </td><td class=\"sb4\">R</td><td class=\"sb4\">H</td><td class=\"sb2\">E</td></tr><tr class=\"sb2\"><td>阪　　神</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>1</td><td>2</td><td>0</td><td>0</td><td class=\"sb3\"> </td><td>6</td><td>12</td><td>0</td></tr><tr class=\"sb2\"><td>読　　売</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td><td class=\"sb3\"> </td><td>3</td><td>6</td><td>0</td></tr></table></a><br />【神】 才木、及川、ドリス、岩崎 - 梅野<br />【読】 竹丸、田和、赤星、堀田 - 大城</p><p>投打がかみ合って、<span class=\"red\">ジャイアンツを3タテ</span>でした。<br />先発才木投手は7回途中まで3失点と試合をまとめ、リリーフ陣の及川投手、ドリス投手、岩崎投手が完璧に抑えきりました。打線では梅野捕手の久しぶりのホームランで先制した後、<span class=\"blue\">ドラ1ルーキー立石選手が初ホームラン</span>をかっ飛ばし、その後も、ドラ1トリオが並んだクリンナップで得点を重ね、危なげない勝利でした。</p><p>交流戦も、<br /><span class=\"tigers\">がんばれタイガース!</span></p>",
+      "author": "元官庁エコノミスト",
+      "source_type": "rss"
+    },
+    {
       "id": "20dca6a6cf5f348a",
       "feed_id": "5acee72b6150",
       "feed_title": "金融の未来を考えるブログ",
@@ -1377,7 +1391,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "「ついにマンション価格急落？」エコノミスト大家のコロナ買い場予想→空振りの全顛末",
+      "title": "「ついにマンション価格急落？」エコノミスト大家のコロナ買い場予想→空振りの全顛末マンション価格の8割は「4変数」で読める、空振りを経て磨いた精度80%の分析モデルとは",
       "url": "https://www.rakumachi.jp/news/column/398477",
       "published": "2026-05-21T00:00:00+09:00",
       "fetched": "2026-05-21T10:00:21.803185+00:00",
@@ -2973,7 +2987,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走",
+      "title": "利回り7％→4％、価格1億→5億…アパートメーカー元営業マンが見た「利益至上主義」の暴走「お客様の利益にならない」と退職を決意、今後はトラブル増？",
       "url": "https://www.rakumachi.jp/news/column/398760",
       "published": "2026-05-17T00:00:00+09:00",
       "fetched": "2026-05-17T11:21:47.531440+00:00",
@@ -9605,10 +9619,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-24T07:38:45.280550+00:00",
+  "last_updated": "2026-05-24T08:43:23.657715+00:00",
   "stats": {
-    "total": 686,
-    "fetched_just_now": 1315,
+    "total": 687,
+    "fetched_just_now": 1317,
     "feeds_success": 81,
     "feeds_failed": 0
   }

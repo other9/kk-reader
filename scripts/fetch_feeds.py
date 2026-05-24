@@ -31,7 +31,7 @@ ARTICLES_PATH = DATA_DIR / "articles.json"
 #   本石町日記、CFA学習方法Tips 等)が articles.json 内で 0〜1 件になり実質
 #   見えない。60 日で半年分の最近 posts が visible になる。size 影響は +40%
 #   程度(493 → ~700 件)でモバイルでも問題ない範囲。
-RETENTION_DAYS = 60          # 何日分の記事を保持するか
+RETENTION_DAYS = 30          # 何日分の記事を保持するか
 MAX_WORKERS = 12             # 並列取得数
 DISABLE_AFTER_FAILURES = 10  # 連続失敗回数で自動無効化
 

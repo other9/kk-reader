@@ -35,9 +35,11 @@ Feedlyの代替として動作する、AI拡張可能な個人用RSSリーダー
 ```
 kk-reader/
 ├── .github/workflows/
-│   └── fetch-feeds.yml      # 取得ワークフロー
+│   ├── fetch-feeds.yml      # 取得ワークフロー（2時間ごと）
+│   ├── ci.yml               # 品質チェック（push時）
+│   └── dependabot.yml       # 依存関係自動更新
 ├── docs/                     # GitHub Pages公開ディレクトリ
-│   ├── index.html           # UI
+│   ├── index.html
 │   ├── app.js
 │   ├── style.css
 │   └── data/
@@ -51,9 +53,14 @@ kk-reader/
 │   └── adapters/            # ソース別アダプター
 │       ├── base.py          # 基底クラス
 │       └── rss_adapter.py   # RSS取得
+├── tests/
+│   └── test_adapters.py     # 単体テスト（3件）
+├── worker/
+│   ├── worker.js            # kk-sync Cloudflare Worker
+│   └── wrangler.toml
+├── pyproject.toml           # Ruff + pytest 設定
 ├── requirements.txt
-├── README.md
-└── SETUP.md                  # ⭐ デプロイ手順はこちらを参照
+└── SETUP.md                  # デプロイ手順
 ```
 
 ## 設定値の調整
@@ -66,18 +73,17 @@ kk-reader/
 | `MAX_WORKERS` | 12 | 並列取得スレッド数 |
 | `DISABLE_AFTER_FAILURES` | 10 | 連続失敗で自動無効化する閾値 |
 
-`.github/workflows/fetch-feeds.yml` の `cron` で取得頻度を変更可。
+## 品質チェック
 
-## 既存購読の更新
+```bash
+pip install -r requirements.txt
+ruff check .          # lint（F + E9 ルール）
+pytest tests/ -v      # 単体テスト（3件）
+```
 
-新しいフィードをFeedlyからエクスポートしたOPMLで置き換える場合:
-
-1. 新しいOPMLを `opml/subscriptions.opml` に上書きしてコミット
-2. GitHub Actionsが自動で `feeds.json` を再構築する(既存の取得状態は維持)
+push のたびに CI が自動実行されます（`docs/data/**` 更新時は除外）。
 
 ## 将来拡張: 非RSSソースの追加
-
-たとえばメール経由のニュースレター取り込みを追加する場合:
 
 ```python
 # scripts/adapters/email_adapter.py
@@ -90,7 +96,7 @@ class EmailAdapter(SourceAdapter):
         ...
 ```
 
-`adapters/__init__.py` の `ADAPTERS` 辞書に登録するだけで、`feeds.json` の `source_type: "email"` エントリが自動的に処理されるようになります。
+`adapters/__init__.py` の `ADAPTERS` 辞書に登録するだけで自動処理されます。
 
 ## デプロイ手順
 

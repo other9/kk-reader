@@ -402,7 +402,7 @@ async function handleArticle(request, env, origin) {
  *
  * ノート:
  *   - キャッシュは付けない(listing は更新頻度が高く、cache stale を避ける)
- *   - body サイズの上限はかけない(現状)。将来必要なら調整。
+ *   - body サイズ上限: 5MB (MAX_BODY_BYTES)。Content-Length チェック + 読み込み後スライスの二段構え。
  */
 async function handleFetch(request, env, origin) {
   const url = new URL(request.url);
@@ -436,9 +436,19 @@ async function handleFetch(request, env, origin) {
     }, 502, origin);
   }
 
+  const MAX_BODY_BYTES = 5 * 1024 * 1024; // 5 MB
+  const contentLength = Number(r.headers.get("content-length") || 0);
+  if (contentLength > MAX_BODY_BYTES) {
+    return jsonResponse({
+      url: target, status: r.status, fetched_at: fetchedAt,
+      error: esponse too large:  bytes,
+    }, 413, origin);
+  }
+
   let body;
   try {
     body = await r.text();
+    if (body.length > MAX_BODY_BYTES) body = body.slice(0, MAX_BODY_BYTES);
   } catch (e) {
     return jsonResponse({
       url: target,

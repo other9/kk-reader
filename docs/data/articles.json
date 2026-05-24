@@ -239,6 +239,48 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "9ac1391a38ad9084",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】「もっと働け」という会社に盾突く理由出世リスクを冷徹に計算！平均点平社員を死守する思考法",
+      "url": "https://www.rakumachi.jp/news/practical/399530",
+      "published": "2026-05-24T00:00:00+09:00",
+      "fetched": "2026-05-24T13:38:22.552727+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "元地方銀行員大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "0a05bf8d593b0627",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】№321、kazu21599土地買えちゃったかな？前編～運とご縁とタイミング…やっぱりご縁があれば転がってくる～",
+      "url": "https://www.rakumachi.jp/news/practical/396311",
+      "published": "2026-05-24T00:00:00+09:00",
+      "fetched": "2026-05-24T13:38:22.552738+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "kazu21599",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "258b17103837b02e",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】異変。低稼働の長いトンネルを抜けられない。ちょっと状況が良くない。",
+      "url": "https://www.rakumachi.jp/news/practical/398925",
+      "published": "2026-05-24T00:00:00+09:00",
+      "fetched": "2026-05-24T13:38:22.552744+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "ハピくま@リーマン大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "52a221fe9113ea30",
       "feed_id": "05346fda1ff2",
       "feed_title": "英字紙ウォッチング",
@@ -9675,11 +9717,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-24T11:36:57.619028+00:00",
+  "last_updated": "2026-05-24T13:38:26.069914+00:00",
   "stats": {
-    "total": 691,
-    "fetched_just_now": 1320,
-    "feeds_success": 80,
-    "feeds_failed": 1
+    "total": 694,
+    "fetched_just_now": 1319,
+    "feeds_success": 81,
+    "feeds_failed": 0
   }
 }

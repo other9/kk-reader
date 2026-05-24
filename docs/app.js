@@ -31,6 +31,19 @@ function getCatColor(cat) {
   return CAT_PALETTE[h % CAT_PALETTE.length];
 }
 
+// Category group sort — prefix before ／ defines the group
+const CATEGORY_GROUP_ORDER = ["金融", "不動産", "海外", "ブログ"];
+function getGroupOrder(cat) {
+  const prefix = (cat || "").split("／")[0];
+  const i = CATEGORY_GROUP_ORDER.indexOf(prefix);
+  return i === -1 ? CATEGORY_GROUP_ORDER.length : i;
+}
+
+// 記事のカテゴリは保存時点の値なのでフィード側の現行値で上書きして返す
+function getArticleCategory(a) {
+  return state.feedsById[a.feed_id]?.category || a.category || "未分類";
+}
+
 // ---- State ----
 // read/favs は Map<articleId, {state: 0|1, ts: number}>
 //   state: 1 = 既読/お気に入り, 0 = 明示的に解除した(同期で重要)
@@ -171,7 +184,7 @@ function applyFilters() {
     } else {
       // カテゴリレベル
       if (category && category !== "__all" && category !== "__fav") {
-        if (a.category !== category) return false;
+        if (getArticleCategory(a) !== category) return false;
       }
     }
 
@@ -180,7 +193,7 @@ function applyFilters() {
 
     // 検索
     if (q) {
-      const hay = `${a.title} ${a.feed_title} ${a.category}`.toLowerCase();
+      const hay = `${a.title} ${a.feed_title} ${getArticleCategory(a)}`.toLowerCase();
       if (!hay.includes(q)) return false;
     }
 
@@ -213,7 +226,7 @@ function renderToC(unreadByCat, totalUnread) {
     for (const a of state.articles) {
       if (isRead(a.id)) continue;
       totalUnread++;
-      unreadByCat[a.category] = (unreadByCat[a.category] || 0) + 1;
+      unreadByCat[getArticleCategory(a)] = (unreadByCat[getArticleCategory(a)] || 0) + 1;
     }
   }
 
@@ -225,14 +238,11 @@ function renderToC(unreadByCat, totalUnread) {
   allPill.addEventListener("click", () => selectCategory("__all"));
   bar.appendChild(allPill);
 
-  // Category pills in sidebar order
-  const orderHint = ["金融・経済・投資", "不動産", "ブログ", "Fx", "未分類"];
-  const allCats = state.categories.length ? state.categories : Object.keys(state.feedsByCategory);
+  // Category pills — group-aware sort (金融→不動産→海外→ブログ), then by unread count
+  const allCats = Object.keys(state.feedsByCategory);
   const sorted = [...allCats].sort((a, b) => {
-    const ai = orderHint.indexOf(a), bi = orderHint.indexOf(b);
-    if (ai !== -1 && bi !== -1) return ai - bi;
-    if (ai !== -1) return -1;
-    if (bi !== -1) return 1;
+    const gd = getGroupOrder(a) - getGroupOrder(b);
+    if (gd !== 0) return gd;
     return (unreadByCat[b] || 0) - (unreadByCat[a] || 0);
   });
 
@@ -286,7 +296,7 @@ function renderCategoryList() {
   for (const a of state.articles) {
     if (isRead(a.id)) continue;
     totalUnread++;
-    unreadByCat[a.category] = (unreadByCat[a.category] || 0) + 1;
+    unreadByCat[getArticleCategory(a)] = (unreadByCat[getArticleCategory(a)] || 0) + 1;
     unreadByFeed[a.feed_id] = (unreadByFeed[a.feed_id] || 0) + 1;
   }
   document.getElementById("count-all").textContent = totalUnread;
@@ -296,14 +306,11 @@ function renderCategoryList() {
   for (const v of state.favs.values()) if (v.state === 1) favCount++;
   document.getElementById("count-fav").textContent = favCount;
 
-  // カテゴリ並び順
-  const orderHint = ["金融・経済・投資", "不動産", "ブログ", "Fx", "未分類"];
-  const allCats = state.categories.length ? state.categories : Object.keys(unreadByCat);
+  // カテゴリ並び順 — group-aware sort (金融→不動産→海外→ブログ), then by unread count
+  const allCats = Object.keys(state.feedsByCategory);
   const sorted = [...allCats].sort((a, b) => {
-    const ai = orderHint.indexOf(a), bi = orderHint.indexOf(b);
-    if (ai !== -1 && bi !== -1) return ai - bi;
-    if (ai !== -1) return -1;
-    if (bi !== -1) return 1;
+    const gd = getGroupOrder(a) - getGroupOrder(b);
+    if (gd !== 0) return gd;
     return (unreadByCat[b] || 0) - (unreadByCat[a] || 0);
   });
 
@@ -424,8 +431,8 @@ function appendArticleRows() {
 
     row.querySelector(".row-source").textContent = a.feed_title;
     const rowCatEl = row.querySelector(".row-cat");
-    rowCatEl.textContent = a.category;
-    const rowCatColor = getCatColor(a.category);
+    rowCatEl.textContent = getArticleCategory(a);
+    const rowCatColor = getCatColor(getArticleCategory(a));
     if (rowCatColor) rowCatEl.style.setProperty("--cat-color", rowCatColor);
     row.querySelector(".row-date").textContent = fmtDate(a.published || a.fetched);
     row.querySelector(".row-title").textContent = a.title;
@@ -484,7 +491,7 @@ function renderArticleDetail(id) {
 
   content.innerHTML = `
     <div class="detail-meta">
-      <span class="accent">${escapeHtml(a.feed_title)}</span> · ${escapeHtml(a.category)} · ${dateStr}
+      <span class="accent">${escapeHtml(a.feed_title)}</span> · ${escapeHtml(getArticleCategory(a))} · ${dateStr}
     </div>
     <h2 class="detail-title">${escapeHtml(a.title)}</h2>
     <div class="detail-source">

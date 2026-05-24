@@ -279,8 +279,10 @@ function escapeAttr(s) {
 // (update-011)
 function resolveUrl(value, baseUrl) {
   if (!value) return value;
-  // Keep non-resolvable schemes as-is (data:, javascript:, mailto:, tel:, blob:, #fragment)
-  if (/^(?:data:|javascript:|mailto:|tel:|blob:|#)/i.test(value)) return value;
+  // Block dangerous schemes that could execute script in href/src attributes
+  if (/^(?:javascript:|vbscript:|data:text\/html)/i.test(value.trimStart())) return "#";
+  // Keep non-resolvable schemes as-is (data:, mailto:, tel:, blob:, #fragment)
+  if (/^(?:data:|mailto:|tel:|blob:|#)/i.test(value)) return value;
   try {
     return new URL(value, baseUrl).toString();
   } catch {

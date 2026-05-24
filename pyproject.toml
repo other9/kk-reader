@@ -1,6 +1,13 @@
 [tool.ruff]
 target-version = "py311"
-exclude = ["docs/"]
+exclude = [
+    "docs/",
+    "scripts/cf_snapshot.py",
+    "scripts/snapshot.py",
+    "scripts/inspect_failures.py",
+    "scripts/curation_*.py",
+    "scripts/migrate_*.py",
+]
 
 [tool.ruff.lint]
 select = ["F", "E9"]

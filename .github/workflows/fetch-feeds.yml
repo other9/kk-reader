@@ -57,6 +57,7 @@ jobs:
         env:
           WORKER_BASE_URL: "https://kk-sync.other9.workers.dev"
           WORKER_TOKEN: ${{ secrets.WORKER_TOKEN }}
+          FOREIGNAFFAIRSJ_COOKIE: ${{ secrets.FOREIGNAFFAIRSJ_COOKIE }}
         run: python scripts/fetch_feeds.py
 
       - name: Commit updated data

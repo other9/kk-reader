@@ -441,7 +441,7 @@ async function handleFetch(request, env, origin) {
   if (contentLength > MAX_BODY_BYTES) {
     return jsonResponse({
       url: target, status: r.status, fetched_at: fetchedAt,
-      error: esponse too large:  bytes,
+      error: "response too large: " + contentLength + " bytes",
     }, 413, origin);
   }
 

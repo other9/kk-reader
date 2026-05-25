@@ -1,6 +1,34 @@
 {
   "articles": [
     {
+      "id": "1a50c73fbb4fdc74",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "定期借家が都心高額賃貸を変える。「更新しない契約」が広がる貸主優位市場の現実",
+      "url": "https://www.kenbiya.com/ar/ns/jiji/purchase_know_how/10182.html",
+      "published": "2026-05-26T00:00:00+09:00",
+      "fetched": "2026-05-25T21:20:15.900535+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "5d5b78ef307664ef",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】築古で失敗する人が必ずやる3つの誤解築古は“安いから買う”ものではない。勝てる築古には法則がある。",
+      "url": "https://www.rakumachi.jp/news/practical/397239",
+      "published": "2026-05-26T00:00:00+09:00",
+      "fetched": "2026-05-25T21:20:16.431222+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "戸田匠",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "b40ecbd1e0390942",
       "feed_id": "f8c882c05df3",
       "feed_title": "himaginary’s diary",
@@ -9927,9 +9955,9 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-25T19:55:48.748443+00:00",
+  "last_updated": "2026-05-25T21:20:22.443337+00:00",
   "stats": {
-    "total": 709,
+    "total": 711,
     "fetched_just_now": 1317,
     "feeds_success": 81,
     "feeds_failed": 0

@@ -15,8 +15,9 @@ UPDATE.md
 kk-reader-update-*.zip
 kk-reader-snapshot-*.zip
 
-# Cloudflare diagnostics bundles (may contain account info)
+# Cloudflare diagnostics bundles / snapshots (may contain account info)
 kk-sync-diagnostics-*.zip
+kk-reader-cf-snapshot-*.zip
 
 # Wrangler local cache (contains account info, never commit)
 .wrangler/

@@ -1,6 +1,34 @@
 {
   "articles": [
     {
+      "id": "79bc56ec6989be7a",
+      "feed_id": "2e7efdb141f2",
+      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
+      "category": "不動産",
+      "title": "羽田新ルート｜南風「悪天時」到着ルートの運用実績 ※適宜更新",
+      "url": "https://1manken.hatenablog.com/entry/2020/07/14/bad-weather-new-haneda-flight-routes",
+      "published": "2026-05-28T20:00:00+00:00",
+      "fetched": "2026-05-28T20:34:59.596813+00:00",
+      "summary": "南風「悪天時」到着ルートの運用実績を可視化。適宜更新。",
+      "content_html": "南風「悪天時」到着ルートの運用実績を可視化。適宜更新。",
+      "author": "flats",
+      "source_type": "rss"
+    },
+    {
+      "id": "06d73ecef571edd7",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "客足からの需要ショックの推計：ビッグデータ手法",
+      "url": "https://himaginary.hatenablog.com/entry/20260528/estimating-demand-shocks-from-foot-traffic",
+      "published": "2026-05-28T14:59:00+00:00",
+      "fetched": "2026-05-28T20:35:03.398827+00:00",
+      "summary": "という NY連銀論文 をMostly Economicsが 紹介している 。原題は「Estimating Demand Shocks from Foot Traffic: A Big-Data Approach」で、著者はMarina Azzimonti（リッチモンド連銀）、David Wiczer（NY連銀）、Yang Xuan（ルイジアナ州立大学シュリーブポート校）。 以下はその要旨。 This study leverages high-frequency foot-traffic data from SafeGraph to estimate de…",
+      "content_html": "<p>という<a href=\"https://www.newyorkfed.org/research/staff_reports/sr1191\">NY&#x9023;&#x9280;&#x8ad6;&#x6587;</a>をMostly Economicsが<a href=\"https://mostlyeconomics.wordpress.com/2026/05/27/estimating-demand-shocks-from-foot-traffic-a-big-data-approach/\">&#x7d39;&#x4ecb;&#x3057;&#x3066;&#x3044;&#x308b;</a>。原題は「Estimating Demand Shocks from Foot Traffic: A Big-Data Approach」で、著者はMarina Azzimonti（リッチモンド連銀）、David Wiczer（NY連銀）、Yang Xuan（ルイジアナ州立大学シュリーブポート校）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>This study leverages high-frequency foot-traffic data from SafeGraph to estimate demand shocks in customer-facing establishments across New York City’s retail, service, and health sectors. Recognizing that variations in foot traffic can arise from both unpredictable demand shocks and firm-driven strategies to attract customers, we present a theoretical framework that isolates establishment-level demand fluctuations from firm-level strategic choices. Implementing this empirically, we employ an unsupervised machine learning approach to classify establishments into distinct categories that are largely orthogonal to location and sector. We find important heterogeneity in the persistence of shocks, important heterogeneity in their trends, and that estimation on a pooled sample importantly understates the variance experienced by some establishments.<br />\n（拙訳）<br />\n本研究は、セーフグラフの高頻度の徒歩交通データを利用して、ニューヨーク市の小売・サービス・医療部門における顧客と対面する店舗の需要ショックを推計した。徒歩交通データのバラツキが予測できない需要ショックと顧客を呼び込む企業戦略の両方から生じ得ることを考慮して我々は、店舗レベルの需要の変動を企業レベルの戦略の選択から分離する理論的枠組みを提示する。その枠組みを実証分析に適用して我々は、教師無し機械学習手法を用いて、地域ならびに部門と概ね直交する独立したカテゴリに店舗を分類した。ショックの持続性の重大な不均一性、そのトレンドの重大な不均一性、およびプールしたサンプルは一部の店舗が経験する変動を大きく過小評価することを我々は見い出した。</p>\n\n    </blockquote>\n<p>セーフグラフのデータを使った研究は本ブログでも何度か取り上げているが（cf. <a href=\"https://himaginary.hatenablog.com/search?q=SafeGraph\">SafeGraph &#x306e;&#x691c;&#x7d22;&#x7d50;&#x679c; - himaginary&rsquo;s diary</a>）、論文でも「The COVID-19 pandemic has intensified research using SafeGraph data.」として同データを使った研究を幾つか挙げている。<br />\nWiczerは<a href=\"https://himaginary.hatenablog.com/entry/20210613/zmp_again#fn-8bd1506d\">&#x96c7;&#x7528;&#x306e;&#x56de;&#x5fa9;&#x901f;&#x5ea6;&#x3068;ZMP&#x4eee;&#x8aac; - himaginary&rsquo;s diary</a>で参照されている論文や<a href=\"https://himaginary.hatenablog.com/entry/20220831/Where_Have_All_the_Workers_Gone\">&#x52b4;&#x50cd;&#x8005;&#x306f;&#x3069;&#x3053;&#x3078;&#x884c;&#x3063;&#x305f;&#xff1f; &#x30b3;&#x30ed;&#x30ca;&#x798d;&#x304b;&#x3089;&#x306e;&#x56de;&#x5fa9;&#x306b;&#x304a;&#x3051;&#x308b;&#x547c;&#x3073;&#x623b;&#x3057;&#x3001;&#x96e2;&#x8077;&#x3001;&#x304a;&#x3088;&#x3073;&#x8077;&#x306e;&#x518d;&#x914d;&#x5206; - himaginary&rsquo;s diary</a>で紹介した論文で労働市場に関する分析をしている。Azzimontiは<a href=\"https://himaginary.hatenablog.com/entry/20220128/Political_Constraints_and_Sovereign_Default\">&#x653f;&#x6cbb;&#x7684;&#x5236;&#x7d04;&#x3068;&#x30bd;&#x30d6;&#x30ea;&#x30f3;&#x30fb;&#x30c7;&#x30d5;&#x30a9;&#x30eb;&#x30c8; - himaginary&rsquo;s diary</a>と<a href=\"https://himaginary.hatenablog.com/entry/20200906/ECON-EPI_Networks\">ECON-EPI&#x30cd;&#x30c3;&#x30c8;&#x30ef;&#x30fc;&#x30af;&#x306b;&#x304a;&#x3051;&#x308b;&#x30d1;&#x30f3;&#x30c7;&#x30df;&#x30c3;&#x30af;&#x306e;&#x30b3;&#x30f3;&#x30c8;&#x30ed;&#x30fc;&#x30eb; - himaginary&rsquo;s diary</a>で論文を紹介したことがある。</p>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "f3433de6b7992a38",
       "feed_id": "6c30fc2654fb",
       "feed_title": "元官庁エコノミストのブログ",
@@ -271,7 +299,7 @@
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
       "category": "不動産",
-      "title": "【実践大家コラム】「できるからやれ」に平社員が労基署の盾で完全ブロックする方法理不尽な会社と戦え！！今の時代だからこそできる論破",
+      "title": "【実践大家コラム】無理な人事異動をスマートにかわす方法理不尽な会社と戦え！！今の時代だからこそできる対抗手段",
       "url": "https://www.rakumachi.jp/news/practical/399825",
       "published": "2026-05-28T00:00:00+09:00",
       "fetched": "2026-05-28T10:21:57.644026+00:00",
@@ -292,6 +320,20 @@
       "summary": "",
       "content_html": null,
       "author": "楽待編集部",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "145f1d193a37f69e",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】地雷回収班⑰「どうやって直せばいいんですか…」過去最強クラスの施工不良らしい・・・",
+      "url": "https://www.rakumachi.jp/news/practical/399527",
+      "published": "2026-05-28T00:00:00+09:00",
+      "fetched": "2026-05-28T20:35:00.131544+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "じゅんじゅん",
       "source_type": "scrape_rakumachi"
     },
     {
@@ -1363,7 +1405,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "ハウスメーカー「好感度No.1」営業マンが懲戒免職、7棟任せた地主を裏切り「大罪」犯した理由「俺、ヘマやっちゃってさ」…電話を最後に消えた先輩の真相",
+      "title": "ハウスメーカー「好感度No.1」営業マンが懲戒免職、7棟任せた地主を裏切り「大罪」犯した理由",
       "url": "https://www.rakumachi.jp/news/column/397804",
       "published": "2026-05-25T00:00:00+09:00",
       "fetched": "2026-05-25T10:44:02.007392+00:00",
@@ -1657,7 +1699,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "5カ月で孤独死2件を経験し…「起きる前提」で整え直した女性大家の「2つの備え」家賃も1万円アップ、費用をかけない「見守りのかたち」",
+      "title": "5カ月で孤独死2件を経験し…「起きる前提」で整え直した女性大家の「2つの備え」",
       "url": "https://www.rakumachi.jp/news/column/399288",
       "published": "2026-05-24T00:00:00+09:00",
       "fetched": "2026-05-24T11:36:53.187964+00:00",
@@ -10639,41 +10681,13 @@
       "content_html": null,
       "author": "鈴木エイト",
       "source_type": "scrape_rakumachi"
-    },
-    {
-      "id": "375c082dd3fe8abb",
-      "feed_id": "d976d70a8e8a",
-      "feed_title": "【不動産投資】訳あり物件再生の方法が面白いほどよくわかるブログ",
-      "category": "不動産",
-      "title": "☆新検見川空室リフォーム予定のほぼ全空なアパート☆",
-      "url": "https://ameblo.jp/h251115/entry-12964471040.html",
-      "published": "2026-04-28T20:00:00+00:00",
-      "fetched": "2026-05-06T01:38:46.493653+00:00",
-      "summary": "想定利回り９％ どうも！ 訳あり不動産の佐藤です。 もう明日からゴールデンウィークみたいなんですけど。 東京から人がいなくなりますよね。 不動産業者も昨日からお休みみたいで 業者さんに電話しても出ないです（笑） 内見はご希望頂いてもゴールデンウィーク明けになると思います。 宜しくお願い致します。 さて、本日のご紹介物件は・・・ 結構千葉県では人気の新検見川の一棟アパート 駅徒歩9分です♪ 割とまともな物件です。 検査済証も珍しくあります！ 現況がほぼ全空で、購入した不動産会社が空き部屋リフォームして引き渡しだそうです。 道路付けまともです♪ ジュネパレス…",
-      "content_html": "<p>&nbsp;</p><h2 class=\"limited_heading06\" style=\"background-size: 178px 11px; padding-bottom: 19px; margin: 8px 0; font-weight: bold; color: #424242; font-size: 20px; line-height: 1.6; text-align: center; background-position: center bottom;\"><span style=\"display: block;\"><span style=\"display: block;\">想定利回り９％</span></span></h2><p>どうも！</p><p>訳あり不動産の佐藤です。</p><p>&nbsp;</p><p>もう明日からゴールデンウィークみたいなんですけど。</p><p>東京から人がいなくなりますよね。</p><p>不動産業者も昨日からお休みみたいで</p><p>業者さんに電話しても出ないです（笑）</p><p>&nbsp;</p><p>内見はご希望頂いてもゴールデンウィーク明けになると思います。</p><p>宜しくお願い致します。</p><p>&nbsp;</p><p>さて、本日のご紹介物件は・・・</p><p>結構千葉県では人気の新検見川の一棟アパート</p><p>駅徒歩9分です♪</p><p>割とまともな物件です。</p><p>検査済証も珍しくあります！</p><p><a href=\"https://stat.ameba.jp/user_images/20260428/21/h251115/a0/5a/j/o1105088115776329189.jpg\"><img alt=\"\" height=\"494\" src=\"https://stat.ameba.jp/user_images/20260428/21/h251115/a0/5a/j/o1105088115776329189.jpg\" width=\"620\" /></a><a href=\"https://stat.ameba.jp/user_images/20260428/21/h251115/79/28/j/o1646085115776329208.jpg\"><img alt=\"\" height=\"321\" src=\"https://stat.ameba.jp/user_images/20260428/21/h251115/79/28/j/o1646085115776329208.jpg\" width=\"620\" /></a></p><p>現況がほぼ全空で、購入した不動産会社が空き部屋リフォームして引き渡しだそうです。</p><p>道路付けまともです♪</p><h1>ジュネパレス新検見川第9</h1><div>ホームズに部屋情報載ってました↓</div><div><a href=\"https://www.homes.co.jp/archive/b-8784896/?msockid=33f25866e03e6ebf35974f75e1896fc3\" rel=\"noopener noreferrer\" target=\"_blank\">【ホームズ】ジュネパレス新検見川第9(千葉市花見川区)の賃貸情報</a></div><div>&nbsp;</div><div><a href=\"https://stat.ameba.jp/user_images/20260428/21/h251115/67/dc/j/o0868062215776330556.jpg\"><img alt=\"\" contenteditable=\"inherit\" height=\"444\" src=\"https://stat.ameba.jp/user_images/20260428/21/h251115/67/dc/j/o0868062215776330556.jpg\" width=\"620\" /></a></div><div>&nbsp;</div><div>↑情報くれたのがおじいちゃんの不動産屋さんでいまだにファックス使ってるんですよ（笑）</div><div>画像悪すぎて笑う♪</div><div>&nbsp;</div><div>価格：4880万円+仲介手数料</div><div>ＪＲ総武線「新検見川」駅徒歩9分</div><div>住所：千葉市花見川区南花園1-9-13</div><div>土地面積：142.13㎡</div><div>建物面積：131.54㎡</div><div>構造：木造スレート葺2階建</div><div>築年月：1986年1月築</div><div>用途：第一種低層住居専用地域</div><div>建ぺい率：60％</div><div>容積率：150％</div><div>※公営水道・都市ガス・公共下水</div><div>前面道路：北東側公道（位置指定道路）</div><div>８/１入居中で7戸表層リフォームして引き渡しです。</div><div>&nbsp;</div><div>私の見解です！</div><div>昨年この近辺でここより道路付けの悪い利回り９％の満室稼働のアパートが即売していましたので</div><div>これで満室稼働中ならこの利回り（9％）は妥当ですが、</div><div>ほぼ全空で暫く満室までは時間がかかることを考えますと</div><div>もう少し指値したいところです。</div><div>500万円ほど指値が通れば良いかもです。</div><div>もしくは1,000万円指値で現状渡しって手もあります。</div><div>&nbsp;</div><div>指値はやってみないとわかりません。</div><div>満室稼働してないと融資付けも厳しいんですよね💦</div><div>金融機関てそういうところもうるさいので。</div><div>キャッシュ当てられる投資家さんならこの指値は通りそうな気がしてます。</div><div>&nbsp;</div><div>よろしければご検討ください。</div><div>内見希望の場合、こちらの物件もゴールデンウィーク明けになります。</div><div>&nbsp;</div><div>それでは、また。</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div>",
-      "author": null,
-      "source_type": "rss"
-    },
-    {
-      "id": "de50198612ee6721",
-      "feed_id": "9505d30bcfe3",
-      "feed_title": "市況かぶ全力２階建",
-      "category": "金融・経済・投資",
-      "title": "ENEOS、「原油調達部門で働いている妻」に続いて「社内の総意」を勝手に創作される風評被害が発生",
-      "url": "https://kabumatome.doorblog.jp/archives/66031246.html",
-      "published": "2026-04-28T17:59:45+00:00",
-      "fetched": "2026-05-06T01:39:03.667767+00:00",
-      "summary": "ENEOSの原油調達部門で働いてる妻です。 全てをお話しします。 — いさ (@xy_ip99) March 16, 2026 ※ ENEOSの原油調達部門で働いてる妻、ホルムズ海峡封鎖を契機にSNSで謎の大量発生（2026/03/16） ENEOS、SNS上で当社関係者をかたり、優良株を紹介する情報の投稿が多数発信されております。 これらの投稿は当社グループとは一切関係ありません。返信すると詐欺等にあう恐れもありますので、ご注意ください。 https://t.co/KngMpqtXO7 — ありゃりゃ (@aryarya) March 17, 2026…",
-      "content_html": "<div><div><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ENEOSの原油調達部門で働いてる妻です。<br />全てをお話しします。</p>— いさ (@xy_ip99) <a href=\"https://twitter.com/xy_ip99/status/2033546011948532023?ref_src=twsrc%5Etfw\">March 16, 2026</a></blockquote><blockquote><b>※<a href=\"https://kabumatome.doorblog.jp/archives/66030726.html\" target=\"_blank\" title=\"\">ENEOSの原油調達部門で働いてる妻、ホルムズ海峡封鎖を契機にSNSで謎の大量発生（2026/03/16）</a></b></blockquote></div><br /><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">ENEOS、SNS上で当社関係者をかたり、優良株を紹介する情報の投稿が多数発信されております。<br />これらの投稿は当社グループとは一切関係ありません。返信すると詐欺等にあう恐れもありますので、ご注意ください。<a href=\"https://t.co/KngMpqtXO7\">https://t.co/KngMpqtXO7</a></p>— ありゃりゃ (@aryarya) <a href=\"https://twitter.com/aryarya/status/2033869857385742551?ref_src=twsrc%5Etfw\">March 17, 2026</a></blockquote><blockquote> <a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/0/3/034401b4.png\" target=\"_blank\" title=\"a25\"><img alt=\"a25\" border=\"0\" class=\"pict\" height=\"126\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/0/3/034401b4-s.png\" width=\"480\" /></a><br /></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">ENEOSの原油調達部門で働いている妻はいなかった</p>— ありゃりゃ (@aryarya) <a href=\"https://twitter.com/aryarya/status/2033870069391102316?ref_src=twsrc%5Etfw\">March 17, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">ENEOSの総意との事ですが、企業の名前を本当に出して大丈夫でしょうかねぇ <a href=\"https://t.co/DInPiJjjhr\">pic.twitter.com/DInPiJjjhr</a></p>— 妙に石油に詳しいフリーザー (@oiloilff) <a href=\"https://twitter.com/oiloilff/status/2048696176665559358?ref_src=twsrc%5Etfw\">April 27, 2026</a></blockquote><blockquote><a href=\"https://x.com/LPGadvisorJP/status/2048689731819720817\" target=\"_blank\" title=\"a09\"><img alt=\"a09\" border=\"0\" class=\"pict\" height=\"493\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/0/f/0f2151d2-s.png\" width=\"480\" /></a><br /></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">もし事実ならコンプライアンス違反でアウト。<br />嘘なら当然アウト。<br />どちらにしてもアウトなうえに、まともなコンサルタントなら直接の雇用がないといっても、内部情報を勝手に発言するのはあり得ませんからダメですねぇ。</p>— くぢら (@makuzira) <a href=\"https://twitter.com/makuzira/status/2048725912246686000?ref_src=twsrc%5Etfw\">April 27, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">これENEOSに電凸されてクレームとか問い合わせが殺到したら本当に総意ならともかく個人的な発言で勝手に代弁してるのなら内部で犯人探しが始まるし会社が「事実と異なります」と声明出す事態になったらこの人は果たして責任取れるのだろうか？いやケツ捲って逃げるか</p>— fullbocco (@fullbocco_bokko) <a href=\"https://twitter.com/fullbocco_bokko/status/2048735637571096802?ref_src=twsrc%5Etfw\">April 27, 2026</a></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">自称エネルギー問題専門家、ENEOSの社員とかいうイマジナリー親友まで登場。ENEOSは正式に抗議してもいいんじゃない？</p>— peko (@peko409) <a href=\"https://twitter.com/peko409/status/2048910844503957873?ref_src=twsrc%5Etfw\">April 27, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/6/f69aa4fe.jpg\" target=\"_blank\" title=\"a18\"><img alt=\"a18\" border=\"0\" class=\"pict\" height=\"270\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/6/f69aa4fe-s.jpg\" width=\"480\" /></a><br /><b>※<a href=\"https://kabumatome.doorblog.jp/archives/66030979.html\" target=\"_blank\" title=\"\">TBS、「日本は6月に詰む」と解説する（被保険者1人のバーチャルオフィスで働く）ナフサに詳しい専門家を見つけてくる（2026/04/07）</a></b></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">石油元売各社が、とにかく合併、合併、合併の繰り返しなので、社内の総意とか、簡単に言えないと思いますよ。今でこそ、ENEOS、出光、コスモ、キグナス、太陽石油となってますが、昔は１５社ですからね。特にENEOSは8元売の集合体という感じですから <a href=\"https://t.co/EX1Y9CCCYs\">pic.twitter.com/EX1Y9CCCYs</a></p>— 翼が折れたきたきつね (@northfox_wind) <a href=\"https://twitter.com/northfox_wind/status/2049024109133381861?ref_src=twsrc%5Etfw\">April 28, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/3/1/313fb7b3.png\" target=\"_blank\" title=\"a11\"><img alt=\"a11\" border=\"0\" class=\"pict\" height=\"437\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/3/1/313fb7b3-s.png\" width=\"480\" /></a><div><b>※<a href=\"https://www.paj.gr.jp/pdf/today_paj2025.pdf\" target=\"_blank\" title=\"\">石油連盟「今日の石油産業」</a></b><br /></div></blockquote></div><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">境野さん、ENEOS社員と仲がいいといいつつ、自身が調査したらしい船舶カウントにENEOS船籍のタンカーゼロ。</p>— TEN@情報整理屋さん (@tenfirefighter) <a href=\"https://twitter.com/tenfirefighter/status/2048980409317474801?ref_src=twsrc%5Etfw\">April 28, 2026</a></blockquote><br /></div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">ツッコミを受けまくっている自説を権威付けするためか<br />ENEOSの総意と言い出す。<br />↓<br />企業名出して良いの？総意とか言っちゃっていいの？やばくない？等ツッコミ殺到<br />↓<br />「気持ちを言ってるんであって、額面通り受け取りなさんな。」<br /><br />ヽ(・ω・)/ｽﾞｺｰ <a href=\"https://t.co/MnGcU66Ru5\">pic.twitter.com/MnGcU66Ru5</a></p>— 茶請け (@ttensan2nd) <a href=\"https://twitter.com/ttensan2nd/status/2048914335423201487?ref_src=twsrc%5Etfw\">April 27, 2026</a></blockquote><blockquote><a href=\"https://x.com/taka1795295/status/2048697370909786208\" target=\"_blank\" title=\"a14\"><img alt=\"a14\" border=\"0\" class=\"pict\" height=\"161\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/4/f/4f21c15c-s.png\" width=\"480\" /></a><br /><a href=\"https://x.com/LPGadvisorJP/status/2048698644011037005\" target=\"_blank\" title=\"a13\"><img alt=\"a13\" border=\"0\" class=\"pict\" height=\"121\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/c/fca1acc4-s.png\" width=\"480\" /></a></blockquote></div></div><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">特定の会社名出すとか、あり得ないでしょ。結局、自分の説明では…説得できるだけのものがない、という事を本人が認めたんだよ。</p>— TEN@情報整理屋さん (@tenfirefighter) <a href=\"https://twitter.com/tenfirefighter/status/2048747568943993179?ref_src=twsrc%5Etfw\">April 27, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">外部の人間が勝手に社を代表してお気持ち表明ですからね…w<br />この有事にまさかENEOS自身が煽られるとは思ってもみなかったのでは…</p>— STR (@STR00000001) <a href=\"https://twitter.com/STR00000001/status/2048793727406395467?ref_src=twsrc%5Etfw\">April 27, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ナフサの人いい加減にしないと訴訟くらいくらいそうですな。(´･ω･`)</p>— 僻地課長 (@bubu0404) <a href=\"https://twitter.com/bubu0404/status/2049027439968551145?ref_src=twsrc%5Etfw\">April 28, 2026</a></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">LPガスやらエネルギーやらに詳しい某氏。<br />根拠無し煽りを続けているが、芸風がマックの女子高生仕草になっていて笑える。<br />今の所、某社の後輩、経産省送別会とか。<br />次は何が出てくるか楽しみ。タンカー会社の人とかドバイの港湾労働者とかかな？</p>— keropon (@keropon20) <a href=\"https://twitter.com/keropon20/status/2048851126813163941?ref_src=twsrc%5Etfw\">April 27, 2026</a></blockquote><blockquote><a href=\"https://x.com/LPGadvisorJP/status/2048697609939025993\" target=\"_blank\" title=\"a19\"><img alt=\"a19\" border=\"0\" class=\"pict\" height=\"179\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/c/5/c55779c7-s.png\" width=\"480\" /></a><br /></blockquote><br /></div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">仕上がってるな <a href=\"https://t.co/mqmsKXkmpd\">pic.twitter.com/mqmsKXkmpd</a></p>— ジョナサンのビール半額嬉しいよBot (@Yaruo2024) <a href=\"https://twitter.com/Yaruo2024/status/2049074844072112577?ref_src=twsrc%5Etfw\">April 28, 2026</a></blockquote><blockquote><a href=\"https://x.com/LPGadvisorJP/status/2048991326478512221\" target=\"_blank\" title=\"a15\"><img alt=\"a15\" border=\"0\" class=\"pict\" height=\"321\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/6/0/605473e9-s.png\" width=\"480\" /></a></blockquote></div><div><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">たった2日で語録が増えすぎじゃありませんかね？<br />・ENEOSの総意<br />・経産省の幹部の送別会<br />・圧力を掛けられた友人から連絡<br />・出来の悪い広報の返事</p>— メモイさん（自己中道革新連盟） (@memoi_san) <a href=\"https://twitter.com/memoi_san/status/2049151582961598656?ref_src=twsrc%5Etfw\">April 28, 2026</a></blockquote><blockquote><a href=\"https://x.com/kurinohayashi74/status/2049038241777713293\" target=\"_blank\" title=\"a16\"><img alt=\"a16\" border=\"0\" class=\"pict\" height=\"555\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/c/9/c925647d-s.png\" width=\"480\" /></a><br /><a href=\"https://x.com/LPGadvisorJP/status/2049083084365238583\" target=\"_blank\" title=\"a17\"><img alt=\"a17\" border=\"0\" class=\"pict\" height=\"140\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/6/7/67080836-s.png\" width=\"480\" /></a></blockquote><br /></div><div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">お手本みたいな「ここだけ話」吹聴おじさんやな</p>— タケ (@bunnyatake) <a href=\"https://twitter.com/bunnyatake/status/2049028243899260960?ref_src=twsrc%5Etfw\">April 28, 2026</a></blockquote><br /></div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">全てがダサい自称ナフサ専門家</p>— 帰らない岡田 (@nopignolife46) <a href=\"https://twitter.com/nopignolife46/status/2049146601873318178?ref_src=twsrc%5Etfw\">April 28, 2026</a></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">エネオスのあることないと言ってると<br /><br />エネゴリ君にエネをゴリゴリされちゃうぞ！</p>— 華音@山城上総三曹 【C107 水曜日 委託 西 あ-05a】 (@kanon8492) <a href=\"https://twitter.com/kanon8492/status/2049124042930885062?ref_src=twsrc%5Etfw\">April 28, 2026</a></blockquote><br /></div><blockquote><div><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/8/b/8bc368dd.png\" target=\"_blank\" title=\"a08\"><img alt=\"a08\" border=\"0\" class=\"pict\" height=\"304\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/8/b/8bc368dd-s.png\" width=\"480\" /></a><br /><a href=\"https://kabutan.jp/stock/chart?code=5020\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://kabutan.jp/stock/chart?code=5020</span></a></div></blockquote><br /></div></div></div>",
-      "author": "masorira",
-      "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-28T16:22:43.277457+00:00",
+  "last_updated": "2026-05-28T20:35:06.546586+00:00",
   "stats": {
-    "total": 762,
+    "total": 763,
     "fetched_just_now": 1317,
-    "feeds_success": 80,
-    "feeds_failed": 1
+    "feeds_success": 81,
+    "feeds_failed": 0
   }
 }

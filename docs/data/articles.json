@@ -1,6 +1,34 @@
 {
   "articles": [
     {
+      "id": "7c1061e9823e0472",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "不動産投資家インタビュー",
+      "url": "https://www.rakumachi.jp/news/series/1082",
+      "published": null,
+      "fetched": "2026-05-28T10:21:57.644181+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "はじめての不動産投資",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "172689c9f0de95df",
+      "feed_id": "6c30fc2654fb",
+      "feed_title": "元官庁エコノミストのブログ",
+      "category": "金融・経済・投資",
+      "title": "円安の弊害は物価ではない",
+      "url": "http://economist.cocolog-nifty.com/blog/2026/05/post-cfa2b6.html",
+      "published": "2026-05-28T05:00:00+00:00",
+      "fetched": "2026-05-28T10:22:00.533011+00:00",
+      "summary": "一昨日の5月26日、明治安田総研から 「円安が海外への所得流出に拍車」 と題するリポートが明らかにされています。まず、 リポート からポイントを3点引用すると次の通りです。 ポイント 4月末以降の財務省の数次にわたる為替介入後も、円売り圧力が収まらない状況が続いている。足元のドル・円相場は159円/㌦近辺まで戻しており、いつまた大型介入が入ってもおかしくない水準 円安は、輸出増等を通じてGDPを押し上げるが、交易条件の悪化を通じ、所得面から見た概念であるGDIを押し下げる。国民の豊かさの実感により近いのはGDPよりもGDI 円安問題の本質は、円安進行時に…",
+      "content_html": "<p>一昨日の5月26日、明治安田総研から<a href=\"https://www.myri.co.jp/viewpdf.php?id=a3af7ea5c3037793a5c1badc7629c7f11e8133d8fb2672e6b67dcd239399a41ef6a629f981537fc5ac8ab4d3752183eb4a9327c3bc3235a8eb7087769691e84ae4ea34a097496acda7c1bed6212293a51cd761dba87d73e6bc2cc423929ff74aa2fa2af69b0f20dbe79de8c77e729bf510906ddbfc7f6064058f1db1481b5892741fb72079a7a6762b1a0d6da69b30f61dd362defd1aa70103fa5b92147c4bcf222bfe676cd9c44d74782003cc9b447abc05e26d2ec2f86404b413907a157ca3b9ec7fa5d80138\" style=\"color: #ff0000; font-size: 2em; font-weight: bold;\" target=\"_blank\" title=\"円安が海外への所得流出に拍車\">「円安が海外への所得流出に拍車」</a>と題するリポートが明らかにされています。まず、<a href=\"https://www.myri.co.jp/viewpdf.php?id=a3af7ea5c3037793a5c1badc7629c7f11e8133d8fb2672e6b67dcd239399a41ef6a629f981537fc5ac8ab4d3752183eb4a9327c3bc3235a8eb7087769691e84ae4ea34a097496acda7c1bed6212293a51cd761dba87d73e6bc2cc423929ff74aa2fa2af69b0f20dbe79de8c77e729bf510906ddbfc7f6064058f1db1481b5892741fb72079a7a6762b1a0d6da69b30f61dd362defd1aa70103fa5b92147c4bcf222bfe676cd9c44d74782003cc9b447abc05e26d2ec2f86404b413907a157ca3b9ec7fa5d80138\" target=\"_blank\" title=\"円安が海外への所得流出に拍車\">リポート</a>からポイントを3点引用すると次の通りです。<br /><blockquote cite=\"https://www.myri.co.jp/viewpdf.php?id=a3af7ea5c3037793a5c1badc7629c7f11e8133d8fb2672e6b67dcd239399a41ef6a629f981537fc5ac8ab4d3752183eb4a9327c3bc3235a8eb7087769691e84ae4ea34a097496acda7c1bed6212293a51cd761dba87d73e6bc2cc423929ff74aa2fa2af69b0f20dbe79de8c77e729bf510906ddbfc7f6064058f1db1481b5892741fb72079a7a6762b1a0d6da69b30f61dd362defd1aa70103fa5b92147c4bcf222bfe676cd9c44d74782003cc9b447abc05e26d2ec2f86404b413907a157ca3b9ec7fa5d80138\" style=\"font-size: 10px; font-style: italic;\" title=\"円安が海外への所得流出に拍車\"><a href=\"https://www.myri.co.jp/viewpdf.php?id=a3af7ea5c3037793a5c1badc7629c7f11e8133d8fb2672e6b67dcd239399a41ef6a629f981537fc5ac8ab4d3752183eb4a9327c3bc3235a8eb7087769691e84ae4ea34a097496acda7c1bed6212293a51cd761dba87d73e6bc2cc423929ff74aa2fa2af69b0f20dbe79de8c77e729bf510906ddbfc7f6064058f1db1481b5892741fb72079a7a6762b1a0d6da69b30f61dd362defd1aa70103fa5b92147c4bcf222bfe676cd9c44d74782003cc9b447abc05e26d2ec2f86404b413907a157ca3b9ec7fa5d80138\" style=\"font-size: 1.5em; font-style: normal;\" target=\"_blank\" title=\"ポイント\">ポイント</a><br /><ul><li>4月末以降の財務省の数次にわたる為替介入後も、円売り圧力が収まらない状況が続いている。足元のドル・円相場は159円/㌦近辺まで戻しており、いつまた大型介入が入ってもおかしくない水準 </li><li>円安は、輸出増等を通じてGDPを押し上げるが、交易条件の悪化を通じ、所得面から見た概念であるGDIを押し下げる。国民の豊かさの実感により近いのはGDPよりもGDI</li><li>円安問題の本質は、円安進行時に国内所得が増えにくい産業構造であり、政府としては、エネルギーの自給力強化、戦略分野への国内投資支援等を通じた産業構造改革を進めていく必要</li></ul></blockquote></p><p>1点目と3点目はともかく、私から見て重要なのは2点目です。円安は輸出を通じて企業収益などへの寄与が大きい一方で、交易条件を悪化させることにより、所得の海外流出を招きます。要するに、<span class=\"blue\">円安は企業のためには好都合である一方で、家計には決して好ましいわけではない</span>、と私は考えています。<a href=\"https://www.myri.co.jp/viewpdf.php?id=a3af7ea5c3037793a5c1badc7629c7f11e8133d8fb2672e6b67dcd239399a41ef6a629f981537fc5ac8ab4d3752183eb4a9327c3bc3235a8eb7087769691e84ae4ea34a097496acda7c1bed6212293a51cd761dba87d73e6bc2cc423929ff74aa2fa2af69b0f20dbe79de8c77e729bf510906ddbfc7f6064058f1db1481b5892741fb72079a7a6762b1a0d6da69b30f61dd362defd1aa70103fa5b92147c4bcf222bfe676cd9c44d74782003cc9b447abc05e26d2ec2f86404b413907a157ca3b9ec7fa5d80138\" target=\"_blank\" title=\"円安が海外への所得流出に拍車\">リポート</a>から (図表3) 為替相場の変化のGDP、GDIへの影響 と (図表4) 為替相場の変化の輸出と個人消費への影響 を引用すると次の通りです。</p><div style=\"text-align: center;\"><a href=\"https://www.myri.co.jp/viewpdf.php?id=a3af7ea5c3037793a5c1badc7629c7f11e8133d8fb2672e6b67dcd239399a41ef6a629f981537fc5ac8ab4d3752183eb4a9327c3bc3235a8eb7087769691e84ae4ea34a097496acda7c1bed6212293a51cd761dba87d73e6bc2cc423929ff74aa2fa2af69b0f20dbe79de8c77e729bf510906ddbfc7f6064058f1db1481b5892741fb72079a7a6762b1a0d6da69b30f61dd362defd1aa70103fa5b92147c4bcf222bfe676cd9c44d74782003cc9b447abc05e26d2ec2f86404b413907a157ca3b9ec7fa5d80138\" target=\"_blank\"><img alt=\"photo\" src=\"http://economist.cocolog-nifty.com/dummy.gif\" style=\"border: none; width: 514px; height: 685px; margin: 20px auto;\" title=\"(図表3) 為替相場の変化のGDP、GDIへの影響 と (図表4) 為替相場の変化の輸出と個人消費への影響\" /></a></div><p>為替が物価に影響を及ぼすという意味でのパススルーは限定的、という点については、以下のいくつかの学術論文から得られる結論です。<br /><ul><li><a href=\"https://doi.org/10.1002/ijfe.253\" target=\"_blank\" title=\"Monetary policy and exchange rate pass-through\">Gagnon, Joseph E. and Jane Ihrig (2004) \"Monetary policy and exchange rate pass-through,\" <span class=\"ita\">International Journal of Finance and Economics 9(4)</span>, Oct. 2004, pp.315- 38</a></li><li><a href=\"https://doi.org/10.1007/s10290-023-00502-8\" target=\"_blank\" title=\"Pass-through with volatile exchange rates and inflation targeting\">Alexius, Annika and Mikaela Holmberg (2024) \"Pass-through with volatile exchange rates and inflation targeting,\" <span class=\"ita\">Review of World Economics 160</span>, 2024, pp.377-87</a></li><li><a href=\"https://doi.org/10.1080/13504851.2023.2289412\" target=\"_blank\" title=\"Commodity Price Pass-Through and Inflation in Japan: A Nonlinear Time Series Analysis\">Sekine, Atsushi (2025) \"Commodity Price Pass-Through and Inflation in Japan: A Nonlinear Time Series Analysis,\" <span class=\"ita\">Applied Economics Letters 32(6)</span>, 2025, pp.808-11</a></li><li><a href=\"https://doi.org/10.1016/j.jimonfin.2021.102462\" target=\"_blank\" title=\"Shock-dependent Exchange Rate Pass-Through: Evidence based on a Narrative Sign Approach for Japan\">An, Lian, Mark A. Wynne and Ren Zhang (2021) \"Shock-dependent Exchange Rate Pass-Through: Evidence based on a Narrative Sign Approach for Japan,\" <span class=\"ita\">Journal of International Money and Finance 118</span>, Nov. 2021, 102462</a></li><li><a href=\"https://www.boj.or.jp/en/research/wps_rev/wps_2023/wp23e09.htm\" target=\"_blank\" title=\"Nonlinear Input Cost Pass-through to Consumer Prices: A Threshold Approach\">Sasaki, Takatoshi, Hiroki Yamamoto and Jouchi Nakajima (2023) \"Nonlinear Input Cost Pass-through to Consumer Prices: A Threshold Approach,\" <span class=\"ita\">Bank of Japan Working Paper Series No.23-E-9</span>, May 2023</a></li></ul></p><p>最初の論文は、1980年代から21世紀初頭にかけて為替のパススルーが弱まっている、という概括的な論文です。2番目の論文は、中央銀行がインフレ目標を持っている場合、為替のパススルーは弱くなる、と結論しています。まあ、当然に、為替の変動を物価目標に合わせて相殺するような金融政策が取られるのですから、当たり前ともいえます。3番目の論文は、為替だけでなく商品価格も含めて、低インフレ-低インフレ期待の日本では、輸入コストのパススルーが長期的に低下していることを示しています。4番目の論文は、日本では為替変動の原因によってパススルーが異なり、一般的な円安ショックでは消費者物価への波及は限定的である、と結論しています。最後の論文は、日銀によるものであり、為替だけでなく、広く輸入価格、さらには、賃金などのコストが消費者物価にどのように転嫁されるかを検証していて、通常の範囲ではパススルーはかなり弱く、一定の閾値(threshold)を超えない限り、物価への転嫁が大きくない可能性を示唆しています。広く一般からダウンロードできると思いますので、Panel 2: Nonlinear Pass-through でキンクするパススルーカーブを見れば印象的だと思います。<br />ですので、私の方で定量的な分析をしたわけではありませんが、現在の物価上昇率を抑えるためには、かなり強烈な円高、たぶん、25-30%くらいの円高が必要になる気がします。そこまでの円高は逆に企業へのダメージが大きくなりすぎる可能性すらあります。加えて、私は為替レートを政策変数として物価に割り当てるのは疑問だと考えています。むしろ、明治安田総研のリポートのように所得を考慮する方がまだ望ましい可能性があります。要するに、私が為替について考える結論は2点あり、第1に、物価安定のために円安を目指すのは経済政策として間違っている可能性が高い、と考えるべきであり、第2に、それでも円高を目指す理由は、<span class=\"green\">国内所得の海外流出を防いで、企業ではなく家計の利益を考慮すべきである</span>ため、ということになります。アベノミクスが失敗したのは、トリクルダウンが生じなかったからであり、企業優遇の円安から、物価安定ではなく、家計重視の円高に政策をシフトすべきであろうと私は考えています。</p>",
+      "author": "元官庁エコノミスト",
+      "source_type": "rss"
+    },
+    {
       "id": "eac8a3ae0e0430a7",
       "feed_id": "416ab9ec27e5",
       "feed_title": "サラリーマンと不動産投資",
@@ -21,7 +49,7 @@
       "category": "金融・経済・投資",
       "title": "スクエニ、事実上のドラクエ12開発中止でゼロから作り直しショックが発生",
       "url": "https://kabumatome.doorblog.jp/archives/66031586.html",
-      "published": "2026-05-28T02:41:40+00:00",
+      "published": "2026-05-28T02:41:13+00:00",
       "fetched": "2026-05-28T04:24:46.663168+00:00",
       "summary": "35周年でドラクエ12を初公開したはずなのに、40周年でドラクエ12が初公開されていた。何を言ってるかわからねーと思うが、俺も何をされたかわからなかった(以下略 pic.twitter.com/WUW8TO1EsW — ゆず (@yuzz__) May 27, 2026 https://www.youtube.com/ 2017年 ドラクエ11発売 2021年 ドラクエ12のロゴとサブタイトル発表 2026年 ドラクエ12のロゴとサブタイトル発表 次の情報は45周年とかないよね — 劉生@マスターデュエルたのちい… (@albij1) May 27, 2…",
       "content_html": "<div><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">35周年でドラクエ12を初公開したはずなのに、40周年でドラクエ12が初公開されていた。何を言ってるかわからねーと思うが、俺も何をされたかわからなかった(以下略 <a href=\"https://t.co/WUW8TO1EsW\">pic.twitter.com/WUW8TO1EsW</a></p>— ゆず (@yuzz__) <a href=\"https://x.com/yuzz__/status/2059624667523207619?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/e/e/ee9afcd6.jpg\" target=\"_blank\" title=\"a06\"><img alt=\"a06\" border=\"0\" class=\"pict\" height=\"258\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/e/e/ee9afcd6-s.jpg\" width=\"480\" /></a><br /><a href=\"https://www.youtube.com/watch?v=nRKyyK7S-Zw\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.youtube.com/</span></a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">2017年　ドラクエ11発売<br />2021年　ドラクエ12のロゴとサブタイトル発表<br />2026年　ドラクエ12のロゴとサブタイトル発表<br /><br />次の情報は45周年とかないよね</p>— 劉生@マスターデュエルたのちい… (@albij1) <a href=\"https://x.com/albij1/status/2059624451227144603?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">開発体制変更とか、HD-2Dのトラウマが。</p>— しの (@SH1N0) <a href=\"https://x.com/SH1N0/status/2059628339737038880?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/1/a/1abff4d0.png\" target=\"_blank\" title=\"a04\"><img alt=\"a04\" border=\"0\" class=\"pict\" height=\"270\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/1/a/1abff4d0-s.png\" width=\"480\" /></a><br /><a href=\"https://www.youtube.com/watch?v=nRKyyK7S-Zw\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.youtube.com/</span></a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ドラクエ12はいったん白紙に戻して、ゼロから作り直しますってこと？<br />うーん、2035年あたりの発売と予想。</p>— ふゆさん (@fuyugomori3) <a href=\"https://x.com/fuyugomori3/status/2059800193487499682?ref_src=twsrc%5Etfw\">May 28, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ドラクエ12は路線変更で作り直しっていうけど、言葉のレトリックであって、実質のところ、ドラクエ12は開発中止で、ドラクエ13を今から作り始めますって言ってるのと変わらないからな。既に前作発売から10年経過してるし、やってること意味不明だし、また、ここから更に10年？</p>— watchcat38 (@watchcat38) <a href=\"https://x.com/watchcat38/status/2059808821435138304?ref_src=twsrc%5Etfw\">May 28, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ドラクエは11で終わりだと受け取った<br /><br />12はすぎやま先生、鳥山先生との最後の作品ではなかったのか…<br /><br />ここまで何をやってたんだ？<br /><br />開発体制変えてるならもっと早く言うべきだし、めでたい日に自らぶち壊しって異常すぎる<br /><br />これは12じゃなく13じゃないの？</p>— ノクタール (@DQtact_nocturle) <a href=\"https://x.com/DQtact_nocturle/status/2059625549857968157?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">そもそも体制変更でおさめていいレベルではないのでは<br /><br />人員増減や改修みたいな普通の体制変更でなく、コンセプトから作り直しってことだから「運命の炎」は開発中止「夢の彼方へ」を新規開発<br /><br />これを、12として作ってるから問題なし！は無理がないでしょうか…</p>— ノクタール (@DQtact_nocturle) <a href=\"https://x.com/DQtact_nocturle/status/2059779413924094088?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">マジで何の成果も得られませんでしたとは思わんやん</p>— ツナサラダ (@tunasociage17) <a href=\"https://x.com/tunasociage17/status/2059623134626738285?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">ドラクエ12の主人公、筋肉留学で萎んだ人造人間16号で草 <a href=\"https://t.co/LzK1sUZSnN\">pic.twitter.com/LzK1sUZSnN</a></p>— 顎関節パキ男 (@AgoPakio) <a href=\"https://x.com/AgoPakio/status/2059648987578470662?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/4/5/45e5ddf1.png\" target=\"_blank\" title=\"a05\"><img alt=\"a05\" border=\"0\" class=\"pict\" height=\"271\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/4/5/45e5ddf1-s.png\" width=\"480\" /></a><br /><a href=\"https://www.youtube.com/watch?v=nRKyyK7S-Zw\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.youtube.com/</span></a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">パイナップルみてえな髪型しやがって</p>— TOM６１８ (@tom_tom_sun) <a href=\"https://x.com/tom_tom_sun/status/2059630864896864675?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">なんでこんな猫背根暗なん</p>— ツナサラダ (@tunasociage17) <a href=\"https://x.com/tunasociage17/status/2059622863758569496?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">大人向けのダークな感じはやめたらしいし主人公はなんかヤク中みたいだし</p>— coin (@coin65535) <a href=\"https://x.com/coin65535/status/2059630425522450491?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><br /></div><div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">｢ダークやめて明るく行きますと言ったはいいが12は勿論鳥山デザインで行きますと言ってる以上今さら方針転換からキャラを新規に書き起こせないのでこのまま行きます｣みたいな感じの雰囲気アウトローな主要人物たちにジワジワくる。 <a href=\"https://t.co/Bxf7rkuBfD\">pic.twitter.com/Bxf7rkuBfD</a></p>— Ⓜ◎ⓢⓢ＠ⓡⓘ (@m0m0_0ssrr_) <a href=\"https://x.com/m0m0_0ssrr_/status/2059627029864292798?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/2/b/2b8c8163.jpg\" target=\"_blank\" title=\"a01\"><img alt=\"a01\" border=\"0\" class=\"pict\" height=\"270\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/2/b/2b8c8163-s.jpg\" width=\"480\" /></a><br /><a href=\"https://www.youtube.com/watch?v=nRKyyK7S-Zw\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.youtube.com/</span></a></blockquote></div><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ドラクエ12のキャラクター、闇バイトしてそうなの多くてちょっと笑っちゃった</p>— マツウラ (@master_mn) <a href=\"https://x.com/master_mn/status/2059622631327039671?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><br /></div><div><div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">せっかくのドラクエの日なのに悪夢になったやん</p>— わいけー (@counter_stock13) <a href=\"https://x.com/counter_stock13/status/2059659530813009975?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/3/1/31c5f7b1.png\" target=\"_blank\" title=\"a09\"><img alt=\"a09\" border=\"0\" class=\"pict\" height=\"304\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/3/1/31c5f7b1-s.png\" width=\"480\" /></a><br /><a href=\"https://kabutan.jp/stock/chart?code=9684\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://kabutan.jp/stock/chart?code=9684</span></a><div><b>※悪夢のゼロから作り直しで株価急落</b></div></blockquote></div><div><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">全部じゃないだろうけど数年前の特損の一部がドラクエ12だとしてその金額＋再開発でまだ発売年度すらも出せない状況だと開発費回収無理では？</p>— とくそん (@tokusonn) <a href=\"https://x.com/tokusonn/status/2059774042455056430?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">スクエニが救えぬエニックスと言われるわけだわ。</p>— しゅど㌠@6/7コミティア156 も19b (@0622shud) <a href=\"https://x.com/0622shud/status/2059813923172544975?ref_src=twsrc%5Etfw\">May 28, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">【3秒でわかるゲーム業界の歴史】<br /><br />スクウェア　戦闘力500<br />エニックス　戦闘力700<br />「最強同士の合体！」<br /><br />スクウェア•エニックス<br />＿人人人人人人人人人＿<br />＞　戦 闘 力　3 0 0　＜<br />￣Y^Y^Y ^Y^Y ^Y^Y￣</p>— 株ゴリラ (@gorillataxjp) <a href=\"https://x.com/gorillataxjp/status/2059627320856731805?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">悟空とベジータがフュージョンしたらヤムチャになった<br />リメイクばっかで無茶しやがって</p>— 急樂 (@0110110w) <a href=\"https://x.com/0110110w/status/2059631607238328651?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ドラクエ40年の歴史のうち10年は12作ってるのおもろいな</p>— giginet (@giginet) <a href=\"https://x.com/giginet/status/2059629061757116685?ref_src=twsrc%5Etfw\">May 27, 2026</a></blockquote><br /></div></div></div>",
@@ -180,6 +208,48 @@
       "summary": "",
       "content_html": null,
       "author": "llc",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "14b50a74c6224511",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "家賃10万円の部屋で月50万～100万円の売上。大関さんがTiktokを活用して外国人旅行客が訪れる宿を作った方法【後編】",
+      "url": "https://www.kenbiya.com/ar/cl/retsuden/tc-245/246.html",
+      "published": "2026-05-28T00:00:00+09:00",
+      "fetched": "2026-05-28T10:21:57.301540+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "retsuden",
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "09ec7f59b9081454",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "【マンション市場】「第二の大井町」はどこか？ 都心周辺ポテンシャルエリアを探る",
+      "url": "https://www.kenbiya.com/ar/ns/research/r_other/10167.html",
+      "published": "2026-05-28T00:00:00+09:00",
+      "fetched": "2026-05-28T10:21:57.301549+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "d22153c67df0f4c5",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】「できるからやれ」に平社員が労基署の盾で完全ブロックする方法理不尽な会社と戦え！！今の時代だからこそできる論破",
+      "url": "https://www.rakumachi.jp/news/practical/399825",
+      "published": "2026-05-28T00:00:00+09:00",
+      "fetched": "2026-05-28T10:21:57.644026+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "元地方銀行員大家",
       "source_type": "scrape_rakumachi"
     },
     {
@@ -1251,7 +1321,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "ハウスメーカー「好感度No.1」営業マンが懲戒免職、7棟任せた地主を裏切り「大罪」犯した理由「俺、ヘマやっちゃってさ」…電話を最後に消えた先輩の真相",
+      "title": "ハウスメーカー「好感度No.1」営業マンが懲戒免職、7棟任せた地主を裏切り「大罪」犯した理由",
       "url": "https://www.rakumachi.jp/news/column/397804",
       "published": "2026-05-25T00:00:00+09:00",
       "fetched": "2026-05-25T10:44:02.007392+00:00",
@@ -1545,7 +1615,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "5カ月で孤独死2件を経験し…「起きる前提」で整え直した女性大家の「2つの備え」家賃も1万円アップ、費用をかけない「見守りのかたち」",
+      "title": "5カ月で孤独死2件を経験し…「起きる前提」で整え直した女性大家の「2つの備え」",
       "url": "https://www.rakumachi.jp/news/column/399288",
       "published": "2026-05-24T00:00:00+09:00",
       "fetched": "2026-05-24T11:36:53.187964+00:00",
@@ -1559,7 +1629,7 @@
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
       "category": "不動産",
-      "title": "【実践大家コラム】「もっと働け」という会社に盾突く理由出世リスクを冷徹に計算！平均点平社員を死守する思考法",
+      "title": "「もっと働け」という会社に盾突く理由",
       "url": "https://www.rakumachi.jp/news/practical/399530",
       "published": "2026-05-24T00:00:00+09:00",
       "fetched": "2026-05-24T13:38:22.552727+00:00",
@@ -1979,7 +2049,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "手取り足取り！税理士・大野晃男の「不動産×税金」入門 #55法人株の相続税評価がたった「10分の1」に…国税が次に狙う「租税回避スキーム」の全貌大野晃男2026.5.23この連載の一覧を見る(55記事)",
+      "title": "法人株の相続税評価がたった「10分の1」に…国税が次に狙う「租税回避スキーム」の全貌",
       "url": "https://www.rakumachi.jp/news/column/399314",
       "published": "2026-05-23T00:00:00+09:00",
       "fetched": "2026-05-23T10:03:08.384971+00:00",
@@ -2805,7 +2875,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "「ついにマンション価格急落？」エコノミスト大家のコロナ買い場予想→空振りの全顛末マンション価格の8割は「4変数」で読める、空振りを経て磨いた精度80%の分析モデルとは",
+      "title": "「ついにマンション価格急落？」エコノミスト大家のコロナ買い場予想→空振りの全顛末",
       "url": "https://www.rakumachi.jp/news/column/398477",
       "published": "2026-05-21T00:00:00+09:00",
       "fetched": "2026-05-21T10:00:21.803185+00:00",
@@ -3183,7 +3253,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "さよなら大家業 #6「業界は悪い奴ばかり、もう限界」…50代大家3人が語る不動産投資「卒業」のワケ楽待編集部2026.5.20この連載の一覧を見る(6記事)",
+      "title": "「業界は悪い奴ばかり、もう限界」…50代大家3人が語る不動産投資「卒業」のワケ",
       "url": "https://www.rakumachi.jp/news/column/398876",
       "published": "2026-05-20T00:00:00+09:00",
       "fetched": "2026-05-20T09:52:27.535613+00:00",
@@ -10585,11 +10655,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-28T04:24:46.840373+00:00",
+  "last_updated": "2026-05-28T10:22:02.133181+00:00",
   "stats": {
-    "total": 756,
-    "fetched_just_now": 1323,
-    "feeds_success": 81,
-    "feeds_failed": 0
+    "total": 761,
+    "fetched_just_now": 913,
+    "feeds_success": 79,
+    "feeds_failed": 2
   }
 }

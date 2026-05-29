@@ -1,6 +1,48 @@
 {
   "articles": [
     {
+      "id": "695b6524245cc3a2",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "浄化槽の怖さ。「人槽」で激変するコストと、地方RC最大の隠れ爆弾",
+      "url": "https://www.kenbiya.com/ar/cl/pooh/98.html",
+      "published": "2026-05-30T00:00:00+09:00",
+      "fetched": "2026-05-29T22:01:35.155022+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "pooh",
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "2719eb7bfe7d6a75",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "元パチプロから家賃年収1800万円。賃貸併用住宅で月10万円の家計改善に成功したたこパチさん",
+      "url": "https://www.kenbiya.com/ar/ns/jiji/investor/10188.html",
+      "published": "2026-05-30T00:00:00+09:00",
+      "fetched": "2026-05-29T22:01:35.155031+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "f002fa4c161c7053",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】ことわざコラム「二兎を追う者は一兎をも得ず」欲張り投資が失敗を呼ぶ本当の理由",
+      "url": "https://www.rakumachi.jp/news/practical/398753",
+      "published": "2026-05-30T00:00:00+09:00",
+      "fetched": "2026-05-29T22:01:35.487421+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "戸田匠",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "4dc1b2e6bcdd290c",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -12,6 +54,20 @@
       "summary": "世界の真ん中で咲き誇るワロス曲線からの上抜け pic.twitter.com/bFrq8M6Gem — nb (@nbfx121865) May 5, 2026 https://www.gaitame.com/ ※ 片山さつき財務大臣と三村淳財務官、ドル円に日本版ワロス曲線を描く（2026/05/05） こつこつちまちま実弾介入してこの値動きなんだとしたら愚かすぎると思う だから介入は初日のあれだけだったと祈りたい — ethe (@CatApassed) May 5, 2026 11.7兆円のワロス曲線 — ﾚｵﾚｵに (@n1ce_b0y_) May…",
       "content_html": "<div><div><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">世界の真ん中で咲き誇るワロス曲線からの上抜け <a href=\"https://t.co/bFrq8M6Gem\">pic.twitter.com/bFrq8M6Gem</a></p>— nb (@nbfx121865) <a href=\"https://x.com/nbfx121865/status/2051606920138801402?ref_src=twsrc%5Etfw\">May 5, 2026</a></blockquote><blockquote> <a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/3/6/36f52447.png\" target=\"_blank\" title=\"a20\"><img alt=\"a20\" border=\"0\" class=\"pict\" height=\"196\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/3/6/36f52447-s.png\" width=\"480\" /></a><br /><a href=\"https://www.gaitame.com/markets/chart/usdjpy.html?interval=60\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.gaitame.com/</span></a><br /><b>※<a href=\"https://kabumatome.doorblog.jp/archives/66031310.html\" target=\"_blank\" title=\"\">片山さつき財務大臣と三村淳財務官、ドル円に日本版ワロス曲線を描く（2026/05/05）</a></b></blockquote></div><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">こつこつちまちま実弾介入してこの値動きなんだとしたら愚かすぎると思う　だから介入は初日のあれだけだったと祈りたい</p>— ethe (@CatApassed) <a href=\"https://twitter.com/CatApassed/status/2051534433086480527?ref_src=twsrc%5Etfw\">May 5, 2026</a></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">11.7兆円のワロス曲線</p>— ﾚｵﾚｵに (@n1ce_b0y_) <a href=\"https://x.com/n1ce_b0y_/status/2060304538859716656?ref_src=twsrc%5Etfw\">May 29, 2026</a></blockquote><blockquote><a href=\"https://x.com/Min_FX/status/2060300705366430085\" target=\"_blank\" title=\"a18\"><img alt=\"a18\" border=\"0\" class=\"pict\" height=\"398\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/5/3/53592ad0.png\" width=\"401\" /></a></blockquote></div><div><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">今年のGW介入は『11.7兆円』で確定<br />（2024年のGW介入は9.7兆円）<br /><br />財務省が為替介入実施額の月次を発表<br />（2026/04/28～05/27分） <a href=\"https://t.co/TIQcDEfmN3\">pic.twitter.com/TIQcDEfmN3</a></p>— ふさふさ (@23_fusafusa) <a href=\"https://x.com/23_fusafusa/status/2060300166780129592?ref_src=twsrc%5Etfw\">May 29, 2026</a></blockquote><blockquote> <a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/5/3/53e706c0.png\" target=\"_blank\" title=\"a19\"><img alt=\"a19\" border=\"0\" class=\"pict\" height=\"282\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/5/3/53e706c0-s.png\" width=\"480\" /></a></blockquote></div><div><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">使った割に効果イマイチなのね、やはり</p>— もふ鈴 (@rinzombiemofu) <a href=\"https://x.com/rinzombiemofu/status/2060300466349916505?ref_src=twsrc%5Etfw\">May 29, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">外貨準備を無惨に溶かした財務省怒りの為替介入に怒ってる人たち、少し落ち着いて欲しい。為替介入のおかげで、ゴールデンウィークにハワイ旅行で1万ドル使った人たちのクレカの請求額が160万円から157万円になってるので決して無駄ではない。</p>— 窓際三等兵 (@nekogal21) <a href=\"https://x.com/nekogal21/status/2060321706171089052?ref_src=twsrc%5Etfw\">May 29, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">もし為替介入してなかったら今頃1ドル175円ぐらいになってただろうからきっとものすごく効果あったんですよ（）</p>— ethe (@CatApassed) <a href=\"https://x.com/CatApassed/status/2060366402654179689?ref_src=twsrc%5Etfw\">May 29, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">Bloombergでも日本のテレビ局でもええけど神田暴威に今回の介入どー思います？ってインタビューしてほしい</p>— まご (@mgc_fx) <a href=\"https://x.com/mgc_fx/status/2060315912360886630?ref_src=twsrc%5Etfw\">May 29, 2026</a></blockquote><div class=\"amazon MediumImage\"><blockquote><div class=\"pictBox\"><a href=\"https://www.amazon.co.jp/dp/4296124889?psc=1&amp;tag=aaajn000-22+&amp;th=1&amp;linkCode=osi\" target=\"_blank\"><img alt=\"強い日本を残す 円安と闘った男がすべてを語る\" border=\"0\" class=\"pict\" hspace=\"5\" src=\"https://m.media-amazon.com/images/I/41KsE4Rx-QL._SL160_.jpg\" /></a><br /></div></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">今回の介入ちょっと下手くそではと思ってしまうけどもやりすぎると怒られるから制限の中で少しずつやって時間かせぐのが目的だった？</p>— 確認用 (@news9111) <a href=\"https://x.com/news9111/status/2060328390700442014?ref_src=twsrc%5Etfw\">May 29, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">もしかして介入して時間稼ぎして利上げするフリして時間稼ぎして補助金と減税で凌ごうとしてる？</p>— 鷹蔵 (@Highvwaper) <a href=\"https://twitter.com/Highvwaper/status/2054901540335599622?ref_src=twsrc%5Etfw\">May 14, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">金利がこんなになってるのに電気代補助ばら撒きとか狂ってるよな。二日酔いを迎え酒で治そうとするアル中みたい。</p>— ぱりてきさす (@paristexas2009) <a href=\"https://twitter.com/paristexas2009/status/2055141993806983355?ref_src=twsrc%5Etfw\">May 15, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">なんの解決にもならないその場しのぎの先にどんな結末が待ってるんだろうね<br />逃げられる人はいるだろうけど、多くの人は人生詰みになるような結末に最悪なりそうや</p>— わいけー (@counter_stock13) <a href=\"https://twitter.com/counter_stock13/status/2056210541778194739?ref_src=twsrc%5Etfw\">May 18, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">日本の話だと思ったらロシアの話でびっくりした <a href=\"https://t.co/pnWsR8juhk\">pic.twitter.com/pnWsR8juhk</a></p>— コズ銀くん (@mizuhoginhidoi) <a href=\"https://x.com/mizuhoginhidoi/status/2060199434458476826?ref_src=twsrc%5Etfw\">May 29, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/4/e/4e5968b6.jpg\" target=\"_blank\" title=\"a14\"><img alt=\"a14\" border=\"0\" class=\"pict\" height=\"221\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/4/e/4e5968b6-s.jpg\" width=\"480\" /></a><br /><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/a/c/ac61e8c8.jpg\" target=\"_blank\" title=\"a15\"><img alt=\"a15\" border=\"0\" class=\"pict\" height=\"221\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/a/c/ac61e8c8-s.jpg\" width=\"480\" /></a><div><a href=\"https://www.youtube.com/watch?v=3MRFebYknYo\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.youtube.com/</span></a><br /></div></blockquote></div></div><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">いまだに財政出動だ緩和だ減税だ補助金だと言ってるのは幸福な夢を生きたって感じですね。あの頃の日本にはもう戻れない。</p>— 三味線 (@f10523) <a href=\"https://twitter.com/f10523/status/2056369057478459445?ref_src=twsrc%5Etfw\">May 18, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">国民が喜ぶことだけやっていて実際に国民の生活が良くなるなら歴史の教科書には革命も戦争も登場しない</p>— ethe (@CatApassed) <a href=\"https://twitter.com/CatApassed/status/2056739485053026509?ref_src=twsrc%5Etfw\">May 19, 2026</a></blockquote><br /></div>",
       "author": "masorira",
+      "source_type": "rss"
+    },
+    {
+      "id": "a85aeb9aa181f294",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "キャンベル＝シラーに対する罪",
+      "url": "https://himaginary.hatenablog.com/entry/20260529/Crimes_Against_Campbell-Shiller",
+      "published": "2026-05-29T14:59:00+00:00",
+      "fetched": "2026-05-29T22:01:38.794800+00:00",
+      "summary": "というNBER論文が 上がっている （ ungated版 ）。原題は「Crimes Against Campbell-Shiller」で、著者はItzhak Ben-David（オハイオ州立大）、Alex Chinco（ミシガン州立大）。 以下はその要旨。 The Campbell and Shiller (1988) log-linear approximation is widely viewed as a model-free accounting identity that always holds: in sample, in expectat…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35189\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://www.alexchinco.com/crimes-against-campbell-shiller.pdf\">ungated&#x7248;</a>）。原題は「Crimes Against Campbell-Shiller」で、著者はItzhak Ben-David（オハイオ州立大）、Alex Chinco（ミシガン州立大）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>The Campbell and Shiller (1988) log-linear approximation is widely viewed as a model-free accounting identity that always holds: in sample, in expectation, and under arbitrary subjective beliefs. None of these claims is true. The formula is far from automatic even in realized data. Many companies do not pay dividends, making the calculation ill-defined. For dividend payers, the results are not always what they seem. The formula registers buybacks and new issuance as phantom cash-flow shocks. Taking expectations comes with its own complications. Researchers see the forward-looking version of Campbell-Shiller as a dynamic Gordon model, but this interpretation requires investors to consistently think in present-value terms and to know the cap rate with basis-point precision. Both are strong assumptions that do not always hold in the data. Finally, the formula generically fails under arbitrary subjective beliefs. The exceptions represent knife-edge cases where forecast errors obey a precise adding-up condition. Insisting that Campbell-Shiller always holds makes it harder to learn about the true pricing model in the many cases where it does not.<br />\n（拙訳）<br />\nキャンベル＝シラー（1988）の対数線形近似は、サンプル、予想、および任意の主観的な考えの下で常に成立する、モデルに依らない会計の恒等式と広くみなされている。この主張はいずれも真実ではない。同公式は、実際のデータにおいてさえ、自動的に成立するものとは程遠い。多くの企業は配当を支払わず、その計算の定義の当てはまりを悪くしている。配当を支払う企業においては、結果は見掛け通りになるとは限らない。公式は自社株買いや新株発行を潜在的なキャッシュフローショックとして扱っている。予想を取り込むとそのこと自体で話がややこしくなる。研究者はキャンベル＝シラーのフォワードルッキング版を動的なゴードンモデル<a href=\"#f-880d1aae\" id=\"fn-880d1aae\" name=\"fn-880d1aae\" title=\"cf. [https://en.wikipedia.org/wiki/Dividend_discount_model:title]、[https://himaginary.hatenablog.com/entry/20080813/finance_8:title]。\">*1</a>と見做しているが、この解釈は、投資家が一貫して現在価値の観点で考え、還元利回りをベーシスポイントの正確さで把握していることを必要条件とする。両者は、データでは常に成立するわけではない強い仮定である。さらに、公式は任意の主観的な考えの下では一般に成立しない。例外は予測誤差が正確な加算条件に従うナイフエッジな場合である。キャンベル＝シラーが常に成立すると固執してしまうと、それが成立しない多くのケースにおいて真の価格モデルを学習することが一層難しくなる。</p>\n\n    </blockquote>\n<p>結論部の冒頭では</p>\n\n    <blockquote>\n        <p>Our goal is not to discredit Campbell and Shiller (1988). There is nothing incorrect about the original paper. The formula does sometimes hold, and it is a useful extension of the Gordon model. The log-linear approximation is exactly the right tool for the job in situations where prices come from a time-varying Gordon model. We are making a specific claim about how the literature has come to view Campbell-Shiller.<br />\n（拙訳）<br />\n我々の目的はキャンベル＝シラー（1988）を貶めることではない。原論文には間違ったところは何もない。公式は確かに成立することがあり、かつゴードンモデルの有用な拡張である。線形対数近似は、時変的なゴードンモデルから価格が生じる状況ではまさに使うべき正しいツールである。我々は、この分野の研究がキャンベル＝シラーをどのように見做すようになったか、に話を限定して論じている。</p>\n\n    </blockquote>\n<p>と断っている。</p><p>著者は<a href=\"https://himaginary.hatenablog.com/entry/20240927/Expected_EPS_Trailing_PE\">&#x4e88;&#x60f3;EPS&times;&#x5b9f;&#x7e3e;P/E - himaginary&rsquo;s diary</a>で紹介した論文の著者と同じコンビである。Ben-Davidは<a href=\"https://himaginary.hatenablog.com/entry/20160519/The_Granular_Nature_of_Large_Institutional_Investors\">&#x6a5f;&#x95a2;&#x5316;&#x73fe;&#x8c61;&#x306f;&#x8cc7;&#x7523;&#x4fa1;&#x683c;&#x306b;&#x3069;&#x306e;&#x3088;&#x3046;&#x306b;&#x5f71;&#x97ff;&#x3059;&#x308b;&#x304b;&#xff1f; - himaginary&rsquo;s diary</a>や<a href=\"https://himaginary.hatenablog.com/entry/20190510/Do_Distressed_Banks_Really_Gamble_for_Resurrection\">&#x7d4c;&#x55b6;&#x5371;&#x6a5f;&#x306b;&#x9665;&#x3063;&#x305f;&#x9280;&#x884c;&#x306f;&#x672c;&#x5f53;&#x306b;&#x518d;&#x751f;&#x3078;&#x306e;&#x8ced;&#x3051;&#x3092;&#x884c;&#x3046;&#x306e;&#x304b;&#xff1f; - himaginary&rsquo;s diary</a>で紹介した論文も書いている。</p><p>キャンベル＝シラーの論文は<a href=\"https://www.jstor.org/stable/2961997\">&#x3053;&#x3061;&#x3089;</a>（<a href=\"https://www-2.rotman.utoronto.ca/~kan/3032/pdf/PredictabilityOfReturns_InstrumentalVariables/Campbell_Shiller_RFS_1988.pdf\">ungated&#x7248;</a>）。関連日本語論文は<a href=\"http://www.jardis.org/publications/jbd/16/jbd-16-note1.pdf\">&#x3053;&#x3061;&#x3089;</a>。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-880d1aae\" id=\"f-880d1aae\" name=\"f-880d1aae\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">cf. <a href=\"https://en.wikipedia.org/wiki/Dividend_discount_model\">Dividend discount model - Wikipedia</a>、<a href=\"https://himaginary.hatenablog.com/entry/20080813/finance_8\">&#x8cc7;&#x7523;&#x4fa1;&#x683c;&#x306e;&#x7406;&#x8ad6;&#xff1a;&#x79c1;&#x7684;&#x6982;&#x8ad6;&#xff0f;&#xff08;&#xff18;&#xff09;&#x914d;&#x5f53;&#x5272;&#x5f15;&#x30e2;&#x30c7;&#x30eb; - himaginary&rsquo;s diary</a>。</span></p>\n</div>",
+      "author": "himaginary",
       "source_type": "rss"
     },
     {
@@ -1461,7 +1517,7 @@
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
       "category": "不動産",
-      "title": "【実践大家コラム】＃７３０　読者が教えてくれた投資の原点の件～初心者の皆さんに参考になれば～",
+      "title": "＃７３０　読者が教えてくれた投資の原点の件",
       "url": "https://www.rakumachi.jp/news/practical/399537",
       "published": "2026-05-26T00:00:00+09:00",
       "fetched": "2026-05-26T16:04:16.504918+00:00",
@@ -10837,10 +10893,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-29T18:41:09.851963+00:00",
+  "last_updated": "2026-05-29T22:01:42.235953+00:00",
   "stats": {
-    "total": 774,
-    "fetched_just_now": 1313,
+    "total": 778,
+    "fetched_just_now": 1314,
     "feeds_success": 81,
     "feeds_failed": 0
   }

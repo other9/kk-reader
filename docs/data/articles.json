@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "55831650fc696626",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "社会主義的な立憲主義における信頼性と事前コミットメント",
+      "url": "https://himaginary.hatenablog.com/entry/20260530/Credibility_and_Precommitment_in_Socialist_Constitutionalism",
+      "published": "2026-05-30T14:59:00+00:00",
+      "fetched": "2026-05-30T17:18:44.068888+00:00",
+      "summary": "というNBER論文が 上がっている 。原題は「Credibility and Precommitment in Socialist Constitutionalism」で、著者はSebastian Edwards（UCLA）。 以下はその要旨。 In this paper I examine Chile’s 1972 initiative to draft a new constitution under President Salvador Allende. I analyze the political and economic circumstan…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35200\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>。原題は「Credibility and Precommitment in Socialist Constitutionalism」で、著者はSebastian Edwards（UCLA）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>In this paper I examine Chile’s 1972 initiative to draft a new constitution under President Salvador Allende. I analyze the political and economic circumstances that gave rise to the project and the institutional mechanisms through which the draft sought to advance a socialist economic and political program centered on state ownership of means of production and central planning. I compare the Chilean proposal with the socialist constitutions of the German Democratic Republic and Czechoslovakia. The draft, which was never submitted to a plebiscite, as Allende envisioned, subsequently disappeared and remained unavailable for nearly two decades. Remarkably, the proposal has attracted very limited scholarly attention.<br />\n（拙訳）<br />\n本稿で私は、サルバドール・アジェンデ大統領の下で新たな憲法を起草したチリの1972年のイニシアチブを調べた。そのプロジェクトを生み出すに至った政治的・経済的状況と、生産手段の国有化と中央計画を中心とする社会主義的な経済・政治プログラムを草案がそれを通じて進めようとした制度的メカニズムを私は分析した。私は、チリの案をドイツ民主共和国とチェコスロバキアの社会主義の憲法と比較した。アジェンデが思い描いていたように国民投票に掛けられることがついに無かった草案は、その後消失し、20年近く入手できない状況が続いた。注目すべきことに、提案は非常に限られた学問的な注目しか集めなかった。</p>\n\n    </blockquote>\n<p>論文は既にConstitutional Political Economy（cf. <a href=\"https://en.wikipedia.org/wiki/Constitutional_Political_Economy\">Constitutional Political Economy - Wikipedia</a>）5/14号に<a href=\"https://link.springer.com/article/10.1007/s10602-026-09516-4\">&#x63b2;&#x8f09;&#x3055;&#x308c;&#x3066;&#x3044;&#x308b;</a>。</p><p>ちなみに著者のアジェンデ政権の経済政策に関する論文を以前に<a href=\"https://himaginary.hatenablog.com/entry/20231210/Debauchery_of_Currency_and_Inflation\">&#x901a;&#x8ca8;&#x306e;&#x5815;&#x843d;&#x3068;&#x30a4;&#x30f3;&#x30d5;&#x30ec;&#xff1a;&#x30c1;&#x30ea;&#x3001;1970-1973 - himaginary&rsquo;s diary</a>で紹介したことがある。</p>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "512691c0f443eb83",
       "feed_id": "2ec7ee82ecf8",
       "feed_title": "マンションの間取りや価格を言いたい放題!",
@@ -1741,7 +1755,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "自己資金250万円と事業売却資金…同じ50代スタートで「地方築古」と「都市部築浅」に分かれた2人の戦略元コンサル会社役員と元葬儀社社長に聞く、「50代からの不動産投資」遅くはない？",
+      "title": "自己資金250万円と事業売却資金…同じ50代スタートで「地方築古」と「都市部築浅」に分かれた2人の戦略",
       "url": "https://www.rakumachi.jp/news/column/399175",
       "published": "2026-05-26T00:00:00+09:00",
       "fetched": "2026-05-26T10:15:52.189749+00:00",
@@ -2105,7 +2119,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "ハウスメーカー「好感度No.1」営業マンが懲戒免職、7棟任せた地主を裏切り「大罪」犯した理由「俺、ヘマやっちゃってさ」…電話を最後に消えた先輩の真相",
+      "title": "ハウスメーカー「好感度No.1」営業マンが懲戒免職、7棟任せた地主を裏切り「大罪」犯した理由",
       "url": "https://www.rakumachi.jp/news/column/397804",
       "published": "2026-05-25T00:00:00+09:00",
       "fetched": "2026-05-25T10:44:02.007392+00:00",
@@ -2399,7 +2413,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "5カ月で孤独死2件を経験し…「起きる前提」で整え直した女性大家の「2つの備え」家賃も1万円アップ、費用をかけない「見守りのかたち」",
+      "title": "5カ月で孤独死2件を経験し…「起きる前提」で整え直した女性大家の「2つの備え」",
       "url": "https://www.rakumachi.jp/news/column/399288",
       "published": "2026-05-24T00:00:00+09:00",
       "fetched": "2026-05-24T11:36:53.187964+00:00",
@@ -10949,9 +10963,9 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-30T15:19:52.011453+00:00",
+  "last_updated": "2026-05-30T17:18:44.445237+00:00",
   "stats": {
-    "total": 782,
+    "total": 783,
     "fetched_just_now": 1310,
     "feeds_success": 81,
     "feeds_failed": 0

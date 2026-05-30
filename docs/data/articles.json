@@ -1,6 +1,34 @@
 {
   "articles": [
     {
+      "id": "cfc25df403a18c31",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "【銀行融資】紹介より“銀行からの営業電話”の方が強かった話。地銀2行との新規取引で見えた現実",
+      "url": "https://www.kenbiya.com/ar/ns/loan/other/10176.html",
+      "published": "2026-05-31T00:00:00+09:00",
+      "fetched": "2026-05-30T21:11:36.200577+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "31b4673d3027df77",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】【偉人たちの名言コラム】分散の罠と本当の武器“何でも買う投資”より“理解して買う投資”が生き残る",
+      "url": "https://www.rakumachi.jp/news/practical/398756",
+      "published": "2026-05-31T00:00:00+09:00",
+      "fetched": "2026-05-30T21:11:36.655815+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "戸田匠",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "55831650fc696626",
       "feed_id": "f8c882c05df3",
       "feed_title": "himaginary’s diary",
@@ -10949,10 +10977,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-30T19:39:11.630566+00:00",
+  "last_updated": "2026-05-30T21:11:41.502358+00:00",
   "stats": {
-    "total": 782,
-    "fetched_just_now": 1309,
+    "total": 784,
+    "fetched_just_now": 1312,
     "feeds_success": 81,
     "feeds_failed": 0
   }

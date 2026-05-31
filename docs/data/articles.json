@@ -57,6 +57,34 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "15fd08f5741f9a85",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】築古戸建て投資で想定外の出費｜地中の水道管漏水と新規引き直し見た目では分からない“地中のトラブル”が、修繕費を大きく押し上げます",
+      "url": "https://www.rakumachi.jp/news/practical/400039",
+      "published": "2026-06-01T00:00:00+09:00",
+      "fetched": "2026-05-31T19:38:36.354381+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "旅する建築士大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "b3c33216d961a4ec",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "二市場収益率物語：広範市場ファクターと固有金融ファクター",
+      "url": "https://himaginary.hatenablog.com/entry/20260531/A_Tale_of_Two_Market_Returns",
+      "published": "2026-05-31T14:59:00+00:00",
+      "fetched": "2026-05-31T19:38:39.709003+00:00",
+      "summary": "というNBER論文が 上がっている （ ungated版へのリンクがある著者の一人のページ ）。原題は「A Tale of Two Market Returns: The Broad Market Factor and The Idiosyncratic Financial Factor」で、著者はSung Je Byun（ダラス連銀）、Johnathan Loudis（ノートルダム大）、Lawrence D.W. Schmidt（MIT）。 以下はその要旨。 We construct a Broad Market Factor (BMF), which…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35243\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://lawrencedwschmidt.com/research/the-idiosyncratic-financial-factor/\">ungated&#x7248;&#x3078;&#x306e;&#x30ea;&#x30f3;&#x30af;&#x304c;&#x3042;&#x308b;&#x8457;&#x8005;&#x306e;&#x4e00;&#x4eba;&#x306e;&#x30da;&#x30fc;&#x30b8;</a>）。原題は「A Tale of Two Market Returns: The Broad Market Factor and The Idiosyncratic Financial Factor」で、著者はSung Je Byun（ダラス連銀）、Johnathan Loudis（ノートルダム大）、Lawrence D.W. Schmidt（MIT）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>We construct a Broad Market Factor (BMF), which is a proxy for the value-weighted equity return on all firms in the US economy (public and private). The BMF differs from the standard Value-weighted Market Factor (VMF), which reflects the value-weighted equity return on public firms. We define the difference between the VMF and the BMF to be the Idiosyncratic Financial Factor (IFF). The IFF carries no risk premium and is uncorrelated with all macroeconomic proxies for investor marginal utility we consider. CAPM betas and, consequently, discount rates are underestimated when measured with respect to the VMF compared to the BMF for most portfolios. Size factors become redundant and the size anomaly is resolved when the VMF is replaced by the BMF in standard factor models. The intertemporal risk-return relation is substantially stronger when one replaces the VMF with the BMF. The unifying explanation for these results is that the IFF adds unpriced risk to the VMF, distorting both cross-sectional and time-series estimates of exposure to priced market risk.<br />\n（拙訳）<br />\n我々は、米経済における（公開・非公開）全ての企業の時価加重株式収益率の代理変数である広範市場ファクター（BMF）を構築した。BMFは、公開企業の時価加重株式収益率を反映する標準的な時価加重平均市場ファクター（VMF）とは異なっている。我々は、VMFとBMFの差を固有金融ファクター（IFF）として定義した。IFFにはリスクプレミアムが無く、我々が検討する投資家の限界効用の代理変数となる全てのマクロ経済変数と無相関である。大半のポートフォリオでは、BMFについて計測した場合に比べてVMFについて計測したCAPMベータは過小評価され、従って割引率も過小評価される。標準的なファクターモデルにおいてVMFをBMFで置き換えると、規模ファクターは余剰となり、規模アノマリーは解消する。VMFをBMFで置き換えると、異時点間のリスク＝リターンの関係は有意に強くなる。以上の結果の統一的な説明は、IFFは価格付けされていないリスクをVMFに追加し、クロスセクションと時系列の両方で、価格付けされた市場リスクへのエクスポージャーの推計を歪める、というものである。</p>\n\n    </blockquote>\n<p>論文の冒頭では、米国では600万の企業があるのに、公開市場で取引されているのは4000程度に過ぎず、しかも公開企業は企業部門からランダムに選ばれているわけではない、と指摘している。<br />\n全企業データはKwon et al.（2024<a href=\"#f-75b9902d\" id=\"fn-75b9902d\" name=\"fn-75b9902d\" title=\"[https://www.aeaweb.org/articles?id=10.1257/aer.20220621:title]。\">*1</a>）が収集・デジタル化したもの、公開企業データはCRSP/Compustatを合同したデータを使ったとの由。<br />\n以下はBMFとVMFの特性の違いを示した論文の図。<br />\n<span><img class=\"hatena-fotolife\" height=\"919\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/h/himaginary/20260601/20260601042546.png\" title=\"\" width=\"842\" /></span></p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-75b9902d\" id=\"f-75b9902d\" name=\"f-75b9902d\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\"><a href=\"https://www.aeaweb.org/articles?id=10.1257/aer.20220621\">100 Years of Rising Corporate Concentration - American Economic Association</a>。</span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "cad70da3ad200b09",
       "feed_id": "d976d70a8e8a",
       "feed_title": "【不動産投資】訳あり物件再生の方法が面白いほどよくわかるブログ",
@@ -10933,26 +10961,12 @@
       "content_html": "<p class=\"has-medium-font-size\">連休で家族と過ごしている。<br />とはいえ、外出はしない。<br />誰かの所得のための休日にはしないということだ。<br /><br />そのせいでブログの更新もマチマチになってしまっている。<br />別に誰が待っているというものでもないが、<br />毎日更新は大事だと思う。<br /><br />ルーティンとしてこなす。<br /><br />それにしてもGWってやつは消費させるための時期である。<br />この時期が書き入れ時って事業者もいるわけだ。<br />彼らはここで売上を作ろうと、あの手この手を用意している。<br /><br />一方で、庶民はもう46％を国家に召し上げられているから<br />消費する力もない。<br />近所の公園で過ごして、回転寿司でも食べた程度でお茶を濁すのである。<br />つくづく日本人は貧困に耐える。<br />悪政にもよく耐える。<br />そもそもGHQに進駐されて、テロの1件も起こさない国民である。<br />アフガニスタン、イラクでは何人の米兵が殺されたかわからない。<br />つくづく我慢強い民族だ。<br /><br />とは言え、我慢しかしない民族だったら、<br />どこかのタイミングで滅亡していたわけで、<br />今まで生き残っているから、<br />いざ爆発すると逆に止まらない国民性でもある。<br /><br />現行襲来時の攻撃性は目を見張るものがある。<br />守り一辺倒ではなく、元の船に夜襲をかける。<br />味方を盾にして船を進めてきても、<br />「今楽にしてやる」<br />と言って構わず撃つ。<br />逆に、<br />「ほう、元はそういうことが嫌だと思うのか」<br />と、敵兵を今度は盾にして攻める。<br /><br />恐ろしい国民だ。<br />敵にしたらこんなに恐ろしい民族はいない。<br />そこでじっくりと牙を抜いていくために、<br />アメリカは、考えうる、ありとあらゆる制度を入れたのである。<br /><br />ま、それはさておき。<br /><br />くれぐれもバカみたいに連休に消費しないことだ。<br />人と同じことをしておいて、<br />人より豊かになれないと嘆くのは、実にバカバカしいことだ。<br />連休に遊ぶヤツはバカだ。<br />くらに思っていた方がいい。<br /><br />とはいえ、SAT家はある程度資産形成も完成しつつあるので<br />20代にやっていたような、<br />土日労働などはしない。<br />物件検索もしない。<br />ただ、金を使わないように動画でも見たり、<br />家族で近所の安いメシ屋でワイワイしたりする。<br /><br />その間も資産は休まず働いてくれる。<br />そうやってつつましく、豊かに生きていく。<br /><br />つづく</p><p>The post <a href=\"https://investment-finance.net/2026%e5%b9%b45%e6%9c%882%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89/\">2026年5月2日（土）</a> first appeared on <a href=\"https://investment-finance.net\">サラリーマンと不動産投資</a>.</p>",
       "author": "SAT",
       "source_type": "rss"
-    },
-    {
-      "id": "7da078a51cc35043",
-      "feed_id": "d976d70a8e8a",
-      "feed_title": "【不動産投資】訳あり物件再生の方法が面白いほどよくわかるブログ",
-      "category": "不動産",
-      "title": "☆港北区激安戸建☆",
-      "url": "https://ameblo.jp/h251115/entry-12964796521.html",
-      "published": "2026-05-01T19:00:11+00:00",
-      "fetched": "2026-05-06T01:38:46.493428+00:00",
-      "summary": "もちろん再建築不可です（笑） どうも！ 訳あり不動産の佐藤です。 本日は快晴！ 絶好のお出かけ日和です♪ 私も芝刈りに行ってきます♪ さて、本日のご紹介物件は・・・ 弊社で購入も考えているのですが・・・ 東急東横線「妙蓮寺」駅徒歩9分の激安戸建です。 価格：500万円+仲介手数料 住所：港北区仲手原2丁目 権利：所有権 土地：57.78㎡ 建物：52，32㎡ 構造：木造亜鉛メッキ鋼板葺2階建 築年月：昭和41年3月 ※都市ガス・公共上下水 再建築不可 想定賃料はリノベ後15万円 700万円位でリノベーションできれば勝ち筋です。 利回り15％ 充分行けると…",
-      "content_html": "<p>&nbsp;</p><h2 class=\"limited_heading06\" style=\"background-size: 178px 11px; padding-bottom: 19px; margin: 8px 0; font-weight: bold; color: #424242; font-size: 20px; line-height: 1.6; text-align: center; background-position: center bottom;\"><span style=\"display: block;\"><span style=\"display: block;\">もちろん再建築不可です（笑）</span></span></h2><p>どうも！</p><p>訳あり不動産の佐藤です。</p><p>&nbsp;</p><p>本日は快晴！</p><p>絶好のお出かけ日和です♪</p><p>私も芝刈りに行ってきます♪</p><p>&nbsp;</p><p>さて、本日のご紹介物件は・・・</p><p>弊社で購入も考えているのですが・・・</p><p>東急東横線「妙蓮寺」駅徒歩9分の激安戸建です。</p><p><a href=\"https://stat.ameba.jp/user_images/20260501/22/h251115/6c/43/j/o0458057215777423898.jpg\"><img alt=\"\" height=\"572\" src=\"https://stat.ameba.jp/user_images/20260501/22/h251115/6c/43/j/o0458057215777423898.jpg\" width=\"458\" /></a></p><p>&nbsp;</p><p>価格：500万円+仲介手数料</p><p>住所：港北区仲手原2丁目</p><p>権利：所有権</p><p>土地：57.78㎡</p><p>建物：52，32㎡</p><p>構造：木造亜鉛メッキ鋼板葺2階建</p><p>築年月：昭和41年3月</p><p>※都市ガス・公共上下水</p><p>再建築不可</p><p><a href=\"https://stat.ameba.jp/user_images/20260501/22/h251115/8e/6d/j/o0786063215777423962.jpg\"><img alt=\"\" height=\"499\" src=\"https://stat.ameba.jp/user_images/20260501/22/h251115/8e/6d/j/o0786063215777423962.jpg\" width=\"620\" /></a></p><p><a href=\"https://stat.ameba.jp/user_images/20260501/22/h251115/88/a3/j/o1042065715777424084.jpg\"><img alt=\"\" height=\"391\" src=\"https://stat.ameba.jp/user_images/20260501/22/h251115/88/a3/j/o1042065715777424084.jpg\" width=\"620\" /></a></p><p>想定賃料はリノベ後15万円</p><p>700万円位でリノベーションできれば勝ち筋です。</p><p>利回り15％</p><p>充分行けると思います。</p><p>内見しないと何ともですが、傾きが無ければ良いと思います。</p><p>&nbsp;</p><p>東急東横線は言わずと知れた人気路線ですので賃貸付けもしやすいかと思われます。</p><p>それでは、また。</p><p>&nbsp;</p><p>&nbsp;</p>",
-      "author": null,
-      "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-31T17:19:36.737382+00:00",
+  "last_updated": "2026-05-31T19:38:43.989234+00:00",
   "stats": {
-    "total": 782,
-    "fetched_just_now": 1316,
+    "total": 783,
+    "fetched_just_now": 1314,
     "feeds_success": 81,
     "feeds_failed": 0
   }

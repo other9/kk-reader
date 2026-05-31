@@ -71,6 +71,34 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "87b46deab2422a73",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "相見積もりの差額は2億円以上！23区内RC5階建て新築の坪単価を127万円で実現！コストを下げて良い建物を建てるノウハウとは？",
+      "url": "https://www.kenbiya.com/ar/ns/for_rent/tenant/10197.html",
+      "published": "2026-06-01T00:00:00+09:00",
+      "fetched": "2026-05-31T21:12:31.512711+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "10114e22c58d7e22",
+      "feed_id": "2e7efdb141f2",
+      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
+      "category": "不動産",
+      "title": "中国人は日本のどこでマンションを買っているのか──「神居秒算」で見えた投資先の地図",
+      "url": "https://1manken.hatenablog.com/entry/2021/2/02/shenjumiaosuan_monthly_report",
+      "published": "2026-05-31T21:00:00+00:00",
+      "fetched": "2026-05-06T01:38:48.595965+00:00",
+      "summary": "中国人投資家は日本のどこでマンションを買っているのか。 中国人向け不動産サイト「神居秒算」の掲載件数を最新データで更新。",
+      "content_html": "中国人投資家は日本のどこでマンションを買っているのか。\n中国人向け不動産サイト「神居秒算」の掲載件数を最新データで更新。",
+      "author": "flats",
+      "source_type": "rss"
+    },
+    {
       "id": "b3c33216d961a4ec",
       "feed_id": "f8c882c05df3",
       "feed_title": "himaginary’s diary",
@@ -10137,20 +10165,6 @@
       "source_type": "rss"
     },
     {
-      "id": "10114e22c58d7e22",
-      "feed_id": "2e7efdb141f2",
-      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
-      "category": "不動産",
-      "title": "中国人は日本のどこでマンションを買っているのか──「神居秒算」で見えた投資先の地図",
-      "url": "https://1manken.hatenablog.com/entry/2021/2/02/shenjumiaosuan_monthly_report",
-      "published": "2026-05-05T06:30:00+00:00",
-      "fetched": "2026-05-06T01:38:48.595965+00:00",
-      "summary": "中国人投資家は日本のどこでマンションを買っているのか。 中国人向け不動産サイト「神居秒算」の掲載件数を最新データで更新。",
-      "content_html": "中国人投資家は日本のどこでマンションを買っているのか。\n中国人向け不動産サイト「神居秒算」の掲載件数を最新データで更新。",
-      "author": "flats",
-      "source_type": "rss"
-    },
-    {
       "id": "bda06913c5b319a1",
       "feed_id": "5acee72b6150",
       "feed_title": "金融の未来を考えるブログ",
@@ -10963,11 +10977,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-05-31T19:38:43.989234+00:00",
+  "last_updated": "2026-05-31T21:12:36.500272+00:00",
   "stats": {
-    "total": 783,
-    "fetched_just_now": 1314,
-    "feeds_success": 81,
-    "feeds_failed": 0
+    "total": 784,
+    "fetched_just_now": 1278,
+    "feeds_success": 74,
+    "feeds_failed": 7
   }
 }

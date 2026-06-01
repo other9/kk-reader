@@ -29,6 +29,62 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "403ab0aed380beac",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "しんきんの応接室での不動産引き渡し",
+      "url": "https://www.kenbiya.com/ar/cl/sinkin/54.html",
+      "published": "2026-06-02T00:00:00+09:00",
+      "fetched": "2026-06-01T22:35:12.404206+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "sinkin",
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "3646b78586d5188c",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "金融庁が「JPYC」を資金移動業の枠組みで位置づけ。法的枠組みの明確化で加速する資金移動業型・日本円ステーブルコイン第1号の未来",
+      "url": "https://www.kenbiya.com/ar/ns/jiji/diversion/10174.html",
+      "published": "2026-06-02T00:00:00+09:00",
+      "fetched": "2026-06-01T22:35:12.404216+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "f9d1bd422313a117",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】【転職企画】60歳以降の働き方と不動産収入給与に頼らない人生設計のリアル戦略",
+      "url": "https://www.rakumachi.jp/news/practical/398856",
+      "published": "2026-06-02T00:00:00+09:00",
+      "fetched": "2026-06-01T22:35:13.302099+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "戸田匠",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "273adec28a172361",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "複雑な現代ポートフォリオ理論",
+      "url": "https://himaginary.hatenablog.com/entry/20260601/Complex_Modern_Portfolio_Theory",
+      "published": "2026-06-01T14:59:00+00:00",
+      "fetched": "2026-06-01T22:35:16.781918+00:00",
+      "summary": "というNBER論文が 上がっている （ ungated(SSRN)版 ）。原題は「Complex Modern Portfolio Theory」で、著者はOliver Hellum（コペンハーゲン経営大学院）、Theis I. Jensen（イェール大）、Bryan T. Kelly（同）、Semyon Malamud（Swiss Finance Institute）。 以下はその要旨。 The literature has long wrestled with the practical usefulness of Modern Portfolio…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35246\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443319\">ungated(SSRN)&#x7248;</a>）。原題は「Complex Modern Portfolio Theory」で、著者はOliver Hellum（コペンハーゲン経営大学院）、Theis I. Jensen（イェール大）、Bryan T. Kelly（同）、Semyon Malamud（Swiss Finance Institute）。<br />\n 以下はその要旨。</p>\n\n    <blockquote>\n        <p>The literature has long wrestled with the practical usefulness of Modern Portfolio Theory (MPT), and extensive evidence shows its performance decreases rapidly with the number of assets (N ). We present several new and counterintuitive facts about MPT. Most importantly, the performance of MPT in fact increases with N once the number of assets exceeds the number of training observations (T ). This finding holds in a variety of settings: in conjunction with popular portfolio regularization methods, in a variety of asset universes, and when T is large or small.<br />\n（拙訳）<br />\n研究者は現代ポートフォリオ理論（MPT）の実務的な有用性について長年取り組んできており、同理論のパフォーマンスが資産の数（N）と共に急速に低下することが広範な実証結果によって示されている。我々はMPTについて幾つかの新しい反直観的な事実を提示する。最も重要なのは、資産の数が訓練の観測値の数（T）を超えると、MPTのパフォーマンスが実際にはNと共に高まることである。この発見は各種の状況下で成立する。即ち、一般的なポートフォリオの正則化の手法との関連において、様々な資産ユニバースにおいて、Tが多いもしくは少ない場合においてである。</p>\n\n    </blockquote>\n<p>以下は導入部の一節。</p>\n\n    <blockquote>\n        <p>The literature has long cast doubt on the practical usefulness of MPT. The crux of the problem is that means and covariances of returns are, of course, unknown to the investor and must be estimated. This is only a minor issue when N is just a few assets and T is large. In this case, “plug-in” portfolios that substitute sample moments for the unknown true moments converge to the true optimal portfolios thanks to the law of large numbers,</p><p>The critical condition for convergence in (1) is that the statistical “complexity” of the estimation problem, c = N/T, approaches zero. When N is large relative to T (i.e., c > 0), the law of large numbers breaks down, and MPT portfolios can remain disastrously far from the true optimum. Even a small amount of complexity is problematic. Britten-Jones (1999) shows that when allocating across a mere N = 11 country-level equity indices in a sample of T =120 months (so c = 0.09), the estimated optimal percentage of wealth to invest in the US equity index has a standard error of 47%!<br />\nOur empirical analysis shows that as the number of assets approaches T from below (c → 1), the performance of MPT portfolios collapses, consistent with prior literature highlighting large-N deficiencies of MPT. We then show the counter-intuitive result that, by increasing the number of assets beyond T, MPT performance recovers. It continues to improve as the set of stocks N increases. In other words, in portfolio selection problems with high statistical complexity (c > 1), more assets are a blessing rather than a curse.<br />\n（拙訳）<br />\n研究者は長い間MPTの実務的な有用性について疑問を投げ掛けてきた。問題の中心は、リターンの平均と共分散が当然ながら投資家には未知であって推計されなければならないことにある。Ｎが少数の資産でＴが大きい場合にはこれは大した問題ではない。その場合、未知の真のモーメントをサンプルモーメントで置き換えた「プラグイン」ポートフォリオは、大数の法則のお蔭で、真の最適ポートフォリオに収束する。<br />\n<span><img class=\"hatena-fotolife\" height=\"42\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/h/himaginary/20260602/20260602045510.png\" title=\"\" width=\"600\" /></span><br />\n(1)の収束のための重要な条件は、推計問題の統計的な「複雑性」であるc=N/Tがゼロに近付くことである。NがTに比べて大きい場合（即ちc > 1<a href=\"#f-e827810f\" id=\"fn-e827810f\" name=\"fn-e827810f\" title=\"原文はc &gt; 0となっているが誤記と見做した。\">*1</a>）、大数の法則は成立せず、MPTポートフォリオは真の最適からは悲惨なほど程遠い状態に留まり得る。小さな複雑性でさえ問題となる。ブリッテンージョーンズ（1999<a href=\"#f-ddbda66e\" id=\"fn-ddbda66e\" name=\"fn-ddbda66e\" title=\"[https://onlinelibrary.wiley.com/doi/abs/10.1111/0022-1082.00120:title]。\">*2</a>）は、T=120か月のサンプルで僅かN=11の各国株価指数を配分する場合（従ってc=0.09）、推計された米国株価指数の資産最適投資比率には47%の標準誤差があることを示した！<br />\n我々の実証分析が示すところによれば、資産の数がTに下方から接近する場合（c → 1）、大きなNについてのMPTの欠陥を強調した従来の研究と整合的に、MPTポートフォリオのパフォーマンスは破綻する。次いで我々は、資産の数をTよりも大きくすることでMPTのパフォーマンスが回復するという反直観的な結果を示す。株式の集合Nが増加するとともに改善は続く。換言すれば、統計的複雑性の高い（c > 1）ポートフォリオ選択問題においては、資産が多いことは呪いではなく祝福となる。</p>\n\n    </blockquote>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-e827810f\" id=\"f-e827810f\" name=\"f-e827810f\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">原文はc > 0となっているが誤記と見做した。</span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-ddbda66e\" id=\"f-ddbda66e\" name=\"f-ddbda66e\">*2</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\"><a href=\"https://onlinelibrary.wiley.com/doi/abs/10.1111/0022-1082.00120\">The Sampling Error in Estimates of Mean&#x2010;Variance Efficient Portfolio Weights - Britten&#x2010;Jones - 1999 - The Journal of Finance - Wiley Online Library</a>。</span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "2aedbc4634893464",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -1685,7 +1741,7 @@
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
       "category": "不動産",
-      "title": "【実践大家コラム】地雷回収班⑰「どうやって直せばいいんですか…」過去最強クラスの施工不良らしい・・・",
+      "title": "地雷回収班⑰「どうやって直せばいいんですか…」",
       "url": "https://www.rakumachi.jp/news/practical/399527",
       "published": "2026-05-28T00:00:00+09:00",
       "fetched": "2026-05-28T20:35:00.131544+00:00",
@@ -11047,11 +11103,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-01T18:14:29.629440+00:00",
+  "last_updated": "2026-06-01T22:35:17.426119+00:00",
   "stats": {
-    "total": 789,
-    "fetched_just_now": 1280,
-    "feeds_success": 76,
-    "feeds_failed": 5
+    "total": 793,
+    "fetched_just_now": 1316,
+    "feeds_success": 80,
+    "feeds_failed": 1
   }
 }

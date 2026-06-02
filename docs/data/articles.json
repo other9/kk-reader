@@ -47,7 +47,7 @@
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
       "category": "不動産",
-      "title": "【実践大家コラム】理事長が逃げたマンション、その後 ──やはり誰もやりたくない沈黙の理事会",
+      "title": "【実践大家コラム】理事長が逃げたマンション、その後 ──やはり誰も手を挙げない沈黙の理事会",
       "url": "https://www.rakumachi.jp/news/practical/399516",
       "published": "2026-06-03T00:00:00+09:00",
       "fetched": "2026-06-02T21:22:04.114692+00:00",
@@ -113,6 +113,62 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "7e306fe8b99214be",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "10億円以上購入したきこりが毎年参加する怪しいセミナーとは？",
+      "url": "https://www.kenbiya.com/ar/cl/kikori/36.html",
+      "published": "2026-06-03T00:00:00+09:00",
+      "fetched": "2026-06-02T23:58:15.876259+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "kikori",
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "60c92f065270486a",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】ＦＩＲＥな日々１１８：すぐ答えを求めない不動産投資の本質とは",
+      "url": "https://www.rakumachi.jp/news/practical/399291",
+      "published": "2026-06-03T00:00:00+09:00",
+      "fetched": "2026-06-02T23:58:16.601690+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "テリー隊長",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "fabbb34971cb9482",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】「成功する人の視点」なぜあの人は儲かっているのか？毎日３分！不動産投資メモ録 #373",
+      "url": "https://www.rakumachi.jp/news/practical/400128",
+      "published": "2026-06-03T00:00:00+09:00",
+      "fetched": "2026-06-02T23:58:16.601702+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "不動産投資家ななころ",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "170e01a5646949af",
+      "feed_id": "73f801c263f8",
+      "feed_title": "経済を良くするって、どうすれば",
+      "category": "金融・経済・投資",
+      "title": "6/3の日経",
+      "url": "https://keizai-dousureba.hatenablog.jp/entry/2026/06/03/070000",
+      "published": "2026-06-02T22:00:00+00:00",
+      "fetched": "2026-06-02T23:58:19.516924+00:00",
+      "summary": "4月の税収は前年同月比+5.8%と好調で、2025年度は82.8兆円まで行くのではないか。5月の法人税収の予想は難しいが、1-3月期の法人企業統計では経常利益が大きく伸びているところだ。補正予算の税収より2.1兆円の上ブレであり、不要が基礎年金繰入で1.8兆円あったりすると、3.1兆円の2026年度補正予算が国債の増発なしというのもおかしくはない。 また、マーケット対策かも知れないが、秋の補正予算はやらないという話もあるようで、そうなれば、補正後の予算規模が前年度比で8兆円も縮み、一気に財政再建が進んで、4兆円の消費減税をしたところで、緊縮財政になる。本…",
+      "content_html": "<p>　4月の税収は前年同月比+5.8%と好調で、2025年度は82.8兆円まで行くのではないか。5月の法人税収の予想は難しいが、1-3月期の法人企業統計では経常利益が大きく伸びているところだ。補正予算の税収より2.1兆円の上ブレであり、不要が基礎年金繰入で1.8兆円あったりすると、3.1兆円の2026年度補正予算が国債の増発なしというのもおかしくはない。</p>\n<p>　また、マーケット対策かも知れないが、秋の補正予算はやらないという話もあるようで、そうなれば、補正後の予算規模が前年度比で8兆円も縮み、一気に財政再建が進んで、4兆円の消費減税をしたところで、緊縮財政になる。本当にやらないのか、それとも2027年度予算に産業政策を積んだりするのかは、マーケットを見ながらなのだろう。</p>\n<p>(図)</p>\n<p><img class=\"hatena-fotolife\" height=\"339\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/k/keizai-dousureba/20260603/20260603061643.png\" title=\"\" width=\"838\" /></p>\n<p>(今日までの日経)<br />　消費税減税、国債増やさず対応案。米名門大の秀才を襲う就職難。働く単身者の税・保険料負担率、過去最高33%に。国民会議検討の新給付制度、「自治体頼み」の見方。 厚生年金・健保の拡大に壁 副業、本業と合算できず。</p>",
+      "author": "keizai-dousureba",
+      "source_type": "rss"
+    },
+    {
       "id": "f71b792bb3a015b0",
       "feed_id": "f8c882c05df3",
       "feed_title": "himaginary’s diary",
@@ -138,6 +194,20 @@
       "summary": "データセクションをOASISが大量保有…？？？ — まいる (@flagcrashers) June 2, 2026 https://disclosure2dl.edinet-fsa.go.jp/ ※外資系物言う株主オアシス、第3位の大株主に相当する保有割合9.76％の大量保有報告 いや、なに？ — 凍結バッチョ (@korotyan9314) June 2, 2026 オアシスってメルカリみたいな超イケイケプライムかおかね持ってる鉄道に噛みつくイメージばっかりだったから — GAFA穴ダデイー集落 (@Kabusagas) June 2, 2026 オ…",
       "content_html": "<div><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">データセクションをOASISが大量保有…？？？</p>— まいる (@flagcrashers) <a href=\"https://x.com/flagcrashers/status/2061716783422492727?ref_src=twsrc%5Etfw\">June 2, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/5/8/5821aab7.png\" target=\"_blank\" title=\"a10-01\"><img alt=\"a10-01\" border=\"0\" class=\"pict\" height=\"216\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/5/8/5821aab7-s.png\" width=\"480\" /></a><br /><div><a href=\"https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Y85I.pdf?sv=2020-08-04&amp;st=2026-06-02T12%3A15%3A52Z&amp;se=2031-06-02T15%3A00%3A00Z&amp;sr=b&amp;sp=rl&amp;sig=nE%2Bylv6xcTyuC3vhvJB7sF92fIxp6MmDXf%2Fo0MUB5wU%3D\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://disclosure2dl.edinet-fsa.go.jp/</span></a></div><div><b>※外資系物言う株主オアシス、第3位の大株主に相当する保有割合9.76％の大量保有報告</b></div></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">いや、なに？</p>— 凍結バッチョ (@korotyan9314) <a href=\"https://x.com/korotyan9314/status/2061717228693991550?ref_src=twsrc%5Etfw\">June 2, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">オアシスってメルカリみたいな超イケイケプライムかおかね持ってる鉄道に噛みつくイメージばっかりだったから</p>— GAFA穴ダデイー集落 (@Kabusagas) <a href=\"https://x.com/Kabusagas/status/2061742644410401169?ref_src=twsrc%5Etfw\">June 2, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">オアシスってあのタイミングで5343円で買ってくれるのか <a href=\"https://t.co/wzHZMZK3HF\">pic.twitter.com/wzHZMZK3HF</a></p>— S.H.GENERATION (@SHGENERATION1) <a href=\"https://x.com/SHGENERATION1/status/2061740202905993552?ref_src=twsrc%5Etfw\">June 2, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/7/6/7602ac8c.png\" target=\"_blank\" title=\"a11\"><img alt=\"a11\" border=\"0\" class=\"pict\" height=\"186\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/7/6/7602ac8c-s.png\" width=\"480\" /></a><br /><div><a href=\"https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100Y85I.pdf?sv=2020-08-04&amp;st=2026-06-02T12%3A15%3A52Z&amp;se=2031-06-02T15%3A00%3A00Z&amp;sr=b&amp;sp=rl&amp;sig=nE%2Bylv6xcTyuC3vhvJB7sF92fIxp6MmDXf%2Fo0MUB5wU%3D\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://disclosure2dl.edinet-fsa.go.jp/</span></a><br /></div></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">オアシス、データセクション5/25・4100円～5000円の日に市場内で2.35％分を売り（この日は出来高多く大陰線なのでVWAPぐらいブロック売り？）、昨日6/1市場外で8.20％分5343円で買い。安く売って高く買うは草。</p>— じろ🍀 (@26ooo) <a href=\"https://x.com/26ooo/status/2061771325715431551?ref_src=twsrc%5Etfw\">June 2, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/2/d/2d519fb0.png\" target=\"_blank\" title=\"a12\"><img alt=\"a12\" border=\"0\" class=\"pict\" height=\"304\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/2/d/2d519fb0-s.png\" width=\"480\" /></a><div><a href=\"https://kabutan.jp/stock/chart?code=3905\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://kabutan.jp/stock/chart?code=3905</span></a></div></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">棒上げした二日間がオアシスじゃないってのと翌日に出してきたのなぜなんだ…。</p>— 昆布【】 (@kabu_kunbu) <a href=\"https://x.com/kabu_kunbu/status/2061747389774590158?ref_src=twsrc%5Etfw\">June 2, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">デーセク草 <a href=\"https://t.co/4vmi8xjrfV\">pic.twitter.com/4vmi8xjrfV</a></p>— ぱす (@momijiyui2) <a href=\"https://x.com/momijiyui2/status/2061756728748937503?ref_src=twsrc%5Etfw\">June 2, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/2/f25a77c1.png\" target=\"_blank\" title=\"a13\"><img alt=\"a13\" border=\"0\" class=\"pict\" height=\"238\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/2/f25a77c1-s.png\" width=\"480\" /></a><br /><a href=\"https://www.sbisec.co.jp/ETGate/?_ControlID=WPLETsiR001Control&amp;_PageID=WPLETsiR001Idtl30&amp;_DataStoreID=DSWPLETsiR001Control&amp;_ActionID=DefaultAID&amp;s_rkbn=&amp;s_btype=&amp;i_stock_sec=&amp;i_dom_flg=1&amp;i_exchange_code=&amp;i_output_type=2&amp;exchange_code=PTS&amp;stock_sec_code_mul=3905&amp;ref_from=1&amp;ref_to=20&amp;wstm4130_sort_id=&amp;wstm4130_sort_kbn=&amp;qr_keyword=&amp;qr_suggest=&amp;qr_sort=\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.sbisec.co.jp/</span></a><br /><b>※場中ストップ安の後、夜間取引市場で急騰</b></blockquote></div><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">株は、メンタルを試されるeスポーツですな。</p>— saku (@sakusaku_kabu) <a href=\"https://twitter.com/sakusaku_kabu/status/2029019637229469790?ref_src=twsrc%5Etfw\">March 4, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">チンパンがパニック売りしてる時に自分も売ったらそれはチンパンなんよ</p>— DEG (@DEG_2020) <a href=\"https://twitter.com/DEG_2020/status/2026829283768021284?ref_src=twsrc%5Etfw\">February 26, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ところで ナウナウジャパンはガチだったんですかね?</p>— きたぴぴa.k.a.きたぴぴ (@kitapipi_trader) <a href=\"https://x.com/kitapipi_trader/status/2060155323953090843?ref_src=twsrc%5Etfw\">May 29, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">これ本物だったんかもしれん <a href=\"https://t.co/IudTIFwOAZ\">pic.twitter.com/IudTIFwOAZ</a></p>— チャン・Z・イーサ (@nanakabukabu) <a href=\"https://x.com/nanakabukabu/status/2061723235973210539?ref_src=twsrc%5Etfw\">June 2, 2026</a></blockquote><blockquote><a href=\"https://x.com/datasection/status/1960524931957186993\" target=\"_blank\" title=\"a10\"><img alt=\"a10\" border=\"0\" class=\"pict\" height=\"321\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/9/2/92436f93-s.jpg\" width=\"480\" /></a><br /><b>※<a href=\"https://kabumatome.doorblog.jp/archives/66028945.html\" target=\"_blank\" title=\"\">謎のナウナウジャパンから大型受注のデータセクション、空売りファンドのウルフパック･リサーチに“中国軍事企業テンセントへのNVIDIA製GPU迂回案件”と捲られる（2025/10/08）</a></b><br /></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">いっぱい買ったけど、アメリカの規制強化見て投げたりしてない？</p>— たかぴー (@stock_unknown) <a href=\"https://x.com/stock_unknown/status/2061717938437320909?ref_src=twsrc%5Etfw\">June 2, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">アクティビストも結局のところ自分が高値で売り捌きたいから金にもの言わせてゴリ押してるだけだしな</p>— あろれの抜け殻 (@alorest_b) <a href=\"https://x.com/alorest_b/status/2027382519390445603?ref_src=twsrc%5Etfw\">February 27, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ええ機会やMSCBで秒で刷りまくったれ</p>— ぷっちょ (@puchogen) <a href=\"https://x.com/puchogen/status/2061731402660581640?ref_src=twsrc%5Etfw\">June 2, 2026</a></blockquote></div><br />",
       "author": "masorira",
+      "source_type": "rss"
+    },
+    {
+      "id": "7df5a7b482b31dc7",
+      "feed_id": "2ec7ee82ecf8",
+      "feed_title": "マンションの間取りや価格を言いたい放題!",
+      "category": "不動産",
+      "title": "グランスイート麻布六本木【シンプルと囲まれ感で控えめな単価】2階31㎡9,950万円（坪単価1,047万円）",
+      "url": "https://mansion-madori.com/blog-entry-11722.html",
+      "published": "2026-06-02T10:55:59+00:00",
+      "fetched": "2026-06-02T23:58:15.222563+00:00",
+      "summary": "続けて、グランスイート麻布六本木。 設計・施工は新日本建設、デザイン監修はレジデンスデザインになります。 竣工は昨年4月で、随分と寝かせた上での販売になるようですね。 物件スケールなりに敷地面積は600㎡ちょっと小さいのですが、空地率は約54％とまずまずです。 コンパクト中心の物件ということで駐車場は2台のみとしており、北側道路沿いのアプローチ周りには余裕を感じることが出来るでしょう。 アプローチ両サイドには植栽、また、壁面タイルの質感なども悪くはないのですが、デザイン面はちょっと大人しい感じですね。 物件スケール的にエントランスホールは小さく、特徴ある…",
+      "content_html": "続けて、グランスイート麻布六本木。<br /><br />設計・施工は新日本建設、デザイン監修はレジデンスデザインになります。<br />竣工は昨年4月で、随分と寝かせた上での販売になるようですね。<br /><br />物件スケールなりに敷地面積は600㎡ちょっと小さいのですが、空地率は約54％とまずまずです。<br /><br />コンパクト中心の物件ということで駐車場は2台のみとしており、北側道路沿いのアプローチ周りには余裕を感じることが出来るでしょう。<br /><br />アプローチ両サイドには植栽、また、壁面タイルの質感なども悪くはないのですが、デザイン面はちょっと大人しい感じですね。<br /><br />物件スケール的にエントランスホールは小さく、特徴あるものに仕上げるのは難しいとは思うものの、外観に関しても白を基調としたシンプルなものとなります。<br />飽きのこない手堅いものではあるのでしょうが、坪単価1,000万円超の物件ともなると少々物足りない印象にはなりますかね。<br /><br />前回の<a href=\"https://mansion-madori.com/blog-entry-11721.html\" target=\"_blank\" title=\"グランスイート麻布六本木\">グランスイート麻布六本木</a>。<br /><br /><a href=\"https://www.mred.co.jp/gs/azaburoppongi/index.html\" target=\"_blank\" title=\"公式ホームページ\">公式ホームページ</a><br /><a href=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-5-28_13-20-17_No-00.png\" target=\"_blank\"><img alt=\"SnapCrab_NoName_2026-5-28_13-20-17_No-00.png\" border=\"0\" height=\"720\" src=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-5-28_13-20-17_No-00.png\" width=\"423\" /></a><br />お部屋は31㎡の1K、南東角住戸です。前回の記事で書いたように南は11階建のオプレジという苦しいポジションになります。<br />都心立地ではけして珍しいことではありませんが、こちらの低層階は採光も得にくくはあるでしょう。<br /><br />間取りは1Kとしては大きな30㎡台なのですが、キッチンスペースも兼ねているとは言え廊下が長く感じますね。<br /><br />やはり柱の食い込みも目立ちますし、専有面積から受ける印象ほどの使い勝手はないでしょう。<br /><br />坪単価は1,047万円。低層階で囲まれ感が強いとはいえ30㎡そこそこでのこの単価水準はこのご時世控えめな方と言えます。<br /><br />ただ、この面積ならば1LDKの方が一般的なところ、効率性も芳しいとは言えない1Kプランになっており、そういったあたりが影響した水準ではあるのでしょうね。<br /><br />設備仕様面は、ディスポーザーがありませんが、この価格帯とはいえコンパクトタイプ中心の物件ですので違和感はないですね。<br />食洗機、トイレ手洗いカウンター、フィオレストーンの水回り天板に加え、浴室フラットラインLED照明、LDビルトインエアコン（50㎡台以上）、玄関電池錠などが備わっています。<br />また、ゼッチ基準も満たしていますね。<br /><br />管理費は567円/㎡。ディスポーザーはありませんが、内廊下の小規模物件なりに高くなっています。<br />ただ、昨今のインフレ下においては目立つほどの水準ではないですね。<br /><br />修繕積立金は300円/㎡。<br />※インフレにより昨年以降、初年度から200円/㎡超といったようなかなり高額な設定の物件が増えてきたため、今年からは修繕積立金も掲載することとしました。<br />※あくまで初年度（30年均等のオハナなどのケース除く）の設定に過ぎないため、物件の購入を検討する際には修繕積立金シミュレーション（30年の間にどの程度の値上げが予定されているかが分かります）をしっかりと確認するようにしましょう。<br /><br />駐車場は身障者用を含む2台で平置になります。",
+      "author": "モモレジ",
       "source_type": "rss"
     },
     {
@@ -2063,7 +2133,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "いま「自己資金500万でスタート」はヤバいのか？ 大家3人が○×討論、物件購入の「新常識」「いま買うべき物件」の基準は…かつての「セオリー」をアップデート",
+      "title": "いま「自己資金500万でスタート」はヤバいのか？ 大家3人が○×討論、物件購入の「新常識」",
       "url": "https://www.rakumachi.jp/news/column/399219",
       "published": "2026-05-28T00:00:00+09:00",
       "fetched": "2026-05-28T16:22:39.611811+00:00",
@@ -2777,7 +2847,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "自己資金250万円と事業売却資金…同じ50代スタートで「地方築古」と「都市部築浅」に分かれた2人の戦略元コンサル会社役員と元葬儀社社長に聞く、「50代からの不動産投資」遅くはない？",
+      "title": "自己資金250万円と事業売却資金…同じ50代スタートで「地方築古」と「都市部築浅」に分かれた2人の戦略",
       "url": "https://www.rakumachi.jp/news/column/399175",
       "published": "2026-05-26T00:00:00+09:00",
       "fetched": "2026-05-26T10:15:52.189749+00:00",
@@ -3141,7 +3211,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "ハウスメーカー「好感度No.1」営業マンが懲戒免職、7棟任せた地主を裏切り「大罪」犯した理由「俺、ヘマやっちゃってさ」…電話を最後に消えた先輩の真相",
+      "title": "ハウスメーカー「好感度No.1」営業マンが懲戒免職、7棟任せた地主を裏切り「大罪」犯した理由",
       "url": "https://www.rakumachi.jp/news/column/397804",
       "published": "2026-05-25T00:00:00+09:00",
       "fetched": "2026-05-25T10:44:02.007392+00:00",
@@ -11199,27 +11269,13 @@
       "content_html": null,
       "author": "ひっそりはん",
       "source_type": "scrape_rakumachi"
-    },
-    {
-      "id": "63c0575529edf30e",
-      "feed_id": "73f801c263f8",
-      "feed_title": "経済を良くするって、どうすれば",
-      "category": "金融・経済・投資",
-      "title": "サナエノミクス・好調な設備投資と成長戦略",
-      "url": "https://keizai-dousureba.hatenablog.jp/entry/2026/05/04/070000",
-      "published": "2026-05-03T22:00:00+00:00",
-      "fetched": "2026-05-06T01:39:03.543230+00:00",
-      "summary": "1-3月期のGDPは、年率2.0%超になりそうだね。これだけ景気のベースが強いと、イラン戦争の影響も、供給制約に陥らず、原油価格が上がるだけなら、挫折せずに済むだろう。第二次オイルショックで成長が墜落しなかったのは、早くに金融を引き締めた一方で、それまで財政で景気を持ち上げて来ていた余熱があったからだ。むろん、財政金融の適切な舵取りはしなければならず、受けと面子で的外れなことをやりそうで、こちらの方が心配だ。 ……… 1-3月期は、鉱工業生産が前期比+2.5、第3次産業活動指数の1,2月平均が前期比+1.3で、日銀実質輸出入が輸出+3.5と輸入+1.1だ…",
-      "content_html": "<p>　1-3月期のGDPは、年率2.0%超になりそうだね。これだけ景気のベースが強いと、イラン戦争の影響も、供給制約に陥らず、原油価格が上がるだけなら、挫折せずに済むだろう。第二次オイルショックで成長が墜落しなかったのは、早くに金融を引き締めた一方で、それまで財政で景気を持ち上げて来ていた余熱があったからだ。むろん、財政金融の適切な舵取りはしなければならず、受けと面子で的外れなことをやりそうで、こちらの方が心配だ。</p>\n<p>………<br />　1-3月期は、鉱工業生産が前期比+2.5、第3次産業活動指数の1,2月平均が前期比+1.3で、日銀実質輸出入が輸出+3.5と輸入+1.1だから、高めの成長になるのは当然だ。ただし、肝心の消費が良いわけではなく、CTIマクロからすると、実質で前期比+0.2といったところだ。商業動態・小売業の前期比は+1.8もあるが、物価を勘案すると、3期前の水準に戻したくらいにとどまる。</p>\n<p>　設備投資は、鉱工業生産の資本財(除く輸送機器)は前期比+2.0だが、出荷表の国内は前期の反動もあって-0.9とやや残念な形になる。むしろ、世界的に生産が上向き、輸出が増えていることを喜ぶべきだろう。この背景には、AIブームがある。発明によって需要が発見され、設備投資の競争が起こり、経済成長が加速するという、絵に描いたような、そして、その割に珍しい現象だ。</p>\n<p>　日本も、こう在りたいところで、高市成長戦略が狙うものでもあるが、政策で導けるような筋合いではない。日本らしく、キャッチアップ戦略でもって、内需を奪われないようにし、改良版による輸出を狙うのが現実的だろう。トヨタのインドでの立地戦略を見ると、内需で育てて輸出で加速させるという成長の勝ち筋に変わりはないようだ。金融緩和による円安で輸出に頼る戦略は変えなければならない。</p>\n<p>　建設総合統計の1,2月は、住宅が底打ちし、公共が上向き、企業も好調だ。第3次産業指数のソフト業の動向からは、好調さがうかがえる。全体をまとめた1-3期GDPの設備投資は、前期比+0.4程と見ているが、前期の+1.3の急伸の後からすれば、十分なところではないか。大切なのは、円安による輸入物価高で国内の購買力を奪われないようにし、内需向けの設備投資を伸ばしていくことだろう。</p>\n<p>(図)</p>\n<p><img class=\"hatena-fotolife\" height=\"355\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/k/keizai-dousureba/20260504/20260504063803.png\" title=\"\" width=\"891\" /></p>\n<p>………<br />　設備投資の成功は売れるかどうかで決まる。官の本当の役割は、自ら設備投資をすることより、需要を確保してやることだ。以前なら円安にして外需を与えれば良かったが、今は内需を失う弊害が大きい。高市政権の低金利への拘りは、過去の幻想の囚われだ。内需の確保にしても、単に消費減税でバラまくのではなく、低所得の若い世代が焦点でないといけない。若者が買えないようでは産業は育たないのである。</p>\n<p> </p>\n<p>(今日までの日経)<br />　高市成長戦略に企業が感じたズレ。官製「値下げ」でゆがむ物価。円買い介入、5円急騰。トヨタがインドに3工場新設、アフリカ・中東に輸出。UAEがOPEC脱退。AI半導体特需、消費財企業にも。</p>",
-      "author": "keizai-dousureba",
-      "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-02T21:22:12.400128+00:00",
+  "last_updated": "2026-06-02T23:58:24.556726+00:00",
   "stats": {
-    "total": 801,
-    "fetched_just_now": 1285,
-    "feeds_success": 75,
-    "feeds_failed": 6
+    "total": 805,
+    "fetched_just_now": 1317,
+    "feeds_success": 80,
+    "feeds_failed": 1
   }
 }

@@ -29,6 +29,76 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "1347660a83d79d9d",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "銀行再編が不動産投資家を選別する「どの投資家なら貸せるか」",
+      "url": "https://www.kenbiya.com/ar/ns/loan/loan_situation/10209.html",
+      "published": "2026-06-05T00:00:00+09:00",
+      "fetched": "2026-06-04T21:50:48.182869+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "6c3f9ee40a1e5e1c",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】AI税務調査時代｜“小さいからバレない”は終わるかもしれない──税務署側の“調査コスト”が変わる",
+      "url": "https://www.rakumachi.jp/news/practical/398248",
+      "published": "2026-06-05T00:00:00+09:00",
+      "fetched": "2026-06-04T21:50:48.520580+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "アール｜パチンカス大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "e49dbcc38144e055",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】今回購入の4棟目アパート、やっぱり相続物件は魅力的",
+      "url": "https://www.rakumachi.jp/news/practical/400162",
+      "published": "2026-06-05T00:00:00+09:00",
+      "fetched": "2026-06-04T21:50:48.520590+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "パテント大家ATSUSHI",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "58c96626ed3cb4e6",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】【偉人たちの名言コラム】何もしない人が一番危ない動かない安心が、最大のリスクになる時代",
+      "url": "https://www.rakumachi.jp/news/practical/398940",
+      "published": "2026-06-05T00:00:00+09:00",
+      "fetched": "2026-06-04T21:50:48.520594+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "戸田匠",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "aa99279511adae53",
+      "feed_id": "2e7efdb141f2",
+      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
+      "category": "不動産",
+      "title": "晴海フラッグ PORT VILLAGE（賃貸街区）募集状況の推移",
+      "url": "https://1manken.hatenablog.com/entry/2024/06/06/harumi-flag-port-village",
+      "published": "2026-06-04T21:00:00+00:00",
+      "fetched": "2026-06-04T21:50:48.177848+00:00",
+      "summary": "晴海フラッグ賃貸街区PORT VILLAGEの募集状況を、棟別データで定点観測。募集戸数・募集率の推移から需給の変化を読み解く。",
+      "content_html": "晴海フラッグ賃貸街区PORT VILLAGEの募集状況を、棟別データで定点観測。募集戸数・募集率の推移から需給の変化を読み解く。",
+      "author": "flats",
+      "source_type": "rss"
+    },
+    {
       "id": "19afaa0234db967d",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -1097,7 +1167,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "「無職同然」で公庫アタック、築古に2400万フルローン…「持たざる者」たちの融資奮闘記",
+      "title": "「無職同然」で公庫アタック、築古に2400万フルローン…「持たざる者」たちの融資奮闘記年収500万の20代が7000万新築アパートを購入するまで",
       "url": "https://www.rakumachi.jp/news/column/400067",
       "published": "2026-06-02T00:00:00+09:00",
       "fetched": "2026-06-02T10:52:55.126107+00:00",
@@ -1769,7 +1839,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "AIが躍進しているのに、日本で「データセンター」リートが上場しないワケ…ヒューリックも撤退へ",
+      "title": "AIが躍進しているのに、日本で「データセンター」リートが上場しないワケ…ヒューリックも撤退へルール改正で規制緩和も、見落とせない「3つのリスク」",
       "url": "https://www.rakumachi.jp/news/column/399109",
       "published": "2026-05-31T00:00:00+09:00",
       "fetched": "2026-05-31T09:19:55.083915+00:00",
@@ -2805,7 +2875,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "いま「自己資金500万でスタート」はヤバいのか？ 大家3人が○×討論、物件購入の「新常識」",
+      "title": "いま「自己資金500万でスタート」はヤバいのか？ 大家3人が○×討論、物件購入の「新常識」「いま買うべき物件」の基準は…かつての「セオリー」をアップデート",
       "url": "https://www.rakumachi.jp/news/column/399219",
       "published": "2026-05-28T00:00:00+09:00",
       "fetched": "2026-05-28T16:22:39.611811+00:00",
@@ -11537,11 +11607,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-04T18:28:06.085166+00:00",
+  "last_updated": "2026-06-04T21:50:54.243311+00:00",
   "stats": {
-    "total": 824,
-    "fetched_just_now": 1314,
-    "feeds_success": 80,
-    "feeds_failed": 0
+    "total": 829,
+    "fetched_just_now": 1301,
+    "feeds_success": 79,
+    "feeds_failed": 1
   }
 }

@@ -15,6 +15,76 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "8f59f024c65fd294",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "「今からでもFIREできる？」ボーナスステージ終了後の僕ちゃんの方針",
+      "url": "https://www.kenbiya.com/ar/cl/pole/130.html",
+      "published": "2026-06-06T00:00:00+09:00",
+      "fetched": "2026-06-05T23:21:46.762844+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "pole",
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "663c415064273506",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "【不動産投資の落とし穴】 不動産投資家が知っておきたい2026年の相続対策【前編】 ～デジタル遺言・認知症・デジタル遺産の時代へ～",
+      "url": "https://www.kenbiya.com/ar/ns/jiji/legal_knowledge/10200.html",
+      "published": "2026-06-06T00:00:00+09:00",
+      "fetched": "2026-06-05T23:21:46.762856+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "fdad02c23f13a034",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】CFが大事な人、そうでもない人結局、人によるんじゃない？",
+      "url": "https://www.rakumachi.jp/news/practical/398904",
+      "published": "2026-06-06T00:00:00+09:00",
+      "fetched": "2026-06-05T23:21:47.510462+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "アール｜パチンカス大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "2243d5a879042f22",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】“自分は特別”と思った瞬間に終わっていく慢心が投資判断を狂わせることになる",
+      "url": "https://www.rakumachi.jp/news/practical/398931",
+      "published": "2026-06-06T00:00:00+09:00",
+      "fetched": "2026-06-05T23:21:47.510476+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "戸田匠",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "685b9441d7fcc679",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】4棟目購入にあたり安く買うために受け入れた私道条件がなんと！",
+      "url": "https://www.rakumachi.jp/news/practical/400309",
+      "published": "2026-06-06T00:00:00+09:00",
+      "fetched": "2026-06-05T23:21:47.510480+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "パテント大家ATSUSHI",
+      "source_type": "scrape_rakumachi"
+    },
+    {
       "id": "e5660d0d1f0fca70",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -775,7 +845,7 @@
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
       "category": "不動産",
-      "title": "【実践大家コラム】そもそもCFって何なのか？？　誰も分かっていないよね？貴方がキャッシュフローだと思うものがキャッシュフローです",
+      "title": "そもそもCFって何なのか？？　誰も分かっていないよね？",
       "url": "https://www.rakumachi.jp/news/practical/400257",
       "published": "2026-06-04T00:00:00+09:00",
       "fetched": "2026-06-04T05:00:44.604897+00:00",
@@ -11789,11 +11859,11 @@
       "source_type": "scrape_rakumachi"
     }
   ],
-  "last_updated": "2026-06-05T20:07:26.801344+00:00",
+  "last_updated": "2026-06-05T23:22:06.935848+00:00",
   "stats": {
-    "total": 842,
-    "fetched_just_now": 1285,
-    "feeds_success": 77,
-    "feeds_failed": 3
+    "total": 847,
+    "fetched_just_now": 1288,
+    "feeds_success": 72,
+    "feeds_failed": 8
   }
 }

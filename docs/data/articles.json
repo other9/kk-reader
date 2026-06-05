@@ -1,6 +1,48 @@
 {
   "articles": [
     {
+      "id": "2b20f029a7778855",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】不動産投資家のＣＦを正しく理解しよう！億トレさんは、まだＣＦ重視の本質を理解していないようだ",
+      "url": "https://www.rakumachi.jp/news/practical/400428",
+      "published": "2026-06-06T00:00:00+09:00",
+      "fetched": "2026-06-05T18:05:06.756690+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "リーマンまさゆき",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "4b42da6ed51d7640",
+      "feed_id": "6c30fc2654fb",
+      "feed_title": "元官庁エコノミストのブログ",
+      "category": "金融・経済・投資",
+      "title": "久々に猛虎打線が爆発し楽天に快勝",
+      "url": "http://economist.cocolog-nifty.com/blog/2026/06/post-39806b.html",
+      "published": "2026-06-05T13:30:00+00:00",
+      "fetched": "2026-06-05T18:05:09.053162+00:00",
+      "summary": "一 二 三 四 五 六 七 八 九 R H E 楽 天 0 0 0 0 0 0 1 0 0 1 6 1 阪 神 0 0 0 0 2 2 4 0 x 8 10 0 【楽】 岸、渡辺翔、伊藤樹 - 伊藤光 【神】 高橋、畠、湯浅 - 伏見 楽天に 快勝 でした。 先発高橋投手は7回まで6安打を打たれつつも1失点に抑え、打線が大量点を取ったことから8-9回はリリーフ陣に託しました。畠投手と湯浅投手がともに楽天打線をノーヒットに抑えています。 猛虎打線が久々に爆発 し、中盤5回に佐藤輝選手の長打で2点先制した後、6回には熊谷選手とドラ1ルーキー立石選手のタイムリ…",
+      "content_html": "<p><a href=\"https://hanshintigers.jp/game/score/table/table20260605.html\" style=\"font-style: normal;\" target=\"_blank\"><table class=\"s-b\" title=\"スコアボード\"><tr class=\"sb1\"><td class=\"sb1\"> </td><td class=\"sb2\">一</td><td class=\"sb2\">二</td><td class=\"sb2\">三</td><td class=\"sb2\">四</td><td class=\"sb2\">五</td><td class=\"sb2\">六</td><td class=\"sb2\">七</td><td class=\"sb2\">八</td><td class=\"sb2\">九</td><td class=\"sb3\"> </td><td class=\"sb4\">R</td><td class=\"sb4\">H</td><td class=\"sb2\">E</td></tr><tr class=\"sb2\"><td>楽　　天</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td class=\"sb3\"> </td><td>1</td><td>6</td><td>1</td></tr><tr class=\"sb2\"><td>阪　　神</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>4</td><td>0</td><td>x</td><td class=\"sb3\"> </td><td>8</td><td>10</td><td>0</td></tr></table></a><br />【楽】 岸、渡辺翔、伊藤樹 - 伊藤光<br />【神】 高橋、畠、湯浅 - 伏見</p><p>楽天に<span class=\"red\">快勝</span>でした。<br />先発高橋投手は7回まで6安打を打たれつつも1失点に抑え、打線が大量点を取ったことから8-9回はリリーフ陣に託しました。畠投手と湯浅投手がともに楽天打線をノーヒットに抑えています。<span class=\"blue\">猛虎打線が久々に爆発</span>し、中盤5回に佐藤輝選手の長打で2点先制した後、6回には熊谷選手とドラ1ルーキー立石選手のタイムリーで加点しました。風船が飛んだラッキーセブンには、さらに、伏見捕手のタイムリーに熊谷選手の満塁の走者一掃のツーベースでダメを押しました。</p><p>明日も、<br /><span class=\"tigers\">がんばれタイガース!</span></p>",
+      "author": "元官庁エコノミスト",
+      "source_type": "rss"
+    },
+    {
+      "id": "6d54d47d0b46880a",
+      "feed_id": "6c30fc2654fb",
+      "feed_title": "元官庁エコノミストのブログ",
+      "category": "金融・経済・投資",
+      "title": "堅調な労働市場を示す5月の米国雇用統計",
+      "url": "http://economist.cocolog-nifty.com/blog/2026/06/post-0900fa.html",
+      "published": "2026-06-05T13:00:00+00:00",
+      "fetched": "2026-06-05T18:05:09.053276+00:00",
+      "summary": "日本時間の今夜、米国労働省から5月の 米国雇用統計 が公表されています。非農業雇用者数の前月差は、4月統計の+179千人増から5月統計では+172千人増となり、失業率は4月から横ばいの4.3%を記録しています。まず、 CNNのサイト から統計のヘッドラインを報じる記事を引用すると以下の通りです。 The US economy added a stronger-than-expected 172,000 jobs last month The US labor market appears to have found its footing: The ec…",
+      "content_html": "<p>日本時間の今夜、米国労働省から5月の<a href=\"https://www.bls.gov/\" style=\"color: #ff0000; font-size: 2em; font-weight: bold;\" target=\"_blank\" title=\"Employment Situation Summary\">米国雇用統計</a>が公表されています。非農業雇用者数の前月差は、4月統計の+179千人増から5月統計では+172千人増となり、失業率は4月から横ばいの4.3%を記録しています。まず、<a href=\"https://edition.cnn.com/2026/06/05/economy/us-jobs-may-final\" target=\"_blank\" title=\"The US economy added a stronger-than-expected 172,000 jobs last month\">CNNのサイト</a>から統計のヘッドラインを報じる記事を引用すると以下の通りです。<br /><blockquote cite=\"https://edition.cnn.com/2026/06/05/economy/us-jobs-may-final\" style=\"font-size: 10px; font-style: italic;\" title=\"The US economy added a stronger-than-expected 172,000 jobs last month\"><a href=\"https://edition.cnn.com/2026/06/05/economy/us-jobs-may-final\" style=\"font-size: 1.5em; font-style: normal;\" target=\"_blank\" title=\"The US economy added a stronger-than-expected 172,000 jobs last month\">The US economy added a stronger-than-expected 172,000 jobs last month</a><br />The US labor market appears to have found its footing: The economy added 172,000 jobs in May, shattering expectations, new data from the Bureau of Labor Statistics showed Friday.<br />The latest jobs report provided some reassurance that the US labor market may be stabilizing after a year of weak and stilted job growth: Unemployment held steady at 4.3%, while employment gains topped 100,000 for the third consecutive month, a pattern not seen since early 2024.<br />Job growth was also far stronger than initially thought in recent months. March's payroll gains were revised up by 29,000 to 214,000, while April's tally was revised higher by 64,000 to 179,000 jobs added.<br />Economists were expecting that employers added 105,000 jobs last month and that the unemployment rate wouldn't budge from 4.3%.<br />Recent months' data appears to indicate that the labor market and broader economy remain resilient despite a barrage of shocks. However, economists caution that a protracted war could keep gas prices high and cut into consumer spending, raise business costs, and trickle into higher prices for other goods and services.<br />May's job gains were slightly more broad-based than in prior months, as hiring ramped up in the leisure and hospitality sector as well as the public sector (specifically, local governments) in addition to the stalwart job-generator of healthcare, BLS data showed.<br />Leisure and hospitality added an estimated 70,000 jobs in May, more than double the gains in April for the industry; the government sector added 52,000 jobs (with local government, excluding education, accounting for 43,500 of those); and healthcare and social assistance added 47,200 jobs.</blockquote></p><p>注目の経済指標ですので長くなりましたが、よく取りまとめられている印象です。続いて、いつもの米国雇用統計のグラフは下の通りです。上のパネルでは非農業部門雇用者数の前月差増減の推移とそのうちの民間部門を、さらに、下は失業率をプロットしています。いずれも季節調整済みの系列であり、影をつけた部分は景気後退期です。NBERでは2020年2月を米国景気の山、2020年4月を谷、とそれぞれ認定しています。ともかく、2020年4月からの雇用統計からやたらと大きな変動があって縦軸のスケールを変更したため、わけの判らないグラフになって、その前の動向が見えにくくなっています。少し見やすくしたのですが、それでもまだ判りにくさが残っています。その上、米国連邦政府のシャットダウンにより、2025年10月の失業率は公表されていません。よ～く見ると、下のパネルの失業率がその部分が欠損値になっているのが見て取れます。</p><div style=\"text-align: center;\"><img alt=\"photo\" src=\"http://economist.cocolog-nifty.com/dummy.gif\" style=\"border: none; width: 500px; height: 800px; margin: 20px auto;\" title=\"米国雇用統計の推移\" /></div><p>米国の雇用は非農業部門雇用者の増加については、引用した記事のタイトルにも現れているように、市場の事前コンセンサスを上回り、米国景気の底堅さを示す結果となりました。失業率も4%台前半から半ばを続けています。米国労働省の労働統計局(BLS)のヘッドラインでは \"Total nonfarm payroll employment increased by 172,000 in May, and the unemployment rate was unchanged at 4.3 percent.\" と評価しています。加えて、引用した記事の3パラ目にあるように、3月の雇用者は+29千人を積み増して+214千人増に、また、4月も+64千人上方改定されて+179千人増に、それぞれ修正されています。平均時給は前年比+3.4%となり、4月の消費者物価指数のヘッドライン上昇率が+3.8%であったことも考え合わせると、<span class=\"blue\">雇用はまだ堅調でインフレ圧力も残っている</span>、と考えるべきです。例えば、別の報道では米国のガソリン価格はガロン当たり4ドルをまだ超えており、一時のピークからは下がったものの、割高感を感じる4ドルを上回って推移していることから、物価はまだ高いと感じられている可能性が十分あります。もちろん、中東情勢がきわめて不透明で、石油価格の上昇がさらに進むかもしれませんし、逆に、企業マインドが悪化して雇用の減少につながる可能性も残されています。<br />米国連邦準備制度理事会(FED)は2025年中に175ベーシスの利下げを実行していますが、4月28-29日の連邦公開市場委員会(FOMC)では金利が据え置かれています。次のFOMCは今月6月16-17日に開催されます。米国とイスラエルによるイラン攻撃に端を発する<span class=\"green\">中東情勢の緊迫化は、石油価格の上昇を通じて明らかにインフレ圧力を高める可能性が高い一方で、経済活動には下押し圧力をもたらす</span>と考えられます。日銀は植田総裁が一昨日6月3日のきさらぎ会で、6月15-16日に開催される次回の金融政策決定会合で利上げする意向を強くにじませた発言を繰り返しましたが、雇用と物価のデュアルマンデートを背負う米国連邦準備制度理事会(FED)は難しい金融政策の舵取りを担うことになります。</p>",
+      "author": "元官庁エコノミスト",
+      "source_type": "rss"
+    },
+    {
       "id": "30b1c3eda902b455",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -376,6 +418,48 @@
       "summary": "",
       "content_html": null,
       "author": "鈴木エイト",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "57ee05a7b9162780",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】銀行内部でのCFに対する考え方先輩方、横から失礼致します・・・",
+      "url": "https://www.rakumachi.jp/news/practical/400438",
+      "published": "2026-06-05T00:00:00+09:00",
+      "fetched": "2026-06-05T18:05:06.756699+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "元地方銀行員大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "66c4cf96df9266b8",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】裁判書類を勤務先でも受取らない！裁判延期へ勤務先送達も拒否されたが、書記官から教わった最後の手段から裁判決定へ",
+      "url": "https://www.rakumachi.jp/news/practical/400429",
+      "published": "2026-06-05T00:00:00+09:00",
+      "fetched": "2026-06-05T18:05:06.756703+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "日曜大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "2aadc5249b3d069d",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】初めての家賃値上げ成功！！背景はお粗末",
+      "url": "https://www.rakumachi.jp/news/practical/398194",
+      "published": "2026-06-05T00:00:00+09:00",
+      "fetched": "2026-06-05T18:05:06.756706+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "海外駐在済大家",
       "source_type": "scrape_rakumachi"
     },
     {
@@ -11677,11 +11761,11 @@
       "source_type": "scrape_rakumachi"
     }
   ],
-  "last_updated": "2026-06-05T15:25:30.861435+00:00",
+  "last_updated": "2026-06-05T18:05:10.956872+00:00",
   "stats": {
-    "total": 834,
-    "fetched_just_now": 1280,
-    "feeds_success": 73,
-    "feeds_failed": 7
+    "total": 840,
+    "fetched_just_now": 1305,
+    "feeds_success": 79,
+    "feeds_failed": 1
   }
 }

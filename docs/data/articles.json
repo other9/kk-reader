@@ -1937,7 +1937,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "「無職同然」で公庫アタック、築古に2400万フルローン…「持たざる者」たちの融資奮闘記年収500万の20代が7000万新築アパートを購入するまで",
+      "title": "「無職同然」で公庫アタック、築古に2400万フルローン…「持たざる者」たちの融資奮闘記",
       "url": "https://www.rakumachi.jp/news/column/400067",
       "published": "2026-06-02T00:00:00+09:00",
       "fetched": "2026-06-02T10:52:55.126107+00:00",
@@ -11873,11 +11873,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-06T17:23:20.857521+00:00",
+  "last_updated": "2026-06-06T19:43:52.607187+00:00",
   "stats": {
     "total": 848,
-    "fetched_just_now": 1301,
-    "feeds_success": 79,
-    "feeds_failed": 0
+    "fetched_just_now": 1291,
+    "feeds_success": 77,
+    "feeds_failed": 2
   }
 }

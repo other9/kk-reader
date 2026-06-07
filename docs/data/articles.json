@@ -1,6 +1,34 @@
 {
   "articles": [
     {
+      "id": "69e0e0813b4808a4",
+      "feed_id": "5acee72b6150",
+      "feed_title": "金融の未来を考えるブログ",
+      "category": "金融・経済・投資",
+      "title": "FRTBの延期が広がってきた",
+      "url": "https://saferich.biz/frtb%e3%81%ae%e5%bb%b6%e6%9c%9f%e3%81%8c%e5%ba%83%e3%81%8c%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f/",
+      "published": "2026-06-07T05:06:46+00:00",
+      "fetched": "2026-06-07T09:31:29.111004+00:00",
+      "summary": "米国案が緩和方向に傾いていたため、欧州の銀行が競争上不利にならないよう、2029年末まで最大3年間延期される方針が決定した。本来2027年1月から全面的に適用される予定だった市場リスク資本規制を先送りされることとなった。 … 続きを読む FRTBの延期が広がってきた → The post FRTBの延期が広がってきた first appeared on 金融の未来を考えるブログ .",
+      "content_html": "<p>米国案が緩和方向に傾いていたため、欧州の銀行が競争上不利にならないよう、2029年末まで最大3年間延期される方針が決定した。本来2027年1月から全面的に適用される予定だった市場リスク資本規制を先送りされることとなった。 &#8230; <a class=\"more-link\" href=\"https://saferich.biz/frtb%e3%81%ae%e5%bb%b6%e6%9c%9f%e3%81%8c%e5%ba%83%e3%81%8c%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f/\">続きを読む <span class=\"screen-reader-text\">FRTBの延期が広がってきた</span> <span class=\"meta-nav\">&#8594;</span></a></p>\nThe post <a href=\"https://saferich.biz/frtb%e3%81%ae%e5%bb%b6%e6%9c%9f%e3%81%8c%e5%ba%83%e3%81%8c%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f/\">FRTBの延期が広がってきた</a> first appeared on <a href=\"https://saferich.biz\">金融の未来を考えるブログ</a>.",
+      "author": "管理人",
+      "source_type": "rss"
+    },
+    {
+      "id": "dd57bf521ba05ada",
+      "feed_id": "6c30fc2654fb",
+      "feed_title": "元官庁エコノミストのブログ",
+      "category": "金融・経済・投資",
+      "title": "いよいよ関東甲信と東海も梅雨入り",
+      "url": "http://economist.cocolog-nifty.com/blog/2026/06/post-8863dd.html",
+      "published": "2026-06-07T05:00:00+00:00",
+      "fetched": "2026-06-07T09:31:27.703352+00:00",
+      "summary": "気象庁は、本日6月7日、関東甲信地方と東海地方が「 梅雨入り したとみられる」と発表しました。関東甲信地方は平年並み、東海地方は平年より1日遅い梅雨入りだそうです。近畿はすでに6月4日に梅雨入りしており、6月20-21日前後の北陸や東北の梅雨入り平年値を考え合わせると、早ければ来週中にも梅雨のない北海道を除く日本列島各地で梅雨入り、ということになるかもしれません。近畿では来月7月中下旬の梅雨明けまで 長雨の季節 が続くことになります。 下のテーブルは 日本気象協会のサイト から引用しています。",
+      "content_html": "<p>気象庁は、本日6月7日、関東甲信地方と東海地方が「<span class=\"red\">梅雨入り</span>したとみられる」と発表しました。関東甲信地方は平年並み、東海地方は平年より1日遅い梅雨入りだそうです。近畿はすでに6月4日に梅雨入りしており、6月20-21日前後の北陸や東北の梅雨入り平年値を考え合わせると、早ければ来週中にも梅雨のない北海道を除く日本列島各地で梅雨入り、ということになるかもしれません。近畿では来月7月中下旬の梅雨明けまで<span class=\"blue\">長雨の季節</span>が続くことになります。<br />下のテーブルは<a href=\"https://tenki.jp/forecaster/deskpart/2026/06/07/39226.html\" target=\"_blank\" title=\"【速報】関東甲信・東海地方が梅雨入り\">日本気象協会のサイト</a>から引用しています。</p><div style=\"text-align: center;\"><a href=\"https://tenki.jp/forecaster/deskpart/2026/06/07/39226.html\" target=\"_blank\"><img alt=\"photo\" src=\"http://economist.cocolog-nifty.com/dummy.gif\" style=\"border: none; width: 560px; height: 420px; margin: 20px auto 10px;\" title=\"2026年梅雨入り・梅雨明け\" /></a></div>",
+      "author": "元官庁エコノミスト",
+      "source_type": "rss"
+    },
+    {
       "id": "1ef2889e8233b6ad",
       "feed_id": "2ec7ee82ecf8",
       "feed_title": "マンションの間取りや価格を言いたい放題!",
@@ -127,6 +155,48 @@
       "source_type": "scrape_kenbiya"
     },
     {
+      "id": "a4dbac6a46822669",
+      "feed_id": "bb0037f0a045",
+      "feed_title": "楽待新聞 連載コラム",
+      "category": "不動産",
+      "title": "この連載の一覧を見る(7記事)",
+      "url": "https://www.rakumachi.jp/news/series/1234",
+      "published": "2026-06-07T00:00:00+09:00",
+      "fetched": "2026-05-09T07:50:22.267115+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "楽待編集部",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "d1a9d3b0e677e7a9",
+      "feed_id": "c4e832423738",
+      "feed_title": "楽待新聞 編集部記事",
+      "category": "不動産",
+      "title": "サラリーマン、大家になる #7NEW大家になりたい「普通のサラリーマン」が、知識ゼロから3900万のアパートを買ってみたら…楽待編集部2026.6.7この連載の一覧を見る(7記事)",
+      "url": "https://www.rakumachi.jp/news/column/399445",
+      "published": "2026-06-07T00:00:00+09:00",
+      "fetched": "2026-06-07T09:31:25.749642+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "楽待編集部",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "d138ce0fc631eb31",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "無断で新居建設",
+      "url": "https://www.kenbiya.com/ar/cl/fukuda/106.html",
+      "published": "2026-06-07T00:00:00+09:00",
+      "fetched": "2026-06-07T09:31:25.974207+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "fukuda",
+      "source_type": "scrape_kenbiya"
+    },
+    {
       "id": "18d0ee5c8d5c668b",
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
@@ -217,7 +287,7 @@
       "category": "金融・経済・投資",
       "title": "暴落のないリーマンショックと揶揄されるAI半導体相場さん、不意に連帯責任を求めてくる",
       "url": "https://kabumatome.doorblog.jp/archives/66031778.html",
-      "published": "2026-06-06T05:56:56+00:00",
+      "published": "2026-06-06T05:56:05+00:00",
       "fetched": "2026-06-06T08:45:14.258909+00:00",
       "summary": "これ言っとけば暴落が起きても起きなくても当てた感だせるの強すぎる pic.twitter.com/YZplRo9rnJ — 自由 (@hukeiro114514) May 29, 2026 暴落のないリーマンショックって、それただの上昇相場では — スペさん (@kumakuma7) May 29, 2026 日経インチキ平均指数やグロースしない新興市場の指数より日韓メモリ株の株価チェックの方が重要度が高い相場 — peko (@peko409) June 5, 2026 昔日経とダウが連動するものとして扱われてて、その後NASDAQになり、今SOX。寄…",
       "content_html": "<br /><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">これ言っとけば暴落が起きても起きなくても当てた感だせるの強すぎる <a href=\"https://t.co/YZplRo9rnJ\">pic.twitter.com/YZplRo9rnJ</a></p>— 自由 (@hukeiro114514) <a href=\"https://x.com/hukeiro114514/status/2060282312047444434?ref_src=twsrc%5Etfw\">May 29, 2026</a></blockquote><blockquote><a href=\"https://x.com/pointroomz/status/2060123629489418584\" target=\"_blank\" title=\"a17\"><img alt=\"a17\" border=\"0\" class=\"pict\" height=\"128\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/5/9/59a5f7d7-s.png\" width=\"480\" /></a><br /></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">暴落のないリーマンショックって、それただの上昇相場では</p>— スペさん (@kumakuma7) <a href=\"https://x.com/kumakuma7/status/2060257989882421267?ref_src=twsrc%5Etfw\">May 29, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">日経インチキ平均指数やグロースしない新興市場の指数より日韓メモリ株の株価チェックの方が重要度が高い相場</p>— peko (@peko409) <a href=\"https://x.com/peko409/status/2062737681118060621?ref_src=twsrc%5Etfw\">June 5, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">昔日経とダウが連動するものとして扱われてて、その後NASDAQになり、今SOX。寄与度的にしょうがないけどｗ</p>— グレ (@tsuneniroubai) <a href=\"https://x.com/tsuneniroubai/status/2062676949315772645?ref_src=twsrc%5Etfw\">June 4, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">なんか今の株式市場、どっかで読んだことある状況だな〜と思って本棚の中探したらコレじゃん。結局逃げどき逃して利益出ない話。 <a href=\"https://t.co/nWE1jjfTrI\">pic.twitter.com/nWE1jjfTrI</a></p>— とろりっち🏇☆彡 (@spiritu0310) <a href=\"https://x.com/spiritu0310/status/2062196857980563480?ref_src=twsrc%5Etfw\">June 3, 2026</a></blockquote><blockquote> <a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/c/8/c8a81dfe.jpg\" target=\"_blank\" title=\"a02\"><img alt=\"a02\" border=\"0\" class=\"pict\" height=\"436\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/c/8/c8a81dfe-s.jpg\" width=\"480\" /></a><div><a href=\"https://www.amazon.co.jp/dp/B09P4Q56W9?psc=1&amp;tag=aaajn000-22+&amp;th=1&amp;linkCode=osi\" target=\"_blank\"><b>敗者のゲーム</b></a></div></blockquote></div><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ついに暴落のないリーマンショックが終わったのか？</p>— うーはも (@uhmyada) <a href=\"https://x.com/uhmyada/status/2062981406301790336?ref_src=twsrc%5Etfw\">June 5, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">なんだろう、株売るのやめてもらっていいですか？ <a href=\"https://t.co/dkgASaaUYw\">pic.twitter.com/dkgASaaUYw</a></p>— 世界四季報 (@4ki4) <a href=\"https://x.com/4ki4/status/2062980413312913489?ref_src=twsrc%5Etfw\">June 5, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/b/d/bde3a3ab.png\" target=\"_blank\" title=\"a00\"><img alt=\"a00\" border=\"0\" class=\"pict\" height=\"390\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/b/d/bde3a3ab-s.png\" width=\"480\" /></a><br /><span style=\"font-size: 81.25%;\"><a href=\"https://sekai-kabuka.com/pc-index.html\" target=\"_blank\" title=\"\">https://sekai-kabuka.com/</a></span><br /><b>※NASDAQ、過去最大の下落幅を記録</b></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">お、おはぎゃあああああああああああ<br /><br />マンデー確定ですかそうですか...</p>— hiro_tyun (@hiro_tyun) <a href=\"https://x.com/hiro_tyun/status/2063013695740068161?ref_src=twsrc%5Etfw\">June 5, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">普通にショック級の下落幅だったんじゃない？</p>— 仮想通貨失敗マン (@zenryokuman10) <a href=\"https://x.com/zenryokuman10/status/2063006461366767862?ref_src=twsrc%5Etfw\">June 5, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">なかなかのヤバい下げだなと思うけれど、225が63,800円だからね。そんなもんじゃないかとも。10営業日前に戻っただけとも言える。</p>— Inside+Outside→Zone (@zone_investor) <a href=\"https://x.com/zone_investor/status/2063047251170406685?ref_src=twsrc%5Etfw\">June 5, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/6/f/6f3346b2.png\" target=\"_blank\" title=\"a01\"><img alt=\"a01\" border=\"0\" class=\"pict\" height=\"152\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/6/f/6f3346b2-s.png\" width=\"480\" /></a><br /><span style=\"font-size: 81.25%;\"><a href=\"https://sekai-kabuka.com/pc-index.html\" target=\"_blank\" title=\"\">https://sekai-kabuka.com/</a></span></blockquote><br /></div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">Broadcom決算ショック＋米金利上昇懸念＝SpaceX &amp; Anthropic &amp; OpenAI IPO資金準備のための利確</p>— FabyΔ (@FABYMETAL4) <a href=\"https://x.com/FABYMETAL4/status/2062994227039203649?ref_src=twsrc%5Etfw\">June 5, 2026</a></blockquote><br /><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">マイクロソフトを除くGoogle、Amazon、Meta、Oracleのフリーキャッシュフローは大幅に低下し、一部はマイナス圏に沈む見通しだ。AI投資は将来の成長期待を支えるが現金を急速に消費している。市場はAI成功を前提に評価しているが収益化が想定を下回れば、過剰投資への警戒が一気に強まる可能性がある。\n <a href=\"https://t.co/C9jzZ4uOzY\">pic.twitter.com/C9jzZ4uOzY</a></p>— 朝倉智也(Tomoya Asakura) (@tomoyaasakura) <a href=\"https://x.com/tomoyaasakura/status/2062999662056161516?ref_src=twsrc%5Etfw\">June 5, 2026</a></blockquote><blockquote> <a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/6/4/6468e1d2.jpg\" target=\"_blank\" title=\"a06\"><img alt=\"a06\" border=\"0\" class=\"pict\" height=\"458\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/6/4/6468e1d2-s.jpg\" width=\"480\" /></a><br /></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">金つぎ込み過ぎてキャッシュリッチだった企業がフリーキャッシュがなくなり、銀行貸し出しも限界に来て新株発行してる姿がやばいって話か</p>— ELE (@eleconomics) <a href=\"https://x.com/eleconomics/status/2062971019535794414?ref_src=twsrc%5Etfw\">June 5, 2026</a></blockquote></div><br /></div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">やっぱオプションとレバETFが株のボラ上げてんだろうな<br />仮想通貨とゴールド下げてたし売る理由探してましたみたいなノリだよな多分</p>— じゃんぷすーつ (@Jumpsuit_) <a href=\"https://x.com/Jumpsuit_/status/2063004785012527276?ref_src=twsrc%5Etfw\">June 5, 2026</a></blockquote><blockquote><a href=\"https://x.com/kokko_coco/status/2063009821721272474\" target=\"_blank\" title=\"a07\"><img alt=\"a07\" border=\"0\" class=\"pict\" height=\"533\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/9/a/9a14e1e0-s.png\" width=\"480\" /></a><br /></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">半導体くんこんな時だけ「みんな仲間だろ」みたいな顔して連帯責任取らせるの許さない</p>— ファー (@farfarfarfff) <a href=\"https://x.com/farfarfarfff/status/2062977385830768702?ref_src=twsrc%5Etfw\">June 5, 2026</a></blockquote><br /></div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">月曜、責任を取るのはキオクシアホルダーだけでいいと思う人？ <a href=\"https://t.co/F6gZE3cE2i\">pic.twitter.com/F6gZE3cE2i</a></p>— saku (@sakusaku_kabu) <a href=\"https://x.com/sakusaku_kabu/status/2063027763083428021?ref_src=twsrc%5Etfw\">June 5, 2026</a></blockquote><blockquote><img alt=\"a04\" border=\"0\" class=\"pict\" height=\"305\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/4/0/40f812bf.jpg\" width=\"306\" /><div><a href=\"https://bokete.jp/odai/8061355\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://bokete.jp/</span></a></div></blockquote><br /><div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">大型なのにPER40とか50とか付けてる半導体関連は全部S安で、資金の逃げ先はPER10割ってるような年安つけてる銘柄にお願いします…(´・ω・｀)</p>— ざら速(ザラ場速報) @ときどき仮想通貨 (@ZARASOKU) <a href=\"https://x.com/ZARASOKU/status/2063048050025898175?ref_src=twsrc%5Etfw\">June 5, 2026</a></blockquote><br /></div></div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">半導体は全部ストップ安でええ、それで手打ちにしましょ。なんも迷惑かけとらんバリューまで巻き込む必要あらへんがな <a href=\"https://t.co/7SYSrDRfFH\">pic.twitter.com/7SYSrDRfFH</a></p>— 株ゴリラ (@gorillataxjp) <a href=\"https://x.com/gorillataxjp/status/2063033925048639948?ref_src=twsrc%5Etfw\">June 5, 2026</a></blockquote><blockquote><img alt=\"a05\" border=\"0\" class=\"pict\" height=\"277\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/9/f950bf5c.jpg\" width=\"416\" /><br /><a href=\"https://www.amazon.co.jp/dp/B078GN9Z51?psc=1&amp;tag=aaajn000-22+&amp;th=1&amp;linkCode=osi\" target=\"_blank\"><b>映画「アウトレイジ 最終章」</b></a><br /></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">キオクシアに投資した高校生見ているか？こんな気持ちで土日を過ごすのが株式投資家だぞ。<br />一緒に爆損しような。</p>— DEG (@DEG_2020) <a href=\"https://x.com/DEG_2020/status/2063053310350004491?ref_src=twsrc%5Etfw\">June 6, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">株やらなければ、マンデーはただの月曜日になるんよな</p>— しおたに (@koushioo) <a href=\"https://x.com/koushioo/status/2063060374363222149?ref_src=twsrc%5Etfw\">June 6, 2026</a></blockquote><br /></div>",
@@ -8247,20 +8317,6 @@
       "source_type": "scrape_kenbiya"
     },
     {
-      "id": "a4dbac6a46822669",
-      "feed_id": "bb0037f0a045",
-      "feed_title": "楽待新聞 連載コラム",
-      "category": "不動産",
-      "title": "この連載の一覧を見る(6記事)",
-      "url": "https://www.rakumachi.jp/news/series/1234",
-      "published": "2026-05-16T00:00:00+09:00",
-      "fetched": "2026-05-09T07:50:22.267115+00:00",
-      "summary": "",
-      "content_html": null,
-      "author": "楽待編集部",
-      "source_type": "scrape_rakumachi"
-    },
-    {
       "id": "e2663d1a3116c9a4",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -11633,26 +11689,12 @@
       "content_html": "続けて、ピアース石神井公園。<br /><br />設計はコモン・リンク、施工は新三平建設、デザイン監修はツズキオフィスになります。<br /><br />30〜60㎡台のみの42戸とはいえ、5階建でのもののため敷地面積は1,000㎡超あります。<br /><br />空地率は約45％と低めですが、駐車場を2台しか設けていないことで（コンパクト目のプランを中心にしたことにより台数が少なくともデメリットになりにくくはなっています）、和田堀緑道及び緑地に面した部分を緑化させることが出来ていますね。<br /><br />エントランスホールはやはり建物スケールなりの小ぶりな空間なのですが、デザイン的には繊細でスタイリッシュなもの、また、アプローチ空間もまずまずの余裕があります（風除室はないですけど…）。<br /><br />また、外観デザインの大きな特徴となるのが杉板本実型枠のコンクリ打ち放しで、モリモトらしさツズキオフィスらしさを感じるものと言えます。<br />ただ、全体的な印象としては、ピアースの中ではシンプル（モリモト物件の中ではインパクト弱め）な印象で、単価帯からしてもさらなる高級感や重厚感があると良かったようには思いますね。<br /><br />前回の<a href=\"https://mansion-madori.com/blog-entry-11672.html\" target=\"_blank\" title=\"ピアース石神井公園\">ピアース石神井公園</a>。<br /><br /><a href=\"https://www.morimoto-real.co.jp/shinchiku/pa-shakujiikoen/index.html\" target=\"_blank\" title=\"公式ホームページ\">公式ホームページ</a><br /><a href=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-5-5_8-34-37_No-00.png\" target=\"_blank\"><img alt=\"SnapCrab_NoName_2026-5-5_8-34-37_No-00.png\" border=\"0\" height=\"959\" src=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-5-5_8-34-37_No-00.png\" width=\"770\" /></a><br />お部屋は43㎡の2LDK（1LDK+S）、南向き中住戸です。やはり和田堀緑地〜低層住宅街が視界となる良好なポジションですね。<br /><br />間取りはこちらもかなり部屋数を重視した設計で、43㎡ながら2LDK（1LDK+S）になっています。<br /><br />廊下は短めながら柱の食い込みが目立つタイプで、ここまで面積を絞るのであればさらに効率性を高めることが出来ていると良かったようには思いますね。<br /><br />一方、床に近いとこらから梁下までのダイレクトサッシは魅力で（それゆえに柱が食い込んでいる）、特にLDはダイレクトサッシとバルコニーが両立しているのが良いでしょう。<br /><br />なお、収納はかなり少ないですね。<br /><br />坪単価は591万円（今年2月末の1期3次のものです）。先ほどのような両面グリーンフロントの角住戸ほどではないものの、こちらも南面緑道ポジションのためしっかりとした水準になっています。<br /><br />そのように柱の食い込みは気になるものの、ダイレクトサッシによって中住戸ながらも特色あるプランになっており、かなり面積を絞っていることからも（グロスの嵩みを抑えていることからも）このご時世大きな違和感はないでしょう。<br /><br />設備仕様面は、30～60㎡台の42戸という小規模物件であるにもかかわらずディスポーザーが付いていることに驚かされます。<br />食洗機、フィオレストーンのキッチン天板、トイレ手洗いカウンターはもちろんのこと、廊下にはモリモトならではの磁器質タイル貼＆壁面（片面）木目調パネル貼が備わっています。<br />また、ゼッチ基準も満たしているため、エコ・断熱性能も良好ですね。<br /><br />管理費は428円/㎡。そのように小規模ながらもディスポーザーを採用しているため高くなっています。<br />モリモト物件は管理費が比較的リーズナブルなことが多く、ここは外廊下ですのでもう少し安く出来ていてもおかしくなかったようにも思うのですが、やはりインフレの影響が大きいということでしょうね。<br /><br />修繕積立金は160円/㎡。<br />※インフレにより昨年以降、初年度から200円/㎡超といったようなかなり高額な設定の物件が増えてきたため、今年からは修繕積立金も掲載することとしました。<br />※あくまで初年度（30年均等のオハナなどのケース除く）の設定に過ぎないため、物件の購入を検討する際には修繕積立金シミュレーション（30年の間にどの程度の値上げが予定されているかが分かります）をしっかりと確認するようにしましょう。<br /><br />駐車場は、身障者用と小型車用の2台のみで平置になります。",
       "author": "モモレジ",
       "source_type": "rss"
-    },
-    {
-      "id": "17ee3768c6223643",
-      "feed_id": "9505d30bcfe3",
-      "feed_title": "市況かぶ全力２階建",
-      "category": "金融・経済・投資",
-      "title": "任天堂、インフレに耐えきれず初代Switch、Switch2、Switch Onlineまとめて大幅値上げを敢行",
-      "url": "https://kabumatome.doorblog.jp/archives/66031345.html",
-      "published": "2026-05-08T07:19:55+00:00",
-      "fetched": "2026-05-08T07:49:31.875998+00:00",
-      "summary": "え、まって。 これ誰が買うの？ pic.twitter.com/KdYG3d9Lmw — とと@FANG+投資家 (@TotoInvestor) March 20, 2026 明治チョコレート ブラックチョコレート 明治 チョコレート効果 カカオ72% まだ日本は呑気だけど、今のうちに美味しい物食べて置くとか旅行しとくとか、楽しんでおいたほうがいいかもよ。コロナの時に思ったでしょ。可能性は出てきたよ。 — orangeitems (@orangeitems_) March 27, 2026 この二十年ずっと政府はデフレ脱却を叫んでいたが、ほとんどの日本人…",
-      "content_html": "<br /><div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">え、まって。<br />これ誰が買うの？ <a href=\"https://t.co/KdYG3d9Lmw\">pic.twitter.com/KdYG3d9Lmw</a></p>— とと@FANG+投資家 (@TotoInvestor) <a href=\"https://twitter.com/TotoInvestor/status/2034825674360570163?ref_src=twsrc%5Etfw\">March 20, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/5/c/5c54302e.jpg\" target=\"_blank\" title=\"a04\"><img alt=\"a04\" border=\"0\" class=\"pict\" height=\"360\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/5/c/5c54302e-s.jpg\" width=\"480\" /></a><br /><a href=\"https://www.amazon.co.jp/dp/B0CLD1S7L4?psc=1&amp;tag=aaajn000-22+&amp;th=1&amp;linkCode=osi\" target=\"_blank\"><b>明治チョコレート ブラックチョコレート</b></a><br /><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/c/7/c798b931.jpg\" target=\"_blank\" title=\"a05\"><img alt=\"a05\" border=\"0\" class=\"pict\" height=\"280\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/c/7/c798b931-s.jpg\" width=\"480\" /></a><br /><a href=\"https://www.amazon.co.jp/dp/B07H97F3C9?psc=1&amp;tag=aaajn000-22+&amp;th=1&amp;linkCode=osi\" target=\"_blank\"><b>明治 チョコレート効果 カカオ72%</b></a></blockquote></div><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">まだ日本は呑気だけど、今のうちに美味しい物食べて置くとか旅行しとくとか、楽しんでおいたほうがいいかもよ。コロナの時に思ったでしょ。可能性は出てきたよ。</p>— orangeitems (@orangeitems_) <a href=\"https://twitter.com/orangeitems_/status/2037505963931156797?ref_src=twsrc%5Etfw\">March 27, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">この二十年ずっと政府はデフレ脱却を叫んでいたが、ほとんどの日本人にとってはインフレよりデフレの方が心地よかったのでは。</p>— かずお君 (@kazuo57) <a href=\"https://twitter.com/kazuo57/status/2047116296194760769?ref_src=twsrc%5Etfw\">April 23, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">買っといてよかったSwitch2国内版</p>— にっち (@niche510) <a href=\"https://twitter.com/niche510/status/2052641737911542258?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/e/3/e39961ed.png\" target=\"_blank\" title=\"a16\"><img alt=\"a16\" border=\"0\" class=\"pict\" height=\"1264\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/e/3/e39961ed-s.png\" width=\"480\" /></a><br /><a href=\"https://www.nintendo.co.jp/corporate/release/2026/260508.html\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.nintendo.co.jp/</span></a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">日本語専用廃止どころか日本語専用のまま値上げですってよ一番悪いパターンが来たわね</p>— 薪 (@STEELWANKO) <a href=\"https://twitter.com/STEELWANKO/status/2052638790133621087?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><br /></div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">任天堂Switch2だけじゃなく、Switch1も値上げか。更にSwitch Onlineも値上げしてきてる。めちゃめちゃ値上げラッシュや！</p>— もんでんどん (@mondendon) <a href=\"https://twitter.com/mondendon/status/2052640093324841211?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">メモリ、グラボの高騰具合からしてよく耐えた方だと思う</p>— まーりゃん🍬 (@nyanko_rider) <a href=\"https://twitter.com/nyanko_rider/status/2052654213357047928?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">値上げするまでに欠品しそう</p>— 長崎特急白いかもめ885 (@kamome_885) <a href=\"https://twitter.com/kamome_885/status/2052648900935458965?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><br /></div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">買っておいて正解だったというべきか悩ましいな</p>— 怪しい隣人 (@BlackHandMaiden) <a href=\"https://twitter.com/BlackHandMaiden/status/2052638974636904574?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">どこを見渡しても値上げ値上げ値上げ。そろそろ僕の持ち株も値上げしてくれませんかね。</p>— ヤリ手ジジイ (@yaritejijii) <a href=\"https://twitter.com/yaritejijii/status/2045663058429985006?ref_src=twsrc%5Etfw\">April 19, 2026</a><br /></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">この地合いで任天堂だけ下げてるのクソおもろい。まさに逆神岐阜暴威</p>— 仮想通貨全力マン (@zenryokuman10) <a href=\"https://twitter.com/zenryokuman10/status/2041750082165576058?ref_src=twsrc%5Etfw\">April 8, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/c/fc2824ff.png\" target=\"_blank\" title=\"a11\"><img alt=\"a11\" border=\"0\" class=\"pict\" height=\"304\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/c/fc2824ff-s.png\" width=\"480\" /></a><br /><a href=\"https://kabutan.jp/stock/chart?code=7974\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://kabutan.jp/stock/chart?code=7974</span></a></blockquote></div><br /><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">今持ってる任天堂株、ほぼヨッシーポップコーンラインだから割らないで欲しいんだわ <a href=\"https://t.co/cEbqvEfTEi\">pic.twitter.com/cEbqvEfTEi</a></p>— じゅん@慶應通信法甲79期 (@jun2564) <a href=\"https://twitter.com/jun2564/status/2050002904111800329?ref_src=twsrc%5Etfw\">May 1, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/c/e/cedfab6e.png\" target=\"_blank\" title=\"a10\"><img alt=\"a10\" border=\"0\" class=\"pict\" height=\"65\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/c/e/cedfab6e-s.png\" width=\"480\" /></a><br /><b>※<a href=\"https://kabumatome.doorblog.jp/archives/66031191.html\" target=\"_blank\" title=\"\">呪われたように弱い任天堂、6800円のヨッシーポップコーンラインに吸い寄せられる（2026/04/24）</a></b></blockquote><br /></div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">沈澱堂ｗｗｗｗｗｗ <a href=\"https://t.co/stcX3MJFBh\">pic.twitter.com/stcX3MJFBh</a></p>— susan＠主要先進国経済指標速報 (@susan_tei) <a href=\"https://twitter.com/susan_tei/status/2052639564104388736?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><blockquote><div><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/d/5/d558a9ba.png\" target=\"_blank\" title=\"a12\"><img alt=\"a12\" border=\"0\" class=\"pict\" height=\"236\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/d/5/d558a9ba-s.png\" width=\"480\" /></a><br /><a href=\"https://www.sbisec.co.jp/ETGate/?_ControlID=WPLETsiR001Control&amp;_PageID=WPLETsiR001Idtl30&amp;_DataStoreID=DSWPLETsiR001Control&amp;_ActionID=DefaultAID&amp;s_rkbn=&amp;s_btype=&amp;i_stock_sec=&amp;i_dom_flg=1&amp;i_exchange_code=&amp;i_output_type=2&amp;exchange_code=PTS&amp;stock_sec_code_mul=7974&amp;ref_from=1&amp;ref_to=20&amp;wstm4130_sort_id=&amp;wstm4130_sort_kbn=&amp;qr_keyword=&amp;qr_suggest=&amp;qr_sort=\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.sbisec.co.jp/</span></a><br /></div></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">コンセンサス未達かぁ</p>— すれ☆おん✌( 'ω' )✌ (@acvd_sureon) <a href=\"https://twitter.com/acvd_sureon/status/2052638008516780292?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/c/3/c38febb0.png\" target=\"_blank\" title=\"a14\"><img alt=\"a14\" border=\"0\" class=\"pict\" height=\"296\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/c/3/c38febb0-s.png\" width=\"480\" /></a><br /><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/4/e/4e04e579.png\" target=\"_blank\" title=\"a15\"><img alt=\"a15\" border=\"0\" class=\"pict\" height=\"303\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/4/e/4e04e579-s.png\" width=\"480\" /></a><br /><b>※<a href=\"https://www.nintendo.co.jp/ir/events/index.html\" target=\"_blank\" title=\"\">2026年3月期 決算説明資料</a></b></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">まあ外人が売りまくってたのも、ちゃんと理由があったって決算だったな。ああいう動きに逆らってはイカンわ。</p>— おぶつ (@obutu19) <a href=\"https://twitter.com/obutu19/status/2052644085480218880?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><br /></div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">任天堂の絶望決算でついに踊り出してワロタ <a href=\"https://t.co/3e7DoVMKen\">pic.twitter.com/3e7DoVMKen</a></p>— ひとり配当金生活-さいもん#満州国 (@hitori_haitou) <a href=\"https://twitter.com/hitori_haitou/status/2052642161813045544?ref_src=twsrc%5Etfw\">May 8, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/6/d/6d2e0653.jpg\" target=\"_blank\" title=\"a13\"><img alt=\"a13\" border=\"0\" class=\"pict\" height=\"230\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/6/d/6d2e0653-s.jpg\" width=\"480\" /></a><br /><a href=\"https://www.youtube.com/watch?v=ySLoIU_gDCE\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.youtube.com/</span></a><br /></blockquote><br />",
-      "author": "masorira",
-      "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-07T04:52:30.961855+00:00",
+  "last_updated": "2026-06-07T09:31:29.115106+00:00",
   "stats": {
-    "total": 832,
-    "fetched_just_now": 1304,
+    "total": 835,
+    "fetched_just_now": 1323,
     "feeds_success": 79,
     "feeds_failed": 0
   }

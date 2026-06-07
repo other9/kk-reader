@@ -1,6 +1,62 @@
 {
   "articles": [
     {
+      "id": "899644d19d1c995b",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】“知り合いだから安心”で不動産を買う人は負けるその知り合い、何者なの？",
+      "url": "https://www.rakumachi.jp/news/practical/396168",
+      "published": "2026-06-08T00:00:00+09:00",
+      "fetched": "2026-06-07T21:21:45.197514+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "アール｜パチンカス大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "be0d9611e6d9cfeb",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】不動産投資では儲からない時代？金利上昇局面で勝ち残る思考法",
+      "url": "https://www.rakumachi.jp/news/practical/400118",
+      "published": "2026-06-08T00:00:00+09:00",
+      "fetched": "2026-06-07T21:21:45.197549+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "かぶ大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "fae74714392af483",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】「まだ大丈夫」が一番危ないのかもしれない。投資家が見落とす“危険信号”の正体",
+      "url": "https://www.rakumachi.jp/news/practical/398935",
+      "published": "2026-06-08T00:00:00+09:00",
+      "fetched": "2026-06-07T21:21:45.197554+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "戸田匠",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "123ca11b6483126e",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "一般賃貸とシニア住宅の間の住まい。学生、社会人＋アクティブシニアの入居を想定。多世代交流型サービスレジデンスが今、必要とされている",
+      "url": "https://www.kenbiya.com/ar/ns/for_rent/tenant/10198.html",
+      "published": "2026-06-08T00:00:00+09:00",
+      "fetched": "2026-06-07T21:21:45.400718+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
       "id": "3fa3b7803d90c4cb",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -1083,7 +1139,7 @@
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
       "category": "不動産",
-      "title": "【実践大家コラム】銀行内部でのCFに対する考え方先輩方、横から失礼致します・・・",
+      "title": "銀行内部でのCFに対する考え方",
       "url": "https://www.rakumachi.jp/news/practical/400438",
       "published": "2026-06-05T00:00:00+09:00",
       "fetched": "2026-06-05T18:05:06.756699+00:00",
@@ -1097,7 +1153,7 @@
       "feed_id": "0604078e48ca",
       "feed_title": "楽待 実践大家コラム",
       "category": "不動産",
-      "title": "【実践大家コラム】裁判書類を勤務先でも受取らない！裁判延期へ勤務先送達も拒否されたが、書記官から教わった最後の手段から裁判決定へ",
+      "title": "裁判書類を勤務先でも受取らない！裁判延期へ",
       "url": "https://www.rakumachi.jp/news/practical/400429",
       "published": "2026-06-05T00:00:00+09:00",
       "fetched": "2026-06-05T18:05:06.756703+00:00",
@@ -11663,11 +11719,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-07T19:44:18.590888+00:00",
+  "last_updated": "2026-06-07T21:21:50.063947+00:00",
   "stats": {
-    "total": 833,
-    "fetched_just_now": 1306,
-    "feeds_success": 79,
-    "feeds_failed": 0
+    "total": 837,
+    "fetched_just_now": 1276,
+    "feeds_success": 74,
+    "feeds_failed": 5
   }
 }

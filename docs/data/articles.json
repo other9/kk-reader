@@ -155,6 +155,20 @@
       "source_type": "scrape_rakumachi"
     },
     {
+      "id": "699bc1afb11539e6",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "世界の供給網の混乱時の金融政策の状態依存性",
+      "url": "https://himaginary.hatenablog.com/entry/20260608/State_Dependence_of_Monetary_Policy_During_Global_Supply_Chain_Disruptions",
+      "published": "2026-06-08T14:59:00+00:00",
+      "fetched": "2026-06-08T20:29:58.455198+00:00",
+      "summary": "というNBER論文が 上がっている （ ungated版 、 1年前のスライド資料 ）。原題は「State Dependence of Monetary Policy During Global Supply Chain Disruptions」で、著者はXiwen Bai（清華大）、Jesús Fernández-Villaverde（ペンシルベニア大）、Yiliang Li（対外経済貿易大）、Francesco Zanetti（オックスフォード大） *1 。 We study how global supply chain disruptions a…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35209\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://www.lse.ac.uk/CFM/assets/pdf/CFM-Discussion-Papers-2026/CFMDP2026-10-Paper.pdf\">ungated&#x7248;</a>、<a href=\"https://www.suomenpankki.fi/contentassets/9b4df918cdd640b7a92a71588ff209b5/3-francesco-zanetti.pdf\">1&#x5e74;&#x524d;&#x306e;&#x30b9;&#x30e9;&#x30a4;&#x30c9;&#x8cc7;&#x6599;</a>）。原題は「State Dependence of Monetary Policy During Global Supply Chain Disruptions」で、著者はXiwen Bai（清華大）、Jesús Fernández-Villaverde（ペンシルベニア大）、Yiliang Li（対外経済貿易大）、Francesco Zanetti（オックスフォード大）<a href=\"#f-70ae9349\" id=\"fn-70ae9349\" name=\"fn-70ae9349\" title=\"[https://himaginary.hatenablog.com/entry/20240219/Causal_Effects_of_Global_Supply_Chain_Disruptions_on_Macroeconomic_Outcomes:title]で紹介した論文の著者に同じ。\">*1</a>。</p>\n\n    <blockquote>\n        <p>We study how global supply chain disruptions affect monetary policy transmission. Post-pandemic evidence indicates surging transportation costs, goods-market imbalances, and rising prices. We develop a model in which logistical bottlenecks (upstream slack coexisting with downstream shortages) steepen the aggregate supply curve. This convexity amplifies price responses to monetary policy while dampening output effects. Threshold VAR and Local Projection estimates are consistent with this mechanism: during disruptions, contractionary policy reduces prices more at smaller output cost, easing the stabilization trade-off.<br />\n（拙訳）<br />\n我々は、世界の供給網の混乱がどのように金融政策の伝達に影響するかを調べた。コロナ禍後の実証分析は、輸送費用の上昇、財市場の不均衡、および物価の上昇を示している。我々は、物流のボトルネック（上流の余力が下流の不足と共存している状態）が総供給曲線の傾きを大きくするモデルを構築した。この凸性は、金融政策への物価の反応を増幅させるとともに生産への影響を弱める。閾値VARとローカル予測の推計はこのメカニズムと整合的である。即ち、混乱においては、緊縮的な政策は生産へのコストがより小さい中で物価を下げ、安定化のトレードオフ<a href=\"#f-ffaad3ae\" id=\"fn-ffaad3ae\" name=\"fn-ffaad3ae\" title=\"ここで言う安定化のトレードオフは、本文の表現を借りれば「stabilization trade-off of monetary policy between controlling price increases and minimizing output losses」。\">*2</a>を緩和する。</p>\n\n    </blockquote>\n<p>ここで念頭にあるのはコロナ禍後の供給制約であるが、今回のイラン戦争における原油の供給制約にも当てはまる話なのか、それとも<a href=\"https://himaginary.hatenablog.com/entry/20260603/Commodity_Price_Shocks\">&#x5546;&#x54c1;&#x4fa1;&#x683c;&#x30b7;&#x30e7;&#x30c3;&#x30af;&#xff1f; &#x5546;&#x54c1;&#x306b;&#x5f71;&#x97ff;&#x3055;&#x308c;&#x308b;&#x7d4c;&#x6e08;&#x306b;&#x304a;&#x3051;&#x308b;&#x6700;&#x9069;&#x306a;&#x91d1;&#x878d;&#x3068;&#x70ba;&#x66ff;&#x306e;&#x67a0;&#x7d44;&#x307f; - himaginary&rsquo;s diary</a>で紹介した論文にあるように商品価格ショックについては資源輸入国においては賃金上昇への浸透を待った方が良いのか、はさらなる研究が必要そうである。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-70ae9349\" id=\"f-70ae9349\" name=\"f-70ae9349\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\"><a href=\"https://himaginary.hatenablog.com/entry/20240219/Causal_Effects_of_Global_Supply_Chain_Disruptions_on_Macroeconomic_Outcomes\">&#x4e16;&#x754c;&#x306e;&#x4f9b;&#x7d66;&#x7db2;&#x306e;&#x6df7;&#x4e71;&#x304c;&#x30de;&#x30af;&#x30ed;&#x7d4c;&#x6e08;&#x306e;&#x5e30;&#x7d50;&#x306b;&#x3082;&#x305f;&#x3089;&#x3059;&#x56e0;&#x679c;&#x52b9;&#x679c;&#xff1a;&#x5b9f;&#x8a3c;&#x7d50;&#x679c;&#x3068;&#x7406;&#x8ad6; - himaginary&rsquo;s diary</a>で紹介した論文の著者に同じ。</span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-ffaad3ae\" id=\"f-ffaad3ae\" name=\"f-ffaad3ae\">*2</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">ここで言う安定化のトレードオフは、本文の表現を借りれば「stabilization trade-off of monetary policy between controlling price increases and minimizing output losses」。</span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "86ca35afbe7df030",
       "feed_id": "2ec7ee82ecf8",
       "feed_title": "マンションの間取りや価格を言いたい放題!",
@@ -1055,7 +1069,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "「物件はいいのに勿体ない…」実録！ ダメ大家のせいで入居者が決まらない物件たち",
+      "title": "「物件はいいのに勿体ない…」実録！ ダメ大家のせいで入居者が決まらない物件たち現役仲介の不動産芸人・せらっきょが明かす、内見者の気持ちが一瞬で冷める大家とは",
       "url": "https://www.rakumachi.jp/news/column/399593",
       "published": "2026-06-06T00:00:00+09:00",
       "fetched": "2026-06-06T11:42:09.278412+00:00",
@@ -2693,7 +2707,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "「無職同然」で公庫アタック、築古に2400万フルローン…「持たざる者」たちの融資奮闘記",
+      "title": "「無職同然」で公庫アタック、築古に2400万フルローン…「持たざる者」たちの融資奮闘記年収500万の20代が7000万新築アパートを購入するまで",
       "url": "https://www.rakumachi.jp/news/column/400067",
       "published": "2026-06-02T00:00:00+09:00",
       "fetched": "2026-06-02T10:52:55.126107+00:00",
@@ -11537,10 +11551,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-08T16:14:29.376622+00:00",
+  "last_updated": "2026-06-08T20:29:59.849450+00:00",
   "stats": {
-    "total": 824,
-    "fetched_just_now": 1317,
+    "total": 825,
+    "fetched_just_now": 1305,
     "feeds_success": 79,
     "feeds_failed": 0
   }

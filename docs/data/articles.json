@@ -1,6 +1,34 @@
 {
   "articles": [
     {
+      "id": "fd703546c2f00e3f",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】資産１億円で富裕層？ それ、もう昔の話らしい金持ちになりたいサラリーマンへ不動産投資家が贈るコラム",
+      "url": "https://www.rakumachi.jp/news/practical/399089",
+      "published": "2026-06-10T00:00:00+09:00",
+      "fetched": "2026-06-09T16:39:46.865064+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "リーマンまさゆき",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "6acfbb9640038a90",
+      "feed_id": "6c30fc2654fb",
+      "feed_title": "元官庁エコノミストのブログ",
+      "category": "金融・経済・投資",
+      "title": "序盤から圧倒的に打ち負けてソフトバンクに大敗",
+      "url": "http://economist.cocolog-nifty.com/blog/2026/06/post-93a6e5.html",
+      "published": "2026-06-09T13:00:00+00:00",
+      "fetched": "2026-06-09T16:39:49.911590+00:00",
+      "summary": "一 二 三 四 五 六 七 八 九 R H E 阪 神 0 0 0 0 2 1 0 1 0 4 6 1 ソフトB 2 1 2 1 4 0 0 0 x 10 13 0 【神】 才木、椎葉、門別、工藤 - 梅野、嶋村 【ソ】 大津、津森、伊藤、鈴木豪 - 海野 ソフトバンクに ボロ負け でした。 先発才木投手は3回まで毎回ホームランを浴びて5失点、後を継いだ椎葉投手も2回を投げて3発浴びて5失点、まったく試合になりませんでした。唯一のポイントは 立石選手と森下選手のホームラン だけで、空中戦では相手になりませんでした。どうでもいいことながら、阪神の場合、大量…",
+      "content_html": "<p><a href=\"https://hanshintigers.jp/game/score/table/table20260609.html\" style=\"font-style: normal;\" target=\"_blank\"><table class=\"s-b\" title=\"スコアボード\"><tr class=\"sb1\"><td class=\"sb1\"> </td><td class=\"sb2\">一</td><td class=\"sb2\">二</td><td class=\"sb2\">三</td><td class=\"sb2\">四</td><td class=\"sb2\">五</td><td class=\"sb2\">六</td><td class=\"sb2\">七</td><td class=\"sb2\">八</td><td class=\"sb2\">九</td><td class=\"sb3\"> </td><td class=\"sb4\">R</td><td class=\"sb4\">H</td><td class=\"sb2\">E</td></tr><tr class=\"sb2\"><td>阪　　神</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>0</td><td>1</td><td>0</td><td class=\"sb3\"> </td><td>4</td><td>6</td><td>1</td></tr><tr class=\"sb2\"><td>ソフトB</td><td>2</td><td>1</td><td>2</td><td>1</td><td>4</td><td>0</td><td>0</td><td>0</td><td>x</td><td class=\"sb3\"> </td><td>10</td><td>13</td><td>0</td></tr></table></a><br />【神】 才木、椎葉、門別、工藤 - 梅野、嶋村<br />【ソ】 大津、津森、伊藤、鈴木豪 - 海野</p><p>ソフトバンクに<span class=\"red\">ボロ負け</span>でした。<br />先発才木投手は3回まで毎回ホームランを浴びて5失点、後を継いだ椎葉投手も2回を投げて3発浴びて5失点、まったく試合になりませんでした。唯一のポイントは<span class=\"blue\">立石選手と森下選手のホームラン</span>だけで、空中戦では相手になりませんでした。どうでもいいことながら、阪神の場合、大量得点で大勝した翌日の試合は打てない、というジンクスがその昔にありましたが、明日のソフトバンク打線やいかに?</p><p>明日は、<br /><span class=\"tigers\">がんばれタイガース!</span></p>",
+      "author": "元官庁エコノミスト",
+      "source_type": "rss"
+    },
+    {
       "id": "b39fd6a9f15cafad",
       "feed_id": "2ec7ee82ecf8",
       "feed_title": "マンションの間取りや価格を言いたい放題!",
@@ -292,6 +320,34 @@
       "summary": "",
       "content_html": null,
       "author": "楽待編集部",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "b28039e4389847d3",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】「注意して風呂に入れ」は、高齢者だから舐められた！？鬼の北国モード、業者に一喝！",
+      "url": "https://www.rakumachi.jp/news/practical/400683",
+      "published": "2026-06-09T00:00:00+09:00",
+      "fetched": "2026-06-09T16:39:46.865076+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "北国の大家",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "3753203817ac2459",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】銀行担当者はどんな案件だと諦めるのか一発アウトの基準と時間差謝絶",
+      "url": "https://www.rakumachi.jp/news/practical/400603",
+      "published": "2026-06-09T00:00:00+09:00",
+      "fetched": "2026-06-09T16:39:46.865081+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "元地方銀行員大家",
       "source_type": "scrape_rakumachi"
     },
     {
@@ -3015,7 +3071,7 @@
       "feed_id": "c4e832423738",
       "feed_title": "楽待新聞 編集部記事",
       "category": "不動産",
-      "title": "「無職同然」で公庫アタック、築古に2400万フルローン…「持たざる者」たちの融資奮闘記",
+      "title": "「無職同然」で公庫アタック、築古に2400万フルローン…「持たざる者」たちの融資奮闘記年収500万の20代が7000万新築アパートを購入するまで",
       "url": "https://www.rakumachi.jp/news/column/400067",
       "published": "2026-06-02T00:00:00+09:00",
       "fetched": "2026-06-02T10:52:55.126107+00:00",
@@ -11465,26 +11521,12 @@
       "content_html": "<p>　晴れ。</p>\n<p>　米国民はオイルショックとは別の価格ショックに見舞われている。それは食料品価格ショックである。エネルギー価格が高騰し、フードサプライチェーンに悪影響をもたらしている。</p>\n<p>　<a href=\"https://www.economist.com/business/2026/05/10/america-faces-another-grocery-price-shock\" target=\"_blank\">https://www.economist.com/business/2026/05/10/america-faces-another-grocery-price-shock</a></p>",
       "author": "tennis575",
       "source_type": "rss"
-    },
-    {
-      "id": "c4686ffcb051e3a2",
-      "feed_id": "f8c882c05df3",
-      "feed_title": "himaginary’s diary",
-      "category": "金融・経済・投資",
-      "title": "誰が誰と結婚するのか？ 人種と階級の分離が果たす役割",
-      "url": "https://himaginary.hatenablog.com/entry/20260510/Who_Marries_Whom",
-      "published": "2026-05-10T14:59:00+00:00",
-      "fetched": "2026-05-10T23:02:16.535801+00:00",
-      "summary": "という NBER論文 をタイラー・コーエンが 紹介している （ ungated版 ）。原題は「Who Marries Whom? The Role of Segregation by Race and Class」で、著者はBenjamin Goldman（コーネル大）、Jamie Gracie（ハーバード大）、Sonya Porter（センサス局）。 以下はその要旨。 Americans rarely marry outside their race or class group, a pattern with well-documented impl…",
-      "content_html": "<p>という<a href=\"https://www.nber.org/papers/w35140\">NBER&#x8ad6;&#x6587;</a>をタイラー・コーエンが<a href=\"https://marginalrevolution.com/marginalrevolution/2026/05/sentences-to-ponder-138.html\">&#x7d39;&#x4ecb;&#x3057;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://benjamindgoldman.s3.us-east-2.amazonaws.com/papers/marriage_homophily/marriage_homophily.pdf\">ungated&#x7248;</a>）。原題は「Who Marries Whom? The Role of Segregation by Race and Class」で、著者はBenjamin Goldman（コーネル大）、Jamie Gracie（ハーバード大）、Sonya Porter（センサス局）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>Americans rarely marry outside their race or class group, a pattern with well-documented implications for inequality and intergenerational mobility. Limited exposure—or interactions with members of other groups—may partly explain these low intergroup marriage rates. We instrument for exposure using variation in childhood neighborhoods based on whether other race and class groups had more opposite-sex children of similar age. Exposure increases interclass (high- and low-parent-income) marriage but has no detectable effect on interracial (White and Black) marriage. A spatial marriage market model predicts that residential segregation—one of many forms of exposure—accounts for more than one third of marital sorting by class but less than 5% by race.<br />\n（拙訳）<br />\n米国人が自分の人種や階級の集団を超えて結婚することは稀であり、このパターンが格差と世代間の移動性にとって持つ意味合いは詳細に研究されている。エクスポージャー、ないし他の集団のメンバーとの相互交流が限られていることが、集団を超えた結婚率がこのように低いことを部分的に説明する可能性がある。我々は、他の人種と階級の似たような年齢の子供において異性の方が多かったか、に基づき、子供時代の近所のバラツキをエクスポージャーの操作変数に用いた<a href=\"#f-34ff8032\" id=\"fn-34ff8032\" name=\"fn-34ff8032\" title=\"本文では「We define the instrument based on childhood neighborhoods to avoid relying on variation in neighborhood composition that arises endogenously from individuals’ choices about where to live as adults. The intuition behind this instrument can be illustrated with a simple hypothetical: suppose a male child is born in a place where, by chance, nearby high-income families have more female than male children in the years around his birth. Because people often live near where they grew up, as an adult he will likely enter a marriage market with a higher proportion of females from high-income families. Hence, random variation in whether certain groups had more male or female children in a given year can generate lasting shocks to marriage market composition.」と説明している。\">*1</a>。エクスポージャーは階級間（両親が高所得と低所得）の結婚を増やすが、人種間（白人と黒人）の結婚には検知可能な影響を与えなかった。空間結婚市場モデルの予測によれば、多々あるエクスポージャーの形態の一つである居住の分離は階級の同類婚の1/3以上を説明するが、人種の同類婚は5%以下しか説明しない。</p>\n\n    </blockquote>\n<p>ちなみに<a href=\"https://himaginary.hatenablog.com/entry/20260309/The_Vietnam_War_and_Racial_Integration\">&#x30d9;&#x30c8;&#x30ca;&#x30e0;&#x6226;&#x4e89;&#x3068;&#x4eba;&#x7a2e;&#x7d71;&#x5408; - himaginary&rsquo;s diary</a>で紹介した論文では、ベトナム戦争での兵役が人種を超えた結婚のきっかけになった、という結果を示していた。階級間の結婚と格差との関係については<a href=\"https://himaginary.hatenablog.com/entry/20140224/Kevin_Drum_on_assortative_mating\">&#x3044;&#x3044;&#x3084;&#x3001;&#x30b7;&#x30f3;&#x30c7;&#x30ec;&#x30e9;&#x5a5a;&#x306e;&#x6e1b;&#x5c11;&#x306f;&#x6240;&#x5f97;&#x683c;&#x5dee;&#x62e1;&#x5927;&#x306b;&#x304a;&#x305d;&#x3089;&#x304f;&#x5927;&#x3057;&#x3066;&#x5bc4;&#x4e0e;&#x3057;&#x3066;&#x3044;&#x306a;&#x3044; - himaginary&rsquo;s diary</a>で紹介した研究も参照。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-34ff8032\" id=\"f-34ff8032\" name=\"f-34ff8032\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">本文では「We define the instrument based on childhood neighborhoods to avoid relying on variation in neighborhood composition that arises endogenously from individuals’ choices about where to live as adults. The intuition behind this instrument can be illustrated with a simple hypothetical: suppose a male child is born in a place where, by chance, nearby high-income families have more female than male children in the years around his birth. Because people often live near where they grew up, as an adult he will likely enter a marriage market with a higher proportion of females from high-income families. Hence, random variation in whether certain groups had more male or female children in a given year can generate lasting shocks to marriage market composition.」と説明している。</span></p>\n</div>",
-      "author": "himaginary",
-      "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-09T12:48:38.352680+00:00",
+  "last_updated": "2026-06-09T16:39:52.965590+00:00",
   "stats": {
-    "total": 820,
-    "fetched_just_now": 1311,
+    "total": 823,
+    "fetched_just_now": 1312,
     "feeds_success": 79,
     "feeds_failed": 0
   }

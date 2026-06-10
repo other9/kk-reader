@@ -1,6 +1,62 @@
 {
   "articles": [
     {
+      "id": "354915bdbd7f128d",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "なぜ宅建の資格を取ろうと思ったのか。難化する試験とこれから受験する方へ",
+      "url": "https://www.kenbiya.com/ar/cl/nao/4.html",
+      "published": "2026-06-11T00:00:00+09:00",
+      "fetched": "2026-06-10T22:17:53.628299+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "nao",
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "21aca01f3a39091b",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "信金マンに聞く！ 不動産融資の本音インタビュー【前編】信金が大型の不動産融資を嫌う構造的な理由とは？",
+      "url": "https://www.kenbiya.com/ar/ns/loan/other/10193.html",
+      "published": "2026-06-11T00:00:00+09:00",
+      "fetched": "2026-06-10T22:17:53.628309+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "c0979273b0dfc1ce",
+      "feed_id": "0604078e48ca",
+      "feed_title": "楽待 実践大家コラム",
+      "category": "不動産",
+      "title": "【実践大家コラム】軽トラは不動産投資家の相棒？手放して初めて気づいた軽トラ依存症",
+      "url": "https://www.rakumachi.jp/news/practical/398953",
+      "published": "2026-06-11T00:00:00+09:00",
+      "fetched": "2026-06-10T22:17:54.132656+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "戸田匠",
+      "source_type": "scrape_rakumachi"
+    },
+    {
+      "id": "4fcd30bb475b2442",
+      "feed_id": "2e7efdb141f2",
+      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
+      "category": "不動産",
+      "title": "首都圏中古マンション市場動向（2026年5月）｜価格高止まり局面に変化の兆候",
+      "url": "https://1manken.hatenablog.com/entry/2026/06/11/chuuko-mansion-shijou-monthly-report",
+      "published": "2026-06-10T20:47:16+00:00",
+      "fetched": "2026-06-10T22:17:53.556873+00:00",
+      "summary": "2026年5月の首都圏中古マンション市場を分析。73か月ぶりの単価下落、成約件数減少、都心3区の在庫増加から需給変化の兆候を読み解く。",
+      "content_html": "2026年5月の首都圏中古マンション市場を分析。73か月ぶりの単価下落、成約件数減少、都心3区の在庫増加から需給変化の兆候を読み解く。",
+      "author": "flats",
+      "source_type": "rss"
+    },
+    {
       "id": "447485e5924128d7",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -12,6 +68,20 @@
       "summary": "某助言会社が登場してる経済誌読んだけど、どう考えてもそれはヤバいだろう内容で驚愕してる。心配です。 — カツキタロウ@腑に落ちる資産運用の話 (@taroka) March 26, 2026 ※ 井村俊哉さん裏口上場の地盤ネット、100億円投資家テスタさんと玉里自動車学校が大株主に浮上して更に盛り上がる（2026/06/03） 新井村ファンド＝地盤ネット ファンドの受益者＝地盤ネットの株主 （注）地盤ネットは投資先ではなく、バークシャーと同様に箱として利用と推測 fundnoteの井村ファンドから地盤ネットの株主へ移れということか — マロン (@mar…",
       "content_html": "<br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">某助言会社が登場してる経済誌読んだけど、どう考えてもそれはヤバいだろう内容で驚愕してる。心配です。</p>— カツキタロウ@腑に落ちる資産運用の話 (@taroka) <a href=\"https://twitter.com/taroka/status/2037020021210440000?ref_src=twsrc%5Etfw\">March 26, 2026</a></blockquote><div class=\"amazon MediumImage\"><blockquote><div class=\"pictBox\"><a href=\"https://www.amazon.co.jp/dp/B0GQVMC698?psc=1&amp;tag=aaajn000-22+&amp;th=1&amp;linkCode=osi\" target=\"_blank\"><img alt=\"ForbesJAPAN 「規律ある投資」2026年5月号\" border=\"0\" class=\"pict\" hspace=\"5\" src=\"https://m.media-amazon.com/images/I/41WVGkFRkpL._SL160_.jpg\" /></a></div><div class=\"pictBox\"><b>※<a href=\"https://kabumatome.doorblog.jp/archives/66031733.html\" target=\"_blank\" title=\"\">井村俊哉さん裏口上場の地盤ネット、100億円投資家テスタさんと玉里自動車学校が大株主に浮上して更に盛り上がる（2026/06/03）</a></b></div></blockquote><br /></div></div><div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">新井村ファンド＝地盤ネット<br />ファンドの受益者＝地盤ネットの株主<br />（注）地盤ネットは投資先ではなく、バークシャーと同様に箱として利用と推測<br /><br />fundnoteの井村ファンドから地盤ネットの株主へ移れということか</p>— マロン (@maron_fine) <a href=\"https://twitter.com/maron_fine/status/2020788218552029231?ref_src=twsrc%5Etfw\">February 9, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">井村さんと地盤ネットの協議が決裂したら全て無に帰すの痺れる。</p>— こざま (@FAA_X64) <a href=\"https://twitter.com/FAA_X64/status/2023337418938872011?ref_src=twsrc%5Etfw\">February 16, 2026</a></blockquote><br /></div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">地盤ネット、Kaihouとのやつ中止の可能性にまで触れてるけど検討状況芳しくないのか？ <a href=\"https://t.co/HxBGHudJUE\">pic.twitter.com/HxBGHudJUE</a></p>— 空き缶 (@akikankeri) <a href=\"https://x.com/akikankeri/status/2064629198107607209?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/7/f73500ef.png\" target=\"_blank\" title=\"a30-01\"><img alt=\"a30-01\" border=\"0\" class=\"pict\" height=\"340\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/7/f73500ef-s.png\" width=\"480\" /></a><div><a href=\"https://jiban-holdings.jp/ir/news.html\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://jiban-holdings.jp/</span></a></div><div><b>「Kaihou社との協議を慎重に進めており、新規事業の具体的な内容等については、引き続き検討中」<br />「当該事業については、その実施を前提とするものではなく、実施しないとの判断も含めて検討」</b></div><div><b>「具体的な方針の決定および必要な体制の整備には、相応の検討期間を要するものと認識」</b></div></blockquote></div><br /><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">まだ何も決まってないのに、日本のバークシャー宣言したの、芸人人生のハイライトすぎる。 <a href=\"https://t.co/nDbN70Yoql\">pic.twitter.com/nDbN70Yoql</a></p>— アルファるふぁ (@aru_pha) <a href=\"https://x.com/aru_pha/status/2064622511216791893?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/6/4/640013cd.png\" target=\"_blank\" title=\"a30-03\"><img alt=\"a30-03\" border=\"0\" class=\"pict\" height=\"315\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/6/4/640013cd-s.png\" width=\"480\" /></a><br /><div><b>「本日現在、投資対象、投資規模、投資手法、実施時期、収益計画ならびに資金調達の有無およびその内容を含め、当該事業に関して具体的に決定した事実はございません」</b></div><div><b>「今後の検討の進展により変更または中止となる可能性」</b></div></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">fundnoteとも揉めてたし、こういうこと続くのは…</p>— 空き缶 (@akikankeri) <a href=\"https://x.com/akikankeri/status/2064630723198533683?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><br /><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">地盤ネットさん <a href=\"https://t.co/PzBz2Qy0qP\">pic.twitter.com/PzBz2Qy0qP</a></p>— miseitadameyo (@xtestarossa) <a href=\"https://x.com/xtestarossa/status/2064633871841599657?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><blockquote> <img alt=\"a13\" border=\"0\" class=\"pict\" height=\"710\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/4/e/4ee23b58.jpg\" width=\"457\" /><br /><a href=\"https://www.amazon.co.jp/dp/B002DELN6Q?psc=1&amp;tag=aaajn000-22+&amp;th=1&amp;linkCode=osi\" target=\"_blank\"><b>賭博黙示録カイジ 全13巻</b></a><br /></blockquote><br /></div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">実施しないとの判断も含めて検討しております。<br /><br />そんな事言うもんなの？　不安になっちゃうじゃん</p>— いんべ (@investdiceaway) <a href=\"https://x.com/investdiceaway/status/2064615975602078077?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><div><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">和製バークシャーが3割引シール貼ってる！！！<br />うおー！！！買いだあああ（買わない） <a href=\"https://t.co/6Zna6osB7p\">pic.twitter.com/6Zna6osB7p</a></p>— スッポコニャーゴ𝕏 (@JL7Y5_1C) <a href=\"https://x.com/JL7Y5_1C/status/2064682307483845094?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><blockquote><img alt=\"a12\" border=\"0\" class=\"pict\" height=\"542\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/2/f2d62789.jpg\" width=\"394\" /><br /><b>※夜間取引市場でストップ安</b></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">地盤また沈下してるやん</p>— あらん🎰 (@aran_mk2) <a href=\"https://x.com/aran_mk2/status/2064630093897687338?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">こんな2桁の価値しかない株買ってるやつwww</p>— チャン・Z・イーサ (@nanakabukabu) <a href=\"https://x.com/nanakabukabu/status/2064624058663342205?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">買ってた奴は集団コントにでも参加してたのか？　人生の最後にひと笑い起こせて良かったな笑</p>— アルファるふぁ (@aru_pha) <a href=\"https://x.com/aru_pha/status/2064631065608912976?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">特濃カルピスが一滴も入ってない水を高値で買った人達ははたして助かるのでしょうか</p>— あろれの抜け殻 (@alorest_b) <a href=\"https://x.com/alorest_b/status/2064628957912420599?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">東証で最も意味不明な値付けされてるのが地盤ネット<br />割高なんてレベルじゃない</p>— チャン・Z・イーサ (@nanakabukabu) <a href=\"https://x.com/nanakabukabu/status/2064664164279455968?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">地盤は問い合わせも多いし「まだ時間かかりますよ」って話だと思うんだけど、停止もありうる的な文言は必要だったんかね。</p>— 炭鉱のマネツイ (@Money_tweet1118) <a href=\"https://x.com/Money_tweet1118/status/2064654817428230622?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">箱化失敗エンドもちょっと見てみたい</p>— とおる (@QWERorWASD) <a href=\"https://x.com/QWERorWASD/status/2064635277596131429?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">この瞬間にカイホウと関係なく、株価上昇したから地盤が増資したら最高に面白い。</p>— 丸順みかん🍊 (@bleeAFDYMCcA0WE) <a href=\"https://x.com/bleeAFDYMCcA0WE/status/2064624425509814592?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">中止になったら株価100円台定着の地震が起きる度に湧き上がる銘柄に逆戻りだな</p>— あろれの抜け殻 (@alorest_b) <a href=\"https://x.com/alorest_b/status/2064624107795382767?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">某ファンド、こっから実は売り抜け→提携解除で伝説作ってほしい</p>— Dr.イチモツ (@Dr_ichimotsu) <a href=\"https://x.com/Dr_ichimotsu/status/2064644538950713503?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">お笑い芸人引退したの気が付いてなくて、俺たち笑かそうとしてるのかもしれんぞ。</p>— アルファるふぁ (@aru_pha) <a href=\"https://x.com/aru_pha/status/2064622810954428629?ref_src=twsrc%5Etfw\">June 10, 2026</a></blockquote><br /><blockquote><div><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/8/1/81ae98e9.png\" target=\"_blank\" title=\"a15\"><img alt=\"a15\" border=\"0\" class=\"pict\" height=\"304\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/8/1/81ae98e9-s.png\" width=\"480\" /></a></div><div><a href=\"https://kabutan.jp/stock/chart?code=6072\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://kabutan.jp/stock/chart?code=6072</span></a></div></blockquote><br /></div></div>",
       "author": "masorira",
+      "source_type": "rss"
+    },
+    {
+      "id": "b32729cb93faef99",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "マクロ経済と量的緩和の財政的帰結",
+      "url": "https://himaginary.hatenablog.com/entry/20260610/Macroeconomic_and_Fiscal_Consequences_of_Quantitative_Easing",
+      "published": "2026-06-10T14:59:00+00:00",
+      "fetched": "2026-06-10T22:17:57.110075+00:00",
+      "summary": "というNBER論文が 上がっている （ 昨年8月時点のIMFのWP 、 4月開催のNBERコンファレンス *1 に基づく バージョン ）。原題は「Macroeconomic and Fiscal Consequences of Quantitative Easing」で、著者はTobias Adrian、Christopher Erceg、Marcin Kolasa、Jesper Lindé、Pawel Zabczyk（いずれもIMF）。 以下はその要旨。 Quantitative easing (QE) has been criticized for…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35297\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://www.imf.org/en/publications/wp/issues/2025/08/08/macroeconomic-and-fiscal-consequences-of-quantitative-easing-569267\">&#x6628;&#x5e74;8&#x6708;&#x6642;&#x70b9;&#x306e;IMF&#x306e;WP</a>、<a href=\"https://www.nber.org/conferences/41st-annual-conference-macroeconomics-2026\">4&#x6708;&#x958b;&#x50ac;&#x306e;NBER&#x30b3;&#x30f3;&#x30d5;&#x30a1;&#x30ec;&#x30f3;&#x30b9;</a><a href=\"#f-04c0cbe3\" id=\"fn-04c0cbe3\" name=\"fn-04c0cbe3\" title=\"このサイトにも発表版やスライド資料へのリンクがある。\">*1</a>に基づく<a href=\"https://www.nber.org/books-and-chapters/nber-macroeconomics-annual-2026-volume-41/macroeconomic-and-fiscal-consequences-quantitative-easing\">&#x30d0;&#x30fc;&#x30b8;&#x30e7;&#x30f3;</a>）。原題は「Macroeconomic and Fiscal Consequences of Quantitative Easing」で、著者はTobias Adrian、Christopher Erceg、Marcin Kolasa、Jesper Lindé、Pawel Zabczyk（いずれもIMF）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>Quantitative easing (QE) has been criticized for helping fuel the post-COVID inflation boom and causing large central bank losses. In this paper, we argue that QE should be evaluated mainly on its ability to achieve core macro-objectives as well for its effects on the consolidated fiscal position of the government and central bank, although central bank losses can matter to the extent that they may weaken central bank credibility. Using a DSGE model with segmented asset markets, we show how QE can provide a sizeable boost to output and inflation in a deep liquidity trap and can reduce public debt substantially. This contrasts to the rise in public debt that occurs under fiscal expansion and makes QE an attractive tool in a high debt environment. There is more reason for caution in using QE in a \"shallow\" liquidity trap in which the notional interest rate is only slightly negative: QE runs more risk of causing the economy to overheat, especially if forward guidance has a strong element of commitment, and is more likely to generate sizeable central bank losses. Some refinements in strategy, including the use of escape clauses, can help mitigate overheating risks.<br />\n（拙訳）<br />\n量的緩和（QE）は、コロナ禍後のインフレ高騰を加速させる一助となり、また中銀に大きな損失をもたらした、ということで批判されてきた。本稿で我々は、QEは主として、主要なマクロ経済的な目的を達成する能力、ならびに、政府と中銀の統合的な財政ポジションへの影響で評価されるべきである、と論じる。ただし中銀の損失は、中銀の信認を弱める程度において問題となり得る。部門別資産市場を備えたDSGEモデルを用いて我々は、QEがどのように深刻な流動性の罠において生産とインフレを大きく押し上げ、公的債務を顕著に減らし得るかを示す。これは、財政拡大において生じる公的債務の増加とは対照的であり、高債務環境においてQEを魅力的なツールとする。名目金利が僅かにマイナスであるに過ぎない「浅い」流動性の罠でQEを用いることに警戒すべき理由は大いにある。QEは経済を過熱させるリスクが大きくなるのである。特にフォワードガイダンスでのコミットメントの要素が強い場合、および中銀の大きな損失を招く可能性が高い場合はそうである。過熱リスクは、例外条項など幾つかの戦略の洗練化により減らすことができる。</p>\n\n    </blockquote>\n<p>以下は財政拡大と対照した結果を示す本文の一節。</p>\n\n    <blockquote>\n        <p>These favorable fiscal implications make QE an attractive tool for providing stimulus in an environment of high public debt. To underscore this, we use our model to compare the effects of QE to an expansion of government spending that is scaled to imply the same path for output. Strikingly, while a 10 percent of GDP central bank asset purchase program reduces the debt-to-GDP ratio about 7 percent after thirty quarters, the government spending hike raises debt by 3 percent– a whopping 10 percent swing. As we show, a rise in government spending not only has a large direct effect in boosting government debt, but also generates considerably smaller revenue (even though the output effects are identical by construction). The smaller revenue effects mainly reflect that the government spending boost tends to raise labor supply, which mutes the effect on real wages and hence on taxable labor earnings, leaves private consumption and hence sales tax revenue largely unchanged, and does not decrease the cost of servicing debt as much as QE given smaller effects on inflation and bond prices.<br />\nThese arguments should not be construed as meaning that QE alone should be deployed to fight a recession without the support of fiscal expansion. In practice, there are probably some limits to how much the central bank can depress term premiums if already low, and central banks may be legitimately concerned about the balance sheet risks– or other political economy risks– that they might incur through large balance sheet expansion. Even so, our results do make a strong case for using QE aggressively in a deep liquidity trap at least as an important component of the overall policy response.<br />\n（拙訳）<br />\nこうしたQEの好ましい財政的含意は、公的債務が多い環境において刺激策を提供する上でQEを魅力的なツールとする。そのことを明らかにするために我々は、モデルを用いて、QEの効果を、生産が同じ経路を辿るように規模を設定した政府支出の拡大と比較した。驚くべきことに、中銀によるGDPの1割の資産購入プログラムが債務GDP比率を30四半期後に約7%減らしたのに対し、政府支出の増加は債務を3%増やす。10%もの大きな振れ幅である。我々が示すように、政府支出の増加は、政府債務を押し上げる大きな直接的な効果を持つだけでなく、もたらす歳入が（生産への影響は設計により同じであるにもかかわらず）顕著に小さい。歳入が小さくなる効果は主として、政府支出には労働供給を増やす傾向があり、それによって実質賃金、ひいては課税可能な労働収入への影響を抑制し、民間消費、ひいては売上税収入を概ね変えず、また、インフレと債券価格への影響が小さいことで債務サービス費用をQEほど減らさない、ということを反映している。<br />\n以上の議論は、財政拡大の支援抜きでQEだけで不況と闘うべき、というように解釈されるべきではない。実際には、タームプレミアムが既に小さい場合に中銀がそれをどれだけ低められるかにはおそらく何らかの限界があり、また、大規模なバランスシート拡大がもたらすかもしれないバランスシートリスク――ないし他の政治経済的リスク――を中銀が懸念することは正当である。とはいえ、深刻な流動性の罠における少なくとも全体的な政策対応の重要な要素としてQEを積極的に用いる強力な理論的根拠を我々の結果は確かに提供する。</p>\n\n    </blockquote>\n<p>続けて「浅い」流動性の罠について以下のように記述している。</p>\n\n    <blockquote>\n        <p>We next analyze QE in a “shallow” liquidity trap, where interest rates are pinned at zero mainly because inflation and inflation expectations are running persistently below target, even though output is only modestly below potential. A number of countries faced such conditions before the pandemic. In particular, QE was used by several central banks due to their concern that inflation would otherwise run below target for several years, posing downside risks to inflation expectations that could undermine the public’s confidence in the central bank’s ability to achieve its inflation target. As in a deep trap, QE was typically accompanied by forward guidance with some aspects of commitment: central banks indicated that they would amplify the stimulus from QE by in effect promising not to lift rates until sometime after asset purchases had ended.<br />\n（拙訳）<br />\n次に我々は「浅い」流動性の罠におけるQEを分析する。そこでは金利はゼロに固定されているが、その主な理由は、生産が潜在力を小幅に下回っているに過ぎないにもかかわらず、インフレ予想が継続的に目標を下回っているためである。コロナ禍前には多くの国がそうした状況にあった。特に、幾つかの中銀は、QEを用いないとインフレが数年に亘って目標を下回って推移し、中銀のインフレ目標達成能力への人々の信頼を傷つけかねないインフレ予想のダウンサイドリスクをもたらす恐れがある、ということでQEを用いた。深刻な罠におけるのと同様、QEは通常フォワードガイダンスと共に用いられ、コミットメントの側面があった。即ち中銀は、資産購入終了後しばらくは利上げをしないと事実上約束することでQEによる刺激策を増幅させる意図を示した。</p>\n\n    </blockquote>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-04c0cbe3\" id=\"f-04c0cbe3\" name=\"f-04c0cbe3\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">このサイトにも発表版やスライド資料へのリンクがある。</span></p>\n</div>",
+      "author": "himaginary",
       "source_type": "rss"
     },
     {
@@ -11523,11 +11593,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-10T18:38:53.643502+00:00",
+  "last_updated": "2026-06-10T22:17:58.251390+00:00",
   "stats": {
-    "total": 823,
-    "fetched_just_now": 1311,
-    "feeds_success": 79,
-    "feeds_failed": 0
+    "total": 828,
+    "fetched_just_now": 1299,
+    "feeds_success": 78,
+    "feeds_failed": 1
   }
 }

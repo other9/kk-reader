@@ -1,6 +1,34 @@
 {
   "articles": [
     {
+      "id": "7d341da78b337788",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "「15坪の賃貸併用住宅」は都心住宅市場の救世主になるか。『狭小地×家賃収入』の現実味",
+      "url": "https://www.kenbiya.com/ar/ns/buy_sell/property_choose/10223.html",
+      "published": "2026-06-13T00:00:00+09:00",
+      "fetched": "2026-06-12T21:58:37.533697+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "797281864d4c2325",
+      "feed_id": "2e7efdb141f2",
+      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
+      "category": "不動産",
+      "title": "国交省は「定期」と言うけれど──。データで見る「羽田空港飛行コースHP」メンテ状況の記録",
+      "url": "https://1manken.hatenablog.com/entry/2024/08/17/Ntrack",
+      "published": "2026-06-12T20:00:00+00:00",
+      "fetched": "2026-06-12T21:58:37.299633+00:00",
+      "summary": "羽田飛行コースHPのメンテ実態を長期蓄積データで検証。当局の「定期」という説明に対し、深夜の作業実態や年度別の変動を客観的な数値で整理・可視化した。",
+      "content_html": "羽田飛行コースHPのメンテ実態を長期蓄積データで検証。当局の「定期」という説明に対し、深夜の作業実態や年度別の変動を客観的な数値で整理・可視化した。",
+      "author": "flats",
+      "source_type": "rss"
+    },
+    {
       "id": "e553035fb0e788de",
       "feed_id": "6c30fc2654fb",
       "feed_title": "元官庁エコノミストのブログ",
@@ -11257,11 +11285,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-12T18:18:00.656380+00:00",
+  "last_updated": "2026-06-12T21:58:41.662808+00:00",
   "stats": {
-    "total": 804,
-    "fetched_just_now": 902,
-    "feeds_success": 76,
-    "feeds_failed": 3
+    "total": 806,
+    "fetched_just_now": 869,
+    "feeds_success": 71,
+    "feeds_failed": 8
   }
 }

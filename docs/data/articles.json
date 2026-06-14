@@ -1,6 +1,34 @@
 {
   "articles": [
     {
+      "id": "2edc4f7f827b9538",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "内見即決で竣工前にほぼ満室！RC造＋木造でコストを抑えて全7戸を新築。居場所を作った敷地内空間で大きく差別化",
+      "url": "https://www.kenbiya.com/ar/ns/for_rent/tenant/10229.html",
+      "published": "2026-06-15T00:00:00+09:00",
+      "fetched": "2026-06-14T21:24:08.786854+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
+      "id": "938e072c3ab226e4",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "賃金水準の地域ごとのバラつきで国の最低賃金の影響を識別できるか？",
+      "url": "https://himaginary.hatenablog.com/entry/20260614/Does_Regional_Variation_in_Wage_Levels_Identify_the_Effects_of_a_National_Minimum_Wage",
+      "published": "2026-06-14T14:59:00+00:00",
+      "fetched": "2026-06-14T21:24:12.093697+00:00",
+      "summary": "というNBER論文が 上がっている （ ungated版 ）。原題は「Does Regional Variation in Wage Levels Identify the Effects of a National Minimum Wage?」で、著者はDaniel Haanwinckel（UCLA）。 以下はその要旨。 This paper asks whether regional wage differences can identify the effects of a national minimum wage. I study two co…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35298\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://arxiv.org/abs/2307.01284\">ungated&#x7248;</a>）。原題は「Does Regional Variation in Wage Levels Identify the Effects of a National Minimum Wage?」で、著者はDaniel Haanwinckel（UCLA）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>This paper asks whether regional wage differences can identify the effects of a national minimum wage. I study two common exposure-based approaches: effective-minimum-wage designs, which compare the minimum wage to contemporaneous local wages, and fraction-affected/gap designs, which measure pre-reform exposure to the new minimum. Using theory, simulations, and evidence from Brazil, I show when these approaches can mislead and how their performance depends on specification choices. The results lead to practical recommendations for applied researchers, including when to avoid these designs, how to test their assumptions, which specifications are more reliable, and how similar concerns may apply to other settings.<br />\n（拙訳）<br />\n本稿は、地域ごとの賃金の違いで国の最低賃金の影響を識別できるかどうかを問うた。私は2つの一般的な影響ベースの手法を調べた。最低賃金を同時期の地域賃金と比較する実効最低賃金の研究手法と、新たな最低賃金の改革前の賃金への影響度を測定する部分的影響／差の研究手法である。理論、シミュレーション、ならびにブラジルでの実証結果を用いて私は、どのような場合にこれらの手法が誤った方向へ導くか、および、これらの手法のパフォーマンスがどのように仕様の選択に依存するかを示した。この結果から、どのような場合にこれらの研究手法を避けるべきか、それらの前提をどのように検証すべきか、どの仕様がより信頼できるか、および、同様の懸念が他の状況にどのように適用できるか、といった応用研究者に対する実務的な提案がもたらされる。</p>\n\n    </blockquote>\n<p>最低賃金が州や県レベルで決まっている場合は、有名なカード＝クルーガーの研究のようにそれを利用して賃金への影響を研究できるが、国レベルで決まっている場合は、その最低賃金が、賃金のより低い地域でより制約的であろう、という考えに基づいて研究することになる。論文で俎上に載せた2つの手法はいずれもその考えを実装するためにパネル回帰を地域レベルで行うものであり、「実効最低賃金の研究手法」では処置の強度を最低賃金と地域賃金水準との差として定義する。一方、「部分的影響／差の研究手法」では、改革前の賃金水準ベースで構築された処置変数を用いて差の差スタイルの回帰を行うとの由。</p>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "2f5b7ef25fc78b39",
       "feed_id": "6c30fc2654fb",
       "feed_title": "元官庁エコノミストのブログ",
@@ -10669,11 +10697,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-14T19:53:06.367952+00:00",
+  "last_updated": "2026-06-14T21:24:13.752347+00:00",
   "stats": {
-    "total": 762,
-    "fetched_just_now": 908,
-    "feeds_success": 76,
-    "feeds_failed": 0
+    "total": 764,
+    "fetched_just_now": 899,
+    "feeds_success": 74,
+    "feeds_failed": 2
   }
 }

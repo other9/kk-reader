@@ -10683,11 +10683,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-14T15:55:19.239747+00:00",
+  "last_updated": "2026-06-14T17:40:36.711375+00:00",
   "stats": {
     "total": 763,
-    "fetched_just_now": 906,
-    "feeds_success": 76,
-    "feeds_failed": 0
+    "fetched_just_now": 898,
+    "feeds_success": 73,
+    "feeds_failed": 3
   }
 }

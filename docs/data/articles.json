@@ -15,6 +15,20 @@
       "source_type": "scrape_kenbiya"
     },
     {
+      "id": "a328f164bb0519eb",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "頭金2割の現実！自己資金が枯渇する意味を6年目にしてやっと理解した",
+      "url": "https://www.kenbiya.com/ar/cl/suzu/24.html",
+      "published": "2026-06-15T00:00:00+09:00",
+      "fetched": "2026-06-14T23:22:49.567359+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": "suzu",
+      "source_type": "scrape_kenbiya"
+    },
+    {
       "id": "938e072c3ab226e4",
       "feed_id": "f8c882c05df3",
       "feed_title": "himaginary’s diary",
@@ -10697,11 +10711,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-14T21:24:13.752347+00:00",
+  "last_updated": "2026-06-14T23:22:53.707763+00:00",
   "stats": {
-    "total": 764,
-    "fetched_just_now": 899,
-    "feeds_success": 74,
-    "feeds_failed": 2
+    "total": 765,
+    "fetched_just_now": 908,
+    "feeds_success": 76,
+    "feeds_failed": 0
   }
 }

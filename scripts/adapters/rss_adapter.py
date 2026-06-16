@@ -41,13 +41,17 @@ def now_iso() -> str:
 
 
 def fetch_bytes_via_worker(
-    url: str, timeout: int = 15, retries: int = 2, retry_delay: float = 1.5
+    url: str, timeout: int = 15, retries: int = 2, retry_delay: float = 1.5,
+    user_agent: Optional[str] = None,
 ) -> Tuple[Optional[bytes], Optional[str]]:
     """Cloudflare Worker /fetch 経由で生レスポンスを取得し bytes で返す。
 
     Worker は origin の body を decode 済みの文字列(JSON の "html" フィールド)で
     返すため、feedparser / parse_with_recovery に渡せるよう UTF-8 bytes に再エンコード
     する(RSS は UTF-8 前提)。scrape_base._fetch_html_via_worker と同じ契約。
+
+    user_agent を渡すと Worker /fetch の `ua` クエリ引数で origin への
+    User-Agent を上書きする(update-019: 楽待 Bot Management 対策の feed-reader UA)。
 
     Returns: (content_bytes, error_msg)
     """
@@ -57,6 +61,8 @@ def fetch_bytes_via_worker(
         return None, "worker not configured (WORKER_TOKEN missing)"
 
     proxy_url = f"{WORKER_BASE_URL}/fetch?url={quote(url, safe='')}"
+    if user_agent:
+        proxy_url += f"&ua={quote(user_agent, safe='')}"
     last_err: Optional[str] = None
 
     for attempt in range(retries + 1):
@@ -181,8 +187,14 @@ class RSSAdapter(SourceAdapter):
         # via_worker:true のフィードは Cloudflare Worker /fetch 経由で取得する。
         # (update-019) 楽待のように Actions IP を WAF で弾くサイト用。条件付き GET
         # (etag/last-modified)は Worker proxy では使えないため毎回フル取得になる。
+        # feed 単位の User-Agent 上書き。楽待のように datacenter IP × ブラウザ詐称UA
+        # を Bot Management で弾くサイト向けに、正直な feed-reader UA を指定できる。
+        ua = feed.get("user_agent") or self.user_agent
+
         if feed.get("via_worker"):
-            content, err = fetch_bytes_via_worker(url, timeout=self.timeout)
+            content, err = fetch_bytes_via_worker(
+                url, timeout=self.timeout, user_agent=feed.get("user_agent")
+            )
             if content is None:
                 meta_update["error_count"] = feed.get("error_count", 0) + 1
                 meta_update["last_error"] = err or "via worker: fetch failed"
@@ -190,7 +202,7 @@ class RSSAdapter(SourceAdapter):
         else:
             # 条件付きGET用ヘッダー
             headers = {
-                "User-Agent": self.user_agent,
+                "User-Agent": ua,
                 "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*;q=0.8",
                 "Accept-Language": "ja,en-US;q=0.7,en;q=0.3",
             }

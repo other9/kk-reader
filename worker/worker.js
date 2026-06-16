@@ -423,11 +423,19 @@ async function handleFetch(request, env, origin) {
     return jsonResponse({ error: "invalid scheme" }, 400, origin);
   }
 
+  // 任意: ?ua= で origin への User-Agent を上書き(update-019)。
+  // 楽待のように datacenter IP × ブラウザ詐称UA を Bot Management で弾くサイト向けに、
+  // 正直な feed-reader UA(Feedly 等)を送れるようにする。未指定なら従来の偽装UA。
+  const uaOverride = url.searchParams.get("ua");
+  const fetchHeaders = uaOverride
+    ? { ...PROXY_FETCH_HEADERS, "User-Agent": uaOverride }
+    : PROXY_FETCH_HEADERS;
+
   const fetchedAt = new Date().toISOString();
   let r;
   try {
     r = await fetch(target, {
-      headers: PROXY_FETCH_HEADERS,
+      headers: fetchHeaders,
       redirect: "follow",
     });
   } catch (e) {

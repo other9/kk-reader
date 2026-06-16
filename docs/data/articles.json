@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "7b0829fea031cd80",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "不動産投資家のための「減価償却による節税」の考察【不動産投資の税務基礎シリーズ34】",
+      "url": "https://www.kenbiya.com/ar/ns/tax/tax_basixs/10231.html",
+      "published": "2026-06-17T00:00:00+09:00",
+      "fetched": "2026-06-16T21:16:02.385476+00:00",
+      "summary": "",
+      "content_html": null,
+      "author": null,
+      "source_type": "scrape_kenbiya"
+    },
+    {
       "id": "1fee41fd8ffa4f7a",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -10445,11 +10459,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-16T17:18:31.287185+00:00",
+  "last_updated": "2026-06-16T21:16:22.819803+00:00",
   "stats": {
-    "total": 746,
-    "fetched_just_now": 911,
-    "feeds_success": 76,
-    "feeds_failed": 0
+    "total": 747,
+    "fetched_just_now": 905,
+    "feeds_success": 69,
+    "feeds_failed": 7
   }
 }

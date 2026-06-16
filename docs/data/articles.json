@@ -10431,11 +10431,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-16T10:42:06.877871+00:00",
+  "last_updated": "2026-06-16T10:42:53.533800+00:00",
   "stats": {
     "total": 745,
-    "fetched_just_now": 913,
-    "feeds_success": 76,
-    "feeds_failed": 2
+    "fetched_just_now": 903,
+    "feeds_success": 69,
+    "feeds_failed": 9
   }
 }

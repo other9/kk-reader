@@ -2,7 +2,44 @@
 
 Claude Code がこのリポジトリを開いたときに自動で読み込む設定ファイル。
 
-最終更新: 2026-05-24
+最終更新: 2026-06-16（楽待をネイティブRSS化→ただし WAF で到達不可のため無効化保留）
+
+---
+
+## 楽待(rakumachi.jp)の取得状況（2026-06-16）
+
+**現状: 2フィードとも `active=false`（無効化・保留）。kenbiya / cfajapan は正常。**
+
+経緯:
+- 楽待は元々スクレイピング（`scrape_rakumachi` + `via_worker`）で取得していたが、
+  2026-06-11 頃に Cloudflare Bot Management が強化され、kk-sync Worker 経由
+  （CF→CF）の `/fetch` が `upstream HTTP 403` で全滅 → error_count=10 で自動無効化。
+- 楽待は現在ネイティブ RSS を提供しているため `scrape_rakumachi` → `rss` へ移行:
+  - 楽待 実践大家コラム → `https://www.rakumachi.jp/news/practical/feed`
+  - 楽待新聞 編集部記事 → `https://www.rakumachi.jp/news/column/feed`
+  - 楽待新聞 連載コラム → 綺麗な RSS が無い（`/news/series/feed` は 404）ため**購読削除**
+- しかし検証の結果、**楽待は UA ではなくデータセンターIPでブロック**していると判明:
+
+  | 経路 × UA | 結果 |
+  |---|---|
+  | Actions直 × ブラウザ詐称UA | HTTP 403 |
+  | Actions直 × Feedly UA | HTTP 403 |
+  | Worker × ブラウザ詐称UA | upstream HTTP 403 |
+  | 住宅IP（ローカル）× 任意 | 200 ✅ |
+
+  Actions直 × Feedly UA でも 403 のため、正直な feed-reader UA でもデータセンターIPは
+  弾かれる。楽待は Feedly 等の公開IPレンジを allowlist していると推定。無料基盤
+  （Azure / Cloudflare）からは到達不可。
+
+実装済み（基盤として維持、将来 residential プロキシ導入時に再開可能）:
+- RSS アダプタの `via_worker` 対応（`fetch_bytes_via_worker`）
+- RSS/Worker の feed-reader UA 上書き機構（`feed.user_agent` / Worker `/fetch?ua=`）
+
+再開する場合: 住宅IP相当の residential プロキシ経由で取得する仕組みが別途必要。
+feeds.json の楽待2フィードを `active=true` に戻し、プロキシ経路を実装する。
+
+注: kk-sync Worker の更新版（`?ua=` 対応）は **CLOUDFLARE_API_TOKEN に KV write 権限が
+無く `wrangler deploy` 不可**（code 10023）。デプロイには KV write 権限付与が必要。
 
 ---
 
@@ -213,4 +250,5 @@ ruff check . && pytest tests/ --tb=short
 - [ ] HTMLRewriter チャンク分割問題の根本対処（update-016候補）
 - [ ] 複数デバイス間同期の動作確認（SyncClient の pull/push フロー）
 - [ ] 非RSSソース対応（メール、スクレイピング等のアダプター追加）
+- [ ] 楽待の取得再開（residential プロキシ経路の実装。現状はデータセンターIPブロックで無効化保留）
 - [ ] pytest カバレッジ向上（現在 adapters/base.py のみ）

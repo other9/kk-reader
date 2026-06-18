@@ -49,6 +49,7 @@ import os
 import re
 import time
 from datetime import datetime, timezone, timedelta
+from html import unescape
 from typing import Optional, Tuple, Callable
 from urllib.parse import urljoin, quote
 
@@ -232,6 +233,18 @@ class ScrapeAdapterBase(SourceAdapter):
     retries: int = 2
     retry_delay: float = 1.5
 
+    # --- 本文取得 (update-020) ---
+    # fetch_body = True のアダプターは、一覧解析後に各記事ページを取得して
+    # parse_article_body() で本文を抽出し content_html に格納する。
+    # 背景: 健美家が CF Bot Management 強化で Cloudflare(=kk-sync Worker)の IP を
+    #   403 ブロックするようになり、フロントの on-demand 本文取得(Worker /article)が
+    #   失敗するようになった。一覧スクレイプは GitHub Actions(Azure IP)から通るので、
+    #   そのタイミングで本文も取得して保存しておけば Worker 経路に依存しなくなる。
+    fetch_body: bool = False
+    body_fetch_cap: int = 20      # 1 回の fetch で取得する本文数の上限(負荷・実行時間の上限)
+    body_fetch_delay: float = 0.3  # 連続取得の間に挟むスリープ秒(相手サイトへの礼儀)
+    body_max_chars: int = 50000   # content_html の安全上限(肥大化・異常ページ対策)
+
     def __init__(self, timeout: int = 20, user_agent: Optional[str] = None):
         self.timeout = timeout
         self.user_agent = user_agent or DEFAULT_UA
@@ -406,7 +419,9 @@ class ScrapeAdapterBase(SourceAdapter):
     # メイン fetch エントリポイント
     # -----------------------------------------------------------------
 
-    def fetch(self, feed: dict) -> tuple[list[Article], dict]:
+    def fetch(
+        self, feed: dict, known_body_ids: Optional[set] = None
+    ) -> tuple[list[Article], dict]:
         """feeds.json の1エントリから記事リストを取得。"""
         meta_update = {"last_fetch": now_iso()}
         url = feed["url"]
@@ -454,7 +469,124 @@ class ScrapeAdapterBase(SourceAdapter):
         meta_update["last_error"] = None
         # update-009: items_count を追跡することでサイレント失敗(parser破損)を検知可能に
         meta_update["last_items_count"] = len(articles)
+
+        # update-020: 本文取得対応アダプターは各記事ページから content_html を補完。
+        if self.fetch_body:
+            fetched = self._populate_bodies(articles, feed, known_body_ids or set())
+            meta_update["last_bodies_fetched"] = fetched
+
         return articles, meta_update
 
     def parse_listing(self, soup: BeautifulSoup, base_url: str, feed: dict) -> list[dict]:
         raise NotImplementedError
+
+    # -----------------------------------------------------------------
+    # 本文取得 (update-020)
+    # -----------------------------------------------------------------
+
+    def _populate_bodies(
+        self, articles: list, feed: dict, known_body_ids: set
+    ) -> int:
+        """各記事ページを取得し parse_article_body() で content_html を補完する。
+
+        - known_body_ids に含まれる記事(既に本文取得済み)はスキップ。
+        - body_fetch_cap 件で打ち切る(負荷・実行時間の上限)。articles は新しい順に
+          並んでいる前提のため、新着記事が優先的に本文取得される。残りは次回以降の
+          ラン(2時間毎)で徐々にバックフィルされる。
+        - 取得失敗時は content_html=None のまま(フロントは従来通り on-demand に
+          フォールバックするので壊れない)。
+
+        Returns: 本文取得を試みた件数。
+        """
+        attempted = 0
+        for art in articles:
+            if art.id in known_body_ids:
+                continue
+            if attempted >= self.body_fetch_cap:
+                break
+            attempted += 1
+
+            if feed.get("via_worker"):
+                html, _err = self._fetch_html_via_worker(art.url)
+            else:
+                html, _err = self._fetch_html(art.url)
+            if not html:
+                continue
+
+            try:
+                asoup = BeautifulSoup(html, "html.parser")
+                body = self.parse_article_body(asoup, art.url)
+            except Exception:
+                body = None
+
+            if body:
+                art.content_html = body
+                if not art.summary:
+                    art.summary = self._summary_from_html(body)
+
+            if self.body_fetch_delay:
+                time.sleep(self.body_fetch_delay)
+
+        return attempted
+
+    def parse_article_body(self, soup: BeautifulSoup, url: str) -> Optional[str]:
+        """記事ページの soup から本文 HTML を抽出する。
+
+        fetch_body=True のアダプターはこれをオーバーライドする。
+        デフォルトは None(本文取得なし)。
+        """
+        return None
+
+    # 本文 HTML に残してはいけないタグ(スクリプト・広告・埋め込み・フォーム等)
+    _UNSAFE_BODY_TAGS = (
+        "script", "style", "iframe", "object", "embed",
+        "form", "noscript", "ins", "button", "svg", "link", "meta",
+    )
+
+    def _sanitize_body_html(self, el, base_url: str) -> str:
+        """抽出した本文要素を innerHTML 文字列に変換しつつ軽くサニタイズする。
+
+        フロント(app.js)は content_html を innerHTML で描画する。サイト側 CSP
+        (script-src 'self')で inline script は実行されないが、二重防御として
+        スクリプト・イベントハンドラ・javascript: スキームを除去し、相対 URL を
+        絶対化する。inline style も剥がしてレイアウト崩れを防ぐ。
+        """
+        for t in el(list(self._UNSAFE_BODY_TAGS)):
+            t.decompose()
+
+        for tag in el.find_all(True):
+            for attr in list(tag.attrs):
+                low = attr.lower()
+                if low.startswith("on") or low == "style":
+                    del tag[attr]
+                    continue
+                if low in ("href", "src"):
+                    v = (tag.get(attr) or "").strip()
+                    if v.lower().startswith(("javascript:", "vbscript:", "data:")):
+                        del tag[attr]
+                        continue
+                    if v and not v.lower().startswith(
+                        ("http://", "https://", "#", "mailto:")
+                    ):
+                        tag[attr] = urljoin(base_url, v)
+
+        html = el.decode_contents().strip()
+        if len(html) > self.body_max_chars:
+            html = html[: self.body_max_chars] + "…"
+        return html
+
+    @staticmethod
+    def _summary_from_html(html: str, max_chars: int = 200) -> str:
+        """本文 HTML から先頭のプレーンテキスト要約を作る。"""
+        if not html:
+            return ""
+        text = re.sub(
+            r"<(script|style)[^>]*>.*?</\1>", "", html,
+            flags=re.DOTALL | re.IGNORECASE,
+        )
+        text = re.sub(r"<[^>]+>", " ", text)
+        text = unescape(text)
+        text = re.sub(r"\s+", " ", text).strip()
+        if len(text) > max_chars:
+            text = text[:max_chars].rstrip() + "…"
+        return text

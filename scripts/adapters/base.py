@@ -41,12 +41,18 @@ class SourceAdapter(ABC):
     source_type: str = "unknown"
 
     @abstractmethod
-    def fetch(self, feed: dict) -> tuple[list[Article], dict]:
+    def fetch(
+        self, feed: dict, known_body_ids: Optional[set] = None
+    ) -> tuple[list[Article], dict]:
         """
         指定フィードから記事を取得する。
 
         Args:
             feed: feeds.jsonの1エントリ(dict)
+            known_body_ids: 既に content_html を保持している記事ID集合。
+              本文を別途取得するアダプター(scrape 系)が、取得済みの記事を
+              再取得せずスキップするために使う。None なら全件対象。
+              RSS など本文を一括取得するアダプターは無視してよい。
 
         Returns:
             (articles, updated_feed_meta)

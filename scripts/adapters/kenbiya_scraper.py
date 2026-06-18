@@ -40,6 +40,27 @@ _ARTICLE_RE = re.compile(
 class KenbiyaColumnsAdapter(ScrapeAdapterBase):
     source_type = "scrape_kenbiya"
 
+    # update-020: 健美家は CF Bot Management 強化で Cloudflare(kk-sync Worker)の IP を
+    # 403 ブロックするようになり、フロントの on-demand 本文取得(Worker /article)が
+    # 失敗する。一覧スクレイプは Actions(Azure IP)から通るので、このタイミングで
+    # 本文も取得して content_html に保存し、Worker 経路への依存をなくす。
+    fetch_body = True
+
+    def parse_article_body(self, soup: BeautifulSoup, url: str) -> Optional[str]:
+        """健美家の記事ページ(コラム /ar/cl/・ニュース /ar/ns/ 共通)から本文を抽出。
+
+        DOM 構造(2026-06 時点):
+          section.contents_detail_main
+            └ div#box_entry   ← 本文エントリ(共有ボタン・関連記事を含まない)
+        コラムの div.column / ニュースの div.news は共有ボタンや関連記事リストを
+        含むため使わず、両形式で共通かつクリーンな #box_entry を採用する。
+        """
+        el = soup.find(id="box_entry")
+        if el is None:
+            return None
+        html = self._sanitize_body_html(el, url)
+        return html or None
+
     def parse_listing(self, soup: BeautifulSoup, base_url: str, feed: dict) -> list[dict]:
         # URL → (最長 text, anchor) を集約。thumbnail link 問題を回避。
         url_to_link = self.extract_listing_links(soup, base_url, _ARTICLE_RE)

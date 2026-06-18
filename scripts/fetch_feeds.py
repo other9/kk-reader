@@ -55,7 +55,7 @@ def load_existing_articles() -> dict:
     return {"articles": [], "last_updated": None}
 
 
-def fetch_one(feed: dict) -> tuple[dict, list, dict]:
+def fetch_one(feed: dict, known_body_ids: set | None = None) -> tuple[dict, list, dict]:
     """1フィードを取得。(feed, articles, meta_update) を返す"""
     if not feed.get("active", True):
         return feed, [], {}
@@ -65,7 +65,7 @@ def fetch_one(feed: dict) -> tuple[dict, list, dict]:
         return feed, [], {"last_error": f"アダプターなし: {feed.get('source_type')}"}
 
     try:
-        articles, meta_update = adapter.fetch(feed)
+        articles, meta_update = adapter.fetch(feed, known_body_ids=known_body_ids)
         return feed, [a.to_dict() for a in articles], meta_update
     except Exception as e:
         return feed, [], {
@@ -90,6 +90,12 @@ def main():
     # 従来は existing_ids に入っているだけで「既存ならスキップ」だったため、
     # adapter 側のパース修正があっても古い broken レコードが残り続けていた。
     existing_by_id = {a["id"]: a for a in existing_articles}
+    # update-020: 既に content_html を持つ記事 ID。本文取得アダプター(健美家等)が
+    # 取得済み記事を再取得せずスキップするために渡す。未取得の既存記事は含めないので、
+    # ラン毎に少しずつバックフィルされる。
+    known_body_ids = {
+        aid for aid, a in existing_by_id.items() if a.get("content_html")
+    }
 
     # 並列取得
     new_count = 0
@@ -100,7 +106,7 @@ def main():
     new_articles_buffer: list[dict] = []
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
-        futures = {ex.submit(fetch_one, f): f for f in active_feeds}
+        futures = {ex.submit(fetch_one, f, known_body_ids): f for f in active_feeds}
         for fut in as_completed(futures):
             feed, articles, meta_update = fut.result()
             feed_id_to_meta[feed["id"]] = meta_update
@@ -122,9 +128,8 @@ def main():
                 else:
                     # update-013: 既存記事のメタデータを in-place 更新する。
                     # title / published / summary / author は source 側で
-                    # 訂正・補完されたら反映したい。`fetched`(初出時刻)と
-                    # `content_html`(別経路で fetch される / RSS は重複書込
-                    # 回避のため)は触らない。空値での上書きはしない。
+                    # 訂正・補完されたら反映したい。`fetched`(初出時刻)は触らない。
+                    # 空値での上書きはしない。
                     rec = existing_by_id[aid]
                     changed = False
                     for field in ("title", "published", "summary", "author"):
@@ -132,6 +137,12 @@ def main():
                         if v is not None and v != "" and rec.get(field) != v:
                             rec[field] = v
                             changed = True
+                    # update-020: 本文が未取得(None/空)の既存記事に、今回スクレイプで
+                    # 取れた content_html をバックフィルする。既に本文があれば触らない
+                    # (RSS の重複書込回避・取得済み本文の保護)。
+                    if not rec.get("content_html") and art.get("content_html"):
+                        rec["content_html"] = art["content_html"]
+                        changed = True
                     if changed:
                         refreshed_count += 1
 

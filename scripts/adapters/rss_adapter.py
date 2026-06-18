@@ -177,7 +177,10 @@ class RSSAdapter(SourceAdapter):
         self.timeout = timeout
         self.user_agent = user_agent
 
-    def fetch(self, feed: dict) -> tuple[list[Article], dict]:
+    def fetch(
+        self, feed: dict, known_body_ids: Optional[set] = None
+    ) -> tuple[list[Article], dict]:
+        # known_body_ids は RSS では未使用(本文はフィード本体に同梱されるため)。
         url = feed["url"]
         verify_ssl = feed.get("verify_ssl", True)
         meta_update = {

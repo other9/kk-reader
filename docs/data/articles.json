@@ -9689,10 +9689,10 @@
       "source_type": "scrape_rakumachi"
     }
   ],
-  "last_updated": "2026-06-20T17:42:39.491299+00:00",
+  "last_updated": "2026-06-20T19:51:09.238546+00:00",
   "stats": {
     "total": 692,
-    "fetched_just_now": 912,
+    "fetched_just_now": 913,
     "feeds_success": 76,
     "feeds_failed": 0
   }

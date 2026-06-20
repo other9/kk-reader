@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "12f732e5e09defc1",
+      "feed_id": "6c30fc2654fb",
+      "feed_title": "元官庁エコノミストのブログ",
+      "category": "金融・経済・投資",
+      "title": "カミさんとチームラボバイオヴォルテックス京都に出かける",
+      "url": "http://economist.cocolog-nifty.com/blog/2026/06/post-fda2d2.html",
+      "published": "2026-06-20T12:00:00+00:00",
+      "fetched": "2026-06-20T14:27:51.178190+00:00",
+      "summary": "今日は雨の中、立命館大学労働組合のレク活動に夫婦で参加し、京都駅前の チームラボバイオヴォルテックス京都 に出かけました。大成建設がやっています。昨年2025年10月オープンです。よく判らないので、詳細は チームラボ のサイトでご覧ください。写真の作品は上から順に、変容する連続体、呼応するランプの森、質量も形もない彫刻、呼応する小宇宙-固形化された光、となってここまでがアート作品で、最後のあおむしハウスの高速回転跳ね球、だけが運動の森の作品です。 チームラボの鑑賞の後、京都駅までの途中にある ダブルツリーbyヒルトン京都駅 でティータイムでした。大学の仲…",
+      "content_html": "<p>今日は雨の中、立命館大学労働組合のレク活動に夫婦で参加し、京都駅前の<a href=\"https://www.teamlab.art/jp/e/kyoto/\" style=\"color: #ff0000; font-size: 2em; font-weight: bold;\" target=\"_blank\" title=\"チームラボバイオヴォルテックス\">チームラボバイオヴォルテックス京都</a>に出かけました。大成建設がやっています。昨年2025年10月オープンです。よく判らないので、詳細は<a href=\"https://www.teamlab.art/jp/e/kyoto/\" target=\"_blank\" title=\"チームラボバイオヴォルテックス\">チームラボ</a>のサイトでご覧ください。写真の作品は上から順に、変容する連続体、呼応するランプの森、質量も形もない彫刻、呼応する小宇宙-固形化された光、となってここまでがアート作品で、最後のあおむしハウスの高速回転跳ね球、だけが運動の森の作品です。</p><div style=\"text-align: center;\"><a href=\"http://economist.cocolog-nifty.com/photos/blogphoto/20260620h.jpg\" target=\"_blank\"><img alt=\"photo\" src=\"http://economist.cocolog-nifty.com/photos/blogphoto/20260620h.jpg\" style=\"border: none; width: 560px; height: 420px; margin: 20px auto 10px;\" title=\"変容する連続体\" /></a><br /><br /><a href=\"http://economist.cocolog-nifty.com/photos/blogphoto/20260620i.jpg\" target=\"_blank\"><img alt=\"photo\" src=\"http://economist.cocolog-nifty.com/photos/blogphoto/20260620i.jpg\" style=\"border: none; width: 560px; height: 420px; margin: 10px auto 10px;\" title=\"呼応するランプの森\" /></a><br /><br /><a href=\"http://economist.cocolog-nifty.com/photos/blogphoto/20260620j.jpg\" target=\"_blank\"><img alt=\"photo\" src=\"http://economist.cocolog-nifty.com/photos/blogphoto/20260620j.jpg\" style=\"border: none; width: 560px; height: 420px; margin: 10px auto 10px;\" title=\"質量も形のない彫刻\" /></a><br /><br /><a href=\"http://economist.cocolog-nifty.com/photos/blogphoto/20260620k.jpg\" target=\"_blank\"><img alt=\"photo\" src=\"http://economist.cocolog-nifty.com/photos/blogphoto/20260620k.jpg\" style=\"border: none; width: 560px; height: 420px; margin: 20px auto 10px;\" title=\"呼応する小宇宙-固形化された光\" /></a><br /><br /><a href=\"http://economist.cocolog-nifty.com/photos/blogphoto/20260620l.jpg\" target=\"_blank\"><img alt=\"photo\" src=\"http://economist.cocolog-nifty.com/photos/blogphoto/20260620l.jpg\" style=\"border: none; width: 560px; height: 420px; margin: 10px auto 20px;\" title=\"あおむしハウスの高速回転跳ね球\" /></a></div><p>チームラボの鑑賞の後、京都駅までの途中にある<a href=\"https://doubletree-kyoto-station.hiltonjapan.co.jp/\" target=\"_blank\" title=\"ダブルツリーbyヒルトン京都駅\">ダブルツリーbyヒルトン京都駅</a>でティータイムでした。大学の仲間と写記念真を撮っておきました。まあ、労働組合のレクリエーション行事ですので、それほど豪華というわけではありませんでした。</p>",
+      "author": "元官庁エコノミスト",
+      "source_type": "rss"
+    },
+    {
       "id": "3393e46db8f0dd8b",
       "feed_id": "2ec7ee82ecf8",
       "feed_title": "マンションの間取りや価格を言いたい放題!",
@@ -9689,10 +9703,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-20T12:06:21.721467+00:00",
+  "last_updated": "2026-06-20T14:27:52.653246+00:00",
   "stats": {
-    "total": 692,
-    "fetched_just_now": 914,
+    "total": 693,
+    "fetched_just_now": 913,
     "feeds_success": 76,
     "feeds_failed": 0
   }

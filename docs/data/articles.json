@@ -9423,11 +9423,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-21T16:05:17.748953+00:00",
+  "last_updated": "2026-06-21T17:49:35.926489+00:00",
   "stats": {
     "total": 673,
-    "fetched_just_now": 915,
-    "feeds_success": 76,
-    "feeds_failed": 0
+    "fetched_just_now": 913,
+    "feeds_success": 75,
+    "feeds_failed": 1
   }
 }

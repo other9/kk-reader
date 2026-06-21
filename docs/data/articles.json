@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "f77af498dd4d971e",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "買い手独占と金融政策の伝達",
+      "url": "https://himaginary.hatenablog.com/entry/20260621/Monopsony_Power_and_the_Transmission_of_Monetary_Policy",
+      "published": "2026-06-21T14:59:00+00:00",
+      "fetched": "2026-06-21T19:58:22.175268+00:00",
+      "summary": "というNBER論文が 上がっている （ ungated版 ）。原題は「Monopsony Power and the Transmission of Monetary Policy」で、著者はBence Bardóczy（FRB）、Gideon Bornstein（ペンシルベニア大）、Sergio Salgado（同）。 以下はその要旨。 This paper studies how labor market power affects the transmission of monetary policy. Using administrative U…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35335\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://www.bencebardoczy.com/files/mp2.pdf\">ungated&#x7248;</a>）。原題は「Monopsony Power and the Transmission of Monetary Policy」で、著者はBence Bardóczy（FRB）、Gideon Bornstein（ペンシルベニア大）、Sergio Salgado（同）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>This paper studies how labor market power affects the transmission of monetary policy. Using administrative U.S. Census data, we show that firms with high monopsony power—defined as those accounting for over 10 percent of the local wage bill—respond less to monetary policy in terms of their wage bill and employment. We then develop a New Keynesian model with heterogeneous firms and oligopsonistic competition to interpret these findings. Wage stickiness combined with firms’ labor market power is key to generating the heterogeneous responses that we document. Our model highlights two channels through which oligopsony shapes the aggregate effects of monetary policy: partial passthrough and misallocation. Calibrated to U.S. labor markets, the model implies that the decline in labor market power since the 1980s has increased the output response to monetary policy by about 10 percent and accounts for about 15 percent of the estimated flattening of the Phillips curve.<br />\n（拙訳）<br />\n本稿は、労働市場の支配力が金融政策の伝達にどのように影響するかを調べた。米センサス局の行政データを用いて我々は、地域の賃金支払いの1割以上を占めるとして定義された買い手独占力の高い企業が、賃金支払いと雇用について金融政策への反応が小さいことを示した<a href=\"#f-2c4bc39e\" id=\"fn-2c4bc39e\" name=\"fn-2c4bc39e\" title=\"結論部では「Specifically, we estimate that the wage bill of firms with a market share below 10 percent responds about 40 percent more than that of firms above that cutoff.」と記述されている。\">*1</a>。次に我々は、不均一な企業と買い手寡占的競争を備えたニューケインジアンモデルを構築してこの発見を解釈した。賃金の硬直性と企業の労働市場支配力の組み合わせが、我々が明らかにした不均一な反応を生成する上で鍵になる。我々のモデルは、買い手寡占が金融政策のマクロ的な効果を形成する2つの経路を強調する。部分的な転嫁と誤配分である。米労働市場でカリブレートしたところ、1980年代以降の労働市場支配力の低下が金融政策への反応を約10%高め、推計されたフィリップス曲線の平坦化の約15%を説明することがモデルから導かれた<a href=\"#f-ab3aae92\" id=\"fn-ab3aae92\" name=\"fn-ab3aae92\" title=\"本文では「We find that monetary policy had smaller effects on output but somewhat larger effects on inflation in the 1980s than in the 2010s. This suggests that the decline in local concentration has flattened the Phillips curve over time, accounting for about 15 percent of the flattening estimated by Blanchard (2016) between 1980 and the 2010s. A flatter Phillips curve can either help or hinder the central bank, depending on the policy context: easing becomes less inflationary, while disinflation requires a larger output sacrifice.」と記述されている（Blanchard (2016)は[https://www.aeaweb.org/articles?id=10.1257/aer.p20161003:title]）。\">*2</a>。</p>\n\n    </blockquote>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-2c4bc39e\" id=\"f-2c4bc39e\" name=\"f-2c4bc39e\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">結論部では「Specifically, we estimate that the wage bill of firms with a market share below 10 percent responds about 40 percent more than that of firms above that cutoff.」と記述されている。</span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-ab3aae92\" id=\"f-ab3aae92\" name=\"f-ab3aae92\">*2</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">本文では「We find that monetary policy had smaller effects on output but somewhat larger effects on inflation in the 1980s than in the 2010s. This suggests that the decline in local concentration has flattened the Phillips curve over time, accounting for about 15 percent of the flattening estimated by Blanchard (2016) between 1980 and the 2010s. A flatter Phillips curve can either help or hinder the central bank, depending on the policy context: easing becomes less inflationary, while disinflation requires a larger output sacrifice.」と記述されている（Blanchard (2016)は<a href=\"https://www.aeaweb.org/articles?id=10.1257/aer.p20161003\">The Phillips Curve: Back to the '60s? - American Economic Association</a>）。</span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "3c34b9c38ccb384a",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -9423,10 +9437,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-21T17:49:35.926489+00:00",
+  "last_updated": "2026-06-21T19:58:22.917300+00:00",
   "stats": {
-    "total": 673,
-    "fetched_just_now": 913,
+    "total": 674,
+    "fetched_just_now": 914,
     "feeds_success": 75,
     "feeds_failed": 1
   }

@@ -9073,11 +9073,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-25T16:33:44.360349+00:00",
+  "last_updated": "2026-06-25T20:19:19.335184+00:00",
   "stats": {
     "total": 648,
-    "fetched_just_now": 904,
+    "fetched_just_now": 897,
     "feeds_success": 75,
-    "feeds_failed": 1
+    "feeds_failed": 0
   }
 }

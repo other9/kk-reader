@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "79bc56ec6989be7a",
+      "feed_id": "2e7efdb141f2",
+      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
+      "category": "不動産",
+      "title": "羽田新ルート｜南風「悪天時」到着ルートの運用実績 ※適宜更新",
+      "url": "https://1manken.hatenablog.com/entry/2020/07/14/bad-weather-new-haneda-flight-routes",
+      "published": "2026-06-26T21:00:00+00:00",
+      "fetched": "2026-05-28T20:34:59.596813+00:00",
+      "summary": "南風「悪天時」到着ルートの運用実績を可視化。適宜更新。",
+      "content_html": "南風「悪天時」到着ルートの運用実績を可視化。適宜更新。",
+      "author": "flats",
+      "source_type": "rss"
+    },
+    {
       "id": "70c79ab2a548c460",
       "feed_id": "d976d70a8e8a",
       "feed_title": "【不動産投資】訳あり物件再生の方法が面白いほどよくわかるブログ",
@@ -1425,20 +1439,6 @@
       "fetched": "2026-06-20T23:21:28.316664+00:00",
       "summary": "AIを使ったマンション新サービスを考え、ChatGPT・Gemini・Claudeと議論した結果、自分の強みを再認識することになった。",
       "content_html": "AIを使ったマンション新サービスを考え、ChatGPT・Gemini・Claudeと議論した結果、自分の強みを再認識することになった。",
-      "author": "flats",
-      "source_type": "rss"
-    },
-    {
-      "id": "79bc56ec6989be7a",
-      "feed_id": "2e7efdb141f2",
-      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
-      "category": "不動産",
-      "title": "羽田新ルート｜南風「悪天時」到着ルートの運用実績 ※適宜更新",
-      "url": "https://1manken.hatenablog.com/entry/2020/07/14/bad-weather-new-haneda-flight-routes",
-      "published": "2026-06-20T20:00:00+00:00",
-      "fetched": "2026-05-28T20:34:59.596813+00:00",
-      "summary": "南風「悪天時」到着ルートの運用実績を可視化。適宜更新。",
-      "content_html": "南風「悪天時」到着ルートの運用実績を可視化。適宜更新。",
       "author": "flats",
       "source_type": "rss"
     },
@@ -8835,11 +8835,11 @@
       "source_type": "scrape_cfajapan"
     }
   ],
-  "last_updated": "2026-06-26T20:04:42.397614+00:00",
+  "last_updated": "2026-06-26T21:37:53.329809+00:00",
   "stats": {
     "total": 631,
-    "fetched_just_now": 899,
-    "feeds_success": 75,
-    "feeds_failed": 0
+    "fetched_just_now": 897,
+    "feeds_success": 74,
+    "feeds_failed": 1
   }
 }

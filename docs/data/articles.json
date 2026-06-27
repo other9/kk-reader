@@ -15,6 +15,20 @@
       "source_type": "rss"
     },
     {
+      "id": "c1cc7ecf7f2c76bb",
+      "feed_id": "5acee72b6150",
+      "feed_title": "金融の未来を考えるブログ",
+      "category": "金融・経済・投資",
+      "title": "資本規制によって銀行の対応が異なってきた",
+      "url": "https://saferich.biz/%e8%b3%87%e6%9c%ac%e8%a6%8f%e5%88%b6%e3%81%ab%e3%82%88%e3%81%a3%e3%81%a6%e9%8a%80%e8%a1%8c%e3%81%ae%e5%af%be%e5%bf%9c%e3%81%8c%e7%95%b0%e3%81%aa%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f/",
+      "published": "2026-06-27T08:50:03+00:00",
+      "fetched": "2026-06-27T14:03:03.223577+00:00",
+      "summary": "米系大手銀行はすべてSA-CVAを採用し、高度なCVA管理を進めている。3月のバーゼルIII最終化案でもCVAコストが高くなることが確実となったため、SA-CVA一択という方向性はさらに強まっていくことになる。 欧州でも … 続きを読む 資本規制によって銀行の対応が異なってきた → The post 資本規制によって銀行の対応が異なってきた first appeared on 金融の未来を考えるブログ .",
+      "content_html": "<p>米系大手銀行はすべてSA-CVAを採用し、高度なCVA管理を進めている。3月のバーゼルIII最終化案でもCVAコストが高くなることが確実となったため、SA-CVA一択という方向性はさらに強まっていくことになる。 欧州でも &#8230; <a class=\"more-link\" href=\"https://saferich.biz/%e8%b3%87%e6%9c%ac%e8%a6%8f%e5%88%b6%e3%81%ab%e3%82%88%e3%81%a3%e3%81%a6%e9%8a%80%e8%a1%8c%e3%81%ae%e5%af%be%e5%bf%9c%e3%81%8c%e7%95%b0%e3%81%aa%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f/\">続きを読む <span class=\"screen-reader-text\">資本規制によって銀行の対応が異なってきた</span> <span class=\"meta-nav\">&#8594;</span></a></p>\nThe post <a href=\"https://saferich.biz/%e8%b3%87%e6%9c%ac%e8%a6%8f%e5%88%b6%e3%81%ab%e3%82%88%e3%81%a3%e3%81%a6%e9%8a%80%e8%a1%8c%e3%81%ae%e5%af%be%e5%bf%9c%e3%81%8c%e7%95%b0%e3%81%aa%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f/\">資本規制によって銀行の対応が異なってきた</a> first appeared on <a href=\"https://saferich.biz\">金融の未来を考えるブログ</a>.",
+      "author": "管理人",
+      "source_type": "rss"
+    },
+    {
       "id": "c23cef502dff9420",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -8679,27 +8693,13 @@
       "content_html": "<p>という<a href=\"https://www.newyorkfed.org/research/staff_reports/sr1191\">NY&#x9023;&#x9280;&#x8ad6;&#x6587;</a>をMostly Economicsが<a href=\"https://mostlyeconomics.wordpress.com/2026/05/27/estimating-demand-shocks-from-foot-traffic-a-big-data-approach/\">&#x7d39;&#x4ecb;&#x3057;&#x3066;&#x3044;&#x308b;</a>。原題は「Estimating Demand Shocks from Foot Traffic: A Big-Data Approach」で、著者はMarina Azzimonti（リッチモンド連銀）、David Wiczer（NY連銀）、Yang Xuan（ルイジアナ州立大学シュリーブポート校）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>This study leverages high-frequency foot-traffic data from SafeGraph to estimate demand shocks in customer-facing establishments across New York City’s retail, service, and health sectors. Recognizing that variations in foot traffic can arise from both unpredictable demand shocks and firm-driven strategies to attract customers, we present a theoretical framework that isolates establishment-level demand fluctuations from firm-level strategic choices. Implementing this empirically, we employ an unsupervised machine learning approach to classify establishments into distinct categories that are largely orthogonal to location and sector. We find important heterogeneity in the persistence of shocks, important heterogeneity in their trends, and that estimation on a pooled sample importantly understates the variance experienced by some establishments.<br />\n（拙訳）<br />\n本研究は、セーフグラフの高頻度の徒歩交通データを利用して、ニューヨーク市の小売・サービス・医療部門における顧客と対面する店舗の需要ショックを推計した。徒歩交通データのバラツキが予測できない需要ショックと顧客を呼び込む企業戦略の両方から生じ得ることを考慮して我々は、店舗レベルの需要の変動を企業レベルの戦略の選択から分離する理論的枠組みを提示する。その枠組みを実証分析に適用して我々は、教師無し機械学習手法を用いて、地域ならびに部門と概ね直交する独立したカテゴリに店舗を分類した。ショックの持続性の重大な不均一性、そのトレンドの重大な不均一性、およびプールしたサンプルは一部の店舗が経験する変動を大きく過小評価することを我々は見い出した。</p>\n\n    </blockquote>\n<p>セーフグラフのデータを使った研究は本ブログでも何度か取り上げているが（cf. <a href=\"https://himaginary.hatenablog.com/search?q=SafeGraph\">SafeGraph &#x306e;&#x691c;&#x7d22;&#x7d50;&#x679c; - himaginary&rsquo;s diary</a>）、論文でも「The COVID-19 pandemic has intensified research using SafeGraph data.」として同データを使った研究を幾つか挙げている。<br />\nWiczerは<a href=\"https://himaginary.hatenablog.com/entry/20210613/zmp_again#fn-8bd1506d\">&#x96c7;&#x7528;&#x306e;&#x56de;&#x5fa9;&#x901f;&#x5ea6;&#x3068;ZMP&#x4eee;&#x8aac; - himaginary&rsquo;s diary</a>で参照されている論文や<a href=\"https://himaginary.hatenablog.com/entry/20220831/Where_Have_All_the_Workers_Gone\">&#x52b4;&#x50cd;&#x8005;&#x306f;&#x3069;&#x3053;&#x3078;&#x884c;&#x3063;&#x305f;&#xff1f; &#x30b3;&#x30ed;&#x30ca;&#x798d;&#x304b;&#x3089;&#x306e;&#x56de;&#x5fa9;&#x306b;&#x304a;&#x3051;&#x308b;&#x547c;&#x3073;&#x623b;&#x3057;&#x3001;&#x96e2;&#x8077;&#x3001;&#x304a;&#x3088;&#x3073;&#x8077;&#x306e;&#x518d;&#x914d;&#x5206; - himaginary&rsquo;s diary</a>で紹介した論文で労働市場に関する分析をしている。Azzimontiは<a href=\"https://himaginary.hatenablog.com/entry/20220128/Political_Constraints_and_Sovereign_Default\">&#x653f;&#x6cbb;&#x7684;&#x5236;&#x7d04;&#x3068;&#x30bd;&#x30d6;&#x30ea;&#x30f3;&#x30fb;&#x30c7;&#x30d5;&#x30a9;&#x30eb;&#x30c8; - himaginary&rsquo;s diary</a>と<a href=\"https://himaginary.hatenablog.com/entry/20200906/ECON-EPI_Networks\">ECON-EPI&#x30cd;&#x30c3;&#x30c8;&#x30ef;&#x30fc;&#x30af;&#x306b;&#x304a;&#x3051;&#x308b;&#x30d1;&#x30f3;&#x30c7;&#x30df;&#x30c3;&#x30af;&#x306e;&#x30b3;&#x30f3;&#x30c8;&#x30ed;&#x30fc;&#x30eb; - himaginary&rsquo;s diary</a>で論文を紹介したことがある。</p>",
       "author": "himaginary",
       "source_type": "rss"
-    },
-    {
-      "id": "f3433de6b7992a38",
-      "feed_id": "6c30fc2654fb",
-      "feed_title": "元官庁エコノミストのブログ",
-      "category": "金融・経済・投資",
-      "title": "今年の交流戦はいきなりの3連敗で始まる",
-      "url": "http://economist.cocolog-nifty.com/blog/2026/05/post-05fc9f.html",
-      "published": "2026-05-28T13:30:00+00:00",
-      "fetched": "2026-05-28T16:22:41.863068+00:00",
-      "summary": "一 二 三 四 五 六 七 八 九 R H E 日本ハム 0 0 3 0 0 0 2 0 1 4 8 0 阪 神 1 0 0 0 0 0 0 0 1 2 6 0 【日】 福島、島本、柳川 - タミヤ 【神】 木下、湯浅、門別、モレッタ、工藤 - 梅野 打線がまったく打てずに、 交流戦3連敗 でした。 先発木下投手は4回3失点はこれくらいの計算で送り出したのだろうと思います。その後のリリーフ陣も5回で1失点ですから、ほぼほぼ計算通りかという気がします。しかし、 敗戦の大きな責任は打線です。3連戦で4得点では勝てません。 最終回に佐藤輝選手のホームランが出て…",
-      "content_html": "<p><a href=\"https://hanshintigers.jp/game/score/table/table20260528.html\" style=\"font-style: normal;\" target=\"_blank\"><table class=\"s-b\" title=\"スコアボード\"><tr class=\"sb1\"><td class=\"sb1\"> </td><td class=\"sb2\">一</td><td class=\"sb2\">二</td><td class=\"sb2\">三</td><td class=\"sb2\">四</td><td class=\"sb2\">五</td><td class=\"sb2\">六</td><td class=\"sb2\">七</td><td class=\"sb2\">八</td><td class=\"sb2\">九</td><td class=\"sb3\"> </td><td class=\"sb4\">R</td><td class=\"sb4\">H</td><td class=\"sb2\">E</td></tr><tr class=\"sb2\"><td>日本ハム</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>1</td><td class=\"sb3\"> </td><td>4</td><td>8</td><td>0</td></tr><tr class=\"sb2\"><td>阪　　神</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td class=\"sb3\"> </td><td>2</td><td>6</td><td>0</td></tr></table></a><br />【日】 福島、島本、柳川 - タミヤ<br />【神】 木下、湯浅、門別、モレッタ、工藤 - 梅野</p><p>打線がまったく打てずに、<span class=\"red\">交流戦3連敗</span>でした。<br />先発木下投手は4回3失点はこれくらいの計算で送り出したのだろうと思います。その後のリリーフ陣も5回で1失点ですから、ほぼほぼ計算通りかという気がします。しかし、<span class=\"blue\">敗戦の大きな責任は打線です。3連戦で4得点では勝てません。</span>最終回に佐藤輝選手のホームランが出て、次につながることを期待します。なお、注目のドラ1ルーキー立石選手は3試合全タコでした。</p><p>次のロッテ戦は、<br /><span class=\"tigers\">がんばれタイガース!</span></p>",
-      "author": "元官庁エコノミスト",
-      "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-27T11:44:17.125986+00:00",
+  "last_updated": "2026-06-27T14:03:03.227429+00:00",
   "stats": {
     "total": 621,
-    "fetched_just_now": 893,
-    "feeds_success": 67,
-    "feeds_failed": 8
+    "fetched_just_now": 913,
+    "feeds_success": 75,
+    "feeds_failed": 0
   }
 }

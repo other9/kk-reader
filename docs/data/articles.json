@@ -8583,11 +8583,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-28T17:23:07.341260+00:00",
+  "last_updated": "2026-06-28T19:42:16.794907+00:00",
   "stats": {
     "total": 613,
-    "fetched_just_now": 904,
-    "feeds_success": 75,
-    "feeds_failed": 0
+    "fetched_just_now": 897,
+    "feeds_success": 74,
+    "feeds_failed": 1
   }
 }

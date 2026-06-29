@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "5c25d0e18562bf8d",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "モーメントマッチングの信じ難い柔軟性",
+      "url": "https://himaginary.hatenablog.com/entry/20260629/Incredible_Flexibility_of_Moment_Matching",
+      "published": "2026-06-29T14:59:00+00:00",
+      "fetched": "2026-06-29T18:20:55.904416+00:00",
+      "summary": "というNBER論文が 上がっている （ ungated版 ）。原題は「The Incredible Flexibility of Moment Matching」で、著者はIsaiah Andrews（MIT）、Bas Sanders（SEO Amsterdam Economics *1 ）。 以下はその要旨。 We ask how far the choice of which moments to match can push estimates in misspecified structural models. The answer is: ve…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35378\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://economics.mit.edu/sites/default/files/2026-06/The%20Incredible%20Flexibility%20of%20Moment%20Matching_1.pdf\">ungated&#x7248;</a>）。原題は「The Incredible Flexibility of Moment Matching」で、著者はIsaiah Andrews（MIT）、Bas Sanders（SEO Amsterdam Economics<a href=\"#f-b865ed74\" id=\"fn-b865ed74\" name=\"fn-b865ed74\" title=\"[https://en.wikipedia.org/wiki/SEO_Economic_Research:title]。\">*1</a>）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>We ask how far the choice of which moments to match can push estimates in misspecified structural models. The answer is: very far. Under regularity conditions, an adversarial researcher informed about the data distribution can choose moments that render any parameter value the unique solution to the population moment-matching problem. Moreover, in many cases they can do so with little increase in model-implied standard errors relative to maximum likelihood. We illustrate both results in a menu-cost model.<br />\n（拙訳）<br />\nどのモーメントを適合させるかの選択が、推計を誤った仕様の構造モデルにどの程度押しやるか、を我々は問うた。その答えは、かなりの程度、である。正則性条件の下で、データの分布に関する情報を得た敵対的な研究者<a href=\"#f-f48b1fd2\" id=\"fn-f48b1fd2\" name=\"fn-f48b1fd2\" title=\"cf. [https://onlinelibrary.wiley.com/doi/full/10.3982/ECTA18707:title]。\">*2</a>は、母集団のモーメント適合問題へのユニークな解としてどんなパラメータ値も返せるようにモーメントを選択することができる。しかも多くのケースでは、モデルから導かれる標準誤差を最尤推定に比べてあまり増やすことなしにそうすることができる。我々は両方の結果をメニューコストモデルで描写する。</p>\n\n    </blockquote>\n<p>本文の冒頭によると、多くの研究者は、伝統的な統計手法である最尤推定ではなく、自分で選んだモーメントの集合をマッチングすることでモデルを推計するが、その理由としてミススペシフィケーション（仕様誤り）の懸念を挙げるのが一般的だという。しかしモーメント選択の柔軟性は研究者に新たな自由度を与え、それによって研究者は結論を望む方向に押しやることができるとの由。今回の研究では、ミススペシフィケーションの下でのモーメント適合推計では「何でもあり（anything-goes）」の結果になることが見い出されたとのことである。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-b865ed74\" id=\"f-b865ed74\" name=\"f-b865ed74\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\"><a href=\"https://en.wikipedia.org/wiki/SEO_Economic_Research\">SEO Economic Research - Wikipedia</a>。</span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-f48b1fd2\" id=\"f-f48b1fd2\" name=\"f-f48b1fd2\">*2</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">cf. <a href=\"https://onlinelibrary.wiley.com/doi/full/10.3982/ECTA18707\">An Adversarial Approach to Structural Estimation - Kaji - 2023 - Econometrica - Wiley Online Library</a>。</span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "c2484b2688202a8d",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -8457,9 +8471,9 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-29T16:06:06.272551+00:00",
+  "last_updated": "2026-06-29T18:20:56.894446+00:00",
   "stats": {
-    "total": 604,
+    "total": 605,
     "fetched_just_now": 896,
     "feeds_success": 75,
     "feeds_failed": 0

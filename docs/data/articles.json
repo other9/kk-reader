@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "ebfc8272d8c1eae2",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "価格対数量再訪：ピグー税・補助金の設定のために政策担当者は何を知るべきか？",
+      "url": "https://himaginary.hatenablog.com/entry/20260630/Prices_Versus_Quantities_Revisited",
+      "published": "2026-06-30T14:59:00+00:00",
+      "fetched": "2026-06-30T20:13:08.140810+00:00",
+      "summary": "というNBER論文をエドワード・グレイザーらが 上げている （ ungated版 ）。原題は「Prices Versus Quantities Revisited: What Do Policymakers Need to Know to Set Pigouvian Taxes and Subsidies?」で、著者はDenise Dipasquale（ハーバード大）、Edward L. Glaeser（同）、Adam M. Guren（ボストン大）、Paul S. Willen（ボストン連銀）。 以下はその要旨。 What information do…",
+      "content_html": "<p>というNBER論文をエドワード・グレイザーらが<a href=\"https://www.nber.org/papers/w35376\">&#x4e0a;&#x3052;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://people.bu.edu/guren/DGGW_Pigou_June2026.pdf\">ungated&#x7248;</a>）。原題は「Prices Versus Quantities Revisited: What Do Policymakers Need to Know to Set Pigouvian Taxes and Subsidies?」で、著者はDenise Dipasquale（ハーバード大）、Edward L. Glaeser（同）、Adam M. Guren（ボストン大）、Paul S. Willen（ボストン連銀）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>What information do policymakers need to design Pigouvian taxes or subsidies? Standard logic suggests that it is sufficient to know the size of the externality and unnecessary to know about quantities. Yet this logic is incorrect if interventions have fixed costs, taxes create deadweight losses, or there are distributional concerns. We present a model in which these considerations can make it more valuable for policymakers to learn about equilibrium quantities. We apply the model to congestion pricing, which has high fixed costs, and to a proposed housing subsidy in Boston that features deadweight losses and distributional concerns.<br />\n（拙訳）<br />\nピグー税やピグー補助金を設計するために政策担当者はどのような情報を必要としているのだろうか？　標準的な論理が示すところによれば、外部性の規模を知るだけで十分であり、数量について知る必要はない。しかし政策介入に固定費用があったり、税が死荷重を作り出したり、分配面の懸念がある場合にはこの論理は正しくない。こうした考慮事項のために政策担当者が均衡数量について学習することの価値が高まり得るモデルを我々は提示する。我々はモデルを、固定費用の高い渋滞料金、および、死荷重と分配面の懸念という特徴があるボストンで提案されている住宅補助に適用した。</p>\n\n    </blockquote>\n<p>結論部では、（論文タイトルの本家である）ワイツマン（Weitzman）の「Prices vs. Quantities」（1974<a href=\"#f-3bc6b582\" id=\"fn-3bc6b582\" name=\"fn-3bc6b582\" title=\"[https://www.jstor.org/stable/2296698:title=Weitzman, Martin L. 1974. “Prices vs. Quantities.” The Review of Economic Studies 41(4): 477–491.]。\">*1</a>）は、ピグー税などで価格に介入すべき時と、数量規制で介入すべき時について教えてくれた、と述べている。今回のモデルは、最適価格や価格変化への数量の反応を学習すべき時について分析するものだという。モデルからは、導入費用が低い場合や、分配面の問題が無視できる場合には、「価格」の知識で十分であり、価格変化への市場の反応を知る必要はない、という結果が得られたとの由。しかし混雑料金におけるような政策固定費用がある場合や、補助金を賄うのに必要な税が顕著な死荷重をもたらす場合には、数量の反応に関する正確性を増すことが外部性の規模を学習するよりも価値があるとのことである。</p><p>混雑料金の事例においては、当初の議論<a href=\"#f-9dd242fd\" id=\"fn-9dd242fd\" name=\"fn-9dd242fd\" title=\"cf. [https://en.wikipedia.org/wiki/Smeed_Report:title]。\">*2</a>では専ら運転に関する外部性の規模に焦点を当てていたのが、その後の40年間に、同料金がどの程度交通量を減らすかに注目が移っていった、という過去の経緯があるが、それは正当だった、と著者たちは評価する。混雑料金の行政固定費用は極めて高いため、交通に有意な影響がある場合しか正当化できないためである。</p><p>ボストンの事例においては、住宅補助は対象のすべての住宅に与えられるが、便益としてカウントできるのは、その中の補助が無ければ建てられなかった住宅（marginal units）に限られる、ということを著者たちは強調している。著者たちの分析では、そうした住宅に対する全体の住宅の割合（total-to-marginal ratio）はかなり大きく、補助金を正当化するためには顕著な現在価値が要求されるという。具体的には、荒廃した近隣の再開発やアメニティの改善や近隣の建物からの税収増を伴わなければ費用便益分析の観点から厳しいのではないか、との由。</p><br />\n<p>日本では、DeNAのスマホゲームに15億円の補助が与えられる一方で、国立映画アーカイブがクラウドファンディングを余儀なくされた、という報道がなされ、そうした財政政策のちぐはぐさに批判も集まっている。この論文の結果を応用するならば、前者はまさに、当該の補助がなければ開発できなかったスマホゲームやその波及効果の現在価値が費用分析の基礎になると思われるが、素人考えでもそうした便益があまりあるようには思われない。それに対し後者は、資金が無ければ失われる映像アーカイブの価値という外部性の大きさで素直に評価すべき話のように思われ、そうした外部性についての現政権の評価がストレートに出てしまった話のように見える。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-3bc6b582\" id=\"f-3bc6b582\" name=\"f-3bc6b582\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\"><a href=\"https://www.jstor.org/stable/2296698\">Weitzman, Martin L. 1974. &ldquo;Prices vs. Quantities.&rdquo; The Review of Economic Studies 41(4): 477&ndash;491.</a>。</span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-9dd242fd\" id=\"f-9dd242fd\" name=\"f-9dd242fd\">*2</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">cf. <a href=\"https://en.wikipedia.org/wiki/Smeed_Report\">Smeed Report - Wikipedia</a>。</span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "b4323bcdd33e7aae",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -8471,11 +8485,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-06-30T16:28:28.675204+00:00",
+  "last_updated": "2026-06-30T20:13:09.342459+00:00",
   "stats": {
-    "total": 605,
-    "fetched_just_now": 866,
-    "feeds_success": 70,
-    "feeds_failed": 5
+    "total": 606,
+    "fetched_just_now": 896,
+    "feeds_success": 75,
+    "feeds_failed": 0
   }
 }

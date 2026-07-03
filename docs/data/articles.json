@@ -8051,11 +8051,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-07-03T17:42:30.226654+00:00",
+  "last_updated": "2026-07-03T19:43:41.430969+00:00",
   "stats": {
     "total": 575,
-    "fetched_just_now": 895,
-    "feeds_success": 75,
-    "feeds_failed": 0
+    "fetched_just_now": 851,
+    "feeds_success": 68,
+    "feeds_failed": 7
   }
 }

@@ -7869,11 +7869,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-07-04T15:18:00.786199+00:00",
+  "last_updated": "2026-07-04T17:16:08.305934+00:00",
   "stats": {
     "total": 562,
-    "fetched_just_now": 853,
-    "feeds_success": 68,
-    "feeds_failed": 7
+    "fetched_just_now": 900,
+    "feeds_success": 75,
+    "feeds_failed": 0
   }
 }

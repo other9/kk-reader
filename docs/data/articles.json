@@ -15,6 +15,20 @@
       "source_type": "scrape_kenbiya"
     },
     {
+      "id": "9fcb5b333aa675cd",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "しんきんとタバコ",
+      "url": "https://www.kenbiya.com/ar/cl/sinkin/55.html",
+      "published": "2026-07-07T00:00:00+09:00",
+      "fetched": "2026-07-06T23:19:32.516363+00:00",
+      "summary": "",
+      "content_html": "<div class=\"honbun entry-content\" id=\"sinkin\">\n<p><img alt=\"\" class=\"alignnone wp-image-30479\" decoding=\"async\" height=\"600\" loading=\"lazy\" src=\"https://media.kenbiya.com/uploads/20260629105912/1165.jpg\" width=\"600\"/></p>\n<p><img alt=\"\" class=\"alignnone wp-image-30480\" decoding=\"async\" height=\"600\" loading=\"lazy\" src=\"https://media.kenbiya.com/uploads/20260629105918/257.jpg\" width=\"600\"/> <img alt=\"\" class=\"alignnone wp-image-30481\" decoding=\"async\" height=\"600\" loading=\"lazy\" src=\"https://media.kenbiya.com/uploads/20260629105923/338.jpg\" width=\"600\"/></p>\n<p><img alt=\"\" class=\"alignnone wp-image-30482\" decoding=\"async\" height=\"600\" loading=\"lazy\" src=\"https://media.kenbiya.com/uploads/20260629105928/436.jpg\" width=\"600\"/></p>\n<p><img alt=\"\" class=\"alignnone wp-image-30483\" decoding=\"async\" height=\"600\" loading=\"lazy\" src=\"https://media.kenbiya.com/uploads/20260629105932/536.jpg\" width=\"600\"/></p>\n<p><img alt=\"\" class=\"alignnone wp-image-30484\" decoding=\"async\" height=\"600\" loading=\"lazy\" src=\"https://media.kenbiya.com/uploads/20260629105936/635.jpg\" width=\"600\"/></p>\n<p><img alt=\"\" class=\"alignnone wp-image-30485\" decoding=\"async\" height=\"600\" loading=\"lazy\" src=\"https://media.kenbiya.com/uploads/20260629105940/735.jpg\" width=\"600\"/></p>\n<p> </p>\n<p><img alt=\"\" class=\"alignnone wp-image-30486\" decoding=\"async\" height=\"600\" loading=\"lazy\" src=\"https://media.kenbiya.com/uploads/20260629105945/834.jpg\" width=\"600\"/></p>\n<p><img alt=\"\" class=\"alignnone wp-image-30487\" decoding=\"async\" height=\"600\" loading=\"lazy\" src=\"https://media.kenbiya.com/uploads/20260629105949/932.jpg\" width=\"600\"/></p>\n<p><img alt=\"\" class=\"alignnone wp-image-30492\" decoding=\"async\" height=\"600\" loading=\"lazy\" src=\"https://media.kenbiya.com/uploads/20260629111203/102.png\" width=\"600\"/></p>\n<p><img alt=\"\" class=\"alignnone wp-image-30489\" decoding=\"async\" height=\"600\" loading=\"lazy\" src=\"https://media.kenbiya.com/uploads/20260629105957/1166.jpg\" width=\"600\"/></p>\n<p><img alt=\"\" class=\"alignnone wp-image-30490\" decoding=\"async\" height=\"600\" loading=\"lazy\" src=\"https://media.kenbiya.com/uploads/20260629110005/1235.jpg\" width=\"600\"/></p>\n</div>\n<div><a href=\"https://www.kenbiya.com/LP/\"><img alt=\"無料会員登録\" data-pin-nopin=\"nopin\" loading=\"lazy\" src=\"https://www.kenbiya.com/images/banner/pc.png\"/></a></div>",
+      "author": "sinkin",
+      "source_type": "scrape_kenbiya"
+    },
+    {
       "id": "5029c7dbab71e333",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -7489,27 +7503,13 @@
       "content_html": null,
       "author": null,
       "source_type": "scrape_kenbiya"
-    },
-    {
-      "id": "18d0ee5c8d5c668b",
-      "feed_id": "c4e832423738",
-      "feed_title": "楽待新聞 編集部記事",
-      "category": "不動産",
-      "title": "ゼロから始めるなら「もう一度ボロ戸建」、持たざる者が無借金でFIREする方法",
-      "url": "https://www.rakumachi.jp/news/video/381926",
-      "published": null,
-      "fetched": "2026-06-06T23:14:34.076760+00:00",
-      "summary": "",
-      "content_html": null,
-      "author": null,
-      "source_type": "scrape_rakumachi"
     }
   ],
-  "last_updated": "2026-07-06T21:44:56.189654+00:00",
+  "last_updated": "2026-07-06T23:19:36.823380+00:00",
   "stats": {
     "total": 536,
-    "fetched_just_now": 890,
-    "feeds_success": 73,
-    "feeds_failed": 2
+    "fetched_just_now": 900,
+    "feeds_success": 75,
+    "feeds_failed": 0
   }
 }

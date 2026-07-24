@@ -6777,11 +6777,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-07-24T17:46:45.697339+00:00",
+  "last_updated": "2026-07-24T19:42:21.488514+00:00",
   "stats": {
     "total": 484,
-    "fetched_just_now": 881,
-    "feeds_success": 64,
-    "feeds_failed": 11
+    "fetched_just_now": 894,
+    "feeds_success": 75,
+    "feeds_failed": 0
   }
 }

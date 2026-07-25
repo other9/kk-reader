@@ -6735,10 +6735,10 @@
       "source_type": "scrape_kenbiya"
     }
   ],
-  "last_updated": "2026-07-25T15:15:06.604230+00:00",
+  "last_updated": "2026-07-25T17:11:18.636059+00:00",
   "stats": {
     "total": 481,
-    "fetched_just_now": 897,
+    "fetched_just_now": 895,
     "feeds_success": 75,
     "feeds_failed": 0
   }

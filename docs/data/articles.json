@@ -15,6 +15,20 @@
       "source_type": "rss"
     },
     {
+      "id": "5d4d2ebbfe7a09b6",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "産業不振アノマリー",
+      "url": "https://himaginary.hatenablog.com/entry/20260728/Industry_Distress_Anomaly",
+      "published": "2026-07-28T14:59:00+00:00",
+      "fetched": "2026-07-28T19:47:45.159056+00:00",
+      "summary": "というNBER論文が 上がっている （ ungated(SSRN)版 ）。原題は「Industry Distress Anomaly」で、著者はHui Chen（MIT）、Winston Wei Dou（ペンシルベニア大）、Hongye Guo（香港大学）、Yan Ji（香港科技大）。 以下はその要旨。 We document a robust industry-level distress anomaly in which more distressed industries earn significantly lower expected equi…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35513\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4738806\">ungated(SSRN)&#x7248;</a>）。原題は「Industry Distress Anomaly」で、著者はHui Chen（MIT）、Winston Wei Dou（ペンシルベニア大）、Hongye Guo（香港大学）、Yan Ji（香港科技大）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>We document a robust industry-level distress anomaly in which more distressed industries earn significantly lower expected equity returns. The anomaly is distinct from the firm-level distress anomaly (Campbell, Hilscher and Szilagyi, 2008). It remains significant after controlling for firm-level distress but disappears in placebo industries formed by randomly reshuffling firms across actual industries. Both theoretically and empirically, we show that competition-distress feedback amplifies the exposure of industry profit margins and equity returns to discount-rate shocks. Industries with greater idiosyncratic left-tail risk are more distressed but exhibit weaker competition-distress feedback. This effect reduces their exposure to discount-rate shocks and thus lowers their expected equity returns.<br />\n（拙訳）<br />\n我々は、不振状態の産業が有意に低い期待株式リターンを得るという、頑健な産業レベルの不振アノマリーを明らかにした。このアノマリーは企業レベルの不振アノマリー（Campbell, Hilscher and Szilagyi, 2008<a href=\"#f-a04007b1\" id=\"fn-a04007b1\" name=\"fn-a04007b1\" title=\"[https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6261.2008.01416.x:title]。\">*1</a>）とは別個のものである。それは企業レベルの不振をコントロールした後も依然として有意であるが、実際の産業を跨がって企業をランダムに入れ替えて形成した偽の産業では消失する。理論と実証の両面で我々は、競争と不振のフィードバックが、割引率ショックへの産業の利鞘と株式リターンのエクスポージャーを増幅することを示す。固有の左端テールリスクが大きい産業はより不振状態にあるが、競争と不振のフィードバックは弱い。この効果は割引率ショックへのそれらの産業のエクスポージャーを減らし、そのため期待株式リターンが低まる。</p>\n\n    </blockquote>\n<p>ここでアノマリーと言っているのは、企業が債務不履行に近付くにつれ株式のリスクは高まり、従って財務的に不振な企業の期待株式リターンは高くなる、という、リスクのある債務の標準的な構造モデルの含意に反する点を指している。<br />\n競争と不振のフィードバックは、企業が財務的に不振に陥ると、株主は企業の将来の利益よりも現在のキャッシュフローに重きを置くようになり、そのため不振状態にある企業は短期の収益を増やすために価格や利幅を切り下げるインセンティブを持つことから生じる。競争が激しくなると産業の全ての企業の利鞘が減り、債務不履行状態に近付くため、より積極的に競争するインセンティブが強まる。<br />\n業界大手の顧客基盤に対する固有のテールリスク（新技術による置き換えや急速に伸びている競争相手など）が大きい産業では、製品市場での将来の企業の地位がそうした産業特有のリスクで損なわれるため、現金のような内部流動性バッファを保有していてもそのリスクを実質的にヘッジすることはできない。そうした産業の企業では将来の協調に重きを置かなくなり、共同で全体の利幅を維持しようというインセンティブが弱くなる。従って、競争と不振のフィードバックも弱くなるとの由。その場合、全体的な割引率ショックへの利鞘と株式価値の負の反応が弱くなるが、割引率ショックの価格付けはマイナスであるため、マイナスのエクスポージャーが弱まることで期待超過リターンも低下するとのことである。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-a04007b1\" id=\"f-a04007b1\" name=\"f-a04007b1\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\"><a href=\"https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6261.2008.01416.x\">In Search of Distress Risk - CAMPBELL - 2008 - The Journal of Finance - Wiley Online Library</a>。</span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "85ff397e2110d531",
       "feed_id": "2ec7ee82ecf8",
       "feed_title": "マンションの間取りや価格を言いたい放題!",
@@ -6707,10 +6721,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-07-28T17:43:00.133968+00:00",
+  "last_updated": "2026-07-28T19:47:46.014115+00:00",
   "stats": {
-    "total": 479,
-    "fetched_just_now": 897,
+    "total": 480,
+    "fetched_just_now": 896,
     "feeds_success": 75,
     "feeds_failed": 0
   }

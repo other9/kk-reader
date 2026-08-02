@@ -38,7 +38,7 @@ kk-reader/
 │   ├── fetch-feeds.yml      # 取得ワークフロー（2時間ごと）
 │   ├── ci.yml               # 品質チェック（push時）
 │   └── dependabot.yml       # 依存関係自動更新
-├── docs/                     # GitHub Pages公開ディレクトリ
+├── docs/                     # 配信ディレクトリ（Cloudflare Pages が main:/docs を自動配信）
 │   ├── index.html
 │   ├── app.js
 │   ├── style.css

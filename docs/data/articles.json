@@ -6609,11 +6609,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-02T17:11:27.691508+00:00",
+  "last_updated": "2026-08-02T19:23:31.760005+00:00",
   "stats": {
     "total": 472,
-    "fetched_just_now": 892,
-    "feeds_success": 72,
-    "feeds_failed": 3
+    "fetched_just_now": 882,
+    "feeds_success": 69,
+    "feeds_failed": 6
   }
 }

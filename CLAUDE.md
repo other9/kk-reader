@@ -66,7 +66,8 @@ feeds.json の楽待2フィードを `active=true` に戻し、プロキシ経�
 Feedly の代替として作った個人用 RSS リーダー。サーバー不要・無料枠で完結。
 
 - **更新**: GitHub Actions（2時間ごと、`:07` に実行）
-- **配信**: GitHub Pages（`other9.github.io/kk-reader`）
+- **配信**: Cloudflare Pages（`https://kk-reader.pages.dev`・**正**・Access本人限定・main:/docs を毎push自動配信）
+  - 2026-08-02: GitHub Pages（other9.github.io/kk-reader）は**停止**（gh api DELETE /pages）。Cloudflareを正とする。アプリ内に絶対URL参照なし・kk-sync CORS は pages.dev を許可済みのため移行作業なし
 - **同期**: Cloudflare Worker `kk-sync`（既読/お気に入り・記事取得・プロキシ）
 
 ---
@@ -95,7 +96,7 @@ GitHub Actions (2時間ごと cron: "7 */2 * * *")
 ## ディレクトリ構成
 
 ```
-docs/                    # GitHub Pages 公開ディレクトリ
+docs/                    # 配信ディレクトリ（Cloudflare Pages 正）
   index.html
   app.js
   style.css

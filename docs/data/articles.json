@@ -6623,11 +6623,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-03T19:51:30.304867+00:00",
+  "last_updated": "2026-08-03T21:16:02.263263+00:00",
   "stats": {
     "total": 473,
-    "fetched_just_now": 902,
-    "feeds_success": 75,
-    "feeds_failed": 0
+    "fetched_just_now": 891,
+    "feeds_success": 72,
+    "feeds_failed": 3
   }
 }

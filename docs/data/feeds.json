@@ -27,8 +27,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:50.866091+00:00",
-      "last_success": "2026-08-02T23:04:52.218298+00:00",
+      "last_fetch": "2026-08-03T03:47:57.358484+00:00",
+      "last_success": "2026-08-03T03:47:58.987868+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -43,8 +43,8 @@
       "verify_ssl": true,
       "etag": "\"a88965db375c15824098230713488605\"",
       "last_modified": "Wed, 18 Sep 2024 03:26:14 GMT",
-      "last_fetch": "2026-08-02T23:04:50.866747+00:00",
-      "last_success": "2026-08-02T23:04:52.144041+00:00",
+      "last_fetch": "2026-08-03T03:47:57.359346+00:00",
+      "last_success": "2026-08-03T03:47:58.342058+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -59,8 +59,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": "Sat, 1 Aug 2026 14:52:30 GMT",
-      "last_fetch": "2026-08-02T23:04:50.867071+00:00",
-      "last_success": "2026-08-02T23:04:51.232133+00:00",
+      "last_fetch": "2026-08-03T03:47:57.359692+00:00",
+      "last_success": "2026-08-03T03:47:57.552485+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -75,10 +75,10 @@
       "verify_ssl": true,
       "etag": "W/\"671afaa09a92650684b6b9e1dfd13480\"",
       "last_modified": "Sat, 20 Aug 2022 00:47:37 GMT",
-      "last_fetch": "2026-08-02T23:04:50.867377+00:00",
-      "last_success": "2026-08-02T21:06:33.666159+00:00",
-      "error_count": 1,
-      "last_error": "接続エラー: ConnectTimeout: HTTPConnectionPool(host='www.sekkachi.com', port=80): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPConnection(host='www.sekkachi.com', port=80) at 0x7fa5359f5990>, 'Connecti"
+      "last_fetch": "2026-08-03T03:47:57.360012+00:00",
+      "last_success": "2026-08-03T03:47:59.081071+00:00",
+      "error_count": 0,
+      "last_error": null
     },
     {
       "id": "7e251ab0bca6",
@@ -107,8 +107,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:50.867844+00:00",
-      "last_success": "2026-08-02T23:04:52.049864+00:00",
+      "last_fetch": "2026-08-03T03:47:57.360618+00:00",
+      "last_success": "2026-08-03T03:47:58.798682+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -155,8 +155,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:50.868274+00:00",
-      "last_success": "2026-08-02T23:04:51.378929+00:00",
+      "last_fetch": "2026-08-03T03:47:57.360920+00:00",
+      "last_success": "2026-08-03T03:47:58.435884+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -171,8 +171,8 @@
       "verify_ssl": true,
       "etag": "W/\"dde08af965d02c536c1ffd87c5f70206ffb180892ec91f4e5c322d98aafd4f0d\"",
       "last_modified": "Thu, 19 Dec 2024 03:31:54 GMT",
-      "last_fetch": "2026-08-02T23:04:50.871206+00:00",
-      "last_success": "2026-08-02T23:04:51.142360+00:00",
+      "last_fetch": "2026-08-03T03:47:57.361246+00:00",
+      "last_success": "2026-08-03T03:47:57.469791+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -187,8 +187,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:50.873531+00:00",
-      "last_success": "2026-08-02T23:04:52.396458+00:00",
+      "last_fetch": "2026-08-03T03:47:57.364308+00:00",
+      "last_success": "2026-08-03T03:47:59.883663+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -203,10 +203,10 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": "Tue, 09 Jun 2026 05:04:13 GMT",
-      "last_fetch": "2026-08-02T23:04:50.874715+00:00",
-      "last_success": "2026-08-02T21:06:33.964244+00:00",
-      "error_count": 1,
-      "last_error": "接続エラー: ConnectTimeout: HTTPConnectionPool(host='jcvisa.info', port=80): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPConnection(host='jcvisa.info', port=80) at 0x7fa5359f4710>, 'Connection to jcv"
+      "last_fetch": "2026-08-03T03:47:57.370664+00:00",
+      "last_success": "2026-08-03T03:47:59.509617+00:00",
+      "error_count": 0,
+      "last_error": null
     },
     {
       "id": "1b231cd1d0ae",
@@ -219,8 +219,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:50.876467+00:00",
-      "last_success": "2026-08-02T23:04:52.915267+00:00",
+      "last_fetch": "2026-08-03T03:47:57.373956+00:00",
+      "last_success": "2026-08-03T03:47:59.737198+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -235,8 +235,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:50.877700+00:00",
-      "last_success": "2026-08-02T23:04:51.434682+00:00",
+      "last_fetch": "2026-08-03T03:47:57.375753+00:00",
+      "last_success": "2026-08-03T03:47:57.822626+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -267,8 +267,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:50.878891+00:00",
-      "last_success": "2026-08-02T23:04:51.917412+00:00",
+      "last_fetch": "2026-08-03T03:47:57.378349+00:00",
+      "last_success": "2026-08-03T03:47:58.851235+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -282,9 +282,9 @@
       "active": true,
       "verify_ssl": true,
       "etag": null,
-      "last_modified": "Mon, 13 Jul 2026 23:57:51 GMT",
-      "last_fetch": "2026-08-02T23:04:51.143198+00:00",
-      "last_success": "2026-08-02T23:04:51.317340+00:00",
+      "last_modified": "Wed, 01 Apr 2026 17:05:53 GMT",
+      "last_fetch": "2026-08-03T03:47:57.470539+00:00",
+      "last_success": "2026-08-03T03:47:57.561073+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -315,10 +315,10 @@
       "verify_ssl": true,
       "etag": "W/\"7731fb734cb1d896f0c158bfa0d17c30\"",
       "last_modified": "Thu, 30 Apr 2026 10:16:11 GMT",
-      "last_fetch": "2026-08-02T23:04:51.233600+00:00",
-      "last_success": "2026-08-02T21:06:33.375998+00:00",
-      "error_count": 1,
-      "last_error": "接続エラー: ConnectTimeout: HTTPSConnectionPool(host='hardrockman.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='hardrockman.com', port=443) at 0x7fa534837450>, 'Conn"
+      "last_fetch": "2026-08-03T03:47:57.552851+00:00",
+      "last_success": "2026-08-03T03:47:58.648085+00:00",
+      "error_count": 0,
+      "last_error": null
     },
     {
       "id": "3ff7774bb7bf",
@@ -331,8 +331,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:51.318038+00:00",
-      "last_success": "2026-08-02T23:04:52.154171+00:00",
+      "last_fetch": "2026-08-03T03:47:57.561897+00:00",
+      "last_success": "2026-08-03T03:47:58.296471+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -347,8 +347,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:51.379993+00:00",
-      "last_success": "2026-08-02T23:04:54.274952+00:00",
+      "last_fetch": "2026-08-03T03:47:57.823759+00:00",
+      "last_success": "2026-08-03T03:48:00.735186+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -363,8 +363,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:51.435765+00:00",
-      "last_success": "2026-08-02T23:04:52.579696+00:00",
+      "last_fetch": "2026-08-03T03:47:58.297865+00:00",
+      "last_success": "2026-08-03T03:47:59.309973+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -395,8 +395,8 @@
       "verify_ssl": true,
       "etag": "\"67dc63e9faf7249bd4f86b9106862efc\"",
       "last_modified": "Thu, 28 Nov 2024 22:31:44 GMT",
-      "last_fetch": "2026-08-02T23:04:51.928972+00:00",
-      "last_success": "2026-08-02T23:04:52.705189+00:00",
+      "last_fetch": "2026-08-03T03:47:58.342217+00:00",
+      "last_success": "2026-08-03T03:47:59.417159+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -411,8 +411,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:52.056357+00:00",
-      "last_success": "2026-08-02T23:04:52.813376+00:00",
+      "last_fetch": "2026-08-03T03:47:58.442072+00:00",
+      "last_success": "2026-08-03T03:47:59.095003+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -427,8 +427,8 @@
       "verify_ssl": true,
       "etag": "\"31861f4be7d137a4d41d613a5d952fac\"",
       "last_modified": "Sun, 05 Oct 2025 06:06:25 GMT",
-      "last_fetch": "2026-08-02T23:04:52.159531+00:00",
-      "last_success": "2026-08-02T23:04:53.695029+00:00",
+      "last_fetch": "2026-08-03T03:47:58.654035+00:00",
+      "last_success": "2026-08-03T03:48:00.963970+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -443,10 +443,10 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:52.167138+00:00",
-      "last_success": "2026-08-02T21:06:38.233383+00:00",
-      "error_count": 1,
-      "last_error": "接続エラー: ConnectTimeout: HTTPConnectionPool(host='wangantower.com', port=80): Max retries exceeded with url: /?feed=rss2 (Caused by ConnectTimeoutError(<HTTPConnection(host='wangantower.com', port=80) at 0x7fa5348a40d0>, 'Con"
+      "last_fetch": "2026-08-03T03:47:58.805860+00:00",
+      "last_success": "2026-08-03T03:48:00.004752+00:00",
+      "error_count": 0,
+      "last_error": null
     },
     {
       "id": "91cb306517cd",
@@ -475,10 +475,10 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:52.219727+00:00",
+      "last_fetch": "2026-08-03T03:47:58.863350+00:00",
       "last_success": "2026-08-02T23:04:52.528976+00:00",
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 403"
     },
     {
       "id": "416ab9ec27e5",
@@ -507,8 +507,8 @@
       "verify_ssl": true,
       "etag": "\"554657410030d6c4d49dd7ef3e57aafd-gzip\"",
       "last_modified": "Mon, 13 Apr 2026 12:00:17 GMT",
-      "last_fetch": "2026-08-02T23:04:52.399029+00:00",
-      "last_success": "2026-08-02T23:04:56.267144+00:00",
+      "last_fetch": "2026-08-03T03:47:58.989370+00:00",
+      "last_success": "2026-08-03T03:48:03.280835+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -523,10 +523,10 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:52.534330+00:00",
+      "last_fetch": "2026-08-03T03:47:59.092208+00:00",
       "last_success": "2026-08-02T23:04:53.045668+00:00",
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 403"
     },
     {
       "id": "dd3a8a5b5dc8",
@@ -555,8 +555,8 @@
       "verify_ssl": true,
       "etag": "W/\"01bfce696b49d0cb31e42cfcc370ae99eef04f7038e826e67b70887458e1a4e6\"",
       "last_modified": "Thu, 29 Aug 2024 02:08:53 GMT",
-      "last_fetch": "2026-08-02T23:04:52.581168+00:00",
-      "last_success": "2026-08-02T23:04:52.922565+00:00",
+      "last_fetch": "2026-08-03T03:47:59.096044+00:00",
+      "last_success": "2026-08-03T03:47:59.223671+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -571,8 +571,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:52.711141+00:00",
-      "last_success": "2026-08-02T23:04:53.790646+00:00",
+      "last_fetch": "2026-08-03T03:47:59.246319+00:00",
+      "last_success": "2026-08-03T03:48:00.590463+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -603,12 +603,12 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:52.819631+00:00",
-      "last_success": "2026-08-02T23:04:54.910884+00:00",
+      "last_fetch": "2026-08-03T03:47:59.311370+00:00",
+      "last_success": "2026-08-03T03:48:01.566711+00:00",
       "error_count": 0,
       "last_error": null,
       "last_items_count": 50,
-      "last_bodies_fetched": 2
+      "last_bodies_fetched": 1
     },
     {
       "id": "628522670f33",
@@ -621,8 +621,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:52.917273+00:00",
-      "last_success": "2026-08-02T23:04:53.393594+00:00",
+      "last_fetch": "2026-08-03T03:47:59.314164+00:00",
+      "last_success": "2026-08-03T03:47:59.809297+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -637,8 +637,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:52.923360+00:00",
-      "last_success": "2026-08-02T23:04:53.467414+00:00",
+      "last_fetch": "2026-08-03T03:47:59.418030+00:00",
+      "last_success": "2026-08-03T03:47:59.951663+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -721,10 +721,10 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:53.045964+00:00",
+      "last_fetch": "2026-08-03T03:47:59.526066+00:00",
       "last_success": "2026-08-02T23:04:53.389050+00:00",
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 403"
     },
     {
       "id": "10db5297d0b1",
@@ -737,8 +737,8 @@
       "verify_ssl": true,
       "etag": "\"644edb96-937a\"",
       "last_modified": "Sun, 30 Apr 2023 21:20:22 GMT",
-      "last_fetch": "2026-08-02T23:04:53.393877+00:00",
-      "last_success": "2026-08-02T23:04:54.305885+00:00",
+      "last_fetch": "2026-08-03T03:47:59.593373+00:00",
+      "last_success": "2026-08-03T03:48:00.429169+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -769,8 +769,8 @@
       "verify_ssl": true,
       "etag": "\"bf7417e25aefa370fcf91d14501ad506\"",
       "last_modified": "Tue, 08 Feb 2022 01:01:58 GMT",
-      "last_fetch": "2026-08-02T23:04:53.395136+00:00",
-      "last_success": "2026-08-02T23:04:54.803483+00:00",
+      "last_fetch": "2026-08-03T03:47:59.739015+00:00",
+      "last_success": "2026-08-03T03:48:01.169406+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -785,8 +785,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:53.468475+00:00",
-      "last_success": "2026-08-02T23:04:54.091979+00:00",
+      "last_fetch": "2026-08-03T03:47:59.809550+00:00",
+      "last_success": "2026-08-03T03:48:01.134524+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -801,8 +801,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:53.695922+00:00",
-      "last_success": "2026-08-02T23:04:54.160834+00:00",
+      "last_fetch": "2026-08-03T03:47:59.887198+00:00",
+      "last_success": "2026-08-03T03:48:00.436202+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -817,10 +817,10 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:53.792706+00:00",
+      "last_fetch": "2026-08-03T03:47:59.930201+00:00",
       "last_success": "2026-08-02T23:04:54.064932+00:00",
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 403"
     },
     {
       "id": "bbae8955bc3a",
@@ -849,10 +849,10 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:54.065474+00:00",
+      "last_fetch": "2026-08-03T03:47:59.952679+00:00",
       "last_success": "2026-08-02T23:04:54.675931+00:00",
-      "error_count": 0,
-      "last_error": null
+      "error_count": 1,
+      "last_error": "HTTP 403"
     },
     {
       "id": "a60be3fa4db5",
@@ -865,8 +865,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": "Fri, 24 Jul 2026 17:16:16 GMT",
-      "last_fetch": "2026-08-02T23:04:54.093258+00:00",
-      "last_success": "2026-08-02T23:04:54.548270+00:00",
+      "last_fetch": "2026-08-03T03:48:00.007364+00:00",
+      "last_success": "2026-08-03T03:48:00.567515+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -897,8 +897,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:54.161169+00:00",
-      "last_success": "2026-08-02T23:04:55.638618+00:00",
+      "last_fetch": "2026-08-03T03:48:00.186339+00:00",
+      "last_success": "2026-08-03T03:48:01.852095+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -913,8 +913,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": "Mon, 20 Jul 2026 01:04:30 GMT",
-      "last_fetch": "2026-08-02T23:04:54.277815+00:00",
-      "last_success": "2026-08-02T23:04:54.586535+00:00",
+      "last_fetch": "2026-08-03T03:48:00.219971+00:00",
+      "last_success": "2026-08-03T03:48:00.422079+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -929,8 +929,8 @@
       "verify_ssl": true,
       "etag": "W/\"f424e609c8494165852f232e2620504cfe247f61e7077016bc01c4f84ef5b17e\"",
       "last_modified": "Wed, 29 Apr 2026 07:38:48 GMT",
-      "last_fetch": "2026-08-02T23:04:54.305987+00:00",
-      "last_success": "2026-08-02T23:04:54.548771+00:00",
+      "last_fetch": "2026-08-03T03:48:00.427767+00:00",
+      "last_success": "2026-08-03T03:48:00.705289+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -945,8 +945,8 @@
       "verify_ssl": true,
       "etag": "W/\"b295de9a5d37ad89eb7dd996711bfe9f2345d21031e2f20433a9b677dd0deb3a\"",
       "last_modified": "Mon, 02 Sep 2024 10:04:46 GMT",
-      "last_fetch": "2026-08-02T23:04:54.548909+00:00",
-      "last_success": "2026-08-02T23:04:54.741432+00:00",
+      "last_fetch": "2026-08-03T03:48:00.429433+00:00",
+      "last_success": "2026-08-03T03:48:00.532664+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -961,8 +961,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:54.571668+00:00",
-      "last_success": "2026-08-02T23:04:55.164447+00:00",
+      "last_fetch": "2026-08-03T03:48:00.436496+00:00",
+      "last_success": "2026-08-03T03:48:01.166909+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -993,9 +993,9 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:54.587118+00:00",
+      "last_fetch": "2026-08-03T03:48:00.538100+00:00",
       "last_success": "2026-08-02T15:13:01.226252+00:00",
-      "error_count": 4,
+      "error_count": 5,
       "last_error": "HTTP 403"
     },
     {
@@ -1009,8 +1009,8 @@
       "verify_ssl": true,
       "etag": "W/\"dfe849d4ddc397e2f66506365931969280a336be651122296f37929d93b1ebfe\"",
       "last_modified": "Mon, 07 Oct 2024 03:27:58 GMT",
-      "last_fetch": "2026-08-02T23:04:54.676363+00:00",
-      "last_success": "2026-08-02T23:04:54.852358+00:00",
+      "last_fetch": "2026-08-03T03:48:00.573986+00:00",
+      "last_success": "2026-08-03T03:48:00.716976+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1025,8 +1025,8 @@
       "verify_ssl": true,
       "etag": "W/\"eda1f7d8347deed54c30c65127a44fa5b26aada5625c79bb5b39390fbebf67d8\"",
       "last_modified": "Mon, 02 Sep 2024 00:01:35 GMT",
-      "last_fetch": "2026-08-02T23:04:54.741553+00:00",
-      "last_success": "2026-08-02T23:04:55.006470+00:00",
+      "last_fetch": "2026-08-03T03:48:00.594289+00:00",
+      "last_success": "2026-08-03T03:48:00.672104+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1041,8 +1041,8 @@
       "verify_ssl": true,
       "etag": "W/\"04c7ea259ce30754b5617e8132684a5a3a541dcfef4ce84e38629eb01cfb938a\"",
       "last_modified": "Thu, 29 Aug 2024 20:47:20 GMT",
-      "last_fetch": "2026-08-02T23:04:54.804541+00:00",
-      "last_success": "2026-08-02T23:04:54.948440+00:00",
+      "last_fetch": "2026-08-03T03:48:00.687949+00:00",
+      "last_success": "2026-08-03T03:48:00.790879+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1089,8 +1089,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:54.857583+00:00",
-      "last_success": "2026-08-02T23:04:55.633233+00:00",
+      "last_fetch": "2026-08-03T03:48:00.705414+00:00",
+      "last_success": "2026-08-03T03:48:01.555099+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1121,8 +1121,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:54.898255+00:00",
-      "last_success": "2026-08-02T23:04:56.382931+00:00",
+      "last_fetch": "2026-08-03T03:48:00.717126+00:00",
+      "last_success": "2026-08-03T03:48:02.110920+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1201,8 +1201,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:54.948554+00:00",
-      "last_success": "2026-08-02T23:04:56.409496+00:00",
+      "last_fetch": "2026-08-03T03:48:00.740894+00:00",
+      "last_success": "2026-08-03T03:48:02.164741+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1217,8 +1217,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:55.006592+00:00",
-      "last_success": "2026-08-02T23:04:55.667634+00:00",
+      "last_fetch": "2026-08-03T03:48:00.791007+00:00",
+      "last_success": "2026-08-03T03:48:01.501041+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1233,8 +1233,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:55.164752+00:00",
-      "last_success": "2026-08-02T23:04:56.683656+00:00",
+      "last_fetch": "2026-08-03T03:48:00.952363+00:00",
+      "last_success": "2026-08-03T03:48:02.637709+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1265,10 +1265,10 @@
       "verify_ssl": true,
       "etag": "W/\"6cb9031c957d4f2bc166ac28dab63bdb\"",
       "last_modified": "Sat, 01 Aug 2026 08:52:23 GMT",
-      "last_fetch": "2026-08-02T23:04:55.633541+00:00",
-      "last_success": "2026-08-02T21:06:37.042968+00:00",
-      "error_count": 1,
-      "last_error": "接続エラー: ConnectTimeout: HTTPConnectionPool(host='yusn.net', port=80): Max retries exceeded with url: /feed/atom (Caused by ConnectTimeoutError(<HTTPConnection(host='yusn.net', port=80) at 0x7fa5359df190>, 'Connection to yusn"
+      "last_fetch": "2026-08-03T03:48:00.964986+00:00",
+      "last_success": "2026-08-03T03:48:03.718815+00:00",
+      "error_count": 0,
+      "last_error": null
     },
     {
       "id": "91d7cb290815",
@@ -1281,8 +1281,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:55.661587+00:00",
-      "last_success": "2026-08-02T23:04:56.995752+00:00",
+      "last_fetch": "2026-08-03T03:48:01.146546+00:00",
+      "last_success": "2026-08-03T03:48:01.936483+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1297,8 +1297,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:55.668297+00:00",
-      "last_success": "2026-08-02T23:04:58.277199+00:00",
+      "last_fetch": "2026-08-03T03:48:01.167806+00:00",
+      "last_success": "2026-08-03T03:48:02.154432+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1313,8 +1313,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": "Sat, 1 Aug 2026 14:54:58 GMT",
-      "last_fetch": "2026-08-02T23:04:56.268736+00:00",
-      "last_success": "2026-08-02T23:04:56.522165+00:00",
+      "last_fetch": "2026-08-03T03:48:01.170715+00:00",
+      "last_success": "2026-08-03T03:48:01.333603+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1329,8 +1329,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": "Thu, 1 Jan 1970 00:00:00 GMT",
-      "last_fetch": "2026-08-02T23:04:56.385355+00:00",
-      "last_success": "2026-08-02T23:04:56.982001+00:00",
+      "last_fetch": "2026-08-03T03:48:01.333991+00:00",
+      "last_success": "2026-08-03T03:48:01.985189+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1345,8 +1345,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:56.410656+00:00",
-      "last_success": "2026-08-02T23:04:57.225578+00:00",
+      "last_fetch": "2026-08-03T03:48:01.501501+00:00",
+      "last_success": "2026-08-03T03:48:02.432310+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1393,8 +1393,8 @@
       "verify_ssl": true,
       "etag": "W/\"04ee2d29007b2d7f6bc7291d8cf3a84d930766f3749c05b64a21174a91cda7e3\"",
       "last_modified": "Sat, 07 Feb 2026 13:13:05 GMT",
-      "last_fetch": "2026-08-02T23:04:56.522529+00:00",
-      "last_success": "2026-08-02T23:04:56.780810+00:00",
+      "last_fetch": "2026-08-03T03:48:01.555479+00:00",
+      "last_success": "2026-08-03T03:48:01.618122+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1425,8 +1425,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:56.686853+00:00",
-      "last_success": "2026-08-02T23:04:57.354739+00:00",
+      "last_fetch": "2026-08-03T03:48:01.623372+00:00",
+      "last_success": "2026-08-03T03:48:02.404366+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1473,8 +1473,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:56.780944+00:00",
-      "last_success": "2026-08-02T23:04:59.304326+00:00",
+      "last_fetch": "2026-08-03T03:48:01.864833+00:00",
+      "last_success": "2026-08-03T03:48:04.267281+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1505,8 +1505,8 @@
       "verify_ssl": true,
       "etag": "W/\"df91b4ad349281004e90c2bd8d314eb045bc6033fc6c0b62bd56f8a7b51cb4e1\"",
       "last_modified": "Mon, 16 Sep 2024 04:59:20 GMT",
-      "last_fetch": "2026-08-02T23:04:56.982936+00:00",
-      "last_success": "2026-08-02T23:04:57.173746+00:00",
+      "last_fetch": "2026-08-03T03:48:01.949190+00:00",
+      "last_success": "2026-08-03T03:48:02.022684+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1521,8 +1521,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:56.997598+00:00",
-      "last_success": "2026-08-02T23:04:57.448693+00:00",
+      "last_fetch": "2026-08-03T03:48:01.985908+00:00",
+      "last_success": "2026-08-03T03:48:02.408063+00:00",
       "error_count": 0,
       "last_error": null,
       "last_items_count": 204,
@@ -1539,10 +1539,10 @@
       "verify_ssl": true,
       "etag": "W/\"7d41b49c4c6d1f59c4e47d30df58824a\"",
       "last_modified": "Mon, 06 Jul 2026 08:03:10 GMT",
-      "last_fetch": "2026-08-02T23:04:57.142983+00:00",
-      "last_success": "2026-08-02T21:06:38.135961+00:00",
-      "error_count": 1,
-      "last_error": "接続エラー: ConnectTimeout: HTTPSConnectionPool(host='triumphmind.com', port=443): Max retries exceeded with url: /cfa/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='triumphmind.com', port=443) at 0x7fa5340e35d0>, '"
+      "last_fetch": "2026-08-03T03:48:02.022835+00:00",
+      "last_success": "2026-08-03T03:48:02.865770+00:00",
+      "error_count": 0,
+      "last_error": null
     },
     {
       "id": "d2c911883515",
@@ -1555,8 +1555,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:57.173857+00:00",
-      "last_success": "2026-08-02T23:04:57.762074+00:00",
+      "last_fetch": "2026-08-03T03:48:02.114042+00:00",
+      "last_success": "2026-08-03T03:48:02.820053+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1587,8 +1587,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:57.227414+00:00",
-      "last_success": "2026-08-02T23:04:58.565262+00:00",
+      "last_fetch": "2026-08-03T03:48:02.165354+00:00",
+      "last_success": "2026-08-03T03:48:04.016989+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1619,8 +1619,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:57.355131+00:00",
-      "last_success": "2026-08-02T23:04:57.707450+00:00",
+      "last_fetch": "2026-08-03T03:48:02.168205+00:00",
+      "last_success": "2026-08-03T03:48:02.506414+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1635,9 +1635,9 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:57.451240+00:00",
+      "last_fetch": "2026-08-03T03:48:02.409950+00:00",
       "last_success": "2026-08-02T15:13:03.048285+00:00",
-      "error_count": 4,
+      "error_count": 5,
       "last_error": "HTTP 403"
     },
     {
@@ -1667,8 +1667,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:57.708435+00:00",
-      "last_success": "2026-08-02T23:04:59.032811+00:00",
+      "last_fetch": "2026-08-03T03:48:02.412373+00:00",
+      "last_success": "2026-08-03T03:48:03.866538+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1683,8 +1683,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:57.762652+00:00",
-      "last_success": "2026-08-02T23:04:58.592232+00:00",
+      "last_fetch": "2026-08-03T03:48:02.436640+00:00",
+      "last_success": "2026-08-03T03:48:03.381352+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1731,8 +1731,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:57.763655+00:00",
-      "last_success": "2026-08-02T23:04:59.397520+00:00",
+      "last_fetch": "2026-08-03T03:48:02.507527+00:00",
+      "last_success": "2026-08-03T03:48:04.081947+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1747,8 +1747,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:58.279324+00:00",
-      "last_success": "2026-08-02T23:04:58.963351+00:00",
+      "last_fetch": "2026-08-03T03:48:02.643072+00:00",
+      "last_success": "2026-08-03T03:48:03.348187+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1763,8 +1763,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:58.577842+00:00",
-      "last_success": "2026-08-02T23:05:00.146145+00:00",
+      "last_fetch": "2026-08-03T03:48:02.820398+00:00",
+      "last_success": "2026-08-03T03:48:04.275042+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1779,8 +1779,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:58.592505+00:00",
-      "last_success": "2026-08-02T23:04:59.330703+00:00",
+      "last_fetch": "2026-08-03T03:48:02.838185+00:00",
+      "last_success": "2026-08-03T03:48:03.438965+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1795,8 +1795,8 @@
       "verify_ssl": true,
       "etag": null,
       "last_modified": null,
-      "last_fetch": "2026-08-02T23:04:58.964982+00:00",
-      "last_success": "2026-08-02T23:04:59.297693+00:00",
+      "last_fetch": "2026-08-03T03:48:02.860312+00:00",
+      "last_success": "2026-08-03T03:48:03.160354+00:00",
       "error_count": 0,
       "last_error": null
     },
@@ -1811,10 +1811,10 @@
       "verify_ssl": true,
       "etag": "W/\"18af8e37eacd774ee32f72b16a89b0ab\"",
       "last_modified": "Sun, 26 Jul 2026 08:35:55 GMT",
-      "last_fetch": "2026-08-02T23:04:59.033861+00:00",
-      "last_success": "2026-08-02T21:06:38.814616+00:00",
-      "error_count": 1,
-      "last_error": "接続エラー: ConnectTimeout: HTTPConnectionPool(host='saferich.biz', port=80): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPConnection(host='saferich.biz', port=80) at 0x7fa52ce41550>, 'Connection to "
+      "last_fetch": "2026-08-03T03:48:02.866566+00:00",
+      "last_success": "2026-08-03T03:48:04.689151+00:00",
+      "error_count": 0,
+      "last_error": null
     }
   ],
   "categories": [

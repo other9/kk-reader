@@ -29,6 +29,20 @@
       "source_type": "rss"
     },
     {
+      "id": "4974ed73821b6bf9",
+      "feed_id": "6c30fc2654fb",
+      "feed_title": "元官庁エコノミストのブログ",
+      "category": "金融・経済・投資",
+      "title": "チャンスはありながら決定打なく好投の村上投手を見殺し",
+      "url": "http://economist.cocolog-nifty.com/blog/2026/08/post-358db5.html",
+      "published": "2026-08-04T12:30:00+00:00",
+      "fetched": "2026-08-04T19:50:32.102485+00:00",
+      "summary": "一 二 三 四 五 六 七 八 九 R H E 阪 神 0 0 0 0 0 0 0 0 0 0 8 0 横 浜 0 0 0 1 0 0 0 0 0 0 4 0 【神】 村上、及川、岩崎 - 坂本 【横】 尾形、ルイーズ、レイノルズ - 松尾 得点機は再三ありながら決定打なく、 横浜に完封負け でした。 先発村上投手は6回4安打1失点と十分にナイスピッチングでした。後を継いだ及川投手と岩崎投手も、最近、やや調子を落としていましたがノーヒットに抑え切りました。ただ、だせんが、、特に終盤7回、8回、9回と得点圏にランナーを進めながら決定打がなく、ことごとくチャ…",
+      "content_html": "<p><a href=\"https://hanshintigers.jp/game/score/table/table20260804.html\" style=\"font-style: normal;\" target=\"_blank\"><table class=\"s-b\" title=\"スコアボード\"><tr class=\"sb1\"><td class=\"sb1\"> </td><td class=\"sb2\">一</td><td class=\"sb2\">二</td><td class=\"sb2\">三</td><td class=\"sb2\">四</td><td class=\"sb2\">五</td><td class=\"sb2\">六</td><td class=\"sb2\">七</td><td class=\"sb2\">八</td><td class=\"sb2\">九</td><td class=\"sb3\"> </td><td class=\"sb4\">R</td><td class=\"sb4\">H</td><td class=\"sb2\">E</td></tr><tr class=\"sb2\"><td>阪　　神</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class=\"sb3\"> </td><td>0</td><td>8</td><td>0</td></tr><tr class=\"sb2\"><td>横　　浜</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class=\"sb3\"> </td><td>0</td><td>4</td><td>0</td></tr></table></a><br />【神】 村上、及川、岩崎 - 坂本<br />【横】 尾形、ルイーズ、レイノルズ - 松尾</p><p>得点機は再三ありながら決定打なく、<span class=\"red\">横浜に完封負け</span>でした。<br />先発村上投手は6回4安打1失点と十分にナイスピッチングでした。後を継いだ及川投手と岩崎投手も、最近、やや調子を落としていましたがノーヒットに抑え切りました。ただ、だせんが、、特に終盤7回、8回、9回と得点圏にランナーを進めながら決定打がなく、ことごとくチャンスを逃して無得点に終わってしまいました。初物投手に弱いとはいえ、終盤のチャンスには<span class=\"blue\">一本欲しかった</span>ところです。</p><p>明日は、<br /><span class=\"tigers\">がんばれタイガース!</p>",
+      "author": "元官庁エコノミスト",
+      "source_type": "rss"
+    },
+    {
       "id": "964083b2858de845",
       "feed_id": "2ec7ee82ecf8",
       "feed_title": "マンションの間取りや価格を言いたい放題!",
@@ -6595,11 +6609,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-04T18:00:18.195349+00:00",
+  "last_updated": "2026-08-04T19:50:33.740626+00:00",
   "stats": {
-    "total": 471,
-    "fetched_just_now": 888,
-    "feeds_success": 68,
-    "feeds_failed": 7
+    "total": 472,
+    "fetched_just_now": 903,
+    "feeds_success": 75,
+    "feeds_failed": 0
   }
 }

@@ -6483,11 +6483,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-08T16:47:51.878174+00:00",
+  "last_updated": "2026-08-08T18:52:49.924161+00:00",
   "stats": {
     "total": 463,
-    "fetched_just_now": 909,
-    "feeds_success": 75,
-    "feeds_failed": 0
+    "fetched_just_now": 865,
+    "feeds_success": 68,
+    "feeds_failed": 7
   }
 }

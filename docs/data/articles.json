@@ -6567,11 +6567,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-11T19:15:07.036726+00:00",
+  "last_updated": "2026-08-11T20:58:54.576573+00:00",
   "stats": {
     "total": 469,
-    "fetched_just_now": 910,
-    "feeds_success": 75,
-    "feeds_failed": 0
+    "fetched_just_now": 900,
+    "feeds_success": 72,
+    "feeds_failed": 3
   }
 }

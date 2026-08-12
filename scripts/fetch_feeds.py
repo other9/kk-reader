@@ -7,12 +7,21 @@ GitHub Actions から定期実行される。
 - 2026-05-09 (update-013): 既存記事のメタデータ in-place 更新を追加。
   従来は ID(URL ハッシュ)で dedup して既存があれば新パース結果を捨てて
   いたため、adapter の改善が反映されないままだった。
+- 2026-08-12 (update-021): prune がお気に入りを知らず、★付き記事も30日で
+  消えていた問題を修正。kk-sync /state からお気に入り ID を取得し、
+  state=1 の記事は保持期間を過ぎても articles.json に残す。
+  /state が取得できないランは prune 自体をスキップする(fail-safe:
+  一度 prune された記事は次ランでは戻せないため、削らない側に倒す)。
 """
 import json
+import os
 import sys
+import time
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
+
+import requests
 
 # scripts/ をパスに追加
 sys.path.insert(0, str(Path(__file__).parent))
@@ -53,6 +62,61 @@ def load_existing_articles() -> dict:
         with open(ARTICLES_PATH, encoding="utf-8") as f:
             return json.load(f)
     return {"articles": [], "last_updated": None}
+
+
+def fetch_fav_ids(retries: int = 2, retry_delay: float = 2.0) -> set | None:
+    """kk-sync Worker /state からお気に入り記事 ID の集合を取得する。
+
+    Returns:
+        set: お気に入り(state=1)の記事 ID。お気に入りゼロなら空 set。
+        None: Worker 未設定・通信失敗・応答不正。呼び出し側は prune を
+              スキップすること(お気に入りを誤って削らないため)。
+    """
+    base_url = os.environ.get("WORKER_BASE_URL", "").rstrip("/")
+    token = os.environ.get("WORKER_TOKEN", "")
+    if not base_url or not token:
+        return None
+
+    for attempt in range(retries + 1):
+        try:
+            r = requests.get(
+                f"{base_url}/state",
+                headers={"Authorization": f"Bearer {token}"},
+                timeout=15,
+            )
+            if r.status_code == 200:
+                fav = r.json().get("fav", {})
+                if not isinstance(fav, dict):
+                    return None
+                return {
+                    aid for aid, v in fav.items()
+                    if isinstance(v, dict) and v.get("state") == 1
+                }
+            print(f"  /state HTTP {r.status_code} (attempt {attempt + 1}/{retries + 1})")
+        except (requests.exceptions.RequestException, ValueError) as e:
+            print(f"  /state 取得失敗: {type(e).__name__} (attempt {attempt + 1}/{retries + 1})")
+        if attempt < retries:
+            time.sleep(retry_delay * (attempt + 1))
+    return None
+
+
+def prune_articles(articles: list, cutoff: str, fav_ids: set) -> tuple[list, int, int]:
+    """保持期間を過ぎた記事を削除する。ただしお気に入り(fav_ids)は残す。
+
+    Returns: (残った記事リスト, 削除件数, お気に入り免除で残した件数)
+    """
+    kept = []
+    pruned = 0
+    fav_exempt = 0
+    for a in articles:
+        if (a.get("published") or a.get("fetched", "")) >= cutoff:
+            kept.append(a)
+        elif a.get("id") in fav_ids:
+            kept.append(a)
+            fav_exempt += 1
+        else:
+            pruned += 1
+    return kept, pruned, fav_exempt
 
 
 def fetch_one(feed: dict, known_body_ids: set | None = None) -> tuple[dict, list, dict]:
@@ -163,16 +227,17 @@ def main():
     # 記事をマージ
     all_articles = existing_articles + new_articles_buffer
 
-    # 古い記事を削除
-    cutoff = (datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)).isoformat()
-    before_count = len(all_articles)
-    all_articles = [
-        a for a in all_articles
-        if (a.get("published") or a.get("fetched", "")) >= cutoff
-    ]
-    pruned = before_count - len(all_articles)
-    if pruned > 0:
-        print(f"古い記事 {pruned}件を削除(保持期間: {RETENTION_DAYS}日)")
+    # 古い記事を削除(update-021: お気に入りは保持期間を過ぎても残す)
+    fav_ids = fetch_fav_ids()
+    if fav_ids is None:
+        print("警告: /state からお気に入りを取得できず、今回の prune をスキップします")
+    else:
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)).isoformat()
+        all_articles, pruned, fav_exempt = prune_articles(all_articles, cutoff, fav_ids)
+        if pruned > 0:
+            print(f"古い記事 {pruned}件を削除(保持期間: {RETENTION_DAYS}日)")
+        if fav_exempt > 0:
+            print(f"お気に入り {fav_exempt}件は保持期間超過でも保持")
 
     # 公開日(なければ取得日)で降順ソート
     all_articles.sort(

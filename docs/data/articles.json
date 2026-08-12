@@ -15,6 +15,20 @@
       "source_type": "rss"
     },
     {
+      "id": "9667b013a68c39b9",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "価値の差：欧州はスケールアップできない",
+      "url": "https://himaginary.hatenablog.com/entry/20260812/Europe_Cannot_Scale",
+      "published": "2026-08-12T14:59:00+00:00",
+      "fetched": "2026-08-12T19:14:46.745845+00:00",
+      "summary": "というNBER論文が 上がっている （ ungated版へのリンクがある著者の一人のページ ）。原題は「The Value Gap: Europe Cannot Scale」で、著者はBo Becker（ストックホルム商科大学）、Efraim Benmelech（ノースウエスタン大）、Joao Monteiro（エイナウディ経済金融研究所）。 以下はその要旨。 In 2008, the aggregate market value of U.S.-listed firms was roughly one-third higher than that of…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35577\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://sites.google.com/site/bobecker2/home/Research\">ungated&#x7248;&#x3078;&#x306e;&#x30ea;&#x30f3;&#x30af;&#x304c;&#x3042;&#x308b;&#x8457;&#x8005;&#x306e;&#x4e00;&#x4eba;&#x306e;&#x30da;&#x30fc;&#x30b8;</a>）。原題は「The Value Gap: Europe Cannot Scale」で、著者はBo Becker（ストックホルム商科大学）、Efraim Benmelech（ノースウエスタン大）、Joao Monteiro（エイナウディ経済金融研究所）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>In 2008, the aggregate market value of U.S.-listed firms was roughly one-third higher than that of European-listed firms. By 2023, it was more than 300% higher, a difference of $34 trillion. The valuation gap is broad-based, rather than concentrated among a few superstar firms, and is driven by differences in firm values, not in the number of listed firms. Across sectors, the gap is larger in R&amp;D-intensive industries and in industries with high returns to scale. European firms’ size is strongly correlated with home-country GDP, whereas U.S. firms’ size is unrelated to home-state GDP. Smaller European firms also face a particularly large cost-of-capital gap and do not appear able to substitute debt for limited access to equity financing, including venture capital. Taken together, these facts suggest that financial and product-market frictions constrain European firms’ ability to scale.<br />\n（拙訳）<br />\n2008年、米国の上場企業の時価総額は、欧州の上場企業の時価総額よりもおよそ1/3大きかった。2023年には、300%以上大きくなっており、その差は34兆ドルになった。評価の差は、数社のスーパースター企業に集中しているのではなく広範囲に亘っており、上場企業数の差ではなく企業価値の差が要因となっている。部門別では、研究開発集約産業と規模に関する収穫が高い産業で差が大きい。欧州の企業規模は所在国のGDPと強く相関しているが、米国の企業規模は所在している州のGDPと相関していない。小さな欧州企業は、殊更に大きな資本コストの差にも直面しており、ベンチャーキャピタルを含む株式発行による資金調達へのアクセスが限られていることを債務で代替できないように見える。総じて以上の事実は、金融と製品市場の摩擦が欧州企業のスケールアップする能力を制約していることを示している。</p>\n\n    </blockquote>\n<p>以下は導入部の一節。</p>\n\n    <blockquote>\n        <p>We argue the constraint is not driven by lack of ideas or skills but rather by the ability to scale businesses. European firms face at least two types of frictions. In product markets, Europe remains fragmented along national lines, so a firm’s growth is tethered to its home economy: European sales rise close to one-for-one with home-country GDP, a dependence that is absent across U.S. states. In financial markets, high-growth European firms face a higher cost of capital, late-stage equity is scarce, and bank lending does not substitute for the equity that scaling firms require. Debt supply does not compensate, and in fact U.S. firms borrow more. Together these frictions cap the value of growth in Europe—and the value gap reflects these constraints.<br />\n（拙訳）<br />\n制約はアイディアや技能の欠如ではなく事業をスケールアップする能力によるものだと我々は論じる。欧州企業は少なくとも2種類の摩擦に直面している。製品市場では、欧州は国境線に沿って分断されたままであるため、企業の成長は母国経済に束縛されている。欧州の売り上げは母国のGDPと1対1に近い増え方をしているが、そうした相関関係は米国の州では見られない。金融市場では、高成長の欧州企業は高い資本コストに直面しており、レイトステージのエクイティファイナンスは不足しており、銀行融資はスケールアップする企業が必要とするエクイティファイナンスを代替していない。債務供給はその埋め合わせになっておらず、実際のところ米企業の方が借り入れが多い。総じて以上の摩擦は欧州での成長の価値を制約しており、米欧の価値の差はそれらの制約を反映している。</p>\n\n    </blockquote>\n<p>日本企業も同様の制約で伸び悩んでいることが実証されるかどうか興味が持たれるところである。</p><p>BenmelechとMonteiroは<a href=\"https://himaginary.hatenablog.com/entry/20250907/Military_Spending_and_War\">&#x8ecd;&#x4e8b;&#x8cbb;&#x3068;&#x6226;&#x4e89; - himaginary&rsquo;s diary</a>で紹介した論文も共著している。</p>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "0ba9753751769a79",
       "feed_id": "679eabc4b350",
       "feed_title": "CFA学習方法Tips (米国証券アナリスト) » フィード",
@@ -6665,11 +6679,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-12T17:07:22.163961+00:00",
+  "last_updated": "2026-08-12T19:14:47.888913+00:00",
   "stats": {
-    "total": 476,
-    "fetched_just_now": 902,
-    "feeds_success": 72,
-    "feeds_failed": 3
+    "total": 477,
+    "fetched_just_now": 900,
+    "feeds_success": 73,
+    "feeds_failed": 2
   }
 }

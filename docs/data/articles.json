@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "a2eb48d65a6197de",
+      "feed_id": "6c30fc2654fb",
+      "feed_title": "元官庁エコノミストのブログ",
+      "category": "金融・経済・投資",
+      "title": "首位攻防第2戦もジャイアンツを粉砕",
+      "url": "http://economist.cocolog-nifty.com/blog/2026/08/post-df55ee.html",
+      "published": "2026-08-12T12:30:00+00:00",
+      "fetched": "2026-08-12T13:49:17.477688+00:00",
+      "summary": "一 二 三 四 五 六 七 八 九 R H E 阪 神 2 0 2 0 0 0 1 0 0 5 11 0 読 売 0 0 0 0 0 1 0 0 0 1 6 0 【神】 高橋、木下、及川、工藤 - 伏見 【読】 井上、赤星、船迫、泉、田和 - 岸田、小林 昨日に続く首位攻防第2戦も、 ジャイアンツを粉砕 しました。 先発の高橋投手は、6回を5安打1失点、ダルベック選手のソロ1本に抑えました。打つ方は今夜も、 佐藤輝選手が2発、森下選手も1発 、すべてソロホームランでしたが、昨日が森下選手2発、佐藤輝選手1発ですから、2日合わせて2人とも3ホーマーずつかっ…",
+      "content_html": "<p><a href=\"https://hanshintigers.jp/game/score/table/table20260812.html\" style=\"font-style: normal;\" target=\"_blank\"><table class=\"s-b\" title=\"スコアボード\"><tr class=\"sb1\"><td class=\"sb1\"> </td><td class=\"sb2\">一</td><td class=\"sb2\">二</td><td class=\"sb2\">三</td><td class=\"sb2\">四</td><td class=\"sb2\">五</td><td class=\"sb2\">六</td><td class=\"sb2\">七</td><td class=\"sb2\">八</td><td class=\"sb2\">九</td><td class=\"sb3\"> </td><td class=\"sb4\">R</td><td class=\"sb4\">H</td><td class=\"sb2\">E</td></tr><tr class=\"sb2\"><td>阪　　神</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td class=\"sb3\"> </td><td>5</td><td>11</td><td>0</td></tr><tr class=\"sb2\"><td>読　　売</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td class=\"sb3\"> </td><td>1</td><td>6</td><td>0</td></tr></table></a><br />【神】 高橋、木下、及川、工藤 - 伏見<br />【読】 井上、赤星、船迫、泉、田和 - 岸田、小林</p><p>昨日に続く首位攻防第2戦も、<span class=\"red\">ジャイアンツを粉砕</span>しました。<br />先発の高橋投手は、6回を5安打1失点、ダルベック選手のソロ1本に抑えました。打つ方は今夜も、<span class=\"blue\">佐藤輝選手が2発、森下選手も1発</span>、すべてソロホームランでしたが、昨日が森下選手2発、佐藤輝選手1発ですから、2日合わせて2人とも3ホーマーずつかっ飛ばしています。これに、佐藤輝選手の初回の先制タイムリーと大山選手の犠牲フライで、阪神クリンナップサービスがしっかり仕事をしています。</p><p>明日も、<br /><span class=\"tigers\">がんばれタイガース!</span></p>",
+      "author": "元官庁エコノミスト",
+      "source_type": "rss"
+    },
+    {
       "id": "85a5db234698d857",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -6651,11 +6665,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-12T13:41:28.021308+00:00",
+  "last_updated": "2026-08-12T13:49:20.374895+00:00",
   "stats": {
-    "total": 475,
-    "fetched_just_now": 892,
-    "feeds_success": 66,
-    "feeds_failed": 9
+    "total": 476,
+    "fetched_just_now": 908,
+    "feeds_success": 75,
+    "feeds_failed": 0
   }
 }

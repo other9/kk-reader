@@ -6679,11 +6679,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-13T19:15:11.859957+00:00",
+  "last_updated": "2026-08-13T20:56:24.271137+00:00",
   "stats": {
     "total": 477,
-    "fetched_just_now": 865,
-    "feeds_success": 68,
-    "feeds_failed": 7
+    "fetched_just_now": 899,
+    "feeds_success": 72,
+    "feeds_failed": 3
   }
 }

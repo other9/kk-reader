@@ -15,6 +15,20 @@
       "source_type": "rss"
     },
     {
+      "id": "f9bfa2d5637a51f1",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "構造改革は民間投資を解き放てるか？",
+      "url": "https://himaginary.hatenablog.com/entry/20260813/can-structural-reforms-unleash-private-investment",
+      "published": "2026-08-13T14:59:00+00:00",
+      "fetched": "2026-08-13T19:15:10.182011+00:00",
+      "summary": "という ECB論文 をMostly Economicsが 紹介している 。原題は「Can structural reforms unleash private investment?」で、著者はChristos Mavrogiannis（パトラス大）、Nico Zorell（ECB）、Christoph Zwick（同）。 以下はその要旨。 This paper examines the impact of labour and product market reforms on private investment across 26 advanced…",
+      "content_html": "<p>という<a href=\"https://www.ecb.europa.eu/pub/pdf/scpwps/ecb.wp3273~292f21a541.en.pdf\">ECB&#x8ad6;&#x6587;</a>をMostly Economicsが<a href=\"https://mostlyeconomics.wordpress.com/2026/08/13/can-structural-reforms-unleash-private-investment/\">&#x7d39;&#x4ecb;&#x3057;&#x3066;&#x3044;&#x308b;</a>。原題は「Can structural reforms unleash private investment?」で、著者はChristos Mavrogiannis（パトラス大）、Nico Zorell（ECB）、Christoph Zwick（同）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>This paper examines the impact of labour and product market reforms on private investment across 26 advanced economies from 1975 to 2020. To this end, we combine a narrative database on major structural reforms with local projections and augmented inverse probability weighting. We find that a major labour market reform typically increases the level of real private investment by 5% cumulatively within six years, while a major product market reform yields an impact of 3%. Structural reforms are particularly effective in stimulating private investment when the private sector has access to ample external finance and the rule of law is strong. Overall, our findings point to an important role for structural reforms in boosting private investment and thus long-term growth prospects in advanced economies.<br />\n（拙訳）<br />\n本稿は、1975年から2020年までの26の先進国について、労働市場と製品市場の改革が民間投資に及ぼす影響を調べた。そのために我々は、主要な構造改革についてのナラティブのデータベースをローカル予測と拡張逆確率重み付け<a href=\"#f-2e8ed4bd\" id=\"fn-2e8ed4bd\" name=\"fn-2e8ed4bd\" title=\"cf. [https://ja.wikipedia.org/wiki/%E9%80%86%E7%A2%BA%E7%8E%87%E9%87%8D%E3%81%BF%E4%BB%98%E3%81%91#%E6%8B%A1%E5%BC%B5%E9%80%86%E7%A2%BA%E7%8E%87%E9%87%8D%E3%81%BF%E4%BB%98%E3%81%91%E6%8E%A8%E5%AE%9A%E9%87%8F%EF%BC%88AIPWE%EF%BC%89:title]\">*1</a>と組み合わせた。主要な労働市場改革が、通常、実質民間投資の水準を6年間の累積で5%高める一方、主要な製品市場改革がもたらす影響が3%であることを我々は見い出した。民間部門が十分な外部金融にアクセスでき、法の支配が強い時、構造改革は民間投資を刺激する上で特に効果的である。総じて我々の発見は、先進国において民間投資、ひいては長期的な成長見通しを押し上げる上で構造改革が果たす役割の重要性を示している。</p>\n\n    </blockquote>\n<p>26か国はオーストラリア、オーストリア、ベルギー、カナダ、チェコ、デンマーク、フィンランド、フランス、ドイツ、ギリシャ、アイスランド、アイルランド、イタリア、日本、韓国、ルクセンブルク、オランダ、ニュージーランド、ノルウェー、ポルトガル、スロバキア、スペイン、スウェーデン、スイス、英国、米国との由。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-2e8ed4bd\" id=\"f-2e8ed4bd\" name=\"f-2e8ed4bd\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">cf. <a href=\"https://ja.wikipedia.org/wiki/%E9%80%86%E7%A2%BA%E7%8E%87%E9%87%8D%E3%81%BF%E4%BB%98%E3%81%91#%E6%8B%A1%E5%BC%B5%E9%80%86%E7%A2%BA%E7%8E%87%E9%87%8D%E3%81%BF%E4%BB%98%E3%81%91%E6%8E%A8%E5%AE%9A%E9%87%8F%EF%BC%88AIPWE%EF%BC%89\">&#x9006;&#x78ba;&#x7387;&#x91cd;&#x307f;&#x4ed8;&#x3051; - Wikipedia</a></span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "548b722bae1fca94",
       "feed_id": "6c30fc2654fb",
       "feed_title": "元官庁エコノミストのブログ",
@@ -6665,11 +6679,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-13T17:07:03.666983+00:00",
+  "last_updated": "2026-08-13T19:15:11.859957+00:00",
   "stats": {
-    "total": 476,
-    "fetched_just_now": 899,
-    "feeds_success": 72,
-    "feeds_failed": 3
+    "total": 477,
+    "fetched_just_now": 865,
+    "feeds_success": 68,
+    "feeds_failed": 7
   }
 }

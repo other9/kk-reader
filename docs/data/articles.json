@@ -6595,20 +6595,6 @@
       "source_type": "rss"
     },
     {
-      "id": "8de06ed8a4e7f881",
-      "feed_id": "f8c882c05df3",
-      "feed_title": "himaginary’s diary",
-      "category": "金融・経済・投資",
-      "title": "中銀準備における金：戦略的考慮、市場リスク、および実務",
-      "url": "https://himaginary.hatenablog.com/entry/20260715/Gold_in_Central_Bank_Reserves",
-      "published": "2026-07-15T14:59:00+00:00",
-      "fetched": "2026-07-15T19:32:32.956642+00:00",
-      "summary": "という IMFレポート をMostly Economicsが 紹介している 。原題は「Gold in Central Bank Reserves: Strategic Considerations, Market Risks, and Practical」で、著者はIstvan Mak、Etienne Vaccaro-Grange。 以下はその要旨。 Gold has re-emerged as a prominent component of central bank reserves, largely reflecting valuation gai…",
-      "content_html": "<p>という<a href=\"https://www.imf.org/en/publications/imf-notes/issues/2026/06/30/gold-in-central-bank-reserves-strategic-considerations-market-risks-and-practical-guidance-576964\">IMF&#x30ec;&#x30dd;&#x30fc;&#x30c8;</a>をMostly Economicsが<a href=\"https://mostlyeconomics.wordpress.com/2026/07/14/gold-in-central-bank-reserves-strategic-considerations-market-risks-and-practical-guidance/\">&#x7d39;&#x4ecb;&#x3057;&#x3066;&#x3044;&#x308b;</a>。原題は「Gold in Central Bank Reserves: Strategic Considerations, Market Risks, and Practical」で、著者はIstvan Mak、Etienne Vaccaro-Grange。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>Gold has re-emerged as a prominent component of central bank reserves, largely reflecting valuation gains from higher gold prices rather than large-scale accumulation. This Note assesses gold’s role from a reserve management perspective, emphasizing that while gold carries no credit risk and may support long-term balance-sheet resilience, it is highly volatile, offers only conditional hedging and diversification benefits, and is ill-suited to the liquidity tranche of reserves. The analysis recommends applying explicit market-risk haircuts when assessing gold’s effective liquidity and avoiding interpretations of valuation gains as durable improvements in reserve adequacy. It also cautions that domestic gold purchase programs—especially those involving non-monetary gold—can create mandate, governance, balance-sheet, financial integrity, operational, and monetary policy risks. Central banks should treat gold as a high-risk reserve asset and anchor gold accumulation decisions in strategic asset allocation and sound policy analysis.<br />\n（拙訳）<br />\n金は中銀準備の重要な要素として再浮上した。それは概して、大規模な蓄積を反映したというよりは、金価格の上昇による評価利益を反映している。本ノートは準備管理の観点から金の役割を評価し、金は信用リスクがなく長期的なバランスシートの復元の助けになるかもしれないが、非常に変動性が高く、条件付きのヘッジと分散化の便益を提供するに過ぎず、準備の流動的な部分としては不適当である、ということを強調する。金の実効的な流動性を評価する際には明示的に市場リスクを割引き<a href=\"#f-da4239b2\" id=\"fn-da4239b2\" name=\"fn-da4239b2\" title=\"本文では「To compute this haircut as a percentage of the market value, use of the value at risk (VaR) methodology is \nproposed」と記述している。\">*1</a>、評価利益を準備の適切性の持続的な改善と解釈するのは避ける、ということが分析からは推奨される。また、国内の金購入計画――特に非金融の金に関するもの――は、中銀の使命、ガバナンス、バランスシート、金融の統合性、運用、および金融政策のリスクをもたらす可能性があることについても警告する<a href=\"#f-72ff8db7\" id=\"fn-72ff8db7\" name=\"fn-72ff8db7\" title=\"本文では「A critical distinction must be made between the domestic purchase of monetary gold—that is, gold that already meets international reserve standards and is readily marketable—and the domestic purchase of nonmonetary gold, which requires upgrading through refining, assaying, and certification before it can qualify as a reserve asset (Box 3). These two modalities differ fundamentally in their implications for central bank mandates, balance sheet, operational capacity, financial integrity, and monetary policy implementation.」と記述している。\">*2</a>。中銀は金を高リスクの準備資産として扱うべきであり、金を蓄積する決定は戦略的な資産配分と健全な政策分析に基づくべきである。</p>\n\n    </blockquote>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-da4239b2\" id=\"f-da4239b2\" name=\"f-da4239b2\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">本文では「To compute this haircut as a percentage of the market value, use of the value at risk (VaR) methodology is \nproposed」と記述している。</span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-72ff8db7\" id=\"f-72ff8db7\" name=\"f-72ff8db7\">*2</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">本文では「A critical distinction must be made between the domestic purchase of monetary gold—that is, gold that already meets international reserve standards and is readily marketable—and the domestic purchase of nonmonetary gold, which requires upgrading through refining, assaying, and certification before it can qualify as a reserve asset (Box 3). These two modalities differ fundamentally in their implications for central bank mandates, balance sheet, operational capacity, financial integrity, and monetary policy implementation.」と記述している。</span></p>\n</div>",
-      "author": "himaginary",
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6637,11 +6623,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-14T13:33:59.567562+00:00",
+  "last_updated": "2026-08-14T15:03:11.633204+00:00",
   "stats": {
-    "total": 474,
-    "fetched_just_now": 864,
-    "feeds_success": 68,
-    "feeds_failed": 7
+    "total": 473,
+    "fetched_just_now": 893,
+    "feeds_success": 65,
+    "feeds_failed": 10
   }
 }

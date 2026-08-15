@@ -6539,20 +6539,6 @@
       "source_type": "rss"
     },
     {
-      "id": "f8e03a0a22301d8a",
-      "feed_id": "f8c882c05df3",
-      "feed_title": "himaginary’s diary",
-      "category": "金融・経済・投資",
-      "title": "ストックからフローへ：債務サービスと財政の持続可能性",
-      "url": "https://himaginary.hatenablog.com/entry/20260716/From_Stocks_to_Flows",
-      "published": "2026-07-16T14:59:00+00:00",
-      "fetched": "2026-07-16T19:31:16.601905+00:00",
-      "summary": "というNBER論文をアイケングリーンらが 上げている 。原題は「From Stocks to Flows: Debt Service and Fiscal Sustainability」で、著者はBarry Eichengreen（UCバークレー）、Maxime Menuet（コートダジュール大）、Gregory Donnat（同）。 以下はその要旨。 We revisit fiscal sustainability through the lens of the government’s budget constraint. What constrai…",
-      "content_html": "<p>というNBER論文をアイケングリーンらが<a href=\"https://www.nber.org/papers/w35459\">&#x4e0a;&#x3052;&#x3066;&#x3044;&#x308b;</a>。原題は「From Stocks to Flows: Debt Service and Fiscal Sustainability」で、著者はBarry Eichengreen（UCバークレー）、Maxime Menuet（コートダジュール大）、Gregory Donnat（同）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>We revisit fiscal sustainability through the lens of the government’s budget constraint. What constrains fiscal policy is not the stock of outstanding liabilities per se, but the fiscal cost of servicing debt. Using two centuries of U.S. fiscal data (1800–2023) and a long-run panel of advanced economies, we show that primary surpluses are systematically more closely associated with debt-service burdens, while debt ratios lose explanatory power when debt service is taken into account. Fiscal responses intensify when financing conditions deteriorate, specifically when the interest-growth differential is positive. We rationalize these findings using a simple flow-based framework in which debt stabilization depends on the responsiveness of fiscal surpluses to financing pressures. The results suggest that fiscal sustainability depends less on debt thresholds than on financing regimes and governments’ ability to absorb debt-service burdens.<br />\n（拙訳）<br />\n我々は政府の予算制約という観点から財政の持続可能性を改めて調べた。財政政策を制約するのは債務残高自体ではなく、債務サービスの財政費用である。米国の2世紀の財政データ（1800-2023）と先進国の長期のパネルデータを用いて我々は、基礎的財政収支が債務サービス負担と体系的により密接に関連している一方、債務サービスを考慮すると債務比率は説明力を失うことを示す。資金調達の環境が悪化した場合、特に金利の伸びの差が正の場合、財政の反応は強まる。我々はこの発見を、債務の安定化が財政黒字の資金調達圧力への反応に左右される簡単なフローベースの枠組みで理論的に説明した。その結果が示すところによれば、財政の持続可能性は、債務の閾値よりも、資金調達のレジームと、債務サービス負担を吸収する政府の能力に依存する。</p>\n\n    </blockquote>\n<p>日本では財政健全化の指標として基礎的財政収支より債務GDP比に重点を置く政府の方針が示されたところであるが、この論文によれば、債務の元利払いというサービス費用を勘案するとやはり基礎的財政収支をきちんと見た方が良いということになりそうである。国債の金利が政府が受け取る金利を上回って伸びた場合には、基礎的財政収支を黒字化する圧力が強まるということのようである。</p>",
-      "author": "himaginary",
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6581,11 +6567,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-15T14:33:36.057636+00:00",
+  "last_updated": "2026-08-15T16:35:50.499986+00:00",
   "stats": {
-    "total": 470,
+    "total": 469,
     "fetched_just_now": 902,
-    "feeds_success": 72,
-    "feeds_failed": 1
+    "feeds_success": 73,
+    "feeds_failed": 0
   }
 }

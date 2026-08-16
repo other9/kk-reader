@@ -6497,20 +6497,6 @@
       "source_type": "rss"
     },
     {
-      "id": "39a617e689b15b16",
-      "feed_id": "6c30fc2654fb",
-      "feed_title": "元官庁エコノミストのブログ",
-      "category": "金融・経済・投資",
-      "title": "広島相手に取りこぼしなし",
-      "url": "http://economist.cocolog-nifty.com/blog/2026/07/post-6fe38f.html",
-      "published": "2026-07-17T13:00:00+00:00",
-      "fetched": "2026-07-17T13:58:08.385253+00:00",
-      "summary": "一 二 三 四 五 六 七 八 九 R H E 阪 神 0 0 0 1 2 0 1 0 0 4 7 0 広 島 0 0 0 0 0 0 0 2 0 2 5 1 【神】 才木、岩崎 - 梅野 【広】 アドゥワ、益田、島内、菊地、鈴木 - 石伊 才木投手のナイスピッチングで、 広島に完勝 でした。 打っては、梅野捕手が犠牲フライとタイムリーで先制とダメ押しの2打点を上げ、森下外野手もツーランで中押ししました。才木投手は8回に2ランを浴びましたが、8回2失点ですから十分なQSです。最終回は久しぶりに岩崎投手が締めてくれました。広島相手に取りこぼしは出来ません。…",
-      "content_html": "<p><a href=\"https://hanshintigers.jp/game/score/table/table20260717.html\" style=\"font-style: normal;\" target=\"_blank\"><table class=\"s-b\" title=\"スコアボード\"><tr class=\"sb1\"><td class=\"sb1\"> </td><td class=\"sb2\">一</td><td class=\"sb2\">二</td><td class=\"sb2\">三</td><td class=\"sb2\">四</td><td class=\"sb2\">五</td><td class=\"sb2\">六</td><td class=\"sb2\">七</td><td class=\"sb2\">八</td><td class=\"sb2\">九</td><td class=\"sb3\"> </td><td class=\"sb4\">R</td><td class=\"sb4\">H</td><td class=\"sb2\">E</td></tr><tr class=\"sb2\"><td>阪　　神</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td class=\"sb3\"> </td><td>4</td><td>7</td><td>0</td></tr><tr class=\"sb2\"><td>広　　島</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td class=\"sb3\"> </td><td>2</td><td>5</td><td>1</td></tr></table></a><br />【神】 才木、岩崎 - 梅野<br />【広】 アドゥワ、益田、島内、菊地、鈴木 - 石伊</p><p>才木投手のナイスピッチングで、<span class=\"red\">広島に完勝</span>でした。<br />打っては、梅野捕手が犠牲フライとタイムリーで先制とダメ押しの2打点を上げ、森下外野手もツーランで中押ししました。才木投手は8回に2ランを浴びましたが、8回2失点ですから十分なQSです。最終回は久しぶりに岩崎投手が締めてくれました。広島相手に取りこぼしは出来ません。したがって、<span class=\"blue\">広島相手なら怖いのはデッドボール</span>です。今夜も大山選手と前川選手に合わせて3回ぶつけられています。昨年は、坂本捕手の頭部死球で藤川監督がエキサイトした場面もありました。ケガなく甲子園に戻ってこられますように願っています。</p><p>次の広島戦も、<br /><span class=\"tigers\">がんばれタイガース!</span></p>",
-      "author": "元官庁エコノミスト",
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6539,9 +6525,9 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-16T12:56:31.210478+00:00",
+  "last_updated": "2026-08-16T14:33:38.634460+00:00",
   "stats": {
-    "total": 467,
+    "total": 466,
     "fetched_just_now": 900,
     "feeds_success": 73,
     "feeds_failed": 0

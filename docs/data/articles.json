@@ -6483,20 +6483,6 @@
       "source_type": "rss"
     },
     {
-      "id": "cbf9b6c5b429d9b5",
-      "feed_id": "d976d70a8e8a",
-      "feed_title": "【不動産投資】訳あり物件再生の方法が面白いほどよくわかるブログ",
-      "category": "不動産",
-      "title": "☆さいたま市一棟マンション☆",
-      "url": "https://ameblo.jp/h251115/entry-12973004954.html",
-      "published": "2026-07-17T21:02:01+00:00",
-      "fetched": "2026-07-17T21:04:56.181591+00:00",
-      "summary": "埼京線「北与野」駅徒歩９分 どうも！ 訳あり不動産の佐藤です。 安売りのハウスメーカーであるアエラホームが７月１６日に民事再生となりました。 ハウスメーカーさん建築費の高騰材料不足と人手不足のトリプルパンチで大変みたいです💦 まだまだでてくるんでしょうね。 アパートやマンションの建築屋さんも同様に大変みたいなので、投資家の皆様！ 物件を建てる際はお気を付けくださいね。 さて、本日のご紹介物件は・・・ さいたま市中央区の一等マンションです。 満室稼働中で利回り８％超えですね。 価格：100, 000, 000円＋仲介手数料 住所：さいたま市中央区下落合5-…",
-      "content_html": "<p>&nbsp;</p><h2 class=\"limited_heading06\" style=\"background-size: 178px 11px; padding-bottom: 19px; margin: 8px 0; font-weight: bold; color: #424242; font-size: 20px; line-height: 1.6; text-align: center; background-position: center bottom;\"><span style=\"display: block;\"><span style=\"display: block;\">埼京線「北与野」駅徒歩９分</span></span></h2><p>どうも！</p><p>訳あり不動産の佐藤です。</p><p>&nbsp;</p><p>安売りのハウスメーカーであるアエラホームが７月１６日に民事再生となりました。</p><p>ハウスメーカーさん建築費の高騰材料不足と人手不足のトリプルパンチで大変みたいです💦</p><p>まだまだでてくるんでしょうね。</p><p>アパートやマンションの建築屋さんも同様に大変みたいなので、投資家の皆様！</p><p>物件を建てる際はお気を付けくださいね。</p><p>&nbsp;</p><p>さて、本日のご紹介物件は・・・</p><p>さいたま市中央区の一等マンションです。</p><p>満室稼働中で利回り８％超えですね。</p><p><a href=\"https://stat.ameba.jp/user_images/20260717/21/h251115/f7/8d/j/o1497119815803443320.jpg\"><img alt=\"\" height=\"496\" src=\"https://stat.ameba.jp/user_images/20260717/21/h251115/f7/8d/j/o1497119815803443320.jpg\" width=\"620\" /></a></p><p>&nbsp;</p><p>価格：100,&nbsp;000,&nbsp;000円＋仲介手数料</p><p>住所：さいたま市中央区下落合5-14-12&nbsp;</p><p>交通：埼京線「北与野」駅徒歩９分</p><p>土地：309.02㎡</p><p>建物床面積：394.95 ㎡</p><p>構造：鉄骨造スレート葺３階建</p><p>種類：共同住宅</p><p>建築年月：昭和63年2月</p><p>用途：第一種中高層住居専用地域</p><p>建蔽率：60%</p><p>容積率：200%</p><p>道路：南西側約4.5m</p><p>満室稼働中</p><p>&nbsp;</p><p>※現況有姿・境界非明示・公募売買・契約不適合免責・賃貸借契約継承</p><p>&nbsp;</p><p><a href=\"https://stat.ameba.jp/user_images/20260717/21/h251115/68/7f/j/o1612071415803445918.jpg\"><img alt=\"\" contenteditable=\"inherit\" height=\"275\" src=\"https://stat.ameba.jp/user_images/20260717/21/h251115/68/7f/j/o1612071415803445918.jpg\" width=\"620\" /></a></p><p>&nbsp;</p><p><a href=\"https://stat.ameba.jp/user_images/20260717/21/h251115/12/72/j/o1759109915803445967.jpg\"><img alt=\"\" height=\"387\" src=\"https://stat.ameba.jp/user_images/20260717/21/h251115/12/72/j/o1759109915803445967.jpg\" width=\"620\" /></a></p><p>&nbsp;</p><p>賃料は相場より安いですね。</p><p>場所柄法人が多いので次回の更新時に賃料アップは十分考えられるんじゃないでしょうか。</p><p>現況でも年間：8,292,000円の賃貸収入があります。</p><p>&nbsp;</p><p>さいたま市中央区内の駅近物件です！</p><p>土地も300㎡超えてますし面白そうです。</p><p>建物比率交渉します。</p><p>節税対策にもぜひご検討くださいませ。</p><p>&nbsp;</p><p>それでは、また。</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
-      "author": null,
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6525,11 +6511,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-16T20:33:43.926723+00:00",
+  "last_updated": "2026-08-16T22:32:15.398030+00:00",
   "stats": {
-    "total": 466,
+    "total": 465,
     "fetched_just_now": 899,
-    "feeds_success": 73,
-    "feeds_failed": 0
+    "feeds_success": 72,
+    "feeds_failed": 1
   }
 }

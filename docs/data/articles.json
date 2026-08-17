@@ -6497,11 +6497,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-17T18:53:25.170388+00:00",
+  "last_updated": "2026-08-17T20:38:00.497851+00:00",
   "stats": {
     "total": 464,
-    "fetched_just_now": 865,
-    "feeds_success": 68,
-    "feeds_failed": 5
+    "fetched_just_now": 899,
+    "feeds_success": 73,
+    "feeds_failed": 0
   }
 }

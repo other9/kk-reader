@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "ead546ed41fab0fc",
+      "feed_id": "bc446ef2651b",
+      "feed_title": "異邦人になってみた～～上海生活写真ブログ",
+      "category": "ブログ",
+      "title": "上海人が「买汏烧」といっていましたが意味が分かりませんでした。",
+      "url": "https://www.sonnagaya.com/entry/2026/08/18/193000?utm_source=feed",
+      "published": "2026-08-18T10:30:00+00:00",
+      "fetched": "2026-08-18T10:39:33.513444+00:00",
+      "summary": "2026-8-18 上海 CHATの会話の中で「中老年接小孩，买汏烧」という言葉がありました。 中高年は子供を迎えに行ってから「买汏烧」です意味不明でした聞いてみると。。。。 「买菜洗菜烧菜」 といわれます。買い物、洗い物、料理ですね。。。まあこれでも意味不明ですよね。調べてみると以下になります。 ‌“买汰烧”是沪语方言词汇‌，字面意思是“买菜、洗菜、烧菜”，泛指居家下厨做饭买菜的一整套家务流程。‌‌‌‌” 「買汏焼」は上海の方言で字の意味は買い物、洗い物、料理のことで、一般的に、食材の買い物や食事の準備など、家庭での調理に伴う家事の全工程を指します。…",
+      "content_html": "<p><span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260818/20260818115802.jpg\" title=\"\" width=\"768\" /></span></p>\n\n<div class=\"section\">\n    <h3 id=\"2026-8-18-上海\">2026-8-18 上海</h3>\n    <p>CHATの会話の中で「中老年接小孩，买汏烧」という言葉がありました。</p><p><span><img class=\"hatena-fotolife\" height=\"453\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260818/20260818113351.png\" title=\"\" width=\"945\" /></span></p><p>中高年は子供を迎えに行ってから「买汏烧」です意味不明でした聞いてみると。。。。<br />\n「买菜洗菜烧菜」<br />\nといわれます。買い物、洗い物、料理ですね。。。まあこれでも意味不明ですよね。調べてみると以下になります。</p><p>‌“买汰烧”是沪语方言词汇‌，字面意思是“买菜、洗菜、烧菜”，泛指居家下厨做饭买菜的一整套家务流程。‌‌‌‌”<br />\n<span style=\"color: #999999;\">「買汏焼」は上海の方言で字の意味は買い物、洗い物、料理のことで、一般的に、食材の買い物や食事の準備など、家庭での調理に伴う家事の全工程を指します。</span></p><p>这词啥意思　<span style=\"color: #999999;\">単語の意味</span><br />\n‌买‌（mǎi）=买菜采购。　<span style=\"color: #999999;\">買う＝食材を仕入れる</span><br />\n‌汏（dà）=洗菜清洗（上海话\"汏\"就是洗的意思）。<span style=\"color: #999999;\">汰‌＝食材を洗う（上海語で汰‌は洗うの意味）</span><br />\n‌烧‌（shāo）=烧菜做饭。<span style=\"color: #999999;\">焼＝料理を作る</span><br />\n合起来就是从买菜到上桌的全套家务<br />\n<span style=\"color: #999999;\">これらを合わせると、食材の買い出しから食事の提供に至るまで、家事の全般を網羅することになります。</span><br />\nちなみに上海人じゃない人は意味を理解していなかったようです。<br />\n<span style=\"font-size: 150%;\">男性がこれをいうのは上海らしいなと思いました。（上海では料理は男性が作る習慣がある）</span></p><p>後、上海語だとma dha sao‌（近似音：马 - 达 - 稍）と発音するようです。</p><p><span><img class=\"hatena-fotolife\" height=\"768\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260818/20260818115830.jpg\" title=\"\" width=\"1024\" /></span></p><p>後余談ですが、最近というか、若い人と話すと、日常会話でも話が難しいと感じますね。言葉の表現が豪華になるというかより細かくなるというか、難しくなるというかそういう感じがします。</p>\n\n</div>",
+      "author": "shan1tian2",
+      "source_type": "rss"
+    },
+    {
       "id": "4ff8df6a62ff0fec",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -6483,11 +6497,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-18T08:49:45.177523+00:00",
+  "last_updated": "2026-08-18T10:39:37.348253+00:00",
   "stats": {
-    "total": 463,
-    "fetched_just_now": 897,
-    "feeds_success": 66,
-    "feeds_failed": 7
+    "total": 464,
+    "fetched_just_now": 899,
+    "feeds_success": 72,
+    "feeds_failed": 1
   }
 }

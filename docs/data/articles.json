@@ -6413,20 +6413,6 @@
       "source_type": "rss"
     },
     {
-      "id": "867f7edf8ec12fe4",
-      "feed_id": "6c30fc2654fb",
-      "feed_title": "元官庁エコノミストのブログ",
-      "category": "金融・経済・投資",
-      "title": "終盤もつれながら横浜に逆転勝ち",
-      "url": "http://economist.cocolog-nifty.com/blog/2026/07/post-29fcf0.html",
-      "published": "2026-07-22T13:30:00+00:00",
-      "fetched": "2026-07-22T14:18:09.467616+00:00",
-      "summary": "一 二 三 四 五 六 七 八 九 R H E 横 浜 1 0 0 0 0 1 2 0 0 4 10 1 阪 神 0 0 1 0 0 3 0 1 x 5 10 2 【横】藤浪、岩田、松本凌、浜地、マルセリーノ - 松尾 【神】高橋、工藤、岩崎、ドリス - 伏見、坂本 終盤もつれた試合ながら、 横浜に逆転勝ち でした。 先発高橋投手は6回2失点と、高橋基準にしては物足りないながら、クオリティスタートでした。6回ウラに大山選手のタイムリーで逆転し、7回から勝ちパターンの投手を注ぎ込みましたが、名手中野二塁手の悪送球のエラーもあって、7回に工藤投手が同点に追い…",
-      "content_html": "<p><a href=\"https://hanshintigers.jp/game/score/table/table20260722.html\" style=\"font-style: normal;\" target=\"_blank\"><table class=\"s-b\" title=\"スコアボード\"><tr class=\"sb1\"><td class=\"sb1\"> </td><td class=\"sb2\">一</td><td class=\"sb2\">二</td><td class=\"sb2\">三</td><td class=\"sb2\">四</td><td class=\"sb2\">五</td><td class=\"sb2\">六</td><td class=\"sb2\">七</td><td class=\"sb2\">八</td><td class=\"sb2\">九</td><td class=\"sb3\"> </td><td class=\"sb4\">R</td><td class=\"sb4\">H</td><td class=\"sb2\">E</td></tr><tr class=\"sb2\"><td>横　　浜</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>0</td><td>0</td><td class=\"sb3\"> </td><td>4</td><td>10</td><td>1</td></tr><tr class=\"sb2\"><td>阪　　神</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>3</td><td>0</td><td>1</td><td>x</td><td class=\"sb3\"> </td><td>5</td><td>10</td><td>2</td></tr></table></a><br />【横】藤浪、岩田、松本凌、浜地、マルセリーノ - 松尾<br />【神】高橋、工藤、岩崎、ドリス - 伏見、坂本</p><p>終盤もつれた試合ながら、<span class=\"red\">横浜に逆転勝ち</span>でした。<br />先発高橋投手は6回2失点と、高橋基準にしては物足りないながら、クオリティスタートでした。6回ウラに大山選手のタイムリーで逆転し、7回から勝ちパターンの投手を注ぎ込みましたが、名手中野二塁手の悪送球のエラーもあって、7回に工藤投手が同点に追いつかれます。しかし、8回ウラには近本外野手のツーベースを足がかりに勝越しに成功し、9回はドリス投手がピシャリと抑えて逃げ切りました。最後のプレーは中野二塁手の本来の動きによるファインプレーでした。久しぶりに<span class=\"blue\">甲子園で藤波投手</span>を見ました。塁上を賑わしながら、なかなか得点に至らず、1点止まりでした。</p><p>ジャイアンツ戦も、<br /><span class=\"tigers\">がんばれタイガース!</p>",
-      "author": "元官庁エコノミスト",
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6455,10 +6441,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-21T13:05:11.536102+00:00",
+  "last_updated": "2026-08-21T14:47:59.844006+00:00",
   "stats": {
-    "total": 461,
-    "fetched_just_now": 898,
+    "total": 460,
+    "fetched_just_now": 897,
     "feeds_success": 73,
     "feeds_failed": 0
   }

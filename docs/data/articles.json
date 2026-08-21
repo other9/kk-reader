@@ -6385,20 +6385,6 @@
       "source_type": "scrape_kenbiya"
     },
     {
-      "id": "26ee9c7580e3d9d9",
-      "feed_id": "2e7efdb141f2",
-      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
-      "category": "不動産",
-      "title": "新築か中古か？ マンション購入者が選んだ本当の理由",
-      "url": "https://1manken.hatenablog.com/entry/2016/07/09/071629",
-      "published": "2026-07-22T22:30:00+00:00",
-      "fetched": "2026-07-22T23:13:22.687171+00:00",
-      "summary": "新築マンションと中古マンション、購入者は何を決め手に選んだのか。国土交通省「住宅市場動向調査」をもとに、購入理由の変化をグラフで読み解く。",
-      "content_html": "新築マンションと中古マンション、購入者は何を決め手に選んだのか。国土交通省「住宅市場動向調査」をもとに、購入理由の変化をグラフで読み解く。",
-      "author": "flats",
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6427,11 +6413,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-21T20:35:34.680699+00:00",
+  "last_updated": "2026-08-21T22:35:53.891324+00:00",
   "stats": {
-    "total": 459,
-    "fetched_just_now": 897,
-    "feeds_success": 73,
-    "feeds_failed": 0
+    "total": 458,
+    "fetched_just_now": 862,
+    "feeds_success": 67,
+    "feeds_failed": 6
   }
 }

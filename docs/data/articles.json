@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "d59c3e548adadb7f",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "関税、投資、および起きなかった貿易の崩壊",
+      "url": "https://himaginary.hatenablog.com/entry/20260821/tariffs-investment-and-the-missing-trade-collapse",
+      "published": "2026-08-21T14:59:00+00:00",
+      "fetched": "2026-08-21T20:35:33.580005+00:00",
+      "summary": "というNBER論文が 上がっている （H/T タイラー・コーエン 、 ungated(ミネアポリス連銀)版 ）。原題は「Tariffs, Investment, and the Missing Trade Collapse」で、著者はFrancesco Ferrante（FRB）、Andrea Prestipino（同）、Andrea Raffo（ミネアポリス連銀）、Michael E. Waugh（同）。 以下はその結論部。 U.S. tariff rates in 2025 rose to levels not seen since the Grea…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35630\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（H/T <a href=\"https://marginalrevolution.com/marginalrevolution/2026/08/more-evidence-on-the-effects-of-recent-tariffs.html\">&#x30bf;&#x30a4;&#x30e9;&#x30fc;&#x30fb;&#x30b3;&#x30fc;&#x30a8;&#x30f3;</a>、<a href=\"https://www.minneapolisfed.org/research/staff-reports/tariffs-investment-and-the-missing-trade-collapse\">ungated(&#x30df;&#x30cd;&#x30a2;&#x30dd;&#x30ea;&#x30b9;&#x9023;&#x9280;)&#x7248;</a>）。原題は「Tariffs, Investment, and the Missing Trade Collapse」で、著者はFrancesco Ferrante（FRB）、Andrea Prestipino（同）、Andrea Raffo（ミネアポリス連銀）、Michael E. Waugh（同）。<br />\n以下はその結論部。</p>\n\n    <blockquote>\n        <p>U.S. tariff rates in 2025 rose to levels not seen since the Great Depression, yet U.S. imports increased rather than collapsed. This paper resolves this puzzle through the lens of a two-country New Keynesian model with tariffs on consumption goods, intermediate inputs, and capital goods. Three features are essential for understanding the missing trade collapse. First, the anticipation of tariff increases in early 2025 triggered substantial inventory accumulation, particularly in imported materials, generating a front-loading of imports that offset subsequent declines. Second, the AI-driven investment boom created strong demand for capital goods, which faced relatively moderate tariffs compared to consumption and intermediate goods. Third, the heterogeneous distribution of tariffs across goods categories mattered critically for both trade flows and macroeconomic outcomes.<br />\nOur quantitative analysis shows that the model successfully accounts for the behavior of imports and key macroeconomic aggregates throughout 2025 and early 2026.<br />\nThe paper highlights an important asymmetry in the macroeconomic effects of tariffs. While tariffs on consumption goods and intermediates are stagflationary — raising inflation and reducing output — tariffs on capital goods are deflationary. This arises because investment tariffs depress capital and labor demand, putting downward pressure on wages and marginal costs. This finding has important implications for understanding the aggregate effects of trade policy and suggests that the composition of tariff protection is a first-order consideration for macroeconomic stabilization.<br />\nLooking forward, if the AI-driven investment boom persists and continues to pull in imported capital goods, the capital-goods share of U.S. imports — already at a historical high — would rise further. Through the lens of our model, this would make future uniform tariff increases even more costly for output, while their inflationary bite would be increasingly muted by the deflationary force of capital tariffs. Put differently, the very structural shift that helped the U.S. avoid a trade collapse in 2025 would, if it continues, leave aggregate activity more exposed to broad-based trade-cost shocks going forward, even as it tempers their inflationary consequences.<br />\n（拙訳）<br />\n2025年に米国の関税率は大恐慌以来見られなかった水準に引き上げられたが、米国の輸入は崩壊せずにむしろ増加した。本稿は、消費財、中間投入財、ならびに資本財への関税を備えた2か国ニューケインジアンモデルを通じてこのパズルを解く。生じなかった貿易崩壊を理解する上で、3つの特性が極めて重要である。第一に、2025年初の関税引き上げ予想は、とりわけ輸入原材料について顕著な在庫蓄積を促し、その後の低下を相殺する輸入の前倒しをもたらした。第二に、AIが牽引した投資ブームが資本財への強い需要を生み出したが、資本財への関税は消費財と中間財に比べると比較的小幅であった。第三に、財分類ごとの関税の不均一な分布は、貿易フローとマクロ経済的帰結の双方にとって極めて重要だった。<br />\n我々の定量的な分析は、2025年通年と2026年初めにおける輸入と主要なマクロ経済集計量の推移をモデルが上手く説明できることを示している。<br />\n本稿は、関税のマクロ経済的影響の重要な非対称性を明らかにした。消費財と中間財への関税はスタグフレーション的――インフレを引き上げ生産を減らす――であるが、資本財への関税はデフレ的である。これは、投資関税が資本と労働の需要を抑制し、賃金と限界費用に下方圧力を掛けるためである。この発見は貿易政策のマクロの影響を理解する上で重要な意味合いを持ち、関税保護の内訳がマクロ経済安定のために一次的に考慮すべき事項であることを示唆している。<br />\n先行きについて言えば、AIが牽引する投資ブームが継続し、輸入資本財を引き入れ続けるならば、米国の輸入における資本財の比率――既に歴史的高水準にある――はさらに上昇するであろう。我々のモデルでは、それにより今後の一律の関税引き上げは生産にとって一層高く付くものとなる半面、そのインフレ効果は資本関税のデフレ的な力で一層抑えられるであろう。換言すれば、2025年の米国が貿易崩壊を回避するのに貢献した構造変化そのものが、もしこれからも続くならば、そのインフレ的な帰結を和らげるにしても、今後の広範囲の貿易費用ショックがマクロ活動に与える影響をより大きなものとする。</p>\n\n    </blockquote>\n<p>要旨では、消費財と中間財への関税は供給ショックのように働く半面、資本財への関税は需要ショックのように働く、と述べている。また、投資ブームが無ければ輸入は一割減り、経済活動は0.7%縮小していたであろうとのこと。2025年の関税引き上げは消費財に集中し、資本財は比較的見逃されたため、生産への悪影響は限定的だった一方でインフレ的な影響は増幅されたという。</p>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "3cc992a523f19f69",
       "feed_id": "d976d70a8e8a",
       "feed_title": "【不動産投資】訳あり物件再生の方法が面白いほどよくわかるブログ",
@@ -6385,20 +6399,6 @@
       "source_type": "rss"
     },
     {
-      "id": "161925450ec78c0f",
-      "feed_id": "d976d70a8e8a",
-      "feed_title": "【不動産投資】訳あり物件再生の方法が面白いほどよくわかるブログ",
-      "category": "不動産",
-      "title": "☆曙町の格安ヴィンテージ区分マンション☆",
-      "url": "https://ameblo.jp/h251115/entry-12973491184.html",
-      "published": "2026-07-22T20:00:00+00:00",
-      "fetched": "2026-07-22T21:28:17.684809+00:00",
-      "summary": "安いです♪ どうも！ 訳あり不動産の佐藤です。 ちょっと色々残念なことがあります。 今は言えないんですけど・・・ すべて解決したとき長期連載をスタートさせたいと思います（笑） 不動産の管理に関することです。 さて、本日のご紹介物件は・・・ 私のクライアント様よりご依頼頂いた区分マンションです。 これが超格安！ 新宿区の一等地にこの価格はなかなか出ないと思います。 借地権付きの区分マンションなんですが・・・ 8年前にフル理のbしてあるのでとてもきれいなんですよ。 マンション自体もヴィンテージ系でして・・ ちゃんと手入れもされています。 エレベーターも新しい…",
-      "content_html": "<p>&nbsp;</p><h2 class=\"limited_heading06\" style=\"background-size: 178px 11px; padding-bottom: 19px; margin: 8px 0; font-weight: bold; color: #424242; font-size: 20px; line-height: 1.6; text-align: center; background-position: center bottom;\"><span style=\"display: block;\"><span style=\"display: block;\">安いです♪</span></span></h2><p>どうも！</p><p>訳あり不動産の佐藤です。</p><p>&nbsp;</p><p>ちょっと色々残念なことがあります。</p><p>今は言えないんですけど・・・</p><p>すべて解決したとき長期連載をスタートさせたいと思います（笑）</p><p>不動産の管理に関することです。</p><p>&nbsp;</p><p>さて、本日のご紹介物件は・・・</p><p>私のクライアント様よりご依頼頂いた区分マンションです。</p><p>&nbsp;</p><p>これが超格安！</p><p>新宿区の一等地にこの価格はなかなか出ないと思います。</p><p>借地権付きの区分マンションなんですが・・・</p><p>8年前にフル理のbしてあるのでとてもきれいなんですよ。</p><p>マンション自体もヴィンテージ系でして・・</p><p>ちゃんと手入れもされています。</p><p>エレベーターも新しいです♪</p><p>&nbsp;</p><p><a href=\"https://stat.ameba.jp/user_images/20260722/21/h251115/45/db/j/o0519067915805098256.jpg\"><img alt=\"\" height=\"679\" src=\"https://stat.ameba.jp/user_images/20260722/21/h251115/45/db/j/o0519067915805098256.jpg\" width=\"519\" /></a></p><p>入口がヴィンテージ間を出していて良い感じです♪↓</p><p><a href=\"https://stat.ameba.jp/user_images/20260722/21/h251115/ee/b7/j/o0526070015805099482.jpg\"><img alt=\"\" height=\"700\" src=\"https://stat.ameba.jp/user_images/20260722/21/h251115/ee/b7/j/o0526070015805099482.jpg\" width=\"526\" /></a></p><p>&nbsp;</p><p>新宿区の愛住町にあります。</p><p>曙橋駅徒歩4分とアクセス抜群です！</p><p>48.98㎡の２LDKでなんと・・・・2300万円です！</p><p><a href=\"https://stat.ameba.jp/user_images/20260722/21/h251115/df/60/j/o1036071215805099658.jpg\"><img alt=\"\" height=\"426\" src=\"https://stat.ameba.jp/user_images/20260722/21/h251115/df/60/j/o1036071215805099658.jpg\" width=\"620\" /></a></p><p>8年前にフルリノベーションしてあります。</p><p>昨日内検してきましたが、まだ新築みたいです♪</p><p><a href=\"https://stat.ameba.jp/user_images/20260722/21/h251115/ad/14/j/o0251038115805099451.jpg\"><img alt=\"\" height=\"381\" src=\"https://stat.ameba.jp/user_images/20260722/21/h251115/ad/14/j/o0251038115805099451.jpg\" width=\"251\" /></a></p><p><a href=\"https://stat.ameba.jp/user_images/20260722/21/h251115/4b/9c/j/o0525070015805100062.jpg\"><img alt=\"\" height=\"700\" src=\"https://stat.ameba.jp/user_images/20260722/21/h251115/4b/9c/j/o0525070015805100062.jpg\" width=\"525\" /></a><a href=\"https://stat.ameba.jp/user_images/20260722/21/h251115/de/c5/j/o0507069015805100123.jpg\"><img alt=\"\" height=\"690\" src=\"https://stat.ameba.jp/user_images/20260722/21/h251115/de/c5/j/o0507069015805100123.jpg\" width=\"507\" /></a><a href=\"https://stat.ameba.jp/user_images/20260722/21/h251115/4e/65/j/o0522067615805100146.jpg\"><img alt=\"\" height=\"676\" src=\"https://stat.ameba.jp/user_images/20260722/21/h251115/4e/65/j/o0522067615805100146.jpg\" width=\"522\" /></a><a href=\"https://stat.ameba.jp/user_images/20260722/21/h251115/f1/84/j/o0520067615805100246.jpg\"><img alt=\"\" height=\"676\" src=\"https://stat.ameba.jp/user_images/20260722/21/h251115/f1/84/j/o0520067615805100246.jpg\" width=\"520\" /></a><a href=\"https://stat.ameba.jp/user_images/20260722/21/h251115/99/74/j/o0529067315805100285.jpg\"><img alt=\"\" height=\"673\" src=\"https://stat.ameba.jp/user_images/20260722/21/h251115/99/74/j/o0529067315805100285.jpg\" width=\"529\" /></a><a href=\"https://stat.ameba.jp/user_images/20260722/21/h251115/47/41/j/o0513070315805100324.jpg\"><img alt=\"\" height=\"703\" src=\"https://stat.ameba.jp/user_images/20260722/21/h251115/47/41/j/o0513070315805100324.jpg\" width=\"513\" /></a><a href=\"https://stat.ameba.jp/user_images/20260722/21/h251115/7a/36/j/o0529069715805100336.jpg\"><img alt=\"\" height=\"697\" src=\"https://stat.ameba.jp/user_images/20260722/21/h251115/7a/36/j/o0529069715805100336.jpg\" width=\"529\" /></a></p><p>ぴかぴかでしょ？</p><p>&nbsp;</p><p>修繕つみって金が少し高いんですけど・・・</p><p>それを加味しても激安物件かと思います。</p><p>借地権のマンションでして、管理費のほうに地代は入ってます。</p><p>&nbsp;</p><p>告知事項として・・・来年借地契約の更新が有るのですが、まだ契約予定が決まってません。</p><p>当然地代の値上げもあると思います。未定になります。</p><p>そこをご承諾の上ご検討ください！</p><p>普通ならこの価格でこの広さのこの内装状態には絶対住めません。</p><p>お買い得物件かと思います。</p><p>ぜひ一度ご内見お願いします。</p><p>&nbsp;</p><p>それでは、また。</p>",
-      "author": null,
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6427,11 +6427,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-21T18:51:05.963185+00:00",
+  "last_updated": "2026-08-21T20:35:34.680699+00:00",
   "stats": {
     "total": 459,
     "fetched_just_now": 897,
-    "feeds_success": 72,
-    "feeds_failed": 1
+    "feeds_success": 73,
+    "feeds_failed": 0
   }
 }

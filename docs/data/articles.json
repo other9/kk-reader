@@ -6287,20 +6287,6 @@
       "source_type": "scrape_cfajapan"
     },
     {
-      "id": "2947867ed09b9de1",
-      "feed_id": "f8c882c05df3",
-      "feed_title": "himaginary’s diary",
-      "category": "金融・経済・投資",
-      "title": "米国の職場での政治的分離",
-      "url": "https://himaginary.hatenablog.com/entry/20260723/Political_segregation_in_the_US_workplace",
-      "published": "2026-07-23T14:59:00+00:00",
-      "fetched": "2026-07-23T17:42:19.128345+00:00",
-      "summary": "という 今年6/22にNature Human Behaviourに掲載された論文 をタイラー・コーエンが 紹介している （ SSRN版へのリンクやComplimentary Link (read-only)がある著者の一人のページ ）。原題は「Political segregation in the US workplace」で、著者はJustin Frake（ミシガン大）、Reuben Hurst（メリーランド大）、Max Kagan（コロンビア大）。 以下は 昨年9月時点のSSRN版 の要旨。 Using a novel dataset creat…",
-      "content_html": "<p>という<a href=\"https://www.nature.com/articles/s41562-026-02501-9\">&#x4eca;&#x5e74;6/22&#x306b;Nature Human Behaviour&#x306b;&#x63b2;&#x8f09;&#x3055;&#x308c;&#x305f;&#x8ad6;&#x6587;</a>をタイラー・コーエンが<a href=\"https://marginalrevolution.com/marginalrevolution/2026/07/democrats-are-more-politically-segregated-than-are-republicans.html\">&#x7d39;&#x4ecb;&#x3057;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://maxkagan.com/research.html\">SSRN&#x7248;&#x3078;&#x306e;&#x30ea;&#x30f3;&#x30af;&#x3084;Complimentary Link (read-only)&#x304c;&#x3042;&#x308b;&#x8457;&#x8005;&#x306e;&#x4e00;&#x4eba;&#x306e;&#x30da;&#x30fc;&#x30b8;</a>）。原題は「Political segregation in the US workplace」で、著者はJustin Frake（ミシガン大）、Reuben Hurst（メリーランド大）、Max Kagan（コロンビア大）。<br />\n以下は<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4639165\">&#x6628;&#x5e74;9&#x6708;&#x6642;&#x70b9;&#x306e;SSRN&#x7248;</a>の要旨。</p>\n\n    <blockquote>\n        <p>Using a novel dataset created by matching employment histories with voter registration data for 45.3 million workers, we provide the first large-scale estimate of workplace political segregation in the United States. We present four main findings. First, partisans are strongly segregated by workplace. The average Democrat's coworkers are 11.7 percentage points more Democratic than the average Republican's; the magnitude of workplace political segregation is similar to segregation by gender. There is considerable geographic variation in the extent to which individuals experience greater political segregation at work or in the neighborhoods where they live. Even after controlling for sorting by geography, industry, and occupation, substantial political segregation remains. Second, segregation is largest among those who are politically active and those who plausibly enjoy greater market power.  Third Republicans experience significantly higher exposure to Democrats at work than vice versa, with the median Republican working in an environment where 50% of their coworkers are Democrats, compared to 32% of Republican co-workers for the median Democrat. Fourth, political workplace segregation has increased only modestly since 2012.<br />\n（拙訳）<br />\n4530万人の労働者の雇用記録と有権者登録データを突き合わせて作成した新たなデータセットを用いて我々は、米国における職場の政治的分離についての初の大規模な推計を示す。我々は4つの主要な発見を提示する。第一に、職場によって党派は強く分離されている。平均的な民主党員の同僚は、平均的な共和党員の同僚よりも民主党員である割合が11.7%ポイント<a href=\"#f-4dfe8c92\" id=\"fn-4dfe8c92\" name=\"fn-4dfe8c92\" title=\"掲載版の要旨では95%信頼区間が[10.6, 12.8]であるという記述が加わっている。\">*1</a>高い。政治的分離の程度は性別による分離と同程度である。職場もしくは住居の近隣において政治的分離がどの程度大きいかについては、有意な地理的なバラつきが存在する。地理、産業、職業で分類してコントロールした後でも、顕著な政治的分離が残る<a href=\"#f-244feb0e\" id=\"fn-244feb0e\" name=\"fn-244feb0e\" title=\"掲載版の要旨では2.9％ポイント（95%信頼区間が[2.7, 3.1]）であるという記述、および同様に推計した性別による分離が2.8％ポイント（95%信頼区間が[2.6, 3.0]）であるという記述が加わっている。\">*2</a>。第二に、政治的に活発な人<a href=\"#f-8d6cdab1\" id=\"fn-8d6cdab1\" name=\"fn-8d6cdab1\" title=\"掲載版の要旨では政治的寄付を行う人が14.8％ポイント（95%信頼区間が[13.2, 16.4]）なのに対し寄付を行わない人が11.6%ポイント（95%信頼区間が[10.5, 12.7]）であるという記述が加わっている。\">*3</a>、および市場支配力を享受している可能性が高い人<a href=\"#f-f331beaa\" id=\"fn-f331beaa\" name=\"fn-f331beaa\" title=\"掲載版の要旨では上級管理職が14.7％ポイント（95%信頼区間が[13.4, 16.1]）であるという記述が加わっている。\">*4</a>において、分離は最大となる。第三に、共和党員が職場で民主党員と接する割合はその逆よりも有意に高い。平均的な共和党員は同僚の50%が民主党員である状況で働いているが、平均的な民主党員の同僚の共和党員は32%である。第四に、政治的な職場の分離は2012年以降小幅にしか増加していない<a href=\"#f-91cefce9\" id=\"fn-91cefce9\" name=\"fn-91cefce9\" title=\"掲載版の要旨では2012年が11.1％ポイント（95%信頼区間が[10.0, 12.2]）なのに対し2024年が11.0%ポイント（95%信頼区間が[10.0, 12.0]）であるという記述が加わっている。この数字だけをみるとむしろ減少しているが、SSRN版の本文では固定効果を考慮した推計では僅かに増えていると記している。\">*5</a>。</p>\n\n    </blockquote>\n<p>職場と政治に関する論文については本ブログで以前<a href=\"https://himaginary.hatenablog.com/entry/20220704/political-polarization-of-corporate-america\">&#x7c73;&#x4f01;&#x696d;&#x306e;&#x653f;&#x6cbb;&#x7684;&#x5206;&#x6975;&#x5316; - himaginary&rsquo;s diary</a>と<a href=\"https://himaginary.hatenablog.com/entry/20220706/Politics_At_Work\">&#x8077;&#x5834;&#x3067;&#x50cd;&#x304f;&#x653f;&#x6cbb; - himaginary&rsquo;s diary</a>で紹介したことがあり（いずれも今回の論文で参照されている）、前者は米国、後者はブラジルについての研究だったが、日本ではそれほど強い結果は出ないだろうなと予想されるところではある。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-4dfe8c92\" id=\"f-4dfe8c92\" name=\"f-4dfe8c92\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">掲載版の要旨では95%信頼区間が[10.6, 12.8]であるという記述が加わっている。</span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-244feb0e\" id=\"f-244feb0e\" name=\"f-244feb0e\">*2</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">掲載版の要旨では2.9％ポイント（95%信頼区間が[2.7, 3.1]）であるという記述、および同様に推計した性別による分離が2.8％ポイント（95%信頼区間が[2.6, 3.0]）であるという記述が加わっている。</span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-8d6cdab1\" id=\"f-8d6cdab1\" name=\"f-8d6cdab1\">*3</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">掲載版の要旨では政治的寄付を行う人が14.8％ポイント（95%信頼区間が[13.2, 16.4]）なのに対し寄付を行わない人が11.6%ポイント（95%信頼区間が[10.5, 12.7]）であるという記述が加わっている。</span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-f331beaa\" id=\"f-f331beaa\" name=\"f-f331beaa\">*4</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">掲載版の要旨では上級管理職が14.7％ポイント（95%信頼区間が[13.4, 16.1]）であるという記述が加わっている。</span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-91cefce9\" id=\"f-91cefce9\" name=\"f-91cefce9\">*5</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">掲載版の要旨では2012年が11.1％ポイント（95%信頼区間が[10.0, 12.2]）なのに対し2024年が11.0%ポイント（95%信頼区間が[10.0, 12.0]）であるという記述が加わっている。この数字だけをみるとむしろ減少しているが、SSRN版の本文では固定効果を考慮した推計では僅かに増えていると記している。</span></p>\n</div>",
-      "author": "himaginary",
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6329,11 +6315,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-22T14:32:37.661592+00:00",
+  "last_updated": "2026-08-22T16:35:49.656995+00:00",
   "stats": {
-    "total": 452,
-    "fetched_just_now": 900,
-    "feeds_success": 72,
-    "feeds_failed": 1
+    "total": 451,
+    "fetched_just_now": 899,
+    "feeds_success": 73,
+    "feeds_failed": 0
   }
 }

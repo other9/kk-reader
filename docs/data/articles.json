@@ -6231,20 +6231,6 @@
       "source_type": "rss"
     },
     {
-      "id": "60d5df314e216756",
-      "feed_id": "f8c882c05df3",
-      "feed_title": "himaginary’s diary",
-      "category": "金融・経済・投資",
-      "title": "オプション市場におけるボラティリティ不一致",
-      "url": "https://himaginary.hatenablog.com/entry/20260724/Volatility_Disagreement_in_the_Options_Market",
-      "published": "2026-07-24T14:59:00+00:00",
-      "fetched": "2026-07-25T03:32:34.787067+00:00",
-      "summary": "というNBER論文が 上がっている （ ungated(SSRN)版 ）。原題は「Volatility Disagreement in the Options Market」で、著者はTuran G. Bali（ジョージタウン大）、Bryan T. Kelly（イェール大）、Mathis Mörke（ESCP経営大学院）。 以下はその要旨。 We construct a novel stock-level measure of volatility disagreement as the cross-sectional dispersion of rea…",
-      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35500\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6961900\">ungated(SSRN)&#x7248;</a>）。原題は「Volatility Disagreement in the Options Market」で、著者はTuran G. Bali（ジョージタウン大）、Bryan T. Kelly（イェール大）、Mathis Mörke（ESCP経営大学院）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>We construct a novel stock-level measure of volatility disagreement as the cross-sectional dispersion of realized variance forecasts built from heterogeneous information sets and machine learning models. Sorting single-name delta-hedged straddles on this measure yields a long-short return of −5.14% per month, robust to known option return predictors and not subsumed by disagreement about first moments or the variance risk premium. A one-standard-deviation increase in volatility disagreement is associated with a 30% rise in option position opening. The cross-sectional patterns of our disagreement measure align with recent theoretical advances of beliefs and pricing of variance claims. Evidence on attention, ownership, and arbitrage costs is more consistent with mispricing than risk compensation.<br />\n（拙訳）<br />\n我々は、不均一な情報集合と機械学習モデルから組み立てられた、実現した分散の予測のクロスセクションのバラつきとして、ボラティリティ不一致の新たな株式レベルの指標を構築した。この指標で個別株のデルタヘッジされたストラドルを並べ替えると、ロング・ショートで月間-5.14%のリターンが得られる。これは既知のオプションのリターンの予測変数に対し頑健であり、一次モーメントの不一致や分散リスクプレミアムで包摂されない。ボラティリティ不一致が1標準偏差上昇すると、オプションの寄り付きにおけるポジションが30%高まる。我々の不一致指標のクロスセクションのパターンは、考え、および、取引される分散の価格付けに関する最近の理論的進展と整合的である。注目、所有、および裁定費用に関する実証結果は、リスクへの補償よりもミスプライシングと整合的である。</p>\n\n    </blockquote>\n<p>具体的には、100人の投資家をシミュレートし、各人に、共通情報からの独自の部分集合ならびに独自の機械学習モデルを賦与し、次期に実現する株式リターンの分散を予測するように求めたとのこと。これを月次で個別株レベルで計算し、得られた指標をVDISと称している。このボラティリティ不一致が価格付けされているかを検証するために、オプション市場で月次のデルタヘッジストラドル<a href=\"#f-363abf15\" id=\"fn-363abf15\" name=\"fn-363abf15\" title=\"googleのAIによると、「デルタヘッジストラドルとは、オプションの「ストラドル」ポジション（同じ権利行使価格のコールとプットを同時に買い、または売り建てる手法）に対し、原資産（先物や株など）を売買して全体のデルタ値をゼロ（中立）に調整・維持し続ける投資戦略です。価格の上下方向ではなく、ボラティリティ（変動率）の変化を利益に変えることを目的とします。」との由。本文では「To first order, a delta-hedged straddle is a bet on realized against implied variance and closely approximates the single-name variance risk premium, the object priced by the disagreement mechanisms in Lochstoer and Muir (2022) and Atmaz and Buffa (2026). 」としている。Lochstoer and Muir (2022) は[https://onlinelibrary.wiley.com/doi/10.1111/jofi.13120:title]、Atmaz and Buffa (2026)は[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4624158:title]。\">*1</a>を検証資産として実証研究したとのことである。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-363abf15\" id=\"f-363abf15\" name=\"f-363abf15\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">googleのAIによると、「デルタヘッジストラドルとは、オプションの「ストラドル」ポジション（同じ権利行使価格のコールとプットを同時に買い、または売り建てる手法）に対し、原資産（先物や株など）を売買して全体のデルタ値をゼロ（中立）に調整・維持し続ける投資戦略です。価格の上下方向ではなく、ボラティリティ（変動率）の変化を利益に変えることを目的とします。」との由。本文では「To first order, a delta-hedged straddle is a bet on realized against implied variance and closely approximates the single-name variance risk premium, the object priced by the disagreement mechanisms in Lochstoer and Muir (2022) and Atmaz and Buffa (2026). 」としている。Lochstoer and Muir (2022) は<a href=\"https://onlinelibrary.wiley.com/doi/10.1111/jofi.13120\">Volatility Expectations and Returns - LOCHSTOER - 2022 - The Journal of Finance - Wiley Online Library</a>、Atmaz and Buffa (2026)は<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4624158\">Volatility Disagreement and Asset Prices by Adem Atmaz, Andrea M Buffa :: SSRN</a>。</span></p>\n</div>",
-      "author": "himaginary",
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6273,10 +6259,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-23T14:33:44.554804+00:00",
+  "last_updated": "2026-08-23T16:37:27.837922+00:00",
   "stats": {
-    "total": 448,
-    "fetched_just_now": 901,
+    "total": 447,
+    "fetched_just_now": 899,
     "feeds_success": 73,
     "feeds_failed": 0
   }

@@ -85,6 +85,20 @@
       "source_type": "scrape_kenbiya"
     },
     {
+      "id": "89c7b43090136064",
+      "feed_id": "9d6a8f89fa83",
+      "feed_title": "健美家 コラム&ニュース",
+      "category": "不動産",
+      "title": "考えさせられる",
+      "url": "https://www.kenbiya.com/ar/cl/fukuda/117.html",
+      "published": "2026-08-23T00:00:00+09:00",
+      "fetched": "2026-08-23T08:43:07.238406+00:00",
+      "summary": "映画版「ちいかわ」の話だろうか？次回もお楽しみに。（編集部）",
+      "content_html": "<div class=\"honbun entry-content\" id=\"fukuda\">\n<p><img alt=\"\" class=\"alignnone wp-image-31464\" decoding=\"async\" height=\"560\" loading=\"lazy\" src=\"https://media.kenbiya.com/uploads/20260817103037/117%E8%80%83%E3%81%88%E3%81%95%E3%81%9B%E3%82%89%E3%82%8C%E3%82%8B.png\" width=\"600\"/> <img alt=\"\" class=\"alignnone wp-image-31465\" decoding=\"async\" height=\"1290\" loading=\"lazy\" src=\"https://media.kenbiya.com/uploads/20260817103041/237.png\" width=\"600\"/></p>\n<div class=\"dotbox\">映画版「ちいかわ」の話だろうか？次回もお楽しみに。（編集部）</div>\n</div>\n<div><a href=\"https://www.kenbiya.com/LP/\"><img alt=\"無料会員登録\" data-pin-nopin=\"nopin\" loading=\"lazy\" src=\"https://www.kenbiya.com/images/banner/pc.png\"/></a></div>",
+      "author": "fukuda",
+      "source_type": "scrape_kenbiya"
+    },
+    {
       "id": "29fd39839bdc0364",
       "feed_id": "73f801c263f8",
       "feed_title": "経済を良くするって、どうすれば",
@@ -6273,11 +6287,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-23T06:56:23.766997+00:00",
+  "last_updated": "2026-08-23T08:43:26.523231+00:00",
   "stats": {
-    "total": 448,
-    "fetched_just_now": 864,
-    "feeds_success": 68,
-    "feeds_failed": 5
+    "total": 449,
+    "fetched_just_now": 894,
+    "feeds_success": 66,
+    "feeds_failed": 7
   }
 }

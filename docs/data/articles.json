@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "ad86a46862a40a3b",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "政府債務の評価と持続可能性についての考え",
+      "url": "https://himaginary.hatenablog.com/entry/20260823/Beliefs_about_Government_Debt_Valuation_and_Sustainability",
+      "published": "2026-08-23T14:30:25+00:00",
+      "fetched": "2026-08-23T14:33:43.745584+00:00",
+      "summary": "というNBER論文が 上がっている （ ungated(SSRN)版 ）。原題は「Beliefs about Government Debt Valuation and Sustainability」で、著者はRicardo Delao（南カリフォルニア大）、Wenhao Li（同）。 以下はその要旨。 What ultimately supports the market value of U.S. government debt? We measure valuation frameworks: the perceived channels that…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35612\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7218578\">ungated(SSRN)&#x7248;</a>）。原題は「Beliefs about Government Debt Valuation and Sustainability」で、著者はRicardo Delao（南カリフォルニア大）、Wenhao Li（同）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>What ultimately supports the market value of U.S. government debt? We measure valuation frameworks: the perceived channels that back debt value. We survey bond investors, registered voters, and economics or finance graduate-degree holders, asking them to allocate debt value across six sources derived from open-ended answers and the literature. Global safe-asset demand and permanent rollover together account for almost half of perceived value in every group, so debt value heavily relies on investor absorption rather than on government resources. Future primary surpluses, the textbook debt backing, receive about 16% even among the graduate-trained; roughly one-third say they provide little or no support. Allocations concentrate within respondents but disperse across them, forming belief archetypes that vary little with fiscal knowledge. A model shows why belief elicitation matters: identical debt quantities and price schedules can conceal differences in saleable public backing and stress-resilient demand, and therefore in debt sustainability. Concern about debt sustainability is widespread, and all three groups put the ten-year crisis odds near 50%. However, among respondents expressing concern, 90% of voters report that it is not decisive in their voting decisions, and 72% of investors report no concrete portfolio change.<br />\n（拙訳）<br />\n何が最終的に米国政府債務の市場価値を支えるのだろうか？　我々は評価の枠組み、即ち債務価値を裏付ける認識経路を測定した。我々は、債券投資家、登録有権者、経済学もしくはファイナンスの修士号保有者を調査対象とし、記述式の回答とこの分野の研究から得られた6つの源泉に債務価値を割り当てるよう要望した。すべてのグループで、世界的な安全資産需要と恒久的な借り換えが合わせて認識価値のほぼ半分を占めた。従って、債務価値は、政府の資源よりも、投資家の吸収能力に大きく依存していることになる。教科書的な債務の裏付けである将来の基礎的財政黒字は、大学院卒においてさえ、およそ16%だった。約3分の1は、それはあまりもしくは全く裏付けを提供しない、と述べた。回答者の中では配分は集中したが、回答者間では配分は分散した。それにより考えの典型が形成されたが、それと財政の知識との共変動はほぼ無かった。モデルにより、考えを引き出すことがなぜ重要であるかが示される。同一の債務額と価格の推移は、売却できる公的な裏付けならびにストレスに耐える需要の差、延いては債務の持続可能性の差を隠してしまう可能性がある。債務の持続可能性への懸念は広がっており、3つのグループすべてで10年間における危機の可能性に50%近くが付けられた。しかし、懸念を表明した回答者の中で、有権者の90%はそれが投票の決定における決定的な要因とはならないと回答し、投資家の72%は明確なポートフォリオの変更を回答しなかった。</p>\n\n    </blockquote>\n<p>本文の冒頭では、「Opinion is the soul of it; and this is affected by appearances as well as realities.」というアレクサンダー・ハミルトン（Alexander Hamilton）の「First Report on the Public Credit（公的信用に関する第一報告書<a href=\"#f-fcc54ee2\" id=\"fn-fcc54ee2\" name=\"fn-fcc54ee2\" title=\"cf. [https://ja.wikipedia.org/wiki/%E5%85%AC%E7%9A%84%E4%BF%A1%E7%94%A8%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E7%AC%AC%E4%B8%80%E5%A0%B1%E5%91%8A%E6%9B%B8:title]。\">*1</a>」の言葉を引用している。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-fcc54ee2\" id=\"f-fcc54ee2\" name=\"f-fcc54ee2\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">cf. <a href=\"https://ja.wikipedia.org/wiki/%E5%85%AC%E7%9A%84%E4%BF%A1%E7%94%A8%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E7%AC%AC%E4%B8%80%E5%A0%B1%E5%91%8A%E6%9B%B8\">&#x516c;&#x7684;&#x4fe1;&#x7528;&#x306b;&#x95a2;&#x3059;&#x308b;&#x7b2c;&#x4e00;&#x5831;&#x544a;&#x66f8; - Wikipedia</a>。</span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "d5211a0e93a82bce",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -6231,20 +6245,6 @@
       "source_type": "rss"
     },
     {
-      "id": "c91fd7c40dd7469a",
-      "feed_id": "6c30fc2654fb",
-      "feed_title": "元官庁エコノミストのブログ",
-      "category": "金融・経済・投資",
-      "title": "9回ツーアウトからジャイアンツに大逆転負け",
-      "url": "http://economist.cocolog-nifty.com/blog/2026/07/post-9fb08f.html",
-      "published": "2026-07-24T13:00:00+00:00",
-      "fetched": "2026-07-24T15:42:20.321348+00:00",
-      "summary": "一 二 三 四 五 六 七 八 九 十 R H E 読 売 0 0 0 0 0 0 0 0 2 2 4 6 1 阪 神 0 1 0 0 0 0 0 0 1 0 2 8 0 【読】ウィットリー、中川、森田、マルティネス、田中瑛 - 大城 【神】才木、岩崎 - 梅野、坂本 9回ツーアウトまでこぎつけながら、 巨人に大逆転負け でした。 先発才木投手は9回ツーアウトまで無失点でしたが、何と、最後の最後に2ランを打たれて逆転されてしまいます。9回ウラに森下選手の犠牲フライで追いついたものの、10回に岩崎投手の背信で逆転されました。監督やピッチングコーチも、 岩崎…",
-      "content_html": "<p><a href=\"https://hanshintigers.jp/game/score/table/table20260724.html\" style=\"font-style: normal;\" target=\"_blank\"><table class=\"s-b\" title=\"スコアボード\"><tr class=\"sb1\"><td class=\"sb1\"> </td><td class=\"sb2\">一</td><td class=\"sb2\">二</td><td class=\"sb2\">三</td><td class=\"sb2\">四</td><td class=\"sb2\">五</td><td class=\"sb2\">六</td><td class=\"sb2\">七</td><td class=\"sb2\">八</td><td class=\"sb2\">九</td><td class=\"sb2\">十</td><td class=\"sb3\"> </td><td class=\"sb4\">R</td><td class=\"sb4\">H</td><td class=\"sb2\">E</td></tr><tr class=\"sb2\"><td>読　　売</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td class=\"sb3\"> </td><td>4</td><td>6</td><td>1</td></tr><tr class=\"sb2\"><td>阪　　神</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td class=\"sb3\"> </td><td>2</td><td>8</td><td>0</td></tr></table></a><br />【読】ウィットリー、中川、森田、マルティネス、田中瑛 - 大城<br />【神】才木、岩崎 - 梅野、坂本</p><p>9回ツーアウトまでこぎつけながら、<span class=\"red\">巨人に大逆転負け</span>でした。<br />先発高橋投手は9回ツーアウトまで無失点でしたが、何と、最後の最後に2ランを打たれて逆転されてしまいます。9回ウラに森下選手の犠牲フライで追いついたものの、10回に岩崎投手の背信で逆転されました。監督やピッチングコーチも、<span class=\"green\">岩崎投手はクローザーの力はない</span>ことを十分認識し、このところずっと8回に起用しているのですが、勝ちパターンで引き続きやっていけるかどうか、試練の時かもしれません。それにしても、敗戦の大きな要因は打線です。今夜の試合では、相手エラーや犠牲フライでしか得点できませんでした。特に<span class=\"blue\">佐藤輝選手は重症</span>と見ました。</p><p>明日は、<br /><span class=\"tigers\">がんばれタイガース!</p>",
-      "author": "元官庁エコノミスト",
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6273,10 +6273,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-23T12:57:35.135568+00:00",
+  "last_updated": "2026-08-23T14:33:44.554804+00:00",
   "stats": {
     "total": 448,
-    "fetched_just_now": 902,
+    "fetched_just_now": 901,
     "feeds_success": 73,
     "feeds_failed": 0
   }

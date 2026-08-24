@@ -6217,20 +6217,6 @@
       "source_type": "rss"
     },
     {
-      "id": "baed272bfbf19b1e",
-      "feed_id": "5acee72b6150",
-      "feed_title": "金融の未来を考えるブログ",
-      "category": "金融・経済・投資",
-      "title": "国債のトークン化はどこが先行するか",
-      "url": "https://saferich.biz/%e5%9b%bd%e5%82%b5%e3%81%ae%e3%83%88%e3%83%bc%e3%82%af%e3%83%b3%e5%8c%96%e3%81%af%e3%81%a9%e3%81%93%e3%81%8c%e5%85%88%e8%a1%8c%e3%81%99%e3%82%8b%e3%81%8b/",
-      "published": "2026-07-25T08:11:22+00:00",
-      "fetched": "2026-07-25T09:57:43.444865+00:00",
-      "summary": "7/13に英国政府が進めるホールセール金融市場のトークン化についての1次報告書が公表された。トークン化資産の発行のみならず、取引、担保利用、決済まで、広範囲にわたる内容となっている。デジタル国債であるDIGITを来年第一 … 続きを読む 国債のトークン化はどこが先行するか → The post 国債のトークン化はどこが先行するか first appeared on 金融の未来を考えるブログ .",
-      "content_html": "<p>7/13に英国政府が進めるホールセール金融市場のトークン化についての1次報告書が公表された。トークン化資産の発行のみならず、取引、担保利用、決済まで、広範囲にわたる内容となっている。デジタル国債であるDIGITを来年第一 &#8230; <a class=\"more-link\" href=\"https://saferich.biz/%e5%9b%bd%e5%82%b5%e3%81%ae%e3%83%88%e3%83%bc%e3%82%af%e3%83%b3%e5%8c%96%e3%81%af%e3%81%a9%e3%81%93%e3%81%8c%e5%85%88%e8%a1%8c%e3%81%99%e3%82%8b%e3%81%8b/\">続きを読む <span class=\"screen-reader-text\">国債のトークン化はどこが先行するか</span> <span class=\"meta-nav\">&#8594;</span></a></p>\nThe post <a href=\"https://saferich.biz/%e5%9b%bd%e5%82%b5%e3%81%ae%e3%83%88%e3%83%bc%e3%82%af%e3%83%b3%e5%8c%96%e3%81%af%e3%81%a9%e3%81%93%e3%81%8c%e5%85%88%e8%a1%8c%e3%81%99%e3%82%8b%e3%81%8b/\">国債のトークン化はどこが先行するか</a> first appeared on <a href=\"https://saferich.biz\">金融の未来を考えるブログ</a>.",
-      "author": "管理人",
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6259,11 +6245,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-24T07:15:23.648930+00:00",
+  "last_updated": "2026-08-24T08:59:29.918186+00:00",
   "stats": {
-    "total": 447,
-    "fetched_just_now": 901,
-    "feeds_success": 73,
-    "feeds_failed": 0
+    "total": 446,
+    "fetched_just_now": 897,
+    "feeds_success": 72,
+    "feeds_failed": 1
   }
 }

@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "0e0a1f6c84705481",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "金融と財政の相互作用：再評価",
+      "url": "https://himaginary.hatenablog.com/entry/20260826/Monetary-Fiscal_Interactions_A_Reappraisal",
+      "published": "2026-08-26T14:55:11+00:00",
+      "fetched": "2026-08-26T14:56:13.508583+00:00",
+      "summary": "というNBER論文が 上がっている （ ungated版 ）。原題は「Monetary-Fiscal Interactions: A Reappraisal」で、著者はGeorge-Marios Angeletos（ノースウエスタン大）、Chen Lian（UCバークレー）、Christian K. Wolf（MIT）、Dalton Rongxuan Zhang（ノースウエスタン大）。 以下はその要旨。 The possibility of fiscal dominance in the representative-agent New Keynesia…",
+      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35642\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://bpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/f/7201/files/2026/08/ftpl_game.pdf\">ungated&#x7248;</a>）。原題は「Monetary-Fiscal Interactions: A Reappraisal」で、著者はGeorge-Marios Angeletos（ノースウエスタン大）、Chen Lian（UCバークレー）、Christian K. Wolf（MIT）、Dalton Rongxuan Zhang（ノースウエスタン大）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>The possibility of fiscal dominance in the representative-agent New Keynesian model (RANK) hinges on the assumption that income is perpetually demand-determined: fiscal deficits can drive output and inflation within that model only insofar as they trigger infinitely lasting, self-sustained shifts in aggregate spending and income. Moving to heterogeneous-agent New Keynesian models (HANK) opens the door to a different pathway: classical non-Ricardian effects, due to finite horizons or liquidity constraints. A refinement motivated by the model's intended focus on short-run phenomena—requiring a return to flexible-price outcomes in finite time—arrests the infinite feedback loop between spending and income, leaving only the classical non-Ricardian mechanism, and makes sure that the study of monetary-fiscal interactions is not centered on hard-to-test assumptions regarding beliefs at infinity.<br />\n（拙訳）</p>\n\n    </blockquote>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "733ea354fb434d13",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -6273,10 +6287,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-26T13:10:44.545064+00:00",
+  "last_updated": "2026-08-26T14:56:15.110052+00:00",
   "stats": {
-    "total": 448,
-    "fetched_just_now": 895,
+    "total": 449,
+    "fetched_just_now": 894,
     "feeds_success": 73,
     "feeds_failed": 0
   }

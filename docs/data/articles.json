@@ -1,6 +1,48 @@
 {
   "articles": [
     {
+      "id": "64124d30001d8164",
+      "feed_id": "5acee72b6150",
+      "feed_title": "金融の未来を考えるブログ",
+      "category": "金融・経済・投資",
+      "title": "マージンコールの完全自動化は可能か",
+      "url": "https://saferich.biz/%e3%83%9e%e3%83%bc%e3%82%b8%e3%83%b3%e3%82%b3%e3%83%bc%e3%83%ab%e3%81%ae%e5%ae%8c%e5%85%a8%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%af%e5%8f%af%e8%83%bd%e3%81%8b/",
+      "published": "2026-08-30T07:29:40+00:00",
+      "fetched": "2026-08-30T08:15:00.752118+00:00",
+      "summary": "一部メールによるマージンコール処理を行っている小規模参加者を除けば、STPによる担保管理の自動化はかなりのレベルまで進んできた。おそらく最後まで残るのがDispute Resolutionと例外処理だろう。 自社と相手方 … 続きを読む マージンコールの完全自動化は可能か → The post マージンコールの完全自動化は可能か first appeared on 金融の未来を考えるブログ .",
+      "content_html": "<p>一部メールによるマージンコール処理を行っている小規模参加者を除けば、STPによる担保管理の自動化はかなりのレベルまで進んできた。おそらく最後まで残るのがDispute Resolutionと例外処理だろう。 自社と相手方 &#8230; <a class=\"more-link\" href=\"https://saferich.biz/%e3%83%9e%e3%83%bc%e3%82%b8%e3%83%b3%e3%82%b3%e3%83%bc%e3%83%ab%e3%81%ae%e5%ae%8c%e5%85%a8%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%af%e5%8f%af%e8%83%bd%e3%81%8b/\">続きを読む <span class=\"screen-reader-text\">マージンコールの完全自動化は可能か</span> <span class=\"meta-nav\">&#8594;</span></a></p>\nThe post <a href=\"https://saferich.biz/%e3%83%9e%e3%83%bc%e3%82%b8%e3%83%b3%e3%82%b3%e3%83%bc%e3%83%ab%e3%81%ae%e5%ae%8c%e5%85%a8%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%af%e5%8f%af%e8%83%bd%e3%81%8b/\">マージンコールの完全自動化は可能か</a> first appeared on <a href=\"https://saferich.biz\">金融の未来を考えるブログ</a>.",
+      "author": "管理人",
+      "source_type": "rss"
+    },
+    {
+      "id": "9c56c6b8dff8a2dd",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "通貨の優位は永遠ではない：非線形動学モデルからの幾ばくかの洞察",
+      "url": "https://himaginary.hatenablog.com/entry/20260830/Currency_Dominance_Is_Not_Forever",
+      "published": "2026-08-30T03:11:43+00:00",
+      "fetched": "2026-08-30T08:14:59.803563+00:00",
+      "summary": "というNBER論文をマイケル・ボルドーらが 上げている （ ungated版 ）。原題は「Currency Dominance Is Not Forever: Some Insights from a Non-Linear Dynamic Model」で、著者はMichael D. Bordo（ラトガーズ大）、Cécile Bastidon（ツーロン大）。 以下はその要旨。 We propose stress tests based on an original International Monetary System (IMS) model with…",
+      "content_html": "<p>というNBER論文をマイケル・ボルドーらが<a href=\"https://www.nber.org/papers/w35647\">&#x4e0a;&#x3052;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://www.hoover.org/research/currency-dominance-not-forever-some-insights-non-linear-dynamic-model\">ungated&#x7248;</a>）。原題は「Currency Dominance Is Not Forever: Some Insights from a Non-Linear Dynamic Model」で、著者はMichael D. Bordo（ラトガーズ大）、Cécile Bastidon（ツーロン大）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>We propose stress tests based on an original International Monetary System (IMS) model with regime switchings. The model is calibrated for nine reference currencies from the beginning of the Classical Gold Standard to the present. Regime switchings in currency dominance are related to combinations of conditions on a multidimensional environment variable that includes five classes of shocks: technology; development; monetary, financial and fiscal institutions; democracy and conflicts; and the regulatory environment. We provide an original database of events for these five classes of shocks, which is used for calibration. The calibration highlights the important role of the democracy and conflicts component in regime switchings. The calibrated model is then used to perform stress tests on the current prospects of currency dominance for a broad set of scenarios. A salient result from the scenarios we tested is that the dominance of the US dollar is at most marginally affected. No other currency emerges as a major player, suggesting strong inertia in the system’s current centripetal dynamics.<br />\n（拙訳）<br />\n我々は、レジームスイッチングを備えた独自の国際金融システム（IMS）モデルに基づくストレステストを提案する。モデルは、古典的な金本位制の開始から現在に至る期間において、9つの参照通貨についてカリブレートされている。通貨優位のレジームスイッチングは、技術、発展、貨幣・金融・財政制度、民主主義と紛争、および規制環境という5種類のショックを含む多元的な環境変数についての条件の組み合わせと関連している。我々は、カリブレーションに用いた、これら5種類のショックの事象についての独自のデータベースを提供する。カリブレーションは、レジームスイッチングにおける民主主義と紛争という要素の重要性を浮き彫りにした。次に、カリブレートされたモデルを用いて、広範囲のシナリオの集合において通貨優位の現在の見通しに対しストレステストを実施した。我々がテストしたシナリオでの顕著な結果は、米ドルはせいぜい限界的な影響しか受けない、というものである。他のどの通貨も主要なプレイヤーとして出現せず、システムの現在の求心的な動学における強い慣性を示している。</p>\n\n    </blockquote>\n<p>使用したモデルは同じ著者たちによる「<a href=\"https://link.springer.com/article/10.1007/s11079-025-09797-6\">Eras of Monetary and Financial Dominance: A Copernican-Type Model of Multilayered Network with Endogenous Regimes | Open Economies Review | Springer Nature Link</a>」（<a href=\"https://himaginary.hatenablog.com/entry/20231001/IMS_and_IFS_in_Copernican_heliocentric_system\">&#x30b3;&#x30da;&#x30eb;&#x30cb;&#x30af;&#x30b9;&#x7684;&#x306a;&#x592a;&#x967d;&#x4e2d;&#x5fc3;&#x30b7;&#x30b9;&#x30c6;&#x30e0;&#x3068;&#x3044;&#x3046;&#x30a2;&#x30ca;&#x30ed;&#x30b8;&#x30fc;&#x3068;&#x3057;&#x3066;&#x306e;&#x56fd;&#x969b;&#x8ca8;&#x5e63;&#x30b7;&#x30b9;&#x30c6;&#x30e0;&#x3068;&#x56fd;&#x969b;&#x91d1;&#x878d;&#x30b7;&#x30b9;&#x30c6;&#x30e0;&#xff1a;&#x540c;&#x6642;&#x7684;&#x306a;&#x30ec;&#x30b8;&#x30fc;&#x30e0;&#x5909;&#x5316;&#x306e;&#x3042;&#x308b;&#x5358;&#x7d14;&#x306a;&#x591a;&#x5c64;&#x30cd;&#x30c3;&#x30c8;&#x30ef;&#x30fc;&#x30af;&#x30e2;&#x30c7;&#x30eb; - himaginary&rsquo;s diary</a>で紹介した論文の掲載版）で構築した二層グラフモデルだという。</p><p>9つの通貨は、英ポンド、米ドル、ユーロ、日本円、露ルーブル、中国人民元、典型的な他の新興国経済の通貨、典型的な他の先進国経済（小国開放経済）の通貨、デジタル資産である。</p><p><a href=\"https://himaginary.hatenablog.com/entry/20230714/Dollar_in_an_Era_of_International_Retrenchment\">&#x56fd;&#x969b;&#x7684;&#x306a;&#x7e2e;&#x5c0f;&#x306e;&#x6642;&#x4ee3;&#x306b;&#x304a;&#x3051;&#x308b;&#x30c9;&#x30eb; - himaginary&rsquo;s diary</a>、<a href=\"https://himaginary.hatenablog.com/entry/20260215/International_Currency_Dominance\">&#x56fd;&#x969b;&#x7684;&#x306a;&#x901a;&#x8ca8;&#x652f;&#x914d; - himaginary&rsquo;s diary</a>、<a href=\"https://himaginary.hatenablog.com/entry/20260808/Financial_Interdependence_and_Currency_Internationalization\">&#x91d1;&#x878d;&#x306e;&#x76f8;&#x4e92;&#x4f9d;&#x5b58;&#x3068;&#x901a;&#x8ca8;&#x306e;&#x56fd;&#x969b;&#x5316; - himaginary&rsquo;s diary</a>で紹介した論文では人民元が米ドルに取って代わる可能性を検討していたが<a href=\"#f-b72708f3\" id=\"fn-b72708f3\" name=\"fn-b72708f3\" title=\"ちなみに[https://himaginary.hatenablog.com/entry/20220331/stealth-erosion-of-dollar-dominance:title]で紹介したアイケングリーンら（関連記事＝[https://himaginary.hatenablog.com/entry/20220618/Is_Dollar_Dominance_in_Doubt:title]）はより多元的な置き換えの可能性について検討していた。\">*1</a>、それらの論文よりも今回の論文はそうした可能性に否定的で、（タイトルとは裏腹に）米ドル支配の継続をメインシナリオとして示しているように見受けられる。結論部では、米ドルの後継者となる可能性が高いのはむしろユーロではないか、という考察を示している。</p><p>ちなみにボルドーは<a href=\"https://himaginary.hatenablog.com/entry/20180122/Triffin_dilemma_or_myth\">&#x30c8;&#x30ea;&#x30d5;&#x30a3;&#x30f3;&#xff1a;&#x30b8;&#x30ec;&#x30f3;&#x30de;&#x304b;&#x3001;&#x305d;&#x308c;&#x3068;&#x3082;&#x795e;&#x8a71;&#x304b;&#xff1f; - himaginary&rsquo;s diary</a>で紹介した論文で、支配通貨交代を論じる際のトリフィンのジレンマの誤用を戒めている。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-b72708f3\" id=\"f-b72708f3\" name=\"f-b72708f3\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">ちなみに<a href=\"https://himaginary.hatenablog.com/entry/20220331/stealth-erosion-of-dollar-dominance\">&#x30c9;&#x30eb;&#x306e;&#x512a;&#x4f4d;&#x6027;&#x306e;&#x5bc6;&#x304b;&#x306a;&#x6d78;&#x98df;&#xff1a;&#x7a4d;&#x6975;&#x7684;&#x306a;&#x5206;&#x6563;&#x5316;&#x3068;&#x975e;&#x5f93;&#x6765;&#x578b;&#x306e;&#x6e96;&#x5099;&#x901a;&#x8ca8;&#x306e;&#x53f0;&#x982d; - himaginary&rsquo;s diary</a>で紹介したアイケングリーンら（関連記事＝<a href=\"https://himaginary.hatenablog.com/entry/20220618/Is_Dollar_Dominance_in_Doubt\">&#x30c9;&#x30eb;&#x652f;&#x914d;&#x306f;&#x63fa;&#x3089;&#x3044;&#x3067;&#x3044;&#x308b;&#x306e;&#x304b;&#xff1f; - himaginary&rsquo;s diary</a>）はより多元的な置き換えの可能性について検討していた。</span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
+      "id": "98435de9dff24ef3",
+      "feed_id": "2ec7ee82ecf8",
+      "feed_title": "マンションの間取りや価格を言いたい放題!",
+      "category": "不動産",
+      "title": "レーベン中野鷺宮【都立家政駅徒歩5分×鷺ノ宮駅徒歩9分】73㎡10,165万円（坪単価462万円）",
+      "url": "https://mansion-madori.com/blog-entry-11899.html",
+      "published": "2026-08-30T01:55:32+00:00",
+      "fetched": "2026-08-30T08:14:56.171819+00:00",
+      "summary": "レーベン中野鷺宮。 所在地：東京都中野区鷺宮2-90-1（地番） 交通：都立家政駅徒歩5分、鷺ノ宮駅徒歩9分 用途地域：近隣商業地域、第一種低層住居専用地域 階建、総戸数：9階建、32戸 新青梅街道沿いに誕生する物件になります。 新青梅街道沿いの喧騒は避けられないものの、敷地の途中から北側は一低専の低層住宅街というエリアですね。 駅からのアプローチはほぼほぼ都立家政商店街という感じで、徒歩5分内なりの高い利便性が窺えます。 昨年末から分譲中のレジデンシャル中野鷺宮とは異なり、新青梅街道の北側になるため、駅からのアプローチでは新青梅街道を越える必要がありま…",
+      "content_html": "レーベン中野鷺宮。<br /><br />所在地：東京都中野区鷺宮2-90-1（地番）<br />交通：都立家政駅徒歩5分、鷺ノ宮駅徒歩9分<br />用途地域：近隣商業地域、第一種低層住居専用地域<br />階建、総戸数：9階建、32戸<br /><br />新青梅街道沿いに誕生する物件になります。<br />新青梅街道沿いの喧騒は避けられないものの、敷地の途中から北側は一低専の低層住宅街というエリアですね。<br />駅からのアプローチはほぼほぼ都立家政商店街という感じで、徒歩5分内なりの高い利便性が窺えます。<br /><br />昨年末から分譲中のレジデンシャル中野鷺宮とは異なり、新青梅街道の北側になるため、駅からのアプローチでは新青梅街道を越える必要がありますし、南側が第一種低層住居専用地域にもなりませんが、鷺ノ宮駅も徒歩10分圏内となるのは大きなポイントになるでしょう。<br /><br />ところで、こちらの名称は鷺宮の後に何もついていませんが、レーベン●●なんちゃら～っていうアルファベット付けるの止めちゃったんですかね？？？<br /><br />買物便は、スーパーで言うと徒歩4分にマルエツ、徒歩5分にピーコックストアとサミットストア、徒歩6分にコープみらいがあり、距離・選択肢共に申し分ないでしょう。<br />そのように都立家政商店街が徒歩1分となるポジションでもあります。<br /><br />なお、通学区は鷺の杜小学校で徒歩13分と少々距離がありますね。<br /><br /><a href=\"https://www.leben-style.jp/search/lbn-nakanosaginomiya/\" target=\"_blank\" title=\"公式ホームページ\">公式ホームページ</a><br /><a href=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-8-28_10-47-57_No-00.png\" target=\"_blank\"><img alt=\"SnapCrab_NoName_2026-8-28_10-47-57_No-00.png\" border=\"0\" height=\"704\" src=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-8-28_10-47-57_No-00.png\" width=\"377\" /></a><br />お部屋は73㎡の3LDK、南東角住戸です。南は新青梅街道の向かいに9階建マンション、東は隣接して8階建マンションがありますが、新青梅街道により十分な離隔が確保されているため、こういった上層階はもちろん日照ですし、視界も悪いものではありません。<br />新青梅街道沿いの並木ビューも魅力の1つにはなりますね。<br /><br />間取りは物件内で最も大きなものですが、角住戸としてはけして大きくはありません。<br /><br />LDの入口部分も含めると廊下が少々長い印象にはなるのですが、玄関が共用廊下側の出っ張った位置にあるがゆえに窓を設けることが出来ているのは良い点でしょう。<br /><br />開口部はちょっと寂しいですね。<br />前建の影響があっても東側の開口部はもっと充実していても良かったように思いますし、スパンからするとLD南側は4連サッシであって欲しかったですね。<br /><br />居室畳数や収納に違和感はないものの、洗面室はやや小さな印象を受けます。<br /><br />坪単価は462万円。こちらは上層階角住戸のため物件内の上限水準になります。低層階は400万円ほどからの設定のため、平均は430万円程度になるでしょうか。<br /><br />近年の近隣供給事例としては、<a href=\"https://mansion-madori.com/?q=%E3%83%B4%E3%82%A1%E3%83%BC%E3%82%B9%E3%82%AF%E3%83%AC%E3%82%A4%E3%82%B7%E3%82%A2IDZ%E4%B8%AD%E9%87%8E%E9%B7%BA%E5%AE%AE\" title=\"ヴァースクレイシアIDZ中野鷺宮\">ヴァースクレイシアIDZ中野鷺宮</a>（2024年分譲鷺ノ宮/駅徒歩9分/約350万円※平均専有面積約48㎡）、<a href=\"https://mansion-madori.com/?q=%E3%83%96%E3%83%A9%E3%83%B3%E3%82%BA%E7%B7%B4%E9%A6%AC%E4%B8%AD%E6%9D%91%E5%8D%97\" title=\"ブランズ練馬中村南\">ブランズ練馬中村南</a>（2024年分譲/都立家政駅徒歩10分・鷺ノ宮駅徒歩13分/約380万円）、<a href=\"https://mansion-madori.com/?q=%E3%82%A2%E3%83%8D%E3%82%B7%E3%82%A2%E7%B7%B4%E9%A6%AC%E4%B8%AD%E6%9D%91%E5%8D%97\" title=\"アネシア練馬中村南\">アネシア練馬中村南</a>（2024年分譲/都立家政駅徒歩8分・鷺ノ宮駅徒歩12分/約420万円）、<a href=\"https://mansion-madori.com/?q=%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%AB%E4%B8%AD%E9%87%8E%E9%B7%BA%E5%AE%AE\" title=\"レジデンシャル中野鷺宮\">レジデンシャル中野鷺宮</a>（2025年分譲/鷺ノ宮駅徒歩6分/約455万円）があります。<br /><br />昨年のレジデンシャルよりもこなれた設定で、ちょっと意外でした。<br />レジデンシャルの方が鷺ノ宮駅が近いですし、上記のように南面が一低専というのはかなり魅力的な材料となるため、同時期分譲であれば当然のことではあるのですが、こちらの方が大分後発ですからね（後発の方が高くなるのがこのご時世）。<br />利便性では上回るアネシアとは大差ない水準で、アネシアもレジデンシャルもまだ完売していないがゆえの設定と言えそうです。",
+      "author": "モモレジ",
+      "source_type": "rss"
+    },
+    {
       "id": "da1cf87f616fd6a7",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6035,76 +6077,6 @@
       "source_type": "rss"
     },
     {
-      "id": "46c2bc5398cd5828",
-      "feed_id": "2e7efdb141f2",
-      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
-      "category": "不動産",
-      "title": "住宅着工統計（26年6月）｜東京都は増加、首都圏は前年割れ",
-      "url": "https://1manken.hatenablog.com/entry/2026/07/31/monthly_housing_report",
-      "published": "2026-07-31T08:12:43+00:00",
-      "fetched": "2026-07-31T10:48:48.775161+00:00",
-      "summary": "2026年6月のマンション着工を分析。東京都は前年を上回った一方、首都圏全体は前年割れ。全国・首都圏・東京都の動向を図表で読み解く。",
-      "content_html": "2026年6月のマンション着工を分析。東京都は前年を上回った一方、首都圏全体は前年割れ。全国・首都圏・東京都の動向を図表で読み解く。",
-      "author": "flats",
-      "source_type": "rss"
-    },
-    {
-      "id": "3a9b378f8422cadf",
-      "feed_id": "2e7efdb141f2",
-      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
-      "category": "不動産",
-      "title": "羽田新ルート｜品川区の騒音測定データを可視化※随時更新",
-      "url": "https://1manken.hatenablog.com/entry/2021/07/12/shinagawa-noise-new-haneda-flight-routes",
-      "published": "2026-07-31T06:30:00+00:00",
-      "fetched": "2026-07-31T06:51:57.142572+00:00",
-      "summary": "品川区は羽田新ルート周辺に設置した測定局2か所（立会小学校・台場小学校）で測定した騒音データを月単位で随時公表している。",
-      "content_html": "品川区は羽田新ルート周辺に設置した測定局2か所（立会小学校・台場小学校）で測定した騒音データを月単位で随時公表している。",
-      "author": "flats",
-      "source_type": "rss"
-    },
-    {
-      "id": "1449cadd8c7cea7b",
-      "feed_id": "6c30fc2654fb",
-      "feed_title": "元官庁エコノミストのブログ",
-      "category": "金融・経済・投資",
-      "title": "3か月連続の増産となった6月の鉱工業生産指数(IIP)と上昇傾向続く商業販売統計と底堅い雇用統計",
-      "url": "http://economist.cocolog-nifty.com/blog/2026/07/post-e073c4.html",
-      "published": "2026-07-31T06:30:00+00:00",
-      "fetched": "2026-07-31T06:52:00.233929+00:00",
-      "summary": "月末日かつ閣議日である本日、経済産業省から 鉱工業生産指数(IIP) と 商業販売統計 が、また、総務省統計局の 失業率 や厚生労働省の 有効求人倍率 などの 雇用統計 が、それぞれ公表されています。いずれも6月の統計です。IIPのヘッドラインとなる生産指数は季節調整済みの系列で前月から+1.3%の増産、3か月連続の増産となります。商業販売統計のヘッドラインとなる小売業販売額は、季節調整していない原系列の統計で前年同月比+5.3%増の13兆4470億円を示し、季節調整済み指数も前月から+1.9%の上昇となっています。また、失業率は前月と同じ2.5%、有効…",
-      "content_html": "<p>月末日かつ閣議日である本日、経済産業省から<a href=\"http://www.meti.go.jp/statistics/tyo/iip/\" style=\"color: #ff0000; font-size: 2em; font-weight: bold;\" target=\"_blank\" title=\"鉱工業指数 (生産･出荷･在庫、生産能力･稼働率、生産予測指数)\">鉱工業生産指数(IIP)</a>と<a href=\"http://www.meti.go.jp/statistics/tyo/syoudou/\" style=\"color: #ff0000; font-size: 2em; font-weight: bold;\" target=\"_blank\" title=\"商業動態統計\">商業販売統計</a>が、また、総務省統計局の<a href=\"http://www.stat.go.jp/data/roudou/\" target=\"_blank\" title=\"労働力調査\">失業率</a>や厚生労働省の<a href=\"http://www.mhlw.go.jp/toukei/list/114-1.html\" target=\"_blank\" title=\"一般職業紹介状況 (職業安定業務統計)\">有効求人倍率</a>などの<span class=\"red\">雇用統計</span>が、それぞれ公表されています。いずれも6月の統計です。IIPのヘッドラインとなる生産指数は季節調整済みの系列で前月から+1.3%の増産、3か月連続の増産となります。商業販売統計のヘッドラインとなる小売業販売額は、季節調整していない原系列の統計で前年同月比+5.3%増の13兆4470億円を示し、季節調整済み指数も前月から+1.9%の上昇となっています。また、失業率は前月と同じ2.5%、有効求人倍率は前月から悪化して1.17倍を記録しています。まず、<a href=\"https://jp.reuters.com/markets/japan/HUCPOOLTQZNC5L6KQZWIHU2PJ4-2026-07-31/\" target=\"_blank\" title=\"鉱工業生産6月は1.3%上昇、3カ月連続改善 半導体製造装置などが押し上げ\">ロイターのサイト</a>から各統計のヘッドラインを報じる記事を引用すると以下の通りです。<br /><blockquote cite=\"https://jp.reuters.com/markets/japan/HUCPOOLTQZNC5L6KQZWIHU2PJ4-2026-07-31/\" style=\"font-size: 10px; font-style: italic;\" title=\"鉱工業生産6月は1.3%上昇、3カ月連続改善 半導体製造装置などが押し上げ\"><a href=\"https://jp.reuters.com/markets/japan/HUCPOOLTQZNC5L6KQZWIHU2PJ4-2026-07-31/\" style=\"font-size: 1.5em; font-style: normal;\" target=\"_blank\" title=\"鉱工業生産6月は1.3%上昇、3カ月連続改善 半導体製造装置などが押し上げ\">鉱工業生産6月は1.3%上昇、3カ月連続改善 半導体製造装置などが押し上げ</a><br />経済産業省が31日に発表した6月の鉱工業生産指数(速報、2020年=100)は前月比1.3%上昇し3カ月連続のプラスとなった。半導体製造装置などが好調だった。基調判断は「一進一退」で据え置いた。調査後に発生した熊本地震の影響は不明で同省は先行きには予断を持てないとみている。<br />結果はロイター予測(前月比0.7%上昇)を上回った。<br />指数を押し上げた主な品目は半導体製造装置(前月比11.1%増)、分析機器(同32.7%増)、開閉制御装置(同17.2%)など。半導体製造装置は輸出向けが増加、分析機器は医療向けが増えた。教育用ノートパソコン生産も好調だった。<br />一方、半導体メモリ(前月比54.3%減)などはマイナスだった。<br />出荷は前月比0.4%低下と3カ月ぶりにマイナスに転じ、在庫は前月比2.3%上昇と4カ月ぶりに増えた。<br />企業の生産計画に基づく生産予測指数は7月が前月比1.2%上昇、8月が同4.5%上昇。<br />調査は7月上旬に実施したため、28日に発生した熊本地震による企業の生産への影響について「7月の生産実績を見ないと先行きの判断が難しい」(経産省幹部)としている。<br /><a href=\"https://jp.reuters.com/markets/japan/XFCG34BLOZIYBEMYI6UYDKT3FM-2026-07-31/\" style=\"font-size: 1.5em; font-style: normal;\" target=\"_blank\" title=\"小売業販売6月は前年比0.5%増、新車投入効果も天候不順や購買点数減が響く\">小売業販売6月は前年比0.5%増、新車投入効果も天候不順や購買点数減が響く</a><br />経済産業省が31日公表した6月の商業動態統計によると、小売販売額は前年同月比0.5%増となった。ロイター予測は前年比3.1%増でこれを下回った。前年と比べ休日が少なかったことや天候不順などが影響した。<br />業種別前年比は自動車が16.6%増だったが、他は軒並みマイナス。織物・衣服が14.8%減、燃料小売業3.3%減などだった。自動車は新車投入効果があったが、天候不順で織物・衣服販売が不振だった。ガソリン価格下落が販売にも響いた。飲食料品は値上げ効果があったものの販売点数の減少で0.5%減少した。<br />業態別の前年比は、百貨店1.3%増、スーパー1.3%減、コンビニ0.4%増、家電大型専門店6.9%減、ドラッグストア0.6%増。百貨店は外国人旅行客向け販売が好調だった。家電はパソコン、ゲーム機、冷蔵庫、エアコンなどが特需一巡もあり、軒並み不振だった。<br /><a href=\"https://jp.reuters.com/markets/japan/5JRTHZNEL5P6VIVIA3TMRX2LMA-2026-07-30/\" style=\"font-size: 1.5em; font-style: normal;\" target=\"_blank\" title=\"6月の有効求人倍率は1.18倍に上昇、完全失業率は2.5%で横ばい\">6月の有効求人倍率は1.18倍に上昇、完全失業率は2.5%で横ばい</a><br />政府が31日に発表した6月の雇用関連指標は、有効求人倍率(季節調整値)が1.18倍で、前月から0.01ポイント上昇した。完全失業率(同)は2.5%と前月から横ばいだった。<br />ロイターの事前予測調査で有効求人倍率は1.17倍、完全失業率は2.5%が見込まれていた。<br />厚生労働省によると、6月の有効求人数(季節調整値)は前月に比べて0.9%増加した。半導体関連製品の需要が堅調で、電気機械器具や非鉄金属系の製造業で人材確保の動きがみられた。労働者派遣業では製造業向けの求人が増加した。<br />一方、有効求職者数(同)は0.1%減少した。全体は減少したものの、賃金確保のために仕事の掛け持ちや副業希望で求職登録をする動きや、より良い条件を求めた転職活動が行われているという。<br />厚労省の担当者は、求職者1人当たり複数の求人がある状態を示しており、雇用環境は悪くはないとの見方を示している。<br />総務省によると、6月の就業者数(季節調整値)は前月から36万人減少の6846万人。完全失業者数(同)は175万人で、前月から1万人増加した</blockquote></p><p>いくつかの統計が公表されましたので、長くなりましたが、的確に取りまとめられた記事だという気がします。続いて、鉱工業生産と出荷のグラフは次の通りです。上のパネルは2020年=100となる鉱工業生産指数そのものであり、下は輸送機械を除く資本財出荷と耐久消費財出荷のそれぞれの指数です。いずれも季節調整済みの系列であり、影を付けた部分は景気後退期を示しています。</p><div style=\"text-align: center;\"><img alt=\"photo\" src=\"http://economist.cocolog-nifty.com/dummy.gif\" style=\"border: none; width: 500px; height: 800px; margin: 20px auto;\" title=\"\" /></div><p>まず、引用した記事の2パラ目にある通り、ロイターによる市場の事前コンセンサスは+0.7%の増産でしたし、また、<a href=\"https://www.nikkei.com/article/DGXZQOE2QET01ZT20C26A7000000/\" target=\"_blank\" title=\"6月鉱工業生産、0.9%上昇・QUICK調査\">日経・QUICKによる市場の事前コンセンサス</a>では、6月の鉱工業生産は+0.9%の増産が予想されていましたので、実績の+1.3%の増産はやや上振れしましたが、それほどのサプライズはありませんでした。この結果だけを見ると、中東戦争の影響は小さいといえるかもしれません。ただし、引用した記事にもあるように、出荷は低下しており、生産増と出荷減という形になっています。統計作成官庁である経済産業省では生産の基調判断については、「一進一退」で据え置いています。一昨年2024年7月から2年ほど連続して据え置かれています。先行きについては、<a href=\"https://www.meti.go.jp/statistics/tyo/yosoku/result-1.html\" target=\"_blank\" title=\"製造工業生産予測指数\">製造工業生産予測指数</a>を見ると、足下の7月は+1.2%の増産で、翌8月も+4.5%の増産ですが、指数の上振れ傾向を補正した試算値では7月は▲0.7%の減産とされています。加えて、引用した記事の最後のパラにあるように、熊本地震の影響は現時点では何とも測りがたいものがあります。九州は「シリコン・アイランド」と呼ばれているだけに、<span class=\"blue\">熊本地震の半導体関連への影響は小さくない</span>ものと私は想像しています。<br />産業や製品別に少し詳しく見ると、<a href=\"https://www.meti.go.jp/statistics/toppage/report/archive/kako/20260731_1.html\" target=\"_blank\" title=\"2026年6月鉱工業指数動向解説\">経済産業省の解説サイト</a>によれば、6月統計における生産を見ると、増産方向に寄与したのは、半導体製造装置や装輪式トラクタなどの生産用機械工業が前月比+7.6%増、寄与度+0.65%、開閉制御装置やノート型パソコンなどの電気・情報通信機械工業が前月比+5.8%増、寄与度+0.48%、分析機器や汎用内燃機関などの汎用・業務用機械工業が前月比+4.7%増、寄与度+0.34%となっています。逆に、減産方向に寄与したのは、モス型IC(メモリ)や電子回路基板などのが前月比▲6.3%減、寄与度▲0.40%、ダイカストや電気銅などの鉄鋼・非鉄金属工業が前月比▲0.4%、寄与度▲0.02%、などとなっています。</p><div style=\"text-align: center;\"><img alt=\"photo\" src=\"http://economist.cocolog-nifty.com/dummy.gif\" style=\"border: none; width: 500px; height: 800px; margin: 20px auto;\" title=\"商業販売統計の推移\" /></div><p>続いて、商業販売統計のヘッドラインとなる小売業販売額のグラフは上の通りです。上のパネルは季節調整していない原系列の小売業販売額の前年同月比増減率を、下は季節調整済みの2020年=100となる指数をプロットしています。影を付けた部分は景気後退期を示しています。引用した記事の最初のパラにあるように、ロイターによる市場の事前コンセンサスは+3.1%増でした。実績の+0.5%増はこれを下回っています。小売業販売のヘッドラインは季節調整していない原系列の前年同月比で見るのがエコノミストの間での慣例なのですが、見れば明らかな通り、2023年年央あたりで前年同月比の伸び率が+5%から+6%台でピークを付けた後、前年同月比はプラスであるもののプラス幅が徐々に縮小し、先月の5月統計では+5.3%増を記録したものの、6月統計では+0.5%増と市場の事前コンセンサスを下回る伸びにとどまりました。ただし、この伸びは、5月統計で土日祝日が前年と比べ2日多かったほか、例年より気温が高かったことから、前年同月比+5.0%増とジャンプした反動もあります。また、季節調整済み指数の前月比も▲4.1%の低下を記録していますので、<span class=\"green\">5-6月で均して見る必要</span>がありそうです。ですので、統計作成官庁である経済産業省では<a href=\"https://www.meti.go.jp/statistics/tyo/syoudou/result/pdf/h2sskihan.pdf\" target=\"_blank\" title=\"商業動態統計速報 (2026年6月分)\">基調判断</a>について、季節調整済み指数の後方3か月移動平均により機械的に判断して、本日公表の6月統計までの3か月後方移動平均の前月比が▲0.2%の低下であるものの、先月5月統計で「緩やかな上昇傾向」から1ノッチ上方修正した「上昇傾向」で据え置いています。また、参考まで、<a href=\"https://www.stat.go.jp/data/cpi/\" target=\"_blank\" title=\"消費者物価指数(CPI)\">消費者物価指数(CPI)</a>との関係では、6月統計ではヘッドライン上昇率は+1.7%、生鮮食品を除く総合のコアCPI上昇率は+1.6%となっていますので、名目で計測した商業販売統計の6月統計の前年同月比+0.5%増は、<span class=\"green\">実質消費がマイナスになっている可能性</span>が十分あると私は考えています。さらに、販売ですので、国内消費にインバウンドを加えたものとなっており、国内消費が商業販売統計ほど堅調であるかどうかは微妙なところかもしれません。</p><div style=\"text-align: center;\"><img alt=\"photo\" src=\"http://economist.cocolog-nifty.com/dummy.gif\" style=\"border: none; width: 500px; height: 1200px; margin: 20px auto;\" title=\"雇用統計の推移\" /></div><p>続いて、雇用統計のグラフは上の通りです。上のパネルから順に、失業率、有効求人倍率、新規求人数をプロットしています。いずれも季節調整済みの統計であり影を付けた部分は景気後退期を示しています。通常、失業率が遅行指標、有効求人倍率が一致指標、新規求人数ないし新規求人倍率が先行指標と考えられています。なお、引用した記事にはあるように、ロイターによる市場の事前コンセンサスでは、完全失業率は2.5%、有効求人倍率は1.17倍が見込まれていました。さらに、日経・QUICKによる市場の事前コンセンサスでは、<a href=\"https://www.nikkei.com/article/DGXZQOE2QET06ZT20C26A7000000/\" target=\"_blank\" title=\"6月失業率、2.5%・QUICK調査\">失業率が2.5%</a>、<a href=\"https://www.nikkei.com/article/DGXZQOE2QET05ZT20C26A7000000/\" target=\"_blank\" title=\"6月有効求人倍率、1.17倍・QUICK調査\">有効求人倍率は1.17倍</a>と、ロイターと同じ予想でした。本日公表された実績で、失業率2.5%は市場予想に一致し、有効求人倍率1.18倍は市場の事前コンセンサスをやや上回りました。ですので、<span class=\"pink\">雇用統計を見る限り、雇用情勢は引き続き悪くなく底堅い</span>と私は考えています。その最大の要因は人口減少に起因する人手不足です。引用した記事にもあるように、年度替わりの4月に続いて、5月も引き続き雇用市場は活発化しているように見えます。新規求人数や有効求人倍率のグラフなどから、雇用の改善はピークを超えた可能性が示唆されていると考えるべきですが、少なくとも、従来の経験からして、景気後退局面での雇用の悪化はもっと急速なスピードで現れます。現在の統計を見る限り、景気後退局面での雇用悪化とはかなり違っている、と私は受け止めています。</p>",
-      "author": "元官庁エコノミスト",
-      "source_type": "rss"
-    },
-    {
-      "id": "4f6d2455da4054a3",
-      "feed_id": "2ec7ee82ecf8",
-      "feed_title": "マンションの間取りや価格を言いたい放題!",
-      "category": "不動産",
-      "title": "アトラス明大前【通りにも線路にも面していない駅徒歩1分】8階71㎡19,480万円（坪単価910万円）",
-      "url": "https://mansion-madori.com/blog-entry-11837.html",
-      "published": "2026-07-31T01:55:14+00:00",
-      "fetched": "2026-07-31T03:45:33.988196+00:00",
-      "summary": "アトラス明大前。 所在地：東京都世田谷区松原2-664-3（地番） 交通：明大前駅徒歩1分 用途地域：商業地域 階建、総戸数：14階建、50戸（事業協力者住戸6戸含む。他事務所1区画、店舗1区画） 明大前駅徒歩1分というだけでも十分にレアなのですが、当物件は線路にも甲州街道にも面していないという点もそれに拍車をかけています。 明大通りからも1本入ったポジションになるため駅前にしては意外と落ち着いていますし、商業地域ながらも周囲が意外と低い建物（5階建以下がほとんど）というあたりも絶妙ですね。 総戸数50戸、敷地面積800㎡ちょっとのけして大きな物件ではあ…",
-      "content_html": "アトラス明大前。<br /><br />所在地：東京都世田谷区松原2-664-3（地番）<br />交通：明大前駅徒歩1分<br />用途地域：商業地域<br />階建、総戸数：14階建、50戸（事業協力者住戸6戸含む。他事務所1区画、店舗1区画）<br /><br />明大前駅徒歩1分というだけでも十分にレアなのですが、当物件は線路にも甲州街道にも面していないという点もそれに拍車をかけています。<br /><br />明大通りからも1本入ったポジションになるため駅前にしては意外と落ち着いていますし、商業地域ながらも周囲が意外と低い建物（5階建以下がほとんど）というあたりも絶妙ですね。<br /><br />総戸数50戸、敷地面積800㎡ちょっとのけして大きな物件ではありませんが、50～70㎡台をメインに最大90㎡台も設けたファミリータイプの多さはそういった良好な環境面を考慮してのものでしょう。<br /><br />なお、明大前駅でも連続立体交差事業が進行中で、それとも連動する南口駅前広場の整備など今後楽しみな材料が多くあるエリアでもあります。<br />現状はなかなかに地味な駅前ですが、だからこその楽しみもあるでしょうね。<br /><br />買物便は、スーパーで言うと徒歩1分に京王ストアエクスプレス、徒歩3分にリコス、徒歩4分にまいばす2店、徒歩5分にロピア（アキダイ併設）があり、普通に良好ですね。<br /><br />なお、通学区は松原小学校で徒歩8分の距離になります。<br /><br /><a href=\"https://www.atlas-web.jp/atlas/mansion/meidaimae/\" target=\"_blank\" title=\"公式ホームページ\">公式ホームページ</a><br /><a href=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-7-27_10-1-42_No-00.png\" target=\"_blank\"><img alt=\"SnapCrab_NoName_2026-7-27_10-1-42_No-00.png\" border=\"0\" height=\"569\" src=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-7-27_10-1-42_No-00.png\" width=\"572\" /></a><br />お部屋は71㎡の3LDK、南東角住戸です。両面が接道し、前建は共に4階建という好ポジションですね。この階になるとわりと広域での視界抜けも出てくる感じで、特に南方向は線路（高架）の先の低層住宅街に至る奥行ある眺望が得られます。<br /><br />間取りは70㎡に乗せたそれなりの大きさの角住戸ですが、柱の食い込みは目立ちますね。<br /><br />廊下は角住戸としてはまずまずの長さに抑えることが出来てはいるものの、太い柱が食い込んでいるため効率性が高いとは言えません。<br /><br />キッチンは大き目ですが、LD単体での10畳ほどはこの専有面積にしては小さく、また、収納もやや少なめの印象になりますね。<br /><br />なお、駅方向から見える東側のデザイン壁・窓は外目からは魅力的ですが、開けることは出来ず、室内側からだと窓周りの凹凸も含めやや微妙な印象もあります。<br /><br />また、そのようにLDが小ぶりなことも加味すると、洋室3の引き戸はウォールドアなどのもっときれいに開け放てるものの方が良かったように思いますね。<br /><br />坪単価は910万円。最上階に設けられたプレミアムプランには1,100万円近いものもありますが、ノンプレミアムは700万円台中盤からの設定になっているため、平均はざっくり900万円程度でしょうか。<br /><br />近年の明大前駅の供給事例としては、<a href=\"https://mansion-madori.com/?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B7%E3%82%A2%E7%BE%BD%E6%A0%B9%E6%9C%A8%E3%81%AE%E6%A3%AE\" title=\"オープンレジデンシア羽根木の森\">オープンレジデンシア羽根木の森</a>（2023年分譲/東松原駅徒歩5分・明大前駅徒歩9分/約450万円）、<a href=\"https://mansion-madori.com/?q=%E3%82%B5%E3%83%B3%E3%82%A6%E3%83%83%E3%83%89%E4%B8%96%E7%94%B0%E8%B0%B7%E6%98%8E%E5%A4%A7%E5%89%8D\" title=\"サンウッド世田谷明大前\">サンウッド世田谷明大前</a>（2025年分譲/明大前駅徒歩8分/約595万円）だけですが、<a href=\"https://mansion-madori.com/?q=%E3%83%87%E3%82%A3%E3%82%A2%E3%83%8A%E3%82%B3%E3%83%BC%E3%83%88%E6%B0%B8%E7%A6%8F%E7%94%BA%E7%BF%A0%E6%99%AF\" title=\"ディアナコート永福町翠景\">ディアナコート永福町翠景</a>（2025年分譲/永福町駅徒歩6分/約670万円）あたりも参考の1つにはなるでしょう。<br /><br />いずれも駅距離が結構違うため、比較は簡単ではないのですが、うち2件は昨年のものですし、値上がり感があるのは確かです。<br /><br />そういう意味では\"駅徒歩1分\"の足元をみた感じの設定でもあるのかもしれませんが、実際、明大前駅の徒歩1分はとても貴重な存在で、現状の南面条件（将来的な保証はないが、その分、駅前再開発期待もある）の豊かさからしてもこのご時世大きな違和感はないように思います。",
-      "author": "モモレジ",
-      "source_type": "rss"
-    },
-    {
-      "id": "b8960be3cf26d2ed",
-      "feed_id": "2e7efdb141f2",
-      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
-      "category": "不動産",
-      "title": "羽田新ルート訴訟の結末：6年・26回の法廷闘争を拒んだ「行政処分」の壁",
-      "url": "https://1manken.hatenablog.com/entry/2026/07/31/Lawsuit-to-cancel-new-Haneda-flight-routes",
-      "published": "2026-07-31T00:34:13+00:00",
-      "fetched": "2026-07-31T03:45:34.816333+00:00",
-      "summary": "羽田新ルート訴訟は最高裁の上告棄却で住民敗訴が確定。6年・26回の法廷闘争を拒んだ「行政処分」の壁と、司法ルート消滅後の厳しき現実を解説。",
-      "content_html": "羽田新ルート訴訟は最高裁の上告棄却で住民敗訴が確定。6年・26回の法廷闘争を拒んだ「行政処分」の壁と、司法ルート消滅後の厳しき現実を解説。",
-      "author": "flats",
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6133,11 +6105,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-08-30T00:11:53.863823+00:00",
+  "last_updated": "2026-08-30T08:15:01.028680+00:00",
   "stats": {
-    "total": 438,
-    "fetched_just_now": 889,
-    "feeds_success": 66,
-    "feeds_failed": 7
+    "total": 436,
+    "fetched_just_now": 913,
+    "feeds_success": 72,
+    "feeds_failed": 1
   }
 }

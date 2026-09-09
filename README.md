@@ -5,8 +5,8 @@ Feedlyの代替として動作する、AI拡張可能な個人用RSSリーダー
 ## 特徴
 
 - **GitHub Actions主導**: 2時間ごとに全フィードを自動取得、無料枠で完結
-- **静的サイト**: GitHub Pagesでホスト、サーバー管理不要
-- **既読/お気に入り**: ブラウザのlocalStorageで永続化(端末ローカル)
+- **静的サイト**: Cloudflare Pages＋Accessで配信、サーバー管理不要
+- **既読/お気に入り**: localStorageで保持し、共有Worker kk-sync（KV）で端末間同期
 - **エディトリアル風UI**: Noto Serif JP、3カラム、キーボード操作対応
 - **キーボード操作**: `j`/`k` 移動、`m` 既読切替、`f` お気に入り、`o` 元記事、`u` 未読フィルタ切替、`/` 検索
 - **将来拡張対応**: アダプター層により非RSSソース(メール、Cookie認証取得、スクレイピング等)を後から追加可能
@@ -23,7 +23,7 @@ Feedlyの代替として動作する、AI拡張可能な個人用RSSリーダー
 ┌─────────────────────┐
 │ docs/data/*.json    │ ← コミット
 └──────────┬──────────┘
-           │ GitHub Pages配信
+           │ Cloudflare Pages配信
            ↓
 ┌─────────────────────┐
 │  ブラウザ(SPA)       │ ← localStorageで状態保持
@@ -54,13 +54,13 @@ kk-reader/
 │       ├── base.py          # 基底クラス
 │       └── rss_adapter.py   # RSS取得
 ├── tests/
-│   └── test_adapters.py     # 単体テスト（3件）
+│   └── test_adapters.py     # 単体テスト（件数は実行時に確認）
 ├── worker/
 │   ├── worker.js            # kk-sync Cloudflare Worker
 │   └── wrangler.toml
 ├── pyproject.toml           # Ruff + pytest 設定
 ├── requirements.txt
-└── SETUP.md                  # デプロイ手順
+└── OPERATIONS.md             # 現行の運用・配信手順
 ```
 
 ## 設定値の調整
@@ -78,10 +78,10 @@ kk-reader/
 ```bash
 pip install -r requirements.txt
 ruff check .          # lint（F + E9 ルール）
-pytest tests/ -v      # 単体テスト（3件）
+pytest tests/ -v      # 単体テスト（件数は実行時に確認）
 ```
 
-push のたびに CI が自動実行されます（`docs/data/**` 更新時は除外）。
+push のたびに CI が自動実行されます（pushでは`docs/data/**`とルートのMarkdown更新時は除外、PRでは実行）。
 
 ## 将来拡張: 非RSSソースの追加
 
@@ -100,4 +100,8 @@ class EmailAdapter(SourceAdapter):
 
 ## デプロイ手順
 
-[SETUP.md](SETUP.md) 参照。
+[OPERATIONS.md](OPERATIONS.md)を参照。SETUP.mdは旧構成の履歴です。
+
+## 管理文書
+
+作業規約は[AGENTS.md](AGENTS.md)、現在地は[STATUS.md](STATUS.md)、運用は[OPERATIONS.md](OPERATIONS.md)が正本です。管理エージェントの変更時もこれらを引き継ぎます。

@@ -20,14 +20,17 @@ def main():
     def call(path, method="GET", payload=None):
         req = urllib.request.Request(base + path, method=method,
             headers={"Authorization": "Bearer " + token, "Origin": origin,
-                     "Content-Type": "application/json"},
+                     "Content-Type": "application/json", "User-Agent": "kk-reader-smoke/1.0"},
             data=json.dumps(payload).encode() if payload is not None else None)
         try:
             response = urllib.request.urlopen(req, timeout=30)
         except urllib.error.HTTPError as response_error:
             response = response_error
         with response:
-            assert response.headers.get("Access-Control-Allow-Origin") == origin
+            assert response.headers.get("Access-Control-Allow-Origin") == origin, (
+                f"{method} {path}: HTTP {response.status}, unexpected CORS "
+                f"{response.headers.get('Access-Control-Allow-Origin')!r}, "
+                f"content-type {response.headers.get('Content-Type')!r}")
             body = response.read()
             return response.status, json.loads(body) if body else None
 

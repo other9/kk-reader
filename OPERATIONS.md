@@ -1,7 +1,7 @@
 # kk-reader operations
 
 ## Sources and delivery
-- Subscriptions: opml/subscriptions.opml. Actions rebuilds feeds when appropriate
+- Subscriptions: opml/subscriptions.opml. Actions rebuilds feeds on every ingestion run
   while retaining existing feed metadata. Active-state changes require care
   because the bot also writes docs/data/feeds.json.
 - Ingestion: fetch-feeds.yml, cron `7 */2 * * *` UTC; commits generated data.
@@ -45,11 +45,11 @@ repositories and every configured device.
 ## Recovery
 - Restore lost articles with a targeted patch extracted from Git history after
   preserving current work. Do not reset the developer checkout to emulate CI.
-- Preserve device state before attempting KV recovery. Initial page sync can
+- Preserve device state before attempting sync-state recovery. Initial page sync can
   upload local read/favorite state, but requires working authentication and
   successful server retrieval and upload. Corrupt newer timestamps may override
   local records; verify restored content. Browser storage is not a tested backup.
-- Confirm Wrangler version, remote target and backup file before any KV write.
+- Confirm Wrangler version, remote target and backup file before any remote storage change.
 - For stale delivery inspect the deployment error and commit message; do not
   assume retries bypass a service quota. Never casually add [skip ci].
 
@@ -57,8 +57,8 @@ repositories and every configured device.
 SETUP.md and knowledge/ preserve earlier setup and design history. Their old
 GitHub Pages URLs, retention settings and update numbering are not current rules.
 
-## Reliability changes (2026-09-10; pending production cutover)
-- Sync state is owned by SYNC_STATE Durable Object after deployment; STATE KV is
+## Reliability changes (deployed 2026-09-10)
+- Sync state is owned by SYNC_STATE Durable Object; STATE KV is
   an import source and article cache. Follow worker/MIGRATION.md for cutover and
   rollback. Do not restore stale KV over current Durable Object state.
 - Client diffs stay persisted until acknowledged, sends are serialized, and
@@ -72,3 +72,11 @@ GitHub Pages URLs, retention settings and update numbering are not current rules
 - OPML rebuild is deterministic on every run, preserving non-OPML metadata.
 - A stale bot push fails instead of replacing concurrent manual edits. The next
   scheduled run regenerates from current main. Production publication is main-only.
+
+## Authenticated operational check
+Dispatch worker-smoke.yml on main with expect_maintenance=false. The job uses
+WORKER_TOKEN within GitHub Secrets; it does not print credentials or state.
+It checks state reads, an empty diff write, ping, CORS and shared /fetch format.
+An upstream refusal is reported separately; this does not replace device tests.
+SYNC_MAINTENANCE is normally 0; 1 pauses state writes only. Follow
+worker/MIGRATION.md before using maintenance mode for a storage migration.

@@ -6,7 +6,7 @@ Feedlyの代替として動作する、AI拡張可能な個人用RSSリーダー
 
 - **GitHub Actions主導**: 2時間ごとに全フィードを自動取得、無料枠で完結
 - **静的サイト**: Cloudflare Pages＋Accessで配信、サーバー管理不要
-- **既読/お気に入り**: localStorageで保持し、共有Worker kk-sync（KV）で端末間同期
+- **既読/お気に入り**: localStorageで保持し、共有Worker kk-sync（Durable Object）で端末間同期
 - **エディトリアル風UI**: Noto Serif JP、3カラム、キーボード操作対応
 - **キーボード操作**: `j`/`k` 移動、`m` 既読切替、`f` お気に入り、`o` 元記事、`u` 未読フィルタ切替、`/` 検索
 - **将来拡張対応**: アダプター層により非RSSソース(メール、Cookie認証取得、スクレイピング等)を後から追加可能

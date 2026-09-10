@@ -21,3 +21,6 @@ class_name = "SyncState"
 [[migrations]]
 tag = "sync-state-v1"
 new_sqlite_classes = ["SyncState"]
+
+[vars]
+SYNC_MAINTENANCE = "0"

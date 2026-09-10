@@ -565,6 +565,10 @@ export default {
     }
 
     const url = new URL(request.url);
+    if (request.method === "POST" && url.pathname === "/state/diff" &&
+        env.SYNC_MAINTENANCE === "1") {
+      return jsonResponse({error: "sync migration in progress; retry shortly"}, 503, origin);
+    }
 
     if ((request.method === "GET" && url.pathname === "/state") ||
         (request.method === "POST" && url.pathname === "/state/diff")) {

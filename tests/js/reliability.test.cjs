@@ -175,3 +175,24 @@ test('malformed success response is not an acknowledgement',async()=>{
   assert.equal(c.pending.fav.length,1);
   assert.equal(c.lastSync,null);
 });
+
+test('maintenance pauses authenticated writes while keeping reads and ping available',async()=>{
+  const f=workerFixture();
+  const env={SYNC_SECRET:'test-only',SYNC_MAINTENANCE:'1',SYNC_STATE:{
+    idFromName:name=>name,get:()=>({fetch:req=>f.object.fetch(req)})}};
+  const post=f.request({fav:[{id:'a',state:1,ts:1}]});
+  assert.equal((await f.sandbox.worker.fetch(post,env)).status,401);
+  post.headers.set('Authorization','Bearer test-only');
+  const reply=await f.sandbox.worker.fetch(post,env);
+  assert.equal(reply.status,503);
+  assert.equal(reply.headers.get('Access-Control-Allow-Origin'),'https://kk-reader.pages.dev');
+  assert.equal(f.persisted.size,0);
+  for(const path of ['/state','/ping']){
+    const req=new Request('https://test.invalid'+path,{headers:{Authorization:'Bearer test-only'}});
+    assert.equal((await f.sandbox.worker.fetch(req,env)).status,200);
+  }
+  env.SYNC_MAINTENANCE='0';
+  assert.equal((await f.sandbox.worker.fetch(post,env)).status,200);
+  const state=await (await f.object.fetch(f.request())).json();
+  assert.equal(state.fav.a.state,1);
+});

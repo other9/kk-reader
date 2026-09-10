@@ -1,6 +1,90 @@
 {
   "articles": [
     {
+      "id": "c799b40673050989",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "戦争の配分への対価：生産性を殺すことについての一見解",
+      "url": "https://himaginary.hatenablog.com/entry/20260910/Allocative_Cost_of_War",
+      "published": "2026-09-10T12:31:49+00:00",
+      "fetched": "2026-09-10T12:49:07.222243+00:00",
+      "summary": "というNBER論文をGorodnichenkoらが 上げている （ ungated版 ）。原題は「The Allocative Cost of War: A View to a Kill...ing of Productivity」で、著者はMarvin Amann（キール世界経済研究所、ifo研究所）、Yuriy Gorodnichenko（UCバークレー）、Oleksandr Talavera（バーミンガム大）。 以下はその要旨。 Why is war so economically costly? Our answer is that modern…",
+      "content_html": "<p>というNBER論文をGorodnichenkoらが<a href=\"https://www.nber.org/papers/w35704\">&#x4e0a;&#x3052;&#x3066;&#x3044;&#x308b;</a>（<a href=\"https://eml.berkeley.edu/~ygorodni/UA_TFP_hires.pdf\">ungated&#x7248;</a>）。原題は「The Allocative Cost of War: A View to a Kill...ing of Productivity」で、著者はMarvin Amann（キール世界経済研究所、ifo研究所）、Yuriy Gorodnichenko（UCバークレー）、Oleksandr Talavera（バーミンガム大）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>Why is war so economically costly? Our answer is that modern war lowers output not only by destroying productive factors, but also by making the surviving economy work less efficiently. Using uniquely comprehensive firm-level data collected during Russia’s full-scale invasion of Ukraine in 2022, we document a dramatic collapse in allocative productivity in Ukraine. To sharpen identification and explore key mechanisms (including the role of war intensity, internal displacement, reallocation, and macroeconomic instability), we exploit spatial heterogeneity across Ukrainian districts and comparisons with Russian aggression in 2014 and the 2008 Global Financial Crisis. Our key policy implication is that restoring allocative efficiency–and preparing institutional arrangements that facilitate rapid reallocation in times of stress–is critical for sustaining economic capacity, defense, and national security.<br />\n（拙訳）<br />\nなぜ戦争は経済的にこれほど高く付くのか？　我々の答えは、現代の戦争は生産要素を破壊するだけでなく、生き残った経済の効率性を下げることによっても生産を減らすから、というものである。2022年のロシアのウクライナへの全面侵攻の期間中に収集された独自の包括的な企業レベルのデータを用いて我々は、ウクライナの配分面の生産性の劇的な崩壊を明らかにした。識別を明確化し、主要なメカニズム（戦争の激しさ、国内移動<a href=\"#f-a9f3e70b\" id=\"fn-a9f3e70b\" name=\"fn-a9f3e70b\" title=\"本文では国外への避難民が約800万人、国内の移動者が約400万人、という記述がある。\">*1</a>、再配分、マクロ経済の不安定性の役割など）を追究するために我々は、ウクライナの各地区の空間的な不均一性と、2014年のロシアの攻撃ならびに2008年の世界金融危機との比較を利用した。我々の主な政策的含意は、配分の効率性を回復させること――および、苦難の時期における急速な再配分を可能にする制度的取り決めを準備しておくること――が経済の能力、防衛、および国家の安全保障を維持する上で極めて重要である、ということである。</p>\n\n    </blockquote>\n<p>以下はラヨン（cf. <a href=\"https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%A8%E3%83%B3\">&#x30e9;&#x30e8;&#x30f3; - Wikipedia</a>）ごとの戦争の激しさとそのTFPへの影響を示した論文の図。<br />\n<span><img class=\"hatena-fotolife\" height=\"1099\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/h/himaginary/20260910/20260910213815.png\" title=\"\" width=\"840\" /></span></p><p>「A View to a Kill」は「007/美しき獲物たち」の原題なので（cf. <a href=\"https://ja.wikipedia.org/wiki/007/%E7%BE%8E%E3%81%97%E3%81%8D%E7%8D%B2%E7%89%A9%E3%81%9F%E3%81%A1\">007/&#x7f8e;&#x3057;&#x304d;&#x7372;&#x7269;&#x305f;&#x3061; - Wikipedia</a>）、「<a href=\"https://himaginary.hatenablog.com/entry/20260201/you-only-live-twice\">&#xff12;&#x5ea6;&#x6b7b;&#x306c;&#xff1a;&#x897f;&#x5074;&#x3078;&#x5411;&#x304b;&#x3046;&#x30a6;&#x30af;&#x30e9;&#x30a4;&#x30ca;&#x306b;&#x304a;&#x3051;&#x308b;&#x8cc7;&#x91d1;&#x6d41;&#x5165;&#x3068;&#x6210;&#x9577; - himaginary&rsquo;s diary</a>」、「<a href=\"https://himaginary.hatenablog.com/entry/20260527/Word_Is_Not_Enough\">&#x8a00;&#x8449;&#x3060;&#x3051;&#x3067;&#x306f;&#x5341;&#x5206;&#x3067;&#x306a;&#x3044;&#xff1a;&#x30a6;&#x30af;&#x30e9;&#x30a4;&#x30ca;&#x306e;&#x8a8d;&#x8b58;&#x3055;&#x308c;&#x305f;&#x6c5a;&#x8077;&#x3078;&#x306e;&#x60c5;&#x5831;&#x51e6;&#x7f6e;&#x306e;&#x52b9;&#x679c;&#x306e;&#x691c;&#x8a3c; - himaginary&rsquo;s diary</a>」で紹介したGorodnichenkoの共著論文に続き、007映画をもじったタイトルになっている。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-a9f3e70b\" id=\"f-a9f3e70b\" name=\"f-a9f3e70b\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">本文では国外への避難民が約800万人、国内の移動者が約400万人、という記述がある。</span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
+      "id": "3da9c6c15a5d4885",
+      "feed_id": "2ec7ee82ecf8",
+      "feed_title": "マンションの間取りや価格を言いたい放題!",
+      "category": "不動産",
+      "title": "サンウッド上用賀三丁目【中庭と回廊が設けられた端正な2,400㎡超】1階55㎡11,690万円（坪単価706万円）",
+      "url": "https://mansion-madori.com/blog-entry-11920.html",
+      "published": "2026-09-10T10:55:54+00:00",
+      "fetched": "2026-09-10T12:49:03.442660+00:00",
+      "summary": "続けて、サンウッド上用賀三丁目。 設計は四季建築設計事務所、施工は松井建設です。 前回の記事で述べたように敷地面積2,400㎡超のかなり大きな敷地に誕生する物件になります。 一低専の3階建のため、総戸数自体は36戸に過ぎないものの、ランドプランないしデザインにも特色を感じることの出来る仕上がりですね。 空地率は約42％ということで高くはないものの、コの字配棟の中央部（共用廊下に囲まれた部分）に中庭が設けられています。 残念ながら当物件は外廊下で、ガラス貼の共用内廊下から中庭を望む惚れ惚れしてしまう設計・デザインだった サンウッド瀬田一丁目 のような特別感…",
+      "content_html": "続けて、サンウッド上用賀三丁目。<br /><br />設計は四季建築設計事務所、施工は松井建設です。<br /><br />前回の記事で述べたように敷地面積2,400㎡超のかなり大きな敷地に誕生する物件になります。<br /><br />一低専の3階建のため、総戸数自体は36戸に過ぎないものの、ランドプランないしデザインにも特色を感じることの出来る仕上がりですね。<br /><br />空地率は約42％ということで高くはないものの、コの字配棟の中央部（共用廊下に囲まれた部分）に中庭が設けられています。<br />残念ながら当物件は外廊下で、ガラス貼の共用内廊下から中庭を望む惚れ惚れしてしまう設計・デザインだった<a href=\"https://mansion-madori.com/?q=%E3%82%B5%E3%83%B3%E3%82%A6%E3%83%83%E3%83%89%E7%80%AC%E7%94%B0%E4%B8%80%E4%B8%81%E7%9B%AE\" title=\"サンウッド瀬田一丁目\">サンウッド瀬田一丁目</a>のような特別感はありません（地下自走式駐車場でもありました）。<br />ただ、低層建のため中庭は日差しも入ってくる気持ちの良い空間にはなりそうですね。<br /><br />また、ランドプランないしデザインにおける最大の特徴となるのは、敷地西側西用賀通りに設けられたエントランスアプローチ～ホールに至る空間です。<br />アプローチの石積み×植栽や端正な門構えのエントランスも魅力ですが、それに加え、敷地形状に沿うようにエントランスとエントランスホールの間に奥ゆかしいコリドー（回廊）が設けられています。<br /><br />コリドーは、ゴツゴツとした風合い豊かな石積み調の壁面を採用すると共に、南側の一部をオープンにした（光・風を取り入れた）空間設計が特徴となる魅力的なアプローチスペースですね。<br /><br />当物件はそのように外廊下設計ですし、コリドー部分もオープンとすることで外気を取り入れる空間になっているのは少々意外に感じる点で、かなり高額な価格帯からすると少々の物足りなさを感じてしまう部分でもあるでしょう。<br />ただその一方で、石調タイルや木目調素材などの多彩なマテリアルを用いた繊細、かつ、端正な外観も含めたデザインパフォーマンスの高さはサンウッドならではの魅力になるでしょうね。<br /><br />前回の<a href=\"https://mansion-madori.com/blog-entry-11919.html\" target=\"_blank\" title=\"サンウッド上用賀三丁目\">サンウッド上用賀三丁目</a>。<br /><br /><a href=\"https://www.sunwood.co.jp/kamiyoga3/\" target=\"_blank\" title=\"公式ホームページ\">公式ホームページ</a><br /><a href=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-9-8_8-25-47_No-00.png\" target=\"_blank\"><img alt=\"SnapCrab_NoName_2026-9-8_8-25-47_No-00.png\" border=\"0\" height=\"624\" src=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-9-8_8-25-47_No-00.png\" width=\"365\" /></a><br />お部屋は55㎡の2LDK、西向き中住戸です。敷地南東主要部における西側に位置しており、西方向は西用賀通りとの間の低層住宅（2階建）となりますね。<br />見ての通りしっかりとしたテラス・植栽があるため、隣地間距離が比較的確保出来ており、南や南西からの日照が得やすいまずまずのポジションになるでしょう。<br /><br />間取りは50㎡台中盤の一般的な大きさの2LDKになります。<br /><br />スパンや居室配置もオーソドックスなものとなりますが、やはり壁式構造はポイントで、きれいな居室形状や効率性の高さは魅力になってくるでしょう。<br /><br />ただ、やはり残念なのは開口部ですね。<br />壁式構造は、壁で支える分、一定以上の壁量が必要になるものですが、そうは言えども開口部が寂しいです。かなりいいお値段の物件でもあるわけですし、もう少しそういった面への配慮（努力）が欲しかったかなと。<br />大きなテラスに向かって幅広の開口部があるとかなり印象が変わったことでしょう。<br /><br />坪単価は706万円。同タイプ（バルコニータイプ）の2階724万円ということでそこまでの差は付いていません。<br />先ほどのような1,000万円近い南に面した角住戸との単価差はかなり大きいものの、それでも<a href=\"https://mansion-madori.com/?q=%E3%82%B6%E3%83%BB%E3%83%91%E3%83%BC%E3%82%AF%E3%83%8F%E3%82%A6%E3%82%B9%E7%94%A8%E8%B3%80%E3%83%97%E3%83%AC%E3%82%A4%E3%82%B9\" title=\"ザ・パークハウス用賀プレイス\">ザ・パークハウス用賀プレイス</a>（2025年分譲/駅徒歩7分/約695万円）や<a href=\"https://mansion-madori.com/?q=%E3%83%91%E3%83%BC%E3%82%AF%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%BA%E4%B8%8A%E7%94%A8%E8%B3%80%E4%BA%94%E4%B8%81%E7%9B%AE\" title=\"パークホームズ上用賀五丁目\">パークホームズ上用賀五丁目</a>（2026年分譲/用賀駅徒歩13分/約615万円）の平均をしっかりと上回る水準であり、1階（物件内の下限）であればもう少しパンチの効いたお値段設定でもおかしくなかったようには思いますね。<br /><br />設備仕様面は、ディスポーザー、食洗機、フィオレストーンの水回り天板、トイレ手洗いカウンターはもちろんのこと、カップボード、キッチンタッチレス水栓、ウルトラファインバブル給湯器、日ポリ浴室、LDビルトインエアコン、主寝室床暖房、玄関電気錠まで備わった充実したものです。<br />むろん、エコ・断熱面ではゼッチ基準も満たしていますね。<br /><br />管理費は412円/㎡。外廊下ですが、ディスポーザーが備わった総戸数36戸ですので大きな違和感はありません。昨今のインフレの影響は少なからず感じてしまいますけどね。<br /><br />修繕積立金は210円/㎡。<br />※インフレにより昨年以降、初年度から200円/㎡超といったようなかなり高額な設定の物件が増えてきたため、今年からは修繕積立金も掲載することとしました。<br />※あくまで初年度（30年均等のオハナなどのケース除く）の設定に過ぎないため、物件の購入を検討する際には修繕積立金シミュレーション（30年の間にどの程度の値上げが予定されているかが分かります）をしっかりと確認するようにしましょう。<br /><br />駐車場は全16台で、身障者用を除いた15台が機械式になります。",
+      "author": "モモレジ",
+      "source_type": "rss"
+    },
+    {
+      "id": "77428978cdc24fe2",
+      "feed_id": "bc446ef2651b",
+      "feed_title": "異邦人になってみた～～上海生活写真ブログ",
+      "category": "ブログ",
+      "title": "千島湖キャンプ・淳安県の下姜村観光③",
+      "url": "https://www.sonnagaya.com/entry/2026/09/10/193000?utm_source=feed",
+      "published": "2026-09-10T10:30:00+00:00",
+      "fetched": "2026-09-10T12:49:04.691575+00:00",
+      "summary": "2026-9-6 千島湖→上海 昨晩の星空はちょっと残念でした。場所が明るすぎましたね。 www.sonnagaya.com 一夜明けて、朝は天気が良かったです。気づいたら太陽が上がってました。 この日はゆっくりと片づけて、16：52分の高速鉄道で上海に戻ります。 ちょっと調べてなかなか行けない場所、千島湖の一番西南に位置する下姜村という所に行ってみることにします。 百度で調べると出てきます。 下姜村（シアジャン・ツン）は、浙江省杭州市淳安县枫树岭镇（フォンシューリン・ジェン）に属する行政村です。 北宋の靖康年間に成立し、800年以上の歴史を誇ります。…",
+      "content_html": "<p>2026-9-6 千島湖→上海<br />\n昨晩の星空はちょっと残念でした。場所が明るすぎましたね。</p><p><cite class=\"hatena-citation\"><a href=\"https://www.sonnagaya.com/entry/2026/09/09/183000\">www.sonnagaya.com</a></cite></p><br />\n<p><span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260909/20260909150445.jpg\" title=\"\" width=\"768\" /></span><br />\n一夜明けて、朝は天気が良かったです。気づいたら太陽が上がってました。</p><p><span><img class=\"hatena-fotolife\" height=\"768\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260909/20260909150503.jpg\" title=\"\" width=\"1024\" /></span></p><p>この日はゆっくりと片づけて、16：52分の高速鉄道で上海に戻ります。</p><p><span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260909/20260909150524.jpg\" title=\"\" width=\"768\" /></span></p><p>ちょっと調べてなかなか行けない場所、千島湖の一番西南に位置する下姜村という所に行ってみることにします。<br />\n百度で調べると出てきます。<br />\n<span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260909/20260909150413.png\" title=\"\" width=\"473\" /></span><br />\n<span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260909/20260909150416.png\" title=\"\" width=\"473\" /></span></p>\n\n    <blockquote>\n        <p>下姜村（シアジャン・ツン）は、浙江省杭州市淳安县枫树岭镇（フォンシューリン・ジェン）に属する行政村です。<br />\n北宋の靖康年間に成立し、800年以上の歴史を誇ります。<br />\nかつては「雅墅峡涧（ヤーシュー・シアジャン）」の名で知られ、新安江および銭塘江の上流域、千島湖風景区に隣接する場所に位置しています。<br />\n「平らな土地が三尺（約1メートル）とない」と形容されるほど険しい地形のため、長らく貧困山村とされてきました。<br />\n2007年、下姜、乍尔（ジャーアル）、伊家（ユイジア）、后龙坑（ホウロンケン）という4つの自然村が合併して現在の村が形成されました。<br />\n総面積は10.76平方キロメートル、登録人口は768人で、主な姓は江氏、余氏、楊氏です。また、森林被覆率は97%に達しています。<br />\nかつて貧困にあえいでいたこの村は、「万村プロジェクト」を通じて変貌を遂げ、生態系の回復、農村観光と近代農業の発展、ホームステイ、近代農業産業パーク、スタディツアーコースの集積地の形成などを推進してきました。<br />\n2017年には「国家文明村・郷」に、2018年には「中国美麗レジャー村」に、2019年には「国家農村ガバナンス模範村」に選ばれ、2023年には国連世界観光機関から「最優秀観光村」に認定されました。<br />\n2025年には、浙江省におけるインバウンド観光の革新的発展のパイロット地域に選定されました。</p>\n\n    </blockquote>\n<p>ということですが、まあ小さい田舎の村です。「最優秀観光村」とかいろいろ選定されていますが、実体はこれどうなんでしょう。。。こういう所多いですよね。<br />\nまず食事をとります。例によって魚頭白スープと適当に注文します。もちろんビールも。。。</p><p>そのあとちょっと見て回りました。昔の小学校とかがありました。これはいつの時代なのかと思ったら70年代っぽいですｗｗ<br />\nそう考えると今の中国の発展スピードはとんでもないですね。</p><p>最後はお土産店の米酒を試飲して帰ってきました。仲間たちはみんな買ってましたけど。。。。<br />\nまだ時間はありますが、このまま高速鉄道駅まで行くことにします。ここから大体1.5時間かかります。</p><br />\n<p>高速鉄道駅について車を返却、その後駅内に入ります。安全検査でドローン持ってないかを聞かれますが、今回は持ってきてません。ドローンの扱いもめんどくさくなってきましたね。<br />\n駅に入ってスタバでまったりとしました。</p><p>ということで今回は星空撮影キャンプというより普通の旅行になってしまいましたね。。<br />\n今回の旅行は星空撮影できなくて残念でした。また来週に期待しましょうかね。</p>",
+      "author": "shan1tian2",
+      "source_type": "rss"
+    },
+    {
+      "id": "9e82ee6ccb90093c",
+      "feed_id": "9505d30bcfe3",
+      "feed_title": "市況かぶ全力２階建",
+      "category": "金融・経済・投資",
+      "title": "任天堂、2日連続のニンテンドーダイレクトでお約束の株価だだ下がりが2日連続で発生",
+      "url": "https://kabumatome.doorblog.jp/archives/66032865.html",
+      "published": "2026-09-10T08:46:13+00:00",
+      "fetched": "2026-09-10T12:49:10.014460+00:00",
+      "summary": "２日連続で夜更かしされるポケスリのカビゴン pic.twitter.com/VrjDpW6p5w — ドゥビドゥバ (@gerogero00001) September 9, 2026 お前の生みの親達が開催してるんやでカビゴンよ… — MAKINA🚑☄️ (@MAKINAN1009) September 9, 2026 Z世代男子に聞いた！ 深夜に言われるとドキドキしちゃうことランキング！ 4位：私、まだ帰りたくない…❤️ 3位：終電なくなっちゃったね…💕 2位：休憩… したいな…💞 1位：次が最後のタイトルになります。こちらの映像をご覧ください。 p…",
+      "content_html": "<div><div><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">２日連続で夜更かしされるポケスリのカビゴン <a href=\"https://t.co/VrjDpW6p5w\">pic.twitter.com/VrjDpW6p5w</a></p>— ドゥビドゥバ (@gerogero00001) <a href=\"https://x.com/gerogero00001/status/2097679611102736846?ref_src=twsrc%5Etfw\">September 9, 2026</a></blockquote><blockquote><img alt=\"a02\" border=\"0\" class=\"pict\" height=\"372\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/5/f/5fb0ce24.jpg\" width=\"322\" /><br /></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">お前の生みの親達が開催してるんやでカビゴンよ…</p>— MAKINA🚑☄️ (@MAKINAN1009) <a href=\"https://x.com/MAKINAN1009/status/2097709768299491709?ref_src=twsrc%5Etfw\">September 9, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">Z世代男子に聞いた！ 深夜に言われるとドキドキしちゃうことランキング！<br /><br />4位：私、まだ帰りたくない…❤️<br />3位：終電なくなっちゃったね…💕<br />2位：休憩… したいな…💞<br /><br />1位：次が最後のタイトルになります。こちらの映像をご覧ください。 <a href=\"https://t.co/gnUKuRyolO\">pic.twitter.com/gnUKuRyolO</a></p>— DALT (@alt_dirty) <a href=\"https://x.com/alt_dirty/status/2097610941919900132?ref_src=twsrc%5Etfw\">September 9, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/a/faab86d3.jpg\" target=\"_blank\" title=\"a01\"><img alt=\"a01\" border=\"0\" class=\"pict\" height=\"270\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/a/faab86d3-s.jpg\" width=\"480\" /></a><br /><a href=\"https://www.youtube.com/watch?v=avtRda5IgeY\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.youtube.com/</span></a><br /></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">男って異常なくらい<br />「ニンテンドーダイレクト」が大好物なんだよな<br /><br />例えば、何か発表する時<br /><br />モテないダイレクトは、「〇〇の最新映像です、どうぞ」と前置きをする。<br /><br />だがモテるダイレクトは、</p>— ほのげ (@honoge_) <a href=\"https://x.com/honoge_/status/2097596373273047489?ref_src=twsrc%5Etfw\">September 9, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">「まずはこちらの映像をご覧ください」「続いてが最後の映像になります」<br /><br />と軽く前置きして、中身は伏せていたほうがいい⁰と知ってるんだよな。<br /><br />オレらは毎回お姫様みたいに⁰丁寧に扱ってほしいわけじゃない。<br /><br />「何くるんだ！？」⁰「〇〇きたー！！！」<br /><br />みたいな、やり取りがしたいだけ。</p>— ほのげ (@honoge_) <a href=\"https://x.com/honoge_/status/2097596375982883034?ref_src=twsrc%5Etfw\">September 9, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ニンダイ三大厄災の1つ“妖怪ウォッチキッズ”がこれで成仏したな、しかしこれにより三界のバランスが崩れ“スマブラキッズ”の猛攻が次回から更に激しくなるだろう</p>— みた (@mita__inkya) <a href=\"https://x.com/mita__inkya/status/2097699917536129174?ref_src=twsrc%5Etfw\">September 9, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/9/3/936758f9.jpg\" target=\"_blank\" title=\"a06\"><img alt=\"a06\" border=\"0\" class=\"pict\" height=\"269\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/9/3/936758f9-s.jpg\" width=\"480\" /></a><br /><a href=\"https://www.youtube.com/watch?v=avtRda5IgeY\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.youtube.com/</span></a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">スプラ、スマブラ、原神キッズが<br />マジでやばかった、今回のコメント欄</p>— 岡涼 (@Okaryo_sub) <a href=\"https://x.com/Okaryo_sub/status/2097707354456522799?ref_src=twsrc%5Etfw\">September 9, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">ん～、締めがカービィかぁ…(´・ω・｀)</p>— ざら速(ザラ場速報) @ときどき仮想通貨 (@ZARASOKU) <a href=\"https://x.com/ZARASOKU/status/2097697677408633270?ref_src=twsrc%5Etfw\">September 9, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/1/c/1c1c6f23.jpg\" target=\"_blank\" title=\"a05\"><img alt=\"a05\" border=\"0\" class=\"pict\" height=\"271\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/1/c/1c1c6f23-s.jpg\" width=\"480\" /></a><br /><a href=\"https://www.youtube.com/watch?v=avtRda5IgeY\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.youtube.com/</span></a><br /></blockquote><br /></div><div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">みんなが「オープンワールドやん！」って思っただけあたりで「いや、この星の果ては壁で、絵です。」って提示してから星のカービィがその壁ぶっこわして「ワールドビヨンド」はちょっと星のカービィすぎますやん</p>— 鬱田ドッコイ (@dokkoi0622) <a href=\"https://x.com/dokkoi0622/status/2097698276913123487?ref_src=twsrc%5Etfw\">September 9, 2026</a></blockquote><br /></div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">Switch2買うようなキラータイトルはでないなぁ</p>— ユル (@AltoGryphone) <a href=\"https://x.com/AltoGryphone/status/2097886772101513617?ref_src=twsrc%5Etfw\">September 10, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">Switch2が発売されてとっくに1年以上経つが、いまだにキラータイトルのようなものって無いよな。<br />まだ続編はいいとしても、今回もリメイクとかSwitch2バージョン、あと追加コンテンツが多い印象。</p>— マスカット大統領 (@masskutt) <a href=\"https://x.com/masskutt/status/2097700458597065111?ref_src=twsrc%5Etfw\">September 9, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">今だにニンダイが出たら絶対と言っていいほど任天堂の株価が下がる意味が分からないんだが、これはどう言うシステムなんだろう？</p>— にゃんころもち@FE楽しみ (@nyanyanyanya012) <a href=\"https://x.com/nyanyanyanya012/status/2097679927579705704?ref_src=twsrc%5Etfw\">September 9, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/1/2/12cd654c.png\" target=\"_blank\" title=\"a03\"><img alt=\"a03\" border=\"0\" class=\"pict\" height=\"304\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/1/2/12cd654c-s.png\" width=\"480\" /></a><br /><a href=\"https://kabutan.jp/stock/chart?code=7974\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://kabutan.jp/stock/chart?code=7974</span></a></blockquote></div><br /></div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">任天堂はニンダイ2連で700円以上下げか。マジで呪いのイベントだなｗ</p>— おぶつ (@obutu19) <a href=\"https://x.com/obutu19/status/2097851450135323079?ref_src=twsrc%5Etfw\">September 10, 2026</a></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">もうニンダイの度に空売りで儲かるだろ</p>— venet (@kasasaginess) <a href=\"https://x.com/kasasaginess/status/2097867651469226014?ref_src=twsrc%5Etfw\">September 10, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">過去2年で調べてみたら空売り勝率100%でした</p>— おきた (@okita_pokemon) <a href=\"https://x.com/okita_pokemon/status/2097875644642377981?ref_src=twsrc%5Etfw\">September 10, 2026</a></blockquote><br /></div><br /><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">オレに買わせてくれ<br />ここらでお遊びはいい加減にしろってとこを見せてやりたい <a href=\"https://t.co/Bmz2GG6zA4\">pic.twitter.com/Bmz2GG6zA4</a></p>— でぃえち (@dieci_X10) <a href=\"https://x.com/dieci_X10/status/2097877603986325900?ref_src=twsrc%5Etfw\">September 10, 2026</a></blockquote><blockquote> <img alt=\"a08\" border=\"0\" class=\"pict\" height=\"338\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/0/9/0955ef1a.jpg\" width=\"340\" /><br /><img alt=\"a09\" border=\"0\" class=\"pict\" height=\"460\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/f/d/fddedb41.jpg\" width=\"340\" /><br /><a href=\"https://www.amazon.co.jp/dp/B0721CKRR1?psc=1&amp;tag=aaajn000-22+&amp;th=1&amp;linkCode=osi\" target=\"_blank\">DRAGON BALL 完全版 全34巻</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">ヤムチャしやがって…</p>— 株ずんだ🫛 (@kabuzunda) <a href=\"https://x.com/kabuzunda/status/2097937556843483602?ref_src=twsrc%5Etfw\">September 10, 2026</a></blockquote><br /></div>",
+      "author": "masorira",
+      "source_type": "rss"
+    },
+    {
+      "id": "dbd4962a017e708f",
+      "feed_id": "2e7efdb141f2",
+      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
+      "category": "不動産",
+      "title": "羽田新ルート｜「都及び関係区市連絡会」（令和8年度 第1回幹事会）、またもや人知れず開催されていた",
+      "url": "https://1manken.hatenablog.com/entry/2026/08/21/kanjikai-new-haneda-flight-routes",
+      "published": "2026-09-10T08:30:00+00:00",
+      "fetched": "2026-08-21T08:53:01.377148+00:00",
+      "summary": "2026年7月開催の連絡会幹事会の概要を解説。高輪台での騒音要因、羽田小の推計超過、落下物不安など各区の懸念と国交省の回答を整理。",
+      "content_html": "2026年7月開催の連絡会幹事会の概要を解説。高輪台での騒音要因、羽田小の推計超過、落下物不安など各区の懸念と国交省の回答を整理。",
+      "author": "flats",
+      "source_type": "rss"
+    },
+    {
+      "id": "ac1f4b31c7f0eb04",
+      "feed_id": "2e7efdb141f2",
+      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
+      "category": "不動産",
+      "title": "首都圏中古マンション市場動向（26年8月）｜価格下落と在庫増加が続き、需給緩和が鮮明に",
+      "url": "https://1manken.hatenablog.com/entry/2026/09/10/chuuko-mansion-shijou-monthly-report",
+      "published": "2026-09-10T07:44:09+00:00",
+      "fetched": "2026-09-10T12:49:04.431900+00:00",
+      "summary": "首都圏の中古マンション（26年8月）は、価格下落と成約減少が続く一方、在庫増加が23区各エリアへ広がり、需給緩和が鮮明になっている。",
+      "content_html": "首都圏の中古マンション（26年8月）は、価格下落と成約減少が続く一方、在庫増加が23区各エリアへ広がり、需給緩和が鮮明になっている。",
+      "author": "flats",
+      "source_type": "rss"
+    },
+    {
       "id": "8aa3afb92e3f2d57",
       "feed_id": "2e7efdb141f2",
       "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
@@ -4033,20 +4117,6 @@
       "source_type": "rss"
     },
     {
-      "id": "dbd4962a017e708f",
-      "feed_id": "2e7efdb141f2",
-      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
-      "category": "不動産",
-      "title": "羽田新ルート｜「都及び関係区市連絡会」（令和8年度 第1回幹事会）、またもや人知れず開催されていた",
-      "url": "https://1manken.hatenablog.com/entry/2026/08/21/kanjikai-new-haneda-flight-routes",
-      "published": "2026-08-21T07:06:24+00:00",
-      "fetched": "2026-08-21T08:53:01.377148+00:00",
-      "summary": "2026年7月開催の連絡会幹事会の概要を解説。高輪台での騒音要因、羽田小の推計超過、落下物不安など各区の懸念と国交省の回答を整理。",
-      "content_html": "2026年7月開催の連絡会幹事会の概要を解説。高輪台での騒音要因、羽田小の推計超過、落下物不安など各区の懸念と国交省の回答を整理。",
-      "author": "flats",
-      "source_type": "rss"
-    },
-    {
       "id": "1ecad4ab62819b6f",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -6021,48 +6091,6 @@
       "source_type": "rss"
     },
     {
-      "id": "3c662792953c76c1",
-      "feed_id": "2ec7ee82ecf8",
-      "feed_title": "マンションの間取りや価格を言いたい放題!",
-      "category": "不動産",
-      "title": "ザ・パークハビオSOHO高田馬場テラス【テラスからのスタイルラウンジ】4階35㎡205,000円（坪賃料19,203円）",
-      "url": "https://mansion-madori.com/blog-entry-11860.html",
-      "published": "2026-08-11T10:55:58+00:00",
-      "fetched": "2026-08-11T11:00:11.393488+00:00",
-      "summary": "続けて、ザ・パークハビオSOHO高田馬場テラス。 設計はアムザイン、施工は名工建設になります。 敷地面積530㎡ほど、空地率約54％のランドプランですが、数字以上に特徴（ゆとり）を感じることが出来ますね。 東西両面が接道しており、西側道路沿いには5台の平置駐車場と駐輪場、そして、東側の明治通り沿いにはその名の通りの「テラス」を設けることが出来ています。 テラスは歩道との間にしっかりと壁を設けているため、覗かれる心配はないですし、スタイルラウンジがテラスからのアプローチになっているあたりも当物件の大きな特徴の1つになるでしょう。 SOHOシリーズの「スタイ…",
-      "content_html": "続けて、ザ・パークハビオSOHO高田馬場テラス。<br /><br />設計はアムザイン、施工は名工建設になります。<br /><br />敷地面積530㎡ほど、空地率約54％のランドプランですが、数字以上に特徴（ゆとり）を感じることが出来ますね。<br /><br />東西両面が接道しており、西側道路沿いには5台の平置駐車場と駐輪場、そして、東側の明治通り沿いにはその名の通りの「テラス」を設けることが出来ています。<br /><br />テラスは歩道との間にしっかりと壁を設けているため、覗かれる心配はないですし、スタイルラウンジがテラスからのアプローチになっているあたりも当物件の大きな特徴の1つになるでしょう。<br /><br />SOHOシリーズの「スタイルラウンジ」の中ではあまり大きな方ではないのですが（それでもミーティングルームや3室のブースがあります）、テラスに面していることで実際のスペース以上の感覚があるでしょうし、テラスにはベンチやテーブルがあるため、天気の良い日には屋外でのリモートワークも可能ですね。<br /><br />前回の<a href=\"https://mansion-madori.com/blog-entry-11859.html\" target=\"_blank\" title=\"ザ・パークハビオSOHO高田馬場テラス\">ザ・パークハビオSOHO高田馬場テラス</a>。<br /><br /><a href=\"https://www.mecsumai.com/tphb-soho-takadanobaba-terrace/\" target=\"_blank\" title=\"公式ホームページ\">公式ホームページ</a><br /><a href=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-8-6_16-57-56_No-00.png\" target=\"_blank\"><img alt=\"SnapCrab_NoName_2026-8-6_16-57-56_No-00.png\" border=\"0\" height=\"581\" src=\"https://blog-imgs-183.fc2.com/m/a/n/mansionotaku/SnapCrab_NoName_2026-8-6_16-57-56_No-00.png\" width=\"403\" /></a><br />お部屋は35㎡の1LDK、北東角住戸です。北は3階建住宅ですが、そのすぐ先には8階建マンション、また、北東方向明治通りの斜向かいには18階建のシティテラス目白が聳えるポジションです。<br />ただ、東方向は明治通りの向かいが10階建のレジディア目白で、離隔もしっかりとしているため、低層階でもけして悪いポジションではありません。<br /><br />間取りは30㎡台中盤の一般的な大きさの1LDKになります。<br />SOHOシリーズ全般に言えることですが、1LDKは特に面積を絞っている様子はないですね。<br /><br />居室配置もオーソドックスなため多く語るほどのことはないのですが、玄関はやっぱり「パークハビオ」ですね。<br />洗面所へのアプローチは玄関前を通過する感じになります。<br /><br />私は潔癖とかではないので、これがダメってことはないんですけど、浴室と洗面所の位置を反対にすれば入口をもっと東側に出来ると思うのですが、無理なんかね？？？<br />この扉位置にしないと他に不具合が生じるというのであれば分かるのですが、そうでないのであればやっぱり不思議よねぇ…。<br /><br />坪賃料は19,203円。物件内の下限に近い設定となっています。20㎡台は低層階でも2万円を優に超えており、グロス賃料がそれなりに考慮されているようです。<br />物件全体では概ね19,000～21,000円台となっているため、平均は20,000円台半ばといったところになるでしょう。<br /><br />山手線内側とはいえ、いわゆるブランドエリアからはちょっと外れており（高田アドレス）、かつ、山手線は徒歩10分超という点からするとやや強い印象にはなりますが（ここはスタイルラウンジも小ぶりですし）、大きな違和感はありません。<br /><br />設備仕様面は、やはり食洗機や床暖房のないシンプルな賃貸仕様になります。<br /><br />また、駐車場は身障者用を含む5台で平置ですね。",
-      "author": "モモレジ",
-      "source_type": "rss"
-    },
-    {
-      "id": "64edd416f5f79108",
-      "feed_id": "bc446ef2651b",
-      "feed_title": "異邦人になってみた～～上海生活写真ブログ",
-      "category": "ブログ",
-      "title": "東方漁人埠頭晚霞-ブルーアワー-夜景ポートレート撮影",
-      "url": "https://www.sonnagaya.com/entry/2026/08/11/193000?utm_source=feed",
-      "published": "2026-08-11T10:30:00+00:00",
-      "fetched": "2026-08-11T11:00:12.488328+00:00",
-      "summary": "2026-8-9 上海 最近は週に一回は外に出ようと考えています。実はこの日星空観賞ツアー（安徽省）に参加する予定だったんですけど、この天気（台風接近）では無理ということでキャンセルして、代わりに撮影会に参加することにしました。 前の日。。。久しぶりにお酒をたくさん飲んでしまいました。午前中筋トレに行ったら酒臭いと言われましたｗｗ 朝はまあまあの天気だったんですが、昼から天気が崩れて、これ。。。アプリだと今日はすごい晚霞が見られるはずなんですけどね。 でも。。。なんか。。夕日とかないんじゃない？？って感じの天気になります。風も結構強いです。場所は「東方漁…",
-      "content_html": "<p><span><img class=\"hatena-fotolife\" height=\"768\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123044.jpg\" title=\"\" width=\"1024\" /></span></p>\n\n<div class=\"section\">\n    <h3 id=\"2026-8-9-上海\">2026-8-9 上海</h3>\n    <p>最近は週に一回は外に出ようと考えています。実はこの日星空観賞ツアー（安徽省）に参加する予定だったんですけど、この天気（台風接近）では無理ということでキャンセルして、代わりに撮影会に参加することにしました。</p><p><span><img class=\"hatena-fotolife\" height=\"768\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123132.jpg\" title=\"\" width=\"1024\" /></span></p><p>前の日。。。久しぶりにお酒をたくさん飲んでしまいました。午前中筋トレに行ったら酒臭いと言われましたｗｗ</p><p><span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123108.jpg\" title=\"\" width=\"768\" /></span></p><p>朝はまあまあの天気だったんですが、昼から天気が崩れて、これ。。。アプリだと今日はすごい晚霞が見られるはずなんですけどね。</p><p><div class=\"images-row mceNonEditable\"><br />\n<span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123209.png\" title=\"\" width=\"473\" /></span><br />\n<span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123204.png\" title=\"\" width=\"473\" /></span><br />\n</div></p><p>でも。。。なんか。。夕日とかないんじゃない？？って感じの天気になります。風も結構強いです。場所は「東方漁人埠」です。<br />\n<span><img class=\"hatena-fotolife\" height=\"768\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123247.jpg\" title=\"\" width=\"1024\" /></span></p><p>地下鉄18号線の丹阳路からすぐの所です。以前はこの辺りの川を挟んで向かい側、もうちょっと陆家嘴がわに住んでいたことがありますが、全然知らなかったというか18号線に乗ってここに来るのは初めてです。まあいつの間にこういう所ができたんでしょうね。上海の開発速度はすごいです。</p><p><span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123250.jpg\" title=\"\" width=\"768\" /></span></p><p>18時集合ですが、少し遅れて始まります。風が強いし、天気は微妙です。これこのまま終わるんじゃないでしょうか？？！！予報では晚霞があるはずなんですけどね。ちょっとあてになりませんね。<br />\n今回カメラはα7R4、レンズは主にタムロン70-180レンズを使用します。一応50mmF1.2も持ってますが、今日の場所の距離感じだと50mmは使わないかもですね。<br />\nということで最初は高層ビルをバックに撮影していきます。</p><p><span><img class=\"hatena-fotolife\" height=\"683\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123331.jpg\" title=\"\" width=\"1024\" /></span></p><p>日の入りは18：44ぐらいです。なかなか夕日っぽくなりませんね。西側は正面のはずなんですけど、なかなか染まりません。と思ってたら先に反対側がちょっと赤くなりましたさらに虹が出ています。これはすごい。。<br />\n<span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123447.jpg\" title=\"\" width=\"683\" /></span></p><p>iPhoneだと手軽に撮れますね。</p>\n<figure class=\"figure-image figure-image-fotolife\" title=\"iPhoneで撮影\"><span><img alt=\"\" class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123443.jpg\" title=\"\" width=\"768\" /></span><figcaption>iPhoneで撮影</figcaption></figure><p>そうしているうちに今度は正面右ですね。行ったり来たり。。。結構大変です。</p><p><span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123522.jpg\" title=\"\" width=\"683\" /></span><br />\n<span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123526.jpg\" title=\"\" width=\"683\" /></span></p><p>ということで晚霞の時間はすぐに終わってしまいましたね。続いてはブルーアワーです。まあこの時間も短い。。。</p><p><span><img class=\"hatena-fotolife\" height=\"683\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123549.jpg\" title=\"\" width=\"1024\" /></span><br />\n<span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123554.jpg\" title=\"\" width=\"683\" /></span></p><p>最後は夜景です。外灘は見えませんが、この場所なかなか良いですね。</p><p><span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123604.jpg\" title=\"\" width=\"683\" /></span><br />\n<span><img class=\"hatena-fotolife\" height=\"683\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123608.jpg\" title=\"\" width=\"1024\" /></span></p><p>ということで帰りましょう。</p><p><span><img class=\"hatena-fotolife\" height=\"1024\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/s/shan1tian2/20260811/20260811123612.jpg\" title=\"\" width=\"683\" /></span></p>\n\n</div>",
-      "author": "shan1tian2",
-      "source_type": "rss"
-    },
-    {
-      "id": "38c4c2edbeb9e9fc",
-      "feed_id": "6c30fc2654fb",
-      "feed_title": "元官庁エコノミストのブログ",
-      "category": "金融・経済・投資",
-      "title": "首位攻防初戦でジャイアンツを粉砕",
-      "url": "http://economist.cocolog-nifty.com/blog/2026/08/post-2f84a3.html",
-      "published": "2026-08-11T08:30:00+00:00",
-      "fetched": "2026-08-11T11:00:16.813032+00:00",
-      "summary": "一 二 三 四 五 六 七 八 九 R H E 阪 神 0 0 2 0 0 4 1 0 2 0 11 0 読 売 0 0 0 1 0 0 0 0 0 1 3 0 【神】 村上、及川 - 坂本 【読】 山崎、田和、代木 - 岸田、大城 同率に並んだ首位攻防初戦で、 ジャイアンツを粉砕 しました。 先発の村上投手は、8回を3安打1失点、ダルベック選手のソロ1本に抑えて、 20回先発のうち19回目のQS だそうです。最終回は及川投手がピシャリと三者凡退に抑えました。打つ方も久々に猛虎打線が爆発し、3回に近本外野手と森下外野手のソロホームラン2発で先制し、7回に…",
-      "content_html": "<p><a href=\"https://hanshintigers.jp/game/score/table/table20260811.html\" style=\"font-style: normal;\" target=\"_blank\"><table class=\"s-b\" title=\"スコアボード\"><tr class=\"sb1\"><td class=\"sb1\"> </td><td class=\"sb2\">一</td><td class=\"sb2\">二</td><td class=\"sb2\">三</td><td class=\"sb2\">四</td><td class=\"sb2\">五</td><td class=\"sb2\">六</td><td class=\"sb2\">七</td><td class=\"sb2\">八</td><td class=\"sb2\">九</td><td class=\"sb3\"> </td><td class=\"sb4\">R</td><td class=\"sb4\">H</td><td class=\"sb2\">E</td></tr><tr class=\"sb2\"><td>阪　　神</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>4</td><td>1</td><td>0</td><td>2</td><td class=\"sb3\"> </td><td>0</td><td>11</td><td>0</td></tr><tr class=\"sb2\"><td>読　　売</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class=\"sb3\"> </td><td>1</td><td>3</td><td>0</td></tr></table></a><br />【神】 村上、及川 - 坂本<br />【読】 山崎、田和、代木 - 岸田、大城</p><p>同率に並んだ首位攻防初戦で、<span class=\"red\">ジャイアンツを粉砕</span>しました。<br />先発の村上投手は、8回を3安打1失点、ダルベック選手のソロ1本に抑えて、<span class=\"blue\">20回先発のうち19回目のQS</span>だそうです。最終回は及川投手がピシャリと三者凡退に抑えました。打つ方も久々に猛虎打線が爆発し、3回に近本外野手と森下外野手のソロホームラン2発で先制し、7回には課題とされていた下位打線で4点を加え、7回には森下選手が2発目を放ち、最終回には佐藤輝選手のツーランで締めくくり、9得点です。</p><p>明日も、<br /><span class=\"tigers\">がんばれタイガース!</span></p>",
-      "author": "元官庁エコノミスト",
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6091,11 +6119,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-09-10T07:12:07.838201+00:00",
+  "last_updated": "2026-09-10T12:49:10.594923+00:00",
   "stats": {
-    "total": 435,
-    "fetched_just_now": 887,
-    "feeds_success": 73,
-    "feeds_failed": 0
+    "total": 437,
+    "fetched_just_now": 886,
+    "feeds_success": 72,
+    "feeds_failed": 1
   }
 }

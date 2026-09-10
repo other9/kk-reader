@@ -569,8 +569,11 @@ async function renderArticleBodyLazy(article, bodyEl) {
         <p><strong>本文の取得に失敗しました</strong></p>
         <p class="lazy-error-detail">${escapeHtml(result.error || "不明なエラー")}</p>
         <p>元記事リンクから読んでください。</p>
-        <button class="icon-btn" onclick="retryArticleFetch('${escapeAttr(article.id)}')">再試行</button>
+        <button class="icon-btn" data-action="retry-article">再試行</button>
       </div>`;
+    bodyEl.querySelector('[data-action="retry-article"]').addEventListener("click", () => {
+      window.retryArticleFetch(article.id);
+    });
     return;
   }
 
@@ -943,7 +946,10 @@ async function performSync(isInitialSync) {
       read: [...state.read.entries()].map(([id, v]) => ({ id, state: v.state, ts: v.ts })),
       fav: [...state.favs.entries()].map(([id, v]) => ({ id, state: v.state, ts: v.ts })),
     };
-    sc.pushDiff(fullPayload);
+    for (const type of ["read", "fav"]) {
+      for (const entry of fullPayload[type]) sc.queueDiff(type, entry);
+    }
+    await sc.flush();
   }
 }
 

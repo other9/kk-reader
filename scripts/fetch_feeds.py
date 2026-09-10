@@ -17,6 +17,7 @@ import json
 import os
 import sys
 import time
+import math
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -85,13 +86,20 @@ def fetch_fav_ids(retries: int = 2, retry_delay: float = 2.0) -> set | None:
                 timeout=15,
             )
             if r.status_code == 200:
-                fav = r.json().get("fav", {})
+                payload = r.json()
+                if not isinstance(payload, dict):
+                    return None
+                fav = payload.get("fav")
                 if not isinstance(fav, dict):
                     return None
-                return {
-                    aid for aid, v in fav.items()
-                    if isinstance(v, dict) and v.get("state") == 1
-                }
+                for aid, entry in fav.items():
+                    if (not isinstance(aid, str) or not isinstance(entry, dict)
+                            or type(entry.get("state")) is not int
+                            or entry["state"] not in (0, 1)
+                            or type(entry.get("ts")) not in (int, float)
+                            or not math.isfinite(entry["ts"])):
+                        return None
+                return {aid for aid, entry in fav.items() if entry["state"] == 1}
             print(f"  /state HTTP {r.status_code} (attempt {attempt + 1}/{retries + 1})")
         except (requests.exceptions.RequestException, ValueError) as e:
             print(f"  /state 取得失敗: {type(e).__name__} (attempt {attempt + 1}/{retries + 1})")
@@ -137,6 +145,20 @@ def fetch_one(feed: dict, known_body_ids: set | None = None) -> tuple[dict, list
             "error_count": feed.get("error_count", 0) + 1,
             "last_error": f"未捕捉例外: {type(e).__name__}: {str(e)[:200]}",
         }
+
+
+def check_fetch_health(success: int, failed: int, previous: dict, metadata: dict):
+    """Fail before publishing if collection is broken; 304 counts as success."""
+    total = success + failed
+    if not total or not success:
+        raise RuntimeError("No successful active feeds; keeping previous data")
+    rate = success / total
+    prev_total = previous.get("feeds_success", 0) + previous.get("feeds_failed", 0)
+    prev_rate = previous.get("feeds_success", 0) / prev_total if prev_total else 0
+    if rate < 0.5 or (prev_total >= 5 and prev_rate - rate >= 0.25):
+        raise RuntimeError("Feed success rate collapsed; keeping previous data")
+    if any(meta.get("health_error") for meta in metadata.values()):
+        raise RuntimeError("Scraper item count collapsed; keeping previous data")
 
 
 def main():
@@ -213,11 +235,14 @@ def main():
     print(f"成功: {success_count}件 / 失敗: {fail_count}件 / 新規: {new_count}件 / 更新: {refreshed_count}件")
 
     # フィードメタデータを更新
+    check_fetch_health(success_count, fail_count, existing.get("stats", {}), feed_id_to_meta)
+
     for feed in feeds:
         if feed["id"] in feed_id_to_meta:
             update = feed_id_to_meta[feed["id"]]
             for k, v in update.items():
-                feed[k] = v
+                if k != "health_error":
+                    feed[k] = v
             # 連続失敗が閾値を超えたら自動無効化
             if feed.get("error_count", 0) >= DISABLE_AFTER_FAILURES:
                 if feed.get("active", True):

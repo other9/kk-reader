@@ -19,6 +19,8 @@ class SyncClient {
     this.url = localStorage.getItem(SYNC_STORAGE.url) || DEFAULT_SYNC_URL;
     this.pending = this._loadPending();
     this.flushTimer = null;
+    this.inFlight = null;
+    this.retryDelay = 3000;
     this.lastError = null;
     this.lastSync = localStorage.getItem(SYNC_STORAGE.lastSync) || null;
     this.onMergeCallback = null;
@@ -72,8 +74,11 @@ class SyncClient {
   async pushDiff(diff) {
     if (!this.enabled) return null;
     if (!diff || (!diff.read?.length && !diff.fav?.length)) return null;
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 15000);
     try {
       const resp = await fetch(`${this.url}/state/diff`, {
+        signal: controller.signal,
         method: "POST",
         headers: {
           Authorization: `Bearer ${this.token}`,
@@ -86,11 +91,17 @@ class SyncClient {
         return null;
       }
       const data = await resp.json();
+      if (!data.ok || !data.state || !data.state.read || !data.state.fav) {
+        this._setError("Invalid sync acknowledgement");
+        return null;
+      }
       this._setSuccess();
       return data.state;
     } catch (e) {
       this._setError(`接続エラー: ${e.message}`);
       return null;
+    } finally {
+      clearTimeout(timeout);
     }
   }
 
@@ -148,28 +159,41 @@ class SyncClient {
     this._scheduleFlush();
   }
 
-  _scheduleFlush() {
+  _scheduleFlush(delay = FLUSH_DEBOUNCE_MS) {
     if (this.flushTimer) clearTimeout(this.flushTimer);
-    this.flushTimer = setTimeout(() => this.flush(), FLUSH_DEBOUNCE_MS);
+    this.flushTimer = setTimeout(() => this.flush(), delay);
   }
 
-  async flush() {
+  flush() {
+    if (this.flushTimer) clearTimeout(this.flushTimer);
     this.flushTimer = null;
-    if (!this.pending) return;
-    if (!this.pending.read?.length && !this.pending.fav?.length) {
-      this.pending = null;
+    if (this.inFlight) return this.inFlight;
+    if (!this.pending?.read?.length && !this.pending?.fav?.length) return Promise.resolve();
+    const toSend = JSON.parse(JSON.stringify(this.pending));
+    // Persist until acknowledgement: closing a tab must not erase an in-flight batch.
+    this.inFlight = this.pushDiff(toSend).then(result => {
+      if (result) {
+        for (const type of ["read", "fav"]) {
+          this.pending[type] = (this.pending[type] || []).filter(entry =>
+            !(toSend[type] || []).some(sent =>
+              sent.id === entry.id && sent.ts === entry.ts && sent.state === entry.state));
+        }
+        this.retryDelay = 3000;
+      } else {
+        this.retryDelay = Math.min(this.retryDelay * 2, 30000);
+      }
       this._savePending();
-      return;
-    }
-    const toSend = this.pending;
-    this.pending = null;
-    this._savePending();
-    const result = await this.pushDiff(toSend);
-    if (!result) {
-      // 失敗時は再キュー
-      this.pending = toSend;
-      this._savePending();
-    }
+    }).finally(() => {
+      this.inFlight = null;
+      if (this.pending?.read?.length || this.pending?.fav?.length) {
+        this._scheduleFlush(this.retryDelay);
+      } else {
+        this.pending = null;
+        this._savePending();
+      }
+      this._notifyStatus();
+    });
+    return this.inFlight;
   }
 
   _loadPending() {

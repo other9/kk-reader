@@ -58,6 +58,67 @@ function jsonResponse(data, status, origin) {
 
 const STATE_KEY = "state:default";
 
+function validState(value) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return false;
+  return ["read", "fav"].every(type => {
+    const entries = value[type];
+    return entries && typeof entries === "object" && !Array.isArray(entries) &&
+      Object.values(entries).every(e => e && (e.state === 0 || e.state === 1) &&
+        Number.isFinite(e.ts));
+  });
+}
+
+// One named object owns sync state. KV remains the article cache and migration
+// source. Never fall back to KV writes after cutover.
+export class SyncState {
+  constructor(ctx, env) {
+    this.ctx = ctx;
+    this.env = env;
+  }
+
+  async fetch(request) {
+    const origin = request.headers.get("Origin") || "";
+    let incoming;
+    if (request.method === "POST") {
+      try { incoming = await request.json(); } catch {
+        return jsonResponse({error: "invalid json"}, 400, origin);
+      }
+      if (!incoming || typeof incoming !== "object" || Array.isArray(incoming)) {
+        return jsonResponse({error: "invalid diff"}, 400, origin);
+      }
+    }
+    return this.ctx.blockConcurrencyWhile(async () => {
+      let current = await this.ctx.storage.get(STATE_KEY);
+      if (current === undefined) {
+        const legacy = await this.env.STATE.get(STATE_KEY, "json");
+        if (!validState(legacy)) {
+          return jsonResponse({error: "legacy state unavailable; migration deferred"}, 503, origin);
+        }
+        await this.ctx.storage.put(STATE_KEY, legacy);
+        current = legacy;
+      }
+      if (!validState(current)) {
+        return jsonResponse({error: "invalid stored state"}, 503, origin);
+      }
+      if (request.method === "GET") return jsonResponse(current, 200, origin);
+      const merged = {read: {...current.read}, fav: {...current.fav}};
+      for (const type of ["read", "fav"]) {
+        if (!Array.isArray(incoming[type])) continue;
+        for (const e of incoming[type]) {
+          if (!e || typeof e.id !== "string" ||
+              ["__proto__", "constructor", "prototype"].includes(e.id) ||
+              (e.state !== 0 && e.state !== 1) || !Number.isFinite(e.ts)) continue;
+          const old = merged[type][e.id];
+          if (!old || e.ts > old.ts) merged[type][e.id] = {state: e.state, ts: e.ts};
+        }
+      }
+      await this.ctx.storage.put(STATE_KEY, merged);
+      return jsonResponse({ok: true, state: merged}, 200, origin);
+    });
+  }
+}
+
+
 // 記事キャッシュTTL: 30日
 const ARTICLE_CACHE_TTL_SECONDS = 30 * 24 * 3600;
 
@@ -505,43 +566,11 @@ export default {
 
     const url = new URL(request.url);
 
-    if (request.method === "GET" && url.pathname === "/state") {
-      const data = (await env.STATE.get(STATE_KEY, "json")) || { read: {}, fav: {} };
-      return jsonResponse(data, 200, origin);
-    }
-
-    if (request.method === "POST" && url.pathname === "/state/diff") {
-      let incoming;
-      try {
-        incoming = await request.json();
-      } catch {
-        return jsonResponse({ error: "invalid json" }, 400, origin);
-      }
-
-      const current = (await env.STATE.get(STATE_KEY, "json")) || { read: {}, fav: {} };
-      const merged = {
-        read: { ...current.read },
-        fav: { ...current.fav },
-      };
-
-      for (const type of ["read", "fav"]) {
-        const entries = incoming[type];
-        if (!Array.isArray(entries)) continue;
-        for (const e of entries) {
-          if (
-            !e || typeof e.id !== "string" ||
-            (e.state !== 0 && e.state !== 1) ||
-            typeof e.ts !== "number" || !isFinite(e.ts)
-          ) continue;
-          const existing = merged[type][e.id];
-          if (!existing || e.ts > existing.ts) {
-            merged[type][e.id] = { state: e.state, ts: e.ts };
-          }
-        }
-      }
-
-      await env.STATE.put(STATE_KEY, JSON.stringify(merged));
-      return jsonResponse({ ok: true, state: merged }, 200, origin);
+    if ((request.method === "GET" && url.pathname === "/state") ||
+        (request.method === "POST" && url.pathname === "/state/diff")) {
+      if (!env.SYNC_STATE) return jsonResponse({error: "state binding unavailable"}, 503, origin);
+      const id = env.SYNC_STATE.idFromName("default");
+      return env.SYNC_STATE.get(id).fetch(request);
     }
 
     if (request.method === "GET" && url.pathname === "/article") {

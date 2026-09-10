@@ -464,6 +464,13 @@ class ScrapeAdapterBase(SourceAdapter):
                 source_type=self.source_type,
             ))
 
+        previous_count = feed.get("last_items_count", 0)
+        if not articles or (previous_count >= 10 and len(articles) < previous_count * 0.25):
+            meta_update["error_count"] = feed.get("error_count", 0) + 1
+            meta_update["last_error"] = "Scraper item count collapsed"
+            meta_update["health_error"] = True
+            return [], meta_update
+
         meta_update["last_success"] = now_iso()
         meta_update["error_count"] = 0
         meta_update["last_error"] = None

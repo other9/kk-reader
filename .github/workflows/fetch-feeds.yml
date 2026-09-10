@@ -10,6 +10,7 @@ on:
     - cron: "7 */2 * * *"
   workflow_dispatch: # 手動実行を許可
   push:
+    branches: [main]
     paths:
       - "opml/subscriptions.opml"
       - "scripts/**"
@@ -20,6 +21,7 @@ permissions:
 
 jobs:
   fetch:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
@@ -41,14 +43,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Build feeds.json from OPML (if missing or OPML changed)
+      - name: Rebuild feeds.json from OPML preserving metadata
         run: |
-          if [ ! -f docs/data/feeds.json ] || [ opml/subscriptions.opml -nt docs/data/feeds.json ]; then
-            echo "OPMLが新しいか、feeds.jsonが存在しないため再構築します"
-            python scripts/opml_to_feeds.py
-          else
-            echo "feeds.json は最新です"
-          fi
+          # Checkout mtimes do not express Git history. Rebuild deterministically.
+          python scripts/opml_to_feeds.py
 
       - name: Fetch all feeds
         # update-009: feeds.json で `via_worker: true` のフィードは
@@ -60,55 +58,16 @@ jobs:
         run: python scripts/fetch_feeds.py
 
       - name: Commit updated data
-        # update-018: cron 中に user push が入ると bot の git push が
-        # non-fast-forward で reject されるレース条件への対策。
-        #
-        # 戦略:
-        #   1. 通常 push を試行
-        #   2. reject されたらデータファイルを一時退避 → remote を fetch
-        #      → 自分の commit を捨てて remote 最新に reset → データファイル
-        #      を復元 → 再 commit + push
-        #   3. 最大 3 回試行
-        #
-        # データファイル(feeds.json / articles.json)は bot の生成内容が
-        # 常に「現時点の真」なので、conflict 時は bot 側を採用する設計。
-        # user が code 変更を push していた場合は reset --hard origin/main
-        # で取り込まれるため、それらは保持される。
+        # Never overwrite a concurrent manual data/configuration change.
+        # A rejected push fails visibly; the next cron starts from current main
+        # and regenerates using the latest subscriptions, metadata and articles.
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/data/feeds.json docs/data/articles.json
           if git diff --cached --quiet; then
-            echo "変更なし"
+            echo "No changes"
             exit 0
           fi
           git commit -m "chore: update feeds"
-
-          for attempt in 1 2 3; do
-            if git push; then
-              echo "push 成功 (attempt $attempt)"
-              exit 0
-            fi
-            echo "push reject (attempt $attempt/3)、remote と同期して再試行"
-
-            # 自分のデータファイルを退避
-            cp docs/data/feeds.json /tmp/feeds.json.bot
-            cp docs/data/articles.json /tmp/articles.json.bot
-
-            # remote の最新を取り込む(自分の commit は消える)
-            git fetch origin main
-            git reset --hard origin/main
-
-            # 自分のデータファイルで上書き(bot 生成が真)
-            cp /tmp/feeds.json.bot docs/data/feeds.json
-            cp /tmp/articles.json.bot docs/data/articles.json
-
-            git add docs/data/feeds.json docs/data/articles.json
-            if git diff --cached --quiet; then
-              echo "remote と同一内容、push 不要"
-              exit 0
-            fi
-            git commit -m "chore: update feeds"
-          done
-          echo "3 回試行しても push できず、諦める(次の cron で再試行されます)"
-          exit 1
+          git push origin HEAD:main

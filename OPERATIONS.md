@@ -17,6 +17,7 @@ Install requirements in the chosen Python environment, then run:
 ```text
 ruff check .
 python -m pytest tests/ --tb=short
+node --test tests/js/*.test.cjs
 ```
 
 CI uses Python 3.11; transfer was checked locally on 3.12.10. CI excludes
@@ -55,3 +56,19 @@ repositories and every configured device.
 ## Historical references
 SETUP.md and knowledge/ preserve earlier setup and design history. Their old
 GitHub Pages URLs, retention settings and update numbering are not current rules.
+
+## Reliability changes (2026-09-10; pending production cutover)
+- Sync state is owned by SYNC_STATE Durable Object after deployment; STATE KV is
+  an import source and article cache. Follow worker/MIGRATION.md for cutover and
+  rollback. Do not restore stale KV over current Durable Object state.
+- Client diffs stay persisted until acknowledged, sends are serialized, and
+  failures retry with a delay capped at 30 seconds.
+- Ingestion fails before publication with no successful active feeds, success
+  rate below 50%, a drop of at least 25 percentage points from the previous run
+  (at least five prior attempts), or scraper count collapse. Scrapers reject
+  zero items or fewer than 25% of a prior count of at least ten. These thresholds
+  are initial conservative defaults; investigate false alarms before changing.
+- Favorite schema errors skip pruning; an explicitly valid empty map is allowed.
+- OPML rebuild is deterministic on every run, preserving non-OPML metadata.
+- A stale bot push fails instead of replacing concurrent manual edits. The next
+  scheduled run regenerates from current main. Production publication is main-only.

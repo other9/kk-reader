@@ -22,3 +22,9 @@ jobs:
         run: ruff check .
       - name: Pytest
         run: pytest tests/ --tb=short
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: JavaScript regression tests
+        run: node --test tests/js/*.test.cjs

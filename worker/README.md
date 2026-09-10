@@ -1,3 +1,8 @@
+> Current release: read/favorite state moves to SYNC_STATE (SQLite Durable Object).
+> Follow [MIGRATION.md](MIGRATION.md) before deploying an existing installation.
+> STATE KV remains the article cache and legacy import source. The setup below
+> describes the original KV-based release and is retained as historical material.
+
 # kk-sync Worker
 
 3端末間で既読・お気に入り状態を同期するための Cloudflare Worker。

@@ -6301,11 +6301,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-09-20T18:36:17.416678+00:00",
+  "last_updated": "2026-09-20T22:18:59.180494+00:00",
   "stats": {
     "total": 450,
-    "fetched_just_now": 873,
-    "feeds_success": 73,
-    "feeds_failed": 0
+    "fetched_just_now": 874,
+    "feeds_success": 72,
+    "feeds_failed": 1
   }
 }

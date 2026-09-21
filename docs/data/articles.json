@@ -6315,20 +6315,6 @@
       "source_type": "rss"
     },
     {
-      "id": "f1dc9b9b65891f89",
-      "feed_id": "f8c882c05df3",
-      "feed_title": "himaginary’s diary",
-      "category": "金融・経済・投資",
-      "title": "アイディアのレントと企業成長",
-      "url": "https://himaginary.hatenablog.com/entry/20260822/Idea_Rents_and_Firm_Growth",
-      "published": "2026-08-22T14:59:00+00:00",
-      "fetched": "2026-08-23T03:11:54.329187+00:00",
-      "summary": "というNBER論文が 上がっている （ ungated版 、 スライド資料 ）。原題は「Idea Rents and Firm Growth」で、著者はTimo Boppart（ストックホルム大）、Peter J. Klenow（スタンフォード大）, Reiko Laski（同）、Huiyu Li（サンフランシスコ連銀）。 以下はその要旨。 Which firms drive aggregate productivity growth? We document that firms with high price-earnings ratios tend…",
-      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35594\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（<a href=\"http://klenow.com/Idea_Rents.pdf\">ungated&#x7248;</a>、<a href=\"http://klenow.com/Idea_Rents_Slides.pdf\">&#x30b9;&#x30e9;&#x30a4;&#x30c9;&#x8cc7;&#x6599;</a>）。原題は「Idea Rents and Firm Growth」で、著者はTimo Boppart（ストックホルム大）、Peter J. Klenow（スタンフォード大）, Reiko Laski（同）、Huiyu Li（サンフランシスコ連銀）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>Which firms drive aggregate productivity growth? We document that firms with high price-earnings ratios tend to see increases in their subsequent earnings relative to sales, which we interpret as rents from ideas (innovation). We construct an endogenous growth model with shocks to firm innovation step-sizes and R&amp;D efficiency and calibrate it to match patterns in the data. The model implies that growth would be much lower, even with the same innovative effort, if firms had the same step sizes. The model can be used to infer expected growth contributions of individual firms (such as members of the Magnificent Seven). We find that the share of growth coming from smaller listed firms substantially exceeds their sales share, whereas the largest listed firms account for less than their sales share.<br />\n（拙訳）<br />\nどの企業がマクロの生産性成長を牽引するのだろうか？　株価収益率の高い企業は、その後、売上高に比べて利益が増える傾向にあることを我々は明らかにした。我々はこれを、アイディア（イノベーション）へのレントと解釈した。我々は、企業のイノベーションの歩幅と研究開発の効率性へのショックを備えた内生的成長モデルを構築し、データのパターンに適合するようにそれをカリブレートした。モデルによれば、企業の歩幅が同じ場合、イノベーションの取り組みが同じでも、成長は低くなる。モデルは、（マグニフィセント・セブンの一員など）個別企業の成長への寄与の期待値を推定するのに使える。小さな上場企業による成長の寄与分が売上高シェアを大きく超える半面、最大手の上場企業の寄与が売上高シェアを下回ることを我々は見い出した。</p>\n\n    </blockquote>\n<p>以下は企業規模と売上高の10分位での成長率シェアと売上高シェアを示したスライド資料の図。<br />\n<span><img class=\"hatena-fotolife\" height=\"452\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/h/himaginary/20260823/20260823110023.png\" title=\"\" width=\"806\" /></span></p><p>以下はウォルマートの期待成長寄与と売上高シェアの推移を示したスライド資料の図（本文にはこの図は掲載されていない）。<br />\n<span><img class=\"hatena-fotolife\" height=\"487\" src=\"https://cdn-ak.f.st-hatena.com/images/fotolife/h/himaginary/20260823/20260823110312.png\" title=\"\" width=\"806\" /></span></p><p>モデルについて本文では以下のように記述している。</p>\n\n    <blockquote>\n        <p>Our model builds on Klette and Kortum (2004), which features endogenous quality growth and creative destruction by multiproduct firms. The key difference is that we allow each firm’s innovation step size to evolve stochastically (and idiosyncratically) rather than being common or fixed over time. This will create markup dynamics and in turn heterogeneous P/E ratios to help the model match the patterns we found in the data. Because our motivating facts hold for incumbent firms, we abstract from firm entry and exit for simplicity.<br />\n（拙訳）<br />\n我々のモデルは、複数製品企業の内生的質的成長と創造的破壊を特徴とするKlette and Kortum（2004<a href=\"#f-a5a5bffc\" id=\"fn-a5a5bffc\" name=\"fn-a5a5bffc\" title=\"[https://www.journals.uchicago.edu/doi/abs/10.1086/422563:title]。\">*1</a>）に基づいている。主な相違点は、各企業のイノベーションの歩幅が、共通ないし時系列的に一定ではなく、確率的（かつ独自に）に発展することを我々が許容した点にある。これは利幅の動学、延いては不均一なP/Eレシオをもたらし<a href=\"#f-ad3b2f1c\" id=\"fn-ad3b2f1c\" name=\"fn-ad3b2f1c\" title=\"別の箇所では「Step size shocks induce heterogeneity in P/E ratios, as price-cost markups are increasing in step sizes (Aghion and Howitt, 1992). 」と記述している（Aghion and Howitt, 1992は[https://www.jstor.org/stable/2951599:title=Aghion, Philippe and Peter Howitt, “A Model of Growth Through Creative Destruction,” Econometrica, 1992, 60 (2), 323–351.]。cf. [https://en.wikipedia.org/wiki/Aghion%E2%80%93Howitt_model:title]。）。\">*2</a>、それがデータに見い出されたパターンにモデルを適合するのに役立つ。我々の研究の動機付けは既存の企業によるものであったことから、単純化のため企業の参入と退出は省略した。</p>\n\n    </blockquote>\n<p>歩幅のバラつきを削減するとマクロの成長率が1.1%から0.08%に低下するという反実仮想の結果を示しているが、そのバラつきにモデルをデータに適合させるカリブレーションが大きく依拠しているということならば、ある意味で自然な結果という気もする。</p><p>ちなみに、スライド資料では「The growth rate is the innovation-weighted geometric mean of the step sizes」と記している（本文には対応する記述は無い）。</p>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-a5a5bffc\" id=\"f-a5a5bffc\" name=\"f-a5a5bffc\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\"><a href=\"https://www.journals.uchicago.edu/doi/abs/10.1086/422563\">Innovating Firms and Aggregate Innovation | Journal of Political Economy: Vol 112, No 5</a>。</span></p>\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-ad3b2f1c\" id=\"f-ad3b2f1c\" name=\"f-ad3b2f1c\">*2</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">別の箇所では「Step size shocks induce heterogeneity in P/E ratios, as price-cost markups are increasing in step sizes (Aghion and Howitt, 1992). 」と記述している（Aghion and Howitt, 1992は<a href=\"https://www.jstor.org/stable/2951599\">Aghion, Philippe and Peter Howitt, &ldquo;A Model of Growth Through Creative Destruction,&rdquo; Econometrica, 1992, 60 (2), 323&ndash;351.</a>。cf. <a href=\"https://en.wikipedia.org/wiki/Aghion%E2%80%93Howitt_model\">Aghion&ndash;Howitt model - Wikipedia</a>。）。</span></p>\n</div>",
-      "author": "himaginary",
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6357,11 +6343,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-09-21T12:29:26.869062+00:00",
+  "last_updated": "2026-09-21T19:11:16.485570+00:00",
   "stats": {
-    "total": 454,
-    "fetched_just_now": 893,
-    "feeds_success": 73,
-    "feeds_failed": 0
+    "total": 453,
+    "fetched_just_now": 866,
+    "feeds_success": 72,
+    "feeds_failed": 1
   }
 }

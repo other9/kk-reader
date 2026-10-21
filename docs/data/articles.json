@@ -6203,20 +6203,6 @@
       "source_type": "rss"
     },
     {
-      "id": "552c3aab8dcba74d",
-      "feed_id": "f8c882c05df3",
-      "feed_title": "himaginary’s diary",
-      "category": "金融・経済・投資",
-      "title": "財政ポピュリズムと金融政策ルール",
-      "url": "https://himaginary.hatenablog.com/entry/20260921/Fiscal_Populism_and_Monetary_Policy_Rules",
-      "published": "2026-09-21T14:59:00+00:00",
-      "fetched": "2026-09-22T04:16:54.130465+00:00",
-      "summary": "というNBER論文が 上がっている （H/T Mostly Economics ； ungated(IMF)版 ）。原題は「Fiscal Populism and Monetary Policy Rules」で、著者はLuis I. Jácome（ジョージタウン大）、Nicolás E. Magud（IMF）、Samuel Pienknagura（同）、Martín Uribe（コロンビア大）。 以下はその要旨。 We explore the historical link between populist regimes, fiscal monetiz…",
-      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35758\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（H/T <a href=\"https://mostlyeconomics.wordpress.com/2026/09/21/fiscal-populism-and-monetary-policy-rules/\">Mostly Economics</a>；<a href=\"https://www.imf.org/en/publications/wp/issues/2026/08/07/fiscal-populism-and-monetary-policy-rules-578497\">ungated(IMF)&#x7248;</a>）。原題は「Fiscal Populism and Monetary Policy Rules」で、著者はLuis I. Jácome（ジョージタウン大）、Nicolás E. Magud（IMF）、Samuel Pienknagura（同）、Martín Uribe（コロンビア大）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>We explore the historical link between populist regimes, fiscal monetization, and inflation, and how these links affect monetary policy in the 21st century. Using data for a large set of advanced economies and emerging markets since 1960, we show that, historically, left-leaning populist regimes are linked to increases in central bank lending to the central government, a gauge of deficit monetization. In turn, central bank lending is associated with marked increases in inflation. We show that past exposure to populism that relied on deficit monetization affects the conduct of monetary policy today. Countries with a history of deficit monetization and left-wing populist regimes systematically respond more strongly to deviations of inflation expectations from target. This effect persists even after controlling for the direct effect of past inflation on monetary policy rules. In the context of the literature of experienced learning, this novel finding sheds light on the persistence of past populist policies—central banks operating under the shadow of past populist regimes that relied on inflation-prone deficit monetization continue today needing to send stronger signals of their independence and commitment to price stability to effectively anchor inflation expectations.<br />\n（拙訳）<br />\n我々は、ポピュリスト体制、財政のマネタイズ、およびインフレの間の歴史的な関係と、そうした関係が21世紀の金融政策にどのように影響しているかを追究した。1960年以降の先進国と新興国の大きな集合のデータセットを用いて我々は、歴史的には、左派寄りのポピュリスト体制が、財政赤字のマネタイズの指標である中央政府への中銀の融資拡大と結び付いていることを示す。その一方で、中銀融資はインフレの顕著な上昇と結び付いている。財政赤字のマネタイズに頼ったポピュリズムの過去の経験は、今日の金融政策に運営に影響することを我々は示す。財政赤字のマネタイズと左派ポピュリスト体制の歴史がある国は、インフレ予想の目標からの乖離に一貫してより強く対応した。この効果は、過去のインフレの金融政策ルールへの直接的な影響をコントロールした後でも持続した。経験学習の研究の文脈で言えば、この新たな発見は、過去のポピュリスト政策の持続性に解明の光を投げ掛ける。インフレに陥りやすい財政赤字のマネタイズに頼った過去のポピュリスト体制の影の下で運営している中銀は、インフレ予想の固定を有効にするために、自分の独立性と物価安定へのコミットメントについてより強力なシグナルを送る必要が今もあり続ける。</p>\n\n    </blockquote>\n<p>著者たちは<a href=\"https://himaginary.hatenablog.com/entry/20250821/The_Legacy_of_High_Inflation_on_Monetary_Policy_Rules\">&#x9ad8;&#x30a4;&#x30f3;&#x30d5;&#x30ec;&#x306e;&#x91d1;&#x878d;&#x653f;&#x7b56;&#x30eb;&#x30fc;&#x30eb;&#x3078;&#x306e;&#x30ec;&#x30ac;&#x30b7;&#x30fc; - himaginary&rsquo;s diary</a>で紹介した論文の著者たちに同じ。</p>",
-      "author": "himaginary",
-      "source_type": "rss"
-    },
-    {
       "id": "09ec7f59b9081454",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -6245,11 +6231,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-10-21T13:37:15.128022+00:00",
+  "last_updated": "2026-10-21T18:30:45.536892+00:00",
   "stats": {
-    "total": 446,
-    "fetched_just_now": 890,
-    "feeds_success": 71,
-    "feeds_failed": 1
+    "total": 445,
+    "fetched_just_now": 866,
+    "feeds_success": 68,
+    "feeds_failed": 4
   }
 }

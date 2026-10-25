@@ -5965,11 +5965,11 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-10-25T17:31:53.960374+00:00",
+  "last_updated": "2026-10-25T20:39:01.144840+00:00",
   "stats": {
     "total": 426,
-    "fetched_just_now": 890,
-    "feeds_success": 71,
-    "feeds_failed": 1
+    "fetched_just_now": 894,
+    "feeds_success": 72,
+    "feeds_failed": 0
   }
 }

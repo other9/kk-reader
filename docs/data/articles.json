@@ -1,6 +1,48 @@
 {
   "articles": [
     {
+      "id": "5a0aa8751b55af66",
+      "feed_id": "2e7efdb141f2",
+      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
+      "category": "不動産",
+      "title": "羽田新ルートの騒音を追う｜東京都の測定データを定点観測",
+      "url": "https://1manken.hatenablog.com/entry/2020/04/20/noise-new-haneda-flight-routes",
+      "published": "2026-11-05T20:30:00+00:00",
+      "fetched": "2026-09-17T00:14:43.496416+00:00",
+      "summary": "羽田新ルート運用開始以降の東京都騒音モニタリングデータを時系列で整理。最大騒音レベルと騒音発生回数の推移を定点観測で可視化する。",
+      "content_html": "羽田新ルート運用開始以降の東京都騒音モニタリングデータを時系列で整理。最大騒音レベルと騒音発生回数の推移を定点観測で可視化する。",
+      "author": "flats",
+      "source_type": "rss"
+    },
+    {
+      "id": "20a52eb3625e1f8c",
+      "feed_id": "2e7efdb141f2",
+      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
+      "category": "不動産",
+      "title": "羽田新ルート｜気になる契約情報（26年度）※随時更新",
+      "url": "https://1manken.hatenablog.com/entry/2026/04/25/contract-new-haneda-flight-routes-2026",
+      "published": "2026-11-05T20:30:00+00:00",
+      "fetched": "2026-11-05T21:51:26.370373+00:00",
+      "summary": "羽田新ルートに関連しそうな26度契約情報につき、3つの段階（発注予定、入札公告、入札結果）に分けて整理しておいた。",
+      "content_html": "羽田新ルートに関連しそうな26度契約情報につき、3つの段階（発注予定、入札公告、入札結果）に分けて整理しておいた。",
+      "author": "flats",
+      "source_type": "rss"
+    },
+    {
+      "id": "24b4ce146113f19e",
+      "feed_id": "f8c882c05df3",
+      "feed_title": "himaginary’s diary",
+      "category": "金融・経済・投資",
+      "title": "格付け、債務、財政赤字：一つの追究",
+      "url": "https://himaginary.hatenablog.com/entry/20261105/Ratings_Debt_and_Deficits",
+      "published": "2026-11-05T14:59:00+00:00",
+      "fetched": "2026-11-05T21:51:28.624897+00:00",
+      "summary": "というNBER論文をブランシャールらが 上げている （H/T ブランシャールツイート 、 ungated(IMF)版 ）。原題は「Ratings, Debt, and Deficits: An Exploration」で、著者はOlivier J. Blanchard（ピーターソン国際経済研究所）、Daniel Leigh（IMF）、Prachi Mishra（アショカ大）。 以下はその要旨。 We look at the effects of debt and primary fiscal balances on sovereign credit ra…",
+      "content_html": "<p>というNBER論文をブランシャールらが<a href=\"https://www.nber.org/papers/w35956\">&#x4e0a;&#x3052;&#x3066;&#x3044;&#x308b;</a>（H/T <a href=\"https://x.com/ojblanchard1/status/2116903074874703946\">&#x30d6;&#x30e9;&#x30f3;&#x30b7;&#x30e3;&#x30fc;&#x30eb;&#x30c4;&#x30a4;&#x30fc;&#x30c8;</a>、<a href=\"https://www.imf.org/en/publications/wp/issues/2026/09/18/ratings-debt-and-deficits-an-exploration-579729\">ungated(IMF)&#x7248;</a>）。原題は「Ratings, Debt, and Deficits: An Exploration」で、著者はOlivier J. Blanchard（ピーターソン国際経済研究所）、Daniel Leigh（IMF）、Prachi Mishra（アショカ大）。<br />\n以下はその要旨。</p>\n\n    <blockquote>\n        <p>We look at the effects of debt and primary fiscal balances on sovereign credit ratings through the lens of a simple model. We find that the ratings differ from the implications of the model in three important ways. They give much more weight to debt relative to forecast primary balances. They understate the effects of the difference between the interest rate and the growth rate. They give a very large role to country effects. For the same level of debt and forecast primary balances, they imply extremely different ratings across countries, and imply extremely different levels of debt needed to reach a given rating.<br />\n（拙訳）<br />\n我々は、債務と基礎的財政収支が国の信用格付けに与える影響を、単純なモデルを通じて調べた。モデルから導き出されるところから3つの重要な形で格付けが異なることを我々は見い出した。格付け機関は予測基礎的財政収支よりも債務に重きを置く。格付け機関は金利と成長率の差の影響を過小評価する。格付け機関は国効果に非常に大きな役割を置く。同水準の債務と予測基礎的財政収支について、格付け機関は国ごとに非常に異なる格付けを付け、与えられた格付けに到達するのに非常に異なる水準の債務を要求する。</p>\n\n    </blockquote>\n<p>モデルについて導入部では以下のように説明している。</p>\n\n    <blockquote>\n        <p>In Section 2, to organize thoughts and get a sense of the magnitudes suggested by theory, we offer a model that is simple but yields basic conclusions we believe to be more general. We take ratings to capture the probability of non-default on sovereign debt. Using the debt accumulation equation, and taking into account of uncertainty, we show how current debt, forecast primary balances, and forecast interest rates and growth rates affect the distribution of debt over time. We then assume that the probability of default is an increasing function of the likelihood that debt growth exceeds a threshold over a given horizon.<br />\n（拙訳）<br />\n2節で我々は、考えをまとめるためと、理論が示唆する大きさの感覚を得るため、単純だが、我々がより一般的と考える基本的な結論をもたらすモデルを提示する。我々は格付けを、国の債務がデフォルトしない確率を捕捉するもの、と考える。債務蓄積の方程式を用い、不確実性を考慮に入れて我々は、現在の債務、予測基礎的財政収支、予測される金利と成長率の差がどのように債務の分布の時系列に影響するかを示す。その上で我々は、デフォルト確率が、所与の期間内に債務の成長がある閾値を超える可能性の増加関数であると仮定する。</p>\n\n    </blockquote>\n<p>結論部では、格付け機関の手法に問題があることをモデルが見い出した可能性のほか、モデルが何か重要なことを見逃している可能性も認めており、それをさらに探るためのこの論文とは別の追究の方向性について、以下のように書いている。</p>\n\n    <blockquote>\n        <p>The first is to look at the same relation, but in terms of spreads, which reflect investors’ rather than rating agencies’ perceptions. In preliminary work, we find that spreads put relatively more weight on forecast primary balances relative to debt than ratings do, thus closer to the implications of our model, although a gap remains. Second, by exploring how much of the country effects can be explained by differences in political variables, the role of the central bank, and so on, through their effects of x and the σs. Third, by looking at actual defaults, and their relation to debt and primary balances. This is easier to do for emerging markets, with low average ratings and a higher proportion of actual defaults than for advanced countries with much higher ratings, and very few actual defaults. We have not explored the last two.<br />\n（拙訳）<br />\n一つは、同じ関係をスプレッドという観点から調べることである。スプレッドは格付け機関の認識ではなく投資家の認識を反映する。予備的な研究で我々は、スプレッドが格付けに比べて相対的に債務よりも予測基礎的財政収支に重きを置くこと、従って、差は残るものの、我々のモデルの含意により近いことを見い出した。二つ目は、政治的変数や中銀の役割などの差が、xやσ<a href=\"#f-67d84de2\" id=\"fn-67d84de2\" name=\"fn-67d84de2\" title=\"xは債務の閾値、σは各種の標準偏差。\">*1</a>などへの影響を通じて国効果をどの程度説明できるかを追究することである。三番目は、実際のデフォルトと、その債務と基礎的財政収支との関係を調べることである。これは、格付けがより高く、実際のデフォルトが非常に稀な先進国よりも、平均格付けが低く実際のデフォルトの比率が高い新興国市場について実施することがより容易である。我々は後者の2つをまだ追究していない。</p>\n\n    </blockquote>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-67d84de2\" id=\"f-67d84de2\" name=\"f-67d84de2\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">xは債務の閾値、σは各種の標準偏差。</span></p>\n</div>",
+      "author": "himaginary",
+      "source_type": "rss"
+    },
+    {
       "id": "cb9871ab3947a357",
       "feed_id": "9505d30bcfe3",
       "feed_title": "市況かぶ全力２階建",
@@ -5083,20 +5125,6 @@
       "source_type": "rss"
     },
     {
-      "id": "5a0aa8751b55af66",
-      "feed_id": "2e7efdb141f2",
-      "feed_title": "不動産ブログ「マンション・チラシの定点観測」",
-      "category": "不動産",
-      "title": "羽田新ルートの騒音を追う｜東京都の測定データを定点観測",
-      "url": "https://1manken.hatenablog.com/entry/2020/04/20/noise-new-haneda-flight-routes",
-      "published": "2026-10-10T20:30:00+00:00",
-      "fetched": "2026-09-17T00:14:43.496416+00:00",
-      "summary": "羽田新ルート運用開始以降の東京都騒音モニタリングデータを時系列で整理。最大騒音レベルと騒音発生回数の推移を定点観測で可視化する。",
-      "content_html": "羽田新ルート運用開始以降の東京都騒音モニタリングデータを時系列で整理。最大騒音レベルと騒音発生回数の推移を定点観測で可視化する。",
-      "author": "flats",
-      "source_type": "rss"
-    },
-    {
       "id": "beb51a65eb5d2874",
       "feed_id": "f8c882c05df3",
       "feed_title": "himaginary’s diary",
@@ -5797,48 +5825,6 @@
       "source_type": "rss"
     },
     {
-      "id": "44c19d4bb941081b",
-      "feed_id": "d976d70a8e8a",
-      "feed_title": "【不動産投資】訳あり物件再生の方法が面白いほどよくわかるブログ",
-      "category": "不動産",
-      "title": "☆富士山一望な別荘（旅館業取得可能）物件☆",
-      "url": "https://ameblo.jp/h251115/entry-12980827117.html",
-      "published": "2026-10-06T19:00:45+00:00",
-      "fetched": "2026-10-06T22:32:54.363367+00:00",
-      "summary": "リフォームしてます。 どうも！ 訳あり不動産の佐藤です。 10月に入ってこれから転売業者物件・中国系オーナー物件が間違いなく価格が下がって出てきます。 タワマンも1棟収益も民泊物件もです。 来年の春に向けて在庫を吐かなくてはいけなくなった転売業者、中国に帰ることになった民泊運営物件、特に違法営業の物件が大量に今後出てきます。 新宿区は一切検挙が始まるそうです。住居専用地域でやってる闇民泊は一掃されるそうなんで、必ず市場に出てきます。恐らくほかの区も順を追って検挙が始まるので台東区や墨田区、豊島区なども追随するでしょうね。この流れは来年の春までは続くと予想…",
-      "content_html": "<p>&nbsp;</p><h2 class=\"limited_heading06\" style=\"background-size: 178px 11px; padding-bottom: 19px; margin: 8px 0; font-weight: bold; color: #424242; font-size: 20px; line-height: 1.6; text-align: center; background-position: center bottom;\"><span style=\"display: block;\"><span style=\"display: block;\">リフォームしてます。</span></span></h2><p>どうも！</p><p>訳あり不動産の佐藤です。</p><p>&nbsp;</p><p>10月に入ってこれから転売業者物件・中国系オーナー物件が間違いなく価格が下がって出てきます。</p><p>タワマンも1棟収益も民泊物件もです。</p><p>来年の春に向けて在庫を吐かなくてはいけなくなった転売業者、中国に帰ることになった民泊運営物件、特に違法営業の物件が大量に今後出てきます。</p><p>新宿区は一切検挙が始まるそうです。住居専用地域でやってる闇民泊は一掃されるそうなんで、必ず市場に出てきます。恐らくほかの区も順を追って検挙が始まるので台東区や墨田区、豊島区なども追随するでしょうね。この流れは来年の春までは続くと予想します。</p><p>逆に合法な旅館業物件は収益が上がると思います。</p><p>今後の動向に注目したいと思います。</p><p>&nbsp;</p><p>さて、本日のご紹介物件は・・・</p><p>山中湖の別荘地にある富士山ビューな戸建別荘なんですけど・・・</p><p>これが本当に珍しく管理規約で民泊旅館業がOKなんです♪</p><p>旅館業が取れる別荘物件です♪</p><p><a href=\"https://stat.ameba.jp/user_images/20261006/21/h251115/c0/d9/p/o1135106315829105425.png\"><img alt=\"\" height=\"581\" src=\"https://stat.ameba.jp/user_images/20261006/21/h251115/c0/d9/p/o1135106315829105425.png\" width=\"620\" /></a></p><p>リフォーム履歴ありでとてもきれいです。</p><p>お風呂場に家庭用のサウナ迄ついてます。</p><p>&nbsp;</p><p>リビングの正面右あたりに富士山が晴れの日は見えます。</p><p><a href=\"https://stat.ameba.jp/user_images/20261006/21/h251115/d0/20/p/o1263115815829105827.png\"><img alt=\"\" height=\"568\" src=\"https://stat.ameba.jp/user_images/20261006/21/h251115/d0/20/p/o1263115815829105827.png\" width=\"620\" /></a></p><p><a href=\"https://stat.ameba.jp/user_images/20261006/21/h251115/b0/f0/p/o1090105015829106025.png\"><img alt=\"\" height=\"597\" src=\"https://stat.ameba.jp/user_images/20261006/21/h251115/b0/f0/p/o1090105015829106025.png\" width=\"620\" /></a><a href=\"https://stat.ameba.jp/user_images/20261006/21/h251115/bb/60/p/o0820109315829106060.png\"><img alt=\"\" height=\"826\" src=\"https://stat.ameba.jp/user_images/20261006/21/h251115/bb/60/p/o0820109315829106060.png\" width=\"620\" /></a></p><p>ベランダからの眺望は最高です♪</p><p><a href=\"https://stat.ameba.jp/user_images/20261006/21/h251115/0d/eb/p/o1906099715829106245.png\"><img alt=\"\" height=\"324\" src=\"https://stat.ameba.jp/user_images/20261006/21/h251115/0d/eb/p/o1906099715829106245.png\" width=\"620\" /></a></p><p><a href=\"https://stat.ameba.jp/user_images/20261006/21/h251115/ab/97/p/o1654098815829106293.png\"><img alt=\"\" height=\"370\" src=\"https://stat.ameba.jp/user_images/20261006/21/h251115/ab/97/p/o1654098815829106293.png\" width=\"620\" /></a></p><p>&nbsp;</p><p>キッチンもrフォーム済みです↓</p><p><a href=\"https://stat.ameba.jp/user_images/20261006/21/h251115/4b/0f/p/o0823109615829106482.png\"><img alt=\"\" height=\"826\" src=\"https://stat.ameba.jp/user_images/20261006/21/h251115/4b/0f/p/o0823109615829106482.png\" width=\"620\" /></a></p><p>&nbsp;</p><p><a href=\"https://stat.ameba.jp/user_images/20261006/21/h251115/fa/51/p/o1089073315829106663.png\"><img alt=\"\" height=\"417\" src=\"https://stat.ameba.jp/user_images/20261006/21/h251115/fa/51/p/o1089073315829106663.png\" width=\"620\" /></a></p><p>&nbsp;</p><p>※別途仲介手数料がかかります。</p><p>間取りは２LDK＋ウォークインクローゼット＋ロフトですね。</p><p><a href=\"https://stat.ameba.jp/user_images/20261006/21/h251115/02/93/p/o1083114915829107545.png\"><img alt=\"\" height=\"658\" src=\"https://stat.ameba.jp/user_images/20261006/21/h251115/02/93/p/o1083114915829107545.png\" width=\"620\" /></a></p><p>&nbsp;</p><p><a href=\"https://stat.ameba.jp/user_images/20261006/21/h251115/2c/75/p/o0822109915829107172.png\"><img alt=\"\" height=\"829\" src=\"https://stat.ameba.jp/user_images/20261006/21/h251115/2c/75/p/o0822109915829107172.png\" width=\"620\" /></a></p><p>動画はもうすぐアントンチャンネルでアップします。</p><p>富士山が見えて旅館業可能な別荘地って山中湖にほとんどありません。</p><p>&nbsp;</p><p>ちょっとご検討してみてください。</p><p>多少の指値は交渉します。</p><p>&nbsp;</p><p>是非よろしくお願いします。</p><p>それでは、また。</p><p>&nbsp;</p>",
-      "author": null,
-      "source_type": "rss"
-    },
-    {
-      "id": "b10035b28c4f9e96",
-      "feed_id": "9505d30bcfe3",
-      "feed_title": "市況かぶ全力２階建",
-      "category": "金融・経済・投資",
-      "title": "不動産屋のデュアルタップ、社外取締役が過失運転致傷による執行猶予付き有罪判決を黙っていたせいで取消処分により宅建業の免許を失う（上場企業では4年ぶり4社目）",
-      "url": "https://kabumatome.doorblog.jp/archives/66033303.html",
-      "published": "2026-10-06T17:58:11+00:00",
-      "fetched": "2026-10-06T22:32:58.905868+00:00",
-      "summary": "デュアルタップ 不動産業やってるのに宅建免許の取り消しってwww https://t.co/yA9Bnl0D5f — 牛乳屋 🐮 ／ ミルクオーレ (@HLF_ID40118756) October 6, 2026 上場企業が宅建免許取消は草枯れるわ — ひろっち (@hirotti_eki) October 6, 2026 社外取締役が禁錮刑に処せられたとして、宅地建物取引業免許の取消しですか。事件が起きた時点で対処しなかったのですかね。 — 甲野太郎 (@otsunojirou) October 6, 2026 https://www.sbisec.…",
-      "content_html": "<br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">デュアルタップ\n\n不動産業やってるのに宅建免許の取り消しってwww https://t.co/yA9Bnl0D5f</p>— 牛乳屋 🐮 ／ ミルクオーレ (@HLF_ID40118756) <a href=\"https://x.com/HLF_ID40118756/status/2107412618625667271?ref_src=twsrc%5Etfw\">October 6, 2026</a></blockquote><blockquote>\n<a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/4/c/4c8b5bb1.png\" target=\"_blank\" title=\"a06-01\"><img alt=\"a06-01\" border=\"0\" class=\"pict\" height=\"689\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/4/c/4c8b5bb1-s.png\" width=\"480\" /></a><br /></blockquote><br /><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">上場企業が宅建免許取消は草枯れるわ</p>— ひろっち (@hirotti_eki) <a href=\"https://x.com/hirotti_eki/status/2107418273977655759?ref_src=twsrc%5Etfw\">October 6, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">社外取締役が禁錮刑に処せられたとして、宅地建物取引業免許の取消しですか。事件が起きた時点で対処しなかったのですかね。</p>— 甲野太郎 (@otsunojirou) <a href=\"https://x.com/otsunojirou/status/2107458168846713336?ref_src=twsrc%5Etfw\">October 6, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/d/b/dbc80c05.png\" target=\"_blank\" title=\"a06-02\"><img alt=\"a06-02\" border=\"0\" class=\"pict\" height=\"241\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/d/b/dbc80c05-s.png\" width=\"480\" /></a><br /><a href=\"https://www.sbisec.co.jp/ETGate/?_ControlID=WPLETsiR001Control&amp;_DataStoreID=DSWPLETsiR001Control&amp;_PageID=WPLETsiR001Idtl30&amp;_ActionID=getInfoOfCurrentMarket&amp;s_rkbn=&amp;i_stock_sec=&amp;i_dom_flg=1&amp;i_exchange_code=&amp;i_output_type=2&amp;stock_sec_code_mul=3469&amp;exchange_code=PTS&amp;ref_from=1&amp;ref_to=20&amp;s_btype=&amp;wstm4130_sort_id=&amp;wstm4130_sort_kbn=&amp;qr_keyword=&amp;qr_suggest=&amp;qr_sort=\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.sbisec.co.jp/</span></a><br /><b>※夜間取引市場で急落<br /></b></blockquote><b><br /></b></div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">解説しよう！法人の役員が禁錮以上の刑に処せられた場合、宅建業の免許を受けることができないのだ。不動産屋さんなら宅建の勉強でさんざん勉強することで、急ぎ役員から外せばいいのに、たまにこうして免許取消になる上場企業があるのが愛おしい。</p>— どエンド君 (@mikumo_hk) <a href=\"https://x.com/mikumo_hk/status/2107430722516738339?ref_src=twsrc%5Etfw\">October 6, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">@mikumo_hk 隠してたんでしょうね</p>— パオーン🐘 (@ryoei2022) <a href=\"https://x.com/ryoei2022/status/2107440240629886979?ref_src=twsrc%5Etfw\">October 6, 2026</a></blockquote>\n<br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">@mikumo_hk そして意外とヒット率が高いのですね笑（笑えない）</p>— 真壁六郎太＿2．1 (@nomobilemail_1) <a href=\"https://x.com/nomobilemail_1/status/2107471220149276718?ref_src=twsrc%5Etfw\">October 6, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">@mikumo_hk @koga_fudousan 大手の飯田グループの子会社でも数年前ありましたね。あれは欠格事由に該当する事を隠してたor忘れてただったか</p>— アル中会社員 (@syachiku3321) <a href=\"https://x.com/syachiku3321/status/2107480984619045262?ref_src=twsrc%5Etfw\">October 6, 2026</a></blockquote><blockquote><b>※（上場企業では4年ぶり4社目）<br />※上場直後のアルデプロ、代表取締役社長の秋元竜弥さんが道路交通法違反で執行猶予付き判決を受けていたことがバレて欠格事由に該当し東京都から宅地建物取引業者免許の取消処分を受ける（2004/04/08）<br />※<a href=\"https://kabumatome.doorblog.jp/archives/65993870.html\" target=\"_blank\" title=\"\">飯田グループのアイディホーム、取締役がスピード違反による執行猶予付き有罪判決を正直に話さなかったせいで宅建業と建設業の免許を失う（2022/09/15）</a></b><b><br />※<a href=\"https://kabumatome.doorblog.jp/archives/66000896.html\" target=\"_blank\" title=\"\">MIRARTH（旧タカラレーベン）、最高執行責任者（COO）がスピード違反による執行猶予付き有罪判決を黙っていたせいで宅建業の免許を失う（2022/10/31）</a></b></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">人轢いたら困るから運転しないし酒飲んだら人を殴るから絶対タクシーで帰宅するグルのリスクマネジメントを学んでください！！</p>— かずお君 (@kazuo57) <a href=\"https://x.com/kazuo57/status/2107452889878978945?ref_src=twsrc%5Etfw\">October 6, 2026</a></blockquote><blockquote><a href=\"https://x.com/emoyino/status/1661502736733708288\" target=\"_blank\" title=\"a08\"><img alt=\"a08\" border=\"0\" class=\"pict\" height=\"143\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/6/b/6b32c03e-s.png\" width=\"480\" /></a><br /></blockquote><br /><blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"ja\">@kazuo57 あれ人を殴るからだったんだ</p>— かもめ君 (@kamome81) <a href=\"https://x.com/kamome81/status/2107453588381585857?ref_src=twsrc%5Etfw\">October 6, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">社外取が執行猶予付きでも拘禁刑喰らえば会社の宅建が取り上げられることはきちんと日経の社外取締役養成講座で教えるべき。</p>— koh_21powered (@koh_21powered) <a href=\"https://x.com/koh_21powered/status/2107490937341645200?ref_src=twsrc%5Etfw\">October 6, 2026</a></blockquote><br /></div><div><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">3469さんの社外取締役監査等委員は弁護士と公認会計士と野村</p>— 隠礼里 (@kakurezat) <a href=\"https://x.com/kakurezat/status/2107456178120966404?ref_src=twsrc%5Etfw\">October 6, 2026</a></blockquote><blockquote><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/8/1/81076c85.png\" target=\"_blank\" title=\"a09\"><img alt=\"a09\" border=\"0\" class=\"pict\" height=\"600\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/8/1/81076c85-s.png\" width=\"480\" /></a><br /><a href=\"https://www.dualtap.co.jp/ir/yuho.html\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://www.dualtap.co.jp/</span></a><br /></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">起訴されそうになった時に社外取締役を辞任したり、解任したりしておけば大丈夫だった、という簡単な問題ではないのか？</p>— 隠礼里 (@kakurezat) <a href=\"https://x.com/kakurezat/status/2107454891421831639?ref_src=twsrc%5Etfw\">October 6, 2026</a></blockquote><br /><blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"ja\">不動産屋さんの商業登記簿謄本を見たら役員欄に「解任」の文字。理由を聞いたら「触って捕まった」\nという話を聞かされて、どう報告しようか途方に暮れたのを思い出しました。\n今思えばあのスピーディーな解任対応、宅建業免許への影響を避けるためだったんだな。ようやく理解した。</p>— やきとり副係長 (@yakitori_8) <a href=\"https://x.com/yakitori_8/status/2107433009377132805?ref_src=twsrc%5Etfw\">October 6, 2026</a></blockquote><br /></div><blockquote><div><a href=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/1/9/191ae206.png\" target=\"_blank\" title=\"a07\"><img alt=\"a07\" border=\"0\" class=\"pict\" height=\"304\" hspace=\"5\" src=\"https://livedoor.blogimg.jp/masorira-kabu/imgs/1/9/191ae206-s.png\" width=\"480\" /></a><br /><a href=\"https://kabutan.jp/stock/chart?code=3469\" target=\"_blank\" title=\"\"><span style=\"font-size: 81.25%;\">https://kabutan.jp/stock/chart?code=3469</span></a></div></blockquote><br />",
-      "author": "masorira",
-      "source_type": "rss"
-    },
-    {
-      "id": "c769b256e385ff28",
-      "feed_id": "f8c882c05df3",
-      "feed_title": "himaginary’s diary",
-      "category": "金融・経済・投資",
-      "title": "大成長と大恐慌",
-      "url": "https://himaginary.hatenablog.com/entry/20261006/the-great-accretion-and-the-great-depression",
-      "published": "2026-10-06T14:50:22+00:00",
-      "fetched": "2026-10-06T16:36:46.783307+00:00",
-      "summary": "というNBER論文が 上がっている （H/T タイラー・コーエン 、 ungated版 ）。原題は「The Great Accretion and the Great Depression」で、著者はHarold L. Cole（ペンシルベニア大）、Stefano Cravero（同）、Jeremy Greenwood（同）。 以下はその結論部。 The Second Industrial Revolution, which unfolded around the turn of the 20th century, ushered in a wave o…",
-      "content_html": "<p>というNBER論文が<a href=\"https://www.nber.org/papers/w35816\">&#x4e0a;&#x304c;&#x3063;&#x3066;&#x3044;&#x308b;</a>（H/T <a href=\"https://marginalrevolution.com/marginalrevolution/2026/10/the-great-accretion-and-the-great-depression.html\">&#x30bf;&#x30a4;&#x30e9;&#x30fc;&#x30fb;&#x30b3;&#x30fc;&#x30a8;&#x30f3;</a>、<a href=\"https://www.jeremygreenwood.net/papers/GreatDepression.pdf\">ungated&#x7248;</a>）。原題は「The Great Accretion and the Great Depression」で、著者はHarold L. Cole（ペンシルベニア大）、Stefano Cravero（同）、Jeremy Greenwood（同）。<br />\n以下はその結論部。</p>\n\n    <blockquote>\n        <p>The Second Industrial Revolution, which unfolded around the turn of the 20th century, ushered in a wave of transformative new products—such as automobiles, motion pictures, and washing machines—alongside groundbreaking industrial processes like the assembly line, the Bessemer steel-making method, and continuous flow techniques in petrochemical production. This surge in technological progress helped fuel the widespread optimism of the Roaring Twenties, which met its end with the onset of the Great Depression.<br />\nTo understand the dynamics of the Roaring Twenties and the Great Depression, a model is developed that incorporates both product and process innovation. During times when product innovation outpaces process innovation, leading to an abundance of new products, consumption tends to expand on the extensive margin. When new products flood the market, prices are competitively determined and align with the marginal cost of production. As incomes rise, people prefer to explore a wider variety of products rather than simply buying more of the same goods.<br />\nBy contrast, when process innovation outstrips product innovation, and the introduction of new products slows down, consumption moves along the intensive margin. In this scenario, people buy more of the products they already consume, and they may even reduce the amount of labor they supply. Prices in this case tend to be higher than the marginal cost of production. The way people consume—whether focusing on a wider range of products or consuming more of what they already have—plays a significant role in shaping the broader economy.<br />\nThe hypothesis proposed here is that when the flow of new product development began to slow in the 1920s, widespread optimism about the future still fueled excessive investment. During this period process innovation outpaced product innovation, investment and GDP rose, while employment declined. This speculative boom, combined with process innovation—where less labor was required to produce the same output—ultimately deepened the impact of the Great Depression. Proof-of-concept simulations supports this hypothesis, lending credibility to the proposed relationship.<br />\n（拙訳）<br />\n20世紀初頭の前後に展開した第二産業革命は、自動車、映画、洗濯機といった転換的な新製品の波を到来させるとともに、組み立てライン、ベッセマーの鉄鋼製造法<a href=\"#f-e683653b\" id=\"fn-e683653b\" name=\"fn-e683653b\" title=\"cf. [https://ja.wikipedia.org/wiki/%E3%83%99%E3%83%83%E3%82%BB%E3%83%9E%E3%83%BC%E6%B3%95:title]。\">*1</a>、石油化学生産における連続フロー技術といった画期的な産業プロセスの波も到来させた。この技術進歩の急伸は、狂騒の20年代の広範な楽観主義を促進するのに一役買ったが、それは大恐慌の始まりと共に終わりを告げた。<br />\n狂騒の20年代と大恐慌の動学を理解するために、製品イノベーションとプロセス・イノベーションの両方を折り込んだモデルを開発した。製品イノベーションがプロセス・イノベーションより速く進んでいる時期には、新製品が巷に溢れ、消費は外延的マージンに沿って拡大する傾向がある。新製品が市場に溢れると、価格は競争的に決定され、生産の限界費用に沿ったものとなる。所得が上昇すると人々は、単に同じ商品をもっと多く買うよりも、様々な種類の商品を求めることを好むようになる。<br />\n一方、プロセス・イノベーションが製品イノベーションを追い越し、新製品の登場が鈍化し始めると、消費は内延的マージンに沿って動く。このシナリオでは、人々は自分が既に消費している商品をさらに買うようになり、供給する労働量を減らしさえするかもしれない。その場合、価格は生産の限界費用より高くなる傾向がある。人々がどのように消費するか――より幅広い商品に着目するか、それとも既に所有しているものをもっと消費するか――は、経済全般を形作る上で有意な役割を果たす。<br />\nここで提示された仮説は、1920年代に新製品開発の流れが鈍化し始めた時、将来に対する広範な楽観主義が依然として過剰投資を促進していた、というものである。この時期は、プロセス・イノベーションが製品イノベーションより速く進み、投資とGDPが増えた一方で、雇用は減少した。この投機ブームは、同じ生産を生み出すのに必要な労働力が少なくなるプロセス・イノベーションと合わさって、最終的には大恐慌のインパクトを深めた。概念実証シミュレーションはこの仮説を支持しており、提示された関係性の信頼性を高めている。</p>\n\n    </blockquote>\n<div class=\"footnote\">\n<p class=\"footnote\"><a class=\"footnote-number\" href=\"#fn-e683653b\" id=\"f-e683653b\" name=\"f-e683653b\">*1</a><span class=\"footnote-delimiter\">:</span><span class=\"footnote-text\">cf. <a href=\"https://ja.wikipedia.org/wiki/%E3%83%99%E3%83%83%E3%82%BB%E3%83%9E%E3%83%BC%E6%B3%95\">&#x30d9;&#x30c3;&#x30bb;&#x30de;&#x30fc;&#x6cd5; - Wikipedia</a>。</span></p>\n</div>",
-      "author": "himaginary",
-      "source_type": "rss"
-    },
-    {
       "id": "277c5afc7311872c",
       "feed_id": "9d6a8f89fa83",
       "feed_title": "健美家 コラム&ニュース",
@@ -5881,10 +5867,10 @@
       "source_type": "rss"
     }
   ],
-  "last_updated": "2026-11-05T14:25:45.032453+00:00",
+  "last_updated": "2026-11-05T21:51:41.065813+00:00",
   "stats": {
-    "total": 420,
-    "fetched_just_now": 892,
+    "total": 419,
+    "fetched_just_now": 884,
     "feeds_success": 71,
     "feeds_failed": 1
   }
